@@ -42,9 +42,14 @@ function show(c){
  xhr(abs(c.src),'blob',function(b){display(c,URL.createObjectURL(b))},function(){last=''});
 }
 var fails=0;
+// ngrok free = 20,000 req/month. Normal 180 s; 60 s for 10 min after a change; 02:00-08:00 Istanbul (UTC+3) every 30 min.
+var NORMAL=180000,FAST=60000,NIGHT=1800000,FASTFOR=600000,fastUntil=0;
+function istHour(){return (new Date().getUTCHours()+3)%24}
+function nextDelay(){var n=new Date().getTime();if(n<fastUntil)return FAST;var h=istHour();if(h>=2&&h<8)return NIGHT;return NORMAL}
 function poll(){
- xhr(BASE+'current.json?t='+new Date().getTime(),'',function(t){fails=0;if(t!=last){last=t;try{show(JSON.parse(t))}catch(e){}}},function(){fails++;if(fails>=8&&cur!==idle){display(null);last=''}});
+ xhr(BASE+'current.json?t='+new Date().getTime(),'',function(t){fails=0;if(t!=last){if(last!=='')fastUntil=new Date().getTime()+FASTFOR;last=t;try{show(JSON.parse(t))}catch(e){}}setTimeout(poll,nextDelay())},
+  function(){fails++;if(fails>=3&&cur!==idle){display(null);last=''}setTimeout(poll,nextDelay())});
 }
-cur=idle;poll();setInterval(poll,4000);
+cur=idle;poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
