@@ -11,6 +11,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 #clock{position:absolute;bottom:5%;font-size:2vw;color:#7d8186;letter-spacing:.2em}
 @keyframes br{0%,100%{opacity:.75}50%{opacity:1}}
 </style></head><body>
+<video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="idle" class="layer on"><h1>Sadece Sen</h1><p>ARSIN · TRABZON</p><div id="clock"></div></div>
 <script>
 var BASE='https://cabana-margarine-unsigned.ngrok-free.dev/a1fab203f71be9a06a33b65004ed1e94/';
@@ -50,6 +51,13 @@ function poll(){
  xhr(BASE+'current.json?t='+new Date().getTime(),'',function(t){fails=0;if(t!=last){if(last!=='')fastUntil=new Date().getTime()+FASTFOR;last=t;try{show(JSON.parse(t))}catch(e){}}setTimeout(poll,nextDelay())},
   function(){fails++;if(fails>=3&&cur!==idle){display(null);last=''}setTimeout(poll,nextDelay())});
 }
+
+// keep-awake: tiny looping video + Wake Lock API
+var ka=document.getElementById('ka');ka.muted=true;
+function kaPlay(){try{var r=ka.play();if(r&&r.catch)r.catch(function(){})}catch(e){}}
+var wl=null;function wake(){try{if(navigator.wakeLock&&navigator.wakeLock.request&&!wl){navigator.wakeLock.request('screen').then(function(l){wl=l;l.addEventListener('release',function(){wl=null})},function(){})}}catch(e){}}
+document.addEventListener('visibilitychange',function(){if(!document.hidden){wake();kaPlay()}});
+setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
 cur=idle;poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
