@@ -1,7 +1,7 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sadece Sen</title><style>
 html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-family:Georgia,'Times New Roman',serif;color:#f2efe8}
-.layer{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity 2s ease;background:#000;overflow:hidden}
+.layer{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity 2.6s ease-in-out;will-change:opacity;background:#000;overflow:hidden}
 .layer.on{opacity:1}
 .bg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;background-size:cover;background-position:center}
 .layer iframe{width:100%;height:100%;border:0}
@@ -24,9 +24,16 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 @keyframes panr{from{transform:scale(1.15) translateX(-5%)}to{transform:scale(1.15) translateX(5%)}}
 @keyframes tilt{from{transform:scale(1.18) translateY(5%)}to{transform:scale(1.18) translateY(-5%)}}
 @keyframes diag{from{transform:scale(1.05) translate(-3%,3%)}to{transform:scale(1.22) translate(3%,-3%)}}
+@keyframes breathe{0%,100%{transform:scale(.55);opacity:.55}45%,55%{transform:scale(1);opacity:1}}
+@keyframes inout{0%,40%{opacity:1}50%,90%{opacity:0}100%{opacity:1}}
+@keyframes outin{0%,40%{opacity:0}50%,90%{opacity:1}100%{opacity:0}}
+.orb{width:22vw;height:22vw;border-radius:50%;background:radial-gradient(circle,rgba(190,215,225,.55),rgba(120,160,180,.15) 60%,rgba(0,0,0,0) 72%);animation:breathe 10s ease-in-out infinite}
+.rc .tr{font-size:3.6vw}.rc .en{font-size:1.9vw;font-style:italic;color:#cfc9bd;margin-top:.8vw}.rc .st{font-size:1.5vw;line-height:1.6;color:#e6e1d6;margin-top:2vw;max-width:70vw}.rc .st i{color:#bdb7ab}
 @keyframes br{0%,100%{opacity:.7}50%{opacity:1}}
 @keyframes rise{from{opacity:0;transform:translateY(2vw)}to{opacity:1;transform:translateY(0)}}
 .cap,.center>*{animation:rise 2.5s ease both}
+@keyframes fo{from{opacity:1}to{opacity:0}}
+.layer.out .cap,.layer.out .center>*{animation:fo 1.2s ease both}
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
@@ -72,7 +79,38 @@ var P=[
  {k:'motion',f:'m/tea-fields.webp',s:'ma',tag:'Rize · Trabzon',tr:'Yeşilin bin tonu',en:'A thousand shades of green'},
  {k:'motion',f:'m/black-sea.webp',s:'ae',tag:'Karadeniz',tr:'Dalgaların ritmi',en:'The rhythm of the waves'},
  {k:'motion',f:'m/fog.webp',s:'ma',tag:'Sis · Mist',tr:'Dağlardan sis iniyor',en:'Mist rolling down the mountains'},
- {k:'motion',f:'m/coffee.webp',s:'ae',tag:'Türk Kahvesi',tr:'Bir kahvenin kırk yıl hatırı vardır',en:'A coffee is remembered for forty years'}
+ {k:'motion',f:'m/coffee.webp',s:'ae',tag:'Türk Kahvesi',tr:'Bir kahvenin kırk yıl hatırı vardır',en:'A coffee is remembered for forty years'},
+ {k:'motion',f:'m/rain-window.webp',s:'ae',tag:'Karadeniz · Fırtına',tr:'Camda yağmur, ufukta fırtına',en:'Rain on the glass, a storm on the horizon'},
+ {k:'motion',f:'m/fire-close.webp',s:'en',tag:'Şömine · Fireplace',tr:'Odunun çıtırtısı, ateşin sıcaklığı',en:'The crackle of wood, the warmth of fire'},
+ {k:'motion',f:'m/ferry-simit.webp',s:'ma',tag:'İstanbul · Vapur',tr:'Simit, çay ve martılar',en:'Simit, tea and seagulls'},
+ {k:'motion',f:'m/autumn-forest.webp',s:'ma',tag:'Sonbahar · Autumn',tr:'Fındık ormanında yapraklar dökülüyor',en:'Leaves falling in the hazel forest'},
+ {k:'motion',f:'m/moon-pebbles.webp',s:'n',tag:'Gece · Night',tr:'Ay ışığında çakıl taşları',en:'Pebbles in the moonlight'},
+ {k:'motion',f:'m/candle-books.webp',s:'en',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
+ {k:'photo',f:'m/h01.jpg',s:'m',tag:'Serpme Kahvaltı',tr:'Güne bin bir lezzetle başlayın',en:'Start the day with a thousand flavours'},
+ {k:'photo',f:'m/h02.jpg',s:'ma',tag:'Trabzon · Sonbahar',tr:'Çay bahçelerinde sonbahar',en:'Autumn in the tea gardens'},
+ {k:'photo',f:'m/h03.jpg',s:'en',tag:'Ayasofya · İstanbul',tr:'Bin beş yüz yıllık bir kubbe',en:'A dome of fifteen centuries'},
+ {k:'photo',f:'m/h04.jpg',s:'m',tag:'Kapadokya',tr:'Gökyüzü balonlarla uyanıyor',en:'The sky wakes up with balloons'},
+ {k:'photo',f:'m/h05.jpg',s:'en',tag:'Boğaziçi · Bosphorus',tr:'İki kıta, tek bir gece',en:'Two continents, one night'},
+ {k:'photo',f:'m/h06.jpg',s:'ma',tag:'Kahve Molası',tr:'Köpükte küçük bir sanat',en:'A little art in the foam'},
+ {k:'photo',f:'m/h07.jpg',s:'a',tag:'Öğle Uykusu · Siesta',tr:'Güneşin en güzel köşesi',en:'The sunniest spot in the house'},
+ {k:'photo',f:'m/h08.jpg',s:'aen',tag:'Caz · Jazz',tr:'Plak döner, zaman yavaşlar',en:'The record spins, time slows down'},
+ {k:'photo',f:'m/h09.jpg',s:'en',tag:'Kütüphane · Library',tr:'Yağmurlu bir akşam için en iyi yer',en:'The best place for a rainy evening'},
+ {k:'photo',f:'m/h10.jpg',s:'en',tag:'Kış · Winter',tr:'Karlı çamların arasında sıcak bir ışık',en:'A warm light among the snowy pines'}
+];
+// monthly Turkish recipe (index = month)
+var R=[
+ ['Mercimek Çorbası','Red Lentil Soup','Mercimek, soğan, havuç · 25 dk kaynat, ezin, limonla servis edin.','<i>Lentils, onion, carrot · simmer 25 min, blend, serve with lemon.</i>'],
+ ['Hamsi Tava','Pan-fried Anchovies','Hamsiyi mısır ununa bulayın, kızgın yağda iki yüzü çıtır kızartın.','<i>Dust anchovies in cornmeal and fry crisp on both sides.</i>'],
+ ['Kuymak','Black Sea Cheese Fondue','Tereyağında mısır ununu kavurun, su ekleyin, peyniri eritip uzatın.','<i>Toast cornmeal in butter, add water, melt in cheese until it stretches.</i>'],
+ ['Kaygana','Black Sea Omelette','Yumurta, un, süt ve yeşillik · tavada ince ince pişirin.','<i>Eggs, flour, milk and herbs · cook thin in a pan.</i>'],
+ ['Karalahana Sarması','Black Cabbage Rolls','Haşlanmış karalahanayı pirinç ve kıymayla sarıp kısık ateşte pişirin.','<i>Roll blanched black cabbage with rice and mince; cook slowly.</i>'],
+ ['Akçaabat Köfte','Akçaabat Meatballs','Kıymaya bayat ekmek ve sarımsak katın, ızgarada pişirin.','<i>Mince with stale bread and garlic, grilled over coals.</i>'],
+ ['Cacık','Yogurt & Cucumber','Yoğurt, rendelenmiş salatalık, nane, sarımsak ve zeytinyağı.','<i>Yogurt, grated cucumber, mint, garlic and olive oil.</i>'],
+ ['Zeytinyağlı Taze Fasulye','Green Beans in Olive Oil','Fasulye, domates ve soğanı zeytinyağında kısık ateşte pişirin; soğuk servis.','<i>Beans, tomato and onion slow-cooked in olive oil; serve cold.</i>'],
+ ['Laz Böreği','Laz Custard Pastry','Yufka arasına sütlü muhallebi, fırında kızartıp şerbetleyin.','<i>Custard layered in filo, baked golden and syruped.</i>'],
+ ['Fındıklı Kurabiye','Hazelnut Cookies','Kavrulmuş fındık, tereyağı, un ve şeker · 180°C’de 15 dk.','<i>Roasted hazelnuts, butter, flour, sugar · 180°C for 15 min.</i>'],
+ ['Hamsili Pilav','Anchovy Rice Pie','Baharatlı pirinci hamsiyle kaplayıp fırında pişirin.','<i>Spiced rice wrapped in anchovies and baked.</i>'],
+ ['Sütlaç','Baked Rice Pudding','Pirinç ve sütü kaynatın, kaselere alıp fırında üstünü kızartın.','<i>Simmer rice and milk, then brown the tops in the oven.</i>']
 ];
 var Q=[
  ['Damlaya damlaya göl olur.','Drop by drop, a lake is formed.'],
@@ -117,9 +155,17 @@ function build(it){
   if(it.k=='clock'){corner=false;var d=ist();
    C.appendChild(el('div','small','Arsin · Trabzon'));var t=el('div','big');t.id='bigt';C.appendChild(t);
    C.appendChild(el('div','',' <div style="font-size:2.4vw;margin-top:1vw">'+GUN[d.getDay()]+', '+d.getDate()+' '+AY[d.getMonth()]+'</div><div style="font-size:1.6vw;font-style:italic;color:#cfc9bd;margin-top:.5vw">'+DAY[d.getDay()]+', '+MON[d.getMonth()]+' '+d.getDate()+'</div>'));
-   C.appendChild(el('div','',' <div style="font-family:Helvetica,Arial,sans-serif;font-size:1.8vw;letter-spacing:.25em;margin-top:3vw;color:#dfe6e8">'+wxs()+'</div>'));
+   C.appendChild(el('div','',' <div style="font-family:Helvetica,Arial,sans-serif;font-size:1.8vw;letter-spacing:.25em;margin-top:3vw;color:#dfe6e8">'+(WX.t===null?'':wxs())+'</div>'));
    var g={m:['Günaydın','Good morning'],a:['İyi günler','Good afternoon'],e:['İyi akşamlar','Good evening'],n:['İyi geceler','Good night']}[slot()];
    C.appendChild(el('div','',' <div style="font-size:2vw;margin-top:2.5vw">'+g[0]+' · <i style="color:#cfc9bd">'+g[1]+'</i></div>'));
+  } else if(it.k=='calm'){corner=false;b.style.filter='blur(24px) brightness(.3)';
+   C.appendChild(el('div','small','Nefes · Breathe'));var o=el('div','orb');o.style.margin='4vw auto';C.appendChild(o);
+   var w=el('div','');w.style.position='relative';w.style.height='6vw';w.style.width='60vw';
+   w.innerHTML='<div style="position:absolute;width:100%;animation:inout 10s ease-in-out infinite"><div style="font-size:3vw">Nefes al</div><div style="font-size:1.8vw;font-style:italic;color:#cfc9bd">Breathe in</div></div><div style="position:absolute;width:100%;animation:outin 10s ease-in-out infinite"><div style="font-size:3vw">Nefes ver</div><div style="font-size:1.8vw;font-style:italic;color:#cfc9bd">Breathe out</div></div>';C.appendChild(w);
+  } else if(it.k=='recipe'){var r=R[ist().getMonth()];C.className='center rc';
+   C.appendChild(el('div','small','Ayın Tarifi · Recipe of the Month'));C.appendChild(el('div','line'));C.lastChild.style.cssText='width:6vw;height:1px;background:#9aa3a6;margin:2.5vw auto';
+   C.appendChild(el('div','tr',r[0]));C.appendChild(el('div','en',r[1]));C.appendChild(el('div','st',r[2]+'<br>'+r[3]));
+   C.appendChild(el('div','',' <div style="font-size:1.6vw;margin-top:2.5vw">Afiyet olsun · <i style="color:#cfc9bd">Bon appétit</i></div>'));
   } else {var a=it.k=='quote'?Q:F,x=a[Math.floor(Math.random()*a.length)];
    C.className='center q';C.appendChild(el('div','small',it.k=='quote'?'Atasözü · Proverb':'Biliyor muydunuz? · Did you know?'));
    C.appendChild(el('div','line'));C.appendChild(el('div','tr',x[0]));C.appendChild(el('div','en',x[1]));}
@@ -128,13 +174,17 @@ function build(it){
  L.corner=corner;return L;
 }
 var cur=null;
-function swap(L){document.body.appendChild(L);document.getElementById('corner').style.display=L.corner?'block':'none';tick();
- setTimeout(function(){L.className='layer on';var o=cur;cur=L;if(o)setTimeout(function(){if(o.parentNode)o.parentNode.removeChild(o)},2300)},80)}
+function swap(L){document.body.appendChild(L);var gone=false;
+ function go(){if(gone)return;gone=true;document.getElementById('corner').style.display=L.corner?'block':'none';tick();
+  // two frames later so the layer's motion is already running before it becomes visible
+  requestAnimationFrame(function(){requestAnimationFrame(function(){L.className='layer on';var o=cur;cur=L;if(o)o.className='layer on out';if(o)setTimeout(function(){if(o.parentNode)o.parentNode.removeChild(o)},3200)})})}
+ var im=L.querySelector('img.bg');
+ if(im&&!im.complete){im.onload=function(){setTimeout(go,300)};im.onerror=go;setTimeout(go,15000)}else setTimeout(go,300)}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
 function next(){
  n++;var it;
- if(n%6==0)it={k:'clock'};else if(n%6==3)it={k:n%12==3?'quote':'fact'};
+ if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%6==3)it={k:['quote','fact','recipe'][Math.floor(n/6)%3]};
  else{var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].s.indexOf(s)>=0&&recent.indexOf(i)<0)c.push(i);
   if(!c.length){recent=[];return next()}var j=c[Math.floor(Math.random()*c.length)];recent.push(j);if(recent.length>6)recent.shift();it=P[j];}
  return it;
