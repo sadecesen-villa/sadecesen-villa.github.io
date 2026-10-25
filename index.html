@@ -1,8 +1,49 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sadece Sen</title><style>
 html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-family:Georgia,'Times New Roman',serif;color:#f2efe8}
-.layer{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity 2.6s ease-in-out;will-change:opacity;background:#000;overflow:hidden}
+.layer{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;background:#000;overflow:hidden;will-change:opacity,transform}
 .layer.on{opacity:1}
+/* ---- transition library (eased cubic, GPU: opacity/transform; mask/blur only when perf allows) ---- */
+.layer.tx{animation-duration:3s;animation-timing-function:cubic-bezier(.65,0,.35,1);animation-fill-mode:both}
+@keyframes fIn{from{opacity:0}to{opacity:1}} @keyframes fOut{from{opacity:1}to{opacity:0}}
+.in-fade{animation-name:fIn}.out-fade{animation-name:fOut}
+@keyframes bIn{from{opacity:0;filter:blur(14px)}to{opacity:1;filter:blur(0)}} @keyframes bOut{from{opacity:1;filter:blur(0)}to{opacity:0;filter:blur(16px)}}
+.in-blur{animation-name:bIn}.out-blur{animation-name:bOut}
+@keyframes zIn{from{opacity:0;transform:scale(1.05)}to{opacity:1;transform:scale(1)}} @keyframes zOut{from{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(1.09)}}
+.in-zoom{animation-name:zIn}.out-zoom{animation-name:zOut}
+@keyframes wIn{from{opacity:1;-webkit-mask-position:100% 0;mask-position:100% 0}to{opacity:1;-webkit-mask-position:0 0;mask-position:0 0}}
+.in-wipe{opacity:1;-webkit-mask-image:linear-gradient(100deg,#000 0%,#000 34%,rgba(0,0,0,0) 46%,rgba(0,0,0,0) 100%);mask-image:linear-gradient(100deg,#000 0%,#000 34%,rgba(0,0,0,0) 46%,rgba(0,0,0,0) 100%);-webkit-mask-size:300% 100%;mask-size:300% 100%;-webkit-mask-repeat:no-repeat;animation-name:wIn;animation-duration:3.4s!important}
+.out-wipe,.out-luma{animation-name:hold}@keyframes hold{from{opacity:1}to{opacity:1}}
+@keyframes lIn{from{opacity:.4;-webkit-mask-size:0% 0%;mask-size:0% 0%}to{opacity:1;-webkit-mask-size:420% 420%;mask-size:420% 420%}}
+.in-luma{-webkit-mask-image:radial-gradient(circle,#000 0%,#000 38%,rgba(0,0,0,0) 62%);mask-image:radial-gradient(circle,#000 0%,#000 38%,rgba(0,0,0,0) 62%);-webkit-mask-position:50% 55%;mask-position:50% 55%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;animation-name:lIn;animation-duration:3.2s!important}
+@keyframes lkOut{0%{opacity:1}55%{opacity:0}100%{opacity:0}} @keyframes lkIn{0%,40%{opacity:0}100%{opacity:1}}
+.in-leak{animation-name:lkIn;animation-duration:3.4s!important}.out-leak{animation-name:lkOut;animation-duration:3.4s!important}
+.in-mist{animation-name:lkIn;animation-duration:3.4s!important}.out-mist{animation-name:lkOut;animation-duration:3.4s!important}
+/* overlays used by transitions */
+.fx{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:40;opacity:0;animation-fill-mode:both;animation-timing-function:cubic-bezier(.65,0,.35,1)}
+.fx-leak{background:radial-gradient(ellipse at 22% 40%,rgba(255,196,160,.9),rgba(255,140,120,.35) 35%,rgba(0,0,0,0) 70%),radial-gradient(ellipse at 85% 70%,rgba(255,225,200,.55),rgba(0,0,0,0) 55%);animation:leak 3.4s both}
+@keyframes leak{0%{opacity:0;transform:translateX(-6%) scale(1.1)}50%{opacity:.85}100%{opacity:0;transform:translateX(6%) scale(1.1)}}
+.fx-mist{height:200%;top:0;background:linear-gradient(to top,rgba(220,228,232,0) 0%,rgba(220,228,232,.92) 30%,rgba(230,236,240,.95) 50%,rgba(220,228,232,.9) 70%,rgba(220,228,232,0) 100%);animation:mist 3.4s both}
+@keyframes mist{0%{opacity:0;transform:translateY(50%)}40%{opacity:.6}60%{opacity:.6}100%{opacity:0;transform:translateY(-75%)}}
+.fx-sweep{width:40%;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,248,240,.22) 50%,rgba(255,255,255,0));animation:sweep 3.4s both}
+@keyframes sweep{0%{opacity:0;transform:translateX(260%)}20%{opacity:1}80%{opacity:1}100%{opacity:0;transform:translateX(-60%)}}
+/* ---- still-image movements ---- */
+.stage{position:absolute;top:0;left:0;width:100%;height:100%}
+.orbit{-webkit-perspective:1400px;perspective:1400px}
+@keyframes orb{from{transform:scale(1.16) rotateY(-3.5deg) translateX(2%)}to{transform:scale(1.16) rotateY(3.5deg) translateX(-2%)}}
+@keyframes paB{from{transform:scale(1.12) translateX(1.5%)}to{transform:scale(1.12) translateX(-1.5%)}}
+@keyframes paF{from{transform:scale(1.2) translateX(4%)}to{transform:scale(1.2) translateX(-4%)}}
+.front{-webkit-mask-image:linear-gradient(to top,#000 0%,#000 32%,rgba(0,0,0,0) 55%);mask-image:linear-gradient(to top,#000 0%,#000 32%,rgba(0,0,0,0) 55%)}
+@keyframes sfoc{0%{filter:blur(16px);transform:scale(1.12)}12%{filter:blur(0)}100%{filter:blur(0);transform:scale(1.02)}}
+.rays{position:absolute;top:-30%;left:-20%;width:140%;height:160%;pointer-events:none;mix-blend-mode:screen;background:repeating-linear-gradient(115deg,rgba(255,244,225,0) 0,rgba(255,244,225,.10) 4%,rgba(255,244,225,0) 9%,rgba(255,244,225,0) 15%);-webkit-mask-image:radial-gradient(ellipse at 25% 10%,#000,rgba(0,0,0,0) 70%);mask-image:radial-gradient(ellipse at 25% 10%,#000,rgba(0,0,0,0) 70%);animation:rays 160s linear both}
+@keyframes rays{0%{opacity:0;transform:translateX(0)}8%{opacity:1}100%{opacity:.8;transform:translateX(-6%)}}
+.dust{position:absolute;border-radius:50%;background:rgba(255,250,240,.75);pointer-events:none}
+@keyframes dust{from{transform:translate(0,0)}to{transform:translate(var(--dx),-28vh)}}
+.grain{position:absolute;top:-50%;left:-50%;width:200%;height:200%;opacity:.07;pointer-events:none;animation:grain 1.2s steps(6) infinite}
+@keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-4%,3%)}40%{transform:translate(3%,-5%)}60%{transform:translate(-2%,6%)}80%{transform:translate(5%,-2%)}100%{transform:translate(0,0)}}
+.vig{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;background:radial-gradient(ellipse at center,rgba(0,0,0,0) 55%,rgba(0,0,0,.5) 100%)}
+.cloud{position:absolute;top:-10%;left:-60%;width:220%;height:60%;pointer-events:none;opacity:.22;background:radial-gradient(ellipse at 20% 50%,rgba(255,255,255,.9),rgba(255,255,255,0) 30%),radial-gradient(ellipse at 55% 35%,rgba(255,255,255,.8),rgba(255,255,255,0) 25%),radial-gradient(ellipse at 85% 60%,rgba(255,255,255,.85),rgba(255,255,255,0) 28%);animation:cld 170s linear both}
+@keyframes cld{from{transform:translateX(0)}to{transform:translateX(22%)}}
 .bg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;background-size:cover;background-position:center}
 .layer iframe{width:100%;height:100%;border:0}
 .shade{position:absolute;left:0;right:0;bottom:0;height:45%;background:linear-gradient(to top,rgba(0,0,0,.65),rgba(0,0,0,0))}
@@ -30,10 +71,17 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 .orb{width:22vw;height:22vw;border-radius:50%;background:radial-gradient(circle,rgba(190,215,225,.55),rgba(120,160,180,.15) 60%,rgba(0,0,0,0) 72%);animation:breathe 10s ease-in-out infinite}
 .rc .tr{font-size:3.6vw}.rc .en{font-size:1.9vw;font-style:italic;color:#cfc9bd;margin-top:.8vw}.rc .st{font-size:1.5vw;line-height:1.6;color:#e6e1d6;margin-top:2vw;max-width:70vw}.rc .st i{color:#bdb7ab}
 @keyframes br{0%,100%{opacity:.7}50%{opacity:1}}
-@keyframes rise{from{opacity:0;transform:translateY(2vw)}to{opacity:1;transform:translateY(0)}}
-.cap,.center>*{animation:rise 2.5s ease both}
-@keyframes fo{from{opacity:1}to{opacity:0}}
-.layer.out .cap,.layer.out .center>*{animation:fo 1.2s ease both}
+/* captions: each line separately, staggered fade/slide-up with letter-spacing ease */
+@keyframes rise{from{opacity:0;transform:translateY(1.6vw)}to{opacity:1;transform:translateY(0)}}
+@keyframes lsT{from{letter-spacing:.16em}to{letter-spacing:.03em}} @keyframes lsE{from{letter-spacing:.18em}to{letter-spacing:.05em}} @keyframes lsG{from{letter-spacing:.9em}to{letter-spacing:.5em}}
+.cap>*,.center>*{animation:rise 2.2s cubic-bezier(.33,1,.68,1) both}
+.cap>.tag{animation:rise 2.2s cubic-bezier(.33,1,.68,1) 1.2s both,lsG 3.2s cubic-bezier(.33,1,.68,1) 1.2s both}
+.cap>.tr{animation:rise 2.2s cubic-bezier(.33,1,.68,1) 1.6s both,lsT 3s cubic-bezier(.33,1,.68,1) 1.6s both}
+.cap>.en{animation:rise 2.2s cubic-bezier(.33,1,.68,1) 2.1s both,lsE 3s cubic-bezier(.33,1,.68,1) 2.1s both}
+.center>*:nth-child(1){animation-delay:1s}.center>*:nth-child(2){animation-delay:1.35s}.center>*:nth-child(3){animation-delay:1.7s}.center>*:nth-child(4){animation-delay:2.05s}.center>*:nth-child(5){animation-delay:2.4s}
+.lite .cap>*{animation:rise 2s ease 1.2s both}
+@keyframes fo{from{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(-.8vw)}}
+.layer.out .cap>*,.layer.out .center>*{animation:fo 1.1s cubic-bezier(.65,0,.35,1) both!important}
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
@@ -147,8 +195,8 @@ function build(it){
  var L=el('div','layer'),corner=true;
  if(it.k=='photo'||it.k=='motion'){
   var im=el('img','bg');im.src=it.f;
-  if(it.k=='photo'){mi=(mi+1)%MOVES.length;im.style.animation=MOVES[mi]+' '+(SLIDE/1000+5)+'s ease-in-out both'}
-  L.appendChild(im);L.appendChild(el('div','shade'));L.appendChild(capt(it.tag,it.tr,it.en));
+  if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);
+  L.appendChild(el('div','shade'));L.appendChild(capt(it.tag,it.tr,it.en));
  } else {
   var b=el('div','bg');b.style.backgroundImage='url('+pickBg()+')';b.style.filter='blur(18px) brightness(.45)';b.style.transform='scale(1.15)';L.appendChild(b);
   var C=el('div','center');
@@ -173,13 +221,54 @@ function build(it){
  }
  L.corner=corner;return L;
 }
+// ---- still-image movement library: assigned per image, never the same twice in a row ----
+var MV={'m/g01.jpg':'rays','m/terrace.jpg':'para','m/g07.jpg':'orbit','m/g08.jpg':'clouds','m/g12.jpg':'rays','m/g11.jpg':'focus','m/g04.jpg':'grain','m/g05.jpg':'focus','m/g09.jpg':'grain','m/g06.jpg':'grain','m/g10.jpg':'clouds','m/g02.jpg':'focus','m/g03.jpg':'grain','m/h01.jpg':'rays','m/h02.jpg':'para','m/h03.jpg':'orbit','m/h04.jpg':'clouds','m/h05.jpg':'orbit','m/h06.jpg':'focus','m/h07.jpg':'rays','m/h08.jpg':'grain','m/h09.jpg':'para','m/h10.jpg':'para'};
+var MVALL=['para','orbit','focus','rays','grain','clouds'],lastMv='';
+var GRAIN=null;function grainURL(){if(GRAIN)return GRAIN;try{var c=document.createElement('canvas');c.width=c.height=160;var x=c.getContext('2d'),d=x.createImageData(160,160);for(var i=0;i<d.data.length;i+=4){var v=Math.random()*255|0;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}x.putImageData(d,0,0);GRAIN=c.toDataURL()}catch(e){GRAIN=''}return GRAIN}
+function addMove(L,im,it){var m=it.mv||MV[it.f]||MVALL[0];if(m==lastMv)m=MVALL[(MVALL.indexOf(m)+1+Math.floor(Math.random()*4))%MVALL.length];
+ if(LITE&&(m=='focus'||m=='para'))m='orbit';lastMv=m;var D=(SLIDE/1000+6)+'s',E=' cubic-bezier(.37,0,.63,1) both';
+ if(m=='para'){var st=el('div','stage');im.style.animation='paB '+D+E;st.appendChild(im);var f=el('img','bg front');f.src=it.f;f.style.animation='paF '+D+E;st.appendChild(f);L.appendChild(st);L.appendChild(el('div','vig'));}
+ else if(m=='orbit'){var st=el('div','stage orbit');im.style.animation='orb '+D+E;st.appendChild(im);L.appendChild(st);L.appendChild(el('div','vig'));}
+ else if(m=='focus'){im.style.animation='sfoc '+D+' cubic-bezier(.22,1,.36,1) both';L.appendChild(im);}
+ else {mi=(mi+1)%MOVES.length;im.style.animation=MOVES[mi]+' '+D+E;L.appendChild(im);
+  if(m=='rays'){L.appendChild(el('div','rays'));for(var i=0;i<14;i++){var p=el('div','dust'),z=(.15+Math.random()*.3)+'vw';p.style.width=p.style.height=z;p.style.left=(Math.random()*100)+'%';p.style.top=(30+Math.random()*80)+'%';p.style.opacity=(.25+Math.random()*.45);p.style.setProperty('--dx',((Math.random()-.5)*8)+'vw');p.style.animation='dust '+(160+Math.random()*60)+'s linear '+(-Math.random()*20)+'s both';L.appendChild(p)}}
+  else if(m=='clouds'){L.appendChild(el('div','cloud'))}
+  else if(m=='grain'){var g=el('div','grain');var u=grainURL();if(u)g.style.backgroundImage='url('+u+')';L.appendChild(g);L.appendChild(el('div','vig'))}}
+ L.mv=m;}
+// ---- transitions: rotating library; auto-falls back to plain crossfade if the TV can't keep up ----
+var TRS=['blur','zoom','wipe','leak','mist','luma'],tq=[],lastTr='';
+var LITE=false;try{LITE=localStorage.getItem('ss_lite')=='1'}catch(e){}
+var MASK=(function(){var d=document.createElement('div').style;return 'webkitMaskImage' in d||'maskImage' in d})();
+var FORCE=(location.search.match(/tr=(\w+)/)||[])[1];
+function pickTr(){if(FORCE)return FORCE;var ok=LITE?['fade','zoom']:TRS.filter(function(t){return MASK||(t!='wipe'&&t!='luma')});
+ if(!tq.length){tq=ok.slice().sort(function(){return Math.random()-.5});if(tq[0]==lastTr)tq.push(tq.shift())}lastTr=tq.shift();return lastTr}
+var slowCount=0;function perf(ms){var f=0,t0=null;function c(t){if(t0===null)t0=t;f++;if(t-t0<ms)requestAnimationFrame(c);else{var fps=f*1000/(t-t0);window.lastFps=Math.round(fps);
+ if(fps<24){slowCount++;if(slowCount>=2){LITE=true;try{localStorage.setItem('ss_lite','1')}catch(e){}document.body.className='lite'}}else slowCount=0}}requestAnimationFrame(c)}
 var cur=null;
-function swap(L){document.body.appendChild(L);var gone=false;
+function swap(L,trn){document.body.appendChild(L);var gone=false;
  function go(){if(gone)return;gone=true;document.getElementById('corner').style.display=L.corner?'block':'none';tick();
-  // two frames later so the layer's motion is already running before it becomes visible
-  requestAnimationFrame(function(){requestAnimationFrame(function(){L.className='layer on';var o=cur;cur=L;if(o)o.className='layer on out';if(o)setTimeout(function(){if(o.parentNode)o.parentNode.removeChild(o)},3200)})})}
+  var tr=trn||(cur?pickTr():'fade');window.lastTr=tr;
+  requestAnimationFrame(function(){requestAnimationFrame(function(){var o=cur;cur=L;
+   L.className='layer tx in-'+tr;if(o)o.className='layer tx out out-'+tr;
+   if(tr=='leak'||tr=='mist'||tr=='wipe'){var fx=el('div','fx fx-'+(tr=='wipe'?'sweep':tr));document.body.appendChild(fx);setTimeout(function(){if(fx.parentNode)fx.parentNode.removeChild(fx)},3700)}
+   if(o&&!LITE)perf(3000);
+   setTimeout(function(){if(cur==L)L.className='layer on';if(o&&o.parentNode)o.parentNode.removeChild(o)},3700)})})}
  var im=L.querySelector('img.bg');
  if(im&&!im.complete){im.onload=function(){setTimeout(go,300)};im.onerror=go;setTimeout(go,15000)}else setTimeout(go,300)}
+// ---- timed specials: sunset (from Open-Meteo, Arsin) and good night at 23:00 ----
+var SUN={d:'',m:-1},shown={};
+function sun(){var x=new XMLHttpRequest();x.open('GET','https://api.open-meteo.com/v1/forecast?latitude=40.95&longitude=39.93&daily=sunset&timezone=Europe%2FIstanbul&forecast_days=1',true);
+ x.onload=function(){try{var v=JSON.parse(x.responseText).daily.sunset[0];SUN.d=v.slice(0,10);SUN.m=parseInt(v.slice(11,13),10)*60+parseInt(v.slice(14,16),10);SUN.s=v.slice(11,16)}catch(e){}};x.send()}
+sun();setInterval(sun,6*3600000);
+var SP={
+ sunset:{k:'photo',f:'m/sp-sunset.jpg',mv:'rays',tag:'Gün Batımı · Sunset',tr:'Güneş Karadeniz’e veda ediyor',en:'The sun bids farewell to the Black Sea',tri:'leak'},
+ night:{k:'photo',f:'m/sp-night.jpg',mv:'grain',tag:'İyi Geceler · Good Night',tr:'Tatlı rüyalar, yarın görüşmek üzere',en:'Sweet dreams — see you tomorrow',tri:'mist'}};
+function special(){var d=ist(),key=d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate(),m=d.getHours()*60+d.getMinutes();
+ var sm=SUN.m>0?SUN.m:17*60+30;
+ if(m>=sm-12&&m<sm+8&&!shown['s'+key])return ['s'+key,SP.sunset,(sm+8-m)*60000,SUN.s];
+ if(m>=23*60&&m<23*60+20&&!shown['n'+key])return ['n'+key,SP.night,(23*60+20-m)*60000];
+ return null}
+function showSpecial(x){shown[x[0]]=1;var it=x[1];if(x[3])it.tag='Gün Batımı · Sunset · '+x[3];var L=build(it);override=new Date().getTime()+Math.max(x[2],240000);swap(L,it.tri)}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
 function next(){
@@ -190,7 +279,7 @@ function next(){
  return it;
 }
 var override=0,timer=null;
-function rotate(){if(new Date().getTime()<override){timer=setTimeout(rotate,15000);return}swap(build(next()));timer=setTimeout(rotate,SLIDE)}
+function rotate(){var sp=special();if(sp){showSpecial(sp);timer=setTimeout(rotate,15000);return}if(new Date().getTime()<override){timer=setTimeout(rotate,15000);return}swap(build(next()));timer=setTimeout(rotate,SLIDE)}
 // ---- manual push via ngrok (optional). Shows a push for 15 min, then rotation resumes. ----
 var last=null;
 function xhr(url,rt,ok,fail){var x=new XMLHttpRequest();x.open('GET',url,true);if(rt)x.responseType=rt;x.setRequestHeader('ngrok-skip-browser-warning','1');x.timeout=120000;
@@ -210,6 +299,8 @@ var wl=null;function wake(){try{if(navigator.wakeLock&&navigator.wakeLock.reques
 document.addEventListener('visibilitychange',function(){if(!document.hidden){wake();kaPlay()}});
 setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
 // start: clock first, then rotate
-n=5;rotate();poll();
+if(LITE)document.body.className='lite';
+var Q0=(location.search.match(/demo=(\d+)/)||[])[1];if(Q0){SLIDE=+Q0*1000}
+if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else{n=5;rotate()}poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
