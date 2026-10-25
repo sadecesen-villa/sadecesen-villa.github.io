@@ -1,63 +1,165 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sadece Sen</title><style>
-html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-family:Georgia,serif}
-.layer{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity 1.5s ease;background:#000}
+html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-family:Georgia,'Times New Roman',serif;color:#f2efe8}
+.layer{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity 2s ease;background:#000;overflow:hidden}
 .layer.on{opacity:1}
-.layer img,.layer video,.layer iframe{width:100%;height:100%;border:0;display:block}
-.cap{position:absolute;left:0;right:0;bottom:6%;text-align:center;color:#e8e4dc;font-size:3vw;letter-spacing:.08em;text-shadow:0 2px 12px #000}
-#idle{background:radial-gradient(ellipse at center,#3a3d40 0%,#1c1e20 55%,#0b0c0d 100%);display:flex;align-items:center;justify-content:center;flex-direction:column;color:#d9d6cf}
-#idle h1{font-weight:normal;font-size:9vw;letter-spacing:.15em;margin:0;animation:br 8s ease-in-out infinite}
-#idle p{font-size:1.6vw;letter-spacing:.6em;color:#8e9296;margin-top:2vw}
-#clock{position:absolute;bottom:5%;font-size:2vw;color:#7d8186;letter-spacing:.2em}
-@keyframes br{0%,100%{opacity:.75}50%{opacity:1}}
+.bg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;background-size:cover;background-position:center}
+.layer iframe{width:100%;height:100%;border:0}
+.shade{position:absolute;left:0;right:0;bottom:0;height:45%;background:linear-gradient(to top,rgba(0,0,0,.65),rgba(0,0,0,0))}
+.cap{position:absolute;left:6%;right:6%;bottom:8%;text-shadow:0 2px 14px rgba(0,0,0,.8)}
+.cap .tr{font-size:3.2vw;letter-spacing:.03em}
+.cap .en{font-size:1.8vw;font-style:italic;color:#d8d3c8;margin-top:.6vw;letter-spacing:.05em}
+.cap .tag{font-family:Helvetica,Arial,sans-serif;font-size:1vw;letter-spacing:.5em;color:#bfc6c9;margin-bottom:1vw;text-transform:uppercase}
+#corner{position:absolute;top:4%;right:4%;z-index:50;text-align:right;font-family:Helvetica,Arial,sans-serif;color:rgba(255,255,255,.85);text-shadow:0 1px 8px rgba(0,0,0,.7)}
+#corner .t{font-size:2.6vw;font-weight:200;letter-spacing:.05em}
+#corner .w{font-size:1.1vw;letter-spacing:.2em;margin-top:.3vw}
+.center{position:absolute;top:0;left:0;right:0;bottom:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 10%}
+.big{font-family:Helvetica,Arial,sans-serif;font-weight:100;font-size:16vw;letter-spacing:.02em;line-height:1}
+.q .tr{font-size:4.2vw;line-height:1.25}.q .en{font-size:2.2vw;font-style:italic;color:#cfc9bd;margin-top:2.5vw}
+.q .line{width:6vw;height:1px;background:#9aa3a6;margin:2.5vw auto}
+.small{font-family:Helvetica,Arial,sans-serif;font-size:1.2vw;letter-spacing:.6em;color:#aab1b4;text-transform:uppercase}
+@keyframes zin{from{transform:scale(1)}to{transform:scale(1.18)}}
+@keyframes zout{from{transform:scale(1.2)}to{transform:scale(1)}}
+@keyframes panl{from{transform:scale(1.15) translateX(5%)}to{transform:scale(1.15) translateX(-5%)}}
+@keyframes panr{from{transform:scale(1.15) translateX(-5%)}to{transform:scale(1.15) translateX(5%)}}
+@keyframes tilt{from{transform:scale(1.18) translateY(5%)}to{transform:scale(1.18) translateY(-5%)}}
+@keyframes diag{from{transform:scale(1.05) translate(-3%,3%)}to{transform:scale(1.22) translate(3%,-3%)}}
+@keyframes br{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(2vw)}to{opacity:1;transform:translateY(0)}}
+.cap,.center>*{animation:rise 2.5s ease both}
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
-<div id="idle" class="layer on"><h1>Sadece Sen</h1><p>ARSIN · TRABZON</p><div id="clock"></div></div>
+<div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
 <script>
+// ---- Sadece Sen TV: autonomous rotation (all media hosted here on GitHub Pages; ngrok only for manual pushes) ----
 var BASE='https://cabana-margarine-unsigned.ngrok-free.dev/a1fab203f71be9a06a33b65004ed1e94/';
-var cur=null,last='',idle=document.getElementById('idle');
+var SLIDE=150000; // 2.5 min per slide
 function pad(n){return n<10?'0'+n:n}
-setInterval(function(){var d=new Date();document.getElementById('clock').innerHTML=pad(d.getHours())+':'+pad(d.getMinutes())},1000);
-var urls=[];
+function ist(){var d=new Date();return new Date(d.getTime()+(d.getTimezoneOffset()+180)*60000)}
+function hh(){return ist().getHours()}
+function slot(){var h=hh();return h>=6&&h<11?'m':h>=11&&h<17?'a':h>=17&&h<22?'e':'n'}
+var GUN=['Pazar','Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi'],DAY=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+var AY=['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
+var MON=['January','February','March','April','May','June','July','August','September','October','November','December'];
+// weather (Open-Meteo, free, no key) – Arsin
+var WX={t:null,c:''};
+var WC={0:['Açık','Clear'],1:['Az bulutlu','Mostly clear'],2:['Parçalı bulutlu','Partly cloudy'],3:['Kapalı','Overcast'],45:['Sisli','Foggy'],48:['Sisli','Foggy'],51:['Çisenti','Drizzle'],53:['Çisenti','Drizzle'],55:['Çisenti','Drizzle'],61:['Yağmurlu','Rain'],63:['Yağmurlu','Rain'],65:['Sağanak','Heavy rain'],71:['Kar','Snow'],73:['Kar','Snow'],75:['Yoğun kar','Heavy snow'],80:['Sağanak','Showers'],81:['Sağanak','Showers'],82:['Sağanak','Showers'],95:['Gök gürültülü','Thunderstorm']};
+function wx(){var x=new XMLHttpRequest();x.open('GET','https://api.open-meteo.com/v1/forecast?latitude=40.95&longitude=39.93&current=temperature_2m,weather_code&timezone=Europe%2FIstanbul',true);
+ x.onload=function(){try{var j=JSON.parse(x.responseText).current;WX.t=Math.round(j.temperature_2m);WX.c=WC[j.weather_code]||['',''];}catch(e){}};x.send()}
+wx();setInterval(wx,1800000);
+function wxs(){return WX.t===null?'ARSIN · TRABZON':WX.t+'°  ·  '+WX.c[0]+' / '+WX.c[1]}
+function tick(){var d=ist();document.getElementById('ct').innerHTML=pad(d.getHours())+':'+pad(d.getMinutes());document.getElementById('cw').innerHTML=wxs();
+ var b=document.getElementById('bigt');if(b)b.innerHTML=pad(d.getHours())+':'+pad(d.getMinutes())}
+setInterval(tick,1000);
+// ---- content ----
+// s: slots it fits (m a e n). k: photo|motion|clock|quote|fact
+var P=[
+ {k:'photo',f:'m/g01.jpg',s:'m',tag:'Karadeniz',tr:'Gün Karadeniz’in üzerine doğuyor',en:'Morning rises over the Black Sea'},
+ {k:'photo',f:'m/terrace.jpg',s:'ma',tag:'Sadece Sen',tr:'Terastan bugünün manzarası',en:'Today’s view from the terrace'},
+ {k:'photo',f:'m/g07.jpg',s:'ma',tag:'Sümela · Maçka',tr:'Kayalara oyulmuş 1600 yıllık bir sır',en:'A 1,600-year-old secret carved into the cliff'},
+ {k:'photo',f:'m/g08.jpg',s:'a',tag:'Yayla',tr:'Bulutların üstünde bir yaz günü',en:'A summer day above the clouds'},
+ {k:'photo',f:'m/g12.jpg',s:'a',tag:'Doğa · Nature',tr:'Ormanın kalbinde su sesi',en:'The sound of water in the heart of the forest'},
+ {k:'photo',f:'m/g11.jpg',s:'ma',tag:'Galeri · Gallery',tr:'Çay Bahçeleri — suluboya',en:'Tea Gardens — watercolour'},
+ {k:'photo',f:'m/g04.jpg',s:'ae',tag:'Galeri · Gallery',tr:'Akşam Limanı — yağlıboya',en:'Harbour at Dusk — oil on canvas'},
+ {k:'photo',f:'m/g05.jpg',s:'ae',tag:'Galeri · Gallery',tr:'Fındık, İncir ve Nar — natürmort',en:'Hazelnuts, Figs & Pomegranate — still life'},
+ {k:'photo',f:'m/g09.jpg',s:'aen',tag:'Müzik · Music',tr:'Sesin rengi',en:'The colour of sound'},
+ {k:'photo',f:'m/g06.jpg',s:'en',tag:'Şömine · Fireplace',tr:'Dışarıda yağmur, içeride sıcacık',en:'Rain outside, warmth within'},
+ {k:'photo',f:'m/g10.jpg',s:'en',tag:'Gece · Night',tr:'Denizde ay ışığından bir yol',en:'A path of moonlight on the sea'},
+ {k:'photo',f:'m/g02.jpg',s:'n',tag:'Kutup Işıkları · Aurora',tr:'Gökyüzü dans ediyor',en:'The sky is dancing'},
+ {k:'photo',f:'m/g03.jpg',s:'en',tag:'Uzay · Space',tr:'Samanyolu: 100 milyar yıldızdan biri biziz',en:'The Milky Way: we are one of 100 billion stars'},
+ {k:'motion',f:'m/tea-morning.webp',s:'ma',tag:'Çay Saati',tr:'Çay demlendi',en:'The tea is ready'},
+ {k:'motion',f:'m/breakfast3.webp',s:'m',tag:'Kahvaltı',tr:'Afiyet olsun',en:'Enjoy your breakfast'},
+ {k:'motion',f:'m/tea-fields.webp',s:'ma',tag:'Rize · Trabzon',tr:'Yeşilin bin tonu',en:'A thousand shades of green'},
+ {k:'motion',f:'m/black-sea.webp',s:'ae',tag:'Karadeniz',tr:'Dalgaların ritmi',en:'The rhythm of the waves'},
+ {k:'motion',f:'m/fog.webp',s:'ma',tag:'Sis · Mist',tr:'Dağlardan sis iniyor',en:'Mist rolling down the mountains'},
+ {k:'motion',f:'m/coffee.webp',s:'ae',tag:'Türk Kahvesi',tr:'Bir kahvenin kırk yıl hatırı vardır',en:'A coffee is remembered for forty years'}
+];
+var Q=[
+ ['Damlaya damlaya göl olur.','Drop by drop, a lake is formed.'],
+ ['Gülme komşuna, gelir başına.','Don’t laugh at your neighbour; it may come to you.'],
+ ['Tatlı dil yılanı deliğinden çıkarır.','A sweet tongue draws the snake from its hole.'],
+ ['Ev alma, komşu al.','Don’t buy a house, buy a neighbour.'],
+ ['Sabreden derviş muradına ermiş.','The patient dervish reaches his wish.'],
+ ['Bin bilsen de bir bilene danış.','Even if you know a thousand things, ask one who knows.'],
+ ['Gönül ne kahve ister ne kahvehane; gönül sohbet ister, kahve bahane.','The heart wants neither coffee nor café; it wants company — coffee is the excuse.'],
+ ['Yurtta sulh, cihanda sulh.','Peace at home, peace in the world. — Atatürk'],
+ ['Ne kadar bilirsen bil, söylediklerin karşındakinin anlayabildiği kadardır.','However much you know, you say only as much as the other can understand. — Mevlânâ'],
+ ['Her gecenin bir sabahı vardır.','Every night has its morning.'],
+ ['Misafir umduğunu değil, bulduğunu yer.','A guest eats what is found, not what is hoped for.'],
+ ['Bir elin nesi var, iki elin sesi var.','One hand makes no sound; two hands make applause.']
+];
+var F=[
+ ['Trabzon, MÖ 7. yüzyılda kurulan dünyanın en eski şehirlerinden biridir.','Trabzon, founded in the 7th century BC, is one of the world’s oldest cities.'],
+ ['Türkiye, dünya fındığının yaklaşık %70’ini üretir — çoğu Karadeniz’den.','Turkey grows about 70% of the world’s hazelnuts — mostly on the Black Sea coast.'],
+ ['Türkiye, kişi başı en çok çay içilen ülkedir: yılda 3 kg’dan fazla.','Turkey drinks the most tea per person on Earth: over 3 kg a year.'],
+ ['Sümela Manastırı, MS 386’da 1200 metre yükseklikte kayalara inşa edildi.','Sumela Monastery was built into a cliff at 1,200 m in AD 386.'],
+ ['Kanuni Sultan Süleyman 1494’te Trabzon’da doğdu.','Suleiman the Magnificent was born in Trabzon in 1494.'],
+ ['Karadeniz’in 150 metreden derin suları neredeyse oksijensizdir; antik gemiler bozulmadan kalır.','Below 150 m the Black Sea has almost no oxygen — ancient shipwrecks survive intact.'],
+ ['Hamsi, Karadeniz’in kraliçesidir; onunla 40’tan fazla yemek yapılır.','Hamsi (anchovy) is queen of the Black Sea — over 40 dishes are made with it.'],
+ ['Laz böreği, hamsili pilav ve kuymak bu bölgenin lezzetleridir.','Laz böreği, hamsili pilav and kuymak are all specialities of this region.'],
+ ['Kemençe, Karadeniz’in üç telli ruhudur.','The kemençe — a three-stringed fiddle — is the soul of Black Sea music.'],
+ ['İstanbul, iki kıtaya yayılan tek büyük şehirdir.','Istanbul is the only major city spanning two continents.']
+];
+var MOVES=['zin','zout','panl','panr','tilt','diag'],mi=Math.floor(Math.random()*6);
+function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e}
+function capt(tag,tr,en){var c=el('div','cap');c.appendChild(el('div','tag',tag));c.appendChild(el('div','tr',tr));c.appendChild(el('div','en',en));return c}
+function bgOf(f){for(var i=0;i<P.length;i++)if(P[i].f==f)return f;return 'm/g01.jpg'}
+function pickBg(){var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].k=='photo'&&P[i].s.indexOf(s)>=0)c.push(P[i].f);return c[Math.floor(Math.random()*c.length)]}
+function build(it){
+ var L=el('div','layer'),corner=true;
+ if(it.k=='photo'||it.k=='motion'){
+  var im=el('img','bg');im.src=it.f;
+  if(it.k=='photo'){mi=(mi+1)%MOVES.length;im.style.animation=MOVES[mi]+' '+(SLIDE/1000+5)+'s ease-in-out both'}
+  L.appendChild(im);L.appendChild(el('div','shade'));L.appendChild(capt(it.tag,it.tr,it.en));
+ } else {
+  var b=el('div','bg');b.style.backgroundImage='url('+pickBg()+')';b.style.filter='blur(18px) brightness(.45)';b.style.transform='scale(1.15)';L.appendChild(b);
+  var C=el('div','center');
+  if(it.k=='clock'){corner=false;var d=ist();
+   C.appendChild(el('div','small','Arsin · Trabzon'));var t=el('div','big');t.id='bigt';C.appendChild(t);
+   C.appendChild(el('div','',' <div style="font-size:2.4vw;margin-top:1vw">'+GUN[d.getDay()]+', '+d.getDate()+' '+AY[d.getMonth()]+'</div><div style="font-size:1.6vw;font-style:italic;color:#cfc9bd;margin-top:.5vw">'+DAY[d.getDay()]+', '+MON[d.getMonth()]+' '+d.getDate()+'</div>'));
+   C.appendChild(el('div','',' <div style="font-family:Helvetica,Arial,sans-serif;font-size:1.8vw;letter-spacing:.25em;margin-top:3vw;color:#dfe6e8">'+wxs()+'</div>'));
+   var g={m:['Günaydın','Good morning'],a:['İyi günler','Good afternoon'],e:['İyi akşamlar','Good evening'],n:['İyi geceler','Good night']}[slot()];
+   C.appendChild(el('div','',' <div style="font-size:2vw;margin-top:2.5vw">'+g[0]+' · <i style="color:#cfc9bd">'+g[1]+'</i></div>'));
+  } else {var a=it.k=='quote'?Q:F,x=a[Math.floor(Math.random()*a.length)];
+   C.className='center q';C.appendChild(el('div','small',it.k=='quote'?'Atasözü · Proverb':'Biliyor muydunuz? · Did you know?'));
+   C.appendChild(el('div','line'));C.appendChild(el('div','tr',x[0]));C.appendChild(el('div','en',x[1]));}
+  L.appendChild(C);
+ }
+ L.corner=corner;return L;
+}
+var cur=null;
+function swap(L){document.body.appendChild(L);document.getElementById('corner').style.display=L.corner?'block':'none';tick();
+ setTimeout(function(){L.className='layer on';var o=cur;cur=L;if(o)setTimeout(function(){if(o.parentNode)o.parentNode.removeChild(o)},2300)},80)}
+// playlist: photos/motion interleaved with clock/quote/fact
+var recent=[],n=0;
+function next(){
+ n++;var it;
+ if(n%6==0)it={k:'clock'};else if(n%6==3)it={k:n%12==3?'quote':'fact'};
+ else{var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].s.indexOf(s)>=0&&recent.indexOf(i)<0)c.push(i);
+  if(!c.length){recent=[];return next()}var j=c[Math.floor(Math.random()*c.length)];recent.push(j);if(recent.length>6)recent.shift();it=P[j];}
+ return it;
+}
+var override=0,timer=null;
+function rotate(){if(new Date().getTime()<override){timer=setTimeout(rotate,15000);return}swap(build(next()));timer=setTimeout(rotate,SLIDE)}
+// ---- manual push via ngrok (optional). Shows a push for 15 min, then rotation resumes. ----
+var last=null;
 function xhr(url,rt,ok,fail){var x=new XMLHttpRequest();x.open('GET',url,true);if(rt)x.responseType=rt;x.setRequestHeader('ngrok-skip-browser-warning','1');x.timeout=120000;
  x.onload=function(){if(x.status==200)ok(x.response);else if(fail)fail()};x.onerror=x.ontimeout=function(){if(fail)fail()};x.send();}
-function abs(s){return /^https?:/.test(s)?s:BASE+s}
-function display(c,url,html){
- var el;
- if(!c||!c.src||c.type=='idle'){el=idle}else{
-  el=document.createElement('div');el.className='layer';var fit=c.fit||'contain',m;
-  if(c.type=='video'){m=document.createElement('video');m.muted=true;m.loop=true;m.autoplay=true;m.setAttribute('playsinline','');m.setAttribute('muted','');m.src=url;m.style.objectFit=fit}
-  else if(c.type=='html'){m=document.createElement('iframe');m.srcdoc=html}
-  else{m=document.createElement('img');m.src=url;m.style.objectFit=fit}
-  el.appendChild(m);
-  if(c.caption){var p=document.createElement('div');p.className='cap';p.appendChild(document.createTextNode(c.caption));el.appendChild(p)}
-  document.body.appendChild(el);
-  if(m.play){try{var pr=m.play();if(pr&&pr.catch)pr.catch(function(){})}catch(e){}}
- }
- var old=cur;cur=el;var mine=urls;urls=url&&url.indexOf('blob:')==0?[url]:[];
- setTimeout(function(){el.className='layer on';if(old&&old!==el){old.className='layer';setTimeout(function(){if(old!==idle&&old.parentNode)old.parentNode.removeChild(old);for(var i=0;i<mine.length;i++)URL.revokeObjectURL(mine[i])},1700)}},60);
+function showPush(c){
+ var done=function(L){override=new Date().getTime()+900000;swap(L)};
+ if(c.type=='html'){xhr(BASE+c.src,'',function(t){var L=el('div','layer');var f=el('iframe');f.srcdoc=t;L.appendChild(f);L.corner=false;done(L)});return}
+ xhr(/^https?:/.test(c.src)?c.src:BASE+c.src,'blob',function(b){var L=el('div','layer');var m=el('img','bg');m.src=URL.createObjectURL(b);m.style.objectFit=c.fit||'cover';L.appendChild(m);
+  if(c.caption){var p=c.caption.split(' · ');L.appendChild(el('div','shade'));L.appendChild(capt('',p[0],p[1]||''))}L.corner=true;done(L)});
 }
-function show(c){
- if(!c||!c.src||c.type=='idle'){display(null);return}
- if(c.type=='html'){xhr(abs(c.src),'',function(t){display(c,null,t)},function(){last=''});return}
- xhr(abs(c.src),'blob',function(b){display(c,URL.createObjectURL(b))},function(){last=''});
-}
-var fails=0;
-// ngrok free = 20,000 req/month. Normal 180 s; 60 s for 10 min after a change; 02:00-08:00 Istanbul (UTC+3) every 30 min.
-var NORMAL=180000,FAST=60000,NIGHT=1800000,FASTFOR=600000,fastUntil=0;
-function istHour(){return (new Date().getUTCHours()+3)%24}
-function nextDelay(){var n=new Date().getTime();if(n<fastUntil)return FAST;var h=istHour();if(h>=2&&h<8)return NIGHT;return NORMAL}
-function poll(){
- xhr(BASE+'current.json?t='+new Date().getTime(),'',function(t){fails=0;if(t!=last){if(last!=='')fastUntil=new Date().getTime()+FASTFOR;last=t;try{show(JSON.parse(t))}catch(e){}}setTimeout(poll,nextDelay())},
-  function(){fails++;if(fails>=3&&cur!==idle){display(null);last=''}setTimeout(poll,nextDelay())});
-}
-
-// keep-awake: tiny looping video + Wake Lock API
+function poll(){var h=hh(),d=(h>=1&&h<8)?1800000:60000;
+ xhr(BASE+'current.json?t='+new Date().getTime(),'',function(t){if(last!==null&&t!=last){try{var c=JSON.parse(t);if(c.type=='idle'||!c.src)override=0;else showPush(c)}catch(e){}}last=t;setTimeout(poll,d)},function(){setTimeout(poll,d)});}
+// keep-awake
 var ka=document.getElementById('ka');ka.muted=true;
 function kaPlay(){try{var r=ka.play();if(r&&r.catch)r.catch(function(){})}catch(e){}}
 var wl=null;function wake(){try{if(navigator.wakeLock&&navigator.wakeLock.request&&!wl){navigator.wakeLock.request('screen').then(function(l){wl=l;l.addEventListener('release',function(){wl=null})},function(){})}}catch(e){}}
 document.addEventListener('visibilitychange',function(){if(!document.hidden){wake();kaPlay()}});
 setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
-cur=idle;poll();
+// start: clock first, then rotate
+n=5;rotate();poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
