@@ -82,6 +82,17 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 .lite .cap>*{animation:rise 2s ease 1.2s both}
 @keyframes fo{from{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(-.8vw)}}
 .layer.out .cap>*,.layer.out .center>*{animation:fo 1.1s cubic-bezier(.65,0,.35,1) both!important}
+.in-lift{opacity:1;clip-path:inset(100% 0 0 0);-webkit-clip-path:inset(100% 0 0 0);animation-name:lfIn;animation-duration:3.2s!important}
+@keyframes lfIn{from{clip-path:inset(100% 0 0 0);-webkit-clip-path:inset(100% 0 0 0);transform:translateY(3%)}to{clip-path:inset(0 0 0 0);-webkit-clip-path:inset(0 0 0 0);transform:translateY(0)}}
+.out-lift,.out-split{animation-name:hold}
+.in-split{opacity:1;clip-path:inset(0 50% 0 50%);-webkit-clip-path:inset(0 50% 0 50%);animation-name:spIn;animation-duration:3.3s!important}
+@keyframes spIn{from{clip-path:inset(0 50% 0 50%);-webkit-clip-path:inset(0 50% 0 50%);filter:brightness(1.4)}to{clip-path:inset(0 0 0 0);-webkit-clip-path:inset(0 0 0 0);filter:brightness(1)}}
+@keyframes wrise{from{transform:scale(1.12) translateY(3%)}to{transform:scale(1.12) translateY(-3%)}}
+@keyframes wglow{0%{opacity:0;transform:translateX(-30%)}50%{opacity:.35}100%{opacity:0;transform:translateX(30%)}}
+.wglow{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 40%,rgba(255,240,215,.5),rgba(0,0,0,0) 55%);mix-blend-mode:screen;animation:wglow 40s ease-in-out infinite alternate}
+.wc{position:absolute;right:6vw;bottom:8vh;text-align:right;color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.7)}
+.wc .t{font-size:7vw;font-weight:300;letter-spacing:.02em;line-height:1}.wc .c{font-size:2.6vw;margin-top:.8vw}.wc .e{font-size:1.5vw;font-style:italic;color:#e3ddd2;margin-top:.4vw}
+.wc .k{font-family:Helvetica,Arial,sans-serif;font-size:1vw;letter-spacing:.5em;color:#cfd6d9;margin-bottom:1.2vw}
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
@@ -109,6 +120,7 @@ setInterval(tick,1000);
 // ---- content ----
 // s: slots it fits (m a e n). k: photo|motion|clock|quote|fact
 var P=[
+ {k:'photo',f:'m/n01.jpg',s:'ma',tag:'Fındık Hasadı · Hazelnut Harvest',tr:'Fındık hasadı, Karadeniz yamaçlarında',en:'Hazelnut harvest on the Black Sea slopes'},
  {k:'photo',f:'m/g01.jpg',s:'m',tag:'Karadeniz',tr:'Gün Karadeniz’in üzerine doğuyor',en:'Morning rises over the Black Sea'},
  {k:'photo',f:'m/terrace.jpg',s:'ma',tag:'Sadece Sen',tr:'Terastan bugünün manzarası',en:'Today’s view from the terrace'},
  {k:'photo',f:'m/g07.jpg',s:'ma',tag:'Sümela · Maçka',tr:'Kayalara oyulmuş 1600 yıllık bir sır',en:'A 1,600-year-old secret carved into the cliff'},
@@ -186,6 +198,14 @@ var F=[
  ['Kemençe, Karadeniz’in üç telli ruhudur.','The kemençe — a three-stringed fiddle — is the soul of Black Sea music.'],
  ['İstanbul, iki kıtaya yayılan tek büyük şehirdir.','Istanbul is the only major city spanning two continents.']
 ];
+var W=[
+ {f:'m/w01.jpg',tz:'Asia/Tokyo',o:9,tr:'Kyoto, Japonya',en:'Kyoto, Japan',km:'7.700 km'},
+ {f:'m/w02.jpg',tz:'Atlantic/Reykjavik',o:0,tr:'Vík, İzlanda',en:'Vík, Iceland',km:'4.300 km'},
+ {f:'m/w03.jpg',tz:'America/New_York',o:-5,tr:'New York, ABD',en:'New York, USA',km:'9.000 km'},
+ {f:'m/w04.jpg',tz:'America/Sao_Paulo',o:-3,tr:'Rio de Janeiro, Brezilya',en:'Rio de Janeiro, Brazil',km:'10.900 km'},
+ {f:'m/w05.jpg',tz:'Africa/Casablanca',o:1,tr:'Marakeş, Fas',en:'Marrakech, Morocco',km:'4.400 km'},
+ {f:'m/w06.jpg',tz:'Asia/Kuwait',o:3,tr:'Kuveyt Şehri',en:'Kuwait City',km:'1.600 km'}],wi=Math.floor(Math.random()*6);
+function wtime(w){try{return new Date().toLocaleTimeString('en-GB',{timeZone:w.tz,hour:'2-digit',minute:'2-digit',hour12:false})}catch(e){var d=new Date(new Date().getTime()+(w.o*3600000));var h=d.getUTCHours(),m=d.getUTCMinutes();return (h<10?'0':'')+h+':'+(m<10?'0':'')+m}}
 var MOVES=['zin','zout','panl','panr','tilt','diag'],mi=Math.floor(Math.random()*6);
 function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e}
 function capt(tag,tr,en){var c=el('div','cap');c.appendChild(el('div','tag',tag));c.appendChild(el('div','tr',tr));c.appendChild(el('div','en',en));return c}
@@ -193,6 +213,9 @@ function bgOf(f){for(var i=0;i<P.length;i++)if(P[i].f==f)return f;return 'm/g01.
 function pickBg(){var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].k=='photo'&&P[i].s.indexOf(s)>=0)c.push(P[i].f);return c[Math.floor(Math.random()*c.length)]}
 function build(it){
  var L=el('div','layer'),corner=true;
+ if(it.k=='world'){var w=W[wi=(wi+1)%W.length];var im=el('img','bg');im.src=w.f;im.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im);L.appendChild(el('div','wglow'));L.appendChild(el('div','shade'));
+  var c=el('div','wc');c.appendChild(el('div','k','Dünyaya Pencere · Window to the World'));var t=el('div','t',wtime(w));c.appendChild(t);c.appendChild(el('div','c',w.tr));c.appendChild(el('div','e',w.en+' · '+w.km+' from Arsin'));L.appendChild(c);
+  var iv=setInterval(function(){if(!L.parentNode)clearInterval(iv);else t.innerHTML=wtime(w)},20000);L.corner=true;return L}
  if(it.k=='photo'||it.k=='motion'){
   var im=el('img','bg');im.src=it.f;
   if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);
@@ -222,7 +245,7 @@ function build(it){
  L.corner=corner;return L;
 }
 // ---- still-image movement library: assigned per image, never the same twice in a row ----
-var MV={'m/g01.jpg':'rays','m/terrace.jpg':'clouds','m/g07.jpg':'grain','m/g08.jpg':'clouds','m/g12.jpg':'rays','m/g11.jpg':'focus','m/g04.jpg':'grain','m/g05.jpg':'focus','m/g09.jpg':'grain','m/g06.jpg':'grain','m/g10.jpg':'clouds','m/g02.jpg':'focus','m/g03.jpg':'grain','m/h01.jpg':'rays','m/h02.jpg':'grain','m/h03.jpg':'grain','m/h04.jpg':'clouds','m/h05.jpg':'grain','m/h06.jpg':'focus','m/h07.jpg':'rays','m/h08.jpg':'grain','m/h09.jpg':'grain','m/h10.jpg':'grain'};
+var MV={'m/n01.jpg':'rays','m/g01.jpg':'rays','m/terrace.jpg':'clouds','m/g07.jpg':'grain','m/g08.jpg':'clouds','m/g12.jpg':'rays','m/g11.jpg':'focus','m/g04.jpg':'grain','m/g05.jpg':'focus','m/g09.jpg':'grain','m/g06.jpg':'grain','m/g10.jpg':'clouds','m/g02.jpg':'focus','m/g03.jpg':'grain','m/h01.jpg':'rays','m/h02.jpg':'grain','m/h03.jpg':'grain','m/h04.jpg':'clouds','m/h05.jpg':'grain','m/h06.jpg':'focus','m/h07.jpg':'rays','m/h08.jpg':'grain','m/h09.jpg':'grain','m/h10.jpg':'grain'};
 var MVALL=['focus','rays','grain','clouds'],lastMv='';
 var GRAIN=null;function grainURL(){if(GRAIN)return GRAIN;try{var c=document.createElement('canvas');c.width=c.height=160;var x=c.getContext('2d'),d=x.createImageData(160,160);for(var i=0;i<d.data.length;i+=4){var v=Math.random()*255|0;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}x.putImageData(d,0,0);GRAIN=c.toDataURL()}catch(e){GRAIN=''}return GRAIN}
 function addMove(L,im,it){var m=it.mv||MV[it.f]||MVALL[0];if(m==lastMv)m=MVALL[(MVALL.indexOf(m)+1+Math.floor(Math.random()*3))%MVALL.length];
@@ -236,7 +259,7 @@ function addMove(L,im,it){var m=it.mv||MV[it.f]||MVALL[0];if(m==lastMv)m=MVALL[(
   else if(m=='grain'){var g=el('div','grain');var u=grainURL();if(u)g.style.backgroundImage='url('+u+')';L.appendChild(g);L.appendChild(el('div','vig'))}}
  L.mv=m;}
 // ---- transitions: rotating library; auto-falls back to plain crossfade if the TV can't keep up ----
-var TRS=['blur','zoom','wipe','leak','mist','luma'],tq=[],lastTr='';
+var TRS=['blur','zoom','wipe','leak','mist','luma','lift','split'],tq=[],lastTr='';
 var LITE=false;try{LITE=localStorage.getItem('ss_lite')=='1'}catch(e){}
 var MASK=(function(){var d=document.createElement('div').style;return 'webkitMaskImage' in d||'maskImage' in d})();
 var FORCE=(location.search.match(/tr=(\w+)/)||[])[1];
@@ -273,7 +296,7 @@ function showSpecial(x){shown[x[0]]=1;var it=x[1];if(x[3])it.tag='Gün Batımı 
 var recent=[],n=0;
 function next(){
  n++;var it;
- if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%6==3)it={k:['quote','fact','recipe'][Math.floor(n/6)%3]};
+ if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:['quote','fact','recipe'][Math.floor(n/6)%3]};
  else{var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].s.indexOf(s)>=0&&recent.indexOf(i)<0)c.push(i);
   if(!c.length){recent=[];return next()}var j=c[Math.floor(Math.random()*c.length)];recent.push(j);if(recent.length>6)recent.shift();it=P[j];}
  return it;
@@ -301,6 +324,6 @@ setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
 // start: clock first, then rotate
 if(LITE)document.body.className='lite';
 var Q0=(location.search.match(/demo=(\d+)/)||[])[1];if(Q0){SLIDE=+Q0*1000}
-if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else{n=5;rotate()}poll();
+if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else{n=5;rotate()}poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
