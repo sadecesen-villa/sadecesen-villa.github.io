@@ -111,7 +111,7 @@ var MON=['January','February','March','April','May','June','July','August','Sept
 var WX={t:null,c:''};
 var WC={0:['Açık','Clear'],1:['Az bulutlu','Mostly clear'],2:['Parçalı bulutlu','Partly cloudy'],3:['Kapalı','Overcast'],45:['Sisli','Foggy'],48:['Sisli','Foggy'],51:['Çisenti','Drizzle'],53:['Çisenti','Drizzle'],55:['Çisenti','Drizzle'],61:['Yağmurlu','Rain'],63:['Yağmurlu','Rain'],65:['Sağanak','Heavy rain'],71:['Kar','Snow'],73:['Kar','Snow'],75:['Yoğun kar','Heavy snow'],80:['Sağanak','Showers'],81:['Sağanak','Showers'],82:['Sağanak','Showers'],95:['Gök gürültülü','Thunderstorm']};
 function wx(){var x=new XMLHttpRequest();x.open('GET','https://api.open-meteo.com/v1/forecast?latitude=40.95&longitude=39.93&current=temperature_2m,weather_code&timezone=Europe%2FIstanbul',true);
- x.onload=function(){try{var j=JSON.parse(x.responseText).current;WX.t=Math.round(j.temperature_2m);WX.c=WC[j.weather_code]||['',''];}catch(e){}};x.send()}
+ x.onload=function(){try{var j=JSON.parse(x.responseText).current;WX.t=Math.round(j.temperature_2m);WX.k=j.weather_code;WX.c=WC[j.weather_code]||['',''];}catch(e){}};x.send()}
 wx();setInterval(wx,1800000);
 function wxs(){return WX.t===null?'ARSIN · TRABZON':WX.t+'°  ·  '+WX.c[0]+' / '+WX.c[1]}
 function tick(){var d=ist();document.getElementById('ct').innerHTML=pad(d.getHours())+':'+pad(d.getMinutes());document.getElementById('cw').innerHTML=wxs();
@@ -120,6 +120,9 @@ setInterval(tick,1000);
 // ---- content ----
 // s: slots it fits (m a e n). k: photo|motion|clock|quote|fact
 var P=[
+ {k:'photo',f:'m/la01.jpg',s:'ma',tag:'Yaşayan Sanat · Living Art',tr:'Sonbaharın ilk fındıkları',en:'The first hazelnuts of autumn'},
+ {k:'photo',f:'m/la02.jpg',s:'ae',wx:'rain',tag:'Yaşayan Sanat · Living Art',tr:'Yağmur yağarken bir bardak çay',en:'A glass of tea while it rains'},
+ {k:'photo',f:'m/la03.jpg',s:'a',tag:'Yaşayan Sanat · Living Art',tr:'Taş duvarda ikindi ışığı',en:'Afternoon light on the stone wall'},
  {k:'photo',f:'m/n01.jpg',s:'ma',tag:'Fındık Hasadı · Hazelnut Harvest',tr:'Fındık hasadı, Karadeniz yamaçlarında',en:'Hazelnut harvest on the Black Sea slopes'},
  {k:'photo',f:'m/g01.jpg',s:'m',tag:'Karadeniz',tr:'Gün Karadeniz’in üzerine doğuyor',en:'Morning rises over the Black Sea'},
  {k:'photo',f:'m/terrace.jpg',s:'ma',tag:'Sadece Sen',tr:'Terastan bugünün manzarası',en:'Today’s view from the terrace'},
@@ -245,7 +248,7 @@ function build(it){
  L.corner=corner;return L;
 }
 // ---- still-image movement library: assigned per image, never the same twice in a row ----
-var MV={'m/n01.jpg':'rays','m/g01.jpg':'rays','m/terrace.jpg':'clouds','m/g07.jpg':'grain','m/g08.jpg':'clouds','m/g12.jpg':'rays','m/g11.jpg':'focus','m/g04.jpg':'grain','m/g05.jpg':'focus','m/g09.jpg':'grain','m/g06.jpg':'grain','m/g10.jpg':'clouds','m/g02.jpg':'focus','m/g03.jpg':'grain','m/h01.jpg':'rays','m/h02.jpg':'grain','m/h03.jpg':'grain','m/h04.jpg':'clouds','m/h05.jpg':'grain','m/h06.jpg':'focus','m/h07.jpg':'rays','m/h08.jpg':'grain','m/h09.jpg':'grain','m/h10.jpg':'grain'};
+var MV={'m/la01.jpg':'focus','m/la02.jpg':'grain','m/la03.jpg':'rays','m/n01.jpg':'rays','m/g01.jpg':'rays','m/terrace.jpg':'clouds','m/g07.jpg':'grain','m/g08.jpg':'clouds','m/g12.jpg':'rays','m/g11.jpg':'focus','m/g04.jpg':'grain','m/g05.jpg':'focus','m/g09.jpg':'grain','m/g06.jpg':'grain','m/g10.jpg':'clouds','m/g02.jpg':'focus','m/g03.jpg':'grain','m/h01.jpg':'rays','m/h02.jpg':'grain','m/h03.jpg':'grain','m/h04.jpg':'clouds','m/h05.jpg':'grain','m/h06.jpg':'focus','m/h07.jpg':'rays','m/h08.jpg':'grain','m/h09.jpg':'grain','m/h10.jpg':'grain'};
 var MVALL=['focus','rays','grain','clouds'],lastMv='';
 var GRAIN=null;function grainURL(){if(GRAIN)return GRAIN;try{var c=document.createElement('canvas');c.width=c.height=160;var x=c.getContext('2d'),d=x.createImageData(160,160);for(var i=0;i<d.data.length;i+=4){var v=Math.random()*255|0;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}x.putImageData(d,0,0);GRAIN=c.toDataURL()}catch(e){GRAIN=''}return GRAIN}
 function addMove(L,im,it){var m=it.mv||MV[it.f]||MVALL[0];if(m==lastMv)m=MVALL[(MVALL.indexOf(m)+1+Math.floor(Math.random()*3))%MVALL.length];
@@ -297,7 +300,8 @@ var recent=[],n=0;
 function next(){
  n++;var it;
  if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:['quote','fact','recipe'][Math.floor(n/6)%3]};
- else{var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].s.indexOf(s)>=0&&recent.indexOf(i)<0)c.push(i);
+ else if(WX.k>=51&&Math.random()<.25){for(var i=0;i<P.length;i++)if(P[i].wx=='rain')it=P[i]}
+ if(!it){var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].s.indexOf(s)>=0&&recent.indexOf(i)<0)c.push(i);
   if(!c.length){recent=[];return next()}var j=c[Math.floor(Math.random()*c.length)];recent.push(j);if(recent.length>6)recent.shift();it=P[j];}
  return it;
 }
