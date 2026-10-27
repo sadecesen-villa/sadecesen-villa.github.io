@@ -48,7 +48,9 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 .layer iframe{width:100%;height:100%;border:0}
 .shade{position:absolute;left:0;right:0;bottom:0;height:45%;background:linear-gradient(to top,rgba(0,0,0,.65),rgba(0,0,0,0))}
 .cap{position:absolute;left:6%;right:6%;bottom:8%;text-shadow:0 2px 14px rgba(0,0,0,.8)}
+.mdisc{width:6.4vw;height:6.4vw;border-radius:50%;margin:2.4vw auto;background:radial-gradient(circle at 40% 38%,#f4efe2,#cfc8b6 60%,#a9a294);box-shadow:0 0 3vw rgba(240,232,210,.25)}
 .cap .tr{font-size:3.2vw;letter-spacing:.03em}
+.cap.top{bottom:auto;top:9%}.cap.right{left:auto;right:6%;text-align:right;max-width:52%}
 .cap .en{font-size:1.8vw;font-style:italic;color:#d8d3c8;margin-top:.6vw;letter-spacing:.05em}
 .cap .tag{font-family:Helvetica,Arial,sans-serif;font-size:1vw;letter-spacing:.5em;color:#bfc6c9;margin-bottom:1vw;text-transform:uppercase}
 #corner{position:absolute;top:4%;right:4%;z-index:50;text-align:right;font-family:Helvetica,Arial,sans-serif;color:rgba(255,255,255,.85);text-shadow:0 1px 8px rgba(0,0,0,.7)}
@@ -124,12 +126,14 @@ setInterval(tick,1000);
 // ---- content ----
 // s: slots it fits (m a e n). k: photo|motion|clock|quote|fact
 var P=[
- {k:'photo',f:'m/la01.jpg',s:'ma',tag:'Yaşayan Sanat · Living Art',tr:'Sonbaharın ilk fındıkları',en:'The first hazelnuts of autumn'},
+ {k:'photo',f:'m/la01.jpg',s:'ma',cp:'top',tag:'Yaşayan Sanat · Living Art',tr:'Sonbaharın ilk fındıkları',en:'The first hazelnuts of autumn'},
  {k:'photo',f:'m/la02.jpg',s:'ae',wx:'rain',tag:'Yaşayan Sanat · Living Art',tr:'Yağmur yağarken bir bardak çay',en:'A glass of tea while it rains'},
  {k:'photo',f:'m/la03.jpg',s:'a',tag:'Yaşayan Sanat · Living Art',tr:'Taş duvarda ikindi ışığı',en:'Afternoon light on the stone wall'},
  {k:'photo',f:'m/n02.jpg',s:'ae',tag:'Huzur · Peace',tr:'Bir bardak çay, bir bank, bir deniz',en:'A glass of tea, a bench, a sea'},
  {k:'motion',f:'m/tea-terrace.webp',s:'ae',tag:'İkindi · Late Afternoon',tr:'Işıklar geri geldi; şimdi biraz huzur',en:'The lights are back; now a little peace'},
  {k:'motion',f:'m/rain-tea.webp',s:'mae',wx:'rain',tag:'Yaşayan Sanat · Living Art',tr:'Camda yağmur, elde sıcak çay',en:'Rain on the glass, warm tea in hand'},
+ {k:'motion',f:'m/ev-window.webp',s:'en',tag:'Akşam · Evening',tr:'Çiseleyen yağmurda taş evin ışığı',en:'Lamplight in a stone house, in the drizzle'},
+ {k:'motion',f:'m/ev-boats.webp',s:'en',tag:'Gece · Night',tr:'Karadeniz’de balıkçı ışıkları',en:'Fishing-boat lights on the Black Sea'},
  {k:'motion',f:'m/leaf-shadows.webp',s:'a',tag:'Yaşayan Sanat · Living Art',tr:'Taş duvarda yaprak gölgeleri',en:'Leaf shadows dancing on the stone wall'},
  {k:'photo',f:'m/n01.jpg',s:'ma',tag:'Fındık Hasadı · Hazelnut Harvest',tr:'Fındık hasadı, Karadeniz yamaçlarında',en:'Hazelnut harvest on the Black Sea slopes'},
  {k:'photo',f:'m/g01.jpg',s:'m',tag:'Karadeniz',tr:'Gün Karadeniz’in üzerine doğuyor',en:'Morning rises over the Black Sea'},
@@ -139,8 +143,8 @@ var P=[
  {k:'photo',f:'m/g12.jpg',s:'a',tag:'Doğa · Nature',tr:'Ormanın kalbinde su sesi',en:'The sound of water in the heart of the forest'},
  {k:'photo',f:'m/g11.jpg',s:'ma',tag:'Galeri · Gallery',tr:'Çay Bahçeleri — suluboya',en:'Tea Gardens — watercolour'},
  {k:'photo',f:'m/g04.jpg',s:'ae',tag:'Galeri · Gallery',tr:'Akşam Limanı — yağlıboya',en:'Harbour at Dusk — oil on canvas'},
- {k:'photo',f:'m/g05.jpg',s:'ae',tag:'Galeri · Gallery',tr:'Fındık, İncir ve Nar — natürmort',en:'Hazelnuts, Figs & Pomegranate — still life'},
- {k:'photo',f:'m/g09.jpg',s:'aen',tag:'Müzik · Music',tr:'Sesin rengi',en:'The colour of sound'},
+ {k:'photo',f:'m/g05.jpg',s:'ae',tag:'Galeri · Gallery',cp:'top',tr:'Fındık, İncir ve Nar — natürmort',en:'Hazelnuts, Figs & Pomegranate — still life'},
+ {k:'photo',f:'m/g09.jpg',s:'en',cp:'top',tag:'Müzik · Music',tr:'Akşam ezgisi',en:'An evening melody'},
  {k:'photo',f:'m/g06.jpg',s:'en',tag:'Şömine · Fireplace',tr:'Dışarıda yağmur, içeride sıcacık',en:'Rain outside, warmth within'},
  {k:'photo',f:'m/g10.jpg',s:'en',tag:'Gece · Night',tr:'Denizde ay ışığından bir yol',en:'A path of moonlight on the sea'},
  {k:'photo',f:'m/g02.jpg',s:'n',tag:'Kutup Işıkları · Aurora',tr:'Gökyüzü dans ediyor',en:'The sky is dancing'},
@@ -163,8 +167,8 @@ var P=[
  {k:'photo',f:'m/h04.jpg',s:'m',tag:'Kapadokya',tr:'Gökyüzü balonlarla uyanıyor',en:'The sky wakes up with balloons'},
  {k:'photo',f:'m/h05.jpg',s:'en',tag:'Boğaziçi · Bosphorus',tr:'İki kıta, tek bir gece',en:'Two continents, one night'},
  {k:'photo',f:'m/h06.jpg',s:'ma',tag:'Kahve Molası',tr:'Köpükte küçük bir sanat',en:'A little art in the foam'},
- {k:'photo',f:'m/h07.jpg',s:'a',tag:'Öğle Uykusu · Siesta',tr:'Güneşin en güzel köşesi',en:'The sunniest spot in the house'},
- {k:'photo',f:'m/h08.jpg',s:'aen',tag:'Caz · Jazz',tr:'Plak döner, zaman yavaşlar',en:'The record spins, time slows down'},
+ {k:'photo',f:'m/h07.jpg',s:'a',cp:'right',tag:'Öğle Uykusu · Siesta',tr:'Güneşin en güzel köşesi',en:'The sunniest spot in the house'},
+ {k:'photo',f:'m/h08.jpg',s:'aen',cp:'right',tag:'Caz · Jazz',tr:'Plak döner, zaman yavaşlar',en:'The record spins, time slows down'},
  {k:'photo',f:'m/h09.jpg',s:'en',tag:'Kütüphane · Library',tr:'Yağmurlu bir akşam için en iyi yer',en:'The best place for a rainy evening'},
  {k:'photo',f:'m/h10.jpg',s:'en',tag:'Kış · Winter',tr:'Karlı çamların arasında sıcak bir ışık',en:'A warm light among the snowy pines'}
 ];
@@ -242,11 +246,20 @@ function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!=null
 function capt(tag,tr,en){var c=el('div','cap');c.appendChild(el('div','tag',tag));c.appendChild(el('div','tr',tr));c.appendChild(el('div','en',en));return c}
 function bgOf(f){for(var i=0;i<P.length;i++)if(P[i].f==f)return f;return 'm/g01.jpg'}
 function pickBg(){var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].k=='photo'&&P[i].s.indexOf(s)>=0)c.push(P[i].f);return c[Math.floor(Math.random()*c.length)]}
+var SQ=[['Bu yıl seni en çok ne güldürdü?','What made you laugh the most this year?'],['Çocukluğundan hatırladığın en güzel koku hangisi?','What is the loveliest smell you remember from childhood?'],['Burada bir gün daha kalsan ne yapardın?','If you stayed here one more day, what would you do?'],['En sevdiğin yemeği kim pişirirdi?','Who used to cook your favourite meal?'],['Hiç unutmadığın bir yolculuk hangisi?','Which journey have you never forgotten?'],['Bugün seni ne mutlu etti?','What made you happy today?'],['Gençliğine tek bir cümle söyleyebilseydin?','If you could tell your younger self one sentence?'],['Hangi şarkı seni hep bir yere götürür?','Which song always takes you somewhere?']];
+function moon(){var syn=29.530588853,ref=Date.UTC(2000,0,6,18,14)/864e5,age=((Date.now()/864e5-ref)%syn+syn)%syn,ill=Math.round((1-Math.cos(2*Math.PI*age/syn))/2*100),
+ N=[['Yeni Ay','New Moon'],['Hilal (büyüyen)','Waxing Crescent'],['İlk Dördün','First Quarter'],['Büyüyen Ay','Waxing Gibbous'],['Dolunay','Full Moon'],['Küçülen Ay','Waning Gibbous'],['Son Dördün','Last Quarter'],['Hilal (küçülen)','Waning Crescent']],i=Math.floor((age/syn*8)+.5)%8;
+ var nf=(14.765-age+syn)%syn;return {age:age,ill:ill,n:N[i],full:Math.round(age<14.765?14.765-age:syn-age+14.765),wax:age<syn/2}}
 function build(it){
  var L=el('div','layer'),corner=true;
  if(it.k=='word'){var d=ist(),w=WD[(Math.floor(d.getTime()/86400000))%WD.length];if(!w[4]&&(d.getDate()%2))w=WD[0];
   var b=el('img','bg');b.src=w[4]||pickBg();if(!w[4])b.style.filter='blur(16px) brightness(.45)';b.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(b);L.appendChild(el('div','shade'));
   var C=el('div','center wd');C.style.cssText+=';align-items:flex-start;text-align:left;padding-left:8%';C.appendChild(el('div','small','Günün Kelimesi · Word of the Day'));C.appendChild(el('div','tr',w[0]));C.appendChild(el('div','en',w[1]));C.appendChild(el('div','st',w[2]+'<br>'+w[3]));L.appendChild(C);L.corner=true;return L}
+ if(it.k=='sohbet'||it.k=='moon'){var b=el('img','bg');b.src=it.k=='moon'?'m/ev-boats.jpg':pickBg();b.style.filter='blur(14px) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');
+  if(it.k=='sohbet'){var x=SQ[Math.floor(Date.now()/864e5*3)%SQ.length];C.appendChild(el('div','small','Akşam Sohbeti · Evening Conversation'));C.appendChild(el('div','line'));C.appendChild(el('div','tr',x[0]));C.appendChild(el('div','en',x[1]))}
+  else{var m=moon(),d=el('div','mdisc');d.style.boxShadow=(m.wax?'inset ':'inset -')+Math.round((1-m.ill/50)*3.2*10)/10+'vw 0 0 0 rgba(8,12,20,.92)';if(m.ill>=50){d.style.boxShadow='none';d.style.opacity=.55+m.ill/220}
+   C.appendChild(el('div','small','Bu Gece Ay · Tonight’s Moon'));C.appendChild(d);C.appendChild(el('div','tr',m.n[0]+' · %'+m.ill+' aydınlık'));C.appendChild(el('div','en',m.n[1]+' · '+m.ill+'% illuminated'+(m.ill>=90?'':' · '+(m.wax?'full moon in '+m.full+' days':'new moon in '+Math.round(29.53-m.age)+' days'))))}
+  L.appendChild(C);L.corner=true;return L}
  if(it.k=='today'){var x=TD[tdKey()];if(!x)it={k:'fact'};else{var b=el('img','bg');b.src=pickBg();b.style.filter='blur(14px) brightness(.4)';b.style.transform='scale(1.12)';L.appendChild(b);
   var C=el('div','center q');var d=ist();C.appendChild(el('div','small','Bugün Tarihte · On This Day — '+d.getDate()+' '+AY[d.getMonth()]));C.appendChild(el('div','line'));C.appendChild(el('div','tr',x[0]));C.appendChild(el('div','en',x[1]));L.appendChild(C);L.corner=true;return L}}
  if(it.k=='world'){var w=W[wi=(wi+1)%W.length];var im=el('img','bg');im.src=w.f;im.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im);L.appendChild(el('div','wglow'));L.appendChild(el('div','shade'));
@@ -254,8 +267,8 @@ function build(it){
   var iv=setInterval(function(){if(!L.parentNode)clearInterval(iv);else t.innerHTML=wtime(w)},20000);L.corner=true;return L}
  if(it.k=='photo'||it.k=='motion'){
   var im=el('img','bg');im.src=it.f;
-  if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);
-  L.appendChild(el('div','shade'));L.appendChild(capt(it.tag,it.tr,it.en));
+  if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);L.sun=!!SUNOK[it.f];
+  L.appendChild(el('div','shade'));var cp=capt(it.tag,it.tr,it.en);if(it.cp)cp.className+=' '+it.cp;L.appendChild(cp);
  } else {
   var b=el('div','bg');b.style.backgroundImage='url('+pickBg()+')';b.style.filter='blur(18px) brightness(.45)';b.style.transform='scale(1.15)';L.appendChild(b);
   var C=el('div','center');
@@ -281,10 +294,12 @@ function build(it){
  L.corner=corner;return L;
 }
 // ---- still-image movement library: assigned per image, never the same twice in a row ----
-var MV={'m/n02.jpg':'rays','m/la01.jpg':'focus','m/la02.jpg':'grain','m/la03.jpg':'rays','m/n01.jpg':'rays','m/g01.jpg':'rays','m/terrace.jpg':'clouds','m/g07.jpg':'grain','m/g08.jpg':'clouds','m/g12.jpg':'rays','m/g11.jpg':'focus','m/g04.jpg':'grain','m/g05.jpg':'focus','m/g09.jpg':'grain','m/g06.jpg':'grain','m/g10.jpg':'clouds','m/g02.jpg':'focus','m/g03.jpg':'grain','m/h01.jpg':'rays','m/h02.jpg':'grain','m/h03.jpg':'grain','m/h04.jpg':'clouds','m/h05.jpg':'grain','m/h06.jpg':'focus','m/h07.jpg':'rays','m/h08.jpg':'grain','m/h09.jpg':'grain','m/h10.jpg':'grain'};
+var MV={'m/n02.jpg':'rays','m/la01.jpg':'focus','m/la02.jpg':'grain','m/la03.jpg':'focus','m/n01.jpg':'rays','m/g01.jpg':'rays','m/terrace.jpg':'clouds','m/g07.jpg':'grain','m/g08.jpg':'clouds','m/g12.jpg':'rays','m/g11.jpg':'focus','m/g04.jpg':'grain','m/g05.jpg':'focus','m/g09.jpg':'focus','m/g06.jpg':'grain','m/g10.jpg':'clouds','m/g02.jpg':'focus','m/g03.jpg':'grain','m/h01.jpg':'focus','m/h02.jpg':'grain','m/h03.jpg':'grain','m/h04.jpg':'clouds','m/h05.jpg':'grain','m/h06.jpg':'focus','m/h07.jpg':'focus','m/h08.jpg':'grain','m/h09.jpg':'grain','m/h10.jpg':'grain'};
 var MVALL=['focus','rays','grain','clouds'],lastMv='';
+// sun effects (rays, light-leak) only on daytime outdoor scenes with real sun in frame
+var SUNOK={'m/n01.jpg':1,'m/n02.jpg':1,'m/g01.jpg':1,'m/g12.jpg':1,'m/terrace.jpg':1,'m/sp-sunset.jpg':1};
 var GRAIN=null;function grainURL(){if(GRAIN)return GRAIN;try{var c=document.createElement('canvas');c.width=c.height=160;var x=c.getContext('2d'),d=x.createImageData(160,160);for(var i=0;i<d.data.length;i+=4){var v=Math.random()*255|0;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}x.putImageData(d,0,0);GRAIN=c.toDataURL()}catch(e){GRAIN=''}return GRAIN}
-function addMove(L,im,it){var m=it.mv||MV[it.f]||MVALL[0];if(m==lastMv)m=MVALL[(MVALL.indexOf(m)+1+Math.floor(Math.random()*3))%MVALL.length];
+function addMove(L,im,it){var m=it.mv||MV[it.f]||MVALL[0];if(m==lastMv){var alt=MVALL.filter(function(x){return x!=m&&(x!='rays'||SUNOK[it.f])});m=alt[Math.floor(Math.random()*alt.length)]}if(m=='rays'&&!SUNOK[it.f])m='focus';
  if(LITE&&(m=='focus'||m=='para'))m='grain';lastMv=m;var D=(SLIDE/1000+6)+'s',E=' cubic-bezier(.37,0,.63,1) both';
  if(m=='para'){var st=el('div','stage');im.style.animation='paB '+D+E;st.appendChild(im);var f=el('img','bg front');f.src=it.f;f.style.animation='paF '+D+E;st.appendChild(f);L.appendChild(st);L.appendChild(el('div','vig'));}
  else if(m=='orbit'){var st=el('div','stage orbit');im.style.animation='orb '+D+E;st.appendChild(im);L.appendChild(st);L.appendChild(el('div','vig'));}
@@ -306,7 +321,7 @@ var slowCount=0;function perf(ms){var f=0,t0=null;function c(t){if(t0===null)t0=
 var cur=null;
 function swap(L,trn){document.body.appendChild(L);var gone=false;
  function go(){if(gone)return;gone=true;document.getElementById('corner').style.display=L.corner?'block':'none';tick();
-  var tr=trn||(cur?pickTr():'fade');window.lastTr=tr;
+  var tr=trn||(cur?pickTr():'fade');if(tr=='leak'&&!(L.sun))tr='mist';window.lastTr=tr;
   requestAnimationFrame(function(){requestAnimationFrame(function(){var o=cur;cur=L;
    L.className='layer tx in-'+tr;if(o)o.className='layer tx out out-'+tr;
    if(tr=='leak'||tr=='mist'||tr=='wipe'){var fx=el('div','fx fx-'+(tr=='wipe'?'sweep':tr));document.body.appendChild(fx);setTimeout(function(){if(fx.parentNode)fx.parentNode.removeChild(fx)},3700)}
@@ -332,7 +347,7 @@ function showSpecial(x){shown[x[0]]=1;var it=x[1];if(x[3])it.tag='Gün Batımı 
 var recent=[],n=0;
 function next(){
  n++;var it;
- if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:['today','quote','word','fact','recipe'][Math.floor(n/6)%5]};
+ if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:(slot()=='e'||slot()=='n')?['today','sohbet','word','moon','quote','fact'][Math.floor(n/6)%6]:['today','quote','word','fact','recipe'][Math.floor(n/6)%5]};
  else if(WX.k>=51&&Math.random()<.25){for(var i=0;i<P.length;i++)if(P[i].wx=='rain')it=P[i]}
  if(!it){var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].s.indexOf(s)>=0&&recent.indexOf(i)<0)c.push(i);
   if(!c.length){recent=[];return next()}var j=c[Math.floor(Math.random()*c.length)];recent.push(j);if(recent.length>6)recent.shift();it=P[j];}
