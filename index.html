@@ -99,9 +99,20 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 .wc>*{animation:rise 2.2s cubic-bezier(.33,1,.68,1) both}.wc>*:nth-child(1){animation-delay:1.6s}.wc>*:nth-child(2){animation-delay:1.9s}.wc>*:nth-child(3){animation-delay:2.2s}.wc>*:nth-child(4){animation-delay:2.5s}
 .layer.out .wc>*{animation:fo 1.1s cubic-bezier(.65,0,.35,1) both!important}
 .wd .tr{font-size:6vw;letter-spacing:.04em}.wd .en{font-size:2vw;font-style:italic;color:#cfc9bd;margin-top:1vw}.wd .st{font-size:1.7vw;line-height:1.6;color:#e6e1d6;margin-top:2vw;max-width:60vw}
+.in-iris{opacity:1;-webkit-mask-image:radial-gradient(circle at 50% 50%,#000 0%,#000 45%,rgba(0,0,0,0) 70%);mask-image:radial-gradient(circle at 50% 50%,#000 0%,#000 45%,rgba(0,0,0,0) 70%);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:50% 50%;mask-position:50% 50%;animation-name:irIn;animation-duration:3.4s!important}
+@keyframes irIn{0%{-webkit-mask-size:0% 0%;mask-size:0% 0%;transform:scale(1.06)}100%{-webkit-mask-size:320% 320%;mask-size:320% 320%;transform:scale(1)}}
+.out-iris{animation-name:hold}
+.sea{position:absolute;left:6vw;top:9vh;color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.75)}
+.sea .k{font-family:Helvetica,Arial,sans-serif;font-size:1vw;letter-spacing:.5em;color:#d5dde0;margin-bottom:1.4vw}
+.sea .row{display:flex;gap:4vw}.sea .v{font-size:4.6vw;font-weight:300;line-height:1}.sea .l{font-size:1.4vw;margin-top:.5vw}.sea .l i{color:#d8d2c6}
+.sea .s{font-size:1.9vw;margin-top:2.2vw;max-width:46vw}.sea .s i{display:block;font-size:1.4vw;color:#d8d2c6;margin-top:.3vw}
+.sea>*{animation:rise 2.2s cubic-bezier(.33,1,.68,1) both}.sea>*:nth-child(2){animation-delay:1.5s}.sea>*:nth-child(3){animation-delay:2.1s}.sea>*:nth-child(1){animation-delay:1s}
+.layer.out .sea>*{animation:fo 1.1s cubic-bezier(.65,0,.35,1) both!important}
+.shot{position:absolute;inset:0;opacity:0;transition:opacity 3.5s cubic-bezier(.45,0,.55,1)}.shot.on{opacity:1}.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#dim{position:fixed;inset:0;background:#000;pointer-events:none;z-index:9000;opacity:0;transition:opacity 60s linear}
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
-<div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
+<div id="dim"></div><div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
 <script>
 // ---- Sadece Sen TV: autonomous rotation (all media hosted here on GitHub Pages; ngrok only for manual pushes) ----
 var BASE='https://cabana-margarine-unsigned.ngrok-free.dev/a1fab203f71be9a06a33b65004ed1e94/';
@@ -126,6 +137,7 @@ setInterval(tick,1000);
 // ---- content ----
 // s: slots it fits (m a e n). k: photo|motion|clock|quote|fact
 var P=[
+ {k:'motion',f:'m/fox.webp',s:'en',nw:1,tag:'Sessiz Ziyaretçi · A Quiet Visitor',tr:'Alacakaranlıkta bahçenin sessiz misafiri',en:'The garden’s quiet guest at dusk'},
  {k:'photo',f:'m/la01.jpg',s:'ma',cp:'top',tag:'Yaşayan Sanat · Living Art',tr:'Sonbaharın ilk fındıkları',en:'The first hazelnuts of autumn'},
  {k:'photo',f:'m/la02.jpg',s:'ae',wx:'rain',tag:'Yaşayan Sanat · Living Art',tr:'Yağmur yağarken bir bardak çay',en:'A glass of tea while it rains'},
  {k:'photo',f:'m/la03.jpg',s:'a',tag:'Yaşayan Sanat · Living Art',tr:'Taş duvarda ikindi ışığı',en:'Afternoon light on the stone wall'},
@@ -252,6 +264,7 @@ function moon(){var syn=29.530588853,ref=Date.UTC(2000,0,6,18,14)/864e5,age=((Da
  var nf=(14.765-age+syn)%syn;return {age:age,ill:ill,n:N[i],full:Math.round(age<14.765?14.765-age:syn-age+14.765),wax:age<syn/2}}
 function build(it){
  var L=el('div','layer'),corner=true;
+ if(it.k=='sea')return buildSea(L);if(it.k=='hamsi')return buildHamsi(L);
  if(it.k=='word'){var d=ist(),w=WD[(Math.floor(d.getTime()/86400000))%WD.length];if(!w[4]&&(d.getDate()%2))w=WD[0];
   var b=el('img','bg');b.src=w[4]||pickBg();if(!w[4])b.style.filter='blur(16px) brightness(.45)';b.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(b);L.appendChild(el('div','shade'));
   var C=el('div','center wd');C.style.cssText+=';align-items:flex-start;text-align:left;padding-left:8%';C.appendChild(el('div','small','Günün Kelimesi · Word of the Day'));C.appendChild(el('div','tr',w[0]));C.appendChild(el('div','en',w[1]));C.appendChild(el('div','st',w[2]+'<br>'+w[3]));L.appendChild(C);L.corner=true;return L}
@@ -310,11 +323,11 @@ function addMove(L,im,it){var m=it.mv||MV[it.f]||MVALL[0];if(m==lastMv){var alt=
   else if(m=='grain'){var g=el('div','grain');var u=grainURL();if(u)g.style.backgroundImage='url('+u+')';L.appendChild(g);L.appendChild(el('div','vig'))}}
  L.mv=m;}
 // ---- transitions: rotating library; auto-falls back to plain crossfade if the TV can't keep up ----
-var TRS=['blur','zoom','wipe','leak','mist','luma','lift','split'],tq=[],lastTr='';
+var TRS=['blur','zoom','wipe','leak','mist','luma','lift','split','iris'],tq=[],lastTr='';
 var LITE=false;try{LITE=localStorage.getItem('ss_lite')=='1'}catch(e){}
 var MASK=(function(){var d=document.createElement('div').style;return 'webkitMaskImage' in d||'maskImage' in d})();
 var FORCE=(location.search.match(/tr=(\w+)/)||[])[1];
-function pickTr(){if(FORCE)return FORCE;var ok=LITE?['fade','zoom']:TRS.filter(function(t){return MASK||(t!='wipe'&&t!='luma'&&t!='split')});
+function pickTr(){if(FORCE)return FORCE;var ok=LITE?['fade','zoom']:TRS.filter(function(t){return MASK||(t!='wipe'&&t!='luma'&&t!='split'&&t!='iris')});
  if(!tq.length){tq=ok.slice().sort(function(){return Math.random()-.5});if(tq[0]==lastTr)tq.push(tq.shift())}lastTr=tq.shift();return lastTr}
 var slowCount=0;function perf(ms){var f=0,t0=null;function c(t){if(t0===null)t0=t;f++;if(t-t0<ms)requestAnimationFrame(c);else{var fps=f*1000/(t-t0);window.lastFps=Math.round(fps);
  if(fps<24){slowCount++;if(slowCount>=2){LITE=true;try{localStorage.setItem('ss_lite','1')}catch(e){}document.body.className='lite'}}else slowCount=0}}requestAnimationFrame(c)}
@@ -343,13 +356,40 @@ function special(){var d=ist(),key=d.getFullYear()+'-'+d.getMonth()+'-'+d.getDat
  if(m>=23*60&&m<23*60+20&&!shown['n'+key])return ['n'+key,SP.night,(23*60+20-m)*60000];
  return null}
 function showSpecial(x){shown[x[0]]=1;var it=x[1];if(x[3])it.tag='Gün Batımı · Sunset · '+x[3];var L=build(it);override=new Date().getTime()+Math.max(x[2],240000);swap(L,it.tri)}
+
+// ---- 28 Oct surprise: live sea, hamsi story, quiet visitor, iris, night dimming ----
+var SEA={h:null};function seaGet(){var x=new XMLHttpRequest();x.open('GET','https://marine-api.open-meteo.com/v1/marine?latitude=41.0&longitude=39.95&current=wave_height,sea_surface_temperature&timezone=Europe%2FIstanbul',true);
+ x.onload=function(){try{var c=JSON.parse(x.responseText).current;SEA.h=c.wave_height;SEA.t=c.sea_surface_temperature;SEA.at=c.time.slice(11,16);SEA.ok=Date.now()}catch(e){}};x.send();
+ var y=new XMLHttpRequest();y.open('GET','https://api.open-meteo.com/v1/forecast?latitude=40.95&longitude=39.93&current=wind_speed_10m,wind_direction_10m&timezone=Europe%2FIstanbul',true);
+ y.onload=function(){try{var c=JSON.parse(y.responseText).current;SEA.w=Math.round(c.wind_speed_10m);SEA.wd=c.wind_direction_10m}catch(e){}};y.send()}
+seaGet();setInterval(seaGet,30*60000);
+function windName(d){var N=[['Yıldız','north'],['Poyraz','north-east'],['Gündoğusu','east'],['Keşişleme','south-east'],['Kıble','south'],['Lodos','south-west'],['Günbatısı','west'],['Karayel','north-west']];return N[Math.round(((d%360)+360)%360/45)%8]}
+function seaMood(h){return h<0.3?['Deniz çarşaf gibi','The sea is glassy calm']:h<0.8?['Hafif dalgalı, uyutan bir deniz','Gentle swell, a lulling sea']:h<1.5?['Dalgalı; kıyıda köpükler','Choppy, with foam on the shore']:['Karadeniz coştu','The Black Sea is roaring']}
+function buildSea(L){var live=SEA.ok&&Date.now()-SEA.ok<7200000,rough=live&&SEA.h>=1.2;var im=el('img','bg');im.src=rough?'m/sea-rough.jpg':'m/sea-calm.webp';if(rough)im.style.animation='zin '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im);L.appendChild(el('div','shade'));
+ var C=el('div','sea');
+ if(live){C.appendChild(el('div','k','Karadeniz şu an · The Black Sea right now · '+SEA.at));var r=el('div','row');
+  r.innerHTML='<div><div class="v">'+SEA.h.toFixed(1).replace('.',',')+' m</div><div class="l">dalga · <i>waves</i></div></div><div><div class="v">'+Math.round(SEA.t)+'°</div><div class="l">deniz suyu · <i>sea water</i></div></div>'+(SEA.w!=null?'<div><div class="v">'+SEA.w+' km/s</div><div class="l">'+windName(SEA.wd)[0]+' · <i>'+windName(SEA.wd)[1]+' wind</i></div></div>':'');C.appendChild(r);
+  var m=seaMood(SEA.h);C.appendChild(el('div','s',m[0]+'<i>'+m[1]+'</i>'))}
+ else{C.appendChild(el('div','k','Karadeniz · The Black Sea'));C.appendChild(el('div','s','Mavi saatte çakıllara vuran dalgalar<i>Waves on the pebbles at the blue hour</i>'))}
+ L.appendChild(C);L.corner=true;return L}
+var HS=[['m/hamsi1.jpg','Gece, lambaların altında ağlar doluyor','At night, under the lamps, the nets fill up'],['m/hamsi3.jpg','Sonra tezgâhta, buzun üstünde gümüş','Then silver on ice at the market'],['m/hamsi2.jpg','Ve sofrada: mısır ununda, kızgın tavadan','And to the table: in cornmeal, from a hot pan']];
+function buildHamsi(L){var sh=[],T=SLIDE/3;for(var i=0;i<3;i++){var d=el('div','shot'+(i?'':' on')),im=el('img','');im.src=HS[i][0];im.style.animation=['zin','panl','zout'][i]+' '+(T/1000+8)+'s cubic-bezier(.37,0,.63,1) '+(i*T/1000-1)+'s both';d.appendChild(im);L.appendChild(d);sh.push(d)}
+ var b=el('img','bg');b.src=HS[0][0];b.style.opacity=0;L.appendChild(b);L.appendChild(el('div','shade'));
+ var cp=capt('Hamsi Mevsimi · Anchovy Season',HS[0][1],HS[0][2]);L.appendChild(cp);
+ var k=0,iv=setInterval(function(){if(!L.parentNode||k>=2){clearInterval(iv);return}k++;sh[k].className='shot on';sh[k-1].className='shot';
+  var nc=capt('Hamsi Mevsimi · Anchovy Season',HS[k][1],HS[k][2]);nc.firstChild.style.animation='none';L.replaceChild(nc,cp);cp=nc},T);L.corner=true;return L}
+function dimLevel(){var d=ist(),m=d.getHours()*60+d.getMinutes();if(m>=23*60+30)return Math.min(.45,(m-(23*60+30))/60*.45);if(m<330)return .45;if(m<390)return .45*(390-m)/60;return 0}
+function dimTick(){if(/nodim=1/.test(location.search))return;document.getElementById('dim').style.opacity=dimLevel()}
+setInterval(dimTick,60000);setTimeout(dimTick,500);
+var NEWQ=['sea','hamsi','fox'],nq=0;
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
 function next(){
- n++;var it;
+ n++;var it;var sl=slot();
+ if(n%6==1||((sl=='e'||sl=='n')&&n%6==5)){var q=NEWQ[nq++%NEWQ.length];if(q=='fox'&&sl!='e'&&sl!='n')q=NEWQ[nq++%NEWQ.length];if(q=='fox'){for(var i=0;i<P.length;i++)if(P[i].nw)return P[i]}return {k:q}}
  if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:(slot()=='e'||slot()=='n')?['today','sohbet','word','moon','quote','fact'][Math.floor(n/6)%6]:['today','quote','word','fact','recipe'][Math.floor(n/6)%5]};
  else if(WX.k>=51&&Math.random()<.25){for(var i=0;i<P.length;i++)if(P[i].wx=='rain')it=P[i]}
- if(!it){var s=slot(),c=[];for(var i=0;i<P.length;i++)if(P[i].s.indexOf(s)>=0&&recent.indexOf(i)<0)c.push(i);
+ if(!it){var s=slot(),c=[];for(var i=0;i<P.length;i++)if(!P[i].nw&&P[i].s.indexOf(s)>=0&&recent.indexOf(i)<0)c.push(i);
   if(!c.length){recent=[];return next()}var j=c[Math.floor(Math.random()*c.length)];recent.push(j);if(recent.length>6)recent.shift();it=P[j];}
  return it;
 }
