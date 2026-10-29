@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sadece Sen</title>
+<style>
+html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:Georgia,'Times New Roman',serif;color:#fff}
+.s{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity 2s ease-in-out}
+.s.on{opacity:1}
+.s img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}
+.cap{position:absolute;left:0;right:0;bottom:0;padding:12vh 6vw 6vh;background:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.75));text-shadow:0 2px 6px #000}
+.tr{font-size:5.2vw;line-height:1.15}
+.en{font-size:2.8vw;opacity:.85;margin-top:1vh;font-style:italic}
+.end{background:#0d1b1e;text-align:center}
+.end .sm{font-size:3vw;letter-spacing:1vw;opacity:.8;padding-top:30vh}
+.end .big{font-size:16vw;line-height:1}
+#clk{position:absolute;top:4vh;right:4vw;font-size:3vw;z-index:9;text-shadow:0 2px 6px #000}
+</style></head><body><div id="clk"></div>
+<div class="s"><img src="../m/ev-window.jpg"><div class="cap"><div class="tr">Hoş geldiniz, M · Şerif · Osman</div><div class="en">Welcome, M · Şerif · Osman</div></div></div>
+<div class="s"><img src="../m/tea-terrace.webp"><div class="cap"><div class="tr">Dostluk, en güzel misafirdir</div><div class="en">Friendship is the finest guest</div></div></div>
+<div class="s"><img src="../m/terrace.jpg"><div class="cap"><div class="tr">Osman, Villa Sadece Sen'i inşa eden dost — teşekkürler</div><div class="en">Osman, the friend building Villa Sadece Sen — thank you</div></div></div>
+<div class="s"><img src="../m/rain-tea.webp"><div class="cap"><div class="tr">Şerif, misafirperverliğin için teşekkürler</div><div class="en">Şerif, thank you for your hospitality</div></div></div>
+<div class="s"><img src="../m/sea-calm.jpg"><div class="cap"><div class="tr">Dost kara günde belli olur</div><div class="en">A friend is known on a dark day</div></div></div>
+<div class="s"><img src="../m/ev-boats.jpg"><div class="cap"><div class="tr" id="tn">Bu akşam Trabzon'da, üç dost bir arada</div><div class="en">Tonight in Trabzon, three friends together</div></div></div>
+<div class="s end"><div class="sm">SADECE</div><div class="big">Sen</div><div class="en" style="margin-top:4vh">M · Şerif · Osman</div></div>
+<script>
+var S=document.getElementsByClassName('s'),i=0;S[0].className+=' on';
+setInterval(function(){S[i].className=S[i].className.replace(' on','');i=(i+1)%S.length;S[i].className+=' on';},9000);
+function c(){var d=new Date(Date.now()+(new Date().getTimezoneOffset()+180)*60000);function p(n){return(n<10?'0':'')+n}
+document.getElementById('clk').innerHTML='Trabzon '+p(d.getHours())+':'+p(d.getMinutes());}c();setInterval(c,10000);
+</script></body></html>
