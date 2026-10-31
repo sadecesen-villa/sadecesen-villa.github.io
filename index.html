@@ -267,7 +267,7 @@ function moon(){var syn=29.530588853,ref=Date.UTC(2000,0,6,18,14)/864e5,age=((Da
 function build(it){
  var L=el('div','layer'),corner=true;
  if(it.k=='sea')return buildSea(L);
- if(it.k=='prov'){var b=el('img','bg');b.src='m/coast-night.jpg';b.style.filter='blur(14px) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');C.appendChild(el('div','small','Atasözü · Proverb'));C.appendChild(el('div','line'));C.appendChild(el('div','tr',it.tr));C.appendChild(el('div','en',it.en));C.appendChild(el('div','small',it.st));L.appendChild(C);L.corner=true;return L}if(it.k=='hamsi')return buildHamsi(L);
+ if(it.k=='prov'){var b=el('img','bg');b.src=it.bg||'m/coast-night.jpg';b.style.filter='blur(14px) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');var lb=el('div','small',it.lb||'Atasözü · Proverb');if(it.or)lb.style.color='#f0a050';C.appendChild(lb);C.appendChild(el('div','line'));C.appendChild(el('div','tr',it.tr));C.appendChild(el('div','en',it.en));C.appendChild(el('div','small',it.st));L.appendChild(C);L.corner=true;return L}if(it.k=='hamsi')return buildHamsi(L);
  if(it.k=='word'){var d=ist(),w=WD[(Math.floor(d.getTime()/86400000))%WD.length];if(!w[4]&&(d.getDate()%2))w=WD[0];
   var b=el('img','bg');b.src=w[4]||pickBg();if(!w[4])b.style.filter='blur(16px) brightness(.45)';b.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(b);L.appendChild(el('div','shade'));
   var C=el('div','center wd');C.style.cssText+=';align-items:flex-start;text-align:left;padding-left:8%';C.appendChild(el('div','small','Günün Kelimesi · Word of the Day'));C.appendChild(el('div','tr',w[0]));C.appendChild(el('div','en',w[1]));C.appendChild(el('div','st',w[2]+'<br>'+w[3]));L.appendChild(C);L.corner=true;return L}
@@ -283,7 +283,7 @@ function build(it){
   var iv=setInterval(function(){if(!L.parentNode)clearInterval(iv);else t.innerHTML=wtime(w)},20000);L.corner=true;return L}
  if(it.k=='photo'||it.k=='motion'){
   var im=el('img','bg');im.src=it.f;
-  if(it.kb){if(it.fit){var bb=el('img','bg');bb.src=it.f;bb.style.filter='blur(30px) brightness(.4)';bb.style.transform='scale(1.15)';L.appendChild(bb);im.style.objectFit='contain'}im.style.animation='zin '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im)}
+  if(it.kb){if(it.fit){var bb=el('img','bg');bb.src=it.f;bb.style.filter='blur(30px) brightness(.4)';bb.style.transform='scale(1.15)';L.appendChild(bb);im.style.objectFit='contain'}im.style.animation=['zin','zout','panl','panr'][Math.floor(Math.random()*4)]+' '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im)}
   else if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);L.sun=!!SUNOK[it.f];
   L.appendChild(el('div','shade'));var cp=capt(it.tag,it.tr,it.en);if(it.cp)cp.className+=' '+it.cp;if(it.or){cp.firstChild.style.color='#f0a050';cp.children[1].style.borderLeft='.35vw solid #e8872e';cp.children[1].style.paddingLeft='1.2vw';cp.children[2].style.paddingLeft='1.55vw'}L.appendChild(cp);
  } else {
@@ -369,7 +369,7 @@ var SEA={h:null};function seaGet(){var x=new XMLHttpRequest();x.open('GET','http
 seaGet();setInterval(seaGet,30*60000);
 function windName(d){var N=[['Yıldız','north'],['Poyraz','north-east'],['Gündoğusu','east'],['Keşişleme','south-east'],['Kıble','south'],['Lodos','south-west'],['Günbatısı','west'],['Karayel','north-west']];return N[Math.round(((d%360)+360)%360/45)%8]}
 function seaMood(h){return h<0.3?['Deniz çarşaf gibi','The sea is glassy calm']:h<0.8?['Hafif dalgalı, uyutan bir deniz','Gentle swell, a lulling sea']:h<1.5?['Dalgalı; kıyıda köpükler','Choppy, with foam on the shore']:['Karadeniz coştu','The Black Sea is roaring']}
-function buildSea(L){var live=SEA.ok&&Date.now()-SEA.ok<7200000,rough=live&&SEA.h>=1.2;var im=el('img','bg');im.src=rough?'m/sea-rough.jpg':'m/sea-calm.webp';if(rough)im.style.animation='zin '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im);L.appendChild(el('div','shade'));
+function buildSea(L){var live=SEA.ok&&Date.now()-SEA.ok<7200000,rough=live&&SEA.h>=1.2;var im=el('img','bg');im.src=rough?'m/sea-rough.jpg':'m/sea-calm.webp';if(rough)im.style.animation=['zin','zout','panl','panr'][Math.floor(Math.random()*4)]+' '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im);L.appendChild(el('div','shade'));
  var C=el('div','sea');
  if(live){C.appendChild(el('div','k','Karadeniz şu an · The Black Sea right now · '+SEA.at));var r=el('div','row');
   r.innerHTML='<div><div class="v">'+SEA.h.toFixed(1).replace('.',',')+' m</div><div class="l">dalga · <i>waves</i></div></div><div><div class="v">'+Math.round(SEA.t)+'°</div><div class="l">deniz suyu · <i>sea water</i></div></div>'+(SEA.w!=null?'<div><div class="v">'+SEA.w+' km/s</div><div class="l">'+windName(SEA.wd)[0]+' · <i>'+windName(SEA.wd)[1]+' wind</i></div></div>':'');C.appendChild(r);
@@ -388,7 +388,19 @@ setInterval(dimTick,60000);setTimeout(dimTick,500);
 var NEWQ=['sea','hamsi','fox'],nq=0;
 // 31 Oct 2026 evening: welcome for Şerif (calm, mild, overcast evening – photo is illustrative, not live)
 var WEL={k:'photo',f:'m/ev-boats.jpg',cp:'top',tag:'Hoş Geldin · Welcome',or:1,tr:'Hoş geldin Şerif Uzun — sakin, güzel bir akşam',en:'Welcome Şerif Uzun — a calm, beautiful evening'};
-var TQ=[{k:'photo',kb:1,or:1,f:'m/isk1.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı, canlı müzik, güzel dostlar',en:'Last night at İskele · rakı, live music, good friends'},
+var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr:'Yaylada yıldızlı bir gece — hayal ürünü bir sahne',en:'A starry night on the yayla — an imagined scene'},
+ {k:'prov',lb:'Biliyor muydunuz? · Did you know?',tr:'Türkiye, dünyadaki fındığın yaklaşık üçte ikisini üretir',en:'Türkiye grows about two-thirds of the world’s hazelnuts',st:'Karadeniz · Black Sea',bg:'m/yayla-stars.jpg'},
+ {k:'photo',kb:1,f:'m/tavla-fire.jpg',tag:'Tavla Gecesi · Tavla Night',tr:'Ateş, tavla ve iki ince belli bardak',en:'Fire, tavla and two tulip glasses'},
+ {k:'prov',or:1,lb:'Bu Akşam · Tonight',tr:'M & Şerif: tavlada kim kazanırsa kazansın, çayı kaybeden demler',en:'M & Şerif: whoever wins at tavla, the loser brews the tea',st:'Kural böyle · House rules',bg:'m/tavla-fire.jpg'},
+ {k:'photo',kb:1,f:'m/harbour-night.jpg',cp:'top',tag:'Liman · Harbour',tr:'Gece limanda kayıklar uyuyor',en:'Boats asleep in the harbour at night'},
+ {k:'prov',lb:'Biliyor muydunuz? · Did you know?',tr:'Karadeniz’in derin sularında neredeyse hiç oksijen yoktur; bu yüzden eski batıklar yüzyıllarca korunur',en:'The Black Sea’s deep waters hold almost no oxygen, so ancient shipwrecks survive for centuries',st:'Karadeniz · Black Sea',bg:'m/harbour-night.jpg'},
+ {k:'photo',kb:1,f:'m/cini.jpg',tag:'Çini · İznik Tiles',tr:'Lale, karanfil ve saz yaprakları — çini sanatı',en:'Tulips, carnations and saz leaves — the art of çini'},
+ {k:'prov',lb:'Söz Oyunu · Wordplay',tr:'Çay demlenir, dostluk da',en:'Tea needs time to brew — so does friendship',st:'Bu akşamın sözü · Tonight’s line',bg:'m/cini.jpg'},
+ {k:'photo',kb:1,f:'m/cliff-monastery.jpg',cp:'top',tag:'Mavi Saat · Blue Hour',tr:'Kayalığa kurulmuş bir manastır — hayal ürünü bir sahne',en:'A monastery built into a cliff — an imagined scene'},
+ {k:'prov',lb:'Biliyor muydunuz? · Did you know?',tr:'Sümela Manastırı, Altındere Vadisi’nde sarp bir kayalığa kurulmuştur',en:'Sumela Monastery is built into a sheer cliff in the Altındere Valley',st:'Maçka · Trabzon',bg:'m/cliff-monastery.jpg'},
+ {k:'prov',lb:'Biliyor muydunuz? · Did you know?',tr:'Karadeniz kemençesinin üç teli vardır ve yay ile çalınır',en:'The Black Sea kemençe has three strings and is played with a bow',st:'Horonun sesi · The sound of the horon',bg:'m/harbour-night.jpg'},
+ {k:'prov',lb:'Atasözü · Proverb',tr:'Eski dost düşman olmaz',en:'An old friend never becomes an enemy',st:'Türk atasözü · Turkish proverb',bg:'m/tavla-fire.jpg'},
+{k:'photo',kb:1,or:1,f:'m/isk1.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı, canlı müzik, güzel dostlar',en:'Last night at İskele · rakı, live music, good friends'},
  {k:'photo',kb:1,or:1,f:'m/two-teas.jpg',cp:'top',tag:'Sevgiyle · With Love',tr:'Sevgiyle, M’den Şerif’e · Seni seviyorum kardeşim',en:'With love, from M to Şerif · Love you, brother'},
  {k:'photo',kb:1,f:'m/coast-night.jpg',cp:'top',tag:'Gece · Night',tr:'Karadeniz kıyısında gece ışıkları',en:'Night lights on the Black Sea coast'},
  {k:'motion',f:'m/fire-close.webp',tag:'Şömine · Fireplace',tr:'Odunun çıtırtısı, ateşin sıcaklığı',en:'The crackle of wood, the warmth of fire'},
@@ -402,7 +414,7 @@ function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.ge
 var recent=[],n=0;
 function next(){
  n++;var it;var sl=slot();
- if(welOn()){if(n<=TQ.length)return TQ[n-1];if(n%12==0)return WEL}
+ if(welOn()){if(n<=TQ.length)return TQ[n-1];if(n%30==0)return WEL}
  if(n%6==1||((sl=='e'||sl=='n')&&n%6==5)){var q=NEWQ[nq++%NEWQ.length];if(q=='fox'&&sl!='e'&&sl!='n')q=NEWQ[nq++%NEWQ.length];if(q=='fox'){for(var i=0;i<P.length;i++)if(P[i].nw)return P[i]}return {k:q}}
  if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:(slot()=='e'||slot()=='n')?['today','sohbet','word','moon','quote','fact'][Math.floor(n/6)%6]:['today','quote','word','fact','recipe'][Math.floor(n/6)%5]};
  else if(WX.k>=51&&Math.random()<.25){for(var i=0;i<P.length;i++)if(P[i].wx=='rain')it=P[i]}
@@ -432,7 +444,7 @@ document.addEventListener('visibilitychange',function(){if(!document.hidden){wak
 setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
 // start: clock first, then rotate
 if(LITE)document.body.className='lite';
-var Q0=(location.search.match(/demo=(\d+)/)||[])[1];if(Q0){SLIDE=+Q0*1000}
+var Q0=(location.search.match(/demo=(\d+)/)||[])[1];if(Q0){SLIDE=+Q0*1000}else if(welOn())SLIDE=75000;
 if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else if(welOn()){n=0;rotate()}else{n=5;rotate()}poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
