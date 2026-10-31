@@ -285,7 +285,7 @@ function build(it){
  } else {
   var b=el('div','bg');b.style.backgroundImage='url('+pickBg()+')';b.style.filter='blur(18px) brightness(.45)';b.style.transform='scale(1.15)';L.appendChild(b);
   var C=el('div','center');
-  if(it.k=='clock'){corner=false;var d=ist();
+  if(it.k=='clock'){corner=false;var d=ist();if(slot()=='e'||slot()=='n'){b.style.backgroundImage='url(m/ev-boats.jpg)';b.style.filter='brightness(.6)';b.style.transform='none';b.style.backgroundSize='cover';b.style.backgroundPosition='center'}
    C.appendChild(el('div','small','Arsin · Trabzon'));var t=el('div','big');t.id='bigt';C.appendChild(t);
    C.appendChild(el('div','',' <div style="font-size:2.4vw;margin-top:1vw">'+GUN[d.getDay()]+', '+d.getDate()+' '+AY[d.getMonth()]+'</div><div style="font-size:1.6vw;font-style:italic;color:#cfc9bd;margin-top:.5vw">'+DAY[d.getDay()]+', '+MON[d.getMonth()]+' '+d.getDate()+'</div>'));
    C.appendChild(el('div','',' <div style="font-family:Helvetica,Arial,sans-serif;font-size:1.8vw;letter-spacing:.25em;margin-top:3vw;color:#dfe6e8">'+(WX.t===null?'':wxs())+'</div>'));
