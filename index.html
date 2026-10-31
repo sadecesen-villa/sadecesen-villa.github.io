@@ -446,6 +446,6 @@ setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
 // start: clock first, then rotate
 if(LITE)document.body.className='lite';
 var Q0=(location.search.match(/demo=(\d+)/)||[])[1];if(Q0){SLIDE=+Q0*1000}else if(welOn())SLIDE=75000;
-if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else if(welOn()){var sv=0;try{sv=+localStorage.getItem('tvn31')||0}catch(e){}n=Math.max(sv,12);rotate()}else{n=5;rotate()}poll();
+if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else if(welOn()){var sv=0;try{sv=+localStorage.getItem('tvn31')||0}catch(e){}n=Math.max(sv,12);setTimeout(rotate,2000)}else{n=5;rotate()}poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
