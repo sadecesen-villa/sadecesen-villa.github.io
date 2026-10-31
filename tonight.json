@@ -175,8 +175,8 @@
 "kb": 1,
 "f": "m/pl-zz.jpg",
 "tag": "Zamia · ZZ plant · Zamioculcas zamiifolia",
-"tr": "Işık: az ışığa çok dayanıklı · Sulama: 2–3 haftada bir, toprak tamamen kuruyunca · Boy: 60–90 cm · Fazla su en büyük düşmanı · Evcil hayvanlar için zararlı",
-"en": "Light: very low-light tolerant · Water every 2–3 weeks, when fully dry · 60–90 cm · Overwatering is its enemy · Toxic to pets · Görsel hayal ürünüdür · Imagined image"
+"tr": "Işık: az ışığa çok dayanıklı · Sulama: 2–3 haftada bir, toprak tamamen kuruyunca · Boy: 60–90 cm · Fazla su en büyük düşmanı · Evcil hayvanlar için zararlı · Şömine sıcağından uzak tutun",
+"en": "Light: very low-light tolerant · Water every 2–3 weeks, when fully dry · 60–90 cm · Overwatering is its enemy · Toxic to pets · Keep off fireplace heat · Görsel hayal ürünüdür · Imagined image"
 },
 {
 "k": "photo",
@@ -191,8 +191,8 @@
 "kb": 1,
 "f": "m/pl-sans.jpg",
 "tag": "Paşa kılıcı · Snake plant · Dracaena trifasciata",
-"tr": "Işık: az ışıktan parlak ışığa her yerde yaşar · Sulama: 2–4 haftada bir, kışın daha seyrek · Boy: 60–120 cm · Nemli kışta az sulayın · Evcil hayvanlar için zararlı",
-"en": "Light: anything from low to bright · Water every 2–4 weeks, less in winter · 60–120 cm · Go easy on water in humid winters · Toxic to pets · Görsel hayal ürünüdür · Imagined image"
+"tr": "Işık: az ışıktan parlak ışığa her yerde yaşar · Sulama: 2–4 haftada bir, kışın daha seyrek · Boy: 60–120 cm · Nemli kışta az sulayın · Evcil hayvanlar için zararlı · Şömine sıcağından uzak tutun",
+"en": "Light: anything from low to bright · Water every 2–4 weeks, less in winter · 60–120 cm · Go easy on water in humid winters · Toxic to pets · Keep off fireplace heat · Görsel hayal ürünüdür · Imagined image"
 },
 {
 "k": "photo",
@@ -215,9 +215,9 @@
 {
 "k": "prov",
 "lb": "Bizim için en iyi iki seçim · Our top two picks",
-"tr": "1) Kentia palmiyesi: koltuk ile taş duvar arasındaki köşenin dolaylı ışığına dayanır, yavaş büyür, kedi-köpek dostudur ve taşla çok yakışır. 2) Cennet kuşu: köşe daha aydınlıksa — pencereye yakın, bol ışıkta.",
-"en": "1) Kentia palm: copes with the corner’s indirect light between the sofa and the stone wall, grows slowly, is pet-safe and suits the stone. 2) Giant bird of paradise: if the spot gets more light — close to the window.",
-"st": "Zeytin bu köşe için fazla loş · The olive would need far more sun",
+"tr": "Köşe 1 (pencere yanı, koltuk ile taş sütun arası): Kentia palmiyesi — dolaylı ışığa dayanır, yavaş büyür, kedi-köpek dostu. Daha aydınlıksa: Cennet kuşu. Köşe 2 (şömine yanı, aplik altı): Zamia ya da uzun Paşa kılıcı — az ışığa ve seyrek sulamaya dayanır. Şöminenin doğrudan sıcağından uzak tutun.",
+"en": "Corner 1 (by the window, sofa and stone pillar): Kentia palm — copes with indirect light, slow-growing, pet-safe. If brighter: giant bird of paradise. Corner 2 (by the fireplace, under the sconce): ZZ plant or a tall snake plant — both handle low light and little water. Keep them away from direct fireplace heat.",
+"st": "Zeytin bu köşeler için fazla loş · The olive would need far more sun",
 "bg": "m/pl-kentia.jpg"
 }
 ]
