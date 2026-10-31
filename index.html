@@ -177,7 +177,6 @@ var P=[
  {k:'motion',f:'m/candle-books.webp',s:'en',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'photo',f:'m/h01.jpg',s:'m',tag:'Serpme Kahvaltı',tr:'Güne bin bir lezzetle başlayın',en:'Start the day with a thousand flavours'},
  {k:'photo',f:'m/h02.jpg',s:'ma',tag:'Trabzon · Sonbahar',tr:'Çay bahçelerinde sonbahar',en:'Autumn in the tea gardens'},
- {k:'photo',f:'m/h03.jpg',s:'en',tag:'Ayasofya · İstanbul',tr:'Bin beş yüz yıllık bir kubbe',en:'A dome of fifteen centuries'},
  {k:'photo',f:'m/h04.jpg',s:'m',tag:'Kapadokya',tr:'Gökyüzü balonlarla uyanıyor',en:'The sky wakes up with balloons'},
  {k:'photo',f:'m/h05.jpg',s:'en',tag:'Boğaziçi · Bosphorus',tr:'İki kıta, tek bir gece',en:'Two continents, one night'},
  {k:'photo',f:'m/h06.jpg',s:'ma',tag:'Kahve Molası',tr:'Köpükte küçük bir sanat',en:'A little art in the foam'},
@@ -392,7 +391,7 @@ function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.ge
 var recent=[],n=0;
 function next(){
  n++;var it;var sl=slot();
- if(welOn()&&(n==6||n%6==2))return WEL;
+ if(welOn()&&(n<=2||n%4==2))return WEL;
  if(n%6==1||((sl=='e'||sl=='n')&&n%6==5)){var q=NEWQ[nq++%NEWQ.length];if(q=='fox'&&sl!='e'&&sl!='n')q=NEWQ[nq++%NEWQ.length];if(q=='fox'){for(var i=0;i<P.length;i++)if(P[i].nw)return P[i]}return {k:q}}
  if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:(slot()=='e'||slot()=='n')?['today','sohbet','word','moon','quote','fact'][Math.floor(n/6)%6]:['today','quote','word','fact','recipe'][Math.floor(n/6)%5]};
  else if(WX.k>=51&&Math.random()<.25){for(var i=0;i<P.length;i++)if(P[i].wx=='rain')it=P[i]}
