@@ -409,11 +409,12 @@ var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr
  {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'prov',tr:'Bin dost az, bir düşman çok',en:'A thousand friends are too few; one enemy is too many',st:'Türk atasözü · Turkish proverb'},
  {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
-var JX=[];function jx(){var x=new XMLHttpRequest();x.open('GET','tonight.json?t='+Date.now(),true);x.onload=function(){try{JX=JSON.parse(x.responseText).items||[]}catch(e){}};x.send()}jx();setInterval(jx,180000);
+var JX=[],PQ=[];function jx(){var x=new XMLHttpRequest();x.open('GET','tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);JX=d.items||[];var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
 function next(){
+ if(PQ.length)return PQ.shift();
  n++;var it;var sl=slot();
  if(welOn()){try{localStorage.setItem('tvn31',n)}catch(e){}var TL=TQ.slice(0,12).concat(JX,TQ.slice(12));if(n<=TL.length)return TL[n-1];if(n%30==0)return WEL}
  if(n%6==1||((sl=='e'||sl=='n')&&n%6==5)){var q=NEWQ[nq++%NEWQ.length];if(q=='fox'&&sl!='e'&&sl!='n')q=NEWQ[nq++%NEWQ.length];if(q=='fox'){for(var i=0;i<P.length;i++)if(P[i].nw)return P[i]}return {k:q}}

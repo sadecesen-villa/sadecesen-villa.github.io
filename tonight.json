@@ -132,5 +132,82 @@
 "st": "Atatürk Köşkü · Trabzon",
 "bg": "m/cliff-monastery.jpg"
 }
+],
+"pri": {
+"id": "orange1",
+"items": [
+{
+"k": "prov",
+"lb": "Bu Akşam · Tonight",
+"tr": "Turuncu: Şerif’in rengi",
+"en": "Orange: Şerif’s colour",
+"st": "Bu akşam · Tonight",
+"bg": "m/or-persimmon.jpg",
+"or": 1
+},
+{
+"k": "prov",
+"lb": "Turuncu · Orange",
+"tr": "Önce meyve vardı: İngilizcede renk, adını portakaldan aldı — renk adı olarak ilk kaydı 1502’den",
+"en": "The fruit came first: English named the colour after it — first recorded as a colour in 1502",
+"st": "Portakal · Orange",
+"bg": "m/or-persimmon.jpg",
+"or": 1
+},
+{
+"k": "prov",
+"lb": "Turuncu · Orange",
+"tr": "Türkçedeki “turuncu” da bir meyveden gelir: turunç",
+"en": "Turkish “turuncu” also comes from a fruit: turunç, the bitter orange",
+"st": "Dil · Language",
+"bg": "m/or-leaves.jpg",
+"or": 1
+},
+{
+"k": "prov",
+"lb": "Turuncu · Orange",
+"tr": "Havuçlar eskiden çoğunlukla mor, beyaz ya da sarıydı; bugünkü turuncu havucu Hollandalı çiftçiler geliştirdi",
+"en": "Carrots were once mostly purple, white or yellow; Dutch growers bred today’s orange carrot",
+"st": "Havuç · Carrots",
+"bg": "m/or-persimmon.jpg",
+"or": 1
+},
+{
+"k": "prov",
+"lb": "Turuncu · Orange",
+"tr": "Gün batarken ışık havada daha uzun yol alır; mavi saçılıp kaybolur, geriye kırmızı ve turuncu kalır",
+"en": "At sunset light crosses more air; blue scatters away, leaving reds and oranges",
+"st": "Gün batımı · Sunset",
+"bg": "m/blue-hour-shore.jpg",
+"or": 1
+},
+{
+"k": "prov",
+"lb": "Turuncu · Orange",
+"tr": "Sonbahar yaprağının turuncusu yaz boyunca oradaydı: klorofil çekilince karotenler ortaya çıkar",
+"en": "Autumn’s orange was in the leaf all summer: when chlorophyll fades, carotenes show",
+"st": "Doğa · Nature",
+"bg": "m/or-leaves.jpg",
+"or": 1
+},
+{
+"k": "prov",
+"lb": "Turuncu · Orange",
+"tr": "Uçakların “kara kutusu” aslında parlak turuncudur — kolay bulunsun diye",
+"en": "An aircraft’s “black box” is actually bright orange, so it can be found",
+"st": "Görünürlük · Visibility",
+"bg": "m/or-embers.jpg",
+"or": 1
+},
+{
+"k": "prov",
+"lb": "Söz · Quote",
+"tr": "“Turuncu, kendi gücüne inanmış bir adam gibidir.”",
+"en": "“Orange is like a man, convinced of his own powers.”",
+"st": "Wassily Kandinsky · Sanatta Ruhsallık Üzerine (1911)",
+"bg": "m/or-embers.jpg",
+"or": 1
+}
 ]
+}
 }
