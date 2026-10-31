@@ -281,7 +281,7 @@ function build(it){
  if(it.k=='photo'||it.k=='motion'){
   var im=el('img','bg');im.src=it.f;
   if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);L.sun=!!SUNOK[it.f];
-  L.appendChild(el('div','shade'));var cp=capt(it.tag,it.tr,it.en);if(it.cp)cp.className+=' '+it.cp;L.appendChild(cp);
+  L.appendChild(el('div','shade'));var cp=capt(it.tag,it.tr,it.en);if(it.cp)cp.className+=' '+it.cp;if(it.or){cp.firstChild.style.color='#f0a050';cp.children[1].style.borderLeft='.35vw solid #e8872e';cp.children[1].style.paddingLeft='1.2vw';cp.children[2].style.paddingLeft='1.55vw'}L.appendChild(cp);
  } else {
   var b=el('div','bg');b.style.backgroundImage='url('+pickBg()+')';b.style.filter='blur(18px) brightness(.45)';b.style.transform='scale(1.15)';L.appendChild(b);
   var C=el('div','center');
@@ -383,7 +383,7 @@ function dimTick(){if(/nodim=1/.test(location.search))return;document.getElement
 setInterval(dimTick,60000);setTimeout(dimTick,500);
 var NEWQ=['sea','hamsi','fox'],nq=0;
 // 31 Oct 2026 evening: welcome for Şerif (calm, mild, overcast evening – photo is illustrative, not live)
-var WEL={k:'photo',f:'m/ev-boats.jpg',cp:'top',tag:'Hoş Geldin · Welcome',tr:'Hoş geldin Şerif — sakin, güzel bir akşam',en:'Welcome Şerif — a calm, beautiful evening'};
+var WEL={k:'photo',f:'m/ev-boats.jpg',cp:'top',tag:'Hoş Geldin · Welcome',or:1,tr:'Hoş geldin Şerif Uzun — sakin, güzel bir akşam',en:'Welcome Şerif Uzun — a calm, beautiful evening'};
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
