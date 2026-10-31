@@ -382,10 +382,14 @@ function dimLevel(){var d=ist(),m=d.getHours()*60+d.getMinutes();if(m>=23*60+30)
 function dimTick(){if(/nodim=1/.test(location.search))return;document.getElementById('dim').style.opacity=dimLevel()}
 setInterval(dimTick,60000);setTimeout(dimTick,500);
 var NEWQ=['sea','hamsi','fox'],nq=0;
+// 31 Oct 2026 evening: welcome for Şerif (calm, mild, overcast evening – photo is illustrative, not live)
+var WEL={k:'photo',f:'m/ev-boats.jpg',cp:'top',tag:'Hoş Geldin · Welcome',tr:'Hoş geldin Şerif — sakin ve güzel bir akşam',en:'Welcome Şerif — a calm, beautiful evening'};
+function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
 function next(){
  n++;var it;var sl=slot();
+ if(welOn()&&(n==6||n%6==2))return WEL;
  if(n%6==1||((sl=='e'||sl=='n')&&n%6==5)){var q=NEWQ[nq++%NEWQ.length];if(q=='fox'&&sl!='e'&&sl!='n')q=NEWQ[nq++%NEWQ.length];if(q=='fox'){for(var i=0;i<P.length;i++)if(P[i].nw)return P[i]}return {k:q}}
  if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:(slot()=='e'||slot()=='n')?['today','sohbet','word','moon','quote','fact'][Math.floor(n/6)%6]:['today','quote','word','fact','recipe'][Math.floor(n/6)%5]};
  else if(WX.k>=51&&Math.random()<.25){for(var i=0;i<P.length;i++)if(P[i].wx=='rain')it=P[i]}
