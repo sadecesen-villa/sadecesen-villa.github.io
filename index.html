@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sadece Sen</title><style>
 html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-family:Georgia,'Times New Roman',serif;color:#f2efe8}
 .layer{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;background:#000;overflow:hidden;will-change:opacity,transform}
@@ -383,7 +383,7 @@ function dimTick(){if(/nodim=1/.test(location.search))return;document.getElement
 setInterval(dimTick,60000);setTimeout(dimTick,500);
 var NEWQ=['sea','hamsi','fox'],nq=0;
 // 31 Oct 2026 evening: welcome for Şerif (calm, mild, overcast evening – photo is illustrative, not live)
-var WEL={k:'photo',f:'m/ev-boats.jpg',cp:'top',tag:'Hoş Geldin · Welcome',tr:'Hoş geldin Şerif — sakin ve güzel bir akşam',en:'Welcome Şerif — a calm, beautiful evening'};
+var WEL={k:'photo',f:'m/ev-boats.jpg',cp:'top',tag:'Hoş Geldiniz · Welcome',tr:'Hoş geldiniz Şerif &amp; Osman — sakin, güzel bir akşam',en:'Welcome Şerif &amp; Osman — a calm, beautiful evening'};
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
@@ -420,6 +420,6 @@ setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
 // start: clock first, then rotate
 if(LITE)document.body.className='lite';
 var Q0=(location.search.match(/demo=(\d+)/)||[])[1];if(Q0){SLIDE=+Q0*1000}
-if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else{n=5;rotate()}poll();
+if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else if(welOn()){n=0;swap(build(WEL),'fade');timer=setTimeout(rotate,SLIDE)}else{n=5;rotate()}poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
