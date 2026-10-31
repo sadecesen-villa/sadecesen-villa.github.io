@@ -266,7 +266,8 @@ function moon(){var syn=29.530588853,ref=Date.UTC(2000,0,6,18,14)/864e5,age=((Da
  var nf=(14.765-age+syn)%syn;return {age:age,ill:ill,n:N[i],full:Math.round(age<14.765?14.765-age:syn-age+14.765),wax:age<syn/2}}
 function build(it){
  var L=el('div','layer'),corner=true;
- if(it.k=='sea')return buildSea(L);if(it.k=='hamsi')return buildHamsi(L);
+ if(it.k=='sea')return buildSea(L);
+ if(it.k=='prov'){var b=el('img','bg');b.src='m/coast-night.jpg';b.style.filter='blur(14px) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');C.appendChild(el('div','small','Atasözü · Proverb'));C.appendChild(el('div','line'));C.appendChild(el('div','tr',it.tr));C.appendChild(el('div','en',it.en));C.appendChild(el('div','small',it.st));L.appendChild(C);L.corner=true;return L}if(it.k=='hamsi')return buildHamsi(L);
  if(it.k=='word'){var d=ist(),w=WD[(Math.floor(d.getTime()/86400000))%WD.length];if(!w[4]&&(d.getDate()%2))w=WD[0];
   var b=el('img','bg');b.src=w[4]||pickBg();if(!w[4])b.style.filter='blur(16px) brightness(.45)';b.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(b);L.appendChild(el('div','shade'));
   var C=el('div','center wd');C.style.cssText+=';align-items:flex-start;text-align:left;padding-left:8%';C.appendChild(el('div','small','Günün Kelimesi · Word of the Day'));C.appendChild(el('div','tr',w[0]));C.appendChild(el('div','en',w[1]));C.appendChild(el('div','st',w[2]+'<br>'+w[3]));L.appendChild(C);L.corner=true;return L}
@@ -387,12 +388,19 @@ setInterval(dimTick,60000);setTimeout(dimTick,500);
 var NEWQ=['sea','hamsi','fox'],nq=0;
 // 31 Oct 2026 evening: welcome for Şerif (calm, mild, overcast evening – photo is illustrative, not live)
 var WEL={k:'photo',f:'m/ev-boats.jpg',cp:'top',tag:'Hoş Geldin · Welcome',or:1,tr:'Hoş geldin Şerif Uzun — sakin, güzel bir akşam',en:'Welcome Şerif Uzun — a calm, beautiful evening'};
+var TQ=[{k:'photo',kb:1,or:1,f:'m/isk1.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı, canlı müzik, güzel dostlar',en:'Last night at İskele · rakı, live music, good friends'},
+ {k:'photo',kb:1,f:'m/coast-night.jpg',cp:'top',tag:'Gece · Night',tr:'Karadeniz kıyısında gece ışıkları',en:'Night lights on the Black Sea coast'},
+ {k:'motion',f:'m/fire-close.webp',tag:'Şömine · Fireplace',tr:'Odunun çıtırtısı, ateşin sıcaklığı',en:'The crackle of wood, the warmth of fire'},
+ {k:'photo',kb:1,f:'m/raki.jpg',cp:'top',tag:'Rakı Sofrası · Rakı Table',tr:'Beyaz peynir, kavun, hamsi ve iki kadeh rakı',en:'White cheese, melon, hamsi and two glasses of rakı'},
+ {k:'prov',tr:'Dost acı söyler',en:'A true friend tells you the bitter truth',st:'Türk atasözü · Turkish proverb'},
+ {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
+ {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
 function next(){
  n++;var it;var sl=slot();
- if(welOn()&&(n<=2||n%4==2))return WEL;
+ if(welOn()){if(n<=TQ.length)return TQ[n-1];if(n%12==0)return WEL}
  if(n%6==1||((sl=='e'||sl=='n')&&n%6==5)){var q=NEWQ[nq++%NEWQ.length];if(q=='fox'&&sl!='e'&&sl!='n')q=NEWQ[nq++%NEWQ.length];if(q=='fox'){for(var i=0;i<P.length;i++)if(P[i].nw)return P[i]}return {k:q}}
  if(n%6==0)it={k:(slot()=='n'&&n%12==0)?'calm':'clock'};else if(n%12==4)it={k:'world'};else if(n%6==3)it={k:(slot()=='e'||slot()=='n')?['today','sohbet','word','moon','quote','fact'][Math.floor(n/6)%6]:['today','quote','word','fact','recipe'][Math.floor(n/6)%5]};
  else if(WX.k>=51&&Math.random()<.25){for(var i=0;i<P.length;i++)if(P[i].wx=='rain')it=P[i]}
@@ -423,6 +431,6 @@ setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
 // start: clock first, then rotate
 if(LITE)document.body.className='lite';
 var Q0=(location.search.match(/demo=(\d+)/)||[])[1];if(Q0){SLIDE=+Q0*1000}
-if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else if(welOn()){n=0;swap(build(WEL),'fade');timer=setTimeout(rotate,SLIDE)}else{n=5;rotate()}poll();
+if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else if(welOn()){n=0;rotate()}else{n=5;rotate()}poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>
