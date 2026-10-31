@@ -134,79 +134,91 @@
 }
 ],
 "pri": {
-"id": "orange1",
+"id": "plants1",
 "items": [
 {
-"k": "prov",
-"lb": "Bu Akşam · Tonight",
-"tr": "Turuncu: Şerif’in rengi",
-"en": "Orange: Şerif’s colour",
-"st": "Bu akşam · Tonight",
-"bg": "m/or-persimmon.jpg",
-"or": 1
+"k": "photo",
+"kb": 1,
+"f": "m/pl-kentia.jpg",
+"tag": "Kentia palmiyesi · Kentia palm · Howea forsteriana",
+"tr": "Işık: az–orta dolaylı ışığa dayanır · Sulama: üst 2–3 cm kuruyunca · Boy: içeride 2–3 m, yavaş büyür · Kedi ve köpekler için toksik değil · Nemi sever",
+"en": "Light: copes with low–medium indirect light · Water when top 2–3 cm dry · 2–3 m indoors, slow · Non-toxic to cats & dogs · Likes humidity · Görsel hayal ürünüdür · Imagined image"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/pl-strelitzia.jpg",
+"tag": "Cennet kuşu (dev) · Giant bird of paradise · Strelitzia nicolai",
+"tr": "Işık: bol, parlak ışık ister, biraz doğrudan güneş iyi gelir · Sulama: üst 3–5 cm kuruyunca · Boy: içeride 2–3 m · Az ışıkta büyümesi durur",
+"en": "Light: wants bright light, some direct sun · Water when top 3–5 cm dry · 2–3 m indoors · Stalls in low light · Görsel hayal ürünüdür · Imagined image"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/pl-lyrata.jpg",
+"tag": "Keman yapraklı incir · Fiddle-leaf fig · Ficus lyrata",
+"tr": "Işık: parlak dolaylı ışık · Sulama: üst 2–3 cm kuruyunca · Boy: içeride 1,5–3 m · Yer değişikliğine ve cereyana küser, yaprak döker · Evcil hayvanlar için zararlı",
+"en": "Light: bright indirect · Water when top 2–3 cm dry · 1.5–3 m indoors · Hates moves & draughts · Toxic to pets · Foto/Photo: Morrisjm, Wikimedia Commons, CC BY-SA 3.0",
+"fit": 1
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/pl-olive.jpg",
+"tag": "Zeytin ağacı · Olive tree · Olea europaea",
+"tr": "Işık: günde birkaç saat doğrudan güneş şart · Sulama: toprak iyice kuruyunca, kuraklığa dayanıklı · Saksıda 1–2,5 m · Evcil hayvanlar için toksik değil · Loş köşe için uygun değil",
+"en": "Light: needs hours of direct sun · Water when soil is fairly dry · 1–2.5 m in a pot · Pet-safe · Not for a dim corner · Foto/Photo: Acabashi, Wikimedia Commons, CC BY-SA 4.0",
+"fit": 1
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/pl-zz.jpg",
+"tag": "Zamia · ZZ plant · Zamioculcas zamiifolia",
+"tr": "Işık: az ışığa çok dayanıklı · Sulama: 2–3 haftada bir, toprak tamamen kuruyunca · Boy: 60–90 cm · Fazla su en büyük düşmanı · Evcil hayvanlar için zararlı",
+"en": "Light: very low-light tolerant · Water every 2–3 weeks, when fully dry · 60–90 cm · Overwatering is its enemy · Toxic to pets · Görsel hayal ürünüdür · Imagined image"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/pl-monstera.jpg",
+"tag": "Deve tabanı · Swiss cheese plant · Monstera deliciosa",
+"tr": "Işık: parlak dolaylı ışık · Sulama: üst 3–5 cm kuruyunca · Boy: destekle 2–3 m · Karadeniz nemini sever · Evcil hayvanlar için zararlı",
+"en": "Light: bright indirect · Water when top 3–5 cm dry · 2–3 m with a support · Loves Black Sea humidity · Toxic to pets · Görsel hayal ürünüdür · Imagined image"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/pl-sans.jpg",
+"tag": "Paşa kılıcı · Snake plant · Dracaena trifasciata",
+"tr": "Işık: az ışıktan parlak ışığa her yerde yaşar · Sulama: 2–4 haftada bir, kışın daha seyrek · Boy: 60–120 cm · Nemli kışta az sulayın · Evcil hayvanlar için zararlı",
+"en": "Light: anything from low to bright · Water every 2–4 weeks, less in winter · 60–120 cm · Go easy on water in humid winters · Toxic to pets · Görsel hayal ürünüdür · Imagined image"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/pl-elastica.jpg",
+"tag": "Kauçuk · Rubber plant · Ficus elastica",
+"tr": "Işık: parlak dolaylı ışık · Sulama: üst 2–3 cm kuruyunca · Boy: içeride 1,5–3 m · Yaprakları nemli bezle silinir · Süt özsuyu tahriş eder, evcil hayvanlar için zararlı",
+"en": "Light: bright indirect · Water when top 2–3 cm dry · 1.5–3 m indoors · Wipe the leaves · Milky sap irritates; toxic to pets · Foto/Photo: Maja Dumat, Wikimedia Commons, CC BY 2.0",
+"fit": 1
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/pl-pothos.jpg",
+"tag": "Salon sarmaşığı · Pothos · Epipremnum aureum",
+"tr": "Işık: az–orta dolaylı ışık · Sulama: üst 2–3 cm kuruyunca · Sarkarak ya da tırmanarak metrelerce uzar · Nemi sever, çok kolay · Evcil hayvanlar için zararlı",
+"en": "Light: low–medium indirect · Water when top 2–3 cm dry · Trails or climbs for metres · Likes humidity, very easy · Toxic to pets · Foto/Photo: Krzysztof Ziarnek (Kenraiz), Wikimedia Commons, CC BY-SA 4.0",
+"fit": 1
 },
 {
 "k": "prov",
-"lb": "Turuncu · Orange",
-"tr": "Önce meyve vardı: İngilizcede renk, adını portakaldan aldı — renk adı olarak ilk kaydı 1502’den",
-"en": "The fruit came first: English named the colour after it — first recorded as a colour in 1502",
-"st": "Portakal · Orange",
-"bg": "m/or-persimmon.jpg",
-"or": 1
-},
-{
-"k": "prov",
-"lb": "Turuncu · Orange",
-"tr": "Türkçedeki “turuncu” da bir meyveden gelir: turunç",
-"en": "Turkish “turuncu” also comes from a fruit: turunç, the bitter orange",
-"st": "Dil · Language",
-"bg": "m/or-leaves.jpg",
-"or": 1
-},
-{
-"k": "prov",
-"lb": "Turuncu · Orange",
-"tr": "Havuçlar eskiden çoğunlukla mor, beyaz ya da sarıydı; bugünkü turuncu havucu Hollandalı çiftçiler geliştirdi",
-"en": "Carrots were once mostly purple, white or yellow; Dutch growers bred today’s orange carrot",
-"st": "Havuç · Carrots",
-"bg": "m/or-persimmon.jpg",
-"or": 1
-},
-{
-"k": "prov",
-"lb": "Turuncu · Orange",
-"tr": "Gün batarken ışık havada daha uzun yol alır; mavi saçılıp kaybolur, geriye kırmızı ve turuncu kalır",
-"en": "At sunset light crosses more air; blue scatters away, leaving reds and oranges",
-"st": "Gün batımı · Sunset",
-"bg": "m/blue-hour-shore.jpg",
-"or": 1
-},
-{
-"k": "prov",
-"lb": "Turuncu · Orange",
-"tr": "Sonbahar yaprağının turuncusu yaz boyunca oradaydı: klorofil çekilince karotenler ortaya çıkar",
-"en": "Autumn’s orange was in the leaf all summer: when chlorophyll fades, carotenes show",
-"st": "Doğa · Nature",
-"bg": "m/or-leaves.jpg",
-"or": 1
-},
-{
-"k": "prov",
-"lb": "Turuncu · Orange",
-"tr": "Uçakların “kara kutusu” aslında parlak turuncudur — kolay bulunsun diye",
-"en": "An aircraft’s “black box” is actually bright orange, so it can be found",
-"st": "Görünürlük · Visibility",
-"bg": "m/or-embers.jpg",
-"or": 1
-},
-{
-"k": "prov",
-"lb": "Söz · Quote",
-"tr": "“Turuncu, kendi gücüne inanmış bir adam gibidir.”",
-"en": "“Orange is like a man, convinced of his own powers.”",
-"st": "Wassily Kandinsky · Sanatta Ruhsallık Üzerine (1911)",
-"bg": "m/or-embers.jpg",
-"or": 1
+"lb": "Bizim için en iyi iki seçim · Our top two picks",
+"tr": "1) Kentia palmiyesi: koltuk ile taş duvar arasındaki köşenin dolaylı ışığına dayanır, yavaş büyür, kedi-köpek dostudur ve taşla çok yakışır. 2) Cennet kuşu: köşe daha aydınlıksa — pencereye yakın, bol ışıkta.",
+"en": "1) Kentia palm: copes with the corner’s indirect light between the sofa and the stone wall, grows slowly, is pet-safe and suits the stone. 2) Giant bird of paradise: if the spot gets more light — close to the window.",
+"st": "Zeytin bu köşe için fazla loş · The olive would need far more sun",
+"bg": "m/pl-kentia.jpg"
 }
 ]
 }
