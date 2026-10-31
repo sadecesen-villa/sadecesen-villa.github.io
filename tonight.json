@@ -134,91 +134,31 @@
 }
 ],
 "pri": {
-"id": "plants1",
+"id": "mock1",
 "items": [
 {
 "k": "photo",
-"kb": 1,
-"f": "m/pl-kentia.jpg",
-"tag": "Kentia palmiyesi · Kentia palm · Howea forsteriana",
-"tr": "Işık: az–orta dolaylı ışığa dayanır · Sulama: üst 2–3 cm kuruyunca · Boy: içeride 2–3 m, yavaş büyür · Kedi ve köpekler için toksik değil · Nemi sever",
-"en": "Light: copes with low–medium indirect light · Water when top 2–3 cm dry · 2–3 m indoors, slow · Non-toxic to cats & dogs · Likes humidity · Görsel hayal ürünüdür · Imagined image"
+"fit": 1,
+"f": "m/mk-kentia.jpg",
+"tag": "Salonumuzda böyle görünebilir · How it could look in our living room",
+"tr": "İki köşede birer Kentia palmiyesi · Görselleştirme (gerçek fotoğraf + eklenen bitkiler)",
+"en": "A Kentia palm in each corner · Visualisation (real photo + added plants)"
 },
 {
 "k": "photo",
-"kb": 1,
-"f": "m/pl-strelitzia.jpg",
-"tag": "Cennet kuşu (dev) · Giant bird of paradise · Strelitzia nicolai",
-"tr": "Işık: bol, parlak ışık ister, biraz doğrudan güneş iyi gelir · Sulama: üst 3–5 cm kuruyunca · Boy: içeride 2–3 m · Az ışıkta büyümesi durur",
-"en": "Light: wants bright light, some direct sun · Water when top 3–5 cm dry · 2–3 m indoors · Stalls in low light · Görsel hayal ürünüdür · Imagined image"
+"fit": 1,
+"f": "m/mk-strel-fig.jpg",
+"tag": "Salonumuzda böyle görünebilir · How it could look in our living room",
+"tr": "Sağda Cennet kuşu (Strelitzia nicolai), solda Keman yapraklı incir · Görselleştirme (gerçek fotoğraf + eklenen bitkiler)",
+"en": "Right: bird of paradise (Strelitzia nicolai) · Left: fiddle-leaf fig · Visualisation (real photo + added plants)"
 },
 {
 "k": "photo",
-"kb": 1,
-"f": "m/pl-lyrata.jpg",
-"tag": "Keman yapraklı incir · Fiddle-leaf fig · Ficus lyrata",
-"tr": "Işık: parlak dolaylı ışık · Sulama: üst 2–3 cm kuruyunca · Boy: içeride 1,5–3 m · Yer değişikliğine ve cereyana küser, yaprak döker · Evcil hayvanlar için zararlı",
-"en": "Light: bright indirect · Water when top 2–3 cm dry · 1.5–3 m indoors · Hates moves & draughts · Toxic to pets · Foto/Photo: Morrisjm, Wikimedia Commons, CC BY-SA 3.0",
-"fit": 1
-},
-{
-"k": "photo",
-"kb": 1,
-"f": "m/pl-olive.jpg",
-"tag": "Zeytin ağacı · Olive tree · Olea europaea",
-"tr": "Işık: günde birkaç saat doğrudan güneş şart · Sulama: toprak iyice kuruyunca, kuraklığa dayanıklı · Saksıda 1–2,5 m · Evcil hayvanlar için toksik değil · Loş köşe için uygun değil",
-"en": "Light: needs hours of direct sun · Water when soil is fairly dry · 1–2.5 m in a pot · Pet-safe · Not for a dim corner · Foto/Photo: Acabashi, Wikimedia Commons, CC BY-SA 4.0",
-"fit": 1
-},
-{
-"k": "photo",
-"kb": 1,
-"f": "m/pl-zz.jpg",
-"tag": "Zamia · ZZ plant · Zamioculcas zamiifolia",
-"tr": "Işık: az ışığa çok dayanıklı · Sulama: 2–3 haftada bir, toprak tamamen kuruyunca · Boy: 60–90 cm · Fazla su en büyük düşmanı · Evcil hayvanlar için zararlı · Şömine sıcağından uzak tutun",
-"en": "Light: very low-light tolerant · Water every 2–3 weeks, when fully dry · 60–90 cm · Overwatering is its enemy · Toxic to pets · Keep off fireplace heat · Görsel hayal ürünüdür · Imagined image"
-},
-{
-"k": "photo",
-"kb": 1,
-"f": "m/pl-monstera.jpg",
-"tag": "Deve tabanı · Swiss cheese plant · Monstera deliciosa",
-"tr": "Işık: parlak dolaylı ışık · Sulama: üst 3–5 cm kuruyunca · Boy: destekle 2–3 m · Karadeniz nemini sever · Evcil hayvanlar için zararlı",
-"en": "Light: bright indirect · Water when top 3–5 cm dry · 2–3 m with a support · Loves Black Sea humidity · Toxic to pets · Görsel hayal ürünüdür · Imagined image"
-},
-{
-"k": "photo",
-"kb": 1,
-"f": "m/pl-sans.jpg",
-"tag": "Paşa kılıcı · Snake plant · Dracaena trifasciata",
-"tr": "Işık: az ışıktan parlak ışığa her yerde yaşar · Sulama: 2–4 haftada bir, kışın daha seyrek · Boy: 60–120 cm · Nemli kışta az sulayın · Evcil hayvanlar için zararlı · Şömine sıcağından uzak tutun",
-"en": "Light: anything from low to bright · Water every 2–4 weeks, less in winter · 60–120 cm · Go easy on water in humid winters · Toxic to pets · Keep off fireplace heat · Görsel hayal ürünüdür · Imagined image"
-},
-{
-"k": "photo",
-"kb": 1,
-"f": "m/pl-elastica.jpg",
-"tag": "Kauçuk · Rubber plant · Ficus elastica",
-"tr": "Işık: parlak dolaylı ışık · Sulama: üst 2–3 cm kuruyunca · Boy: içeride 1,5–3 m · Yaprakları nemli bezle silinir · Süt özsuyu tahriş eder, evcil hayvanlar için zararlı",
-"en": "Light: bright indirect · Water when top 2–3 cm dry · 1.5–3 m indoors · Wipe the leaves · Milky sap irritates; toxic to pets · Foto/Photo: Maja Dumat, Wikimedia Commons, CC BY 2.0",
-"fit": 1
-},
-{
-"k": "photo",
-"kb": 1,
-"f": "m/pl-pothos.jpg",
-"tag": "Salon sarmaşığı · Pothos · Epipremnum aureum",
-"tr": "Işık: az–orta dolaylı ışık · Sulama: üst 2–3 cm kuruyunca · Sarkarak ya da tırmanarak metrelerce uzar · Nemi sever, çok kolay · Evcil hayvanlar için zararlı",
-"en": "Light: low–medium indirect · Water when top 2–3 cm dry · Trails or climbs for metres · Likes humidity, very easy · Toxic to pets · Foto/Photo: Krzysztof Ziarnek (Kenraiz), Wikimedia Commons, CC BY-SA 4.0",
-"fit": 1
-},
-{
-"k": "prov",
-"lb": "Bizim için en iyi iki seçim · Our top two picks",
-"tr": "Ana seçim: koltuğun iki yanına, sağ ve sol köşeye birer Kentia palmiyesi — simetrik, dolaylı ışığa dayanıklı, yavaş büyür, kedi-köpek dostu. Alternatif: sağda Kentia, solda (şömine tarafı) uzun bir Paşa kılıcı — az ışığa ve seyrek sulamaya dayanır. Şöminenin doğrudan sıcağından uzak tutun.",
-"en": "Main pick: a matching pair of Kentia palms, one in each corner beside the sofa — symmetric, fine in indirect light, slow-growing, pet-safe. Alternative: Kentia on the right, a tall snake plant on the left (fireplace side) — handles low light and little water. Keep plants away from direct fireplace heat.",
-"st": "Zeytin bu köşeler için fazla loş · The olive would need far more sun",
-"bg": "m/pl-kentia.jpg"
+"fit": 1,
+"f": "m/mk-wc-zz.jpg",
+"tag": "Misafir tuvaleti · ZZ bitkisi · Guest toilet · ZZ plant",
+"tr": "Köşede koyu gri taş saksıda bir ZZ bitkisi — az ışığı sever · Görselleştirme (gerçek fotoğraf + eklenen bitki)",
+"en": "A ZZ plant in a dark-grey stone pot — happy in low light · Visualisation (real photo + added plant)"
 }
 ]
 }
