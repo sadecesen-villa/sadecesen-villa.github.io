@@ -137,6 +137,8 @@ setInterval(tick,1000);
 // ---- content ----
 // s: slots it fits (m a e n). k: photo|motion|clock|quote|fact
 var P=[
+ {k:'photo',kb:1,or:1,f:'m/isk1.jpg',s:'en',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı, canlı müzik, güzel dostlar',en:'Last night at İskele · rakı, live music, good friends'},
+ {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',s:'en',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'},
  {k:'motion',f:'m/fox.webp',s:'en',nw:1,tag:'Sessiz Ziyaretçi · A Quiet Visitor',tr:'Alacakaranlıkta bahçenin sessiz misafiri',en:'The garden’s quiet guest at dusk'},
  {k:'photo',f:'m/la01.jpg',s:'ma',cp:'top',tag:'Yaşayan Sanat · Living Art',tr:'Sonbaharın ilk fındıkları',en:'The first hazelnuts of autumn'},
  {k:'photo',f:'m/la02.jpg',s:'ae',wx:'rain',tag:'Yaşayan Sanat · Living Art',tr:'Yağmur yağarken bir bardak çay',en:'A glass of tea while it rains'},
@@ -280,7 +282,8 @@ function build(it){
   var iv=setInterval(function(){if(!L.parentNode)clearInterval(iv);else t.innerHTML=wtime(w)},20000);L.corner=true;return L}
  if(it.k=='photo'||it.k=='motion'){
   var im=el('img','bg');im.src=it.f;
-  if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);L.sun=!!SUNOK[it.f];
+  if(it.kb){if(it.fit){var bb=el('img','bg');bb.src=it.f;bb.style.filter='blur(30px) brightness(.4)';bb.style.transform='scale(1.15)';L.appendChild(bb);im.style.objectFit='contain'}im.style.animation='zin '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im)}
+  else if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);L.sun=!!SUNOK[it.f];
   L.appendChild(el('div','shade'));var cp=capt(it.tag,it.tr,it.en);if(it.cp)cp.className+=' '+it.cp;if(it.or){cp.firstChild.style.color='#f0a050';cp.children[1].style.borderLeft='.35vw solid #e8872e';cp.children[1].style.paddingLeft='1.2vw';cp.children[2].style.paddingLeft='1.55vw'}L.appendChild(cp);
  } else {
   var b=el('div','bg');b.style.backgroundImage='url('+pickBg()+')';b.style.filter='blur(18px) brightness(.45)';b.style.transform='scale(1.15)';L.appendChild(b);
