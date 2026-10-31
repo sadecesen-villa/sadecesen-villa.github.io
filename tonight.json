@@ -1,0 +1,136 @@
+{
+"items": [
+{
+"k": "photo",
+"kb": 1,
+"f": "m/tea-night.jpg",
+"tag": "Çay Bahçesi · Tea Garden",
+"tr": "Sisli bir gecede çay bahçeleri — hayal ürünü bir sahne",
+"en": "Tea gardens on a misty night — an imagined scene",
+"cp": "top"
+},
+{
+"k": "prov",
+"lb": "Biliyor muydunuz? · Did you know?",
+"tr": "Türk çayının büyük bölümü Rize ve çevresinde yetişir",
+"en": "Most of Türkiye’s tea is grown in and around Rize",
+"st": "Doğu Karadeniz · Eastern Black Sea",
+"bg": "m/tea-night.jpg"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/copper.jpg",
+"tag": "Bakır · Copper",
+"tr": "Elde dövülmüş bakır, işlemeli bir ibrik",
+"en": "Hand-hammered copper, an engraved jug",
+"cp": "top"
+},
+{
+"k": "prov",
+"lb": "Biliyor muydunuz? · Did you know?",
+"tr": "Türkiye, kişi başına çay tüketiminde dünyanın en önde gelen ülkelerindendir",
+"en": "Türkiye is among the world’s top tea drinkers per person",
+"st": "Bir çay daha? · One more tea?",
+"bg": "m/copper.jpg"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/blue-hour-shore.jpg",
+"tag": "Mavi Saat · Blue Hour",
+"tr": "Gün batımından sonra çakıllı bir kıyı ve uzakta bir fener",
+"en": "A pebble shore after sunset, a lighthouse far away"
+},
+{
+"k": "prov",
+"lb": "Biliyor muydunuz? · Did you know?",
+"tr": "Karadeniz’in suyu okyanusların yaklaşık yarısı kadar tuzludur",
+"en": "The Black Sea is only about half as salty as the oceans",
+"st": "Karadeniz · Black Sea",
+"bg": "m/blue-hour-shore.jpg"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/kitchen-night.jpg",
+"tag": "Karadeniz Mutfağı · Black Sea Kitchen",
+"tr": "Odun sobasında kara lahana çorbası, sepette fındık, mısır ekmeği",
+"en": "Collard-green soup on the wood stove, hazelnuts, cornbread"
+},
+{
+"k": "prov",
+"lb": "Bu Akşam · Tonight",
+"tr": "M & Şerif: bu gecenin tek kuralı — çay bitmeyecek",
+"en": "M & Şerif: tonight’s only rule — the tea never runs out",
+"st": "Kural böyle · House rules",
+"bg": "m/kitchen-night.jpg",
+"or": 1
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/stone-bridge.jpg",
+"tag": "Taş Köprü · Stone Bridge",
+"tr": "Ormanda coşkun bir dere üstünde eski bir taş köprü — hayal ürünü",
+"en": "An old stone bridge over a rushing forest stream — imagined",
+"cp": "top"
+},
+{
+"k": "prov",
+"lb": "Biliyor muydunuz? · Did you know?",
+"tr": "Trabzon, yaklaşık 2.700 yıl önce Sinoplu kolonistlerce Trapezus adıyla kuruldu",
+"en": "Trabzon was founded about 2,700 years ago as Trapezus, by colonists from Sinope",
+"st": "Trabzon",
+"bg": "m/stone-bridge.jpg"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/hazelnuts.jpg",
+"tag": "Fındık · Hazelnuts",
+"tr": "Kabuğunda taze fındık ve sonbahar yaprakları",
+"en": "Fresh hazelnuts in their husks, with autumn leaves"
+},
+{
+"k": "prov",
+"lb": "Biliyor muydunuz? · Did you know?",
+"tr": "Karadeniz’in en derin noktası yaklaşık 2.200 metredir",
+"en": "The Black Sea’s deepest point is about 2,200 metres",
+"st": "Karadeniz · Black Sea",
+"bg": "m/harbour-night.jpg"
+},
+{
+"k": "photo",
+"kb": 1,
+"f": "m/carpet.jpg",
+"tag": "El Dokuması · Hand-Knotted",
+"tr": "Anadolu motifli bir halı üzerinde bir bardak çay",
+"en": "A glass of tea on an Anatolian-patterned carpet"
+},
+{
+"k": "prov",
+"lb": "Biliyor muydunuz? · Did you know?",
+"tr": "Horon, kemençe eşliğinde oynanan Karadeniz halk oyunudur",
+"en": "The horon is the Black Sea folk dance, played to the kemençe",
+"st": "Karadeniz · Black Sea",
+"bg": "m/carpet.jpg"
+},
+{
+"k": "prov",
+"lb": "Bu Akşam · Tonight",
+"tr": "Şerif, bir dahaki tavlada zar senden yana olsun… belki",
+"en": "Şerif, may the dice favour you at the next tavla… maybe",
+"st": "Dostça bir dilek · A friendly wish",
+"bg": "m/tavla-fire.jpg"
+},
+{
+"k": "prov",
+"lb": "Biliyor muydunuz? · Did you know?",
+"tr": "Atatürk, 1937’de Trabzon’a geldiğinde Soğuksu’daki köşkte kaldı",
+"en": "When Atatürk visited Trabzon in 1937, he stayed at the mansion in Soğuksu",
+"st": "Atatürk Köşkü · Trabzon",
+"bg": "m/cliff-monastery.jpg"
+}
+]
+}
