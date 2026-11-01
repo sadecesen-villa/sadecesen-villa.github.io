@@ -118,8 +118,8 @@
     {
      "k": "prov",
      "lb": "Hoş geldiniz · Welcome",
-     "tr": "Hoş geldiniz Heja & Sercan",
-     "en": "Welcome, Heja & Sercan",
+     "tr": "Hoş geldiniz Heja & Serkan",
+     "en": "Welcome, Heja & Serkan",
      "st": "Villa Sadece Sen · Arsin",
      "bg": "m/hs-welcome.jpg"
     },
@@ -409,11 +409,11 @@
      "lb": "Hoş geldiniz · Welcome",
      "tr": "Gönül dostlarla güzel, sofra dostlarla bereketli",
      "en": "The heart is happy with friends, the table abundant with them",
-     "st": "Hoş geldiniz Heja & Sercan · Welcome",
+     "st": "Hoş geldiniz Heja & Serkan · Welcome",
      "bg": "m/hs-welcome.jpg"
     }
    ]
   }
  ],
- "_names": "Guest names appear only in heja-sercan-1nov slides 1 (tr/en) and last (st). Search \"Heja & Sercan\" to edit."
+ "_names": "Guest names appear only in heja-sercan-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit."
 }
