@@ -868,6 +868,261 @@
      "bg": "m/ev-trabzon-night.jpg"
     }
    ]
+  },
+  {
+   "id": "solo-1nov",
+   "from": "2026-11-01T19:55",
+   "until": "2026-11-01T23:59",
+   "items": [
+    {
+     "k": "prov",
+     "lb": "İyi akşamlar · Good evening",
+     "tr": "İyi akşamlar Mami",
+     "en": "Good evening, Mami",
+     "st": "Villa Sadece Sen",
+     "bg": "m/so-sea.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-sea.jpg",
+     "tag": "Karadeniz · Black Sea",
+     "tr": "Gerçek fotoğraf: Karadeniz’de akşam karanlığı · Foto: Alexey Komarov, CC BY 3.0",
+     "en": "Real photo: Dusk falling over the Black Sea · Photo: Alexey Komarov, CC BY 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-moon.jpg",
+     "tag": "Dolunay · Full moon",
+     "tr": "Gerçek fotoğraf: Denizin üzerinde dolunay · Foto: Alfredo J G A Borba, CC BY-SA 4.0",
+     "en": "Real photo: A full moon over the sea · Photo: Alfredo J G A Borba, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Mevlânâ · Rumi",
+     "tr": "Ya olduğun gibi görün, ya göründüğün gibi ol",
+     "en": "Either appear as you are, or be as you appear",
+     "st": "Rumi · Mevlânâ",
+     "bg": "m/so-moon.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-kackar.jpg",
+     "tag": "Kaçkar Dağları · Kaçkar Mountains",
+     "tr": "Gerçek fotoğraf: Kaçkar Dağları’nda Yedigöller · Foto: Tohnjitor, CC BY-SA 4.0",
+     "en": "Real photo: Yedigöller lakes in the Kaçkar Mountains · Photo: Tohnjitor, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-ayder.jpg",
+     "tag": "Ayder · Rize",
+     "tr": "Gerçek fotoğraf: Sisli Ayder Yaylası · Foto: Dr. Zeynel Cebeci, CC BY-SA 3.0",
+     "en": "Real photo: Ayder plateau in the mist · Photo: Dr. Zeynel Cebeci, CC BY-SA 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Kaçkar Dağı 3.937 m ile Karadeniz’in en yüksek zirvesidir",
+     "en": "At 3,937 m, Mount Kaçkar is the highest peak of the Black Sea region",
+     "st": "Kaçkar Dağları",
+     "bg": "m/so-kackar.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-pokut.jpg",
+     "tag": "Pokut · Çamlıhemşin",
+     "tr": "Gerçek fotoğraf: Pokut Yaylası manzarası · Foto: Kadir KARA, CC BY-SA 4.0",
+     "en": "Real photo: The Pokut plateau landscape · Photo: Kadir KARA, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-hamsikoy.jpg",
+     "tag": "Hamsiköy · Trabzon",
+     "tr": "Gerçek fotoğraf: Yeşil vadide Hamsiköy · Foto: Hamdigumus, CC0",
+     "en": "Real photo: Hamsiköy in its green valley · Photo: Hamdigumus, CC0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Yunus Emre",
+     "tr": "Sevelim sevilelim, bu dünya kimseye kalmaz",
+     "en": "Let us love and be loved; this world is left to no one",
+     "st": "Yunus Emre",
+     "bg": "m/so-pokut.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-tea.jpg",
+     "tag": "Çay · Tea",
+     "tr": "Gerçek fotoğraf: Rize’de çay bahçeleri · Foto: Photo by User:Wikimol, CC BY-SA 2.5",
+     "en": "Real photo: Tea gardens in Rize · Photo: Photo by User:Wikimol, CC BY-SA 2.5",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Karadeniz’in derin sularında neredeyse hiç oksijen yoktur; antik gemi enkazları bu yüzden binlerce yıl korunur",
+     "en": "The Black Sea’s deep waters hold almost no oxygen, so ancient shipwrecks survive there for thousands of years",
+     "st": "Karadeniz · Black Sea",
+     "bg": "m/so-sea.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-zilkale.jpg",
+     "tag": "Zilkale · Rize",
+     "tr": "Gerçek fotoğraf: Fırtına Vadisi’nde Zilkale · Foto: Hamdigumus, CC0",
+     "en": "Real photo: Zilkale castle in the Fırtına Valley · Photo: Hamdigumus, CC0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-fire.jpg",
+     "tag": "Şömine · Fireplace",
+     "tr": "Gerçek fotoğraf: Şöminede yanan odun ateşi · Foto: Vyacheslav Argenberg, CC BY 4.0",
+     "en": "Real photo: A wood fire in a fireplace · Photo: Vyacheslav Argenberg, CC BY 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Mevlânâ · Rumi",
+     "tr": "Gel, ne olursan ol yine gel",
+     "en": "Come, come again, whoever you are",
+     "st": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "bg": "m/so-fire.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-rain.jpg",
+     "tag": "Yağmur · Rain",
+     "tr": "Gerçek fotoğraf: Camda yağmur damlaları · Foto: Tomascastelazo, CC BY-SA 4.0",
+     "en": "Real photo: Raindrops on glass · Photo: Tomascastelazo, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Trabzon’un antik adı Trapezus’tur; MÖ 8. yüzyıl civarında kurulduğu kabul edilir",
+     "en": "Trabzon’s ancient name is Trapezus; it is thought to have been founded around the 8th century BC",
+     "st": "Trabzon",
+     "bg": "m/so-hamsikoy.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-capp.jpg",
+     "tag": "Kapadokya · Cappadocia",
+     "tr": "Gerçek fotoğraf: Kapadokya’da gün doğumunda bir balon · Foto: MusikAnimal, CC BY-SA 4.0",
+     "en": "Real photo: A balloon at sunrise over Cappadocia · Photo: MusikAnimal, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-capp2.jpg",
+     "tag": "Göreme",
+     "tr": "Gerçek fotoğraf: Göreme üzerinde balonlar · Foto: William Neuheisel from DC, US, CC BY 2.0",
+     "en": "Real photo: Balloons over Göreme · Photo: William Neuheisel from DC, US, CC BY 2.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Yunus Emre",
+     "tr": "Gelin tanış olalım, işi kolay kılalım",
+     "en": "Come, let us be friends, let us make things easy",
+     "st": "Yunus Emre",
+     "bg": "m/so-capp.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-bosphorus.jpg",
+     "tag": "İstanbul · Boğaz",
+     "tr": "Gerçek fotoğraf: Gece Boğaz Köprüsü · Foto: SeablueTravelOfficial, CC BY-SA 4.0",
+     "en": "Real photo: The Bosphorus Bridge at night · Photo: SeablueTravelOfficial, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-ortakoy.jpg",
+     "tag": "Ortaköy · İstanbul",
+     "tr": "Gerçek fotoğraf: Gece Ortaköy Camii ve Boğaz · Foto: Giuseppe Pinto, CC BY-SA 3.0",
+     "en": "Real photo: Ortaköy Mosque and the Bosphorus at night · Photo: Giuseppe Pinto, CC BY-SA 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-galata.jpg",
+     "tag": "Galata · İstanbul",
+     "tr": "Gerçek fotoğraf: Gece Galata Kulesi · Foto: Alexxx1979, CC BY-SA 3.0",
+     "en": "Real photo: Galata Tower at night · Photo: Alexxx1979, CC BY-SA 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Trabzon, 1204–1461 arasında Trabzon İmparatorluğu’nun başkentiydi",
+     "en": "Trabzon was the capital of the Empire of Trebizond from 1204 to 1461",
+     "st": "Trabzon",
+     "bg": "m/so-galata.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-stars.jpg",
+     "tag": "Yıldızlar · Stars",
+     "tr": "Gerçek fotoğraf: Gece göğünde yıldız izleri (uzun pozlama) · Foto: Thomas Bresson, CC BY 3.0",
+     "en": "Real photo: Star trails in the night sky (long exposure) · Photo: Thomas Bresson, CC BY 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Mevlânâ · Rumi",
+     "tr": "Hamdım, piştim, yandım",
+     "en": "I was raw, I was cooked, I burned",
+     "st": "Rumi · Mevlânâ",
+     "bg": "m/so-stars.jpg"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Rize, Türkiye’nin çayının büyük bölümünü yetiştirir",
+     "en": "Rize grows most of Turkey’s tea",
+     "st": "Rize",
+     "bg": "m/so-tea.jpg"
+    },
+    {
+     "k": "prov",
+     "lb": "Yunus Emre",
+     "tr": "Yaratılanı severiz, Yaratan’dan ötürü",
+     "en": "We love the created for the sake of the Creator",
+     "st": "Yunus Emre",
+     "bg": "m/so-ayder.jpg"
+    },
+    {
+     "k": "prov",
+     "lb": "İyi geceler · Good night",
+     "tr": "İyi geceler Mami",
+     "en": "Good night, Mami",
+     "st": "Villa Sadece Sen",
+     "bg": "m/so-moon.jpg"
+    }
+   ]
   }
  ],
  "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit."
