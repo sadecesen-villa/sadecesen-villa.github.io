@@ -442,6 +442,131 @@
    ]
   },
   {
+   "id": "wine-1nov",
+   "from": "2026-11-01T15:30",
+   "until": "2026-11-01T18:00",
+   "items": [
+    {
+     "k": "prov",
+     "lb": "Şerif'in kadehi · Şerif's glass",
+     "tr": "Bugünün şarabı: Kavaklıdere Selection Öküzgözü–Boğazkere 2022, kuru kırmızı",
+     "en": "Today's wine: Kavaklıdere Selection Öküzgözü–Boğazkere 2022, a dry red",
+     "st": "Villa Sadece Sen · Arsin",
+     "bg": "m/wn-sadebag.jpg"
+    },
+    {
+     "k": "prov",
+     "lb": "Kavaklıdere",
+     "tr": "Sevda ve Cenap And, 1929'da Ankara'da Kavaklıdere şarap imalathanesini kurdu",
+     "en": "Sevda and Cenap And founded the Kavaklıdere winery in Ankara in 1929",
+     "st": "Adını Ankara'nın Kavaklıdere semtinden alır · Named after an Ankara neighbourhood",
+     "bg": "m/wn-kav.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/wn-kav.jpg",
+     "tag": "Kavaklıdere",
+     "tr": "Gerçek fotoğraf: Kavaklıdere şişeleri (Ancyra, Kalecik Karası) · Foto: Gargarapalvin, CC BY 4.0",
+     "en": "Real photo: Kavaklıdere bottles (Ancyra, Kalecik Karası) · Photo: Gargarapalvin, CC BY 4.0",
+     "cp": "top",
+     "fit": 1
+    },
+    {
+     "k": "prov",
+     "lb": "Selection",
+     "tr": "Selection, 1987'de Kavaklıdere'nin 60. yılı onuruna ilk kez üretildi",
+     "en": "Selection was first made in 1987 to honour Kavaklıdere's 60th anniversary",
+     "st": "%50 Öküzgözü · %50 Boğazkere · 50% Öküzgözü · 50% Boğazkere",
+     "bg": "m/wn-sadebag.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/wn-sadebag.jpg",
+     "tag": "Anadolu Bağları · Anatolian Vineyards",
+     "tr": "Gerçek fotoğraf: Denizli'de Sadebağ bağı · Foto: CevatKaraman, CC0",
+     "en": "Real photo: Sadebağ vineyard in Denizli · Photo: CevatKaraman, CC0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Öküzgözü",
+     "tr": "\"Öküz gözü\": adını iri, yuvarlak ve koyu tanelerinden alır; Elazığ'ın yerli üzümüdür",
+     "en": "\"Ox eye\": named for its big, round, dark berries, a native grape of Elazığ",
+     "st": "Doğu Anadolu · Eastern Anatolia",
+     "bg": "m/wn-keban.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/wn-keban.jpg",
+     "tag": "Elazığ",
+     "tr": "Gerçek fotoğraf: Elazığ'da Keban Barajı ve Fırat · Foto: Zeynep Kılınç, CC BY-SA 4.0",
+     "en": "Real photo: Keban Dam and the Euphrates in Elazığ · Photo: Zeynep Kılınç, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Kavaklıdere'nin Elazığ Aydıncık bağları, Keban Baraj Gölü yakınında, 920 metre yüksekliktedir",
+     "en": "Kavaklıdere's Aydıncık vineyards in Elazığ lie near Keban Dam Lake, 920 metres above sea level",
+     "st": "Elazığ · Aydıncık",
+     "bg": "m/wn-harput.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/wn-harput.jpg",
+     "tag": "Harput · Elazığ",
+     "tr": "Gerçek fotoğraf: Elazığ'da Harput Kalesi · Foto: Kaya Elifnur 72, CC BY-SA 4.0",
+     "en": "Real photo: Harput Castle in Elazığ · Photo: Kaya Elifnur 72, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Boğazkere",
+     "tr": "\"Boğaz yakan\": Dicle kıyısındaki Diyarbakır'ın tanenli, güçlü yerli üzümü",
+     "en": "\"Throat-burner\": the bold, tannic native grape of Diyarbakır on the Tigris",
+     "st": "Güneydoğu Anadolu · Southeastern Anatolia",
+     "bg": "m/wn-midyat.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/wn-midyat.jpg",
+     "tag": "Güneydoğu Bağları · Southeastern Vineyards",
+     "tr": "Gerçek fotoğraf: Midyat yakınlarında bir bağ · Foto: Radosław Botev, CC BY 3.0 PL",
+     "en": "Real photo: a vineyard near Midyat · Photo: Radosław Botev, CC BY 3.0 PL",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Kadehte · In the glass",
+     "tr": "Yakut parıltılı nar rengi; kuru kırmızı meyve, baharat, tütün ve deri notaları",
+     "en": "Garnet with ruby tints; dried red fruit, spice, tobacco and leather",
+     "st": "Fransız meşesinde 10 ay · 10 months in French oak",
+     "bg": "m/wn-sadebag.jpg"
+    },
+    {
+     "k": "prov",
+     "lb": "Sofrada · At the table",
+     "tr": "Kuzu, kebap, ızgara et ve olgun sert peynirle; 15–17 °C'de servis edilir",
+     "en": "With lamb, kebab, grilled meat and aged hard cheese; serve at 15–17 °C",
+     "st": "Şerefe · Cheers",
+     "bg": "m/wn-midyat.jpg"
+    },
+    {
+     "k": "prov",
+     "lb": "Ödül · Award",
+     "tr": "Bu şarabın 2021 rekoltesi, IWSC 2024'te bronz madalya aldı",
+     "en": "The 2021 vintage of this wine won a Bronze medal at IWSC 2024",
+     "st": "Şerif & Mami · Afiyet olsun · Enjoy",
+     "bg": "m/wn-keban.jpg"
+    }
+   ]
+  },
+  {
    "id": "evening-1nov",
    "from": "2026-11-01T18:00",
    "until": "2026-11-01T23:59",
@@ -458,8 +583,8 @@
     {
      "k": "prov",
      "lb": "İyi akşamlar · Good evening",
-     "tr": "İyi akşamlar Heja & Serkan",
-     "en": "Good evening, Heja & Serkan",
+     "tr": "İyi akşamlar Şerif & Mami",
+     "en": "Good evening, Şerif & Mami",
      "st": "Villa Sadece Sen · Arsin",
      "bg": "m/ev-sunset.jpg"
     },
@@ -739,7 +864,7 @@
      "lb": "İyi geceler · Good night",
      "tr": "Yıldızlar sizin için yansın, rüyalarınız tatlı olsun",
      "en": "May the stars shine for you, and your dreams be sweet",
-     "st": "İyi geceler Heja & Serkan · Good night",
+     "st": "İyi geceler Şerif & Mami · Good night",
      "bg": "m/ev-trabzon-night.jpg"
     }
    ]

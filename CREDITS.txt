@@ -27,3 +27,8 @@ m/ev-tarkan2.jpg — "Tarkan en concert au Zénith de Paris.JPG" by Meyrem777, C
 m/ev-manco.jpg — "Baris Manco.jpg" by Arife Ciftci, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Baris_Manco.jpg (cropped/resized)
 m/ev-bosphorus.jpg — "Bosphorus Bridge at night.jpg" by Andrey Filippov, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_at_night.jpg (cropped/resized)
 m/ev-raki.jpg — generated image (hayal ürünü · imagined)
+m/wn-kav.jpg — "Kavaklıdere Şarapları, Ancyra, Kalecik Karası.jpg" by Gargarapalvin, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Kavakl%C4%B1dere_%C5%9Earaplar%C4%B1,_Ancyra,_Kalecik_Karas%C4%B1.jpg (resized)
+m/wn-sadebag.jpg — "Sadebağ Vineyard.jpg" by CevatKaraman, CC0, https://commons.wikimedia.org/wiki/File:Sadeba%C4%9F_Vineyard.jpg (cropped/resized)
+m/wn-keban.jpg — "Elazığ Keban Barajı.jpg" by Zeynep Kılınç, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Elaz%C4%B1%C4%9F_Keban_Baraj%C4%B1.jpg (cropped/resized)
+m/wn-harput.jpg — "Harput Kalesi 2.jpg" by Kaya Elifnur 72, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Harput_Kalesi_2.jpg (cropped/resized)
+m/wn-midyat.jpg — "Vineyard at the outskirts of Midyat.jpg" by Radosław Botev, CC BY 3.0 PL, https://commons.wikimedia.org/wiki/File:Vineyard_at_the_outskirts_of_Midyat.jpg (cropped/resized)
