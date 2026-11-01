@@ -413,7 +413,283 @@
      "bg": "m/hs-welcome.jpg"
     }
    ]
+  },
+  {
+   "id": "evening-1nov",
+   "from": "2026-11-01T18:00",
+   "until": "2026-11-01T23:59",
+   "items": [
+    {
+     "k": "prov",
+     "lb": "İyi akşamlar · Good evening",
+     "tr": "İyi akşamlar Heja & Serkan",
+     "en": "Good evening, Heja & Serkan",
+     "st": "Villa Sadece Sen · Arsin",
+     "bg": "m/ev-sunset.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-sunset.jpg",
+     "tag": "Akşam · Evening",
+     "tr": "Gerçek fotoğraf: Karadeniz’de gün batımı · Foto: Yanina Pakhomova, CC BY-SA 4.0",
+     "en": "Real photo: Sunset over the Black Sea · Photo: Yanina Pakhomova, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-sahil.jpg",
+     "tag": "Trabzon",
+     "tr": "Gerçek fotoğraf: denizden Trabzon kıyısı · Foto: Sinan Şahin, CC BY 3.0",
+     "en": "Real photo: the Trabzon shore seen from the sea · Photo: Sinan Şahin, CC BY 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Karadeniz · Black Sea",
+     "tr": "Karadeniz’de akşam, çayla ve sohbetle uzar",
+     "en": "On the Black Sea, evenings stretch out with tea and conversation",
+     "st": "Villa Sadece Sen",
+     "bg": "m/ev-sahil.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-trabzon-night.jpg",
+     "tag": "Gece · Night",
+     "tr": "Gerçek fotoğraf: yukarıdan Trabzon’un gece ışıkları · Foto: Aleksasfi, kamu malı",
+     "en": "Real photo: Trabzon’s lights at night from above · Photo: Aleksasfi, public domain",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-meydan.jpg",
+     "tag": "Meydan · Trabzon",
+     "tr": "Gerçek fotoğraf: Meydan’dan Trabzon’da bir gece · Foto: Robot8A, CC BY-SA 4.0",
+     "en": "Real photo: a night in Trabzon, from the Meydan · Photo: Robot8A, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-uzunsokak.jpg",
+     "tag": "Uzun Sokak",
+     "tr": "Gerçek fotoğraf: Trabzon’da Uzun Sokak, akşam · Foto: Alaexis, CC BY-SA 3.0",
+     "en": "Real photo: Uzun Sokak in Trabzon, in the evening · Photo: Alaexis, CC BY-SA 3.0",
+     "cp": "top",
+     "fit": 1
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-boat.jpg",
+     "tag": "Balıkçılar · Fishermen",
+     "tr": "Gerçek fotoğraf: Espiye açıklarında bir balıkçı teknesi · Foto: Zeynel Cebeci, CC BY-SA 4.0",
+     "en": "Real photo: a fishing boat off Espiye on the Black Sea · Photo: Zeynel Cebeci, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Hamsi, Karadeniz’in sonbahar ve kış balığıdır; tavası, pilavı, buğulaması yapılır",
+     "en": "Hamsi (anchovy) is the Black Sea’s autumn and winter fish — fried, baked in rice or steamed",
+     "st": "Karadeniz · Black Sea",
+     "bg": "m/ev-boat.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-hamsi.jpg",
+     "tag": "Hamsi",
+     "tr": "Gerçek fotoğraf: roka ve limonla hamsi tava · Foto: E4024, CC BY-SA 4.0",
+     "en": "Real photo: fried hamsi with rocket and lemon · Photo: E4024, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-raki.jpg",
+     "tag": "Rakı · Meze",
+     "tr": "Rakı, beyaz peynir, kavun ve mezeler — hayal ürünü · imagined",
+     "en": "Rakı, white cheese, melon and meze — hayal ürünü · imagined",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Rakıya “aslan sütü” denir; su eklenince berraklıktan süt beyazına döner",
+     "en": "Rakı is called “lion’s milk”; it turns from clear to milky white when water is added",
+     "st": "Rakı · Meze",
+     "bg": "m/ev-raki.jpg"
+    },
+    {
+     "k": "prov",
+     "lb": "Sofra · The Table",
+     "tr": "Rakı sofrası acele etmez: önce meze, sonra sohbet, en son şarkılar",
+     "en": "A rakı table never rushes: first meze, then conversation, and finally songs",
+     "st": "Türk sofra geleneği · Turkish table tradition",
+     "bg": "m/ev-kofte.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-kofte.jpg",
+     "tag": "Izgara · Grill",
+     "tr": "Gerçek fotoğraf: ızgara pirzola ve köfte · Foto: E4024, CC BY-SA 4.0",
+     "en": "Real photo: grilled lamb chops and köfte · Photo: E4024, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-sezen.jpg",
+     "tag": "Sezen Aksu",
+     "tr": "Gerçek fotoğraf: Sezen Aksu, İTÜ konserinde · Foto: Lubunya, CC BY-SA 3.0",
+     "en": "Real photo: Sezen Aksu in concert at İTÜ · Photo: Lubunya, CC BY-SA 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Sezen Aksu",
+     "tr": "“Minik Serçe” 1954’te Sarayköy’de doğdu; yüzlerce şarkı yazdı, birçoğunu başkaları için",
+     "en": "The “Little Sparrow” was born in Sarayköy in 1954 and wrote hundreds of songs, many for other singers",
+     "st": "Türk pop müziğinin kraliçesi · Queen of Turkish pop",
+     "bg": "m/ev-sezen.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-manco.jpg",
+     "tag": "Barış Manço",
+     "tr": "Gerçek fotoğraf: Barış Manço için yapılmış bir duvar resmi · Foto: Arife Ciftci, CC BY-SA 4.0",
+     "en": "Real photo: a mural made in honour of Barış Manço · Photo: Arife Ciftci, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Barış Manço",
+     "tr": "Barış Manço (1943–1999) “Gülpembe” ve “Dönence”yi söyledi; “7’den 77’ye” ile her eve girdi",
+     "en": "Barış Manço (1943–1999) sang “Gülpembe” and “Dönence”, and reached every home with his TV show “7’den 77’ye”",
+     "st": "Anadolu rock’ın efsanesi · Legend of Anatolian rock",
+     "bg": "m/ev-manco.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-tarkan.jpg",
+     "tag": "Tarkan",
+     "tr": "Gerçek fotoğraf: Tarkan, İstanbul konseri, 2010 · Foto: Scott Dexter, CC BY-SA 2.0",
+     "en": "Real photo: Tarkan in concert in Istanbul, 2010 · Photo: Scott Dexter, CC BY-SA 2.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Tarkan",
+     "tr": "Tarkan’ın 1997 hiti “Şımarık”ın söz ve müziği Sezen Aksu’ya aittir; şarkı Avrupa’da listelere girdi",
+     "en": "Tarkan’s 1997 hit “Şımarık” was written by Sezen Aksu and climbed the charts across Europe",
+     "st": "Megastar",
+     "bg": "m/ev-tarkan2.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-tarkan2.jpg",
+     "tag": "Tarkan",
+     "tr": "Gerçek fotoğraf: Tarkan, Paris Zénith konseri · Foto: Meyrem777, CC BY-SA 3.0",
+     "en": "Real photo: Tarkan in concert at the Zénith, Paris · Photo: Meyrem777, CC BY-SA 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Kayahan",
+     "tr": "Kayahan (1949–2015) aşk şarkılarının ustasıydı; 1990’da Eurovision’da “Gözlerinin Hapsindeyim”i söyledi",
+     "en": "Kayahan (1949–2015) was a master of love songs; he sang “Gözlerinin Hapsindeyim” at Eurovision in 1990",
+     "st": "Şarkı sözü yazarı ve besteci · Songwriter and composer",
+     "bg": "m/ev-bosphorus.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-bosphorus.jpg",
+     "tag": "İstanbul",
+     "tr": "Gerçek fotoğraf: gece Boğaziçi Köprüsü · Foto: Andrey Filippov, CC BY 2.0",
+     "en": "Real photo: the Bosphorus Bridge at night · Photo: Andrey Filippov, CC BY 2.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Şarkı Gecesi · A Night of Songs",
+     "tr": "Bir şarkı başlar, herkes eşlik eder — Türk sofrasının en güzel anı",
+     "en": "A song begins and everyone joins in — the finest moment at a Turkish table",
+     "st": "Sevgi · Love",
+     "bg": "m/ev-tea2.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-tea.jpg",
+     "tag": "Çay · Tea",
+     "tr": "Gerçek fotoğraf: ince belli bardakta Türk çayı · Foto: Cemallamec, CC BY-SA 4.0",
+     "en": "Real photo: Turkish tea in a tulip glass · Photo: Cemallamec, CC BY-SA 4.0",
+     "cp": "top",
+     "fit": 1
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Türkiye, kişi başına dünyada en çok çay içilen ülkelerden biridir; çayın çoğu Rize ve Trabzon’da yetişir",
+     "en": "Türkiye is one of the world’s biggest tea drinkers per person; most of its tea grows around Rize and Trabzon",
+     "st": "Çay · Tea",
+     "bg": "m/ev-tea.jpg"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-tea2.jpg",
+     "tag": "Çay · Tea",
+     "tr": "Gerçek fotoğraf: bir bardak demli çay · Foto: Nevit Dilmen, CC BY-SA 3.0",
+     "en": "Real photo: a glass of well-brewed tea · Photo: Nevit Dilmen, CC BY-SA 3.0",
+     "cp": "top"
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-kunefe.jpg",
+     "tag": "Tatlı · Dessert",
+     "tr": "Gerçek fotoğraf: künefe ve çay · Foto: Sandstein, CC BY 3.0",
+     "en": "Real photo: künefe with tea · Photo: Sandstein, CC BY 3.0",
+     "cp": "top",
+     "fit": 1
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-coffee2.jpg",
+     "tag": "Türk Kahvesi · Turkish Coffee",
+     "tr": "Gerçek fotoğraf: köpüklü Türk kahvesi · Foto: Garrett Ziegler, CC BY-SA 4.0",
+     "en": "Real photo: Turkish coffee with its foam · Photo: Garrett Ziegler, CC BY-SA 4.0",
+     "cp": "top"
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Türk kahvesi kültürü ve geleneği 2013’te UNESCO Somut Olmayan Kültürel Miras listesine girdi",
+     "en": "Turkish coffee culture and tradition joined UNESCO’s Intangible Cultural Heritage list in 2013",
+     "st": "Türk Kahvesi · Turkish Coffee",
+     "bg": "m/ev-coffee2.jpg"
+    },
+    {
+     "k": "prov",
+     "lb": "İyi geceler · Good night",
+     "tr": "Yıldızlar sizin için yansın, rüyalarınız tatlı olsun",
+     "en": "May the stars shine for you, and your dreams be sweet",
+     "st": "İyi geceler Heja & Serkan · Good night",
+     "bg": "m/ev-trabzon-night.jpg"
+    }
+   ]
   }
  ],
- "_names": "Guest names appear only in heja-sercan-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit."
+ "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit."
 }
