@@ -150,14 +150,6 @@
      "bg": "m/hs-walls.jpg"
     },
     {
-     "k": "prov",
-     "lb": "Bi xêr hatin · Hoş geldiniz",
-     "tr": "Bi xêr hatin — evimiz sizin eviniz",
-     "en": "Bi xêr hatin — Kurdish for welcome; our home is your home",
-     "st": "Kürtçe · Kurdish",
-     "bg": "m/hs-walls2.jpg"
-    },
-    {
      "k": "photo",
      "kb": 1,
      "f": "m/hs-bridge.jpg",
@@ -372,23 +364,6 @@
     {
      "k": "photo",
      "kb": 1,
-     "f": "m/hs-ciger.jpg",
-     "tag": "Ciğer Kebabı · Liver Kebab",
-     "tr": "Lavaş üstünde şiş, soğan, sumak ve maydanoz — hayal ürünü",
-     "en": "Skewers on lavash with onion, sumac and parsley — imagined",
-     "cp": "top"
-    },
-    {
-     "k": "prov",
-     "lb": "Biliyor muydunuz? · Did you know?",
-     "tr": "Diyarbakır’da ciğer kebabı sabah kahvaltısında bile yenir",
-     "en": "In Diyarbakır, liver kebab is enjoyed even for breakfast",
-     "st": "Diyarbakır",
-     "bg": "m/hs-ciger.jpg"
-    },
-    {
-     "k": "photo",
-     "kb": 1,
      "f": "m/hs-meze.jpg",
      "tag": "Meze Sofrası · Meze Table",
      "tr": "Denize bakan terasta haydari, ezme, sarma ve kavun — hayal ürünü",
@@ -431,7 +406,7 @@
     },
     {
      "k": "prov",
-     "lb": "Hoş geldiniz · Bi xêr hatin",
+     "lb": "Hoş geldiniz · Welcome",
      "tr": "Gönül dostlarla güzel, sofra dostlarla bereketli",
      "en": "The heart is happy with friends, the table abundant with them",
      "st": "Hoş geldiniz Heja & Sercan · Welcome",
