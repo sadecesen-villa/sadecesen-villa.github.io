@@ -48,3 +48,6 @@ m/so-ortakoy.jpg — "Ortaköy Mosque (160990449).jpeg" by Giuseppe Pinto, CC BY
 m/so-galata.jpg — "Istanbul Galata Tower IMG 7475 1800.jpg" by Alexxx1979, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Istanbul_Galata_Tower_IMG_7475_1800.jpg (cropped/resized)
 m/so-fire.jpg — "Fireplace, Wood fire, Rostov-on-Don, Russia.jpg" by Vyacheslav Argenberg, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Fireplace,_Wood_fire,_Rostov-on-Don,_Russia.jpg (cropped/resized)
 m/so-rain.jpg — "Rain on glass from below.jpg" by Tomascastelazo, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Rain_on_glass_from_below.jpg (cropped/resized)
+
+m/w-day.jpg: NASA Visible Earth "Land ocean ice 2048" (Wikimedia Commons), public domain
+m/w-night.jpg: NASA "The Earth at night" (Wikimedia Commons), public domain

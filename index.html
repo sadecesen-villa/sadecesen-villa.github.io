@@ -113,7 +113,9 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="dim"></div><div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
+<script src="wow.js?v=42"></script>
 <script>
+// v42
 // ---- Sadece Sen TV: autonomous rotation (all media hosted here on GitHub Pages; ngrok only for manual pushes) ----
 var BASE='https://cabana-margarine-unsigned.ngrok-free.dev/a1fab203f71be9a06a33b65004ed1e94/';
 var SLIDE=150000; // 2.5 min per slide
@@ -266,6 +268,7 @@ function moon(){var syn=29.530588853,ref=Date.UTC(2000,0,6,18,14)/864e5,age=((Da
  var nf=(14.765-age+syn)%syn;return {age:age,ill:ill,n:N[i],full:Math.round(age<14.765?14.765-age:syn-age+14.765),wax:age<syn/2}}
 function build(it){
  var L=el('div','layer'),corner=true;
+ if(typeof WOW!='undefined'&&WOW[it.k]){var r=null;try{r=WOW[it.k](L,it)}catch(e){r=null}if(r){r.dur=it.d;return r}return build(next())}
  if(it.k=='sea')return buildSea(L);
  if(it.k=='prov'){var b=el('img','bg');b.src=it.bg||'m/coast-night.jpg';b.style.filter='blur(14px) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');var lb=el('div','small',it.lb||'Atasözü · Proverb');if(it.or)lb.style.color='#f0a050';C.appendChild(lb);C.appendChild(el('div','line'));C.appendChild(el('div','tr',it.tr));C.appendChild(el('div','en',it.en));C.appendChild(el('div','small',it.st));L.appendChild(C);L.corner=true;return L}if(it.k=='hamsi')return buildHamsi(L);
  if(it.k=='word'){var d=ist(),w=WD[(Math.floor(d.getTime()/86400000))%WD.length];if(!w[4]&&(d.getDate()%2))w=WD[0];
@@ -426,7 +429,7 @@ function next(){
  return it;
 }
 var override=0,timer=null;
-function rotate(){var sp=special();if(sp){showSpecial(sp);timer=setTimeout(rotate,15000);return}if(new Date().getTime()<override){timer=setTimeout(rotate,15000);return}swap(build(next()));timer=setTimeout(rotate,SLIDE)}
+function rotate(){var sp=special();if(sp){showSpecial(sp);timer=setTimeout(rotate,15000);return}if(new Date().getTime()<override){timer=setTimeout(rotate,15000);return}var B=build(next());swap(B);timer=setTimeout(rotate,B&&B.dur?B.dur*1000:SLIDE)}
 // ---- manual push via ngrok (optional). Shows a push for 15 min, then rotation resumes. ----
 var last=null;
 function xhr(url,rt,ok,fail){var x=new XMLHttpRequest();x.open('GET',url,true);if(rt)x.responseType=rt;x.setRequestHeader('ngrok-skip-browser-warning','1');x.timeout=120000;
