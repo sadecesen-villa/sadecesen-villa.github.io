@@ -1884,7 +1884,260 @@
      "d": 35
     }
    ]
+  },
+  {
+   "id": "spark-2nov",
+   "from": "2026-11-02T11:10",
+   "until": "2026-11-02T18:00",
+   "items": [
+    {
+     "k": "idea",
+     "lb": "Mind Spark · Zihin Kıvılcımı",
+     "tr": "Merhaba Mami — bugün ekran düşünmeye davet ediyor",
+     "en": "Hello Mami — today the screen invites you to think",
+     "st": "Sorular, modeller, canlı sanat ve küçük meydan okumalar · Questions, models, living art and small challenges",
+     "d": 25
+    },
+    {
+     "k": "flow",
+     "d": 45
+    },
+    {
+     "k": "idea",
+     "tr": "Misafirlerin bir hafta sonra hâlâ anlattığı tek detay ne olurdu?",
+     "en": "What one detail would guests still talk about a week later?",
+     "d": 35
+    },
+    {
+     "k": "compound",
+     "d": 30
+    },
+    {
+     "k": "word",
+     "w": "Huzur",
+     "p": "hu·zur · /huˈzuɾ/",
+     "en": "Peace of mind; serene contentment",
+     "st": "Arapça kökenli; sadece sessizlik değil, içten gelen bir dinginlik · From Arabic; not just quiet, but a calm that comes from within",
+     "d": 30
+    },
+    {
+     "k": "story",
+     "h": "Post-it · 1968–1980",
+     "tr": "1968’de 3M’de Spencer Silver çok güçlü bir yapıştırıcı yapmaya çalıştı ama zayıf bir yapıştırıcı buldu. Yıllar sonra Art Fry, ilahi kitabındaki ayraçlar düşmesin diye onu kullandı. Başarısız deney, dünyanın en çok kullanılan ofis ürünlerinden biri oldu.",
+     "en": "In 1968 at 3M, Spencer Silver tried to make a super-strong adhesive and got a weak one instead. Years later Art Fry used it to keep bookmarks in his hymnal. A failed experiment became one of the world’s best-known office products.",
+     "d": 55
+    },
+    {
+     "k": "life",
+     "d": 40
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Dün akıllıydım, dünyayı değiştirmek istedim. Bugün bilgeyim, kendimi değiştiriyorum.",
+     "en": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 30
+    },
+    {
+     "k": "model",
+     "h": "Tersine Çevirme",
+     "he": "Inversion — to find success, first ask what would guarantee failure",
+     "s": [
+      [
+       "Hedefi yaz",
+       "Write the goal"
+      ],
+      [
+       "Nasıl kesin başarısız olurdu?",
+       "How would it surely fail?"
+      ],
+      [
+       "Bunlardan kaçın",
+       "Avoid exactly those"
+      ]
+     ],
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/sn-sea.jpg",
+     "tag": "Karadeniz · Black Sea",
+     "tr": "Bir an dur, denize bak — hayal ürünü · imagined",
+     "en": "Pause a moment, look at the sea — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "number",
+     "n": 86,
+     "u": "milyar",
+     "tr": "İnsan beyninde yaklaşık 86 milyar nöron var",
+     "en": "The human brain has about 86 billion neurons",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Villa Fikri · Design Spark",
+     "tr": "Karşılama: kapıda soğuk bir bardak ev yapımı şerbet ve el yazısı bir not",
+     "en": "Welcome: a chilled glass of homemade sherbet and a handwritten note at the door",
+     "st": "Küçük, ucuz, unutulmaz · Small, cheap, unforgettable",
+     "d": 30
+    },
+    {
+     "k": "tree",
+     "d": 35
+    },
+    {
+     "k": "challenge",
+     "tr": "2 dakikada villa için 10 fikir yaz — kötüleri de say",
+     "en": "Write 10 ideas for the villa in 2 minutes — bad ones count too",
+     "sec": 120,
+     "d": 125
+    },
+    {
+     "k": "scale",
+     "d": 58
+    },
+    {
+     "k": "idea",
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "tr": "Bir gemideki tüm tahtalar tek tek değiştirilse, hâlâ aynı gemi midir?",
+     "en": "If every plank of a ship is replaced one by one, is it still the same ship?",
+     "st": "Theseus’un Gemisi · The Ship of Theseus",
+     "d": 35
+    },
+    {
+     "k": "sky",
+     "d": 25
+    },
+    {
+     "k": "word",
+     "w": "Gönül",
+     "p": "gö·nül · /ɟøˈnyl/",
+     "en": "Heart, soul, affection — the seat of feeling",
+     "st": "“Gönül ne kahve ister ne kahvehane…” Türkçede kalbin şiirsel adı · The poetic Turkish word for the heart",
+     "d": 30
+    },
+    {
+     "k": "number",
+     "n": 8,
+     "u": "dakika",
+     "pre": "~",
+     "tr": "Güneş ışığı Dünya’ya yaklaşık 8 dakika 20 saniyede ulaşır",
+     "en": "Sunlight reaches Earth in about 8 minutes 20 seconds — you always see the Sun in the past",
+     "d": 25
+    },
+    {
+     "k": "model",
+     "h": "İlk İlkeler",
+     "he": "First principles — break it down to what is surely true, then rebuild",
+     "s": [
+      [
+       "Varsayımları sorgula",
+       "Question assumptions"
+      ],
+      [
+       "Temel gerçeklere in",
+       "Reduce to basic truths"
+      ],
+      [
+       "Sıfırdan yeniden kur",
+       "Rebuild from scratch"
+      ]
+     ],
+     "d": 30
+    },
+    {
+     "k": "flow",
+     "d": 35
+    },
+    {
+     "k": "callig",
+     "lb": "Stoacı Bilgelik · Stoic Wisdom",
+     "tr": "Hayatımızın kalitesi düşüncelerimizin kalitesine bağlıdır.",
+     "en": "The happiness of your life depends upon the quality of your thoughts.",
+     "a": "Marcus Aurelius",
+     "d": 28
+    },
+    {
+     "k": "story",
+     "h": "Penisilin · 1928",
+     "tr": "Alexander Fleming tatilden döndüğünde bir petri kabında küf buldu; küfün etrafında bakteriler ölmüştü. Dağınık bir laboratuvar, antibiyotik çağını başlattı.",
+     "en": "Returning from holiday, Alexander Fleming found mould on a petri dish — and the bacteria around it had died. A messy lab began the age of antibiotics.",
+     "d": 45
+    },
+    {
+     "k": "idea",
+     "lb": "Villa Fikri · Design Spark",
+     "tr": "Her odaya o odanın kokusu: biri çay, biri fındık, biri deniz",
+     "en": "Give each room its own scent: one tea, one hazelnut, one sea",
+     "st": "Koku, en güçlü hatıra tetikleyicisidir · Smell is among the strongest memory triggers",
+     "d": 30
+    },
+    {
+     "k": "life",
+     "d": 30
+    },
+    {
+     "k": "number",
+     "n": 37.8,
+     "dec": 1,
+     "u": "×",
+     "tr": "Her gün %1 gelişirsen, bir yılda yaklaşık 37,8 kat",
+     "en": "Improve 1% a day and after a year you are about 37.8 times better",
+     "d": 22
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/sn-vinyl.jpg",
+     "tag": "Müzik · Music",
+     "tr": "Güneşli bir odada plak — hayal ürünü · imagined",
+     "en": "A record in a sunlit room — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "word",
+     "w": "Merak",
+     "p": "me·rak · /meˈɾak/",
+     "en": "Curiosity — and, sweetly, also worry for someone",
+     "st": "“Merak ettim seni” = “I was worried about you.” Tek kelimede hem keşif hem şefkat · One word holding both discovery and care",
+     "d": 30
+    },
+    {
+     "k": "challenge",
+     "tr": "1 dakika: etrafındaki 5 güzel detayı fark et",
+     "en": "1 minute: notice 5 beautiful details around you",
+     "sec": 60,
+     "d": 65
+    },
+    {
+     "k": "idea",
+     "tr": "Bugün yaptığın en küçük şey, 10 yıl sonra en büyük fark olabilir mi?",
+     "en": "Could the smallest thing you do today make the biggest difference in 10 years?",
+     "d": 30
+    },
+    {
+     "k": "tree",
+     "d": 30
+    },
+    {
+     "k": "breathe",
+     "d": 38
+    },
+    {
+     "k": "idea",
+     "lb": "Mind Spark",
+     "tr": "Telefonu bir dakika bırak — aklına gelen ilk fikir neydi?",
+     "en": "Put the phone down for a minute — what was the first idea that came to you?",
+     "d": 25
+    }
+   ]
   }
  ],
- "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit."
+ "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit.",
+ "rev": 43
 }
