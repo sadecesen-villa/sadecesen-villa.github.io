@@ -1,5 +1,5 @@
 {
- "rev": 45,
+ "rev": 46,
  "sets": [
   {
    "id": "calm-default",
@@ -213,9 +213,9 @@
    "items": [
     {
      "k": "idea",
-     "lb": "Şerif’in Evinde · At Şerif’s",
-     "tr": "İyi akşamlar Mami & Şerif",
-     "en": "Good evening, Mami & Şerif",
+     "lb": "Şerif’in Evinde · At Şerif’s · Mami, Şerif & Ibo",
+     "tr": "İyi akşamlar Mami, Şerif & Ibo",
+     "en": "Good evening, Mami, Şerif & Ibo",
      "st": "Dostlukla geçen güzel bir akşam · A lovely evening among friends",
      "d": 25
     },
@@ -256,7 +256,7 @@
      "k": "idea",
      "lb": "Düşünce Deneyi · Thought Experiment",
      "tr": "Bir yıl boyunca sadece tek bir şehirde yaşayabilseydiniz, hangisini seçerdiniz — ve neden?",
-     "en": "If you could live in only one city for a whole year, which would you each choose — and why?",
+     "en": "If you could live in only one city for a whole year, which would each of you choose — and why?",
      "d": 35
     },
     {
@@ -293,8 +293,8 @@
     },
     {
      "k": "challenge",
-     "tr": "İkiniz de 60 saniyede birbirinizle ilgili 5 güzel anı sayın",
-     "en": "Each of you: name 5 good memories of each other in 60 seconds",
+     "tr": "Üçünüz de 60 saniyede birbirinizle ilgili 5 güzel anı sayın",
+     "en": "Each of you: name 5 good memories of the others in 60 seconds",
      "sec": 60,
      "d": 65
     },
@@ -344,7 +344,7 @@
     },
     {
      "k": "idea",
-     "lb": "İkiniz İçin · For the Two of You",
+     "lb": "Üçünüz İçin · For the Three of You",
      "tr": "On yıl sonra bu akşamı hatırladığınızda, neyi hatırlamak istersiniz?",
      "en": "Ten years from now, what would you like to remember about this evening?",
      "d": 35
@@ -384,8 +384,8 @@
     },
     {
      "k": "challenge",
-     "tr": "Sırayla: hiç gitmediğiniz ama birlikte gitmek istediğiniz 3 yer",
-     "en": "Take turns: 3 places you’ve never been but would go to together",
+     "tr": "Sırayla: hiç gitmediğiniz ama üçünüzün birlikte gitmek istediği 3 yer",
+     "en": "Take turns: 3 places you’ve never been but would go to, all three together",
      "sec": 90,
      "d": 95
     },
@@ -436,7 +436,7 @@
      "lb": "İyi Geceler · Good Night",
      "tr": "Güzel dostluğa, güzel akşamlara",
      "en": "To good friendship and good evenings",
-     "st": "Mami & Şerif · Trabzon",
+     "st": "Mami, Şerif & Ibo · Trabzon",
      "d": 25
     }
    ]
