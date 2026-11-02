@@ -7,7 +7,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 .layer.tx{animation-duration:3s;animation-timing-function:cubic-bezier(.65,0,.35,1);animation-fill-mode:both}
 @keyframes fIn{from{opacity:0}to{opacity:1}} @keyframes fOut{from{opacity:1}to{opacity:0}}
 .in-fade{animation-name:fIn}.out-fade{animation-name:fOut}
-@keyframes bIn{from{opacity:0;filter:blur(14px)}to{opacity:1;filter:blur(0)}} @keyframes bOut{from{opacity:1;filter:blur(0)}to{opacity:0;filter:blur(16px)}}
+@keyframes bIn{from{opacity:0;filter:blur(0)}to{opacity:1;filter:blur(0)}} @keyframes bOut{from{opacity:1;filter:blur(0)}to{opacity:0;filter:blur(0)}}
 .in-blur{animation-name:bIn}.out-blur{animation-name:bOut}
 @keyframes zIn{from{opacity:0;transform:scale(1.05)}to{opacity:1;transform:scale(1)}} @keyframes zOut{from{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(1.09)}}
 .in-zoom{animation-name:zIn}.out-zoom{animation-name:zOut}
@@ -34,7 +34,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 @keyframes paB{from{transform:scale(1.12) translateX(1.5%)}to{transform:scale(1.12) translateX(-1.5%)}}
 @keyframes paF{from{transform:scale(1.2) translateX(4%)}to{transform:scale(1.2) translateX(-4%)}}
 .front{-webkit-mask-image:linear-gradient(to top,#000 0%,#000 32%,rgba(0,0,0,0) 55%);mask-image:linear-gradient(to top,#000 0%,#000 32%,rgba(0,0,0,0) 55%)}
-@keyframes sfoc{0%{filter:blur(16px);transform:scale(1.12)}12%{filter:blur(0)}100%{filter:blur(0);transform:scale(1.02)}}
+@keyframes sfoc{0%{filter:blur(0);transform:scale(1.12)}12%{filter:blur(0)}100%{filter:blur(0);transform:scale(1.02)}}
 .rays{position:absolute;top:-30%;left:-20%;width:140%;height:160%;pointer-events:none;mix-blend-mode:screen;background:repeating-linear-gradient(115deg,rgba(255,244,225,0) 0,rgba(255,244,225,.10) 4%,rgba(255,244,225,0) 9%,rgba(255,244,225,0) 15%);-webkit-mask-image:radial-gradient(ellipse at 25% 10%,#000,rgba(0,0,0,0) 70%);mask-image:radial-gradient(ellipse at 25% 10%,#000,rgba(0,0,0,0) 70%);animation:rays 160s linear both}
 @keyframes rays{0%{opacity:0;transform:translateX(0)}8%{opacity:1}100%{opacity:.8;transform:translateX(-6%)}}
 .dust{position:absolute;border-radius:50%;background:rgba(255,250,240,.75);pointer-events:none}
@@ -110,7 +110,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 .layer.out .sea>*{animation:fo 1.1s cubic-bezier(.65,0,.35,1) both!important}
 .shot{position:absolute;inset:0;opacity:0;transition:opacity 3.5s cubic-bezier(.45,0,.55,1)}.shot.on{opacity:1}.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 #dim{position:fixed;inset:0;background:#000;pointer-events:none;z-index:9000;opacity:0;transition:opacity 60s linear}
-</style></head><body>
+.dust,.rays{display:none!important}.bg{animation-duration:0s!important}</style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="dim"></div><div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
 <script src="wow.js?v=45"></script><script src="spark.js?v=45"></script>
@@ -270,27 +270,27 @@ function build(it){
  var L=el('div','layer'),corner=true;
  if(typeof WOW!='undefined'&&WOW[it.k]){var r=null;try{r=WOW[it.k](L,it)}catch(e){r=null}if(r){r.dur=it.d;return r}return build(next())}
  if(it.k=='sea')return buildSea(L);
- if(it.k=='prov'){var b=el('img','bg');b.src=it.bg||'m/coast-night.jpg';b.style.filter='blur(14px) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');var lb=el('div','small',it.lb||'Atasözü · Proverb');if(it.or)lb.style.color='#f0a050';C.appendChild(lb);C.appendChild(el('div','line'));C.appendChild(el('div','tr',it.tr));C.appendChild(el('div','en',it.en));C.appendChild(el('div','small',it.st));L.appendChild(C);L.corner=true;return L}if(it.k=='hamsi')return buildHamsi(L);
+ if(it.k=='prov'){var b=el('img','bg');b.src=it.bg||'m/coast-night.jpg';b.style.filter='blur(0) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');var lb=el('div','small',it.lb||'Atasözü · Proverb');if(it.or)lb.style.color='#f0a050';C.appendChild(lb);C.appendChild(el('div','line'));C.appendChild(el('div','tr',it.tr));C.appendChild(el('div','en',it.en));C.appendChild(el('div','small',it.st));L.appendChild(C);L.corner=true;return L}if(it.k=='hamsi')return buildHamsi(L);
  if(it.k=='word'){var d=ist(),w=WD[(Math.floor(d.getTime()/86400000))%WD.length];if(!w[4]&&(d.getDate()%2))w=WD[0];
-  var b=el('img','bg');b.src=w[4]||pickBg();if(!w[4])b.style.filter='blur(16px) brightness(.45)';b.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(b);L.appendChild(el('div','shade'));
+  var b=el('img','bg');b.src=w[4]||pickBg();if(!w[4])b.style.filter='blur(0) brightness(.45)';b.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(b);L.appendChild(el('div','shade'));
   var C=el('div','center wd');C.style.cssText+=';align-items:flex-start;text-align:left;padding-left:8%';C.appendChild(el('div','small','Günün Kelimesi · Word of the Day'));C.appendChild(el('div','tr',w[0]));C.appendChild(el('div','en',w[1]));C.appendChild(el('div','st',w[2]+'<br>'+w[3]));L.appendChild(C);L.corner=true;return L}
- if(it.k=='sohbet'||it.k=='moon'){var b=el('img','bg');b.src=it.k=='moon'?'m/ev-boats.jpg':pickBg();b.style.filter='blur(14px) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');
+ if(it.k=='sohbet'||it.k=='moon'){var b=el('img','bg');b.src=it.k=='moon'?'m/ev-boats.jpg':pickBg();b.style.filter='blur(0) brightness(.35)';b.style.transform='scale(1.12)';L.appendChild(b);var C=el('div','center q');
   if(it.k=='sohbet'){var x=SQ[Math.floor(Date.now()/864e5*3)%SQ.length];C.appendChild(el('div','small','Akşam Sohbeti · Evening Conversation'));C.appendChild(el('div','line'));C.appendChild(el('div','tr',x[0]));C.appendChild(el('div','en',x[1]))}
   else{var m=moon(),d=el('div','mdisc');d.style.boxShadow=(m.wax?'inset ':'inset -')+Math.round((1-m.ill/50)*3.2*10)/10+'vw 0 0 0 rgba(8,12,20,.92)';if(m.ill>=50){d.style.boxShadow='none';d.style.opacity=.55+m.ill/220}
    C.appendChild(el('div','small','Bu Gece Ay · Tonight’s Moon'));C.appendChild(d);C.appendChild(el('div','tr',m.n[0]+' · %'+m.ill+' aydınlık'));C.appendChild(el('div','en',m.n[1]+' · '+m.ill+'% illuminated'+(m.ill>=90?'':' · '+(m.wax?'full moon in '+m.full+' days':'new moon in '+Math.round(29.53-m.age)+' days'))))}
   L.appendChild(C);L.corner=true;return L}
- if(it.k=='today'){var x=TD[tdKey()];if(!x)it={k:'fact'};else{var b=el('img','bg');b.src=pickBg();b.style.filter='blur(14px) brightness(.4)';b.style.transform='scale(1.12)';L.appendChild(b);
+ if(it.k=='today'){var x=TD[tdKey()];if(!x)it={k:'fact'};else{var b=el('img','bg');b.src=pickBg();b.style.filter='blur(0) brightness(.4)';b.style.transform='scale(1.12)';L.appendChild(b);
   var C=el('div','center q');var d=ist();C.appendChild(el('div','small','Bugün Tarihte · On This Day — '+d.getDate()+' '+AY[d.getMonth()]));C.appendChild(el('div','line'));C.appendChild(el('div','tr',x[0]));C.appendChild(el('div','en',x[1]));L.appendChild(C);L.corner=true;return L}}
  if(it.k=='world'){var w=W[wi=(wi+1)%W.length];var im=el('img','bg');im.src=w.f;im.style.animation='wrise '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im);L.appendChild(el('div','wglow'));L.appendChild(el('div','shade'));
   var c=el('div','wc');c.appendChild(el('div','k','Dünyaya Pencere · Window to the World'));var t=el('div','t',wtime(w));c.appendChild(t);c.appendChild(el('div','c',w.tr));c.appendChild(el('div','e',w.en+' · '+w.km+' from Arsin'));L.appendChild(c);
   var iv=setInterval(function(){if(!L.parentNode)clearInterval(iv);else t.innerHTML=wtime(w)},20000);L.corner=true;return L}
  if(it.k=='photo'||it.k=='motion'){
   var im=el('img','bg');im.src=it.f;
-  if(it.kb){if(it.fit){var bb=el('img','bg');bb.src=it.f;bb.style.filter='blur(30px) brightness(.4)';bb.style.transform='scale(1.15)';L.appendChild(bb);im.style.objectFit='contain'}im.style.animation=['zin','zout','panl','panr'][Math.floor(Math.random()*4)]+' '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im)}
+  if(it.kb){if(it.fit){var bb=el('img','bg');bb.src=it.f;bb.style.filter='blur(0) brightness(.4)';bb.style.transform='scale(1.15)';L.appendChild(bb);im.style.objectFit='contain'}im.style.animation=['zin','zout','panl','panr'][Math.floor(Math.random()*4)]+' '+(SLIDE/1000+6)+'s cubic-bezier(.37,0,.63,1) both';L.appendChild(im)}
   else if(it.k=='photo')addMove(L,im,it);else L.appendChild(im);L.sun=!!SUNOK[it.f];
   L.appendChild(el('div','shade'));var cp=capt(it.tag,it.tr,it.en);if(it.cp)cp.className+=' '+it.cp;if(it.or){cp.firstChild.style.color='#f0a050';cp.children[1].style.borderLeft='.35vw solid #e8872e';cp.children[1].style.paddingLeft='1.2vw';cp.children[2].style.paddingLeft='1.55vw'}L.appendChild(cp);
  } else {
-  var b=el('div','bg');b.style.backgroundImage='url('+pickBg()+')';b.style.filter='blur(18px) brightness(.45)';b.style.transform='scale(1.15)';L.appendChild(b);
+  var b=el('div','bg');b.style.backgroundImage='url('+pickBg()+')';b.style.filter='blur(0) brightness(.45)';b.style.transform='scale(1.15)';L.appendChild(b);
   var C=el('div','center');
   if(it.k=='clock'){corner=false;var d=ist();if(slot()=='e'||slot()=='n'){b.style.backgroundImage='url(m/ev-boats.jpg)';b.style.filter='brightness(.6)';b.style.transform='none';b.style.backgroundSize='cover';b.style.backgroundPosition='center'}
    C.appendChild(el('div','small','Arsin · Trabzon'));var t=el('div','big');t.id='bigt';C.appendChild(t);
@@ -298,7 +298,7 @@ function build(it){
    C.appendChild(el('div','',' <div style="font-family:Helvetica,Arial,sans-serif;font-size:1.8vw;letter-spacing:.25em;margin-top:3vw;color:#dfe6e8">'+(WX.t===null?'':wxs())+'</div>'));
    var g={m:['Günaydın','Good morning'],a:['İyi günler','Good afternoon'],e:['İyi akşamlar','Good evening'],n:['İyi geceler','Good night']}[slot()];
    C.appendChild(el('div','',' <div style="font-size:2vw;margin-top:2.5vw">'+g[0]+' · <i style="color:#cfc9bd">'+g[1]+'</i></div>'));
-  } else if(it.k=='calm'){corner=false;b.style.filter='blur(24px) brightness(.3)';
+  } else if(it.k=='calm'){corner=false;b.style.filter='blur(0) brightness(.3)';
    C.appendChild(el('div','small','Nefes · Breathe'));var o=el('div','orb');o.style.margin='4vw auto';C.appendChild(o);
    var w=el('div','');w.style.position='relative';w.style.height='6vw';w.style.width='60vw';
    w.innerHTML='<div style="position:absolute;width:100%;animation:inout 10s ease-in-out infinite"><div style="font-size:3vw">Nefes al</div><div style="font-size:1.8vw;font-style:italic;color:#cfc9bd">Breathe in</div></div><div style="position:absolute;width:100%;animation:outin 10s ease-in-out infinite"><div style="font-size:3vw">Nefes ver</div><div style="font-size:1.8vw;font-style:italic;color:#cfc9bd">Breathe out</div></div>';C.appendChild(w);
@@ -412,7 +412,7 @@ var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr
  {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'prov',tr:'Bin dost az, bir düşman çok',en:'A thousand friends are too few; one enemy is too many',st:'Türk atasözü · Turkish proverb'},
  {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
-var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','serif/tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>49){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
+var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','serif/tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>50){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;

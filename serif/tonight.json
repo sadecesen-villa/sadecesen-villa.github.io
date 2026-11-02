@@ -1,5 +1,5 @@
 {
- "rev": 49,
+ "rev": 50,
  "sets": [
   {
    "id": "calm-default",
@@ -15,7 +15,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-sunset.jpg",
      "tag": "Akşam · Evening",
      "tr": "Gerçek fotoğraf: Karadeniz’de gün batımı · Foto: Yanina Pakhomova, CC BY-SA 4.0",
@@ -32,12 +31,7 @@
      "d": 28
     },
     {
-     "k": "flow",
-     "d": 40
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-tea.jpg",
      "tag": "Çay · Tea",
      "tr": "Gerçek fotoğraf: ince belli bardakta Türk çayı · Foto: Cemallamec, CC BY-SA 4.0",
@@ -55,7 +49,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-trabzon-night.jpg",
      "tag": "Gece · Night",
      "tr": "Gerçek fotoğraf: yukarıdan Trabzon’un gece ışıkları · Foto: Aleksasfi, kamu malı",
@@ -72,12 +65,7 @@
      "d": 28
     },
     {
-     "k": "scale",
-     "d": 58
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-raki.jpg",
      "tag": "Rakı · Meze",
      "tr": "Rakı, beyaz peynir, kavun ve mezeler — hayal ürünü · imagined",
@@ -86,12 +74,7 @@
      "d": 22
     },
     {
-     "k": "life",
-     "d": 40
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-sahil.jpg",
      "tag": "Trabzon",
      "tr": "Gerçek fotoğraf: denizden Trabzon kıyısı · Foto: Sinan Şahin, CC BY 3.0",
@@ -109,7 +92,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-meydan.jpg",
      "tag": "Meydan · Trabzon",
      "tr": "Gerçek fotoğraf: Meydan’dan Trabzon’da bir gece · Foto: Robot8A, CC BY-SA 4.0",
@@ -126,12 +108,7 @@
      "d": 28
     },
     {
-     "k": "tree",
-     "d": 35
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-kunefe.jpg",
      "tag": "Tatlı · Dessert",
      "tr": "Gerçek fotoğraf: künefe ve çay · Foto: Sandstein, CC BY 3.0",
@@ -150,7 +127,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-bosphorus.jpg",
      "tag": "İstanbul",
      "tr": "Gerçek fotoğraf: gece Boğaziçi Köprüsü · Foto: Andrey Filippov, CC BY 2.0",
@@ -159,12 +135,7 @@
      "d": 22
     },
     {
-     "k": "flow",
-     "d": 40
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-coffee2.jpg",
      "tag": "Türk Kahvesi · Turkish Coffee",
      "tr": "Gerçek fotoğraf: köpüklü Türk kahvesi · Foto: Garrett Ziegler, CC BY-SA 4.0",
@@ -182,7 +153,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/so-stars.jpg",
      "tag": "Yıldızlar · Stars",
      "tr": "Gerçek fotoğraf: Gece göğünde yıldız izleri (uzun pozlama) · Foto: Thomas Bresson, CC BY 3.0",
@@ -191,12 +161,7 @@
      "d": 22
     },
     {
-     "k": "compound",
-     "d": 30
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-boat.jpg",
      "tag": "Balıkçılar · Fishermen",
      "tr": "Gerçek fotoğraf: Espiye açıklarında bir balıkçı teknesi · Foto: Zeynel Cebeci, CC BY-SA 4.0",
@@ -221,7 +186,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-sunset.jpg",
      "tag": "Akşam · Evening",
      "tr": "Gerçek fotoğraf: Karadeniz’de gün batımı · Foto: Yanina Pakhomova, CC BY-SA 4.0",
@@ -238,12 +202,7 @@
      "d": 28
     },
     {
-     "k": "flow",
-     "d": 40
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-tea.jpg",
      "tag": "Çay · Tea",
      "tr": "Gerçek fotoğraf: ince belli bardakta Türk çayı · Foto: Cemallamec, CC BY-SA 4.0",
@@ -261,7 +220,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-trabzon-night.jpg",
      "tag": "Gece · Night",
      "tr": "Gerçek fotoğraf: yukarıdan Trabzon’un gece ışıkları · Foto: Aleksasfi, kamu malı",
@@ -278,12 +236,7 @@
      "d": 28
     },
     {
-     "k": "scale",
-     "d": 58
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-raki.jpg",
      "tag": "Rakı · Meze",
      "tr": "Rakı, beyaz peynir, kavun ve mezeler — hayal ürünü · imagined",
@@ -299,12 +252,7 @@
      "d": 65
     },
     {
-     "k": "life",
-     "d": 40
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-sahil.jpg",
      "tag": "Trabzon",
      "tr": "Gerçek fotoğraf: denizden Trabzon kıyısı · Foto: Sinan Şahin, CC BY 3.0",
@@ -322,7 +270,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-meydan.jpg",
      "tag": "Meydan · Trabzon",
      "tr": "Gerçek fotoğraf: Meydan’dan Trabzon’da bir gece · Foto: Robot8A, CC BY-SA 4.0",
@@ -339,10 +286,6 @@
      "d": 28
     },
     {
-     "k": "tree",
-     "d": 35
-    },
-    {
      "k": "idea",
      "lb": "Üçünüz İçin · For the Three of You",
      "tr": "On yıl sonra bu akşamı hatırladığınızda, neyi hatırlamak istersiniz?",
@@ -351,7 +294,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-kunefe.jpg",
      "tag": "Tatlı · Dessert",
      "tr": "Gerçek fotoğraf: künefe ve çay · Foto: Sandstein, CC BY 3.0",
@@ -370,17 +312,12 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-bosphorus.jpg",
      "tag": "İstanbul",
      "tr": "Gerçek fotoğraf: gece Boğaziçi Köprüsü · Foto: Andrey Filippov, CC BY 2.0",
      "en": "Real photo: the Bosphorus Bridge at night · Photo: Andrey Filippov, CC BY 2.0",
      "cp": "top",
      "d": 22
-    },
-    {
-     "k": "flow",
-     "d": 40
     },
     {
      "k": "challenge",
@@ -391,7 +328,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-coffee2.jpg",
      "tag": "Türk Kahvesi · Turkish Coffee",
      "tr": "Gerçek fotoğraf: köpüklü Türk kahvesi · Foto: Garrett Ziegler, CC BY-SA 4.0",
@@ -409,7 +345,6 @@
     },
     {
      "k": "photo",
-     "kb": 1,
      "f": "m/so-stars.jpg",
      "tag": "Yıldızlar · Stars",
      "tr": "Gerçek fotoğraf: Gece göğünde yıldız izleri (uzun pozlama) · Foto: Thomas Bresson, CC BY 3.0",
@@ -418,12 +353,7 @@
      "d": 22
     },
     {
-     "k": "compound",
-     "d": 30
-    },
-    {
      "k": "photo",
-     "kb": 1,
      "f": "m/ev-boat.jpg",
      "tag": "Balıkçılar · Fishermen",
      "tr": "Gerçek fotoğraf: Espiye açıklarında bir balıkçı teknesi · Foto: Zeynel Cebeci, CC BY-SA 4.0",
