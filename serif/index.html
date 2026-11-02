@@ -110,7 +110,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 .layer.out .sea>*{animation:fo 1.1s cubic-bezier(.65,0,.35,1) both!important}
 .shot{position:absolute;inset:0;opacity:0;transition:opacity 3.5s cubic-bezier(.45,0,.55,1)}.shot.on{opacity:1}.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 #dim{position:fixed;inset:0;background:#000;pointer-events:none;z-index:9000;opacity:0;transition:opacity 60s linear}
-.dust,.rays{display:none!important}.bg{animation-duration:0s!important}</style></head><body>
+.dust,.rays{display:none!important}.bg{animation-duration:0s!important}.sp{left:6vw!important;right:6vw!important;top:6vh!important;bottom:6vh!important;transform:none!important;display:flex;flex-direction:column;justify-content:center;overflow:hidden;box-sizing:border-box}.sp .lb{font-size:2.1vmin!important;letter-spacing:.3em!important}.sp .tr{font-size:6vmin!important;line-height:1.2!important}.sp .en{font-size:3.8vmin!important;margin-top:1.6vmin!important}.sp .st{font-size:2.8vmin!important;margin-top:2vmin!important;line-height:1.4!important}.sp .ln{margin:2vmin 0!important;width:8vmin!important}canvas{display:none!important}</style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="dim"></div><div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
 <script src="wow.js?v=45"></script><script src="spark.js?v=45"></script>
@@ -412,7 +412,7 @@ var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr
  {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'prov',tr:'Bin dost az, bir düşman çok',en:'A thousand friends are too few; one enemy is too many',st:'Türk atasözü · Turkish proverb'},
  {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
-var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','serif/tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>52){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
+var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','serif/tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>53){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
@@ -429,7 +429,8 @@ function next(){
  return it;
 }
 var override=0,timer=null;
-var LAST=Date.now(),DUE=60000;function rotate(){clearTimeout(timer);LAST=Date.now();var ms=SLIDE;try{var it=next();if(it&&it.d)ms=Math.max(20000,it.d*1000);var B=build(it);swap(B)}catch(e){ms=3000}if(!(ms>0)||ms>180000)ms=SLIDE;DUE=ms;timer=setTimeout(rotate,ms)}
+function fitAll(){var a=document.querySelectorAll('.sp');for(var i=0;i<a.length;i++){var e=a[i],f=1,n=0;e.style.fontSize='';while(e.scrollHeight>e.clientHeight+2&&n<20){f*=0.9;n++;var c=e.querySelectorAll('.tr,.en,.st,.lb');for(var j=0;j<c.length;j++){if(!c[j].dataset.fs)c[j].dataset.fs=parseFloat(getComputedStyle(c[j]).fontSize);c[j].style.setProperty('font-size',(c[j].dataset.fs*f)+'px','important')}}}}
+var LAST=Date.now(),DUE=60000;function rotate(){clearTimeout(timer);LAST=Date.now();var ms=SLIDE;try{var it=next();if(it&&it.d)ms=Math.max(20000,it.d*1000);var B=build(it);swap(B);setTimeout(fitAll,60);setTimeout(fitAll,1500)}catch(e){ms=3000}if(!(ms>0)||ms>180000)ms=SLIDE;DUE=ms;timer=setTimeout(rotate,ms)}
 setInterval(function(){if(Date.now()-LAST>DUE+20000)rotate()},10000);
 // ---- manual push via ngrok (optional). Shows a push for 15 min, then rotation resumes. ----
 var last=null;
