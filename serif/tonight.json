@@ -1,5 +1,5 @@
 {
- "rev": 48,
+ "rev": 49,
  "sets": [
   {
    "id": "calm-default",
@@ -211,14 +211,6 @@
    "from": "2026-11-02T21:30",
    "until": "2026-11-03T01:30",
    "items": [
-    {
-     "k": "idea",
-     "tr": "Merhaba Murat, Heja & Serkan!",
-     "en": "Hello Murat, Heja & Serkan!",
-     "st": "Mami, Şerif & Ibo’dan sevgiler · Love from Mami, Şerif & Ibo",
-     "d": 30,
-     "lb": "Selam · Greetings"
-    },
     {
      "k": "idea",
      "lb": "Şerif’in Evinde · At Şerif’s · Mami, Şerif & Ibo",
