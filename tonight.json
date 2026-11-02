@@ -2136,8 +2136,243 @@
      "d": 25
     }
    ]
+  },
+  {
+   "id": "serif-2nov",
+   "from": "2026-11-02T21:30",
+   "until": "2026-11-03T01:30",
+   "items": [
+    {
+     "k": "idea",
+     "lb": "Şerif’in Evinde · At Şerif’s",
+     "tr": "İyi akşamlar Mami & Şerif",
+     "en": "Good evening, Mami & Şerif",
+     "st": "Dostlukla geçen güzel bir akşam · A lovely evening among friends",
+     "d": 25
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-sunset.jpg",
+     "tag": "Akşam · Evening",
+     "tr": "Gerçek fotoğraf: Karadeniz’de gün batımı · Foto: Yanina Pakhomova, CC BY-SA 4.0",
+     "en": "Real photo: Sunset over the Black Sea · Photo: Yanina Pakhomova, CC BY-SA 4.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Dostlar birbirinin aynasıdır.",
+     "en": "Friends are mirrors to one another.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 28
+    },
+    {
+     "k": "flow",
+     "d": 40
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-tea.jpg",
+     "tag": "Çay · Tea",
+     "tr": "Gerçek fotoğraf: ince belli bardakta Türk çayı · Foto: Cemallamec, CC BY-SA 4.0",
+     "en": "Real photo: Turkish tea in a tulip glass · Photo: Cemallamec, CC BY-SA 4.0",
+     "cp": "top",
+     "fit": 1,
+     "d": 22
+    },
+    {
+     "k": "idea",
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "tr": "Bir yıl boyunca sadece tek bir şehirde yaşayabilseydiniz, hangisini seçerdiniz — ve neden?",
+     "en": "If you could live in only one city for a whole year, which would you each choose — and why?",
+     "d": 35
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-trabzon-night.jpg",
+     "tag": "Gece · Night",
+     "tr": "Gerçek fotoğraf: yukarıdan Trabzon’un gece ışıkları · Foto: Aleksasfi, kamu malı",
+     "en": "Real photo: Trabzon’s lights at night from above · Photo: Aleksasfi, public domain",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Gel, ne olursan ol yine gel.",
+     "en": "Come, come again, whoever you are.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 28
+    },
+    {
+     "k": "scale",
+     "d": 58
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-raki.jpg",
+     "tag": "Rakı · Meze",
+     "tr": "Rakı, beyaz peynir, kavun ve mezeler — hayal ürünü · imagined",
+     "en": "Rakı, white cheese, melon and meze — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "challenge",
+     "tr": "İkiniz de 60 saniyede birbirinizle ilgili 5 güzel anı sayın",
+     "en": "Each of you: name 5 good memories of each other in 60 seconds",
+     "sec": 60,
+     "d": 65
+    },
+    {
+     "k": "life",
+     "d": 40
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-sahil.jpg",
+     "tag": "Trabzon",
+     "tr": "Gerçek fotoğraf: denizden Trabzon kıyısı · Foto: Sinan Şahin, CC BY 3.0",
+     "en": "Real photo: the Trabzon shore seen from the sea · Photo: Sinan Şahin, CC BY 3.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "word",
+     "w": "Muhabbet",
+     "p": "mu·hab·bet · /muhabˈbet/",
+     "en": "Warm, heartfelt conversation among friends",
+     "st": "Arapça ‘sevgi’ kökünden; çay eşliğinde uzayan sohbet · From Arabic for ‘love’; the long talk over tea",
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-meydan.jpg",
+     "tag": "Meydan · Trabzon",
+     "tr": "Gerçek fotoğraf: Meydan’dan Trabzon’da bir gece · Foto: Robot8A, CC BY-SA 4.0",
+     "en": "Real photo: a night in Trabzon, from the Meydan · Photo: Robot8A, CC BY-SA 4.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Dost, dostun derdini kendi derdi bilir.",
+     "en": "A friend feels a friend’s sorrow as his own.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 28
+    },
+    {
+     "k": "tree",
+     "d": 35
+    },
+    {
+     "k": "idea",
+     "lb": "İkiniz İçin · For the Two of You",
+     "tr": "On yıl sonra bu akşamı hatırladığınızda, neyi hatırlamak istersiniz?",
+     "en": "Ten years from now, what would you like to remember about this evening?",
+     "d": 35
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-kunefe.jpg",
+     "tag": "Tatlı · Dessert",
+     "tr": "Gerçek fotoğraf: künefe ve çay · Foto: Sandstein, CC BY 3.0",
+     "en": "Real photo: künefe with tea · Photo: Sandstein, CC BY 3.0",
+     "cp": "top",
+     "fit": 1,
+     "d": 22
+    },
+    {
+     "k": "number",
+     "n": 37,
+     "u": "trilyon",
+     "tr": "İnsan vücudunda yaklaşık 37 trilyon hücre var",
+     "en": "The human body has about 37 trillion cells",
+     "d": 25
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-bosphorus.jpg",
+     "tag": "İstanbul",
+     "tr": "Gerçek fotoğraf: gece Boğaziçi Köprüsü · Foto: Andrey Filippov, CC BY 2.0",
+     "en": "Real photo: the Bosphorus Bridge at night · Photo: Andrey Filippov, CC BY 2.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "flow",
+     "d": 40
+    },
+    {
+     "k": "challenge",
+     "tr": "Sırayla: hiç gitmediğiniz ama birlikte gitmek istediğiniz 3 yer",
+     "en": "Take turns: 3 places you’ve never been but would go to together",
+     "sec": 90,
+     "d": 95
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-coffee2.jpg",
+     "tag": "Türk Kahvesi · Turkish Coffee",
+     "tr": "Gerçek fotoğraf: köpüklü Türk kahvesi · Foto: Garrett Ziegler, CC BY-SA 4.0",
+     "en": "Real photo: Turkish coffee with its foam · Photo: Garrett Ziegler, CC BY-SA 4.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Sevgiden acılar tatlılaşır.",
+     "en": "Through love, bitter things become sweet.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 28
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-stars.jpg",
+     "tag": "Yıldızlar · Stars",
+     "tr": "Gerçek fotoğraf: Gece göğünde yıldız izleri (uzun pozlama) · Foto: Thomas Bresson, CC BY 3.0",
+     "en": "Real photo: Star trails in the night sky (long exposure) · Photo: Thomas Bresson, CC BY 3.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "compound",
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-boat.jpg",
+     "tag": "Balıkçılar · Fishermen",
+     "tr": "Gerçek fotoğraf: Espiye açıklarında bir balıkçı teknesi · Foto: Zeynel Cebeci, CC BY-SA 4.0",
+     "en": "Real photo: a fishing boat off Espiye on the Black Sea · Photo: Zeynel Cebeci, CC BY-SA 4.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "idea",
+     "lb": "İyi Geceler · Good Night",
+     "tr": "Güzel dostluğa, güzel akşamlara",
+     "en": "To good friendship and good evenings",
+     "st": "Mami & Şerif · Trabzon",
+     "d": 25
+    }
+   ]
   }
  ],
  "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit.",
- "rev": 44
+ "rev": 45
 }
