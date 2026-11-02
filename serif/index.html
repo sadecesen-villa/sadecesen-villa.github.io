@@ -357,7 +357,7 @@ sun();setInterval(sun,6*3600000);
 var SP={
  sunset:{k:'photo',f:'m/sp-sunset.jpg',mv:'rays',tag:'Gün Batımı · Sunset',tr:'Güneş Karadeniz’e veda ediyor',en:'The sun bids farewell to the Black Sea',tri:'leak'},
  night:{k:'photo',f:'m/sp-night.jpg',mv:'grain',tag:'İyi Geceler · Good Night',tr:'Tatlı rüyalar, yarın görüşmek üzere',en:'Sweet dreams — see you tomorrow',tri:'mist'}};
-function special(){var d=ist(),key=d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate(),m=d.getHours()*60+d.getMinutes();
+function special(){return null;var d=ist(),key=d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate(),m=d.getHours()*60+d.getMinutes();
  var sm=SUN.m>0?SUN.m:17*60+30;
  if(m>=sm-12&&m<sm+8&&!shown['s'+key])return ['s'+key,SP.sunset,(sm+8-m)*60000,SUN.s];
  if(m>=23*60&&m<23*60+20&&!shown['n'+key])return ['n'+key,SP.night,(23*60+20-m)*60000];
@@ -412,7 +412,7 @@ var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr
  {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'prov',tr:'Bin dost az, bir düşman çok',en:'A thousand friends are too few; one enemy is too many',st:'Türk atasözü · Turkish proverb'},
  {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
-var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','serif/tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>50){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
+var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','serif/tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>51){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
@@ -429,7 +429,8 @@ function next(){
  return it;
 }
 var override=0,timer=null;
-function rotate(){var sp=special();if(sp){showSpecial(sp);timer=setTimeout(rotate,15000);return}if(new Date().getTime()<override){timer=setTimeout(rotate,15000);return}var B=build(next());swap(B);timer=setTimeout(rotate,B&&B.dur?B.dur*1000:SLIDE)}
+var LAST=Date.now(),DUE=60000;function rotate(){clearTimeout(timer);LAST=Date.now();var ms=SLIDE;try{var it=next();if(it&&it.d)ms=Math.max(20000,it.d*1000);var B=build(it);swap(B)}catch(e){ms=3000}if(!(ms>0)||ms>180000)ms=SLIDE;DUE=ms;timer=setTimeout(rotate,ms)}
+setInterval(function(){if(Date.now()-LAST>DUE+20000)rotate()},10000);
 // ---- manual push via ngrok (optional). Shows a push for 15 min, then rotation resumes. ----
 var last=null;
 function xhr(url,rt,ok,fail){var x=new XMLHttpRequest();x.open('GET',url,true);if(rt)x.responseType=rt;x.setRequestHeader('ngrok-skip-browser-warning','1');x.timeout=120000;
