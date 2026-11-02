@@ -1891,6 +1891,10 @@
    "until": "2026-11-02T18:00",
    "items": [
     {
+     "k": "scale",
+     "d": 58
+    },
+    {
      "k": "idea",
      "lb": "Mind Spark · Zihin Kıvılcımı",
      "tr": "Merhaba Mami — bugün ekran düşünmeye davet ediyor",
@@ -1995,10 +1999,6 @@
      "en": "Write 10 ideas for the villa in 2 minutes — bad ones count too",
      "sec": 120,
      "d": 125
-    },
-    {
-     "k": "scale",
-     "d": 58
     },
     {
      "k": "idea",
@@ -2139,5 +2139,5 @@
   }
  ],
  "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit.",
- "rev": 43
+ "rev": 44
 }
