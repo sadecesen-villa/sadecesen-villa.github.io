@@ -1695,6 +1695,195 @@
      "d": 120
     }
    ]
+  },
+  {
+   "id": "sun-2nov",
+   "from": "2026-11-02T11:00",
+   "until": "2026-11-02T15:00",
+   "items": [
+    {
+     "k": "prov",
+     "lb": "Günaydın · Good morning",
+     "tr": "Günaydın Mami",
+     "en": "Good morning, Mami",
+     "st": "Güneşli bir pazartesi · A sunny Monday",
+     "bg": "m/sn-sea.jpg",
+     "d": 40
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/sn-sea.jpg",
+     "tag": "Karadeniz · Black Sea",
+     "tr": "Parıldayan deniz, yeşil yamaçlar — hayal ürünü · imagined",
+     "en": "A sparkling sea and green hillsides — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 60
+    },
+    {
+     "k": "sky",
+     "d": 35
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/sn-terrace.jpg",
+     "tag": "Teras · Terrace",
+     "tr": "Zeytin gölgesinde buzlu bir Americano — hayal ürünü · imagined",
+     "en": "An iced Americano in the olive shade — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 60
+    },
+    {
+     "k": "prov",
+     "lb": "Villa Sun",
+     "tr": "Güneş, deniz ve yumuşak ritimler",
+     "en": "Sun, sea and soft grooves",
+     "st": "Acele yok · No rush",
+     "bg": "m/sn-terrace.jpg",
+     "d": 40
+    },
+    {
+     "k": "bigclock",
+     "d": 25
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/sn-vinyl.jpg",
+     "tag": "Plak · Vinyl",
+     "tr": "Güneşli salonda dönen bir plak — hayal ürünü · imagined",
+     "en": "A record spinning in a sunlit living room — hayal ürünü · imagined",
+     "cp": "right",
+     "d": 60
+    },
+    {
+     "k": "weather",
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/sn-tea.jpg",
+     "tag": "Çay Bahçeleri · Tea Gardens",
+     "tr": "Denize bakan yamaçlarda çay sıraları — hayal ürünü · imagined",
+     "en": "Rows of tea on slopes above the sea — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 60
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Doğu Karadeniz, Türkiye’de çay yetiştirilen başlıca bölgedir",
+     "en": "The Eastern Black Sea is Türkiye’s main tea-growing region",
+     "st": "Doğu Karadeniz · Eastern Black Sea",
+     "bg": "m/sn-tea.jpg",
+     "d": 40
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/sn-cay.jpg",
+     "tag": "Çay · Tea",
+     "tr": "İnce belli bardakta çay ve bir kase fındık — hayal ürünü · imagined",
+     "en": "Tea in a tulip glass and a bowl of hazelnuts — hayal ürünü · imagined",
+     "cp": "right",
+     "d": 60
+    },
+    {
+     "k": "waves",
+     "d": 35
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/sn-guitar.jpg",
+     "tag": "Bossa Nova",
+     "tr": "Terasta hasır koltukta bir gitar — hayal ürünü · imagined",
+     "en": "A guitar on a wicker chair on the terrace — hayal ürünü · imagined",
+     "cp": "right",
+     "d": 60
+    },
+    {
+     "k": "prov",
+     "lb": "Biliyor muydunuz? · Did you know?",
+     "tr": "Bossa nova 1950’lerin sonunda Rio de Janeiro’da doğdu",
+     "en": "Bossa nova was born in Rio de Janeiro in the late 1950s",
+     "st": "Müzik · Music",
+     "bg": "m/sn-guitar.jpg",
+     "d": 40
+    },
+    {
+     "k": "breathe",
+     "d": 40
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/mo-iced.jpg",
+     "tag": "Buzlu Americano · Iced Americano",
+     "tr": "Pencere kenarında buzlu bir Americano — hayal ürünü · imagined",
+     "en": "An iced Americano on the windowsill — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 60
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/mo-terrace.jpg",
+     "tag": "Teras · Terrace",
+     "tr": "Denize bakan bir terasta kahve — hayal ürünü · imagined",
+     "en": "Coffee on a terrace above the sea — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 60
+    },
+    {
+     "k": "prov",
+     "lb": "Atasözü · Proverb",
+     "tr": "Bir fincan kahvenin kırk yıl hatırı vardır",
+     "en": "A cup of coffee is remembered for forty years",
+     "st": "Türk atasözü · Turkish proverb",
+     "bg": "m/mo-terrace.jpg",
+     "d": 40
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/mo-tea-hills.jpg",
+     "tag": "Çay Bahçeleri · Tea Gardens",
+     "tr": "Sisli bir sabah, yamaçlarda çay bahçeleri — hayal ürünü · imagined",
+     "en": "A misty morning over hillside tea gardens — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 60
+    },
+    {
+     "k": "sky",
+     "d": 35
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/mo-sea.jpg",
+     "tag": "Karadeniz · Black Sea",
+     "tr": "Sakin deniz, kıyıda bir kayık — hayal ürünü · imagined",
+     "en": "A calm sea, a boat by the shore — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 60
+    },
+    {
+     "k": "prov",
+     "lb": "Keyifli bir gün · A lovely day",
+     "tr": "Güzel bir gün dilerim Mami",
+     "en": "Wishing you a beautiful day, Mami",
+     "st": "Villa Sadece Sen",
+     "bg": "m/sn-sea.jpg",
+     "d": 40
+    },
+    {
+     "k": "waves",
+     "d": 35
+    }
+   ]
   }
  ],
  "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit."
