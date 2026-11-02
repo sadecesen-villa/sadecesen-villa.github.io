@@ -1,5 +1,5 @@
 {
- "rev": 47,
+ "rev": 48,
  "sets": [
   {
    "id": "calm-default",
@@ -216,7 +216,8 @@
      "tr": "Merhaba Murat, Heja & Serkan!",
      "en": "Hello Murat, Heja & Serkan!",
      "st": "Mami, Şerif & Ibo’dan sevgiler · Love from Mami, Şerif & Ibo",
-     "d": 30
+     "d": 30,
+     "lb": "Selam · Greetings"
     },
     {
      "k": "idea",
