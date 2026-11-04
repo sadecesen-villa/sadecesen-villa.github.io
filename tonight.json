@@ -2396,8 +2396,253 @@
      "d": 30
     }
    ]
+  },
+  {
+   "id": "night-4nov",
+   "from": "2026-11-04T19:00",
+   "until": "2026-11-05T06:00",
+   "items": [
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-trabzon-night.jpg",
+     "tag": "Gece Zihni · Night Mind",
+     "tr": "Gerçek fotoğraf: yukarıdan Trabzon’un gece ışıkları · Foto: Aleksasfi, kamu malı",
+     "en": "Real photo: Trabzon’s lights at night from above · Photo: Aleksasfi, public domain",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Gece Zihni · Night Mind",
+     "tr": "İyi akşamlar Mami — ışıklar kısık, zihin açık",
+     "en": "Good evening Mami — lights low, mind wide open",
+     "st": "Bu gece: yıldızlar, ölçek ve dâhice fikirler · Tonight: stars, scale and clever ideas",
+     "d": 25
+    },
+    {
+     "k": "scale",
+     "d": 58
+    },
+    {
+     "k": "number",
+     "n": 8,
+     "u": "dk",
+     "pre": "~",
+     "tr": "Güneş ışığı Dünya’ya yaklaşık 8 dakikada ulaşır — gördüğün Güneş 8 dakika öncesinin Güneş’i",
+     "en": "Sunlight takes about 8 minutes to reach Earth — the Sun you see is 8 minutes old",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "tr": "Gece gökyüzündeki bazı yıldızlar çoktan söndü; ışıkları hâlâ yolda. Hayatında hâlâ ‘ışığı gelen’ ama bitmiş ne var?",
+     "en": "Some stars in tonight’s sky have already died; their light is still travelling. What in your life is ‘still shining’ but already over?",
+     "d": 35
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-stars.jpg",
+     "tag": "Yıldızlar · Stars",
+     "tr": "Gerçek fotoğraf: Gece göğünde yıldız izleri (uzun pozlama) · Foto: Thomas Bresson, CC BY 3.0",
+     "en": "Real photo: star trails in the night sky (long exposure) · Photo: Thomas Bresson, CC BY 3.0",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "model",
+     "h": "Ters Çevirme",
+     "he": "Inversion — think backwards",
+     "s": [
+      [
+       "Başarıyı nasıl garantilerim?",
+       "How do I guarantee success?"
+      ],
+      [
+       "Kesin başarısızlık neyle gelir?",
+       "What guarantees failure?"
+      ],
+      [
+       "Onlardan kaçın",
+       "Avoid those"
+      ]
+     ],
+     "d": 30
+    },
+    {
+     "k": "story",
+     "h": "Eratosthenes · MÖ 240",
+     "tr": "İskenderiyeli Eratosthenes, aynı gün öğlen iki şehirde gölgelerin farklı açıda düştüğünü fark etti. Sadece bir sopa ve geometriyle Dünya’nın çevresini şaşırtıcı bir doğrulukla hesapladı.",
+     "en": "Eratosthenes of Alexandria noticed shadows fell at different angles in two cities at the same noon. With just a stick and geometry he measured Earth’s circumference remarkably accurately.",
+     "d": 50
+    },
+    {
+     "k": "life",
+     "d": 40
+    },
+    {
+     "k": "word",
+     "w": "Yakamoz",
+     "p": "ya·ka·moz · /jakaˈmoz/",
+     "en": "The shimmer of moonlight — or glowing plankton — on night water",
+     "st": "Türkçenin en güzel kelimelerinden biri · One of Turkish’s most beautiful words",
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-moon.jpg",
+     "tag": "Ay · Moon",
+     "tr": "Gerçek fotoğraf: Denizin üzerinde dolunay · Foto: Alfredo J G A Borba, CC BY-SA 4.0",
+     "en": "Real photo: full moon over the sea · Photo: Alfredo J G A Borba, CC BY-SA 4.0",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Villa Fikri · Boutique Spark",
+     "tr": "‘Yıldız menüsü’: her odada o gece görülebilecek gezegen ve takımyıldızları gösteren küçük bir kart",
+     "en": "A ‘star menu’: a small card in each room showing which planets and constellations are visible that night",
+     "st": "Teras + battaniye + dürbün = unutulmaz gece · Terrace + blanket + binoculars = unforgettable night",
+     "d": 30
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Sen denizde bir damla değilsin; bir damlada okyanusun tamamısın.",
+     "en": "You are not a drop in the ocean. You are the entire ocean in a drop.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 30
+    },
+    {
+     "k": "compound",
+     "d": 30
+    },
+    {
+     "k": "challenge",
+     "tr": "2 dakika: ‘ışık’ ile ilgisi olmayan bir şeyi ışıkla ilişkilendiren 5 icat fikri bul",
+     "en": "2 minutes: invent 5 ideas that connect something unrelated to light",
+     "sec": 120,
+     "d": 125
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/hs-sumela.jpg",
+     "tag": "Sümela · Sumela",
+     "tr": "Gerçek fotoğraf: Altındere Vadisi’nde kayaya kurulmuş Sümela Manastırı · Foto: B. C. Tørrissen, CC BY-SA 3.0",
+     "en": "Real photo: Sumela Monastery built into the cliff, Altındere Valley · Photo: B. C. Tørrissen, CC BY-SA 3.0",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "tr": "Sümela’yı kayaya kuranlar bitmiş halini göremeyeceklerini biliyordu. Sen, bitişini görmeyeceğin neyi başlatırdın?",
+     "en": "Those who built Sumela into the cliff knew they might never see it finished. What would you start that you won’t see completed?",
+     "d": 35
+    },
+    {
+     "k": "tree",
+     "d": 35
+    },
+    {
+     "k": "number",
+     "n": 100000,
+     "u": "",
+     "pre": "~",
+     "tr": "Samanyolu’nun bir ucundan diğerine ışık yaklaşık 100.000 yılda gider",
+     "en": "Light takes about 100,000 years to cross the Milky Way",
+     "d": 25
+    },
+    {
+     "k": "story",
+     "h": "Post-it · 1974",
+     "tr": "3M’de Spencer Silver ‘başarısız’ zayıf bir yapıştırıcı yaptı. Yıllar sonra Art Fry, kilise korosunda ilahi kitabından düşen ayraçları için onu kullandı. Başarısızlık, milyarlık bir fikir oldu.",
+     "en": "At 3M, Spencer Silver made a ‘failed’ weak glue. Years later Art Fry used it for bookmarks that kept falling out of his choir hymnal. A failure became a billion-dollar idea.",
+     "d": 50
+    },
+    {
+     "k": "flow",
+     "d": 40
+    },
+    {
+     "k": "model",
+     "h": "Birinci İlkeler",
+     "he": "First principles — break it to the atoms",
+     "s": [
+      [
+       "Varsayımları yaz",
+       "List the assumptions"
+      ],
+      [
+       "Gerçek olanı bul",
+       "Find what is truly fixed"
+      ],
+      [
+       "Sıfırdan kur",
+       "Rebuild from scratch"
+      ]
+     ],
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-kackar.jpg",
+     "tag": "Kaçkar · Kaçkar",
+     "tr": "Gerçek fotoğraf: Kaçkar Dağları’nda Yedigöller · Foto: Tohnjitor, CC BY-SA 4.0",
+     "en": "Real photo: Yedigöller lakes in the Kaçkar Mountains · Photo: Tohnjitor, CC BY-SA 4.0",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Villa Fikri · Boutique Spark",
+     "tr": "Odalarda ‘sessiz saat’ ışığı: 22:00’de lambalar kendiliğinden sıcak amber tona geçsin",
+     "en": "A ‘quiet hour’ light: at 22:00 the lamps shift on their own to warm amber",
+     "d": 30
+    },
+    {
+     "k": "challenge",
+     "tr": "1 dakika: bugün seni gülümseten 3 küçük şeyi say",
+     "en": "1 minute: name 3 small things that made you smile today",
+     "sec": 60,
+     "d": 65
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Dün akıllıydım, dünyayı değiştirmek istedim. Bugün bilgeyim, kendimi değiştiriyorum.",
+     "en": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 30
+    },
+    {
+     "k": "sky",
+     "d": 25
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/yayla-stars.jpg",
+     "tag": "Yayla Gecesi · Highland Night",
+     "tr": "Yaylada yıldızlı bir gece — hayal ürünü · imagined",
+     "en": "A starry night on the highland — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Mind Spark",
+     "tr": "Bu gece aklına gelen en tuhaf fikri bir yere yaz — yarın sabah tekrar bak",
+     "en": "Write down the strangest idea you had tonight — look at it again tomorrow morning",
+     "d": 30
+    }
+   ]
   }
  ],
  "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit.",
- "rev": 45
+ "rev": 46
 }
