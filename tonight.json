@@ -2136,8 +2136,272 @@
      "d": 25
     }
    ]
+  },
+  {
+   "id": "spark-4nov",
+   "from": "2026-11-04T14:00",
+   "until": "2026-11-05T00:00",
+   "items": [
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/rain-window.webp",
+     "tag": "Yağmur · Rain",
+     "tr": "Yağmurlu bir öğleden sonra, sadece sen ve düşüncelerin — hayal ürünü · imagined",
+     "en": "A rainy afternoon — just you and your thoughts — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Mind Spark · Zihin Kıvılcımı",
+     "tr": "Merhaba Mami — yağmur dışarıda, kıvılcım içeride",
+     "en": "Hello Mami — rain outside, sparks inside",
+     "st": "Sakin bir gün için düşünce oyunları · Thought games for a quiet day",
+     "d": 25
+    },
+    {
+     "k": "scale",
+     "d": 58
+    },
+    {
+     "k": "idea",
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "tr": "Bir yağmur damlası düşünebilseydi, denize mi yoksa bir yaprağa mı düşmek isterdi?",
+     "en": "If a raindrop could choose, would it fall into the sea or onto a leaf?",
+     "d": 35
+    },
+    {
+     "k": "flow",
+     "d": 45
+    },
+    {
+     "k": "word",
+     "w": "Hüzün",
+     "p": "hü·zün · /hyˈzyn/",
+     "en": "A gentle, shared melancholy — beautiful sadness",
+     "st": "Yağmurlu günlerin tatlı ağırlığı · The sweet weight of rainy days",
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/rain-tea.webp",
+     "tag": "Çay · Tea",
+     "tr": "Yağmur sesi ve sıcak bir çay — hayal ürünü · imagined",
+     "en": "Rain sounds and a warm tea — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Sözlerini yükselt, sesini değil. Çiçekleri yetiştiren yağmurdur, gök gürültüsü değil.",
+     "en": "Raise your words, not your voice. It is rain that grows flowers, not thunder.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 30
+    },
+    {
+     "k": "compound",
+     "d": 30
+    },
+    {
+     "k": "idea",
+     "lb": "Villa Fikri · Design Spark",
+     "tr": "Yağmurlu günler için 'yağmur sepeti': battaniye, şemsiye, kitap ve kuru çay",
+     "en": "A 'rainy-day basket' for guests: blanket, umbrella, a book and loose tea",
+     "st": "Kötü havayı anıya çevir · Turn bad weather into a memory",
+     "d": 30
+    },
+    {
+     "k": "story",
+     "h": "Velcro · 1941",
+     "tr": "İsviçreli mühendis George de Mestral, köpeğiyle yürüyüşten sonra tüyüne yapışan dikenleri mikroskopta inceledi. Küçük kancaları gördü ve cırt cırtı icat etti.",
+     "en": "After a walk with his dog, Swiss engineer George de Mestral examined the burrs stuck in its fur under a microscope. He saw tiny hooks — and invented Velcro.",
+     "d": 50
+    },
+    {
+     "k": "life",
+     "d": 40
+    },
+    {
+     "k": "number",
+     "n": 2000,
+     "u": "mm",
+     "pre": "~",
+     "tr": "Doğu Karadeniz’in bazı yerleri yılda 2000 mm’den fazla yağmur alır — yeşilin sırrı",
+     "en": "Parts of the eastern Black Sea get over 2,000 mm of rain a year — the secret of all that green",
+     "d": 25
+    },
+    {
+     "k": "model",
+     "h": "İkinci Derece Düşünme",
+     "he": "Second-order thinking — and then what?",
+     "s": [
+      [
+       "Karar ver",
+       "Decide"
+      ],
+      [
+       "Sonra ne olur?",
+       "And then what?"
+      ],
+      [
+       "Ya ondan sonra?",
+       "And after that?"
+      ]
+     ],
+     "d": 30
+    },
+    {
+     "k": "tree",
+     "d": 35
+    },
+    {
+     "k": "challenge",
+     "tr": "3 dakika: villayı hiç görmemiş birine tek cümleyle anlat — 5 farklı şekilde",
+     "en": "3 minutes: describe the villa in one sentence to a stranger — 5 different ways",
+     "sec": 180,
+     "d": 185
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/fog.webp",
+     "tag": "Sis · Fog",
+     "tr": "Sisli tepeler, yavaş bir gün — hayal ürünü · imagined",
+     "en": "Misty hills, a slow day — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "tr": "Bir yıl boyunca hiçbir şey satın alamasaydın, neyi en çok özlerdin?",
+     "en": "If you could buy nothing for a whole year, what would you miss most?",
+     "d": 35
+    },
+    {
+     "k": "word",
+     "w": "Petrichor",
+     "p": "pet·ri·kor · /ˈpɛtrɪkɔːr/",
+     "en": "The earthy smell after rain",
+     "st": "Türkçede adı yok ama herkes tanır: toprak kokusu · No Turkish word, but everyone knows it: the smell of soil",
+     "d": 30
+    },
+    {
+     "k": "sky",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Villa Fikri · Design Spark",
+     "tr": "Terasta küçük bir 'yağmur köşesi': çatı altında iki koltuk, yağmur zinciri, sıcak ışık",
+     "en": "A small 'rain corner' on the terrace: two chairs under cover, a rain chain, warm light",
+     "st": "Yağmuru izlemek bir deneyim olsun · Make watching rain an experience",
+     "d": 30
+    },
+    {
+     "k": "number",
+     "n": 500,
+     "u": "ton",
+     "pre": "~",
+     "tr": "Ortalama bir kümülüs bulutu yaklaşık 500 ton su taşır — yine de havada süzülür",
+     "en": "An average cumulus cloud holds about 500 tons of water — and still floats",
+     "d": 25
+    },
+    {
+     "k": "flow",
+     "d": 35
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/candle-books.webp",
+     "tag": "Kitap · Books",
+     "tr": "Mum ışığı ve bir kitap — hayal ürünü · imagined",
+     "en": "Candlelight and a book — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "callig",
+     "lb": "Mevlânâ",
+     "tr": "Yaran, ışığın sana girdiği yerdir.",
+     "en": "The wound is the place where the Light enters you.",
+     "a": "Mevlânâ’ya atfedilir · attributed to Rumi",
+     "d": 30
+    },
+    {
+     "k": "story",
+     "h": "Mikrodalga Fırın · 1945",
+     "tr": "Percy Spencer radar cihazlarının yanında çalışırken cebindeki çikolatanın eridiğini fark etti. Merak etti, mısır koydu — patladı. Mikrodalga fırın doğdu.",
+     "en": "Working beside radar equipment, Percy Spencer noticed the chocolate bar in his pocket had melted. Curious, he tried popcorn — it popped. The microwave oven was born.",
+     "d": 50
+    },
+    {
+     "k": "life",
+     "d": 30
+    },
+    {
+     "k": "challenge",
+     "tr": "1 dakika: gözlerini kapat ve kaç farklı ses duyduğunu say",
+     "en": "1 minute: close your eyes and count how many different sounds you hear",
+     "sec": 60,
+     "d": 65
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/fire-close.webp",
+     "tag": "Ateş · Fire",
+     "tr": "Şöminede ateş, dışarıda yağmur — hayal ürünü · imagined",
+     "en": "Fire inside, rain outside — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Villa Fikri · Design Spark",
+     "tr": "Misafir defteri yerine 'bir soru bırak' kutusu — sonraki misafir cevaplasın",
+     "en": "Instead of a guestbook, a 'leave a question' box — the next guest answers it",
+     "d": 30
+    },
+    {
+     "k": "tree",
+     "d": 30
+    },
+    {
+     "k": "breathe",
+     "d": 38
+    },
+    {
+     "k": "word",
+     "w": "Keyif",
+     "p": "ke·yif · /ceˈjif/",
+     "en": "Unhurried pleasure — enjoying the moment for its own sake",
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/tea-night.jpg",
+     "tag": "Gece · Night",
+     "tr": "Akşam çayı, sakin bir gece — hayal ürünü · imagined",
+     "en": "Evening tea, a calm night — hayal ürünü · imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Mind Spark",
+     "tr": "Bugün yağmur sana neyi yavaşlatmayı öğretti?",
+     "en": "What did the rain teach you to slow down today?",
+     "d": 30
+    }
+   ]
   }
  ],
  "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit.",
- "rev": 44
+ "rev": 45
 }
