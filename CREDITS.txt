@@ -51,3 +51,16 @@ m/so-rain.jpg — "Rain on glass from below.jpg" by Tomascastelazo, CC BY-SA 4.0
 
 m/w-day.jpg: NASA Visible Earth "Land ocean ice 2048" (Wikimedia Commons), public domain
 m/w-night.jpg: NASA "The Earth at night" (Wikimedia Commons), public domain
+
+m/fw/monet_bordighera.jpg — Claude Monet, Bordighera (1884), public domain (NGA)
+m/fw/monet_sunset.jpg — Claude Monet, public domain
+m/fw/cross_cabasson.jpg — Henri-Edmond Cross, public domain
+m/fw/cross_evening.jpg — Henri-Edmond Cross, public domain
+m/fw/vangogh_boats.jpg — Vincent van Gogh, Fishing Boats on the Beach at Saintes-Maries (1888), public domain
+m/fw/sorolla_ninos.jpg — Joaquín Sorolla, public domain
+m/fw/sorolla_barcas.jpg — Joaquín Sorolla, public domain
+m/fw/pano-* — crops from m/hs-harbour.jpg (Bertramz, CC BY-SA 3.0)
+m/fw/sea-* — crops from m/ev-sunset.jpg (Yanina Pakhomova, CC BY-SA 4.0)
+m/fw/paint-* — painterly processing of existing credited coastal photos (hayal ürünü işleme · imagined processing)
+m/fw/stone*.jpg — cropped from villa room photo (private)
+m/fw/mock-*.jpg — dining-wall frame mockups generated 2026-09-29 for M

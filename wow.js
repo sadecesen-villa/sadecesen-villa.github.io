@@ -1,4 +1,4 @@
-/* wow.js v42 — live/generative scenes. ES5 only. */
+/* wow.js v48 — live/generative scenes. ES5 only. */
 var WOWV=42,LAT=40.94,LON=39.95,RAD=Math.PI/180;
 function wEl(t,c,h,s){var e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;if(s)e.style.cssText=s;return e}
 function wCv(L){var c=document.createElement('canvas');c.width=1920;c.height=1080;c.style.cssText='position:absolute;left:0;top:0;width:100%;height:100%';L.appendChild(c);return c}
@@ -111,3 +111,199 @@ WOW.breathe=function(L){L.style.background='radial-gradient(circle,#0f3442,#0207
   x.clearRect(0,0,1920,1080);for(var i=4;i>0;i--){x.fillStyle='rgba(120,210,215,'+(.05*i)+')';x.beginPath();x.arc(960,480,r+i*22,0,7);x.fill()}x.fillStyle='rgba(225,245,248,.9)';x.beginPath();x.arc(960,480,r,0,7);x.fill();
   x.fillStyle='#0b2a36';x.font='200 120px Helvetica,Arial';x.textAlign='center';x.fillText(n,960,520);T.innerHTML='<div class="tr">'+a+'</div><div class="en">'+b+'</div>'});
  L.corner=false;return L};
+
+/* 11. dining frame wall demo — projection-mapped gunmetal frames */
+(function(){
+var FCSS=''
++'.fw{position:absolute;inset:0;overflow:hidden;background:#1a1612}'
++'.fw-wall{position:absolute;left:0;right:0;top:0;bottom:0;background-size:cover;background-position:center;transition:filter 1.2s ease,opacity 1.2s}'
++'.fw-dim{position:absolute;inset:0;background:rgba(8,6,4,.0);transition:background 1.2s}'
++'.fw.on .fw-dim{background:rgba(8,6,4,.42)}'
++'.fw-group{position:absolute;left:50%;top:46%;width:78vw;max-width:1500px;height:auto;transform:translate(-50%,-50%);display:grid;'
++'grid-template-columns:28fr 7fr 110fr 7fr 26fr;grid-template-rows:37fr 7fr 37fr;gap:0}'
++'.fw-f{position:relative;box-sizing:border-box;border:0.45vw solid #5c5a58;border-radius:0.1vw;'
++'box-shadow:0 0.4vw 1.2vw rgba(0,0,0,.45), inset 0 0 0 0.18vw #1a1a1a;overflow:hidden;background:#f5f2ea}'
++'.fw-f:before{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 0.18vw #0a0a0a;z-index:3;pointer-events:none}'
++'.fw-L{grid-column:1;grid-row:1/4}'
++'.fw-C{grid-column:3;grid-row:1/4}'
++'.fw-RT{grid-column:5;grid-row:1}'
++'.fw-RB{grid-column:5;grid-row:3}'
++'.fw-cv{position:absolute;inset:0.22vw;overflow:hidden;background:#f7f4ec}'
++'.fw-cv img,.fw-cv .fw-fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}'
++'.fw-cv .fw-fill{background-size:cover;background-position:center}'
++'.fw.on .fw-f{box-shadow:0 0 1.8vw rgba(255,236,200,.28),0 0.5vw 1.4vw rgba(0,0,0,.55), inset 0 0 0 0.18vw #111}'
++'.fw.on .fw-cv{box-shadow:inset 0 0 2vw rgba(255,250,230,.12)}'
++'.fw-glow{position:absolute;inset:-1.2vw;border-radius:0.3vw;background:radial-gradient(ellipse at center,rgba(255,230,180,.22),rgba(255,230,180,0) 70%);opacity:0;pointer-events:none;z-index:0;transition:opacity 1s}'
++'.fw.on .fw-glow{opacity:1}'
++'.fw-f>*{z-index:1}'
++'.fw-cap{position:absolute;left:0;right:0;bottom:3.2vh;text-align:center;z-index:5;pointer-events:none;'
++'font-family:Helvetica,Arial,sans-serif;padding:0 6vw}'
++'.fw-cap .tag{font-size:1.5vw;letter-spacing:.35em;text-transform:uppercase;color:#c9b89a;margin-bottom:0.8vh}'
++'.fw-cap .tr{font-family:Georgia,serif;font-size:2.4vw;color:#f3efe6;line-height:1.3;text-shadow:0 2px 18px rgba(0,0,0,.7)}'
++'.fw-cap .en{font-family:Georgia,serif;font-size:1.55vw;color:#cfc4b0;font-style:italic;margin-top:0.6vh;text-shadow:0 2px 14px rgba(0,0,0,.65)}'
++'.fw-txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:6%;'
++'font-family:Georgia,serif;color:#f4efe4;background:linear-gradient(160deg,#2a2420,#1a1612)}'
++'.fw-txt .q{font-size:clamp(14px,2.1vw,42px);line-height:1.35;font-style:italic}'
++'.fw-txt .a{font-family:Helvetica,Arial,sans-serif;font-size:clamp(10px,1vw,18px);letter-spacing:.25em;text-transform:uppercase;color:#b9a88a;margin-top:1.2em}'
++'.fw-txt .big{font-size:clamp(18px,3.2vw,64px);font-style:normal;letter-spacing:.04em}'
++'.fw-kb{animation:fwkb 28s ease-in-out infinite alternate}'
++'@keyframes fwkb{from{transform:scale(1.05) translate(0,0)}to{transform:scale(1.18) translate(-3%,2%)}}'
++'.fw-kb2{animation:fwkb2 32s ease-in-out infinite alternate}'
++'@keyframes fwkb2{from{transform:scale(1.08) translate(2%,-1%)}to{transform:scale(1.2) translate(-2%,3%)}}'
++'.fw-drift{animation:fwdrift 40s linear infinite}'
++'@keyframes fwdrift{from{background-position:0% 50%}to{background-position:100% 50%}}'
++'.fw-ripple{position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(120,180,200,.12) 50%,transparent 60%);'
++'background-size:100% 200%;animation:fwrip 6s ease-in-out infinite;mix-blend-mode:soft-light;pointer-events:none}'
++'@keyframes fwrip{0%,100%{background-position:0% 0%}50%{background-position:0% 100%}}'
++'.fw-cloud{position:absolute;inset:-10%;background-size:120% 120%;opacity:.85;animation:fwcloud 45s ease-in-out infinite alternate}'
++'@keyframes fwcloud{from{transform:translate(0,0) scale(1.05)}to{transform:translate(-4%,2%) scale(1.15)}}'
++'.fw-sync .fw-cv .fw-fill{background-size:646% 100%;background-repeat:no-repeat;animation:fwsync 24s ease-in-out infinite alternate}'
++'@keyframes fwsync{from{background-position-x:0%}to{background-position-x:100%}}'
++'.fw-sync .fw-L .fw-fill{background-size:646% 100%}'
++'.fw-sync .fw-C .fw-fill{background-size:164% 100%}'
++'.fw-sync .fw-RT .fw-fill,.fw-sync .fw-RB .fw-fill{background-size:692% 219%}'
+;
+
+var st=document.createElement('style');st.id='fw-css';st.innerHTML=FCSS;
+if(!document.getElementById('fw-css'))document.head.appendChild(st);
+
+function fwEl(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e}
+function fwSet(el,src,cls){
+  el.innerHTML='';
+  if(!src){el.style.background='#f7f4ec';return}
+  if(src.indexOf('text:')===0){
+    var parts=src.slice(5).split('|');
+    var d=fwEl('div','fw-txt');
+    var q=fwEl('div',parts[2]||'q',parts[0]||'');
+    d.appendChild(q);
+    if(parts[1]){var a=fwEl('div','a',parts[1]);d.appendChild(a)}
+    el.appendChild(d);return;
+  }
+  if(src.indexOf('fill:')===0){
+    var d=fwEl('div','fw-fill'+(cls?' '+cls:''));
+    d.style.backgroundImage='url('+src.slice(5)+')';
+    el.appendChild(d);return;
+  }
+  var im=document.createElement('img');
+  im.src=src;im.alt='';
+  if(cls)im.className=cls;
+  el.appendChild(im);
+}
+
+WOW.frames=function(L,it){
+  var mode=(it.mode||'off');
+  var root=fwEl('div','fw'+(mode==='off'?'':' on')+(mode==='sync'?' fw-sync':''));
+  L.appendChild(root);
+  var wallSrc=(mode==='evening'||mode==='quote')?'m/fw/stone-dusk.jpg':'m/fw/stone.jpg';
+  var wall=fwEl('div','fw-wall');
+  wall.style.backgroundImage='url('+wallSrc+')';
+  if(mode==='off'){wall.style.filter='brightness(1.05) saturate(1.05)'}
+  else{wall.style.filter='brightness(.72) saturate(.9)'}
+  root.appendChild(wall);
+  root.appendChild(fwEl('div','fw-dim'));
+
+  var g=fwEl('div','fw-group');
+  var slots=['L','C','RT','RB'];
+  var cvs={};
+  for(var i=0;i<slots.length;i++){
+    var id=slots[i];
+    var f=fwEl('div','fw-f fw-'+id);
+    var glow=fwEl('div','fw-glow');f.appendChild(glow);
+    var cv=fwEl('div','fw-cv');f.appendChild(cv);
+    g.appendChild(f);cvs[id]=cv;
+  }
+  root.appendChild(g);
+  // size group to 178:81 without relying on aspect-ratio (older TV WebViews)
+  (function(){function sz(){var w=g.clientWidth||Math.min(window.innerWidth*0.78,1500);g.style.height=Math.round(w*81/178)+'px'}sz();setTimeout(sz,50);setTimeout(sz,400)})();
+
+  // content per mode
+  var A={
+    off:['','','',''],
+    paintings:['m/fw/monet_bordighera.jpg','m/fw/cross_cabasson.jpg','m/fw/monet_sunset.jpg','m/fw/vangogh_boats.jpg'],
+    paintings2:['m/fw/sorolla_barcas.jpg','m/fw/sorolla_ninos.jpg','m/fw/cross_evening.jpg','m/fw/vangogh_boats.jpg'],
+    panorama:['m/fw/pano-L.jpg','m/fw/pano-C.jpg','m/fw/pano-RT.jpg','m/fw/pano-RB.jpg'],
+    sea:['m/fw/sea-L.jpg','m/fw/sea-C.jpg','m/fw/sea-RT.jpg','m/fw/sea-RB.jpg'],
+    living:['fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg'],
+    painted:['m/fw/paint-boat.jpg','m/fw/paint-beach.jpg','m/fw/paint-sahil.jpg','m/fw/paint-dusk.jpg'],
+    morning:['m/fw/paint-boat.jpg','m/fw/paint-morning.jpg','m/fw/monet_sunset.jpg','m/fw/paint-sahil.jpg'],
+    evening:['m/fw/vangogh_boats.jpg','m/fw/cross_evening.jpg','m/fw/paint-dusk.jpg','m/fw/sea-RB.jpg'],
+    quote:[
+      'm/fw/monet_bordighera.jpg',
+      'text:Gel, ne olursan ol yine gel.|Mevlânâ · Rumi|q',
+      'm/fw/monet_sunset.jpg',
+      'm/fw/vangogh_boats.jpg'
+    ],
+    welcome:[
+      'm/fw/paint-boat.jpg',
+      'text:Hoş geldiniz|Sadece Sen · Arsin|big',
+      'm/fw/paint-sahil.jpg',
+      'm/fw/paint-dusk.jpg'
+    ],
+    sync:['fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg']
+  };
+  var srcs=A[mode]||A.off;
+  var kb=['fw-kb','fw-kb2','fw-kb','fw-kb2'];
+  for(var j=0;j<4;j++){
+    var src=srcs[j];
+    var cls='';
+    if(mode==='living'){
+      fwSet(cvs[slots[j]], src, 'fw-cloud');
+      var rip=fwEl('div','fw-ripple');cvs[slots[j]].appendChild(rip);
+    } else if(mode==='sync'){
+      fwSet(cvs[slots[j]], src, '');
+      // sync positions: continuous strip — set different background-position base via data
+      var fill=cvs[slots[j]].querySelector('.fw-fill');
+      if(fill){
+        // L=0-28 of 178 → 0%; C starts 35/178; RT/RB 152/178
+        var origins={'L':'0%','C':'19.7%','RT':'85.4%','RB':'85.4%'};
+        var sizes={'L':'646% 100%','C':'164% 100%','RT':'692% 219%','RB':'692% 219%'};
+        var ypos={'L':'50%','C':'50%','RT':'0%','RB':'54%'};
+        fill.style.backgroundSize=sizes[slots[j]];
+        fill.style.backgroundPosition=origins[slots[j]]+' '+ypos[slots[j]];
+        fill.style.animation='none';
+      }
+    } else if(mode==='panorama'||mode==='sea'||mode==='painted'||mode==='morning'||mode==='evening'||mode==='paintings'||mode==='paintings2'){
+      fwSet(cvs[slots[j]], src, (mode==='off'? '': kb[j]));
+    } else {
+      fwSet(cvs[slots[j]], src, '');
+    }
+  }
+
+  // sync animation: slowly shift all fills together
+  if(mode==='sync'){
+    var fills=[];
+    for(var s=0;s<4;s++){var el=cvs[slots[s]].querySelector('.fw-fill');if(el)fills.push({el:el,base:parseFloat(el.style.backgroundPosition)||0, y:(el.style.backgroundPosition.split(' ')[1]||'50%')});}
+    // re-read bases
+    fills=[];
+    var bases={'L':0,'C':19.7,'RT':85.4,'RB':85.4};
+    var ys={'L':'50%','C':'50%','RT':'0%','RB':'54%'};
+    for(var s2=0;s2<4;s2++){
+      var el2=cvs[slots[s2]].querySelector('.fw-fill');
+      if(el2)fills.push({el:el2,base:bases[slots[s2]],y:ys[slots[s2]]});
+    }
+    wLoop(L,function(t){
+      var shift=(Math.sin(t/8)*0.5+0.5)*12; // 0..12 percent drift
+      for(var i=0;i<fills.length;i++){
+        fills[i].el.style.backgroundPosition=(fills[i].base+shift)+'% '+fills[i].y;
+      }
+    });
+  }
+
+  // living: also gentle ken burns via transforming fill
+  if(mode==='living'){
+    wLoop(L,function(t){
+      // ripple already CSS; keep loop so layer stays alive
+    });
+  }
+
+  var cap=fwEl('div','fw-cap');
+  cap.innerHTML='<div class="tag">'+(it.tag||'Çerçeve Duvarı · Frame Wall')+'</div>'
+    +'<div class="tr">'+(it.tr||'')+'</div>'
+    +'<div class="en">'+(it.en||'')+'</div>';
+  root.appendChild(cap);
+
+  L.corner=false;
+  L.dur=it.d;
+  return L;
+};
+})();
