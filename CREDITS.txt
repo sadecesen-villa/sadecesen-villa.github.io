@@ -80,3 +80,16 @@ m/fw/sl-RT.jpg — Ambrosius Bosschaert the Elder, Flower Still Life, public dom
 m/fw/sl-RB.jpg — Raphaelle Peale, Still Life with Peaches, public domain via Wikimedia Commons / Google Art Project
 m/fw/ot-C.jpg — Tughra of Sultan Süleiman the Magnificent, Metropolitan Museum of Art (DP251197), open access / public domain via Wikimedia Commons
 m/fw/ot-L.jpg, m/fw/ot-RT.jpg, m/fw/ot-RB.jpg — İznik Tile (Turkey, 1560), Google Art Project, public domain via Wikimedia Commons
+
+--- Frame Wall v5 / rev 52 possibility reel (5 Nov 2026 evening) ---
+Japanese: Hokusai Great Wave; Hokusai Red Fuji (Fine Wind Clear Morning); Hiroshige Sudden Shower over Shin-Ōhashi; Hiroshige Kanbara night snow — Wikimedia Commons, public domain.
+Nocturne: Whistler Nocturne in Black and Gold (Falling Rocket); Whistler Nocturne Blue and Gold Southampton Water (Art Institute of Chicago); Friedrich Two Men Contemplating the Moon; van Gogh Starry Night (Google Art) — PD / museum OA.
+Abstract: Kandinsky Composition VII; Kandinsky Yellow-Red-Blue; Hilma af Klint The Ten Largest No.7 Adulthood; Mondrian Composition II (source kept, crop used selectively) — PD where applicable / museum OA.
+Architecture: Canaletto Grand Canal / Piazza San Marco; Vermeer The Little Street; Pieter de Hooch Courtyard of a House in Delft — PD / Google Art / Commons.
+Botanical: Redouté Rosa Centifolia (Cleveland); Lilium candidum Les Liliacées; Ehret Magnolia (Cleveland); Merian banana flower Metamorphosis — museum OA / PD.
+Map: 18th century map of the Black Sea… — Wikimedia Commons PD.
+Masterpiece split: Rembrandt Night Watch (La ronda de noche) — PD crops across four frames.
+Season: Bruegel Hunters in the Snow; Monet The Magpie; Millais Autumn Leaves — Google Art / Commons PD.
+Photography gallery: existing credited m/hs-sumela.jpg (Tørrissen CC BY-SA 3.0); m/ev-trabzon-night.jpg (Aleksasfi PD); m/so-kackar.jpg (Tohnjitor CC BY-SA 4.0); m/cliff-monastery.jpg (see prior CREDITS).
+Guest welcome lettering: generated parchment art for demo (hayal ürünü kaligrafi · imagined lettering).
+Mat study: solid mat colours generated for hardware demo.

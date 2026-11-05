@@ -138,9 +138,9 @@ var FCSS=''
 +'.fw-f>*{z-index:1}'
 +'.fw-cap{position:absolute;left:0;right:0;bottom:2.2vh;text-align:center;z-index:5;pointer-events:none;'
 +'font-family:Helvetica,Arial,sans-serif;padding:0 6vw}'
-+'.fw-cap .tag{font-size:1.05vw;letter-spacing:.32em;text-transform:uppercase;color:#a89878;margin-bottom:0.45vh;opacity:.9}'
-+'.fw-cap .tr{font-family:Georgia,serif;font-size:1.55vw;color:#e8e0d2;line-height:1.3;text-shadow:0 2px 14px rgba(0,0,0,.85)}'
-+'.fw-cap .en{font-family:Georgia,serif;font-size:1.05vw;color:#b8ab96;font-style:italic;margin-top:0.35vh;text-shadow:0 2px 12px rgba(0,0,0,.8)}'
++'.fw-cap .tag{font-size:0.72vw;letter-spacing:.28em;text-transform:uppercase;color:#9a8b72;margin-bottom:0.2vh;opacity:.85}'
++'.fw-cap .tr{font-family:Georgia,serif;font-size:0.85vw;color:#c8bda8;line-height:1.25;text-shadow:0 1px 8px rgba(0,0,0,.75)}'
++'.fw-cap .en{font-family:Georgia,serif;font-size:0.7vw;color:#a89880;font-style:italic;margin-top:0.15vh;text-shadow:0 1px 8px rgba(0,0,0,.7)}'
 +'.fw-txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:6%;'
 +'font-family:Georgia,serif;color:#f4efe4;background:linear-gradient(160deg,#2a2420,#1a1612)}'
 +'.fw-txt .q{font-size:clamp(14px,2.1vw,42px);line-height:1.35;font-style:italic}'
@@ -200,32 +200,23 @@ WOW.frames=function(L,it){
   // size group to 178:81 without relying on aspect-ratio (older TV WebViews)
   (function(){function sz(){var w=g.clientWidth||Math.min(window.innerWidth*0.78,1500);g.style.height=Math.round(w*81/178)+'px'}sz();setTimeout(sz,50);setTimeout(sz,400)})();
 
-  // content per mode — STILL art only (v51: no Ken Burns / living / sync)
+  // content per mode — STILL possibility reel v52 (no afternoon loop, no motion)
   var A={
     off:['','','',''],
-    paintings:['m/fw/monet_bordighera.jpg','m/fw/cross_cabasson.jpg','m/fw/monet_sunset.jpg','m/fw/vangogh_boats.jpg'],
-    paintings2:['m/fw/sorolla_barcas.jpg','m/fw/sorolla_ninos.jpg','m/fw/cross_evening.jpg','m/fw/vangogh_boats.jpg'],
-    imp:['m/fw/imp-L.jpg','m/fw/imp-C.jpg','m/fw/imp-RT.jpg','m/fw/imp-RB.jpg'],
-    vangogh:['m/fw/vg-L.jpg','m/fw/vg-C.jpg','m/fw/vg-RT.jpg','m/fw/vg-RB.jpg'],
-    stilllife:['m/fw/sl-L.jpg','m/fw/sl-C.jpg','m/fw/sl-RT.jpg','m/fw/sl-RB.jpg'],
-    ottoman:['m/fw/ot-L.jpg','m/fw/ot-C.jpg','m/fw/ot-RT.jpg','m/fw/ot-RB.jpg'],
-    panorama:['m/fw/pano-L.jpg','m/fw/pano-C.jpg','m/fw/pano-RT.jpg','m/fw/pano-RB.jpg'],
-    sea:['m/fw/sea-L.jpg','m/fw/sea-C.jpg','m/fw/sea-RT.jpg','m/fw/sea-RB.jpg'],
-    painted:['m/fw/paint-boat.jpg','m/fw/paint-beach.jpg','m/fw/paint-sahil.jpg','m/fw/paint-dusk.jpg'],
-    morning:['m/fw/paint-boat.jpg','m/fw/paint-morning.jpg','m/fw/monet_sunset.jpg','m/fw/paint-sahil.jpg'],
-    evening:['m/fw/vangogh_boats.jpg','m/fw/cross_evening.jpg','m/fw/paint-dusk.jpg','m/fw/sea-RB.jpg'],
-    quote:[
-      'm/fw/art-reed.jpg',
-      'm/fw/art-mevlana.jpg',
-      'm/fw/art-moon.jpg',
-      'm/fw/art-whirl.jpg'
-    ],
-    welcome:[
-      'm/fw/mood-tea.jpg',
-      'm/fw/art-welcome.jpg',
-      'm/fw/paint-morning.jpg',
-      'm/fw/mood-cay.jpg'
-    ]
+    jp:['m/fw/jp-L.jpg','m/fw/jp-C.jpg','m/fw/jp-RT.jpg','m/fw/jp-RB.jpg'],
+    noc:['m/fw/noc-L.jpg','m/fw/noc-C.jpg','m/fw/noc-RT.jpg','m/fw/noc-RB.jpg'],
+    abs:['m/fw/abs-L.jpg','m/fw/abs-C.jpg','m/fw/abs-RT.jpg','m/fw/abs-RB.jpg'],
+    arch:['m/fw/arch-L.jpg','m/fw/arch-C.jpg','m/fw/arch-RT.jpg','m/fw/arch-RB.jpg'],
+    bot:['m/fw/bot-L.jpg','m/fw/bot-C.jpg','m/fw/bot-RT.jpg','m/fw/bot-RB.jpg'],
+    map:['m/fw/map-L.jpg','m/fw/map-C.jpg','m/fw/map-RT.jpg','m/fw/map-RB.jpg'],
+    mast:['m/fw/mast-L.jpg','m/fw/mast-C.jpg','m/fw/mast-RT.jpg','m/fw/mast-RB.jpg'],
+    guest:['m/fw/guest-L.jpg','m/fw/guest-C.jpg','m/fw/guest-RT.jpg','m/fw/guest-RB.jpg'],
+    photo:['m/fw/photo-L.jpg','m/fw/photo-C.jpg','m/fw/photo-RT.jpg','m/fw/photo-RB.jpg'],
+    season:['m/fw/season-L.jpg','m/fw/season-C.jpg','m/fw/season-RT.jpg','m/fw/season-RB.jpg'],
+    mat:['m/fw/mat-L.jpg','m/fw/mat-C.jpg','m/fw/mat-RT.jpg','m/fw/mat-RB.jpg'],
+    // kept for future reels / fallbacks (not in active tonight set)
+    quote:['m/fw/art-reed.jpg','m/fw/art-mevlana.jpg','m/fw/art-moon.jpg','m/fw/art-whirl.jpg'],
+    welcome:['m/fw/mood-tea.jpg','m/fw/art-welcome.jpg','m/fw/paint-morning.jpg','m/fw/mood-cay.jpg']
   };
   var srcs=A[mode]||A.off;
   for(var j=0;j<4;j++){
