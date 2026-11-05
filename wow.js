@@ -228,16 +228,16 @@ WOW.frames=function(L,it){
     morning:['m/fw/paint-boat.jpg','m/fw/paint-morning.jpg','m/fw/monet_sunset.jpg','m/fw/paint-sahil.jpg'],
     evening:['m/fw/vangogh_boats.jpg','m/fw/cross_evening.jpg','m/fw/paint-dusk.jpg','m/fw/sea-RB.jpg'],
     quote:[
-      'm/fw/monet_bordighera.jpg',
-      'text:Gel, ne olursan ol yine gel.|Mevlânâ · Rumi|q',
-      'm/fw/monet_sunset.jpg',
-      'm/fw/vangogh_boats.jpg'
+      'm/fw/art-reed.jpg',
+      'm/fw/art-mevlana.jpg',
+      'm/fw/art-moon.jpg',
+      'm/fw/art-whirl.jpg'
     ],
     welcome:[
-      'm/fw/paint-boat.jpg',
-      'text:Hoş geldiniz|Sadece Sen · Arsin|big',
-      'm/fw/paint-sahil.jpg',
-      'm/fw/paint-dusk.jpg'
+      'm/fw/mood-tea.jpg',
+      'm/fw/art-welcome.jpg',
+      'm/fw/paint-morning.jpg',
+      'm/fw/mood-cay.jpg'
     ],
     sync:['fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg','fill:m/fw/living-sea.jpg']
   };
@@ -262,7 +262,7 @@ WOW.frames=function(L,it){
         fill.style.backgroundPosition=origins[slots[j]]+' '+ypos[slots[j]];
         fill.style.animation='none';
       }
-    } else if(mode==='panorama'||mode==='sea'||mode==='painted'||mode==='morning'||mode==='evening'||mode==='paintings'||mode==='paintings2'){
+    } else if(mode==='panorama'||mode==='sea'||mode==='painted'||mode==='morning'||mode==='evening'||mode==='paintings'||mode==='paintings2'||mode==='quote'||mode==='welcome'){
       fwSet(cvs[slots[j]], src, (mode==='off'? '': kb[j]));
     } else {
       fwSet(cvs[slots[j]], src, '');
