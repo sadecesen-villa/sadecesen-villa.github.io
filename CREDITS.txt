@@ -64,3 +64,19 @@ m/fw/sea-* — crops from m/ev-sunset.jpg (Yanina Pakhomova, CC BY-SA 4.0)
 m/fw/paint-* — painterly processing of existing credited coastal photos (hayal ürünü işleme · imagined processing)
 m/fw/stone*.jpg — cropped from villa room photo (private)
 m/fw/mock-*.jpg — dining-wall frame mockups generated 2026-09-29 for M
+
+# Frame Wall v4 / rev 51 — public-domain & open-access museum works (cropped to frame aspects)
+m/fw/imp-L.jpg — Claude Monet, Woman with a Parasol (Madame Monet and Her Son), public domain via Wikimedia Commons / Google Art Project
+m/fw/imp-C.jpg — Claude Monet, Impression, Sunrise, public domain via Wikimedia Commons
+m/fw/imp-RT.jpg — Claude Monet, Water Lilies (1906, Ryerson), public domain via Wikimedia Commons
+m/fw/imp-RB.jpg — Pierre-Auguste Renoir, Two Sisters (On the Terrace), public domain via Wikimedia Commons / Google Art Project
+m/fw/vg-L.jpg — Vincent van Gogh, Self-Portrait, public domain via Wikimedia Commons / Google Art Project
+m/fw/vg-C.jpg — Vincent van Gogh, Almond Blossom, public domain via Wikimedia Commons / Google Art Project
+m/fw/vg-RT.jpg — Vincent van Gogh, Sunflowers (Vincent Willem van Gogh 127), public domain via Wikimedia Commons
+m/fw/vg-RB.jpg — Vincent van Gogh, Irises, public domain via Wikimedia Commons
+m/fw/sl-L.jpg — Johannes Vermeer, Girl with a Pearl Earring, public domain via Wikimedia Commons
+m/fw/sl-C.jpg — Paul Cézanne, The Basket of Apples, Art Institute of Chicago, public domain via Wikimedia Commons
+m/fw/sl-RT.jpg — Ambrosius Bosschaert the Elder, Flower Still Life, public domain via Wikimedia Commons / Google Art Project
+m/fw/sl-RB.jpg — Raphaelle Peale, Still Life with Peaches, public domain via Wikimedia Commons / Google Art Project
+m/fw/ot-C.jpg — Tughra of Sultan Süleiman the Magnificent, Metropolitan Museum of Art (DP251197), open access / public domain via Wikimedia Commons
+m/fw/ot-L.jpg, m/fw/ot-RT.jpg, m/fw/ot-RB.jpg — İznik Tile (Turkey, 1560), Google Art Project, public domain via Wikimedia Commons
