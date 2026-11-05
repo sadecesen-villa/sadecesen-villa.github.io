@@ -175,7 +175,7 @@ function fwSet(el,src,cls){
 }
 
 WOW.frames=function(L,it){
-  var mode=(it.mode||'off');
+  var mode=((it&&it.mode)||'off');
   var root=fwEl('div','fw'+(mode==='off'?'':' on'));
   L.appendChild(root);
   var wallSrc=(mode==='evening'||mode==='quote')?'m/fw/stone-dusk.jpg':'m/fw/stone.jpg';
@@ -224,13 +224,13 @@ WOW.frames=function(L,it){
   }
 
     var cap=fwEl('div','fw-cap');
-  cap.innerHTML='<div class="tag">'+(it.tag||'Çerçeve Duvarı · Frame Wall')+'</div>'
-    +'<div class="tr">'+(it.tr||'')+'</div>'
-    +'<div class="en">'+(it.en||'')+'</div>';
+  cap.innerHTML='<div class="tag">'+((it&&it.tag)||'Çerçeve Duvarı · Frame Wall')+'</div>'
+    +'<div class="tr">'+((it&&it.tr)||'')+'</div>'
+    +'<div class="en">'+((it&&it.en)||'')+'</div>';
   root.appendChild(cap);
 
   L.corner=false;
-  L.dur=it.d;
+  L.dur=(it&&it.d)||40;
   return L;
 };
 })();
