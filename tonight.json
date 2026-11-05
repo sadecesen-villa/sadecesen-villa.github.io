@@ -2641,8 +2641,249 @@
      "d": 30
     }
    ]
+  },
+  {
+   "id": "morning-5nov",
+   "from": "2026-11-05T08:45",
+   "until": "2026-11-05T14:00",
+   "items": [
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/tea-morning.webp",
+     "tag": "Sabah Kıvılcımı · Morning Spark",
+     "tr": "Karadeniz’de çay bahçelerinde sabah ışığı — hayal ürünü",
+     "en": "Morning light over Black Sea tea gardens — imagined",
+     "cp": "top",
+     "d": 25
+    },
+    {
+     "k": "idea",
+     "lb": "Sabah Kıvılcımı · Morning Spark",
+     "tr": "Günaydın Mami — bugün tek bir fikir yeter",
+     "en": "Good morning Mami — one good idea is enough today",
+     "d": 25,
+     "st": "Bu sabah: günün fikri, küçük meydan okumalar ve villa için butik otel fikirleri · This morning: idea of the day, small challenges, boutique-hotel ideas for the villa"
+    },
+    {
+     "k": "bigclock",
+     "d": 20
+    },
+    {
+     "k": "idea",
+     "lb": "Günün Fikri · Idea of the Day",
+     "tr": "Bir şeyi 1% daha iyi yap. Bugün sadece bir şeyi.",
+     "en": "Make one thing 1% better. Just one thing today.",
+     "d": 28,
+     "st": "Küçük adımlar birikir · Small steps compound"
+    },
+    {
+     "k": "compound",
+     "d": 30
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/hs-ayasofya.jpg",
+     "tag": "Trabzon",
+     "tr": "Gerçek fotoğraf: Trabzon Ayasofya’sı · Foto: Balkanique, CC BY-SA 4.0",
+     "en": "Real photo: Hagia Sophia of Trabzon · Photo: Balkanique, CC BY-SA 4.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "story",
+     "h": "Velcro · 1941",
+     "tr": "İsviçreli mühendis George de Mestral köpeğiyle yürüyüşten döndüğünde tüylere yapışan dikenleri mikroskopla inceledi. Küçük kancaları gördü ve cırt cırtı icat etti. Sabah yürüyüşü bir icat oldu.",
+     "en": "Swiss engineer George de Mestral came back from a walk with his dog and studied the burrs stuck in its fur under a microscope. He saw tiny hooks — and invented Velcro. A morning walk became an invention.",
+     "d": 50
+    },
+    {
+     "k": "challenge",
+     "tr": "60 saniye: pencereden bak, daha önce fark etmediğin 3 şey bul",
+     "en": "60 seconds: look out the window and find 3 things you’ve never noticed",
+     "sec": 60,
+     "d": 65
+    },
+    {
+     "k": "prov",
+     "lb": "Butik Otel Fikri · Boutique-Hotel Idea",
+     "tr": "Misafir odasına el yazısı bir ‘hoş geldin’ kartı ve yerel fındık — ilk 10 saniye her şeydir",
+     "en": "A handwritten welcome card and local hazelnuts in the guest room — the first 10 seconds are everything",
+     "st": "Sadece Sen için · For Sadece Sen",
+     "bg": "m/hazelnuts.jpg",
+     "d": 28
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-tea.jpg",
+     "tag": "Rize",
+     "tr": "Gerçek fotoğraf: Rize çay bahçeleri · Foto: Wikimol, CC BY-SA 2.5",
+     "en": "Real photo: Rize tea plantation · Photo: Wikimol, CC BY-SA 2.5",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "word",
+     "w": "Merak",
+     "p": "me·rak · /meˈɾak/",
+     "en": "Curiosity; also a gentle longing to know",
+     "st": "Her keşfin başladığı yer · Where every discovery starts",
+     "d": 28
+    },
+    {
+     "k": "model",
+     "h": "İlk İlkeler",
+     "he": "First principles — break a problem down to what is surely true, then rebuild",
+     "s": [
+      [
+       "Varsayımları yaz",
+       "List the assumptions"
+      ],
+      [
+       "Kesin doğruları bul",
+       "Find what is surely true"
+      ],
+      [
+       "Sıfırdan yeniden kur",
+       "Rebuild from scratch"
+      ]
+     ],
+     "d": 32
+    },
+    {
+     "k": "number",
+     "n": 20,
+     "u": "dk",
+     "pre": "~",
+     "tr": "Güneş ışığı alan bir sabah yürüyüşü yaklaşık 20 dakikada zihni ve uykuyu düzene sokmaya yardım eder",
+     "en": "About 20 minutes of morning daylight helps set your body clock for the day",
+     "d": 25
+    },
+    {
+     "k": "flow",
+     "d": 40
+    },
+    {
+     "k": "prov",
+     "lb": "Butik Otel Fikri · Boutique-Hotel Idea",
+     "tr": "Terasta ‘kahvaltı saati’ yok: misafir ne zaman uyanırsa sepet hazır — sıcak simit, bal, peynir",
+     "en": "No fixed breakfast hour on the terrace: whenever guests wake, a basket is ready — warm simit, honey, cheese",
+     "st": "Sadece Sen için · For Sadece Sen",
+     "bg": "m/mo-terrace.jpg",
+     "d": 28
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-boat.jpg",
+     "tag": "Karadeniz · Black Sea",
+     "tr": "Gerçek fotoğraf: Espiye açıklarında balıkçı teknesi · Foto: Zeynel Cebeci, CC BY-SA 4.0",
+     "en": "Real photo: a fishing boat off Espiye · Photo: Zeynel Cebeci, CC BY-SA 4.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "idea",
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "tr": "Bu villayı ilk kez gören bir misafirsin. Neyi fotoğraflardın?",
+     "en": "You’re a guest seeing this villa for the first time. What would you photograph?",
+     "d": 32,
+     "st": "Cevabın, en güçlü yanın · Your answer is its strongest feature"
+    },
+    {
+     "k": "challenge",
+     "tr": "2 dakika: villanın tek cümlelik ‘hikâyesini’ yaz",
+     "en": "2 minutes: write the villa’s one-sentence ‘story’",
+     "sec": 120,
+     "d": 125
+    },
+    {
+     "k": "callig",
+     "lb": "Yunus Emre",
+     "tr": "Gelin tanış olalım, işi kolay kılalım",
+     "en": "Come, let us be friends; let us make the work easy",
+     "a": "Yunus Emre",
+     "d": 28
+    },
+    {
+     "k": "prov",
+     "lb": "Butik Otel Fikri · Boutique-Hotel Idea",
+     "tr": "Her odaya bir koku: çay, fındık, deniz tuzu — misafir odayı kokusundan hatırlasın",
+     "en": "A scent for each room: tea, hazelnut, sea salt — let guests remember a room by its smell",
+     "st": "Sadece Sen için · For Sadece Sen",
+     "bg": "m/mo-cay.jpg",
+     "d": 28
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/so-hamsikoy.jpg",
+     "tag": "Hamsiköy",
+     "tr": "Gerçek fotoğraf: Hamsiköy · Foto: Hamdigumus, CC0",
+     "en": "Real photo: Hamsiköy · Photo: Hamdigumus, CC0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "story",
+     "h": "Önce Üret · Create First",
+     "tr": "Pek çok yaratıcı insan en iyi fikirlerini sabah, e-postadan önce yazdı. Kural basit: önce üret, sonra tüket.",
+     "en": "Many creative people wrote their best ideas in the morning, before any messages. The rule is simple: create first, consume later.",
+     "d": 40
+    },
+    {
+     "k": "weather",
+     "d": 30
+    },
+    {
+     "k": "prov",
+     "lb": "Butik Otel Fikri · Boutique-Hotel Idea",
+     "tr": "Kapıda yerel bir ‘keşif haritası’: en iyi hamsi, en sessiz koy, en güzel gün doğumu noktası",
+     "en": "A local ‘discovery map’ by the door: best hamsi, quietest cove, best sunrise spot",
+     "st": "Sadece Sen için · For Sadece Sen",
+     "bg": "m/hs-harbour.jpg",
+     "d": 28
+    },
+    {
+     "k": "life",
+     "d": 35
+    },
+    {
+     "k": "idea",
+     "lb": "Günün Sorusu · Question of the Day",
+     "tr": "Bugün kimi gülümsetebilirsin?",
+     "en": "Who could you make smile today?",
+     "d": 28
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/ev-sahil.jpg",
+     "tag": "Trabzon Sahil",
+     "tr": "Gerçek fotoğraf: Trabzon sahili · Foto: Sinan Şahin, CC BY 3.0",
+     "en": "Real photo: Trabzon seafront · Photo: Sinan Şahin, CC BY 3.0",
+     "cp": "top",
+     "d": 22
+    },
+    {
+     "k": "tree",
+     "d": 35
+    },
+    {
+     "k": "photo",
+     "kb": 1,
+     "f": "m/mo-sea.jpg",
+     "tag": "Sabah Kıvılcımı · Morning Spark",
+     "tr": "Sakin bir Karadeniz sabahı — hayal ürünü · Güzel bir gün dilerim",
+     "en": "A calm Black Sea morning — imagined · Have a beautiful day",
+     "cp": "top",
+     "d": 25
+    }
+   ]
   }
  ],
  "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit.",
- "rev": 46
+ "rev": 47
 }
