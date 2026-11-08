@@ -3020,8 +3020,59 @@
      "d": 26
     }
    ]
+  },
+  {
+   "id": "bed-8nov",
+   "from": "2026-11-08T22:25",
+   "until": "2026-11-09T02:00",
+   "items": [
+    {
+     "k": "ntphoto",
+     "d": 40,
+     "f": "m/so-rain.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo",
+     "tr": "Cama düşen yağmur damlaları",
+     "en": "Raindrops on a window",
+     "cr": "Foto: Tomascastelazo · CC BY-SA 4.0"
+    },
+    {
+     "k": "ntsky",
+     "d": 50
+    },
+    {
+     "k": "ntphoto",
+     "d": 40,
+     "f": "m/so-moon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo",
+     "tr": "Denizin üzerinde dolunay",
+     "en": "A full moon over the sea",
+     "cr": "Foto: Alfredo J G A Borba · CC BY-SA 4.0"
+    },
+    {
+     "k": "ntphoto",
+     "d": 40,
+     "f": "m/so-sea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo",
+     "tr": "Karadeniz, gece",
+     "en": "The Black Sea at night",
+     "cr": "Foto: Alexey Komarov · CC BY 3.0"
+    },
+    {
+     "k": "ntphoto",
+     "d": 40,
+     "f": "m/ev-trabzon-night.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo",
+     "tr": "Uykuya dalan Trabzon’un ışıkları",
+     "en": "Trabzon’s lights, settling into sleep",
+     "cr": "Foto: Aleksasfi · Kamu malı · Public domain"
+    },
+    {
+     "k": "ntbye",
+     "d": 45
+    }
+   ]
   }
  ],
  "_names": "Guest names appear only in heja-sercan-1nov and evening-1nov slides 1 (tr/en) and last (st). Search \"Heja & Serkan\" to edit.",
- "rev": 53
+ "rev": 54
 }
