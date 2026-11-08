@@ -113,7 +113,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="dim"></div><div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
-<script src="wow.js?v=52"></script><script src="spark.js?v=52"></script>
+<script src="wow.js?v=52"></script><script src="spark.js?v=52"></script><script src="fun.js?v=53"></script>
 <script>
 // v42
 // ---- Sadece Sen TV: autonomous rotation (all media hosted here on GitHub Pages; ngrok only for manual pushes) ----
@@ -412,7 +412,7 @@ var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr
  {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'prov',tr:'Bin dost az, bir düşman çok',en:'A thousand friends are too few; one enemy is too many',st:'Türk atasözü · Turkish proverb'},
  {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
-var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>52){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
+var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>53){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
