@@ -1,0 +1,746 @@
+{
+ "date": "2026-11-09",
+ "rev": 55,
+ "_note": "Hourly sets for the villa TV. Built by hourly/build_day.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-09-14",
+   "name": "Merak · Curiosity",
+   "from": "2026-11-09T14:00",
+   "until": "2026-11-09T16:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-earthrise.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Apollo 8",
+     "tr": "Ay’ın ufkundan doğan Dünya, 24 Aralık 1968",
+     "en": "Earth rising over the Moon’s horizon, 24 December 1968",
+     "cr": "Foto · Photo: NASA/Bill Anders · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Astronotlar Ay’ı keşfetmeye gitti, en çok Dünya’yı keşfettiler",
+     "facte": "They went to explore the Moon — and discovered the Earth",
+     "fit": "contain"
+    },
+    {
+     "k": "hzcafe",
+     "d": 40
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Dünya’nın çevresine sıkıca bir ip sar. İpi sadece 1 metre uzatırsan…",
+     "e": "Wrap a rope tightly around the Earth. Add just 1 metre…",
+     "bg": "stars",
+     "steps": [
+      [
+       "İp her yerden eşit havaya kalkar",
+       "The rope lifts evenly all round",
+       ""
+      ],
+      [
+       "Sence kaç cm boşluk oluşur?",
+       "How big is the gap?",
+       ""
+      ],
+      [
+       "Cevap",
+       "Answer",
+       "≈ 16 cm"
+      ],
+      [
+       "Bir kedi altından geçebilir!",
+       "A cat could walk under it!",
+       ""
+      ]
+     ],
+     "fin": "Boşluk = 1 m ÷ 2π — Dünya’nın büyüklüğü hiç fark etmez",
+     "fine": "Gap = 1 m ÷ 2π — the size of the Earth doesn’t matter at all",
+     "gap": 6
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Kanatlarla doğdun;|neden sürünmeyi seçesin?",
+     "en": "You were born with wings — why choose to crawl?",
+     "pal": "ink"
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h9-idea-cinema.jpg",
+     "lb": "Villa Fikri · Villa Idea — hayal ürünü · imagined (AI)",
+     "tr": "Çimde açık hava sineması: battaniye, fener, deniz manzarası",
+     "en": "An open-air cinema on the lawn: blankets, lanterns, a sea view",
+     "fact": "Yaz akşamları misafirlere “film gecesi” — sadece beyaz bir perde ve projektör yeter",
+     "facte": "Summer “movie night” for guests — a white screen and a projector are all it takes",
+     "cr": "Sadece Sen için üretilmiş fikir görseli · Concept image made for Sadece Sen",
+     "cp": "top"
+    },
+    {
+     "k": "hzpend",
+     "d": 55
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-sera.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Akçaabat",
+     "tr": "Sera Gölü, Akçaabat — Trabzon’a 15 dakika",
+     "en": "Sera Lake, Akçaabat — 15 minutes from Trabzon",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "fact": "Bir heyelanın dereyi kapatmasıyla oluştuğu anlatılır",
+     "facte": "It is said to have formed when a landslide dammed a stream"
+    }
+   ]
+  },
+  {
+   "id": "h-11-09-16",
+   "name": "Desen · Patterns",
+   "from": "2026-11-09T16:00",
+   "until": "2026-11-09T17:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-paleblue.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Voyager 1, 1990",
+     "tr": "Işık huzmesindeki o soluk mavi nokta: Dünya",
+     "en": "That pale blue dot in the sunbeam: Earth",
+     "cr": "Foto · Photo: NASA/JPL-Caltech · kamu malı · public domain · Wikimedia Commons",
+     "fact": "6 milyar km uzaktan — herkesin yaşadığı her şey o noktada",
+     "facte": "From 6 billion km away — everything anyone ever lived is on that dot",
+     "fit": "contain"
+    },
+    {
+     "k": "hzebb",
+     "d": 40
+    },
+    {
+     "k": "hzgalton",
+     "d": 60
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Aradığın şey|de seni arıyor",
+     "en": "What you seek is seeking you",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h9-idea-oven.jpg",
+     "lb": "Villa Fikri · Villa Idea — hayal ürünü · imagined (AI)",
+     "tr": "Bahçede taş fırın: misafirlerle birlikte pide akşamı",
+     "en": "A stone oven in the garden: a pide evening with guests",
+     "fact": "Hamuru misafirler açsın, fırını villa yaksın — tatilin en çok anlatılan anı olur",
+     "facte": "Guests roll the dough, the villa fires the oven — the story they’ll tell most",
+     "cr": "Sadece Sen için üretilmiş fikir görseli · Concept image made for Sadece Sen",
+     "cp": "top"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Göldeki nilüferler her gün iki katına çıkıyor.<br>Göl 48 günde tamamen doluyor.<br>Göl yarıya kaçıncı günde dolar?",
+     "qe": "Water lilies double every day. The lake is full on day 48. On which day is it half full?",
+     "a": "47. gün!",
+     "ae": "Day 47 — just one day before the end.",
+     "sec": 18,
+     "hint": "Çoğu kişi “24” der… · Most people say “24”…"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-cal.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Düzköy",
+     "tr": "Çal Mağarası, Düzköy — Trabzon’un yeraltındaki nehri",
+     "en": "Çal Cave, Düzköy — Trabzon’s underground river",
+     "cr": "Foto · Photo: Varvara Kless-Kaminskaia · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "İçinden bir dere akar; uzunluğunun 8 km kadar olduğu söylenir",
+     "facte": "A stream runs through it; it is said to be about 8 km long"
+    }
+   ]
+  },
+  {
+   "id": "h-11-09-17",
+   "name": "Doğa Zekâsı · Nature’s Genius",
+   "from": "2026-11-09T17:00",
+   "until": "2026-11-09T18:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-giresun.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Giresun",
+     "tr": "Giresun Adası — Doğu Karadeniz’in tek adası",
+     "en": "Giresun Island — the only island in the eastern Black Sea",
+     "cr": "Foto · Photo: Dr. Zeynel Cebeci · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Efsaneye göre Argonotlar Altın Post yolculuğunda buraya uğradı",
+     "facte": "Legend says the Argonauts stopped here on their quest for the Golden Fleece"
+    },
+    {
+     "k": "hzkaniz",
+     "d": 40
+    },
+    {
+     "k": "hzboids",
+     "d": 60
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-murmur.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sığırcıklar · Starlings",
+     "tr": "Gerçek bir sığırcık sürüsü: binlerce kuş, tek bir bulut",
+     "en": "A real starling murmuration: thousands of birds, one cloud",
+     "cr": "Foto · Photo: Skander zarrad · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bazı sürüler 100.000 kuşu geçer",
+     "facte": "Some murmurations number over 100,000 birds"
+    },
+    {
+     "k": "hzsteps",
+     "d": 55,
+     "lb": "Düşünce Deneyi · Thought Experiment — Otel Fikri",
+     "q": "Hilbert’in Oteli: sonsuz oda var ve hepsi dolu",
+     "e": "Hilbert’s Hotel: infinitely many rooms, all full",
+     "c1": "#2a2238",
+     "c2": "#06050a",
+     "steps": [
+      [
+       "Yeni bir misafir geliyor…",
+       "A new guest arrives…",
+       ""
+      ],
+      [
+       "Herkes bir sonraki odaya geçiyor: 1→2, 2→3…",
+       "Everyone moves up one room",
+       ""
+      ],
+      [
+       "1 numaralı oda boşaldı!",
+       "Room 1 is now free!",
+       "✓"
+      ],
+      [
+       "Sonsuz bir otobüs dolusu misafir gelirse?",
+       "An infinite busload arrives?",
+       ""
+      ],
+      [
+       "Herkes oda numarasının 2 katına geçer",
+       "Everyone moves to double their number",
+       "n → 2n"
+      ]
+     ],
+     "fin": "Tüm tek numaralı odalar boşalır — sonsuzluk da dolmaz",
+     "fine": "All the odd rooms are free — infinity never fills up",
+     "gap": 6
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h9-idea-bikes.jpg",
+     "lb": "Villa Fikri · Villa Idea — hayal ürünü · imagined (AI)",
+     "tr": "Kapıda iki bisiklet ve hazır piknik sepeti",
+     "en": "Two bicycles at the door with picnic baskets ready",
+     "fact": "Misafir sabah haritayı alır, sepeti kapar ve sahile pedal çevirir",
+     "facte": "In the morning guests grab the map and the basket, and ride to the coast",
+     "cr": "Sadece Sen için üretilmiş fikir görseli · Concept image made for Sadece Sen",
+     "cp": "top"
+    },
+    {
+     "k": "hzquote",
+     "d": 48,
+     "tr": "Dünle beraber gitti cancağızım,|ne kadar söz varsa düne ait;|şimdi yeni şeyler söylemek lazım",
+     "en": "Gone with yesterday, my dear, are all of yesterday’s words — now it’s time to say new things",
+     "pal": "clay"
+    }
+   ]
+  },
+  {
+   "id": "h-11-09-18",
+   "name": "Akşamüstü Kıvılcımı · Evening Spark",
+   "from": "2026-11-09T18:00",
+   "until": "2026-11-09T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-hamsilos.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sinop",
+     "tr": "Hamsilos, Sinop — Türkiye’nin tek doğal fiyordu olarak anılır",
+     "en": "Hamsilos, Sinop — known as Turkey’s only natural fjord",
+     "cr": "Foto · Photo: Erturkercin · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Deniz burada karaya derin bir kol gibi sokulur",
+     "facte": "Here the sea slips inland like a long, deep arm"
+    },
+    {
+     "k": "hzlilac",
+     "d": 45
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Akıllı Düşünce · Clever Thinking",
+     "q": "Doğum Günü Paradoksu",
+     "e": "The Birthday Paradox",
+     "c1": "#14303a",
+     "c2": "#03080b",
+     "steps": [
+      [
+       "Bir odada 2 kişi",
+       "2 people in a room",
+       "%0,3"
+      ],
+      [
+       "10 kişi",
+       "10 people",
+       "%12"
+      ],
+      [
+       "23 kişi",
+       "23 people",
+       "%50"
+      ],
+      [
+       "50 kişi",
+       "50 people",
+       "%97"
+      ],
+      [
+       "70 kişi",
+       "70 people",
+       "%99,9"
+      ]
+     ],
+     "fin": "Sadece 23 kişide iki kişinin aynı gün doğmuş olma şansı yarı yarıya!",
+     "fine": "With just 23 people, it’s a coin flip that two share a birthday!"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-lightning.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Fırtına · Storm",
+     "tr": "Gece denizin üzerinde çakan şimşekler",
+     "en": "Lightning over the sea at night",
+     "cr": "Foto · Photo: bigwavephoto · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bir şimşek Güneş’in yüzeyinden yaklaşık 5 kat sıcaktır (~30.000 °C)",
+     "facte": "A lightning bolt is about 5× hotter than the Sun’s surface (~30,000 °C)"
+    },
+    {
+     "k": "hzfourier",
+     "d": 50
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ne kadar çok alırsan,<br>o kadar çok geride bırakırsın.<br>Ben neyim?",
+     "qe": "The more you take, the more you leave behind. What am I?",
+     "a": "Ayak izleri · Adımlar",
+     "ae": "Footsteps.",
+     "sec": 18,
+     "c1": "#2b2016",
+     "c2": "#070504"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-dew.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Doğa · Nature",
+     "tr": "Sabah çiyi tutmuş bir örümcek ağı",
+     "en": "A spider web holding the morning dew",
+     "cr": "Foto · Photo: Rajshekhar.Baghel · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Örümcek ipeği, ağırlığına göre çelikten daha güçlüdür",
+     "facte": "Spider silk is stronger than steel, weight for weight"
+    }
+   ]
+  },
+  {
+   "id": "h-11-09-19",
+   "name": "Küçük ve Büyük · Small & Large",
+   "from": "2026-11-09T19:00",
+   "until": "2026-11-09T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-amasra.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bartın",
+     "tr": "Amasra koyları — Karadeniz’in mavi incisi",
+     "en": "The bays of Amasra — blue pearl of the Black Sea",
+     "cr": "Foto · Photo: Kesim00 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Fatih Sultan Mehmet’in burayı görünce “Çeşm-i cihan bu mu?” dediği anlatılır",
+     "facte": "Mehmed the Conqueror is said to have asked: “Is this the eye of the world?”"
+    },
+    {
+     "k": "hzafter",
+     "d": 46,
+     "f": "m/h9-zigana.jpg",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "place": "Zigana, Trabzon–Gümüşhane"
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "Her adımda 10 kat küçül…",
+     "e": "Shrink 10× with every step…",
+     "bg": "stars",
+     "c1": "#0f1d2e",
+     "c2": "#020408",
+     "gap": 4.5,
+     "steps": [
+      [
+       "Sen",
+       "You",
+       "1,7 m"
+      ],
+      [
+       "Bir karınca",
+       "An ant",
+       "5 mm"
+      ],
+      [
+       "Bir saç teli kalınlığı",
+       "A hair’s width",
+       "0,07 mm"
+      ],
+      [
+       "Bir bakteri",
+       "A bacterium",
+       "0,002 mm"
+      ],
+      [
+       "Bir virüs",
+       "A virus",
+       "100 nm"
+      ],
+      [
+       "DNA sarmalı",
+       "A DNA helix",
+       "2 nm"
+      ],
+      [
+       "Bir atom",
+       "An atom",
+       "0,1 nm"
+      ]
+     ],
+     "fin": "Atomu bir stadyum kadar büyütsen, çekirdeği ortada bir bezelye olurdu",
+     "fine": "Blow an atom up to a stadium, and its nucleus would be a pea in the middle"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir babanın 5 kızı var.<br>Her kızın bir erkek kardeşi var.<br>Babanın kaç çocuğu var?",
+     "qe": "A father has 5 daughters. Each daughter has one brother. How many children?",
+     "a": "6 çocuk!",
+     "ae": "Six — all five sisters share the same brother.",
+     "sec": 18,
+     "hint": "“10” demeden önce bir daha düşün… · Think twice before saying “10”…"
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h9-idea-herbs.jpg",
+     "lb": "Villa Fikri · Villa Idea — hayal ürünü · imagined (AI)",
+     "tr": "Mutfak kapısında misafir bostanı: nane, fesleğen, kekik",
+     "en": "A guest herb garden by the kitchen door: mint, basil, thyme",
+     "fact": "Misafir makasla kendi çayına nane, salatasına fesleğen keser",
+     "facte": "Guests snip their own mint for tea and basil for salad",
+     "cr": "Sadece Sen için üretilmiş fikir görseli · Concept image made for Sadece Sen",
+     "cp": "top"
+    },
+    {
+     "k": "hzripple",
+     "d": 55
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-causeway.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kuzey İrlanda · N. Ireland",
+     "tr": "Dev Geçidi: 40.000 altıgen bazalt sütun",
+     "en": "The Giant’s Causeway: 40,000 hexagonal basalt columns",
+     "cr": "Foto · Photo: Chmee2 · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Kimse oymadı — soğuyan lav kendi kendine altıgen çatladı",
+     "facte": "No one carved them — cooling lava cracked into hexagons by itself"
+    }
+   ]
+  },
+  {
+   "id": "h-11-09-20",
+   "name": "Uzay ve Zaman · Space & Time",
+   "from": "2026-11-09T20:00",
+   "until": "2026-11-09T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-saturn.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Cassini, 2012",
+     "tr": "Güneş, Satürn’ün tam arkasında: ışığı halkalardan süzülüyor",
+     "en": "The Sun hidden right behind Saturn, its light glowing through the rings",
+     "cr": "Foto · Photo: NASA/JPL-Caltech/Space Science Institute · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Satürn sudan hafiftir — dev bir küvet bulsan yüzerdi",
+     "facte": "Saturn is less dense than water — in a giant bathtub it would float"
+    },
+    {
+     "k": "hzstep",
+     "d": 40
+    },
+    {
+     "k": "hzsteps",
+     "d": 55,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "İkiz Paradoksu: biri uzaya gidiyor, biri evde kalıyor",
+     "e": "The Twin Paradox: one twin flies off, one stays home",
+     "bg": "stars",
+     "c1": "#101a33",
+     "c2": "#02030a",
+     "steps": [
+      [
+       "Işık hızının %99,5’iyle yolculuk",
+       "Travelling at 99.5% of light speed",
+       ""
+      ],
+      [
+       "Gemide geçen süre",
+       "Time on the ship",
+       "1 yıl"
+      ],
+      [
+       "Dünya’da geçen süre",
+       "Time on Earth",
+       "10 yıl"
+      ],
+      [
+       "Eve dönen ikiz…",
+       "The returning twin is…",
+       "9 yaş genç!"
+      ]
+     ],
+     "fin": "Einstein (1905): hız arttıkça zaman yavaşlar — GPS uyduları bunu her gün düzeltir",
+     "fine": "Einstein (1905): the faster you go, the slower time runs — GPS satellites correct for it daily",
+     "gap": 6
+    },
+    {
+     "k": "hzquote",
+     "d": 48,
+     "tr": "Ne kadar bilirsen bil,|söylediklerin karşındakinin|anlayabildiği kadardır",
+     "en": "However much you know, what you say is only as much as the other can understand",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h9-idea-hammock.jpg",
+     "lb": "Villa Fikri · Villa Idea — hayal ürünü · imagined (AI)",
+     "tr": "Ağaçların arasında hamak köşesi ve iki ince belli çay",
+     "en": "A hammock corner between the trees, with two tulip glasses of tea",
+     "fact": "Telefonsuz bir öğleden sonra için en iyi davet",
+     "facte": "The best invitation to a phone-free afternoon",
+     "cr": "Sadece Sen için üretilmiş fikir görseli · Concept image made for Sadece Sen",
+     "cp": "top"
+    },
+    {
+     "k": "hzmonte",
+     "d": 55
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-pillars.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hubble, 2014",
+     "tr": "Yaratılış Sütunları: yıldızların doğduğu gaz bulutları",
+     "en": "The Pillars of Creation: gas clouds where stars are born",
+     "cr": "Foto · Photo: NASA, ESA, and the Hubble Heritage Team · kamu malı · public domain · Wikimedia Commons",
+     "fact": "En uzun sütun yaklaşık 4 ışık yılı boyunda",
+     "facte": "The tallest pillar is about 4 light-years long",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "id": "h-11-09-21",
+   "name": "Gece Merakı · Night Curiosity",
+   "from": "2026-11-09T21:00",
+   "until": "2026-11-09T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-mevlana.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Konya",
+     "tr": "Mevlânâ Müzesi ve yeşil kubbesi, Konya",
+     "en": "The Mevlânâ Museum and its green dome, Konya",
+     "cr": "Foto · Photo: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Mevlânâ 1273’te Konya’da vefat etti; her yıl 17 Aralık’ta Şeb-i Arûs’ta anılır",
+     "facte": "Rumi died in Konya in 1273; he is remembered every 17 December, Şeb-i Arûs"
+    },
+    {
+     "k": "hzhermann",
+     "d": 36
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h9-udf.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hubble Ultra Derin Alan",
+     "tr": "Bu karanlık bir boşluk değil: yaklaşık 10.000 galaksi",
+     "en": "This isn’t empty darkness: about 10,000 galaxies",
+     "cr": "Foto · Photo: NASA and the European Space Agency · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Gökyüzünün kol boyu uzaklıktaki bir kum tanesi kadar küçük bir parçası",
+     "facte": "A patch of sky the size of a grain of sand held at arm’s length",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Kullanmadan önce kırman gereken şey nedir?",
+     "qe": "What has to be broken before you can use it?",
+     "a": "Yumurta!",
+     "ae": "An egg!",
+     "sec": 15,
+     "c1": "#20283a",
+     "c2": "#05060a"
+    },
+    {
+     "k": "hzulam",
+     "d": 55
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "3 ❤",
+     "tr": "Ahtapotun üç kalbi ve mavi kanı vardır",
+     "en": "An octopus has three hearts and blue blood",
+     "src": "Kanındaki bakır yüzünden mavidir · Blue from the copper in its blood",
+     "c1": "#10283a",
+     "c2": "#02070c"
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h9-idea-firering.jpg",
+     "lb": "Villa Fikri · Villa Idea — hayal ürünü · imagined (AI)",
+     "tr": "Taş avluda ateş halkası: post minderler, demlik ve uzakta sahil ışıkları",
+     "en": "A fire ring in the stone courtyard: sheepskins, a teapot and distant coast lights",
+     "fact": "Gece misafirlerle hikâye saati — ateş, çay ve sessizlik",
+     "facte": "A storytelling hour with guests — fire, tea and quiet",
+     "cr": "Sadece Sen için üretilmiş fikir görseli · Concept image made for Sadece Sen",
+     "cp": "top"
+    }
+   ]
+  },
+  {
+   "id": "h-11-09-22",
+   "name": "Yatmadan Önce · Before Bed",
+   "from": "2026-11-09T22:00",
+   "until": "2026-11-09T23:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h9-istnight.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Uzay İstasyonu · ISS",
+     "tr": "Uzaydan gece İstanbul: Boğaz’ın iki yakası ışık içinde",
+     "en": "Istanbul at night from space: both shores of the Bosphorus aglow",
+     "cr": "Foto · Photo: Image Science and Analysis Laboratory, NASA-Johnson Space Center. \"The Gateway to Astronaut Photography of Earth.\" &lt;http://eol.jsc.nasa.gov/scripts/sseop/photo.pl?mission=ISS032&amp;roll=E&amp;frame=17547&gt;09/11/2012 01:05:42 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Fotoğraf Uluslararası Uzay İstasyonu’ndan çekildi",
+     "facte": "Taken from the International Space Station",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 48,
+     "tr": "Sessizlik Tanrı’nın dilidir;|geri kalan her şey|kötü bir çeviridir",
+     "en": "Silence is the language of God; all else is poor translation",
+     "pal": "night"
+    },
+    {
+     "k": "hzfirefly",
+     "d": 70
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h9-snowflake.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Wilson Bentley",
+     "tr": "İlk kar tanesi fotoğrafları — Wilson Bentley, 1885’ten itibaren",
+     "en": "The first photographs of snowflakes — Wilson Bentley, from 1885",
+     "cr": "Foto · Photo: Wilson Bentley · kamu malı · public domain · Wikimedia Commons",
+     "fact": "5.000’den fazla kar tanesi çekti; ikisinin aynı olduğunu hiç görmedi",
+     "facte": "He photographed over 5,000 and never found two alike",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Fe",
+     "tr": "Kanındaki demir, milyarlarca yıl önce patlayan yıldızlarda oluştu",
+     "en": "The iron in your blood was made in stars that exploded billions of years ago",
+     "src": "Sen de yıldız tozundan yapıldın · You are made of stardust",
+     "c1": "#1a1830",
+     "c2": "#030308"
+    },
+    {
+     "k": "hzharmono",
+     "d": 60
+    }
+   ]
+  },
+  {
+   "id": "h-11-09-23",
+   "name": "Gece · Night (calm)",
+   "from": "2026-11-09T23:00",
+   "until": "2026-11-10T02:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 45,
+     "f": "m/h9-bsswirl.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · NASA uydusu · satellite",
+     "tr": "Uzaydan Karadeniz: planktonların turkuaz girdapları",
+     "en": "The Black Sea from space: turquoise swirls of plankton",
+     "cr": "Foto · Photo: Norman Kuring / NASA · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bu renkler milyarlarca minicik canlıdan geliyor",
+     "facte": "These colours come from billions of tiny living things",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphyllo",
+     "d": 55
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h9-walls1890.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon, 19. yy sonu · late 1800s",
+     "tr": "Bir asırdan uzun süre önce Trabzon surları",
+     "en": "The walls of Trabzon, more than a century ago",
+     "cr": "Foto · Photo: Dmitri Ivanovich Ermakov · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Fotoğrafçı Dmitri Yermakov’un objektifinden",
+     "facte": "Through the lens of photographer Dmitri Ermakov",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsleep",
+     "d": 70
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h9-ataturk.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon",
+     "tr": "Atatürk Köşkü, Soğuksu — çam ağaçları arasında beyaz bir köşk",
+     "en": "The Atatürk Pavilion, Soğuksu — a white mansion among the pines",
+     "cr": "Foto · Photo: Yazar Haber · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Atatürk 1937’de burada kaldı ve vasiyetini burada hazırladı",
+     "facte": "Atatürk stayed here in 1937 and prepared his will here"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+# Sadece Sen villa TV
+
+Live at https://sadecesen-villa.github.io/ (GitHub Pages, account `sadecesen-villa`). The TV keeps `index.html` open; it re-reads the schedule every 60 s and swaps sets on its own.
+
+## Hourly day schedule (since rev 55)
+
+- `index.html` reads `tonight.json`, then `days/<yesterday>.json` and `days/<today>.json` (Istanbul dates) every minute. Day-file sets are appended last, so they win over `tonight.json`. Whichever set has `from <= now < until` plays; when the hour changes the next set starts immediately (no reload, nobody touches the TV).
+- While a day-file set is active the old sunset / 23:00 “good night” specials are suppressed, so nothing old repeats.
+- Scene templates live in `hourly.js` (prefix `hz`). Data templates: `hzphoto` (still real or imagined photo, never moves), `hzquote` (Mevlânâ lettering, palettes ink/night/clay/sea), `hzriddle`, `hzsteps` (thought experiment / scale journey), `hzfact`. Generators: `hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep`. Illusions: `hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter`. Generators/illusions can be reused on later days only with a different topic — check `used-content.md`; prefer adding new `hz*` functions.
+- Fonts: `f/GreatVibes.ttf`, `f/Dancing.ttf` (OFL). Images: `m/<prefix>-*.jpg` (day 2026-11-09 used `m/h9-*`).
+
+### Daily 08:00 build (15 hourly sets, 09–23)
+
+1. Read `requests.md` (M's pending ideas — include them first) and `used-content.md` (no repeats within 7 days).
+2. Copy `days/build_2026-11-09.py` to `days/build_<date>.py`; set `DATE`, write 15 sets `S(9,10,…)` … `S(22,23,…)` plus `S(23,26,…)` for a calm night (until 02:00). 5–7 scenes each, `d` = seconds per scene.
+3. Real photos: Wikimedia Commons CC / public domain only (fetch + licence via the Commons API, see `/workspace/hourly/dl.py`), save as `m/<prefix>-name.jpg` (≤1920 px), add licence lines to `days/credits-<date>.json` and `CREDITS.txt`. Imagined/AI images must say “hayal ürünü · imagined”.
+4. Rules: TR first then EN; label real vs imagined; credit real photos; still photos stay still; no breathing slides; nothing about Osman or Kurdish topics; no Uzungöl; no gold/brass looks; calm content from 22:00.
+5. Run the build script → `days/<date>.json`. Preview offline: `python3 -m http.server 8765` in this folder, open `index.html?pv=<setid>:<index>` (headless screenshots, `/workspace/hourly/shot.py`), make a contact sheet in `/workspace/tvprev`.
+6. Append a dated section to `used-content.md`, move done items in `requests.md`.
+7. Commit + push. No version bump is needed for a new day file (it is picked up within a minute). Only if `index.html`/`hourly.js` change: raise `REV` in `index.html`, the `?v=` on `hourly.js`, and `rev` in `tonight.json` to the same new number — the open TV sees the higher rev and reloads itself.
+8. Verify live: `curl https://sadecesen-villa.github.io/days/<date>.json` returns the new sets.

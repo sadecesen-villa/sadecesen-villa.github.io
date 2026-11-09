@@ -113,7 +113,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="dim"></div><div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
-<script src="wow.js?v=52"></script><script src="spark.js?v=52"></script><script src="fun.js?v=53"></script><script src="night.js?v=54"></script>
+<script src="wow.js?v=52"></script><script src="spark.js?v=52"></script><script src="fun.js?v=53"></script><script src="night.js?v=54"></script><script src="hourly.js?v=55"></script>
 <script>
 // v42
 // ---- Sadece Sen TV: autonomous rotation (all media hosted here on GitHub Pages; ngrok only for manual pushes) ----
@@ -357,7 +357,7 @@ sun();setInterval(sun,6*3600000);
 var SP={
  sunset:{k:'photo',f:'m/sp-sunset.jpg',mv:'rays',tag:'Gün Batımı · Sunset',tr:'Güneş Karadeniz’e veda ediyor',en:'The sun bids farewell to the Black Sea',tri:'leak'},
  night:{k:'photo',f:'m/sp-night.jpg',mv:'grain',tag:'İyi Geceler · Good Night',tr:'Tatlı rüyalar, yarın görüşmek üzere',en:'Sweet dreams — see you tomorrow',tri:'mist'}};
-function special(){var d=ist(),key=d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate(),m=d.getHours()*60+d.getMinutes();
+function special(){if(ACT&&ACT.day)return null;var d=ist(),key=d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate(),m=d.getHours()*60+d.getMinutes();
  var sm=SUN.m>0?SUN.m:17*60+30;
  if(m>=sm-12&&m<sm+8&&!shown['s'+key])return ['s'+key,SP.sunset,(sm+8-m)*60000,SUN.s];
  if(m>=23*60&&m<23*60+20&&!shown['n'+key])return ['n'+key,SP.night,(23*60+20-m)*60000];
@@ -412,12 +412,20 @@ var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr
  {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'prov',tr:'Bin dost az, bir düşman çok',en:'A thousand friends are too few; one enemy is too many',st:'Türk atasözü · Turkish proverb'},
  {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
-var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}function jx(){var x=new XMLHttpRequest();x.open('GET','tonight.json?t='+Date.now(),true);x.onload=function(){try{var d=JSON.parse(x.responseText);if(d.rev&&d.rev>54){location.reload();return}JX=[];ACT=null;var nw=istS();(d.sets||[]).forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}};x.send()}jx();setInterval(jx,60000);
+var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}var REV=55,ALLSETS=null;function dk(o){var d=new Date(ist().getTime()+o*86400000);function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())}
+function gj(u,cb){var x=new XMLHttpRequest();x.open('GET',u+'?t='+Date.now(),true);x.timeout=30000;x.onload=function(){var r=null;if(x.status==200){try{r=JSON.parse(x.responseText)}catch(e){}}cb(r)};x.onerror=x.ontimeout=function(){cb(null)};x.send()}
+// tonight.json + days/<yesterday>.json + days/<today>.json (hourly day schedule; later sets win). Re-read every minute, so hourly sets switch on their own.
+function jx(){gj('tonight.json',function(d){if(!d)return;if(d.rev&&d.rev>REV){location.reload();return}var sets=(d.sets||[]).slice(),K=[dk(-1),dk(0)],q=0;
+ function nx(){if(q<K.length){gj('days/'+K[q++]+'.json',function(z){if(z){if(z.rev&&z.rev>REV){location.reload();return}(z.sets||[]).forEach(function(y){y.day=1;sets.push(y)})}nx()});return}apply(d,sets)}nx()})}
+function apply(d,sets){try{ALLSETS=sets;JX=[];ACT=null;var nw=istS();sets.forEach(function(z){if(nw>=z.from&&nw<z.until)ACT=z});if(ACT&&ACT.id!=AID){var fst=AID!=='';AID=ACT.id;AI=0;PQ=[];if(fst&&typeof timer!='undefined'&&!PV){clearTimeout(timer);rotate()}};var pd='';try{pd=localStorage.getItem('tvpri')||''}catch(e){}if(d.pri&&d.pri.id!=pd&&welOn()){PQ=d.pri.items.slice();try{localStorage.setItem('tvpri',d.pri.id)}catch(e){}}}catch(e){}}
+var PV=(location.search.match(/pv=([\w-]+):(\d+)/)||null);
+jx();setInterval(jx,60000);
 function welOn(){var d=ist();return d.getFullYear()==2026&&d.getMonth()==9&&d.getDate()==31&&d.getHours()>=17}
 // playlist: photos/motion interleaved with clock/quote/fact
 var recent=[],n=0;
 function next(){
  if(PQ.length)return PQ.shift();
+ if(ACT&&istS()>=ACT.until&&ALLSETS){var nw=istS(),nA=null;ALLSETS.forEach(function(z){if(nw>=z.from&&nw<z.until)nA=z});if(nA&&nA.id!=AID){ACT=nA;AID=nA.id;AI=0}}
  if(ACT&&istS()<ACT.until)return ACT.items[AI++%ACT.items.length];
  n++;var it;var sl=slot();
  if(welOn()){try{localStorage.setItem('tvn31',n)}catch(e){}var TL=TQ.slice(0,12).concat(JX,TQ.slice(12));if(n<=TL.length)return TL[n-1];if(n%30==0)return WEL}
@@ -451,6 +459,6 @@ setInterval(function(){if(ka.paused)kaPlay();wake()},60000);kaPlay();wake();
 // start: clock first, then rotate
 if(LITE)document.body.className='lite';
 var Q0=(location.search.match(/demo=(\d+)/)||[])[1];if(Q0){SLIDE=+Q0*1000}else if(welOn())SLIDE=75000;
-if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else if(welOn()){var sv=0;try{sv=+localStorage.getItem('tvn31')||0}catch(e){}n=Math.max(sv,12);setTimeout(rotate,2000)}else{n=5;var rs=0,rw=setInterval(function(){rs++;if(ACT||rs>=16){clearInterval(rw);rotate()}},500)}poll();
+if(PV){var pw=setInterval(function(){if(!ALLSETS)return;clearInterval(pw);ALLSETS.forEach(function(z){if(z.id==PV[1])swap(build(z.items[+PV[2]]),'fade')})},300)}else if(/k=(\w+)/.test(location.search)){swap(build({k:location.search.match(/k=(\w+)/)[1]}),'split')}else if(/world=1/.test(location.search)){swap(build({k:'world'}),'split')}else if(/sp=(\w+)/.test(location.search)){var k=location.search.match(/sp=(\w+)/)[1];swap(build(SP[k]),'fade')}else if(welOn()){var sv=0;try{sv=+localStorage.getItem('tvn31')||0}catch(e){}n=Math.max(sv,12);setTimeout(rotate,2000)}else{n=5;var rs=0,rw=setInterval(function(){rs++;if(ACT||rs>=16){clearInterval(rw);rotate()}},500)}poll();
 setTimeout(function(){location.reload()},6*3600*1000);
 </script></body></html>

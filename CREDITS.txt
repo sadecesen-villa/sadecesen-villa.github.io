@@ -93,3 +93,28 @@ Season: Bruegel Hunters in the Snow; Monet The Magpie; Millais Autumn Leaves —
 Photography gallery: existing credited m/hs-sumela.jpg (Tørrissen CC BY-SA 3.0); m/ev-trabzon-night.jpg (Aleksasfi PD); m/so-kackar.jpg (Tohnjitor CC BY-SA 4.0); m/cliff-monastery.jpg (see prior CREDITS).
 Guest welcome lettering: generated parchment art for demo (hayal ürünü kaligrafi · imagined lettering).
 Mat study: solid mat colours generated for hardware demo.
+
+--- Hourly sets / rev 55 (9 Nov 2026) — real photos from Wikimedia Commons ---
+m/h9-earthrise.jpg — NASA-Apollo8-Dec24-Earthrise.jpg — NASA/Bill Anders — Public domain — https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg
+m/h9-paleblue.jpg — Pale Blue Dot from Voyager 1 - PIA23645.png — NASA/JPL-Caltech — Public domain — https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot_from_Voyager_1_-_PIA23645.png
+m/h9-pillars.jpg — Pillars of creation 2014 HST WFC3-UVIS full-res denoised.jpg — NASA, ESA, and the Hubble Heritage Team (STScI/AURA) — Public domain — https://commons.wikimedia.org/wiki/File:Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg
+m/h9-udf.jpg — Hubble ultra deep field.jpg — NASA and the European Space Agency. — Public domain — https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg
+m/h9-saturn.jpg — PIA14934 - A Splendor Seldom Seen - Saturn Cassini.jpg — NASA/JPL-Caltech/Space Science Institute — Public domain — https://commons.wikimedia.org/wiki/File:PIA14934_-_A_Splendor_Seldom_Seen_-_Saturn_Cassini.jpg
+m/h9-snowflake.jpg — SnowflakesWilsonBentley.jpg — Wilson Bentley — Public domain — https://commons.wikimedia.org/wiki/File:SnowflakesWilsonBentley.jpg
+m/h9-sera.jpg — Sera Gölü Akçaabat Trabzon.jpg — Hamdigumus — CC0 — https://commons.wikimedia.org/wiki/File:Sera_G%C3%B6l%C3%BC_Ak%C3%A7aabat_Trabzon.jpg
+m/h9-ataturk.jpg — Atatürk Köşkü Trabzon.jpg — Yazar Haber — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC_Trabzon.jpg
+m/h9-giresun.jpg — Giresun Adasi (Amazon Island) Giresun Turkey.jpg — Dr. Zeynel Cebeci — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Giresun_Adasi_(Amazon_Island)_Giresun_Turkey.jpg
+m/h9-amasra.jpg — Amasra Körfez görünümü.jpg — Kesim00 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Amasra_K%C3%B6rfez_g%C3%B6r%C3%BCn%C3%BCm%C3%BC.jpg
+m/h9-murmur.jpg — Murmuration 11-2025.jpg — Skander zarrad — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Murmuration_11-2025.jpg
+m/h9-cal.jpg — Çal Mağarası1.jpg — Varvara Kless-Kaminskaia — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%C3%87al_Ma%C4%9Faras%C4%B11.jpg
+m/h9-zigana.jpg — Zigana 2014-1.jpg — Hamdigumus — CC0 — https://commons.wikimedia.org/wiki/File:Zigana_2014-1.jpg
+m/h9-hamsilos.jpg — Hamsilos fiyordu.jpg — Erturkercin — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Hamsilos_fiyordu.jpg
+m/h9-dew.jpg — Dew drops on Spider web.jpg — Rajshekhar.Baghel — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dew_drops_on_Spider_web.jpg
+m/h9-walls1890.jpg — Walls of Trebizond 2.jpg — Dmitri Ivanovich Ermakov (1846 - 1916) — Public domain — https://commons.wikimedia.org/wiki/File:Walls_of_Trebizond_2.jpg
+m/h9-bsswirl.jpg — Turquoise Swirls in the Black Sea.jpg — Norman Kuring / NASA — Public domain — https://commons.wikimedia.org/wiki/File:Turquoise_Swirls_in_the_Black_Sea.jpg
+m/h9-mevlana.jpg — Mevlana Müzesi 01.jpg — Bernard Gagnon — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Mevlana_M%C3%BCzesi_01.jpg
+m/h9-istnight.jpg — IstanbulAtNight.jpg — Image Science and Analysis Laboratory, NASA-Johnson Space Center. "The Gateway t — Public domain — https://commons.wikimedia.org/wiki/File:IstanbulAtNight.jpg
+m/h9-causeway.jpg — Giant's Causeway (14).JPG — Chmee2 — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Giant%27s_Causeway_(14).JPG
+m/h9-lightning.jpg — Lightning storm over ocean at night.jpg — bigwavephoto — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lightning_storm_over_ocean_at_night.jpg
+m/h9-idea-{cinema,oven,herbs,hammock,bikes,firering}.jpg — AI-generated concept images for Sadece Sen (hayal ürünü · imagined)
+f/GreatVibes.ttf, f/Dancing.ttf — Google Fonts, SIL Open Font License
