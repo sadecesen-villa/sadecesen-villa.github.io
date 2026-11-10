@@ -4,6 +4,124 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-10 (rev 56, hourly sets 09:00–02:00, days/2026-11-10.json)
+
+New hz functions in hourly.js v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora hzcheck hzdrift. Also fixed hzquote/hzfact vertical centring (3-line quotes no longer overlap the English line).
+
+### 09:00–10:00 · Günaydın Karadeniz · Good Morning, Black Sea
+- 09 | hzphoto | Ayder Yaylası, Çamlıhemşin — sisin içinde ahşap evler | m/h10-ayder.jpg
+- 09 | hzquote | Her gün bir yerden göçmek ne iyi; her gün bir yere konmak ne güzel | —
+- 09 | hzsteps | Dünya’nın 4,5 milyar yılını tek bir güne sığdır… | —
+- 09 | hzriddle | Sabah dört ayakla, öğlen iki ayakla, akşam üç ayakla yürüyen nedir? | —
+- 09 | hzphoto | Kekik çiçeğinde bir bal arısı | m/h10-bee.jpg
+- 09 | hzphoto | Kaymaklı Manastırı — şehrin içinde saklı tarihî bir manastır | m/h10-kaymakli.jpg
+
+### 10:00–11:00 · Işık ve Renk · Light & Colour
+- 10 | hzphoto | Çift gökkuşağı — ikincisinde renkler ters sırada | m/h10-rainbow.jpg
+- 10 | hzsteps | Gökyüzü öğlen mavi, akşam neden kızıl? | —
+- 10 | hzphoto | Bu mavi bir boya değil | m/h10-morpho.jpg
+- 10 | hzquote | Bu dünya bir dağdır; yaptıklarımız ses gibi yine bize döner | —
+- 10 | hzphoto | Sis yayı: beyaz bir gökkuşağı | m/h10-fogbow.jpg
+- 10 | hzriddle | Hangi ayda 28 gün vardır? | —
+
+### 11:00–12:00 · Zihin Modelleri · Mental Models
+- 11 | hzsteps | Hayatta Kalan Yanılgısı | —
+- 11 | hzquote | Akıllı düşman, cahil dosttan iyidir | —
+- 11 | hzsteps | Monty Hall: 3 kapı, birinin arkasında araba | —
+- 11 | hzphoto | Antikythera düzeneği: yaklaşık 2.000 yıllık bir “bilgisayar” | m/h10-antiky.jpg
+- 11 | hzsteps | Sabah bahçedeki çimler ıslak. Neden? | —
+- 11 | hzriddle | Bir salyangoz 10 metrelik kuyunun dibinde. Gündüz 3 m tırmanıyor, gece 2 m kayıyor. Kaçıncı gün kuyudan çıkar? | —
+- 11 | hzphoto | Karaca Mağarası — Trabzon–Gümüşhane yolunda | m/h10-karaca.jpg
+
+### 12:00–13:00 · Karadeniz Yolları · Black Sea Roads
+- 12 | hzphoto | Yason Burnu, Perşembe — denize uzanan kayalık burun | m/h10-yason.jpg
+- 12 | hzfact | Dünyadaki fındığın yarısından fazlası Türkiye’de yetişir — çoğu da Karadeniz’de | —
+- 12 | hzphoto | Fırtına Deresi üzerinde taş kemer köprü, Çamlıhemşin | m/h10-kemer.jpg
+- 12 | hzriddle | Aç karnına kaç tane yumurta yiyebilirsin? | —
+- 12 | hzphoto | Tonya — tereyağıyla ünlü, bulutların arasındaki dağ ilçesi | m/h10-tonya.jpg
+- 12 | hzphoto | Rize’nin çay bahçeleri — yamaçlarda yeşil teraslar | m/h10-rizetea.jpg
+
+### 13:00–14:00 · Sonsuz Desenler · Endless Patterns
+- 13 | hzphoto | Kendini tekrar eden bir sebze | m/h10-romanesco.jpg
+- 13 | hzkoch | NEW Koch snowflake (perimeter ∞, area 1.6×) | —
+- 13 | hzphoto | Mandelbrot kümesi: kısa bir formülden sonsuz detay | m/h10-mandel.jpg
+- 13 | hzsteps | Karadeniz kıyısı kaç kilometre? | —
+- 13 | hzriddle | Dişleri var ama hiç ısırmaz. Nedir? | —
+
+### 14:00–15:00 · Butik Otel Fikirleri · Boutique Hotel Ideas
+- 14 | hzphoto | Konik taş çatılı evler — Alberobello, İtalya | m/h10-trulli.jpg
+- 14 | hzsteps | Cehalet Peçesi: villa kurallarını sen yazıyorsun… | —
+- 14 | hzphoto | Mor salkım pergolası | m/h10-wisteria.jpg
+- 14 | hzfact | Misafirler bir tatili en güzel anı ve son anıyla hatırlar | —
+- 14 | hzphoto | Lavanta sıraları | m/h10-lavender.jpg
+- 14 | hzphoto | Ufka karışan havuz | m/h10-infinity.jpg
+
+### 15:00–16:00 · Hayvan Dâhileri · Animal Geniuses
+- 15 | hzphoto | Kutup deniz kırlangıcı | m/h10-tern.jpg
+- 15 | hzlangton | NEW Langton’s ant (chaos → highway) | —
+- 15 | hzphoto | Kral kelebeği, çarkıfelek çiçeğinde | m/h10-monarch.jpg
+- 15 | hzriddle | Bir çiftlikte 15 koyun var. 9 tanesi hariç hepsi kaçtı. Kaç koyun kaldı? | —
+- 15 | hzphoto | Su ayısı (tardigrad): yarım milimetrelik bir hayatta kalma ustası | m/h10-tardigrade.jpg
+- 15 | hzfact | Köpekbalıkları ağaçlardan daha eskidir | —
+
+### 16:00–17:00 · Göz Oyunları · Eye Tricks
+- 16 | hzcheck | NEW Adelson checker-shadow illusion | —
+- 16 | hzphoto | Kar baykuşu, kumulların arasında | m/h10-owl.jpg
+- 16 | hzriddle | Kapalı bir odada 1 lamba, dışarıda 3 düğme var. Odaya yalnızca bir kez girebilirsin. Lambayı hangi düğme yakıyor? | —
+- 16 | hzdrift | NEW peripheral drift (Kitaoka-style) wheels illusion | —
+- 16 | hzfact | Gözünün arkasına düşen görüntü baş aşağıdır — beynin onu çevirir | —
+- 16 | hzphoto | Kümbet Yaylası — yeşil çayırlar ve dağ havası | m/h10-kumbet.jpg
+
+### 17:00–18:00 · Zaman ve Sabır · Time & Patience
+- 17 | hzsteps | Aşil ile Kaplumbağa | —
+- 17 | hzphoto | Vazelon Manastırı — ormanda kayaya yaslanmış | m/h10-vazelon.jpg
+- 17 | hzquote | Sabır, ferahlığın anahtarıdır | —
+- 17 | hzmaze | NEW maze carve (DFS) + BFS shortest path | —
+- 17 | hzriddle | Hep önünde durur ama onu asla göremezsin. Nedir? | —
+- 17 | hzphoto | Yağmur damlası tutmuş çay yaprakları | m/h10-teadrop.jpg
+
+### 18:00–19:00 · Akşam Oyunları · Evening Games
+- 18 | hzchaos | NEW chaos game → Sierpiński triangle | —
+- 18 | hzsteps | Mahkûm İkilemi | —
+- 18 | hzphoto | Büyük Set Resifi’nde bir mercan kümesi | m/h10-reef.jpg
+- 18 | hzriddle | Şehirlerim var ama evim yok, ormanlarım var ama ağacım yok, denizlerim var ama suyum yok. Ben neyim? | —
+- 18 | hzfact | Kleopatra, Büyük Piramit’e göre Ay’a ayak basılmasına daha yakın bir zamanda yaşadı | —
+
+### 19:00–20:00 · Derinlere · Into the Deep
+- 19 | hzsteps | Denizin dibine doğru dalıyoruz… | —
+- 19 | hzfact | Karadeniz’in sularının yaklaşık %90’ı oksijensizdir | —
+- 19 | hzriddle | Bir geminin merdiveni suya sarkıyor. Su her saat 10 cm yükseliyor. 3 saat sonra kaç basamak daha su altında? | —
+- 19 | hzphoto | El ele uyuyan su samurları | m/h10-otters.jpg
+- 19 | hzpwave | NEW pendulum wave (15 pendulums, 60 s realign) | —
+
+### 20:00–21:00 · Gökyüzü · The Sky
+- 20 | hzphoto | Jüpiter ve Büyük Kırmızı Leke | m/h10-jupiter.jpg
+- 20 | hzfact | Venüs’te bir gün, bir yıldan uzundur | —
+- 20 | hzsteps | Evren bu kadar büyükse… herkes nerede? | —
+- 20 | hzphoto | Andromeda Galaksisi — çıplak gözle görülebilen en uzak şeylerden biri | m/h10-andromeda.jpg
+- 20 | hzriddle | Ne kadar çok olursa, o kadar az görürsün. Nedir? | —
+
+### 21:00–22:00 · Sessiz Merak · Quiet Wonder
+- 21 | hzquote | Dinle, bu ney nasıl şikâyet ediyor; ayrılıkları nasıl anlatıyor | —
+- 21 | hzsteps | Mary’nin Odası | —
+- 21 | hzphoto | Karagöl, Şavşat — ladin ormanının aynası | m/h10-karagol.jpg
+- 21 | hzriddle | Ona hiç dokunmadan kırabileceğin şey nedir? | —
+- 21 | hzfact | Oxford Üniversitesi, Aztek başkenti Tenochtitlan’dan daha eskidir | —
+
+### 22:00–23:00 · Uykudan Önce · Before Sleep
+- 22 | hzquote | Sevgiyle acılar tatlılaşır | —
+- 22 | hzsteps | Gece gökyüzünde gördüğün ışık ne kadar yaşlı? | —
+- 22 | hzphoto | Pokut Yaylası’nda ay ışığında çadırlar | m/h10-pokut.jpg
+- 22 | hzfact | Sen uyurken beynin günün anılarını düzenler ve kaydeder | —
+- 22 | hzriddle | Gece gelir, gündüz kaybolur; saymakla bitmez. Nedir? | —
+
+### 23:00–02:00 · Gece Işıkları · Night Lights (sakin · calm)
+- 23 | hzaurora | NEW Northern lights illustration (calm night) | —
+- 23 | hzphoto | Gece dalgalarında mavi ışık | m/h10-dino.jpg
+- 23 | hzfact | Ay her yıl Dünya’dan yaklaşık 3,8 cm uzaklaşıyor | —
+- 23 | hzsteps | Gözlerini kapatmadan önce düşün… | —
+- 23 | hzfact | Koalalar günde 20 saate kadar uyuyabilir | —
+
 ## 2026-11-09 (rev 55, hourly sets, days/2026-11-09.json)
 
 ### 14:00–16:00 · Merak · Curiosity

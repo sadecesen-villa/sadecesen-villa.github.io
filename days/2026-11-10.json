@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "rev": 55,
+ "rev": 56,
  "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-10.py. Content log: used-content.md",
  "sets": [
   {
@@ -350,6 +350,979 @@
      "cr": "Foto · Photo: En Merker · CC0 · Wikimedia Commons",
      "fact": "Sarkıtların çoğu zaman yılda bir milimetreden bile az büyüdüğü söylenir",
      "facte": "Stalactites are said to often grow less than a millimetre a year"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-12",
+   "name": "Karadeniz Yolları · Black Sea Roads",
+   "from": "2026-11-10T12:00",
+   "until": "2026-11-10T13:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-yason.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ordu",
+     "tr": "Yason Burnu, Perşembe — denize uzanan kayalık burun",
+     "en": "Cape Yason, Perşembe — a rocky cape reaching into the sea",
+     "cr": "Foto · Photo: Zeynel Cebeci · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Burunda 19. yüzyıldan kalma küçük bir taş kilise bulunur",
+     "facte": "A small 19th-century stone church stands on the cape"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "½+",
+     "tr": "Dünyadaki fındığın yarısından fazlası Türkiye’de yetişir — çoğu da Karadeniz’de",
+     "en": "More than half of the world’s hazelnuts grow in Turkey — most of them along the Black Sea",
+     "src": "Ordu, Giresun ve Trabzon yamaçları · The slopes of Ordu, Giresun and Trabzon",
+     "c1": "#2a2416",
+     "c2": "#060503"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-kemer.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rize",
+     "tr": "Fırtına Deresi üzerinde taş kemer köprü, Çamlıhemşin",
+     "en": "A stone arch bridge over the Fırtına stream, Çamlıhemşin",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "fact": "Vadide bunun gibi pek çok tarihî taş köprü olduğu anlatılır",
+     "facte": "The valley is said to hold many historic stone bridges like this"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Aç karnına<br>kaç tane yumurta yiyebilirsin?",
+     "qe": "How many eggs can you eat on an empty stomach?",
+     "a": "Sadece bir tane!",
+     "ae": "Just one — after that your stomach isn’t empty any more.",
+     "sec": 16,
+     "c1": "#2b2a1a",
+     "c2": "#070704"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-tonya.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon",
+     "tr": "Tonya — tereyağıyla ünlü, bulutların arasındaki dağ ilçesi",
+     "en": "Tonya — a mountain town in the clouds, famous for its butter",
+     "cr": "Foto · Photo: Chidgk1 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Sahilden kısa bir yolculukla denizden bulutların arasına çıkılır",
+     "facte": "A short drive from the coast takes you from the sea up into the clouds"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-rizetea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rize",
+     "tr": "Rize’nin çay bahçeleri — yamaçlarda yeşil teraslar",
+     "en": "Rize’s tea gardens — green terraces on the slopes",
+     "cr": "Foto · Photo: Wikimol · CC BY-SA 2.5 · Wikimedia Commons",
+     "fact": "Kişi başına çay tüketiminde Türkiye dünyanın en önlerinde",
+     "facte": "Turkey is among the world’s top tea drinkers per person"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-13",
+   "name": "Sonsuz Desenler · Endless Patterns",
+   "from": "2026-11-10T13:00",
+   "until": "2026-11-10T14:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-romanesco.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Romanesko · Romanesco",
+     "tr": "Kendini tekrar eden bir sebze",
+     "en": "A vegetable that repeats itself",
+     "cr": "Foto · Photo: Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Her tomurcuk, bütünün küçük bir kopyası — doğal bir fraktal",
+     "facte": "Every bud is a small copy of the whole — a natural fractal"
+    },
+    {
+     "k": "hzkoch",
+     "d": 50
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-mandel.jpg",
+     "lb": "Matematik Görseli · Maths Image — bilgisayar çizimi · computer rendering",
+     "tr": "Mandelbrot kümesi: kısa bir formülden sonsuz detay",
+     "en": "The Mandelbrot set: endless detail from one short formula",
+     "cr": "Foto · Photo: Wolfgang Beyer · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "z → z² + c — ne kadar yakınlaşırsan yakınlaş, yeni desenler çıkar",
+     "facte": "z → z² + c — however far you zoom, new patterns appear",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Karadeniz kıyısı kaç kilometre?",
+     "e": "How long is the Black Sea coastline?",
+     "c1": "#0f2c3a",
+     "c2": "#03080b",
+     "gap": 5.5,
+     "steps": [
+      [
+       "100 km’lik bir cetvelle ölç",
+       "Measure with a 100 km ruler",
+       "kısa"
+      ],
+      [
+       "10 km’lik cetvelle ölç",
+       "Use a 10 km ruler",
+       "daha uzun"
+      ],
+      [
+       "1 metrelik cetvelle ölç",
+       "Use a 1 metre ruler",
+       "çok daha uzun"
+      ],
+      [
+       "Her koyu, her kayayı saydıkça…",
+       "Count every cove and rock…",
+       "↑"
+      ]
+     ],
+     "fin": "Kıyı Şeridi Paradoksu: cetvel küçüldükçe kıyı uzar (Mandelbrot, 1967)",
+     "fine": "The Coastline Paradox: the smaller the ruler, the longer the coast (Mandelbrot, 1967)"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Dişleri var<br>ama hiç ısırmaz.<br>Nedir?",
+     "qe": "It has teeth but never bites. What is it?",
+     "a": "Tarak!",
+     "ae": "A comb.",
+     "sec": 15,
+     "c1": "#1f2a33",
+     "c2": "#050709"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-14",
+   "name": "Butik Otel Fikirleri · Boutique Hotel Ideas",
+   "from": "2026-11-10T14:00",
+   "until": "2026-11-10T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-trulli.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo)",
+     "tr": "Konik taş çatılı evler — Alberobello, İtalya",
+     "en": "Cone-roofed stone houses — Alberobello, Italy",
+     "cr": "Foto · Photo: Livioandronico2013 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Fikir: bahçede bal rengi taştan, kubbeli küçük bir okuma kulübesi",
+     "facte": "Idea: a small domed reading hut in the garden, built of honey-coloured stone"
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Düşünce Deneyi · Thought Experiment — Villa",
+     "q": "Cehalet Peçesi: villa kurallarını sen yazıyorsun…",
+     "e": "The Veil of Ignorance: you write the villa’s house rules…",
+     "c1": "#2a2a24",
+     "c2": "#070706",
+     "gap": 5.5,
+     "steps": [
+      [
+       "…ama hangi misafir olacağını bilmiyorsun",
+       "…but you don’t know which guest you’ll be",
+       ""
+      ],
+      [
+       "Erken kalkan mı, geç yatan mı?",
+       "The early riser or the night owl?",
+       "?"
+      ],
+      [
+       "Çocuklu bir aile mi, balayı çifti mi?",
+       "A family with kids or honeymooners?",
+       "?"
+      ],
+      [
+       "Herkese adil kurallar yazarsın",
+       "You end up writing rules fair to all",
+       "✓"
+      ]
+     ],
+     "fin": "John Rawls (1971): kim olacağını bilmeden tasarla — adil olur",
+     "fine": "John Rawls (1971): design without knowing who you’ll be — and it turns out fair"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-wisteria.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo)",
+     "tr": "Mor salkım pergolası",
+     "en": "A wisteria pergola",
+     "cr": "Foto · Photo: そらみみ · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Fikir: taş terasın üstünde mor salkım — birkaç yılda doğal bir gölgelik olur",
+     "facte": "Idea: wisteria over the stone terrace — in a few years it becomes a natural canopy"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "lb": "Misafir Psikolojisi · Guest Psychology",
+     "big": "Zirve + Son",
+     "tr": "Misafirler bir tatili en güzel anı ve son anıyla hatırlar",
+     "en": "Guests remember a stay by its best moment and its final moment",
+     "src": "Kahneman’ın Zirve-Son Kuralı · Fikir: ayrılırken ev yapımı reçel ve el yazısı bir not · Idea: homemade jam and a handwritten note at departure",
+     "c1": "#22302a",
+     "c2": "#050806"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-lavender.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo)",
+     "tr": "Lavanta sıraları",
+     "en": "Rows of lavender",
+     "cr": "Foto · Photo: John Samuel · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Fikir: güneşli, süzek toprağı olan bir yamaçta lavanta — misafir kapıya kokuyla gelir",
+     "facte": "Idea: lavender on a sunny, well-drained slope — guests arrive at the door through its scent"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-infinity.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo)",
+     "tr": "Ufka karışan havuz",
+     "en": "A pool that melts into the horizon",
+     "cr": "Foto · Photo: E C eunicwonders · CC0 · Wikimedia Commons",
+     "fact": "Fikir: deniz manzarasına bakan sonsuzluk kenarlı bir havuz — su ile deniz tek çizgi olur",
+     "facte": "Idea: an infinity-edge pool facing the sea — water and sea become one line",
+     "cp": "top"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-15",
+   "name": "Hayvan Dâhileri · Animal Geniuses",
+   "from": "2026-11-10T15:00",
+   "until": "2026-11-10T16:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-tern.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İzlanda · Iceland",
+     "tr": "Kutup deniz kırlangıcı",
+     "en": "The Arctic tern",
+     "cr": "Foto · Photo: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Her yıl Kuzey Kutbu’ndan Antarktika’ya gidip gelir; ömrü boyunca Ay’a üç kez gidip gelecek kadar uçtuğu hesaplanmış",
+     "facte": "It flies from the Arctic to the Antarctic and back every year — over a lifetime, about three round trips to the Moon, researchers estimate"
+    },
+    {
+     "k": "hzlangton",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-monarch.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kral kelebeği · Monarch",
+     "tr": "Kral kelebeği, çarkıfelek çiçeğinde",
+     "en": "A monarch butterfly on a passionflower",
+     "cr": "Foto · Photo: Thomas Bresson · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Kuzey Amerika’dan Meksika’ya binlerce km göç eder; yolculuğu birkaç kuşak birlikte tamamlar",
+     "facte": "It migrates thousands of km from North America to Mexico — a journey completed over several generations"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir çiftlikte 15 koyun var.<br>9 tanesi hariç hepsi kaçtı.<br>Kaç koyun kaldı?",
+     "qe": "A farmer has 15 sheep. All but 9 run away. How many are left?",
+     "a": "9 koyun!",
+     "ae": "Nine — “all but 9” ran away.",
+     "sec": 16,
+     "hint": "Çıkarma yapma… · Don’t subtract…",
+     "c1": "#22301c",
+     "c2": "#060805"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-tardigrade.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mikroskop · Microscope",
+     "tr": "Su ayısı (tardigrad): yarım milimetrelik bir hayatta kalma ustası",
+     "en": "The water bear (tardigrade): a half-millimetre survival master",
+     "cr": "Foto · Photo: Vader1941 · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Kuruyup yıllarca bekleyebilir, suyla yeniden canlanır; 2007’de uzay boşluğunda bile hayatta kaldı",
+     "facte": "It can dry out for years and revive with water — in 2007 it even survived open space",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "450 › 385",
+     "tr": "Köpekbalıkları ağaçlardan daha eskidir",
+     "en": "Sharks are older than trees",
+     "src": "İlk köpekbalıkları ~450 milyon, ilk ağaçlar ~385 milyon yıl önce · First sharks ~450 million years ago, first trees ~385 million",
+     "c1": "#0f2a36",
+     "c2": "#02070a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-16",
+   "name": "Göz Oyunları · Eye Tricks",
+   "from": "2026-11-10T16:00",
+   "until": "2026-11-10T17:00",
+   "items": [
+    {
+     "k": "hzcheck",
+     "d": 40
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-owl.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kar baykuşu · Snowy owl",
+     "tr": "Kar baykuşu, kumulların arasında",
+     "en": "A snowy owl among the dunes",
+     "cr": "Foto · Photo: Rhododendrites · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Baykuşlar gözlerini oynatamaz — bunun yerine başlarını 270° kadar çevirebilir",
+     "facte": "Owls can’t move their eyes — instead they can turn their heads up to about 270°"
+    },
+    {
+     "k": "hzriddle",
+     "d": 42,
+     "q": "Kapalı bir odada 1 lamba, dışarıda 3 düğme var.<br>Odaya yalnızca bir kez girebilirsin.<br>Lambayı hangi düğme yakıyor?",
+     "qe": "A closed room has one bulb; outside are 3 switches. You may enter only once. Which switch lights the bulb?",
+     "a": "1’i 5 dk aç, kapat; 2’yi aç, gir.",
+     "ae": "Yanıyorsa 2 · sıcaksa 1 · soğuksa 3 — Lit: 2 · warm: 1 · cold: 3",
+     "sec": 24,
+     "hint": "İpucu: ampul ısınır · Hint: bulbs get warm",
+     "c1": "#2e2a1e",
+     "c2": "#070605"
+    },
+    {
+     "k": "hzdrift",
+     "d": 40
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "↕",
+     "tr": "Gözünün arkasına düşen görüntü baş aşağıdır — beynin onu çevirir",
+     "en": "The image on the back of your eye is upside down — your brain flips it",
+     "src": "Merceği olan her göz böyle çalışır · Every eye with a lens works this way",
+     "c1": "#1c2236",
+     "c2": "#04050a"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-kumbet.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Giresun",
+     "tr": "Kümbet Yaylası — yeşil çayırlar ve dağ havası",
+     "en": "Kümbet plateau — green meadows and mountain air",
+     "cr": "Foto · Photo: Zeynel Cebeci · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaz aylarında yayla şenlikleriyle bilinir",
+     "facte": "Known for its summer highland festivals"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-17",
+   "name": "Zaman ve Sabır · Time & Patience",
+   "from": "2026-11-10T17:00",
+   "until": "2026-11-10T18:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Aşil ile Kaplumbağa",
+     "e": "Achilles and the Tortoise",
+     "c1": "#2c2418",
+     "c2": "#070504",
+     "gap": 5.5,
+     "steps": [
+      [
+       "Aşil kaplumbağaya 100 m avans veriyor",
+       "Achilles gives the tortoise a 100 m head start",
+       ""
+      ],
+      [
+       "Aşil 100 m koşunca kaplumbağa 10 m ilerlemiş",
+       "When he runs 100 m, it has gone 10 m",
+       ""
+      ],
+      [
+       "10 m koşunca kaplumbağa 1 m önde",
+       "He runs 10 m — it is 1 m ahead",
+       ""
+      ],
+      [
+       "Sonsuz adım… hiç yakalayamaz mı?",
+       "Infinite steps… can he never catch up?",
+       "?"
+      ],
+      [
+       "100 + 10 + 1 + 0,1 + …",
+       "100 + 10 + 1 + 0.1 + …",
+       "= 111,1… m"
+      ]
+     ],
+     "fin": "Zenon (MÖ 5. yy): sonsuz sayıda adım, sonlu bir mesafeye sığabilir",
+     "fine": "Zeno (5th c. BC): infinitely many steps can fit into a finite distance"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-vazelon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Maçka, Trabzon",
+     "tr": "Vazelon Manastırı — ormanda kayaya yaslanmış",
+     "en": "Vazelon Monastery — leaning against a cliff in the forest",
+     "cr": "Foto · Photo: Ingo Leonard · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Rivayete göre kökleri MS 3. yüzyıla kadar uzanır",
+     "facte": "Legend says its roots go back to the 3rd century AD"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Sabır,|ferahlığın anahtarıdır",
+     "en": "Patience is the key to relief",
+     "pal": "sea"
+    },
+    {
+     "k": "hzmaze",
+     "d": 58
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hep önünde durur<br>ama onu asla göremezsin.<br>Nedir?",
+     "qe": "It is always in front of you, but you can never see it. What is it?",
+     "a": "Gelecek!",
+     "ae": "The future.",
+     "sec": 16,
+     "c1": "#1d2836",
+     "c2": "#05070a"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-teadrop.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rize",
+     "tr": "Yağmur damlası tutmuş çay yaprakları",
+     "en": "Tea leaves holding raindrops",
+     "cr": "Foto · Photo: Sametdelal · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Çay bitkisinin iyi bakılırsa onlarca yıl verim verdiği anlatılır",
+     "facte": "A well-tended tea bush is said to keep giving leaves for decades",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-18",
+   "name": "Akşam Oyunları · Evening Games",
+   "from": "2026-11-10T18:00",
+   "until": "2026-11-10T19:00",
+   "items": [
+    {
+     "k": "hzchaos",
+     "d": 55
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Akıllı Düşünce · Clever Thinking",
+     "q": "Mahkûm İkilemi",
+     "e": "The Prisoner’s Dilemma",
+     "c1": "#2a1e24",
+     "c2": "#070506",
+     "gap": 5.5,
+     "steps": [
+      [
+       "İki şüpheli, ayrı odalarda sorgulanıyor",
+       "Two suspects, questioned in separate rooms",
+       ""
+      ],
+      [
+       "İkisi de susarsa",
+       "Both stay silent",
+       "1’er yıl"
+      ],
+      [
+       "Biri öter, diğeri susarsa",
+       "One talks, one stays silent",
+       "0 / 10 yıl"
+      ],
+      [
+       "İkisi de öterse",
+       "Both talk",
+       "5’er yıl"
+      ],
+      [
+       "Bencil “mantık”: ikisi de öter",
+       "Selfish “logic”: both talk",
+       "5 + 5"
+      ]
+     ],
+     "fin": "Birbirine güvenen ikisi kazanırdı — oyun teorisi, 1950",
+     "fine": "If they had trusted each other, both would have won — game theory, 1950"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-reef.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Avustralya · Australia",
+     "tr": "Büyük Set Resifi’nde bir mercan kümesi",
+     "en": "A coral outcrop on the Great Barrier Reef",
+     "cr": "Foto · Photo: Toby Hudson · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Uzaydan görülebilen en büyük canlı yapı olarak anılır",
+     "facte": "It is described as the largest living structure visible from space"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Şehirlerim var ama evim yok,<br>ormanlarım var ama ağacım yok,<br>denizlerim var ama suyum yok.<br>Ben neyim?",
+     "qe": "I have cities but no houses, forests but no trees, seas but no water. What am I?",
+     "a": "Harita!",
+     "ae": "A map.",
+     "sec": 18,
+     "c1": "#1a2c30",
+     "c2": "#040809"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "2.500 › 2.000",
+     "tr": "Kleopatra, Büyük Piramit’e göre Ay’a ayak basılmasına daha yakın bir zamanda yaşadı",
+     "en": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid",
+     "src": "Piramitten ~2.500 yıl sonra, Ay’a inişten ~2.000 yıl önce · ~2,500 years after the pyramid, ~2,000 years before the Moon landing",
+     "c1": "#2c2618",
+     "c2": "#070604"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-19",
+   "name": "Derinlere · Into the Deep",
+   "from": "2026-11-10T19:00",
+   "until": "2026-11-10T20:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "Denizin dibine doğru dalıyoruz…",
+     "e": "Diving down towards the sea floor…",
+     "c1": "#0a2a3a",
+     "c2": "#010509",
+     "gap": 5,
+     "steps": [
+      [
+       "Kırmızı renk ilk kaybolur",
+       "Red is the first colour to vanish",
+       "10 m"
+      ],
+      [
+       "Güneş ışığı burada biter",
+       "Sunlight ends here",
+       "200 m"
+      ],
+      [
+       "Zifiri karanlık; ışığını kendi yapan canlılar",
+       "Pitch dark; creatures make their own light",
+       "1.000 m"
+      ],
+      [
+       "Karadeniz’in en derin yeri",
+       "The deepest point of the Black Sea",
+       "≈2.200 m"
+      ],
+      [
+       "Titanik’in enkazı",
+       "The wreck of the Titanic",
+       "≈3.800 m"
+      ],
+      [
+       "Mariana Çukuru — Challenger Derinliği",
+       "The Mariana Trench — Challenger Deep",
+       "≈10.900 m"
+      ]
+     ],
+     "fin": "Everest’i oraya koysan, zirvesi 2 km’den fazla su altında kalırdı",
+     "fine": "Put Everest there and its summit would still be over 2 km under water"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "%90",
+     "tr": "Karadeniz’in sularının yaklaşık %90’ı oksijensizdir",
+     "en": "About 90% of the Black Sea’s water has no oxygen",
+     "src": "Bu yüzden derinlerdeki eski batıklar şaşırtıcı derecede sağlam kalır · That’s why ancient shipwrecks in its depths stay remarkably intact",
+     "c1": "#0b2430",
+     "c2": "#020609"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir geminin merdiveni suya sarkıyor.<br>Su her saat 10 cm yükseliyor.<br>3 saat sonra kaç basamak daha su altında?",
+     "qe": "A ship’s ladder hangs into the sea. The water rises 10 cm an hour. After 3 hours, how many more rungs are under water?",
+     "a": "Hiçbiri!",
+     "ae": "None — the ship rises with the water.",
+     "sec": 20,
+     "hint": "Gemi ne yapıyor? · What does the ship do?",
+     "c1": "#12283a",
+     "c2": "#03060a"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-otters.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Su samurları · Sea otters",
+     "tr": "El ele uyuyan su samurları",
+     "en": "Sea otters sleeping hand in hand",
+     "cr": "Foto · Photo: Joe Robertson · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Uyurken akıntıya kapılmamak için birbirlerine tutundukları anlatılır",
+     "facte": "They are said to hold on to each other so they don’t drift apart while sleeping"
+    },
+    {
+     "k": "hzpwave",
+     "d": 62
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-20",
+   "name": "Gökyüzü · The Sky",
+   "from": "2026-11-10T20:00",
+   "until": "2026-11-10T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-jupiter.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hubble, 2014",
+     "tr": "Jüpiter ve Büyük Kırmızı Leke",
+     "en": "Jupiter and its Great Red Spot",
+     "cr": "Foto · Photo: NASA, ESA, A. Simon · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Leke, Dünya’dan büyük bir fırtına; yüzyıllardır esiyor ama küçülüyor",
+     "facte": "The spot is a storm bigger than Earth — raging for centuries, but shrinking",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "243 › 225",
+     "tr": "Venüs’te bir gün, bir yıldan uzundur",
+     "en": "On Venus, a day is longer than a year",
+     "src": "Kendi çevresinde 243, Güneş çevresinde 225 Dünya gününde döner · It spins once in 243 Earth days but orbits the Sun in 225",
+     "c1": "#2c2016",
+     "c2": "#070504"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Evren bu kadar büyükse… herkes nerede?",
+     "e": "If the universe is so big… where is everybody?",
+     "bg": "stars",
+     "c1": "#0c1426",
+     "c2": "#020308",
+     "gap": 5.5,
+     "steps": [
+      [
+       "Samanyolu’nda yüz milyarlarca yıldız",
+       "Hundreds of billions of stars in the Milky Way",
+       ""
+      ],
+      [
+       "Çoğunun çevresinde gezegen var",
+       "Most of them have planets",
+       ""
+      ],
+      [
+       "Bazıları milyarlarca yıl önce oluştu",
+       "Some formed billions of years ago",
+       ""
+      ],
+      [
+       "Yine de kimseden tek bir sinyal yok",
+       "Yet not a single signal from anyone",
+       "?"
+      ]
+     ],
+     "fin": "Enrico Fermi, 1950: “Herkes nerede?” — Fermi Paradoksu",
+     "fine": "Enrico Fermi, 1950: “Where is everybody?” — the Fermi Paradox"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-andromeda.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Andromeda · M31",
+     "tr": "Andromeda Galaksisi — çıplak gözle görülebilen en uzak şeylerden biri",
+     "en": "The Andromeda Galaxy — one of the most distant things visible to the naked eye",
+     "cr": "Foto · Photo: Lviatour · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Samanyolu ile yaklaşık 4,5 milyar yıl sonra birleşmesi bekleniyor",
+     "facte": "It is expected to merge with the Milky Way in about 4.5 billion years",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ne kadar çok olursa,<br>o kadar az görürsün.<br>Nedir?",
+     "qe": "The more of it there is, the less you see. What is it?",
+     "a": "Karanlık!",
+     "ae": "Darkness.",
+     "sec": 16,
+     "c1": "#141a2c",
+     "c2": "#030407"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-21",
+   "name": "Sessiz Merak · Quiet Wonder",
+   "from": "2026-11-10T21:00",
+   "until": "2026-11-10T22:00",
+   "items": [
+    {
+     "k": "hzquote",
+     "d": 48,
+     "tr": "Dinle, bu ney nasıl şikâyet ediyor;|ayrılıkları nasıl anlatıyor",
+     "en": "Listen to the reed, how it tells its tale, complaining of separations",
+     "pal": "night",
+     "fs": 90
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Mary’nin Odası",
+     "e": "Mary’s Room",
+     "c1": "#1c1c2a",
+     "c2": "#040408",
+     "gap": 6,
+     "steps": [
+      [
+       "Mary renkler hakkında her şeyi bilen bir bilim insanı",
+       "Mary is a scientist who knows everything about colour",
+       ""
+      ],
+      [
+       "Ama hayatı boyunca siyah-beyaz bir odada yaşadı",
+       "But she has lived all her life in a black-and-white room",
+       ""
+      ],
+      [
+       "Bir gün dışarı çıkıp ilk kez kırmızı bir gül görüyor",
+       "One day she steps out and sees a red rose for the first time",
+       ""
+      ],
+      [
+       "Yeni bir şey öğrendi mi?",
+       "Did she learn something new?",
+       "?"
+      ]
+     ],
+     "fin": "Frank Jackson, 1982: bilmek ile yaşamak aynı şey mi?",
+     "fine": "Frank Jackson, 1982: is knowing the same as experiencing?"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-karagol.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Artvin",
+     "tr": "Karagöl, Şavşat — ladin ormanının aynası",
+     "en": "Karagöl, Şavşat — a mirror for the spruce forest",
+     "cr": "Foto · Photo: BSRF · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Durgun günlerde göl, ormanı neredeyse kusursuz yansıtır",
+     "facte": "On still days the lake reflects the forest almost perfectly"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ona hiç dokunmadan<br>kırabileceğin şey nedir?",
+     "qe": "What can you break without ever touching it?",
+     "a": "Söz!",
+     "ae": "A promise.",
+     "sec": 15,
+     "c1": "#1e1a2a",
+     "c2": "#050407"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "1096 · 1325",
+     "tr": "Oxford Üniversitesi, Aztek başkenti Tenochtitlan’dan daha eskidir",
+     "en": "Oxford University is older than the Aztec capital Tenochtitlan",
+     "src": "Oxford’da eğitim 1096’ya, Tenochtitlan 1325’e uzanır · Teaching at Oxford dates to 1096; Tenochtitlan was founded in 1325",
+     "c1": "#1a2030",
+     "c2": "#040508"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-22",
+   "name": "Uykudan Önce · Before Sleep",
+   "from": "2026-11-10T22:00",
+   "until": "2026-11-10T23:00",
+   "items": [
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Sevgiyle|acılar tatlılaşır",
+     "en": "Through love, bitter things become sweet",
+     "pal": "night"
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Ölçek Yolculuğu · Scale Journey — sakin · calm",
+     "q": "Gece gökyüzünde gördüğün ışık ne kadar yaşlı?",
+     "e": "How old is the light you see in the night sky?",
+     "bg": "stars",
+     "c1": "#0a1020",
+     "c2": "#010206",
+     "gap": 6,
+     "steps": [
+      [
+       "Ay",
+       "The Moon",
+       "≈1,3 saniye"
+      ],
+      [
+       "Jüpiter",
+       "Jupiter",
+       "≈35–50 dakika"
+      ],
+      [
+       "Sirius (Akyıldız)",
+       "Sirius",
+       "≈8,6 yıl"
+      ],
+      [
+       "Vega",
+       "Vega",
+       "≈25 yıl"
+      ],
+      [
+       "Ülker yıldız kümesi",
+       "The Pleiades",
+       "≈440 yıl"
+      ]
+     ],
+     "fin": "Gökyüzüne bakmak, geçmişe bakmaktır",
+     "fine": "Looking at the sky is looking into the past"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h10-pokut.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rize",
+     "tr": "Pokut Yaylası’nda ay ışığında çadırlar",
+     "en": "Tents under moonlight on the Pokut plateau",
+     "cr": "Foto · Photo: Engin Tavlı · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Şehir ışıklarından uzakta yıldızlar çok daha parlak görünür",
+     "facte": "Far from city lights, the stars shine much brighter"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Zzz",
+     "tr": "Sen uyurken beynin günün anılarını düzenler ve kaydeder",
+     "en": "While you sleep, your brain sorts and stores the day’s memories",
+     "src": "İyi uyku, iyi hafıza demektir · Good sleep means good memory",
+     "c1": "#141a2e",
+     "c2": "#030408"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Gece gelir, gündüz kaybolur;<br>saymakla bitmez.<br>Nedir?",
+     "qe": "They come at night and vanish by day, and you can never count them all. What are they?",
+     "a": "Yıldızlar!",
+     "ae": "The stars.",
+     "sec": 16,
+     "c1": "#10162a",
+     "c2": "#020307"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-23",
+   "name": "Gece Işıkları · Night Lights (sakin · calm)",
+   "from": "2026-11-10T23:00",
+   "until": "2026-11-11T02:00",
+   "items": [
+    {
+     "k": "hzaurora",
+     "d": 70
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h10-dino.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Biyolüminesans · Bioluminescence",
+     "tr": "Gece dalgalarında mavi ışık",
+     "en": "Blue light in the night waves",
+     "cr": "Foto · Photo: catalano82 · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Dalga sarstığında milyonlarca minik plankton ışık saçar",
+     "facte": "Millions of tiny plankton glow when the waves stir them"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "3,8 cm",
+     "tr": "Ay her yıl Dünya’dan yaklaşık 3,8 cm uzaklaşıyor",
+     "en": "The Moon drifts about 3.8 cm farther from Earth every year",
+     "src": "Tırnaklarının uzama hızı kadar · About as fast as your fingernails grow",
+     "c1": "#0e1424",
+     "c2": "#020306"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Küçük Alışkanlık · Tiny Habit",
+     "q": "Gözlerini kapatmadan önce düşün…",
+     "e": "Before you close your eyes, think of…",
+     "bg": "stars",
+     "c1": "#0b1120",
+     "c2": "#010205",
+     "gap": 7,
+     "steps": [
+      [
+       "Bugün seni gülümseten bir an",
+       "One moment that made you smile today",
+       ""
+      ],
+      [
+       "Bugün öğrendiğin yeni bir şey",
+       "One new thing you learned today",
+       ""
+      ],
+      [
+       "Yarın için küçük bir heves",
+       "One small thing to look forward to tomorrow",
+       ""
+      ]
+     ],
+     "fin": "İyi geceler",
+     "fine": "Good night"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "20 sa",
+     "tr": "Koalalar günde 20 saate kadar uyuyabilir",
+     "en": "Koalas can sleep up to 20 hours a day",
+     "src": "Okaliptüs yaprağı çok az enerji verir — o yüzden bol bol dinlenirler · Eucalyptus leaves give very little energy, so they rest a lot",
+     "c1": "#16201c",
+     "c2": "#030504"
     }
    ]
   }
