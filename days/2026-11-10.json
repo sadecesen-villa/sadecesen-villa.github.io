@@ -1,0 +1,357 @@
+{
+ "date": "2026-11-10",
+ "rev": 55,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-10.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-10-09",
+   "name": "Günaydın Karadeniz · Good Morning, Black Sea",
+   "from": "2026-11-10T09:00",
+   "until": "2026-11-10T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-ayder.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rize",
+     "tr": "Ayder Yaylası, Çamlıhemşin — sisin içinde ahşap evler",
+     "en": "Ayder plateau, Çamlıhemşin — wooden houses in the mist",
+     "cr": "Foto · Photo: Phoenix2351 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kaplıcalarıyla da bilinir — Kaçkar Dağları’nın eteğinde",
+     "facte": "Also known for its hot springs — at the foot of the Kaçkar Mountains"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Her gün bir yerden göçmek ne iyi;|her gün bir yere konmak ne güzel",
+     "en": "How good to move on from somewhere every day — how lovely to settle somewhere new every day",
+     "pal": "sea"
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Ölçek Yolculuğu · Scale Journey — Zaman · Time",
+     "q": "Dünya’nın 4,5 milyar yılını tek bir güne sığdır…",
+     "e": "Squeeze Earth’s 4.5 billion years into a single day…",
+     "c1": "#1b2a22",
+     "c2": "#040805",
+     "gap": 5,
+     "steps": [
+      [
+       "00:00 — Dünya doğuyor",
+       "Earth is born",
+       ""
+      ],
+      [
+       "≈ 04:00 — ilk canlılar",
+       "First life",
+       "04:00"
+      ],
+      [
+       "≈ 22:45 — dinozorlar geliyor",
+       "Dinosaurs arrive",
+       "22:45"
+      ],
+      [
+       "≈ 23:39 — dinozorlar yok oluyor",
+       "Dinosaurs vanish",
+       "23:39"
+      ],
+      [
+       "Son 6 saniye — biz, Homo sapiens",
+       "The last 6 seconds — us",
+       "23:59:54"
+      ]
+     ],
+     "fin": "Tüm yazılı tarih, son saniyenin onda birinden bile kısa",
+     "fine": "All of written history is shorter than a tenth of the very last second"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Sabah dört ayakla,<br>öğlen iki ayakla,<br>akşam üç ayakla yürüyen nedir?",
+     "qe": "Four legs in the morning, two at noon, three in the evening — what is it?",
+     "a": "İnsan!",
+     "ae": "A human: crawling baby, walking adult, elder with a cane.",
+     "sec": 18,
+     "hint": "Antik Yunan’daki Sfenks’in bilmecesi · The riddle of the Sphinx",
+     "c1": "#2a2a1c",
+     "c2": "#070705"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-bee.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bal arısı · Honey bee",
+     "tr": "Kekik çiçeğinde bir bal arısı",
+     "en": "A honey bee on an oregano flower",
+     "cr": "Foto · Photo: Conall · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Bir arının ömrü boyunca bir çay kaşığının yalnızca küçük bir kısmı kadar bal yaptığı söylenir",
+     "facte": "A single bee is said to make only a small fraction of a teaspoon of honey in its whole life"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-kaymakli.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon",
+     "tr": "Kaymaklı Manastırı — şehrin içinde saklı tarihî bir manastır",
+     "en": "Kaymaklı Monastery — a historic monastery hidden within the city",
+     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "İçindeki freskolar yüzyıllardır duruyor; bugün bir çiftlik arazisinde",
+     "facte": "Its frescoes have survived for centuries; today it stands on farmland"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-10",
+   "name": "Işık ve Renk · Light & Colour",
+   "from": "2026-11-10T10:00",
+   "until": "2026-11-10T11:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-rainbow.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Norveç · Norway",
+     "tr": "Çift gökkuşağı — ikincisinde renkler ters sırada",
+     "en": "A double rainbow — the second one has its colours reversed",
+     "cr": "Foto · Photo: Frankemann · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "İkisinin arasındaki koyu banda “Alexander’ın karanlık şeridi” denir",
+     "facte": "The darker sky between them is called Alexander’s dark band"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Gökyüzü öğlen mavi, akşam neden kızıl?",
+     "e": "Why is the sky blue at noon but red at sunset?",
+     "c1": "#1d3350",
+     "c2": "#05080f",
+     "gap": 5.5,
+     "steps": [
+      [
+       "Güneş ışığı bütün renkleri taşır",
+       "Sunlight carries every colour",
+       ""
+      ],
+      [
+       "Hava, mavi ışığı en çok saçar",
+       "Air scatters blue light the most",
+       ""
+      ],
+      [
+       "Öğlen: ışık havada kısa yol alır",
+       "Noon: light crosses little air",
+       "→ mavi gök"
+      ],
+      [
+       "Akşam: ışık havada çok uzun yol alır",
+       "Sunset: light crosses lots of air",
+       ""
+      ],
+      [
+       "Mavi yolda dağılır, geriye kızıl kalır",
+       "Blue is scattered away, red remains",
+       "→ kızıl ufuk"
+      ]
+     ],
+     "fin": "Buna Rayleigh saçılması denir (Lord Rayleigh, 1871)",
+     "fine": "This is called Rayleigh scattering (Lord Rayleigh, 1871)"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-morpho.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Morpho kelebeği · Morpho butterfly",
+     "tr": "Bu mavi bir boya değil",
+     "en": "This blue is not a pigment",
+     "cr": "Foto · Photo: Michael Gäbler · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Renk, kanat pullarındaki mikroskobik yapıların ışığı kırmasından doğar",
+     "facte": "It comes from microscopic structures on the wing scales bending the light"
+    },
+    {
+     "k": "hzquote",
+     "d": 48,
+     "tr": "Bu dünya bir dağdır;|yaptıklarımız ses gibi yine bize döner",
+     "en": "This world is a mountain, our deeds are the shout — and the echo comes back to us",
+     "pal": "clay",
+     "fs": 92
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-fogbow.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Estonya · Estonia",
+     "tr": "Sis yayı: beyaz bir gökkuşağı",
+     "en": "A fogbow: a white rainbow",
+     "cr": "Foto · Photo: Heidi Võsu · CC0 · Wikimedia Commons",
+     "fact": "Sis damlaları çok küçük olduğundan renkler birbirine karışıp beyazlaşır",
+     "facte": "Fog droplets are so tiny that the colours blend into white"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hangi ayda<br>28 gün vardır?",
+     "qe": "Which month has 28 days?",
+     "a": "Hepsinde!",
+     "ae": "All of them — every month has at least 28 days.",
+     "sec": 15,
+     "hint": "Şubat demeden önce düşün… · Think before you say February…",
+     "c1": "#1b2c3d",
+     "c2": "#04070b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-10-11",
+   "name": "Zihin Modelleri · Mental Models",
+   "from": "2026-11-10T11:00",
+   "until": "2026-11-10T12:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zihin Modeli · Mental Model",
+     "q": "Hayatta Kalan Yanılgısı",
+     "e": "Survivorship Bias",
+     "c1": "#2a3036",
+     "c2": "#06080a",
+     "gap": 6,
+     "steps": [
+      [
+       "II. Dünya Savaşı: dönen uçaklarda delikler kanat ve gövdede",
+       "WWII: returning planes had holes in wings and body",
+       ""
+      ],
+      [
+       "Komutanlar: “Delik olan yerleri zırhlayalım”",
+       "Commanders: “Armour where the holes are”",
+       ""
+      ],
+      [
+       "Matematikçi Abraham Wald: “Hayır — motorları”",
+       "Mathematician Abraham Wald: “No — the engines”",
+       "!"
+      ],
+      [
+       "Motorundan vurulanlar hiç geri dönememişti",
+       "Planes hit in the engine never came back",
+       ""
+      ]
+     ],
+     "fin": "Sadece görünenleri sayma — görünmeyenleri de sor",
+     "fine": "Don’t just count what you can see — ask about what’s missing"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Akıllı düşman,|cahil dosttan iyidir",
+     "en": "A wise enemy is better than an ignorant friend",
+     "pal": "ink"
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Monty Hall: 3 kapı, birinin arkasında araba",
+     "e": "Monty Hall: 3 doors, a car behind one",
+     "c1": "#33241c",
+     "c2": "#080504",
+     "gap": 6,
+     "steps": [
+      [
+       "1 numaralı kapıyı seçiyorsun",
+       "You pick door 1",
+       ""
+      ],
+      [
+       "Sunucu boş olan 3. kapıyı açıyor",
+       "The host opens door 3 — empty",
+       ""
+      ],
+      [
+       "“Kapını değiştirmek ister misin?”",
+       "“Do you want to switch?”",
+       "?"
+      ],
+      [
+       "Değiştirirsen kazanma şansı",
+       "If you switch, your chance is",
+       "2/3"
+      ],
+      [
+       "Değiştirmezsen",
+       "If you stay",
+       "1/3"
+      ]
+     ],
+     "fin": "Sunucu boş kapıyı bilerek açtı — bu sana bilgi verir",
+     "fine": "The host knew which door was empty — and that gives you information"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-antiky.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Atina · Athens",
+     "tr": "Antikythera düzeneği: yaklaşık 2.000 yıllık bir “bilgisayar”",
+     "en": "The Antikythera mechanism: a “computer” about 2,000 years old",
+     "cr": "Foto · Photo: Zde · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Güneş, Ay ve tutulmaları hesaplamak için kullanıldığı düşünülüyor; 1901’de bir batıktan çıkarıldı",
+     "facte": "Thought to have computed the Sun, Moon and eclipses; recovered from a shipwreck in 1901"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Zihin Modeli · Mental Model",
+     "q": "Sabah bahçedeki çimler ıslak. Neden?",
+     "e": "The lawn is wet this morning. Why?",
+     "c1": "#183024",
+     "c2": "#030805",
+     "gap": 5.5,
+     "steps": [
+      [
+       "A: Gece yağmur yağdı",
+       "A: It rained in the night",
+       "1 varsayım"
+      ],
+      [
+       "B: Komşunun fıskiyesi açık kaldı",
+       "B: The neighbour’s sprinkler ran",
+       "2 varsayım"
+      ],
+      [
+       "C: Uzaylılar gizlice bahçeyi suladı",
+       "C: Aliens secretly watered it",
+       "çok varsayım"
+      ]
+     ],
+     "fin": "Ockham’ın Usturası: önce en az varsayım isteyen açıklamayı dene",
+     "fine": "Occam’s Razor: try the explanation that needs the fewest assumptions first"
+    },
+    {
+     "k": "hzriddle",
+     "d": 38,
+     "q": "Bir salyangoz 10 metrelik kuyunun dibinde.<br>Gündüz 3 m tırmanıyor, gece 2 m kayıyor.<br>Kaçıncı gün kuyudan çıkar?",
+     "qe": "A snail is at the bottom of a 10 m well. It climbs 3 m by day and slips 2 m at night. On which day does it get out?",
+     "a": "8. gün!",
+     "ae": "Day 8 — after 7 nights it is at 7 m, then climbs the last 3 m.",
+     "sec": 22,
+     "hint": "“10” cevabı tuzak… · “10” is the trap…",
+     "c1": "#24301e",
+     "c2": "#060805"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h10-karaca.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Gümüşhane",
+     "tr": "Karaca Mağarası — Trabzon–Gümüşhane yolunda",
+     "en": "Karaca Cave — on the Trabzon–Gümüşhane road",
+     "cr": "Foto · Photo: En Merker · CC0 · Wikimedia Commons",
+     "fact": "Sarkıtların çoğu zaman yılda bir milimetreden bile az büyüdüğü söylenir",
+     "facte": "Stalactites are said to often grow less than a millimetre a year"
+    }
+   ]
+  }
+ ]
+}
