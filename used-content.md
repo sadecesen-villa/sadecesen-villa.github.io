@@ -4,6 +4,125 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-11 (rev 58, hourly sets 09:00–02:00, days/2026-11-11.json)
+
+New hz functions in hourly.js v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi hzzoll. Mevlânâ “seven advices” series used: Güneş gibi ol (09), Akarsu gibi ol (12), Toprak gibi ol (15), Deniz gibi ol (21), Gece gibi ol (22) — remaining ones of that series: Ölü gibi ol (öfke), Ya olduğun gibi görün (used earlier).
+
+### 09:00–10:00 · Bulutların Üstünde · Above the Clouds
+- 09 | hzphoto | Sultan Murat Yaylası yolu — bulut denizinin üstünde | m/h11-sultanmurat.jpg
+- 09 | hzquote | Güneş gibi ol şefkat ve merhamette | —
+- 09 | hzphoto | Memişağa Konağı — gece ışıklarıyla tarihî bir Karadeniz konağı | m/h11-memisaga.jpg
+- 09 | hzfact | Trabzon, 257 yıl boyunca Trabzon İmparatorluğu’nun başkentiydi | —
+- 09 | hzphoto | Dalgaların üstünden atlayan bir yunus sürüsü | m/h11-dolphin.jpg
+- 09 | hzriddle | Yürür ama ayağı yok, ağlar ama gözü yok. Nedir? | —
+
+### 10:00–11:00 · Ses ve Şekil · Sound & Shape
+- 10 | hzchladni | NEW Chladni plate sand figures (6 modes) | —
+- 10 | hzphoto | Deniz Orgu — dalgalar basamakların altındaki borularda müzik çalıyor | m/h11-seaorgan.jpg
+- 10 | hzfact | Ses suda, havadakinden yaklaşık 4 kat hızlı yayılır | —
+- 10 | hzsteps | Keman ve ney aynı notayı çalsa bile neden farklı duyulur? | —
+- 10 | hzriddle | Adını söylediğin an bozulur. Nedir? | —
+
+### 11:00–12:00 · Akıllı Algoritmalar · Clever Algorithms
+- 11 | hzsort | NEW sorting race bubble vs quicksort | —
+- 11 | hzfact | “Algoritma” sözcüğü, 9. yüzyılda Bağdat’ta çalışan matematikçi el-Hârizmî’nin adından gelir | —
+- 11 | hzphoto | Jakar tezgâhı: desenleri delikli kartlar “programlıyor” | m/h11-jacquard.jpg
+- 11 | hzsteps | Aramayı ne zaman bırakmalı? %37 kuralı | —
+- 11 | hzphoto | Bir Enigma şifre makinesi (1936) | m/h11-enigma.jpg
+- 11 | hzriddle | İki fitilin her biri tam 1 saatte yanıyor ama düzensiz. Yalnızca bunlarla 45 dakikayı nasıl ölçersin? | —
+
+### 12:00–13:00 · Karadeniz Sofrası · Black Sea Table
+- 12 | hzphoto | Muhlama (kuymak): mısır unu, tereyağı ve uzayan peynir | m/h11-muhlama.jpg
+- 12 | hzphoto | Yapraklar döküldükten sonra dalda kalan turuncu meyveler | m/h11-persimmon.jpg
+- 12 | hzquote | Akarsu gibi ol cömertlik ve yardımda | —
+- 12 | hzphoto | Laz böreği — ince yufka ve muhallebiyle yapılan bir Karadeniz tatlısı | m/h11-lazboregi.jpg
+- 12 | hzsteps | Ekmek hamuru neden kabarır? | —
+- 12 | hzriddle | Dışı yeşil, içi kırmızı, çekirdeği siyah. Nedir? | —
+
+### 13:00–14:00 · Taşın Ustaları · Masters of Stone
+- 13 | hzphoto | Süleymaniye Camii’nin kubbesi — Mimar Sinan, 1557 | m/h11-suleymaniye.jpg
+- 13 | hzphoto | Divriği Ulu Camii’nin taş kapısı — UNESCO Dünya Mirası | m/h11-divrigi.jpg
+- 13 | hzsteps | Taş kemer neden çökmez? | —
+- 13 | hzphoto | Pantheon’un tavanındaki 8 metrelik açıklık: “göz” (oculus) | m/h11-pantheon.jpg
+- 13 | hzriddle | Ne kadar çok kurularsa o kadar ıslanır. Nedir? | —
+
+### 14:00–15:00 · Butik Otel Fikirleri · Boutique Hotel Ideas
+- 14 | hzphoto | Büyük saksıda bir zeytin ağacı: avluya Akdeniz ruhu | m/h11-olivepot.jpg
+- 14 | hzphoto | Uzun, durgun bir su aynası avluyu iki kat büyük gösterir | m/h11-courtyard.jpg
+- 14 | hzsteps | Beş duyuyla karşılama: misafir kapıdan girdiğinde… | —
+- 14 | hzphoto | Kapadokya’nın kaya otelleri: her odanın bir hikâyesi var | m/h11-cavehotel.jpg
+- 14 | hzfact | Kokunun uyandırdığı anılar, diğer duyulara göre daha duygusal ve canlı olur | —
+
+### 15:00–16:00 · Bitkilerin Zekâsı · Plant Intelligence
+- 15 | hzphoto | Vouves zeytin ağacı — hâlâ zeytin veriyor | m/h11-vouves.jpg
+- 15 | hzphoto | Küstüm otu: dokununca yapraklarını kapatır | m/h11-mimosa.jpg
+- 15 | hzquote | Toprak gibi ol tevazuda | —
+- 15 | hzphoto | Tuzağın içindeki tetik tüyleri | m/h11-flytrap.jpg
+- 15 | hzphoto | General Sherman: hacimce dünyanın en büyük tek gövdeli ağacı | m/h11-sherman.jpg
+- 15 | hzriddle | Ağzı yok ama su içer, ayağı yok ama büyür. Nedir? | —
+
+### 16:00–17:00 · Göz ve Beyin · Eye & Brain
+- 16 | hzzoll | NEW Zöllner illusion (hatches fade) | —
+- 16 | hzphoto | Panter bukalemun: iki gözü ayrı yönlere bakabilir | m/h11-chameleon.jpg
+- 16 | hzsteps | Kör noktanı bul — şimdi dene! | —
+- 16 | hzmoire | NEW moiré drifting rings | —
+- 16 | hzphoto | Ames odası: aynı boydaki insanlar dev ya da cüce görünür | m/h11-ames.jpg
+- 16 | hzriddle | Gözü var ama göremez. Nedir? | —
+
+### 17:00–18:00 · Büyük Yolculuklar · Great Journeys
+- 17 | hzphoto | Göç eden ak leylekler | m/h11-storks.jpg
+- 17 | hzfact | Her sonbahar Batum üzerinden bir milyondan fazla yırtıcı kuş göç eder | —
+- 17 | hzphoto | Mara Nehri’ni geçen yaban öküzleri | m/h11-wildebeest.jpg
+- 17 | hzphoto | Sudan fırlayan bir kambur balina | m/h11-humpback.jpg
+- 17 | hzphoto | Şelaleye atlayan bir somon | m/h11-salmon.jpg
+- 17 | hzriddle | Bir yerden bir yere gider ama hiç kıpırdamaz. Nedir? | —
+
+### 18:00–19:00 · Akşam Oyunları · Evening Games
+- 18 | hzspiro | NEW spirograph rosettes | —
+- 18 | hzriddle | 3 tavuk 3 günde 3 yumurta yumurtluyor. 6 tavuk 6 günde kaç yumurta yumurtlar? | —
+- 18 | hzphoto | 43 kentilyondan fazla farklı dizilişi olan bir oyuncak | m/h11-rubik.jpg
+- 18 | hzsteps | Doğrucu ve Yalancı | —
+- 18 | hzfact | İyi karıştırılmış bir iskambil destesi, büyük ihtimalle tarihte hiç var olmamış bir sıralamadadır | —
+- 18 | hzriddle | Hangisi daha ağır: bir kilo pamuk mu, bir kilo demir mi? | —
+
+### 19:00–20:00 · Gezegen Dansı · Dance of the Planets
+- 19 | hzrose | NEW Earth–Venus 8-year pentagram rose | —
+- 19 | hzphoto | “Mavi Bilye”: Apollo 17’den bütün Dünya | m/h11-bluemarble.jpg
+- 19 | hzfact | Güneş Sistemi’ndeki tüm kütlenin %99,8’i Güneş’tedir | —
+- 19 | hzphoto | Olympus Mons: Güneş Sistemi’nin en büyük yanardağlarından biri | m/h11-olympus.jpg
+- 19 | hzsteps | Güneş bir futbol topu olsaydı… | —
+- 19 | hzphoto | Plüton ve buzdan “kalbi” — New Horizons, 2015 | m/h11-pluto.jpg
+- 19 | hzriddle | Nereye gidersen git peşinden gelir gibi görünür; geceleri parlar. Nedir? | —
+
+### 20:00–21:00 · Dünyayı Değiştiren Fikirler · Ideas That Changed the World
+- 20 | hzphoto | Piri Reis haritası, 1513 — Amerika kıyılarını gösteren en eski haritalardan biri | m/h11-piri.jpg
+- 20 | hzphoto | Gutenberg İncili — hareketli metal harflerle basılan ilk büyük kitap (1450’ler) | m/h11-gutenberg.jpg
+- 20 | hzfact | Einstein’ın görelilik kuramı hesaba katılmasa GPS her gün yaklaşık 10 km sapardı | —
+- 20 | hzphoto | Wright kardeşlerin ilk motorlu uçuşu | m/h11-wright.jpg
+- 20 | hzsteps | Buzdolabı nasıl soğutur? | —
+- 20 | hzriddle | Anahtarlarım var ama hiçbir kapıyı açamam. Ben neyim? | —
+
+### 21:00–22:00 · Sessiz Galeri · Quiet Gallery
+- 21 | hzphoto | Kanagawa’da Büyük Dalga — Katsushika Hokusai, yaklaşık 1831 | m/h11-wave.jpg
+- 21 | hzquote | Deniz gibi ol hoşgörüde | —
+- 21 | hzphoto | Kaplumbağa Terbiyecisi — Osman Hamdi Bey, 1906 | m/h11-tortoise.jpg
+- 21 | hzphoto | Rhône Üzerinde Yıldızlı Gece — Vincent van Gogh, 1888 | m/h11-starry.jpg
+- 21 | hzphoto | Nilüferler — Claude Monet | m/h11-lilies.jpg
+
+### 22:00–23:00 · Uykudan Önce · Before Sleep
+- 22 | hzquote | Gece gibi ol başkalarının kusurlarını örtmede | —
+- 22 | hzphoto | Ocracoke Feneri ve Samanyolu | m/h11-lighthouse.jpg
+- 22 | hzsteps | Ay’ın neden hep aynı yüzünü görürüz? | —
+- 22 | hzfact | Bir yağmur damlası, yaklaşık bir milyon minik bulut damlacığının birleşmesiyle oluşur | —
+- 22 | hzriddle | Gün boyu peşinden gelir, gece olunca kaybolur. Nedir? | —
+
+### 23:00–02:00 · Gece Havuzu · Night Pond (sakin · calm)
+- 23 | hzkoi | NEW koi night pond (calm) | —
+- 23 | hzfact | Hayatımızın yaklaşık üçte birini uyuyarak geçiririz | —
+- 23 | hzsteps | Bir yağmur damlasının yolculuğu | —
+- 23 | hzfact | Baykuşlar başlarını yaklaşık 270 derece çevirebilir | —
+- 23 | hzriddle | Hep geliyor ama hiç varmıyor. Nedir? | —
+
 ## 2026-11-10 (rev 56, hourly sets 09:00–02:00, days/2026-11-10.json)
 
 New hz functions in hourly.js v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora hzcheck hzdrift. Also fixed hzquote/hzfact vertical centring (3-line quotes no longer overlap the English line).

@@ -1,6 +1,6 @@
-/* hourly.js v57 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v58 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -297,5 +297,94 @@ W.hzdrift=function(L,it){L.style.background='#d8d6cf';var c=wCv(L),x=c.getContex
  var P=[[440,410,1],[960,410,-1],[1480,410,1],[700,710,-1],[1220,710,1]];for(var i=0;i<P.length;i++)wheel(P[i][0],P[i][1],145,P[i][2]);
  T(L,'<div class="hzbox" style="background:rgba(20,24,28,.82)">'+hd('Göz Oyunu · Optical Illusion','Bu resim tamamen durağan. Çarklar dönüyor mu?','This picture is completely still. Are the wheels turning?')+'</div>','top:20px',.4);
  T(L,'<div class="hzbox" style="background:rgba(20,24,28,.82)"><div class="a" style="font-size:1.979vw">Tek bir çarkın ortasına sabit bak — o çark durur, kenardakiler döner</div><div class="e" style="font-size:1.406vw">Stare at the centre of one wheel — it stops, while the others keep turning</div><div class="sm">Çevresel kayma illüzyonu · Peripheral drift illusion — Akiyoshi Kitaoka’nın çalışmalarından esinlenildi · inspired by Akiyoshi Kitaoka</div></div>','bottom:16px',14);return L};
+
+
+/* ---------- v58 additions: hzchladni hzsort hzspiro hzrose hzmoire hzkoi (art/sims), hzzoll (illusion) ---------- */
+/* Chladni figures: sand leaves the vibrating parts of a plate and gathers on the still (nodal) lines */
+W.hzchladni=function(L,it){grad(L,'#1d1a16','#050403');var c=wCv(L),x=c.getContext('2d'),N=7000,P=[],i,S=600,X0=660,Y0=300,M=[[1,4],[2,5],[3,5],[2,7],[4,7],[3,8]],mi=-1,n=1,m=4,PI=Math.PI,lab=null;
+ for(i=0;i<N;i++)P.push([Math.random(),Math.random()]);
+ T(L,hd('Ses ve Şekil · Sound & Shape — simülasyon · simulation','Chladni levhası: kum, sesin resmini çiziyor','A Chladni plate: sand draws a picture of sound'),'top:30px',.4);
+ lab=T(L,'','top:450px;left:1330px;right:auto;width:470px;text-align:left',1);
+ T(L,'<div class="sm" style="font-size:1.302vw;color:#e6dfd2">Titreşen yerlerden kaçan kum, hiç kıpırdamayan çizgilerde toplanır. Nota yükseldikçe desen karmaşıklaşır<br><i>Sand is shaken off the vibrating parts and gathers on the lines that stay still. The higher the note, the richer the pattern</i></div>','bottom:30px',6);
+ wLoop(L,function(t){var k=Math.floor(t/11)%M.length;if(k!==mi){mi=k;n=M[k][0];m=M[k][1];for(i=0;i<N;i++){P[i][0]=Math.random();P[i][1]=Math.random()}
+   lab.innerHTML='<div class="lb">Titreşim · Mode</div><div style="font-size:2.6vw">n = '+n+' · m = '+m+'</div><div class="sm">Nota '+(k+1)+' / '+M.length+' · Note '+(k+1)+' of '+M.length+'</div>'}
+  x.clearRect(0,0,1920,1080);x.fillStyle='#14110d';x.fillRect(X0-10,Y0-10,S+20,S+20);x.fillStyle='#2b2620';x.fillRect(X0,Y0,S,S);x.fillStyle='rgba(240,230,205,.85)';
+  for(i=0;i<N;i++){var p=P[i],f=Math.cos(n*PI*p[0])*Math.cos(m*PI*p[1])-Math.cos(m*PI*p[0])*Math.cos(n*PI*p[1]),a=Math.abs(f)*0.012+0.0004;
+   p[0]+=(Math.random()-.5)*a;p[1]+=(Math.random()-.5)*a;if(p[0]<0)p[0]=-p[0];if(p[0]>1)p[0]=2-p[0];if(p[1]<0)p[1]=-p[1];if(p[1]>1)p[1]=2-p[1];
+   x.fillRect(X0+p[0]*S,Y0+p[1]*S,2,2)}});return L};
+
+/* sorting race: bubble sort vs quicksort on the same bars, same speed */
+W.hzsort=function(L,it){grad(L,'#151d26','#030508');var c=wCv(L),x=c.getContext('2d'),N=44,A=[],i,j;
+ for(i=0;i<N;i++)A.push(i+1);for(i=N-1;i>0;i--){j=Math.floor(Math.random()*(i+1));var tt=A[i];A[i]=A[j];A[j]=tt}
+ function bub(a){var o=[],n=a.length,s=a.slice();for(var i=0;i<n-1;i++){var sw=false;for(var j=0;j<n-1-i;j++){o.push(['c',j,j+1]);if(s[j]>s[j+1]){var t=s[j];s[j]=s[j+1];s[j+1]=t;o.push(['s',j,j+1]);sw=true}}if(!sw)break}return o}
+ function qs(a){var o=[],s=a.slice();function part(lo,hi){var p=s[hi],k=lo;for(var j=lo;j<hi;j++){o.push(['c',j,hi]);if(s[j]<p){if(k!==j){var t=s[k];s[k]=s[j];s[j]=t;o.push(['s',k,j])}k++}}if(k!==hi){var t2=s[k];s[k]=s[hi];s[hi]=t2;o.push(['s',k,hi])}return k}
+  (function r(lo,hi){if(lo<hi){var p=part(lo,hi);r(lo,p-1);r(p+1,hi)}})(0,s.length-1);return o}
+ var R=[{n:'Kabarcık Sıralaması · Bubble sort',a:A.slice(),o:bub(A),k:0,x0:110,col:'#ff9e7a'},{n:'Hızlı Sıralama · Quicksort',a:A.slice(),o:qs(A),k:0,x0:1010,col:'#8fd3c1'}];
+ T(L,hd('Akıllı Algoritmalar · Clever Algorithms — simülasyon · simulation','Aynı karışık çubuklar, aynı hız: hangi yöntem önce bitirir?','Same shuffled bars, same speed: which method finishes first?'),'top:28px',.4);
+ var lb=[T(L,'','top:252px;left:110px;right:auto;width:800px;text-align:left',1),T(L,'','top:252px;left:1010px;right:auto;width:800px;text-align:left',1)],fin=false;
+ wLoop(L,function(t){var tg=Math.max(0,Math.floor((t-3)*24));x.clearRect(0,0,1920,1080);
+  for(var r=0;r<2;r++){var Q=R[r],hl=null;while(Q.k<Math.min(tg,Q.o.length)){var op=Q.o[Q.k++];hl=op;if(op[0]=='s'){var t1=Q.a[op[1]];Q.a[op[1]]=Q.a[op[2]];Q.a[op[2]]=t1}}
+   if(!hl&&Q.k<Q.o.length&&Q.k>0)hl=Q.o[Q.k-1];var done=Q.k>=Q.o.length,bw=800/N;
+   for(i=0;i<N;i++){var h=Q.a[i]*11;x.fillStyle=done?Q.col:(hl&&(i==hl[1]||i==hl[2]))?'#ffffff':'rgba(200,214,222,.55)';x.fillRect(Q.x0+i*bw+1,860-h,bw-3,h)}
+   lb[r].innerHTML='<div class="lb" style="color:'+Q.col+'">'+Q.n+'</div><div class="sm" style="font-size:1.2vw;color:#dfe6e9">Adım · Steps: '+Q.k.toLocaleString('tr-TR')+(done?' &nbsp;✓ Bitti · Done':'')+'</div>'}
+  if(!fin&&R[0].k>=R[0].o.length){fin=true}
+  if(t>4&&R[1].k>=R[1].o.length&&!R.sh){R.sh=1;T(L,'<div class="hzbox"><div class="a" style="font-size:1.9vw">Hızlı sıralama ≈'+R[1].o.length+' adımda bitti — kabarcık ≈'+R[0].o.length+' adım istiyor</div><div class="e" style="font-size:1.35vw">Quicksort finished in ≈'+R[1].o.length+' steps — bubble sort needs ≈'+R[0].o.length+'. Böl ve yönet · Divide and conquer (Tony Hoare, 1959)</div></div>','bottom:20px',.1)}});return L};
+
+/* spirograph: a small wheel rolling inside a big ring draws a rosette */
+W.hzspiro=function(L,it){L.style.background='#0b0f14';var c=wCv(L),x=c.getContext('2d'),ov=wCv(L),o=ov.getContext('2d'),SP=[[300,105,80,'#8fd3c1'],[300,186,150,'#ff9e7a'],[300,72,120,'#a9b8ff'],[300,130,95,'#e6c3ff']],cur=-1,cx=960,cy=575,lp=null;
+ T(L,hd('Canlı Sanat · Living Art — çizim · illustration','Spirograf: büyük çemberin içinde dönen küçük bir tekerlek','Spirograph: a little wheel rolling inside a big ring'),'top:30px',.4);
+ var V=T(L,'','bottom:30px',1);
+ wLoop(L,function(t){var k=Math.min(SP.length-1,Math.floor(t/17)),p=SP[k],R=p[0],r=p[1],d=p[2];if(k!==cur){cur=k;x.globalAlpha=1;x.fillStyle='rgba(11,15,20,.82)';x.fillRect(0,0,1920,1080);lp=null;
+   V.innerHTML='<div class="sm" style="font-size:1.25vw;color:#dfe6e9">Halka '+R+' · tekerlek '+r+' · kalem '+d+' — oran sadeleşince desen kaç yaprak olacağını söyler<br><i>Ring '+R+' · wheel '+r+' · pen '+d+' — the simplified ratio tells you how many petals it will have</i></div>'}
+  var lt=(t-k*17),a=lt*2.4;o.clearRect(0,0,1920,1080);
+  for(var s=0;s<12;s++){var aa=a-0.2+s*0.2/12,X=cx+(R-r)*Math.cos(aa)+d*Math.cos((R-r)/r*aa),Y=cy+(R-r)*Math.sin(aa)-d*Math.sin((R-r)/r*aa);if(lp){x.strokeStyle=p[3];x.lineWidth=2;x.globalAlpha=.9;x.beginPath();x.moveTo(lp[0],lp[1]);x.lineTo(X,Y);x.stroke()}lp=[X,Y]}
+  var gx=cx+(R-r)*Math.cos(a),gy=cy+(R-r)*Math.sin(a);o.strokeStyle='rgba(255,255,255,.18)';o.lineWidth=2;o.beginPath();o.arc(cx,cy,R,0,7);o.stroke();o.beginPath();o.arc(gx,gy,r,0,7);o.stroke();o.beginPath();o.moveTo(gx,gy);o.lineTo(lp[0],lp[1]);o.stroke();o.fillStyle='#fff';o.beginPath();o.arc(lp[0],lp[1],6,0,7);o.fill()});return L};
+
+/* Earth and Venus: a line between them every few days draws a five-petal rose over 8 years */
+W.hzrose=function(L,it){var c=wCv(L),x=c.getContext('2d'),ov=wCv(L),o=ov.getContext('2d'),S=stars(260),cx=960,cy=580,RE=300,RV=RE*0.723,day=0,lastD=-99;
+ x.fillStyle='#03050b';x.fillRect(0,0,1920,1080);
+ T(L,hd('Gezegen Dansı · Dance of the Planets — simülasyon · simulation','Dünya ile Venüs’ü birkaç günde bir çizgiyle birleştir…','Join Earth and Venus with a line every few days…'),'top:28px',.4);
+ var V=T(L,'','top:470px;left:1420px;right:auto;width:420px;text-align:left',1),sh=false;
+ wLoop(L,function(t){var tg=Math.min(2922,Math.max(0,(t-2)*62));o.clearRect(0,0,1920,1080);drawStars(o,S,t);
+  while(day<tg){day+=1;var ae=2*Math.PI*day/365.25,av=2*Math.PI*day/224.7,E=[cx+RE*Math.cos(ae),cy-RE*Math.sin(ae)],Vn=[cx+RV*Math.cos(av),cy-RV*Math.sin(av)];
+   if(day-lastD>=4){lastD=day;x.strokeStyle='hsla('+(170+day/2922*80)+',60%,70%,.22)';x.lineWidth=1.2;x.beginPath();x.moveTo(E[0],E[1]);x.lineTo(Vn[0],Vn[1]);x.stroke()}}
+  var ae2=2*Math.PI*day/365.25,av2=2*Math.PI*day/224.7;o.fillStyle='#ffd27a';o.beginPath();o.arc(cx,cy,16,0,7);o.fill();
+  o.fillStyle='#6fb6ff';o.beginPath();o.arc(cx+RE*Math.cos(ae2),cy-RE*Math.sin(ae2),11,0,7);o.fill();o.fillStyle='#f1e3c8';o.beginPath();o.arc(cx+RV*Math.cos(av2),cy-RV*Math.sin(av2),9,0,7);o.fill();
+  V.innerHTML='<div class="lb">Yıl · Year</div><div style="font-size:2.8vw">'+(day/365.25).toFixed(1).replace('.',',')+'</div><div class="sm"><span style="color:#6fb6ff">●</span> Dünya · Earth &nbsp; <span style="color:#f1e3c8">●</span> Venüs · Venus</div>';
+  if(day>=2920&&!sh){sh=true;T(L,'<div class="hzbox"><div class="a" style="font-size:1.9vw">8 yılda 5 yapraklı bir gül! Dünya 8 tur atarken Venüs neredeyse tam 13 tur atar</div><div class="e" style="font-size:1.35vw">A five-petal rose in 8 years — while Earth goes round 8 times, Venus goes round almost exactly 13</div></div>','bottom:20px',.1)}});return L};
+
+/* moiré: two sets of rings drifting over each other */
+W.hzmoire=function(L,it){L.style.background='#0c1014';var c=wCv(L),x=c.getContext('2d');
+ T(L,'<div class="hzbox">'+hd('Canlı Sanat · Living Art — çizim · illustration','Hareli desen: iki basit halka deseni üst üste kayıyor','Moiré: two plain ring patterns sliding over each other')+'</div>','top:22px',.4);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.25vw;color:#dfe6e9">Dalgalanan çiçek şekilleri aslında hiç çizilmedi — gözün iki deseni birlikte okuyunca kendisi görüyor<br><i>The rippling flower shapes are never drawn — your eye creates them by reading both patterns together</i></div></div>','bottom:22px',7);
+ wLoop(L,function(t){x.clearRect(0,0,1920,1080);var C=[[960+150*Math.cos(t*.23),560+90*Math.sin(t*.31)],[960-150*Math.cos(t*.19),560-90*Math.sin(t*.27)]],col=['rgba(143,211,193,.85)','rgba(255,158,122,.85)'];
+  x.lineWidth=5;for(var k=0;k<2;k++){x.strokeStyle=col[k];for(var r=10;r<900;r+=15){x.beginPath();x.arc(C[k][0],C[k][1],r,0,7);x.stroke()}}});return L};
+
+/* calm night pond with koi */
+W.hzkoi=function(L,it){var c=wCv(L),x=c.getContext('2d'),F=[],i,RP=[],PAD=[[300,330,70],[1600,260,90],[1450,820,60],[420,860,80],[1050,190,50]];
+ var cols=[['#f2efe8','#e0582e'],['#f6a04d','#f6a04d'],['#f4f1ea','#222'],['#e9e4da','#d9452b'],['#ffcf8a','#ffcf8a']];
+ for(i=0;i<6;i++)F.push({a:Math.random()*6.28,cx:960+(Math.random()-.5)*700,cy:560+(Math.random()-.5)*300,rx:220+Math.random()*260,ry:120+Math.random()*140,sp:(.05+Math.random()*.05)*(i%2?1:-1),c:cols[i%5],L:70+Math.random()*30});
+ T(L,hd('Gece Havuzu · Night Pond — çizim · illustration (sakin · calm)','Ay ışığında koi balıkları','Koi under the moonlight'),'top:40px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Japonya’da koi sabrın ve azmin sembolüdür; bazıları 50 yıldan uzun yaşar<br><i>In Japan koi stand for patience and perseverance; some live for more than 50 years</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var g=x.createRadialGradient(1300,300,50,960,540,1200);g.addColorStop(0,'#16303a');g.addColorStop(1,'#02080c');x.fillStyle=g;x.fillRect(0,0,1920,1080);
+  x.fillStyle='rgba(220,235,240,.06)';x.beginPath();x.ellipse(1300,300,220,60,0,0,7);x.fill();
+  if(Math.random()<.012)RP.push([Math.random()*1920,250+Math.random()*700,t]);
+  for(i=RP.length-1;i>=0;i--){var age=t-RP[i][2];if(age>7){RP.splice(i,1);continue}x.strokeStyle='rgba(200,225,235,'+(.25*(1-age/7))+')';x.lineWidth=2;x.beginPath();x.ellipse(RP[i][0],RP[i][1],age*28,age*10,0,0,7);x.stroke()}
+  for(i=0;i<F.length;i++){var f=F[i],a=f.a+t*f.sp,X=f.cx+f.rx*Math.cos(a),Y=f.cy+f.ry*Math.sin(a),dx=-f.rx*Math.sin(a)*f.sp,dy=f.ry*Math.cos(a)*f.sp,ang=Math.atan2(dy,dx),w=Math.sin(t*3+i)*.35;
+   x.save();x.translate(X,Y);x.rotate(ang);x.globalAlpha=.9;
+   x.fillStyle=f.c[0];x.beginPath();x.ellipse(0,0,f.L*.5,f.L*.17,0,0,7);x.fill();
+   x.fillStyle=f.c[1];x.beginPath();x.ellipse(f.L*.12,0,f.L*.16,f.L*.11,0,0,7);x.fill();
+   x.save();x.translate(-f.L*.45,0);x.rotate(w);x.fillStyle=f.c[0];x.globalAlpha=.7;x.beginPath();x.moveTo(0,0);x.lineTo(-f.L*.32,-f.L*.16);x.lineTo(-f.L*.28,0);x.lineTo(-f.L*.32,f.L*.16);x.closePath();x.fill();x.restore();
+   x.restore()}x.globalAlpha=1;
+  for(i=0;i<PAD.length;i++){var p=PAD[i];x.fillStyle='rgba(46,92,60,.92)';x.beginPath();x.moveTo(p[0],p[1]);x.arc(p[0],p[1],p[2],.3+i,6.0+i);x.closePath();x.fill();if(i%2==0){x.fillStyle='rgba(240,200,215,.9)';x.beginPath();x.arc(p[0]+p[2]*.2,p[1]-p[2]*.2,p[2]*.18,0,7);x.fill()}}});return L};
+
+/* Zöllner illusion: parallel lines look tilted because of short cross-hatches */
+W.hzzoll=function(L,it){L.style.background='#e9e6df';var c=wCv(L),x=c.getContext('2d'),A=Math.PI/4;
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Bu uzun çizgiler birbirine paralel mi?','Are these long lines parallel?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.95vw">Hepsi tamamen paralel! Kısa çizgiler kaybolunca kendin gör</div><div class="e" style="font-size:1.35vw">They are perfectly parallel — watch as the short marks fade away</div><div class="sm">Zöllner illüzyonu · Zöllner illusion — Johann Zöllner, 1860</div></div>','bottom:18px',16);
+ wLoop(L,function(t){var ha=t<17?1:Math.max(0,1-(t-17)/4);if(t>34)ha=Math.min(1,(t-34)/3);x.clearRect(0,0,1920,1080);x.save();x.beginPath();x.rect(300,240,1320,600);x.clip();
+  for(var k=0;k<9;k++){var ox=180+k*190;x.strokeStyle='#111';x.lineWidth=5;x.beginPath();x.moveTo(ox,240);x.lineTo(ox+600,840);x.stroke();
+   x.globalAlpha=ha;x.lineWidth=4;for(var s=0;s<14;s++){var px=ox+s*45,py=240+s*45,dr=(k%2?1:-1);x.beginPath();if(dr>0){x.moveTo(px-26,py);x.lineTo(px+26,py)}else{x.moveTo(px,py-26);x.lineTo(px,py+26)}x.stroke()}x.globalAlpha=1}
+  x.restore()});return L};
 
 })();

@@ -152,3 +152,42 @@ m/h10-trulli.jpg — Trulli in Alberobello 2015.jpg — Livioandronico2013 — C
 m/h10-wisteria.jpg — Pergola of wisteria floribunda in Miyajidake Shrine.JPG — そらみみ — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Pergola_of_wisteria_floribunda_in_Miyajidake_Shrine.JPG
 m/h10-lavender.jpg — Lavender field in Drôme 05.jpg — John Samuel — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lavender_field_in_Dr%C3%B4me_05.jpg
 m/h10-infinity.jpg — Infinity pool by the sea (Unsplash).jpg — E C eunicwonders — CC0 — https://commons.wikimedia.org/wiki/File:Infinity_pool_by_the_sea_(Unsplash).jpg
+
+## 2026-11-11 (days/2026-11-11.json, m/h11-*)
+m/h11-dolphin.jpg — Pod of common dolphins leaping above water - DPLA - 66e901d0b5b377ff605032699858408a.jpg — Garst, Warren, 1922-2016, photographer — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Pod_of_common_dolphins_leaping_above_water_-_DPLA_-_66e901d0b5b377ff605032699858408a.jpg
+m/h11-memisaga.jpg — Memish Agha Mansion in Surmene.JPG — Surmene at en.wikipedia — Public domain — https://commons.wikimedia.org/wiki/File:Memish_Agha_Mansion_in_Surmene.JPG
+m/h11-seaorgan.jpg — Sea organ Zadar 3.JPG — Andrej Šalov — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Sea_organ_Zadar_3.JPG
+m/h11-enigma.jpg — ARKIVET Peace and Human Rights Centre Kristiansand Norway. Museum WWII Exhibition. Gestapo office. German 3-rotor Enigma I cipher machine ChiMaAG No A 5111 1936 Wooden case Instructions control panel keyboard plugboard cables.jpg — Wolfmann — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:ARKIVET_Peace_and_Human_Rights_Centre_Kristiansand_Norway._Museum_WWII_Exhibition._Gestapo_office._German_3-rotor_Enigma_I_cipher_machine_ChiMaAG_No_A_5111_1936_Wooden_case_Instructions_control_panel_keyboard_plugboard_cables.jpg
+m/h11-jacquard.jpg — A Jacquard loom showing information punchcards, National Museum of Scotland.jpg — Stephencdickson — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg
+m/h11-persimmon.jpg — Diospyros kaki 05.jpg — FreCha — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Diospyros_kaki_05.jpg
+m/h11-muhlama.jpg — Çamlıhemşin -- Muhlama (5019844858).jpg — tomislav medak — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1hem%C5%9Fin_--_Muhlama_(5019844858).jpg
+m/h11-lazboregi.jpg — Real laz böreği (with pepper).jpg — E4024 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Real_laz_b%C3%B6re%C4%9Fi_(with_pepper).jpg
+m/h11-suleymaniye.jpg — 2020 Suleymaniye mosque, prayer hall interior dome.jpg — Mustafa-trit20 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2020_Suleymaniye_mosque,_prayer_hall_interior_dome.jpg
+m/h11-divrigi.jpg — Divriği mosque SW gate021.jpg — Dosseman — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Divri%C4%9Fi_mosque_SW_gate021.jpg
+m/h11-pantheon.jpg — Interior oculus of the Rome Pantheon.jpg — T. Le Berre — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Interior_oculus_of_the_Rome_Pantheon.jpg
+m/h11-cavehotel.jpg — Local Cave Hotels in Cappadocia, Turkiye.jpg — Knslmn — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Local_Cave_Hotels_in_Cappadocia,_Turkiye.jpg
+m/h11-vouves.jpg — Olive tree of Vouves.jpg — Eric Nagle — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Olive_tree_of_Vouves.jpg
+m/h11-flytrap.jpg — Venus Flytrap showing trigger hairs.jpg — Noah Elhardt — CC BY-SA 2.5 — https://commons.wikimedia.org/wiki/File:Venus_Flytrap_showing_trigger_hairs.jpg
+m/h11-mimosa.jpg — Mimosa pudica leaves close up.jpg — NonNerd — CC0 — https://commons.wikimedia.org/wiki/File:Mimosa_pudica_leaves_close_up.jpg
+m/h11-sherman.jpg — General Sherman Tree 2013.jpg — Tuxyso — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:General_Sherman_Tree_2013.jpg
+m/h11-chameleon.jpg — Panther chameleon (Furcifer pardalis) male Nosy Be.jpg — Charles J. Sharp — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Panther_chameleon_(Furcifer_pardalis)_male_Nosy_Be.jpg
+m/h11-ames.jpg — Casaperspectiva.jpg — Andrevruas — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Casaperspectiva.jpg
+m/h11-storks.jpg — White Storks Migrating Over Palestine.jpg — Mohammad Daraghmeh 19 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:White_Storks_Migrating_Over_Palestine.jpg
+m/h11-wildebeest.jpg — Western white-bearded wildebeest (Connochaetes taurinus mearnsi) Mara River crossing 2b.jpg — Charles J. Sharp — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Western_white-bearded_wildebeest_(Connochaetes_taurinus_mearnsi)_Mara_River_crossing_2b.jpg
+m/h11-humpback.jpg — 001 Humpback whale breaching in Ballena Marine National Park Photo by Giles Laurent.jpg — Giles Laurent — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:001_Humpback_whale_breaching_in_Ballena_Marine_National_Park_Photo_by_Giles_Laurent.jpg
+m/h11-salmon.jpg — Oak Orchard Salmon Jumping Waterfall - panoramio.jpg — Ron Shawley — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Oak_Orchard_Salmon_Jumping_Waterfall_-_panoramio.jpg
+m/h11-rubik.jpg — Rubiks cube by keqs.jpg — Lars Karlsson (Keqs) — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Rubiks_cube_by_keqs.jpg
+m/h11-bluemarble.jpg — The Earth seen from Apollo 17.jpg — NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans — Public domain — https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg
+m/h11-olympus.jpg — Olympus Mons alt.jpg — Image by NASA, modifications by Seddon — Public domain — https://commons.wikimedia.org/wiki/File:Olympus_Mons_alt.jpg
+m/h11-pluto.jpg — Pluto-01 Stern 03 Pluto Color TXT.jpg — NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute — Public domain — https://commons.wikimedia.org/wiki/File:Pluto-01_Stern_03_Pluto_Color_TXT.jpg
+m/h11-piri.jpg — Piri reis world map 01.jpg — Piri Reis — Public domain — https://commons.wikimedia.org/wiki/File:Piri_reis_world_map_01.jpg
+m/h11-gutenberg.jpg — Gutenberg Bible, New York Public Library, USA. Pic 01.jpg — Joshua Keller — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_New_York_Public_Library,_USA._Pic_01.jpg
+m/h11-wright.jpg — First flight3.jpg — John T. Daniels — Public domain — https://commons.wikimedia.org/wiki/File:First_flight3.jpg
+m/h11-wave.jpg — Tsunami by hokusai 19th century.jpg — Katsushika Hokusai — Public domain — https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg
+m/h11-starry.jpg — Vincent van Gogh - Starry Night - Google Art Project.jpg — Vincent van Gogh — Public domain — https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+m/h11-tortoise.jpg — Osman Hamdi Bey - The Tortoise Trainer - Google Art Project.jpg — Osman Hamdi Bey — Public domain — https://commons.wikimedia.org/wiki/File:Osman_Hamdi_Bey_-_The_Tortoise_Trainer_-_Google_Art_Project.jpg
+m/h11-lilies.jpg — Claude Monet - Water Lilies - Google Art Project.jpg — Claude Monet — Public domain — https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg
+m/h11-lighthouse.jpg — Ocracoke Lighthouse with the Milky Way Galaxy.jpg — Jajr051990 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Ocracoke_Lighthouse_with_the_Milky_Way_Galaxy.jpg
+m/h11-olivepot.jpg — Olea europaea - Mediterranean - US Botanic Gardens 23.jpg — Bohemian Baltimore — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Olea_europaea_-_Mediterranean_-_US_Botanic_Gardens_23.jpg
+m/h11-courtyard.jpg — Patio de los Arrayanes detail Alhambra Granada Spain.jpg — Jebulon — CC0 — https://commons.wikimedia.org/wiki/File:Patio_de_los_Arrayanes_detail_Alhambra_Granada_Spain.jpg
+m/h11-sultanmurat.jpg — Trabzon Sultan Murat Yaylası Yolu.jpg — Muhammet Dilmaç — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trabzon_Sultan_Murat_Yaylas%C4%B1_Yolu.jpg
