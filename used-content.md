@@ -92,7 +92,7 @@ New hz functions in hourly.js v59: hzturing hzvoronoi hzcollatz hzsnow hzpogg hz
 - 18 | hzquote | Kalpten kalbe bir yol vardır | —
 - 18 | hzphoto | Fildişi satranç takımı (Auckland Müzesi) | m/h12-e18-chess.jpg
 
-### 19:00–20:00 · Antik Harikalar · Ancient Wonders
+### 19:00–20:00 · Antik Harikalar · Ancient Wonders (12 Nov 18:30: Petra/Nemrut/Machu Picchu swapped to full-bleed 16:9 photos — Petra from the Siq, Tyche head, Machu Picchu from Huayna Picchu)
 - 19 | hzphoto | Göbeklitepe — oyma taş sütunlarla dünyanın bilinen en eski tapınak alanlarından biri | m/h12-gobekli.jpg
 - 19 | hzphoto | Petra’daki el-Hazne — kumtaşı kayaya oyulmuş bir cephe | m/h12-petra.jpg
 - 19 | hzphoto | Celsus Kütüphanesi’nin cephesi | m/h12-celsus.jpg
@@ -104,12 +104,12 @@ New hz functions in hourly.js v59: hzturing hzvoronoi hzcollatz hzsnow hzpogg hz
 ### 20:00–21:00 · Mikro Dünya · The Micro World
 - 20 | hzphoto | Diyatomeler — Ernst Haeckel, “Doğadaki Sanat Biçimleri”, 1904 | m/h12-diatom.jpg
 - 20 | hzphoto | Ayçiçeği, gündüzsefası, gambak ve zambak polenleri (renklendirilmiş) | m/h12-pollen.jpg
-- 20 | hzphoto | Tek mercekli, avuç içi büyüklüğünde bir mikroskop | m/h12-leeuwenhoek.jpg
+- 20 | hzphoto | Robert Hooke, Micrographia (1665): pire gravürü | m/h12-hooke.jpg (replaced the brass Leeuwenhoek microscope photo)
 - 20 | hzphoto | Radyolaryalar — Ernst Haeckel, 1904 | m/h12-radiolaria.jpg
 - 20 | hzfact | Vücudunda yaklaşık 39 trilyon bakteri yaşar — kendi hücrelerin kadar | —
 - 20 | hzriddle | Bir insan saçının kalınlığı kaç mikron? 1 mi, 10 mu, 70 mi? | —
 
-### 21:00–22:00 · Akşam Galerisi · Evening Gallery
+### 21:00–22:00 · Akşam Galerisi · Evening Gallery (12 Nov 18:30: portrait paintings now framed on a dark gallery wall above the captions; Ninth Wave full-bleed)
 - 21 | hzphoto | Dokuzuncu Dalga — İvan Ayvazovski, 1850 | m/h12-ninthwave.jpg
 - 21 | hzquote | Gerçekten sevdiğin şeyin seni sessizce çekmesine izin ver | —
 - 21 | hzphoto | Sis Denizinin Üzerindeki Gezgin — Caspar David Friedrich, yaklaşık 1818 | m/h12-wanderer.jpg
@@ -119,17 +119,17 @@ New hz functions in hourly.js v59: hzturing hzvoronoi hzcollatz hzsnow hzpogg hz
 ### 22:00–23:00 · Sessiz Kış Gecesi · Quiet Winter Night
 - 22 | hzquote | Ne kadar sessizleşirsen o kadar çok duyarsın | —
 - 22 | hzphoto | Karlı ormanda ağaçların arasından süzülen ışık | m/h12-snowforest.jpg
-- 22 | hzsteps | Ayılar kış uykusunda ne yapar? | —
+- 22 | hzphoto | Karlı nehir kıyısında boz ayı (Kodiak, Alaska) — kış uykusu bilgisi | m/h12-bear.jpg
 - 22 | hzphoto | Soğuk bir gecede cama işlenen buz kristalleri | m/h12-frost.jpg
 - 22 | hzfact | Bir kar tanesinin buluttan yere düşmesi yarım saatle bir saat arasında sürebilir | —
-- 22 | hzriddle | Düşerken hiç ses çıkarmam, ama sabah herkes beni konuşur. Neyim? | —
+- 22 | hzphoto | Karlı gecede ışıkları yanan dağ evi (Wannenkopfhütte, Allgäu) | m/h12-cabin.jpg
 
 ### 23:00–02:00 · İlk Kar · First Snow (sakin · calm)
 - 23 | hzsnow | NEW first snow over a hillside house (calm night illustration) | —
 - 23 | hzquote | Bir mum, başka bir mumu tutuşturmakla ışığından bir şey kaybetmez | —
 - 23 | hzsteps | Sen uyurken yaptığın yolculuk (8 saat) | —
 - 23 | hzfact | Yunuslar beynin yarısıyla uyur; diğer yarısı nefes almak için uyanık kalır | —
-- 23 | hzriddle | Senindir ama başkaları senden çok kullanır. Nedir? | —
+- 23 | hzphoto | Karlı dağların üzerinde batan Orion ve Sirius (Alaska) | m/h12-orion.jpg
 
 ## 2026-11-11 (rev 58, hourly sets 09:00–02:00, days/2026-11-11.json)
 

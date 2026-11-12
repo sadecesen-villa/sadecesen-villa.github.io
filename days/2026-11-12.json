@@ -958,12 +958,11 @@
      "d": 38,
      "f": "m/h12-petra.jpg",
      "lb": "Gerçek Fotoğraf · Real Photo · Ürdün · Jordan",
-     "tr": "Petra’daki el-Hazne — kumtaşı kayaya oyulmuş bir cephe",
-     "en": "Al-Khazneh in Petra — a façade carved into sandstone",
-     "cr": "Foto · Photo: Graham Racher / MrPanyGoff · CC BY-SA 2.0 · Wikimedia Commons",
+     "tr": "Sik geçidinin sonunda beliren el-Hazne — kumtaşı kayaya oyulmuş bir cephe",
+     "en": "Al-Khazneh appearing at the end of the Siq — a façade carved into sandstone",
+     "cr": "Foto · Photo: twiga-swala · CC BY-SA 2.0 · Wikimedia Commons",
      "fact": "Nebatiler onu yaklaşık 2.000 yıl önce yukarıdan aşağıya doğru oydu",
-     "facte": "The Nabataeans carved it about 2,000 years ago, working from the top down",
-     "fit": "contain"
+     "facte": "The Nabataeans carved it about 2,000 years ago, working from the top down"
     },
     {
      "k": "hzphoto",
@@ -981,24 +980,23 @@
      "d": 38,
      "f": "m/h12-nemrut.jpg",
      "lb": "Gerçek Fotoğraf · Real Photo · Adıyaman",
-     "tr": "Nemrut Dağı’nın zirvesindeki dev taş başlar",
-     "en": "The giant stone heads on the summit of Mount Nemrut",
-     "cr": "Foto · Photo: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+     "tr": "Nemrut Dağı’nın batı terasında Tyche’nin dev taş başı",
+     "en": "The giant stone head of Tyche on the western terrace of Mount Nemrut",
+     "cr": "Foto · Photo: Zorka Sojka · CC BY-SA 4.0 · Wikimedia Commons",
      "fact": "Kommagene Kralı I. Antiokhos’un anıt mezarı, MÖ 1. yüzyıl, 2.134 m",
-     "facte": "The tomb-sanctuary of King Antiochus I of Commagene, 1st century BC, 2,134 m",
-     "fit": "contain"
+     "facte": "The tomb-sanctuary of King Antiochus I of Commagene, 1st century BC, 2,134 m"
     },
     {
+     "cp": "top",
      "k": "hzphoto",
      "d": 38,
      "f": "m/h12-machu.jpg",
      "lb": "Gerçek Fotoğraf · Real Photo · Peru",
-     "tr": "Machu Picchu — bulutlara yakın bir İnka kenti",
-     "en": "Machu Picchu — an Inca city close to the clouds",
+     "tr": "Huayna Picchu’dan Machu Picchu — bulutlara yakın bir İnka kenti",
+     "en": "Machu Picchu seen from Huayna Picchu — an Inca city close to the clouds",
      "cr": "Foto · Photo: Martin St-Amant · CC BY-SA 3.0 · Wikimedia Commons",
      "fact": "Taşlar harçsız ama öyle iyi oturtulmuş ki arasına bıçak girmez",
-     "facte": "The stones use no mortar, yet fit so tightly a knife blade won’t go between them",
-     "fit": "contain"
+     "facte": "The stones use no mortar, yet fit so tightly a knife blade won’t go between them"
     },
     {
      "k": "hzfact",
@@ -1038,8 +1036,7 @@
      "en": "Diatoms — Ernst Haeckel, “Art Forms in Nature”, 1904",
      "cr": "Eser · Artwork: Ernst Haeckel · kamu malı · public domain · Wikimedia Commons",
      "fact": "Camdan kabuklu bu minik algler, soluduğumuz oksijenin yaklaşık beşte birini üretir",
-     "facte": "These tiny algae with glass shells make roughly a fifth of the oxygen we breathe",
-     "fit": "contain"
+     "facte": "These tiny algae with glass shells make roughly a fifth of the oxygen we breathe"
     },
     {
      "k": "hzphoto",
@@ -1050,20 +1047,18 @@
      "en": "Pollen grains of sunflower, morning glory, hollyhock and lily (colourised)",
      "cr": "Foto · Photo: Dartmouth Electron Microscope Facility · kamu malı · public domain · Wikimedia Commons",
      "fact": "Polen kabuğu o kadar dayanıklıdır ki milyonlarca yıl bozulmadan kalabilir",
-     "facte": "A pollen wall is so tough it can survive for millions of years",
-     "fit": "contain"
+     "facte": "A pollen wall is so tough it can survive for millions of years"
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h12-leeuwenhoek.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Leeuwenhoek mikroskobu · Leeuwenhoek microscope",
-     "tr": "Tek mercekli, avuç içi büyüklüğünde bir mikroskop",
-     "en": "A palm-sized microscope with a single lens",
-     "cr": "Foto · Photo: Jeroen Rouwkema · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Antonie van Leeuwenhoek 1676’da bununla bakterileri ilk gören kişi oldu",
-     "facte": "In 1676 Antonie van Leeuwenhoek became the first person to see bacteria with one like this",
-     "fit": "contain"
+     "d": 44,
+     "f": "m/h12-hooke.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Bir pire — Robert Hooke, “Micrographia”, 1665",
+     "en": "A flea — Robert Hooke, “Micrographia”, 1665",
+     "cr": "Eser · Artwork: Robert Hooke, 1665 · Foto · Photo: Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Bu kitap “hücre” kelimesini biyolojiye kazandırdı; Hooke mantarı mikroskopta inceleyince gördüğü odacıklara “cell” dedi",
+     "facte": "This book gave biology the word “cell” — Hooke’s name for the tiny chambers he saw in cork under the microscope"
     },
     {
      "k": "hzphoto",
@@ -1074,8 +1069,7 @@
      "en": "Radiolarians — Ernst Haeckel, 1904",
      "cr": "Eser · Artwork: Ernst Haeckel · kamu malı · public domain · Wikimedia Commons",
      "fact": "Bir milimetreden küçük bu canlılar camdan, simetrik iskeletler örer",
-     "facte": "Smaller than a millimetre, these creatures build symmetrical skeletons of glass",
-     "fit": "contain"
+     "facte": "Smaller than a millimetre, these creatures build symmetrical skeletons of glass"
     },
     {
      "k": "hzfact",
@@ -1115,8 +1109,7 @@
      "en": "The Ninth Wave — Ivan Aivazovsky, 1850",
      "cr": "Eser · Artwork: Ivan Aivazovsky · kamu malı · public domain · Wikimedia Commons",
      "fact": "Ayvazovski denizi hafızasından boyardı; ömrü boyunca 6.000’e yakın tablo yaptı",
-     "facte": "Aivazovsky painted the sea from memory, making nearly 6,000 pictures in his life",
-     "fit": "contain"
+     "facte": "Aivazovsky painted the sea from memory, making nearly 6,000 pictures in his life"
     },
     {
      "k": "hzquote",
@@ -1134,8 +1127,7 @@
      "en": "Wanderer above the Sea of Fog — Caspar David Friedrich, c. 1818",
      "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
      "fact": "Yüzünü hiç görmeyiz; böylece manzaraya onun gözleriyle bakarız",
-     "facte": "We never see his face — so we look at the view through his eyes",
-     "fit": "contain"
+     "facte": "We never see his face — so we look at the view through his eyes"
     },
     {
      "k": "hzphoto",
@@ -1146,8 +1138,7 @@
      "en": "Interior, Strandgade 30 — Vilhelm Hammershøi, 1900",
      "cr": "Eser · Artwork: Vilhelm Hammershøi · kamu malı · public domain · Wikimedia Commons",
      "fact": "“Sessizliğin ressamı”: Kopenhag’daki evinin boş odalarını ve pencere ışığını boyadı",
-     "facte": "“The painter of silence”: he painted the empty rooms and window light of his Copenhagen home",
-     "fit": "contain"
+     "facte": "“The painter of silence”: he painted the empty rooms and window light of his Copenhagen home"
     },
     {
      "k": "hzphoto",
@@ -1158,8 +1149,7 @@
      "en": "The Milkmaid — Johannes Vermeer, c. 1658",
      "cr": "Eser · Artwork: Johannes Vermeer · kamu malı · public domain · Wikimedia Commons",
      "fact": "Küçücük bir tablo (45 × 41 cm); bugün Amsterdam’daki Rijksmuseum’da",
-     "facte": "A small painting (45 × 41 cm), today in the Rijksmuseum in Amsterdam",
-     "fit": "contain"
+     "facte": "A small painting (45 × 41 cm), today in the Rijksmuseum in Amsterdam"
     }
    ]
   },
@@ -1188,38 +1178,16 @@
      "facte": "A blanket of snow keeps the soil beneath it warm"
     },
     {
-     "k": "hzsteps",
-     "d": 52,
-     "lb": "Sakin Açıklama · Calm Explainer",
-     "q": "Ayılar kış uykusunda ne yapar?",
-     "e": "What do bears do while they hibernate?",
-     "c1": "#121a26",
-     "c2": "#020306",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Kaçkarlar’ın boz ayıları kasımda inine çekilir",
-       "The brown bears of the Kaçkar Mountains retreat to their dens in November",
-       ""
-      ],
-      [
-       "Kalp atışı dakikada 40’tan 10 civarına iner",
-       "Their heart rate drops from about 40 to around 10 beats a minute",
-       ""
-      ],
-      [
-       "Aylarca yemez, içmez — vücudu kendi yağını kullanır",
-       "For months they neither eat nor drink — the body burns its own fat",
-       ""
-      ],
-      [
-       "Baharda uyanır; dişiler inde yavrulamış olur",
-       "They wake in spring — and the mothers have had their cubs in the den",
-       "🐻"
-      ]
-     ],
-     "fin": "Doğanın en uzun ve en derin dinlenmesi",
-     "fine": "Nature’s longest, deepest rest"
+     "cp": "top",
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h12-bear.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Alaska",
+     "tr": "Karlı nehir kıyısında bir boz ayı — kış uykusuna yatmadan önce",
+     "en": "A brown bear on a snowy riverbank, just before its winter sleep",
+     "cr": "Foto · Photo: USFWS Alaska · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Kış uykusunda kalbi dakikada yaklaşık 10 kez atar; aylarca yemez, içmez",
+     "facte": "In hibernation its heart beats about 10 times a minute; for months it neither eats nor drinks"
     },
     {
      "k": "hzphoto",
@@ -1243,15 +1211,15 @@
      "c2": "#020306"
     },
     {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Düşerken hiç ses çıkarmam,<br>ama sabah herkes beni konuşur.<br>Neyim?",
-     "qe": "I make no sound when I fall, but in the morning everyone talks about me. What am I?",
-     "a": "Kar!",
-     "ae": "Snow.",
-     "sec": 16,
-     "c1": "#10162a",
-     "c2": "#020307"
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h12-cabin.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Allgäu Alpleri · Allgäu Alps",
+     "tr": "Karlı bir gecede ışıkları yanan bir dağ evi",
+     "en": "A mountain hut glowing on a snowy night",
+     "cr": "Foto · Photo: Markus Trienke · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kar sesi yutar: taze kar yağdığında dünya gerçekten daha sessizdir",
+     "facte": "Snow swallows sound — after a fresh fall the world really is quieter"
     }
    ]
   },
@@ -1318,15 +1286,16 @@
      "c2": "#020305"
     },
     {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Senindir ama<br>başkaları senden çok kullanır.<br>Nedir?",
-     "qe": "It belongs to you, but other people use it more than you do. What is it?",
-     "a": "Adın!",
-     "ae": "Your name.",
-     "sec": 16,
-     "c1": "#0e1424",
-     "c2": "#020306"
+     "cp": "top",
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h12-orion.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Alaska",
+     "tr": "Karlı dağların üzerinde batan Avcı (Orion) takımyıldızı",
+     "en": "The constellation Orion setting over snowy mountains",
+     "cr": "Foto · Photo: Eric Kilby · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Sol alttaki en parlak yıldız Sirius — gece gökyüzünün en parlak yıldızı",
+     "facte": "The brightest star, lower left, is Sirius — the brightest star in the night sky"
     }
    ]
   }

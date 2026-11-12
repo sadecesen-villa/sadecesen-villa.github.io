@@ -21,8 +21,8 @@ def villa(k,where,tr,en,fact,facte,fit=None):
     it=photo(k,'',tr,en,fact,facte,fit=fit,d=40)
     it['lb']='Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · %s)'%where
     return it
-def art(k,tr,en,fact,facte,who):
-    it=photo(k,'',tr,en,fact,facte,fit='contain',d=44)
+def art(k,tr,en,fact,facte,who,fit=None):
+    it=photo(k,'',tr,en,fact,facte,fit=fit,d=44)
     it['lb']='Gerçek Eser · Real Artwork'
     it['cr']='Eser · Artwork: %s · kamu malı · public domain · Wikimedia Commons'%who
     return it
@@ -147,17 +147,17 @@ S(18,19,'Çay, Kitap ve Oyun · Tea, Books & Games',[
 ]),
 S(19,20,'Antik Harikalar · Ancient Wonders',[
   photo('gobekli','Şanlıurfa','Göbeklitepe — oyma taş sütunlarla dünyanın bilinen en eski tapınak alanlarından biri','Göbekli Tepe — one of the oldest known monumental sites on Earth','Yaklaşık 11.600 yıllık: Stonehenge’den 6.000 yıl daha eski; UNESCO Dünya Mirası','About 11,600 years old — 6,000 years older than Stonehenge; UNESCO World Heritage'),
-  photo('petra','Ürdün · Jordan','Petra’daki el-Hazne — kumtaşı kayaya oyulmuş bir cephe','Al-Khazneh in Petra — a façade carved into sandstone','Nebatiler onu yaklaşık 2.000 yıl önce yukarıdan aşağıya doğru oydu','The Nabataeans carved it about 2,000 years ago, working from the top down',fit='contain'),
+  photo('petra','Ürdün · Jordan','Sik geçidinin sonunda beliren el-Hazne — kumtaşı kayaya oyulmuş bir cephe','Al-Khazneh appearing at the end of the Siq — a façade carved into sandstone','Nebatiler onu yaklaşık 2.000 yıl önce yukarıdan aşağıya doğru oydu','The Nabataeans carved it about 2,000 years ago, working from the top down'),
   photo('celsus','Efes, İzmir · Ephesus','Celsus Kütüphanesi’nin cephesi','The façade of the Library of Celsus','MS 117 civarında tamamlandı; yaklaşık 12.000 parşömen tomarı saklıyordu','Completed around AD 117, it held some 12,000 scrolls'),
-  photo('nemrut','Adıyaman','Nemrut Dağı’nın zirvesindeki dev taş başlar','The giant stone heads on the summit of Mount Nemrut','Kommagene Kralı I. Antiokhos’un anıt mezarı, MÖ 1. yüzyıl, 2.134 m','The tomb-sanctuary of King Antiochus I of Commagene, 1st century BC, 2,134 m',fit='contain'),
-  photo('machu','Peru','Machu Picchu — bulutlara yakın bir İnka kenti','Machu Picchu — an Inca city close to the clouds','Taşlar harçsız ama öyle iyi oturtulmuş ki arasına bıçak girmez','The stones use no mortar, yet fit so tightly a knife blade won’t go between them',fit='contain'),
+  photo('nemrut','Adıyaman','Nemrut Dağı’nın batı terasında Tyche’nin dev taş başı','The giant stone head of Tyche on the western terrace of Mount Nemrut','Kommagene Kralı I. Antiokhos’un anıt mezarı, MÖ 1. yüzyıl, 2.134 m','The tomb-sanctuary of King Antiochus I of Commagene, 1st century BC, 2,134 m'),
+  dict(cp='top',**photo('machu','Peru','Huayna Picchu’dan Machu Picchu — bulutlara yakın bir İnka kenti','Machu Picchu seen from Huayna Picchu — an Inca city close to the clouds','Taşlar harçsız ama öyle iyi oturtulmuş ki arasına bıçak girmez','The stones use no mortar, yet fit so tightly a knife blade won’t go between them')),
   fact('25.000','Efes’in Büyük Tiyatrosu yaklaşık 25.000 kişi alıyordu — mikrofon olmadan','The Great Theatre of Ephesus seated about 25,000 people — with no microphones','Basamakların biçimi sesi en arka sıraya kadar taşır · The shape of the tiers carries sound to the back row','#2a2418','#070604',d=32),
   rid('Taştan yapılmış ama<br>ne ev ne köprü;<br>gölgesiyle saati söyler. Nedir?','Made of stone, yet neither house nor bridge; it tells the time with its shadow. What is it?','Güneş saati!','A sundial.',sec=16,c1='#2a2620',c2='#070605'),
 ]),
 S(20,21,'Mikro Dünya · The Micro World',[
   art('diatom','Diyatomeler — Ernst Haeckel, “Doğadaki Sanat Biçimleri”, 1904','Diatoms — Ernst Haeckel, “Art Forms in Nature”, 1904','Camdan kabuklu bu minik algler, soluduğumuz oksijenin yaklaşık beşte birini üretir','These tiny algae with glass shells make roughly a fifth of the oxygen we breathe','Ernst Haeckel'),
-  photo('pollen','Elektron mikroskobu · Electron microscope','Ayçiçeği, gündüzsefası, gambak ve zambak polenleri (renklendirilmiş)','Pollen grains of sunflower, morning glory, hollyhock and lily (colourised)','Polen kabuğu o kadar dayanıklıdır ki milyonlarca yıl bozulmadan kalabilir','A pollen wall is so tough it can survive for millions of years',fit='contain'),
-  photo('leeuwenhoek','Leeuwenhoek mikroskobu · Leeuwenhoek microscope','Tek mercekli, avuç içi büyüklüğünde bir mikroskop','A palm-sized microscope with a single lens','Antonie van Leeuwenhoek 1676’da bununla bakterileri ilk gören kişi oldu','In 1676 Antonie van Leeuwenhoek became the first person to see bacteria with one like this',fit='contain'),
+  photo('pollen','Elektron mikroskobu · Electron microscope','Ayçiçeği, gündüzsefası, gambak ve zambak polenleri (renklendirilmiş)','Pollen grains of sunflower, morning glory, hollyhock and lily (colourised)','Polen kabuğu o kadar dayanıklıdır ki milyonlarca yıl bozulmadan kalabilir','A pollen wall is so tough it can survive for millions of years'),
+  dict(art('hooke','Bir pire — Robert Hooke, “Micrographia”, 1665','A flea — Robert Hooke, “Micrographia”, 1665','Bu kitap “hücre” kelimesini biyolojiye kazandırdı; Hooke mantarı mikroskopta inceleyince gördüğü odacıklara “cell” dedi','This book gave biology the word “cell” — Hooke’s name for the tiny chambers he saw in cork under the microscope','Robert Hooke'),cr='Eser · Artwork: Robert Hooke, 1665 · Foto · Photo: Wellcome Collection · CC BY 4.0 · Wikimedia Commons'),
   art('radiolaria','Radyolaryalar — Ernst Haeckel, 1904','Radiolarians — Ernst Haeckel, 1904','Bir milimetreden küçük bu canlılar camdan, simetrik iskeletler örer','Smaller than a millimetre, these creatures build symmetrical skeletons of glass','Ernst Haeckel'),
   fact('39 trilyon','Vücudunda yaklaşık 39 trilyon bakteri yaşar — kendi hücrelerin kadar','About 39 trillion bacteria live in your body — roughly as many as your own cells','Çoğu dost: sindirime ve bağışıklığa yardım ederler · Most are friends, helping digestion and immunity','#1c2a26','#040806',d=32),
   rid('Bir insan saçının kalınlığı<br>kaç mikron?<br>1 mi, 10 mu, 70 mi?','How thick is a human hair in microns: 1, 10 or 70?','≈ 70 mikron!','About 70 micrometres — a bacterium is about 1, a pollen grain about 25.',sec=18,c1='#20262c',c2='#050607'),
@@ -172,12 +172,10 @@ S(21,22,'Akşam Galerisi · Evening Gallery',[
 S(22,23,'Sessiz Kış Gecesi · Quiet Winter Night',[
   q('Ne kadar sessizleşirsen|o kadar çok duyarsın','The quieter you become, the more you are able to hear','night',d=46),
   photo('snowforest','Kış · Winter','Karlı ormanda ağaçların arasından süzülen ışık','Light filtering through a snowy forest','Kar örtüsü, altındaki toprağı bir battaniye gibi sıcak tutar','A blanket of snow keeps the soil beneath it warm',d=42),
-  steps('Sakin Açıklama · Calm Explainer','Ayılar kış uykusunda ne yapar?','What do bears do while they hibernate?',
-    [['Kaçkarlar’ın boz ayıları kasımda inine çekilir','The brown bears of the Kaçkar Mountains retreat to their dens in November',''],['Kalp atışı dakikada 40’tan 10 civarına iner','Their heart rate drops from about 40 to around 10 beats a minute',''],['Aylarca yemez, içmez — vücudu kendi yağını kullanır','For months they neither eat nor drink — the body burns its own fat',''],['Baharda uyanır; dişiler inde yavrulamış olur','They wake in spring — and the mothers have had their cubs in the den','🐻']],
-    'Doğanın en uzun ve en derin dinlenmesi','Nature’s longest, deepest rest','#121a26','#020306',gap=6.5,d=52),
+  dict(cp='top',**photo('bear','Alaska','Karlı nehir kıyısında bir boz ayı — kış uykusuna yatmadan önce','A brown bear on a snowy riverbank, just before its winter sleep','Kış uykusunda kalbi dakikada yaklaşık 10 kez atar; aylarca yemez, içmez','In hibernation its heart beats about 10 times a minute; for months it neither eats nor drinks',d=40)),
   photo('frost','Buz çiçekleri · Frost ferns','Soğuk bir gecede cama işlenen buz kristalleri','Ice crystals drawn on a window pane on a cold night','Havadaki su buharı soğuk camın üstünde doğrudan buza dönüşür, eğrelti otu gibi dallanır','Water vapour turns straight to ice on the cold glass and branches like ferns',d=40),
   fact('≈1 saat','Bir kar tanesinin buluttan yere düşmesi yarım saatle bir saat arasında sürebilir','A snowflake can take between half an hour and an hour to fall from its cloud to the ground','Saniyede yalnızca yaklaşık 1 metre · Only about 1 metre per second','#121a28','#020306',d=32),
-  rid('Düşerken hiç ses çıkarmam,<br>ama sabah herkes beni konuşur.<br>Neyim?','I make no sound when I fall, but in the morning everyone talks about me. What am I?','Kar!','Snow.',sec=16,c1='#10162a',c2='#020307'),
+  photo('cabin','Allgäu Alpleri · Allgäu Alps','Karlı bir gecede ışıkları yanan bir dağ evi','A mountain hut glowing on a snowy night','Kar sesi yutar: taze kar yağdığında dünya gerçekten daha sessizdir','Snow swallows sound — after a fresh fall the world really is quieter',d=42),
 ]),
 S(23,26,'İlk Kar · First Snow (sakin · calm)',[
   g('hzsnow',d=80),
@@ -186,7 +184,7 @@ S(23,26,'İlk Kar · First Snow (sakin · calm)',[
     [['Trabzon, Dünya’nın dönüşüyle saatte ≈1.260 km hızla döner','Trabzon spins with the Earth at ≈1,260 km/h','≈10.000 km'],['Dünya, Güneş’in çevresinde saatte ≈107.000 km gider','Earth travels round the Sun at ≈107,000 km/h','≈860.000 km'],['Güneş de galaksinin çevresinde dolanır','And the Sun circles the galaxy','≈6,6 milyon km'],['Ve sen hiç kıpırdamadan dinlenirsin','And you rest without moving at all','☾']],
     'Yarın sabah, bambaşka bir uzay noktasında uyanacaksın','Tomorrow morning you will wake in a completely different spot in space','#0e1624','#020306',gap=7,d=54,bg='stars'),
   fact('½','Yunuslar beynin yarısıyla uyur; diğer yarısı nefes almak için uyanık kalır','Dolphins sleep with half their brain; the other half stays awake to breathe','Sonra iki yarım nöbet değiştirir · Then the halves take turns','#101a26','#020305',d=32),
-  rid('Senindir ama<br>başkaları senden çok kullanır.<br>Nedir?','It belongs to you, but other people use it more than you do. What is it?','Adın!','Your name.',sec=16,c1='#0e1424',c2='#020306'),
+  dict(cp='top',**photo('orion','Alaska','Karlı dağların üzerinde batan Avcı (Orion) takımyıldızı','The constellation Orion setting over snowy mountains','Sol alttaki en parlak yıldız Sirius — gece gökyüzünün en parlak yıldızı','The brightest star, lower left, is Sirius — the brightest star in the night sky',d=44)),
 ]),
 ]
 json.dump(dict(date=DATE,rev=REV,_note='Hourly sets for the villa TV. Built by days/build_2026-11-12.py. Content log: used-content.md',sets=sets),open('/workspace/tv-pages/days/%s.json'%DATE,'w'),ensure_ascii=False,indent=1)

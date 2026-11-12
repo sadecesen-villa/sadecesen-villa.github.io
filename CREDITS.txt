@@ -214,18 +214,14 @@ m/h12-wadirum.jpg — Wadi rum desert.jpg — Peter Chisholm — CC0 — https:/
 m/h12-atacama.jpg — Life in the desert (alma-itp-09).tiff — ESO — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Life_in_the_desert_(alma-itp-09).tiff
 m/h12-erg.jpg — Morocco Africa Flickr Rosino December 2005 84514010 edited by Buchling.jpg — Rosa Cabecinhas and Alcino Cunha — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Morocco_Africa_Flickr_Rosino_December_2005_84514010_edited_by_Buchling.jpg
 m/h12-gobekli.jpg — Göbekli Tepe, Urfa.jpg — Teomancimit — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg
-m/h12-petra.jpg — Al Khazneh Petra edit 2.jpg — Al_Khazneh_Petra.jpg: Graham Racher from London, UK derivative work: MrPanyGoff — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Al_Khazneh_Petra_edit_2.jpg
 m/h12-celsus.jpg — Ephesus Celsus Library Façade.jpg — Benh LIEU SONG — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Ephesus_Celsus_Library_Fa%C3%A7ade.jpg
-m/h12-nemrut.jpg — Nemrut Dağı 05.jpg — Bernard Gagnon — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Nemrut_Da%C4%9F%C4%B1_05.jpg
-m/h12-machu.jpg — 80 - Machu Picchu - Juin 2009 - edit.jpg — Martin St-Amant (S23678) — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg
-m/h12-diatom.jpg — Haeckel Diatomea.jpg — Ernst Haeckel — Public domain — https://commons.wikimedia.org/wiki/File:Haeckel_Diatomea.jpg
-m/h12-radiolaria.jpg — Haeckel Spumellaria.jpg — Ernst Haeckel — Public domain — https://commons.wikimedia.org/wiki/File:Haeckel_Spumellaria.jpg
+m/h12-diatom.jpg — Haeckel Diatomea.jpg — Ernst Haeckel — Public domain — https://commons.wikimedia.org/wiki/File:Haeckel_Diatomea.jpg (framed on a gallery wall)
+m/h12-radiolaria.jpg — Haeckel Spumellaria.jpg — Ernst Haeckel — Public domain — https://commons.wikimedia.org/wiki/File:Haeckel_Spumellaria.jpg (framed on a gallery wall)
 m/h12-pollen.jpg — Misc pollen colorized.jpg — Dartmouth Electron Microscope Facility, Dartmouth College — Public domain — https://commons.wikimedia.org/wiki/File:Misc_pollen_colorized.jpg
-m/h12-leeuwenhoek.jpg — Leeuwenhoek Microscope.png — Jeroen Rouwkema — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Leeuwenhoek_Microscope.png
 m/h12-ninthwave.jpg — Aivazovsky, Ivan - The Ninth Wave.jpg — Ivan Aivazovsky — Public domain — https://commons.wikimedia.org/wiki/File:Aivazovsky,_Ivan_-_The_Ninth_Wave.jpg
-m/h12-wanderer.jpg — Caspar David Friedrich - Wanderer above the sea of fog.jpg — Caspar David Friedrich — Public domain — https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg
-m/h12-hammershoi.jpg — Vilhelm Hammershøi, Interiør fra Strandgade 30, 1900.jpg — Vilhelm Hammershøi — Public domain — https://commons.wikimedia.org/wiki/File:Vilhelm_Hammersh%C3%B8i,_Interi%C3%B8r_fra_Strandgade_30,_1900.jpg
-m/h12-milkmaid.jpg — Johannes Vermeer - Het melkmeisje - Google Art Project.jpg — Johannes Vermeer — Public domain — https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg
+m/h12-wanderer.jpg — Caspar David Friedrich - Wanderer above the sea of fog.jpg — Caspar David Friedrich — Public domain — https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg (framed on a gallery wall)
+m/h12-hammershoi.jpg — Vilhelm Hammershøi, Interiør fra Strandgade 30, 1900.jpg — Vilhelm Hammershøi — Public domain — https://commons.wikimedia.org/wiki/File:Vilhelm_Hammersh%C3%B8i,_Interi%C3%B8r_fra_Strandgade_30,_1900.jpg (framed on a gallery wall)
+m/h12-milkmaid.jpg — Johannes Vermeer - Het melkmeisje - Google Art Project.jpg — Johannes Vermeer — Public domain — https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg (framed on a gallery wall)
 m/h12-sauna.jpg — Wood stove of smoke sauna of Kuusijärvi, Kuninkaanmäki, Vantaa, Finland, 2023 April.jpg — Ximonic (Simo Räsänen) — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Wood_stove_of_smoke_sauna_of_Kuusij%C3%A4rvi,_Kuninkaanm%C3%A4ki,_Vantaa,_Finland,_2023_April.jpg
 m/h12-frost.jpg — Ice Crystals on Window Pane.jpg — Jojoo64 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Ice_Crystals_on_Window_Pane.jpg
 m/h12-snowforest.jpg — Sunlight in the snowy forest 1.jpg — Antoloji — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sunlight_in_the_snowy_forest_1.jpg
@@ -235,3 +231,10 @@ m/h12-e18-tea.jpg — Glass tea cup.jpg — Zeynel Cebeci — CC BY-SA 4.0 — h
 m/h12-e18-tavla.jpg — Tavli Board with slots – Isolated.png — Nikos Kitsakis — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Tavli_Board_with_slots_%E2%80%93_Isolated.png (placed on black, hinges retouched)
 m/h12-e18-library.jpg — Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg — Diliff — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg
 m/h12-e18-chess.jpg — Game, chess (51360310313).jpg — Auckland Museum Collections — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Game,_chess_(51360310313).jpg
+m/h12-petra.jpg — The Treasury (Al Khazneh) seen from the Siq, Petra - 2258353817.jpg — twiga-swala — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:The_Treasury_(Al_Khazneh)_seen_from_the_Siq,_Petra_-_2258353817.jpg
+m/h12-nemrut.jpg — Turecko Nemrut Dağı (18).jpg — Zorka Sojka — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Turecko_Nemrut_Da%C4%9F%C4%B1_(18).jpg
+m/h12-machu.jpg — 99 - Machu Picchu - Juin 2009.edit3.jpg — Martin St-Amant (S23678) — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:99_-_Machu_Picchu_-_Juin_2009.edit3.jpg
+m/h12-hooke.jpg — Robert Hooke, Micrographia, flea Wellcome L0043503.jpg — Wellcome Collection — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Robert_Hooke,_Micrographia,_flea_Wellcome_L0043503.jpg
+m/h12-bear.jpg — Kodiak brown bear in the snow (51941642062).jpg — USFWS Alaska — Public domain — https://commons.wikimedia.org/wiki/File:Kodiak_brown_bear_in_the_snow_(51941642062).jpg
+m/h12-cabin.jpg — Wannenkopfhütte (139486673).jpeg — Markus Trienke — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Wannenkopfh%C3%BCtte_(139486673).jpeg
+m/h12-orion.jpg — Orion Setting Over Snowy Mountain.jpg — Eric Kilby — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Orion_Setting_Over_Snowy_Mountain.jpg
