@@ -241,17 +241,6 @@
   ],
   "q": "Erg Chebbi dunes"
  },
- "mangala": {
-  "title": "Kisolo-board-1965.jpg",
-  "artist": "Eaglegrafix",
-  "lic": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Kisolo-board-1965.jpg",
-  "size": [
-   1440,
-   1080
-  ],
-  "q": "mancala board game"
- },
  "gobekli": {
   "title": "Göbekli Tepe, Urfa.jpg",
   "artist": "Teomancimit",
@@ -438,5 +427,60 @@
    810
   ],
   "q": "File:La verdure d'Hemşin (Bilen köyü).jpg"
+ },
+ "e18-dusk": {
+  "title": "Trabzon Günebakan Köyü Üstü.jpg",
+  "artist": "Muhammet Dilmaç",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Trabzon_G%C3%BCnebakan_K%C3%B6y%C3%BC_%C3%9Cst%C3%BC.jpg",
+  "size": [
+   1920,
+   1080
+  ],
+  "q": ""
+ },
+ "e18-tea": {
+  "title": "Glass tea cup.jpg",
+  "artist": "Zeynel Cebeci",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Glass_tea_cup.jpg",
+  "size": [
+   1920,
+   1080
+  ],
+  "q": ""
+ },
+ "e18-tavla": {
+  "title": "Tavli Board with slots – Isolated.png",
+  "artist": "Nikos Kitsakis",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Tavli_Board_with_slots_%E2%80%93_Isolated.png",
+  "size": [
+   1920,
+   1080
+  ],
+  "q": ""
+ },
+ "e18-library": {
+  "title": "Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg",
+  "artist": "Diliff",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg",
+  "size": [
+   1920,
+   1080
+  ],
+  "q": ""
+ },
+ "e18-chess": {
+  "title": "Game, chess (51360310313).jpg",
+  "artist": "Auckland Museum Collections",
+  "lic": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Game,_chess_(51360310313).jpg",
+  "size": [
+   1920,
+   1080
+  ],
+  "q": ""
  }
 }

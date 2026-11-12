@@ -83,13 +83,14 @@ New hz functions in hourly.js v59: hzturing hzvoronoi hzcollatz hzsnow hzpogg hz
 - 17 | hzphoto | Dünyanın en kurak çölünde, ALMA gözlemevi yakınında yaşayan bir bitki | m/h12-atacama.jpg
 - 17 | hzriddle | Denize hiç girmez ama ona gemi derler. Nedir? | —
 
-### 18:00–19:00 · Zekâ Atölyesi · Brain Workshop
-- 18 | hzsteps | Kurt, keçi ve lahana | —
-- 18 | hzphoto | Mankala ailesinden bir oyun tahtası (kisolo) | m/h12-mangala.jpg
-- 18 | hzriddle | Bir saatin 3’ü vurması 3 saniye sürüyor. 6’yı vurması kaç saniye sürer? | —
-- 18 | hzsteps | 9 nokta, 4 düz çizgi: kalemi kaldırmadan hepsini birleştir | —
-- 18 | hzsteps | Trabzon’da bir günde kaç bardak çay içiliyor? | —
-- 18 | hzfact | Satrançta iki taraf da yalnızca ikişer hamle yaptıktan sonra 197.281 farklı oyun mümkün | —
+### 18:00–19:00 · Çay, Kitap ve Oyun · Tea, Books & Games (rebuilt 12 Nov ~18:25 at M’s request; the original “Zekâ Atölyesi” puzzle set ran only ~25 min, its puzzles may be reused; the mislabelled mangala photo was dropped and archived)
+- 18 | hzphoto | Günebakan köyünün üstünde akşam (Trabzon) | m/h12-e18-dusk.jpg
+- 18 | hzphoto | İnce belli bardakta tavşan kanı çay | m/h12-e18-tea.jpg
+- 18 | hzphoto | Ahşap bir tavla — 15’er pul, iki zar | m/h12-e18-tavla.jpg
+- 18 | hzfact | Şehr-i Suhte: bilinen en eski tavla benzeri takım, ≈5.000 yıllık | —
+- 18 | hzphoto | Trinity College’daki Uzun Oda (Long Room), Dublin | m/h12-e18-library.jpg
+- 18 | hzquote | Kalpten kalbe bir yol vardır | —
+- 18 | hzphoto | Fildişi satranç takımı (Auckland Müzesi) | m/h12-e18-chess.jpg
 
 ### 19:00–20:00 · Antik Harikalar · Ancient Wonders
 - 19 | hzphoto | Göbeklitepe — oyma taş sütunlarla dünyanın bilinen en eski tapınak alanlarından biri | m/h12-gobekli.jpg

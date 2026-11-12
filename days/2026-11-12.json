@@ -858,150 +858,81 @@
   },
   {
    "id": "h-11-12-18",
-   "name": "Zekâ Atölyesi · Brain Workshop",
+   "name": "Çay, Kitap ve Oyun · Tea, Books & Games",
    "from": "2026-11-12T18:00",
    "until": "2026-11-12T19:00",
    "items": [
     {
-     "k": "hzsteps",
-     "d": 62,
-     "lb": "Mantık Bulmacası · Logic Puzzle",
-     "q": "Kurt, keçi ve lahana",
-     "e": "The wolf, the goat and the cabbage",
-     "c1": "#1e2a24",
-     "c2": "#040806",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Kayıkla bir kurt, bir keçi ve bir lahanayı karşıya geçireceksin",
-       "You must ferry a wolf, a goat and a cabbage across a river",
-       ""
-      ],
-      [
-       "Kayığa seninle birlikte sadece biri sığar",
-       "Only one fits in the boat with you",
-       ""
-      ],
-      [
-       "Yalnız kalırsa kurt keçiyi, keçi lahanayı yer",
-       "Left alone, the wolf eats the goat, the goat eats the cabbage",
-       "!"
-      ],
-      [
-       "Önce keçiyi geçir; sonra kurdu geçir ama keçiyi geri getir",
-       "Take the goat first; then the wolf — but bring the goat back",
-       ""
-      ],
-      [
-       "Lahanayı geçir, en son keçiyi al",
-       "Take the cabbage, and finally the goat",
-       "✓"
-      ]
-     ],
-     "fin": "Bazen ileri gitmek için bir şeyi geri getirmek gerekir — York’lu Alcuin, yaklaşık 800",
-     "fine": "Sometimes you must bring something back to move forward — Alcuin of York, c. 800"
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h12-e18-dusk.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon",
+     "tr": "Günebakan köyünün üstünde akşam — güneş tepelerin ardına çekiliyor",
+     "en": "Evening above Günebakan village — the sun slipping behind the hills",
+     "cr": "Foto · Photo: Muhammet Dilmaç · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Karadeniz’de akşam, çayın demlendiği ve sohbetin başladığı saattir",
+     "facte": "On the Black Sea coast, evening is when the tea is brewed and the talk begins"
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h12-mangala.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Uganda, 1965",
-     "tr": "Mankala ailesinden bir oyun tahtası (kisolo)",
-     "en": "A board from the mancala family of games (kisolo)",
-     "cr": "Foto · Photo: Eaglegrafix · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Türkiye’de oynanan mangala da bu çok eski akıl oyunları ailesinden",
-     "facte": "Türkiye’s mangala belongs to this very old family of strategy games",
-     "fit": "contain"
+     "d": 40,
+     "f": "m/h12-e18-tea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İnce belli bardak · Tulip glass",
+     "tr": "İnce belli bardakta tavşan kanı çay",
+     "en": "Tea the colour of “rabbit’s blood” in a tulip glass",
+     "cr": "Foto · Photo: Zeynel Cebeci · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Türkiye, kişi başı çay tüketiminde dünyada ilk sırada: yılda yaklaşık 3 kilo",
+     "facte": "Türkiye drinks more tea per person than any other country — about 3 kg a year"
     },
     {
-     "k": "hzriddle",
-     "d": 42,
-     "q": "Bir saatin 3’ü vurması 3 saniye sürüyor.<br>6’yı vurması<br>kaç saniye sürer?",
-     "qe": "A clock takes 3 seconds to strike 3. How long does it take to strike 6?",
-     "a": "7,5 saniye!",
-     "ae": "3 strikes have 2 gaps of 1.5 s; 6 strikes have 5 gaps → 7.5 s.",
-     "sec": 26,
-     "hint": "Vuruşları değil, aralarındaki boşlukları say · Count the gaps, not the strikes",
-     "c1": "#2a2430",
-     "c2": "#070508"
-    },
-    {
-     "k": "hzsteps",
-     "d": 56,
-     "lb": "Kutunun Dışında · Outside the Box",
-     "q": "9 nokta, 4 düz çizgi: kalemi kaldırmadan hepsini birleştir",
-     "e": "9 dots, 4 straight lines — join them all without lifting your pen",
-     "c1": "#20262e",
-     "c2": "#050607",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Noktalar 3×3 bir kare oluşturuyor",
-       "The dots form a 3×3 square",
-       ""
-      ],
-      [
-       "Çoğu insan çizgileri karenin içinde tutmaya çalışır",
-       "Most people try to keep the lines inside the square",
-       ""
-      ],
-      [
-       "Ama kimse “karenin içinde kal” demedi!",
-       "But nobody said “stay inside the square”!",
-       "!"
-      ],
-      [
-       "Çizgileri karenin dışına taşırınca 4 çizgi yeter",
-       "Let the lines run past the edges, and 4 are enough",
-       "✓"
-      ]
-     ],
-     "fin": "“Kutunun dışında düşünmek” deyiminin bu bulmacadan geldiği söylenir",
-     "fine": "The phrase “thinking outside the box” is said to come from this puzzle"
-    },
-    {
-     "k": "hzsteps",
-     "d": 56,
-     "lb": "Fermi Tahmini · Fermi Estimate",
-     "q": "Trabzon’da bir günde kaç bardak çay içiliyor?",
-     "e": "How many glasses of tea are drunk in Trabzon in a day?",
-     "c1": "#2a2218",
-     "c2": "#070504",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Nüfus ≈ 800.000",
-       "Population ≈ 800,000",
-       ""
-      ],
-      [
-       "Yetişkinler ≈ %70 → ≈ 560.000 kişi",
-       "Adults ≈ 70% → ≈ 560,000 people",
-       ""
-      ],
-      [
-       "Kişi başı günde ≈ 5 bardak",
-       "About 5 glasses each per day",
-       ""
-      ],
-      [
-       "560.000 × 5 ≈",
-       "560,000 × 5 ≈",
-       "≈ 3 milyon · million"
-      ]
-     ],
-     "fin": "Kesin değil ama doğru büyüklükte — Enrico Fermi’nin sevdiği düşünme oyunu",
-     "fine": "Not exact, but the right size — Enrico Fermi’s favourite thinking game"
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h12-e18-tavla.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tavla · Backgammon",
+     "tr": "Ahşap bir tavla — 15’er pul, iki zar ve biraz şans",
+     "en": "A wooden backgammon board — 15 checkers each, two dice and a little luck",
+     "cr": "Foto · Photo: Nikos Kitsakis · CC BY 4.0 · Wikimedia Commons · siyah zemine alındı, menteşeler rötuşlandı · placed on black, hinges retouched",
+     "fact": "Zar adları Farsça sayılardan gelir: yek, dü, se, cihar, penç, şeş",
+     "facte": "The dice calls come from Persian numbers: yek, dü, se, cihar, penç, şeş"
     },
     {
      "k": "hzfact",
      "d": 30,
-     "big": "197.281",
-     "tr": "Satrançta iki taraf da yalnızca ikişer hamle yaptıktan sonra 197.281 farklı oyun mümkün",
-     "en": "After just two moves each, there are 197,281 possible chess games",
-     "src": "Hamle sayısı arttıkça sayı, evrendeki atomlardan bile fazla olur · Soon the count exceeds the atoms in the universe",
-     "c1": "#1c2228",
-     "c2": "#040506"
+     "big": "≈5.000",
+     "tr": "Bilinen en eski tavla benzeri oyun takımı İran’daki Şehr-i Suhte’de bulundu: yaklaşık 5.000 yıllık",
+     "en": "The oldest known backgammon-like set was found at Shahr-e Sukhteh in Iran — about 5,000 years old",
+     "src": "Tahta bir oyun tahtası, 60 taş ve iki zarla birlikte · With a wooden board, 60 pieces and two dice",
+     "c1": "#2a2018",
+     "c2": "#070504"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h12-e18-library.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Dublin, İrlanda · Ireland",
+     "tr": "Trinity College’daki Uzun Oda — 65 metrelik bir kitap salonu",
+     "en": "The Long Room at Trinity College — a 65-metre hall of books",
+     "cr": "Foto · Photo: Diliff · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "1732’de tamamlandı; rafları kütüphanenin en eski 200.000 kitabına ev sahipliği yaptı",
+     "facte": "Completed in 1732, its shelves have held some 200,000 of the library’s oldest books"
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Kalpten kalbe|bir yol vardır",
+     "en": "There is a road from heart to heart",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h12-e18-chess.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Auckland Müzesi · Auckland Museum",
+     "tr": "Fildişi bir satranç takımı — oyuna dizilmiş beyaz taşlar",
+     "en": "An ivory chess set — the white pieces lined up for play",
+     "cr": "Foto · Photo: Auckland Museum Collections · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Her figürün altında iç içe oyulmuş “Çin bulmaca topları” var: tek parçadan, top içinde top",
+     "facte": "Under each figure sit carved “Chinese puzzle balls” — cut from one piece, a ball inside a ball"
     }
    ]
   },

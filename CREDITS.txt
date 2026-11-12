@@ -213,7 +213,6 @@ m/h12-deadvlei.jpg — 054e Dead camel thorn tree in Deadvlei Photo by Giles Lau
 m/h12-wadirum.jpg — Wadi rum desert.jpg — Peter Chisholm — CC0 — https://commons.wikimedia.org/wiki/File:Wadi_rum_desert.jpg
 m/h12-atacama.jpg — Life in the desert (alma-itp-09).tiff — ESO — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Life_in_the_desert_(alma-itp-09).tiff
 m/h12-erg.jpg — Morocco Africa Flickr Rosino December 2005 84514010 edited by Buchling.jpg — Rosa Cabecinhas and Alcino Cunha — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Morocco_Africa_Flickr_Rosino_December_2005_84514010_edited_by_Buchling.jpg
-m/h12-mangala.jpg — Kisolo-board-1965.jpg — Eaglegrafix — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Kisolo-board-1965.jpg
 m/h12-gobekli.jpg — Göbekli Tepe, Urfa.jpg — Teomancimit — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg
 m/h12-petra.jpg — Al Khazneh Petra edit 2.jpg — Al_Khazneh_Petra.jpg: Graham Racher from London, UK derivative work: MrPanyGoff — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Al_Khazneh_Petra_edit_2.jpg
 m/h12-celsus.jpg — Ephesus Celsus Library Façade.jpg — Benh LIEU SONG — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Ephesus_Celsus_Library_Fa%C3%A7ade.jpg
@@ -231,3 +230,8 @@ m/h12-sauna.jpg — Wood stove of smoke sauna of Kuusijärvi, Kuninkaanmäki, Va
 m/h12-frost.jpg — Ice Crystals on Window Pane.jpg — Jojoo64 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Ice_Crystals_on_Window_Pane.jpg
 m/h12-snowforest.jpg — Sunlight in the snowy forest 1.jpg — Antoloji — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sunlight_in_the_snowy_forest_1.jpg
 m/h12-hemsin.jpg — La verdure d'Hemşin (Bilen köyü).jpg — Laurent DAVOU — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:La_verdure_d%27Hem%C5%9Fin_(Bilen_k%C3%B6y%C3%BC).jpg
+m/h12-e18-dusk.jpg — Trabzon Günebakan Köyü Üstü.jpg — Muhammet Dilmaç — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trabzon_G%C3%BCnebakan_K%C3%B6y%C3%BC_%C3%9Cst%C3%BC.jpg
+m/h12-e18-tea.jpg — Glass tea cup.jpg — Zeynel Cebeci — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Glass_tea_cup.jpg
+m/h12-e18-tavla.jpg — Tavli Board with slots – Isolated.png — Nikos Kitsakis — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Tavli_Board_with_slots_%E2%80%93_Isolated.png (placed on black, hinges retouched)
+m/h12-e18-library.jpg — Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg — Diliff — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg
+m/h12-e18-chess.jpg — Game, chess (51360310313).jpg — Auckland Museum Collections — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Game,_chess_(51360310313).jpg
