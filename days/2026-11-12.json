@@ -1,0 +1,1403 @@
+{
+ "date": "2026-11-12",
+ "rev": 59,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-12.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-12-09",
+   "name": "Vadilerin Sesi · Voices of the Valleys",
+   "from": "2026-11-12T09:00",
+   "until": "2026-11-12T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-zilkale.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çamlıhemşin, Rize",
+     "tr": "Zilkale — Fırtına Vadisi’nde ormanın içinden yükselen bir ortaçağ kalesi",
+     "en": "Zilkale — a medieval castle rising out of the forest in the Fırtına Valley",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "fact": "Sabah sisinde kale, ağaçların üstünde yüzüyormuş gibi görünür",
+     "facte": "In the morning mist the castle seems to float above the trees"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Bir işi ruhundan yaptığında|içinde akan bir nehir hissedersin",
+     "en": "When you do things from your soul, you feel a river moving in you — a joy",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-hemsin.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hemşin, Rize",
+     "tr": "Bilen köyü — yemyeşil yamaçlara serpilmiş evler",
+     "en": "Bilen village — houses scattered over bright green slopes",
+     "cr": "Foto · Photo: Laurent DAVOU · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Doğu Karadeniz yılda 2.000 mm’yi aşan yağışıyla Türkiye’nin en yeşil köşesi",
+     "facte": "With over 2,000 mm of rain a year, the eastern Black Sea is Türkiye’s greenest corner"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Kuş dili",
+     "tr": "Giresun’un Kuşköy’ünde insanlar ıslıkla konuşur: kelimeler bir vadiden ötekine ıslık olarak taşınır",
+     "en": "In Kuşköy, Giresun, people talk by whistling — words travel from one valley to the next as whistles",
+     "src": "UNESCO acil koruma listesinde, 2017 · On UNESCO’s urgent safeguarding list, 2017",
+     "c1": "#1e2c24",
+     "c2": "#040805"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Yeşil yaprak nasıl siyah çaya dönüşür?",
+     "e": "How does a green leaf become black tea?",
+     "c1": "#22301e",
+     "c2": "#050804",
+     "gap": 5.5,
+     "steps": [
+      [
+       "Taze filizler, “iki yaprak bir tomurcuk” toplanır",
+       "Fresh shoots are picked: “two leaves and a bud”",
+       ""
+      ],
+      [
+       "Yapraklar birkaç saat soldurulur, yumuşar",
+       "The leaves are withered for hours until soft",
+       ""
+      ],
+      [
+       "Kıvrılıp ezilir, hücreler açılır",
+       "They are rolled and crushed, opening the cells",
+       ""
+      ],
+      [
+       "Havayla buluşan özsu kararır",
+       "The juice meets the air and darkens",
+       "oksidasyon · oxidation"
+      ],
+      [
+       "Kurutulur — ve demliğe hazır",
+       "Then dried — and ready for the teapot",
+       "☕"
+      ]
+     ],
+     "fin": "Yeşil çay da aynı yapraktan yapılır — sadece kararmasına izin verilmez",
+     "fine": "Green tea comes from the same leaf — it just isn’t allowed to darken"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-boztepe.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon",
+     "tr": "Boztepe’den akşam Trabzon — şehrin ışıkları ve Karadeniz",
+     "en": "Trabzon at dusk from Boztepe — the city lights and the Black Sea",
+     "cr": "Foto · Photo: Onur capıt · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Boztepe’nin çay bahçeleri şehrin en sevilen manzara noktalarından",
+     "facte": "Boztepe’s tea gardens are among the city’s favourite viewpoints"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Yatağı var ama hiç uyumaz,<br>ağzı var ama hiç konuşmaz.<br>Nedir?",
+     "qe": "It has a bed but never sleeps, a mouth but never speaks. What is it?",
+     "a": "Dere — ya da nehir!",
+     "ae": "A river: it has a bed and a mouth.",
+     "sec": 16,
+     "c1": "#1c2c2a",
+     "c2": "#040807"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-10",
+   "name": "Turing’in Desenleri · Turing Patterns",
+   "from": "2026-11-12T10:00",
+   "until": "2026-11-12T11:00",
+   "items": [
+    {
+     "k": "hzturing",
+     "d": 72
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-leopard.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kar leoparı · Snow leopard",
+     "tr": "Kar leoparının benekleri: kayalık dağlarda kusursuz bir kamuflaj",
+     "en": "A snow leopard’s rosettes: perfect camouflage on rocky mountains",
+     "cr": "Foto · Photo: Tambako The Jaguar / Niabot · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Kalın, uzun kuyruğunu denge için ve uyurken atkı gibi sarınmak için kullanır",
+     "facte": "It uses its long, thick tail for balance — and wraps it round like a scarf when sleeping",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "1952",
+     "tr": "Alan Turing son makalelerinden birinde, hayvan desenlerinin iki kimyasalın yarışından doğabileceğini yazdı",
+     "en": "In one of his last papers, Alan Turing wrote that animal patterns could come from a race between two chemicals",
+     "src": "“Morfogenezin Kimyasal Temeli” · “The Chemical Basis of Morphogenesis”",
+     "c1": "#28201a",
+     "c2": "#070504"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-zebra.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Etosha, Namibya · Namibia",
+     "tr": "Ova zebrasının gözü ve çizgileri",
+     "en": "A plains zebra’s eye and stripes",
+     "cr": "Foto · Photo: Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Her zebranın çizgileri parmak izi gibi kendine özgüdür",
+     "facte": "Every zebra’s stripes are unique, like a fingerprint"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-puffer.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Benekli balon balığı · Guineafowl puffer",
+     "tr": "Balon balığının sarı renk formu",
+     "en": "The golden colour form of a guineafowl puffer",
+     "cr": "Foto · Photo: H. Zell · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Tehlikede su yutarak kendini top gibi şişirir",
+     "facte": "In danger it gulps water and puffs up like a ball",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Zebra beyaz üstüne siyah çizgili mi,<br>yoksa siyah üstüne beyaz mı?",
+     "qe": "Is a zebra black-striped on white, or white-striped on black?",
+     "a": "Siyah üstüne beyaz!",
+     "ae": "Its skin is black underneath — the white stripes are hair without pigment.",
+     "sec": 18,
+     "c1": "#26262a",
+     "c2": "#060607"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-11",
+   "name": "Düşünce Deneyleri · Thought Experiments",
+   "from": "2026-11-12T11:00",
+   "until": "2026-11-12T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-pisa.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Pisa, İtalya · Italy",
+     "tr": "Pisa Katedrali ve eğik kulesi, gün doğumunda",
+     "en": "Pisa Cathedral and its leaning tower at sunrise",
+     "cr": "Foto · Photo: MHoser · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Galileo’nun kuleden top attığı anlatılır — muhtemelen hiç yapmadı; asıl kanıtı bir düşünce deneyiydi",
+     "facte": "Galileo is said to have dropped balls from the tower — he probably never did; his real proof was a thought experiment"
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Galileo: ağır cisimler daha mı hızlı düşer?",
+     "e": "Galileo: do heavy things fall faster?",
+     "c1": "#1e2632",
+     "c2": "#040608",
+     "gap": 6,
+     "steps": [
+      [
+       "Diyelim ki ağır taş hızlı, hafif taş yavaş düşüyor",
+       "Suppose a heavy stone falls fast and a light one slowly",
+       ""
+      ],
+      [
+       "İkisini bir iple birbirine bağla",
+       "Tie the two together with a string",
+       ""
+      ],
+      [
+       "Hafif taş ağırı frenlemeli: ikili daha yavaş düşer",
+       "The light one should hold the heavy one back: the pair falls slower",
+       "?"
+      ],
+      [
+       "Ama ikili daha ağır: daha hızlı düşmeli!",
+       "But the pair is heavier, so it should fall faster!",
+       "!"
+      ],
+      [
+       "Çelişki: demek ki hepsi aynı hızla düşer",
+       "A contradiction — so they all fall at the same rate",
+       "✓"
+      ]
+     ],
+     "fin": "Hava direnci olmasa tüy ile çekiç aynı anda yere iner — Apollo 15 bunu Ay’da gösterdi",
+     "fine": "Without air, a feather and a hammer land together — Apollo 15 showed it on the Moon"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Akıllılığını sat,|hayret satın al",
+     "en": "Sell your cleverness and buy bewilderment",
+     "pal": "ink"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Newton’un Topu: dağın tepesinden bir top ateşle…",
+     "e": "Newton’s Cannonball: fire a cannon from a mountaintop…",
+     "c1": "#16202e",
+     "c2": "#030508",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Yavaş ateşlersen top yakına düşer",
+       "Fire it slowly and it lands nearby",
+       ""
+      ],
+      [
+       "Daha hızlı ateşle: daha uzağa düşer",
+       "Fire faster: it lands farther away",
+       ""
+      ],
+      [
+       "Dünya yuvarlak — zemin topun altından “kaçar”",
+       "Earth is round — the ground curves away beneath it",
+       ""
+      ],
+      [
+       "Saniyede ≈7,9 km hızla hiç yere değmez!",
+       "At ≈7.9 km per second it never touches down!",
+       "yörünge · orbit"
+      ]
+     ],
+     "fin": "Uydular aslında sürekli düşüyor — ama hep ıskalıyor",
+     "fine": "Satellites are really falling all the time — and always missing",
+     "bg": "stars"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "16 yaş",
+     "tr": "Einstein 16 yaşındayken bir ışık huzmesinin yanında, onunla aynı hızda koştuğunu hayal etti",
+     "en": "At 16, Einstein imagined running alongside a beam of light at the same speed",
+     "src": "Bu hayal, on yıl sonra görelilik kuramına götürdü · Ten years later this daydream led to relativity",
+     "c1": "#202430",
+     "c2": "#050608"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "Bir tuğla 1 kilo<br>artı yarım tuğla geliyor.<br>Bir tuğla kaç kilo?",
+     "qe": "A brick weighs 1 kg plus half a brick. How much does a brick weigh?",
+     "a": "2 kilo!",
+     "ae": "If 1 kg equals half a brick, the whole brick is 2 kg.",
+     "sec": 24,
+     "hint": "“1,5” cevabı tuzak… · “1.5” is the trap…",
+     "c1": "#2c2420",
+     "c2": "#070505"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-12",
+   "name": "Çarşı ve Zanaat · Bazaar & Craft",
+   "from": "2026-11-12T12:00",
+   "until": "2026-11-12T13:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-bazaar.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İstanbul",
+     "tr": "Kapalıçarşı — dünyanın en eski ve en büyük kapalı çarşılarından biri",
+     "en": "The Grand Bazaar — one of the oldest and largest covered markets in the world",
+     "cr": "Foto · Photo: Jorge Franganillo · CC BY 4.0 · Wikimedia Commons",
+     "fact": "1460’larda kuruldu; bugün 60’tan fazla sokak ve yaklaşık 4.000 dükkân",
+     "facte": "Founded in the 1460s; today over 60 streets and about 4,000 shops"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-ebru.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ebru · Paper marbling",
+     "tr": "Ebru sanatçısı suyun üstüne boyayla lale çiziyor",
+     "en": "An ebru artist draws a tulip in paint on water",
+     "cr": "Foto · Photo: Metasqaure10 · CC0 · Wikimedia Commons",
+     "fact": "Her ebru tektir: aynı desen bir daha asla çıkmaz",
+     "facte": "Every ebru is one of a kind — the same pattern never appears twice"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Ebru: resim suyun üstünde nasıl durur?",
+     "e": "Ebru: how does a picture stay on top of water?",
+     "c1": "#1e2a36",
+     "c2": "#04070a",
+     "gap": 5.5,
+     "steps": [
+      [
+       "Su, kitre bitkisinin özüyle koyulaştırılır",
+       "The water is thickened with gum tragacanth",
+       ""
+      ],
+      [
+       "Boyalara biraz sığır ödü katılır — boya yayılır, batmaz",
+       "A little ox gall is added to the paints — they spread instead of sinking",
+       ""
+      ],
+      [
+       "At kılı fırçalarla damla damla serpilir",
+       "Drops are flicked on with horsehair brushes",
+       ""
+      ],
+      [
+       "Bizle desen çizilir, kâğıt yavaşça yüzeye yatırılır",
+       "Patterns are drawn with an awl, then paper is laid gently on top",
+       ""
+      ],
+      [
+       "Kâğıt kaldırılır: resim artık kâğıttadır",
+       "The paper is lifted — and the picture is on it",
+       "✓"
+      ]
+     ],
+     "fin": "Türk ebru sanatı 2014’ten beri UNESCO listesinde",
+     "fine": "Turkish ebru has been on UNESCO’s list since 2014"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-carpet.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Türkiye · Türkiye",
+     "tr": "Tezgâhta halı dokuyan bir kadın",
+     "en": "A woman weaving a carpet on a loom",
+     "cr": "Foto · Photo: clpmag (Flickr) · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Türk düğümü (Gördes düğümü) her ilmeği iki çözgü ipine sarar — halı bu yüzden çok sağlamdır",
+     "facte": "The Turkish (Gördes) knot wraps two warp threads — that’s why the carpets are so strong",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "1.000.000+",
+     "tr": "Bir halıda metrekarede 1 milyondan fazla düğüm olabilir; ipek halılar yıllarca dokunur",
+     "en": "A fine carpet can hold over a million knots per square metre; silk carpets take years to weave",
+     "src": "Hereke halıları bunun en ünlü örnekleri · Hereke carpets are the most famous examples",
+     "c1": "#2a1e22",
+     "c2": "#070506"
+    },
+    {
+     "k": "hzriddle",
+     "d": 42,
+     "q": "Satıcı bir halıyı 100 TL’ye alıp 120’ye sattı,<br>140’a geri alıp 160’a sattı.<br>Kârı ya da zararı ne?",
+     "qe": "A seller buys a carpet for 100, sells it for 120, buys it back for 140 and sells it for 160. Profit or loss?",
+     "a": "40 TL kâr!",
+     "ae": "Two trades, each +20: (120−100) + (160−140) = 40.",
+     "sec": 26,
+     "hint": "İki ayrı alışveriş gibi düşün · Treat it as two separate trades",
+     "c1": "#2a2420",
+     "c2": "#070605"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-13",
+   "name": "Hücrelerin Geometrisi · Geometry of Cells",
+   "from": "2026-11-12T13:00",
+   "until": "2026-11-12T14:00",
+   "items": [
+    {
+     "k": "hzvoronoi",
+     "d": 66
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-honeycomb.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tayvan · Taiwan",
+     "tr": "Kusursuz altıgenler: bal peteği",
+     "en": "Perfect hexagons: a honeycomb",
+     "cr": "Foto · Photo: Jidanni · CC0 · Wikimedia Commons",
+     "fact": "Altıgen, düzlemi en az duvar malzemesiyle eşit parçalara böler — 1999’da kanıtlandı",
+     "facte": "Hexagons divide a plane into equal cells with the least wall material — proved in 1999"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-giraffe.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Masai zürafası · Masai giraffe",
+     "tr": "Zürafaların derisindeki lekeler",
+     "en": "The patches on giraffes’ coats",
+     "cr": "Foto · Photo: shankar s. · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Her zürafanın deseni benzersizdir; desenler anneden yavruya kısmen geçer",
+     "facte": "Every giraffe’s pattern is unique, and patterns are partly passed from mother to calf"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "3 × 120°",
+     "tr": "Köpükte baloncuklar hep üçerli buluşur ve aralarında 120° açı olur",
+     "en": "In foam, bubbles always meet in threes, at 120° to each other",
+     "src": "Plateau yasaları, 1873 · Plateau’s laws, 1873",
+     "c1": "#1c2630",
+     "c2": "#040608"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-foam.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kaliforniya · California",
+     "tr": "Planktonların oluşturduğu deniz köpüğü",
+     "en": "Sea foam created by plankton",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Her baloncuk, komşularıyla en kısa sınırı paylaşmaya çalışır",
+     "facte": "Each bubble tries to share the shortest possible border with its neighbours"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-dragonfly.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Yusufçuk · Dragonfly",
+     "tr": "Bir dala tünemiş yusufçuk",
+     "en": "A dragonfly perched on a twig",
+     "cr": "Foto · Photo: TausifAlHossain · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kanatlarındaki ince damarlar küçük hücrelere bölünmüştür; dört kanadını ayrı ayrı oynatabilir",
+     "facte": "Fine veins split its wings into tiny cells, and it can move all four wings independently"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hangi şekil zemini<br>boşluksuz kaplar:<br>düzgün beşgen mi, altıgen mi?",
+     "qe": "Which shape tiles a floor with no gaps: a regular pentagon or a hexagon?",
+     "a": "Altıgen!",
+     "ae": "Regular pentagons leave gaps; only triangles, squares and hexagons tile perfectly.",
+     "sec": 18,
+     "c1": "#22282e",
+     "c2": "#050607"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-14",
+   "name": "Villa Fikirleri: Kış Ritüelleri · Villa Ideas: Winter Rituals",
+   "from": "2026-11-12T14:00",
+   "until": "2026-11-12T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h12-hamam.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Hürrem Sultan Hamamı, İstanbul)",
+     "tr": "Mermer göbek taşı ve kubbeden süzülen ışık",
+     "en": "A marble heated stone and light falling from the dome",
+     "cr": "Foto · Photo: Satayman · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Mimar Sinan, 1556 — fikir: villada küçük, mermer bir buhar odası",
+     "facte": "Mimar Sinan, 1556 — idea: a small marble steam room at the villa",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "İnsan olmak bir misafirhanedir;|her sabah yeni bir konuk gelir",
+     "en": "This being human is a guest house — every morning a new arrival",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h12-sauna.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Vantaa, Finlandiya · Finland)",
+     "tr": "Geleneksel bir duman saunasının taş sobası",
+     "en": "The stone stove of a traditional smoke sauna",
+     "cr": "Foto · Photo: Ximonic · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Duman saunası en eski sauna türüdür; saatlerce ısıtılır, duman çıkınca girilir",
+     "facte": "The smoke sauna is the oldest kind: heated for hours, used once the smoke has cleared",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "3.300.000",
+     "tr": "5,5 milyon nüfuslu Finlandiya’da yaklaşık 3,3 milyon sauna var",
+     "en": "Finland has about 3.3 million saunas for 5.5 million people",
+     "src": "Fikir: Karadeniz manzaralı bir çatı saunası · Idea: a rooftop sauna with a Black Sea view",
+     "c1": "#2a2420",
+     "c2": "#070605"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h12-onsen.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Akita, Japonya · Japan)",
+     "tr": "Karlar içinde açık hava kaplıcası (rotenburo)",
+     "en": "An open-air hot spring bath (rotenburo) in the snow",
+     "cr": "Foto · Photo: Markmark28 · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Fikir: bahçede sıcak bir dış havuz — kar yağarken içinde oturmak",
+     "facte": "Idea: a hot outdoor tub in the garden — sitting in it while snow falls"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Kış akşamı misafir ritüeli",
+     "e": "A winter-evening ritual for guests",
+     "c1": "#26282c",
+     "c2": "#060607",
+     "gap": 6,
+     "steps": [
+      [
+       "Kapıda yün terlik ve sıcak ıhlamur",
+       "Wool slippers and hot linden tea at the door",
+       ""
+      ],
+      [
+       "Saunada 15 dakika, sonra serin bir duş",
+       "15 minutes in the sauna, then a cool shower",
+       ""
+      ],
+      [
+       "Şöminenin yanında kestane ve mandalina",
+       "Chestnuts and tangerines by the fire",
+       ""
+      ],
+      [
+       "Yatağın üstünde el yazısı bir “iyi geceler” kartı",
+       "A handwritten “good night” card on the bed",
+       ""
+      ]
+     ],
+     "fin": "Küçük ritüeller, sıradan bir geceyi hatırlanan bir geceye çevirir",
+     "fine": "Small rituals turn an ordinary night into one guests remember"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-15",
+   "name": "Sayıların Gizemi · Mysteries of Numbers",
+   "from": "2026-11-12T15:00",
+   "until": "2026-11-12T16:00",
+   "items": [
+    {
+     "k": "hzcollatz",
+     "d": 70
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-ishango.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Brüksel · Brussels",
+     "tr": "Ishango kemiği — üzerinde gruplar hâlinde çentikler olan bir kemik",
+     "en": "The Ishango bone — a bone carved with groups of notches",
+     "cr": "Foto · Photo: JhowieNitnek · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 20.000 yıllık; insanların sayı saymak için kullandığı en eski araçlardan biri olabilir",
+     "facte": "About 20,000 years old — perhaps one of the oldest counting tools ever made",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Akıllı Düşünce · Clever Thinking",
+     "q": "1’den 100’e kadar bütün sayıları hızla nasıl toplarsın?",
+     "e": "How can you quickly add all the numbers from 1 to 100?",
+     "c1": "#1e2430",
+     "c2": "#040608",
+     "gap": 6,
+     "steps": [
+      [
+       "Öğretmen sınıfı oyalamak için bu soruyu sorar",
+       "A teacher asks this to keep the class busy",
+       ""
+      ],
+      [
+       "Küçük Gauss baştan ve sondan eşleştirir: 1+100, 2+99…",
+       "Young Gauss pairs them from both ends: 1+100, 2+99…",
+       ""
+      ],
+      [
+       "Her çift 101 eder ve 50 çift vardır",
+       "Every pair makes 101, and there are 50 pairs",
+       ""
+      ],
+      [
+       "50 × 101 =",
+       "50 × 101 =",
+       "5050"
+      ]
+     ],
+     "fin": "Dakikalar değil, saniyeler — doğru bakış açısının gücü",
+     "fine": "Seconds, not minutes — the power of looking at it the right way"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-ramanujan.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Srinivasa Ramanujan (1887–1920)",
+     "tr": "Kendi kendine matematik öğrenen Hintli dâhi Ramanujan",
+     "en": "Ramanujan, the self-taught mathematical genius",
+     "cr": "Foto · Photo: bilinmeyen fotoğrafçı · unknown photographer · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Hastanede “1729 sıkıcı bir sayı” denince: “Hayır! İki küp toplamı olarak iki farklı şekilde yazılabilen en küçük sayı” dedi",
+     "facte": "Told 1729 was a dull number, he replied: “No! It is the smallest number that is the sum of two cubes in two different ways”",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "10¹⁰⁰",
+     "tr": "1 ve ardından 100 sıfır: “googol”. Adı 1920’de 9 yaşındaki bir çocuk koydu",
+     "en": "1 followed by 100 zeros is a “googol” — named in 1920 by a 9-year-old boy",
+     "src": "Google adını bu sayıdan aldı · Google took its name from it",
+     "c1": "#1a2a26",
+     "c2": "#040806"
+    },
+    {
+     "k": "hzriddle",
+     "d": 42,
+     "q": "Bir sayı düşün. 2 ile çarp, 10 ekle,<br>2’ye böl, sonra düşündüğün<br>sayıyı çıkar. Sonuç kaç?",
+     "qe": "Think of a number. Double it, add 10, halve it, then subtract the number you thought of. What do you get?",
+     "a": "5!",
+     "ae": "Whatever you chose: (2n + 10) ÷ 2 − n = 5.",
+     "sec": 28,
+     "c1": "#22263a",
+     "c2": "#05060a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-16",
+   "name": "Algı ve Gerçek · Perception & Reality",
+   "from": "2026-11-12T16:00",
+   "until": "2026-11-12T17:00",
+   "items": [
+    {
+     "k": "hzwhite",
+     "d": 44
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-mirage.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Neuwerk, Almanya · Germany",
+     "tr": "Fata Morgana: deniz ufkunda gemiler ve kıyı havada asılı gibi",
+     "en": "Fata Morgana: ships and shoreline seem to hang above the sea",
+     "cr": "Foto · Photo: Kirbe · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Gerçek bir görüntü ama yanlış yerde — fotoğraf makinesi de görür",
+     "facte": "A real image in the wrong place — a camera can capture it too"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Serap nasıl oluşur?",
+     "e": "How does a mirage form?",
+     "c1": "#1e2a34",
+     "c2": "#04070a",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Işık, farklı sıcaklıktaki hava katmanlarından geçerken bükülür",
+       "Light bends when it passes through layers of air at different temperatures",
+       ""
+      ],
+      [
+       "Sıcak asfaltta ışık yukarı kıvrılır",
+       "Over hot asphalt, light curves upward",
+       ""
+      ],
+      [
+       "Gördüğün “su birikintisi” aslında gökyüzünün yansıması",
+       "The “puddle” you see is really a reflection of the sky",
+       "!"
+      ],
+      [
+       "Soğuk denizin üstünde ise ışık aşağı kıvrılır — uzak gemiler havada görünür",
+       "Over cold sea, light curves down — distant ships appear in the air",
+       "Fata Morgana"
+      ]
+     ],
+     "fin": "Beynin ışığın düz gittiğini varsayar — serap bu varsayımın faturası",
+     "fine": "Your brain assumes light travels straight — a mirage is the price of that assumption"
+    },
+    {
+     "k": "hzpogg",
+     "d": 42
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "%30",
+     "tr": "Beyin kabuğunun yaklaşık üçte biri görmeyle ilgili işlere ayrılır",
+     "en": "Around a third of the brain’s cortex is involved in vision",
+     "src": "Gördüğün şey, gözünün değil beyninin çizdiği bir resimdir · What you see is a picture painted by your brain, not your eye",
+     "c1": "#24202c",
+     "c2": "#060508"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ne kadar yaklaşırsan<br>o kadar uzaklaşır.<br>Nedir?",
+     "qe": "The closer you get, the farther it moves away. What is it?",
+     "a": "Ufuk — ya da serap!",
+     "ae": "The horizon — or a mirage.",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#05080a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-17",
+   "name": "Çöllerin Sessizliği · The Silence of Deserts",
+   "from": "2026-11-12T17:00",
+   "until": "2026-11-12T18:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-deadvlei.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Namib Çölü, Namibya · Namib Desert, Namibia",
+     "tr": "Deadvlei: turuncu kum tepelerinin önünde kurumuş ağaçlar",
+     "en": "Deadvlei: dead trees in front of orange dunes",
+     "cr": "Foto · Photo: Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Ağaçlar yaklaşık 600–700 yıl önce kurudu; hava o kadar kuru ki çürümüyorlar",
+     "facte": "The trees died some 600–700 years ago — the air is so dry they do not rot"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-wadirum.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ürdün · Jordan",
+     "tr": "Wadi Rum: kızıl kumlar ve kumtaşı dağlar",
+     "en": "Wadi Rum: red sand and sandstone mountains",
+     "cr": "Foto · Photo: Peter Chisholm · CC0 · Wikimedia Commons",
+     "fact": "Birçok filmde Mars’ın yerine geçti",
+     "facte": "It has stood in for Mars in several films"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "6.000 yıl önce",
+     "tr": "Sahra yeşildi: göller, çayırlar, zürafalar ve suaygırları vardı",
+     "en": "The Sahara was green: lakes, grasslands, giraffes and hippos",
+     "src": "Kayalara yüzen insan resimleri çizilmiş · People even painted swimmers on its rocks",
+     "c1": "#2a2418",
+     "c2": "#070604"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-erg.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Erg Chebbi, Fas · Morocco",
+     "tr": "Erg Chebbi kumulları",
+     "en": "The dunes of Erg Chebbi",
+     "cr": "Foto · Photo: Rosa Cabecinhas & Alcino Cunha · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Rüzgârın taşıdığı kumdan oluşan kumullar 150 metreye kadar yükselir",
+     "facte": "Wind-blown dunes here rise up to 150 metres",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Deve çölde nasıl hayatta kalır?",
+     "e": "How does a camel survive the desert?",
+     "c1": "#2c2418",
+     "c2": "#070604",
+     "gap": 6,
+     "steps": [
+      [
+       "Hörgücünde su değil, yağ depolar",
+       "Its hump stores fat, not water",
+       ""
+      ],
+      [
+       "10 dakikada 100 litre su içebilir",
+       "It can drink 100 litres of water in ten minutes",
+       ""
+      ],
+      [
+       "Kum fırtınasında burun deliklerini kapatır; çift sıra kirpikleri vardır",
+       "It closes its nostrils in sandstorms and has a double row of eyelashes",
+       ""
+      ],
+      [
+       "Vücut ısısını gün içinde değiştirip terlemeden su biriktirir",
+       "It lets its body temperature swing during the day to save water instead of sweating",
+       ""
+      ]
+     ],
+     "fin": "Bu yüzden ona “çölün gemisi” denir",
+     "fine": "That is why it is called the “ship of the desert”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-atacama.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Atacama Çölü, Şili · Chile",
+     "tr": "Dünyanın en kurak çölünde, ALMA gözlemevi yakınında yaşayan bir bitki",
+     "en": "A plant living near the ALMA observatory in the world’s driest desert",
+     "cr": "Foto · Photo: ESO · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Bazı hava istasyonlarına hiç yağmur düşmedi; nadiren yağınca çöl çiçeklerle kaplanır",
+     "facte": "Some weather stations have never recorded rain; when it rarely does, the desert bursts into flower"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Denize hiç girmez<br>ama ona gemi derler.<br>Nedir?",
+     "qe": "It never goes to sea, yet people call it a ship. What is it?",
+     "a": "Deve!",
+     "ae": "The camel — the ship of the desert.",
+     "sec": 14,
+     "c1": "#2c2418",
+     "c2": "#070604"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-18",
+   "name": "Zekâ Atölyesi · Brain Workshop",
+   "from": "2026-11-12T18:00",
+   "until": "2026-11-12T19:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 62,
+     "lb": "Mantık Bulmacası · Logic Puzzle",
+     "q": "Kurt, keçi ve lahana",
+     "e": "The wolf, the goat and the cabbage",
+     "c1": "#1e2a24",
+     "c2": "#040806",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Kayıkla bir kurt, bir keçi ve bir lahanayı karşıya geçireceksin",
+       "You must ferry a wolf, a goat and a cabbage across a river",
+       ""
+      ],
+      [
+       "Kayığa seninle birlikte sadece biri sığar",
+       "Only one fits in the boat with you",
+       ""
+      ],
+      [
+       "Yalnız kalırsa kurt keçiyi, keçi lahanayı yer",
+       "Left alone, the wolf eats the goat, the goat eats the cabbage",
+       "!"
+      ],
+      [
+       "Önce keçiyi geçir; sonra kurdu geçir ama keçiyi geri getir",
+       "Take the goat first; then the wolf — but bring the goat back",
+       ""
+      ],
+      [
+       "Lahanayı geçir, en son keçiyi al",
+       "Take the cabbage, and finally the goat",
+       "✓"
+      ]
+     ],
+     "fin": "Bazen ileri gitmek için bir şeyi geri getirmek gerekir — York’lu Alcuin, yaklaşık 800",
+     "fine": "Sometimes you must bring something back to move forward — Alcuin of York, c. 800"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-mangala.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Uganda, 1965",
+     "tr": "Mankala ailesinden bir oyun tahtası (kisolo)",
+     "en": "A board from the mancala family of games (kisolo)",
+     "cr": "Foto · Photo: Eaglegrafix · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Türkiye’de oynanan mangala da bu çok eski akıl oyunları ailesinden",
+     "facte": "Türkiye’s mangala belongs to this very old family of strategy games",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 42,
+     "q": "Bir saatin 3’ü vurması 3 saniye sürüyor.<br>6’yı vurması<br>kaç saniye sürer?",
+     "qe": "A clock takes 3 seconds to strike 3. How long does it take to strike 6?",
+     "a": "7,5 saniye!",
+     "ae": "3 strikes have 2 gaps of 1.5 s; 6 strikes have 5 gaps → 7.5 s.",
+     "sec": 26,
+     "hint": "Vuruşları değil, aralarındaki boşlukları say · Count the gaps, not the strikes",
+     "c1": "#2a2430",
+     "c2": "#070508"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Kutunun Dışında · Outside the Box",
+     "q": "9 nokta, 4 düz çizgi: kalemi kaldırmadan hepsini birleştir",
+     "e": "9 dots, 4 straight lines — join them all without lifting your pen",
+     "c1": "#20262e",
+     "c2": "#050607",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Noktalar 3×3 bir kare oluşturuyor",
+       "The dots form a 3×3 square",
+       ""
+      ],
+      [
+       "Çoğu insan çizgileri karenin içinde tutmaya çalışır",
+       "Most people try to keep the lines inside the square",
+       ""
+      ],
+      [
+       "Ama kimse “karenin içinde kal” demedi!",
+       "But nobody said “stay inside the square”!",
+       "!"
+      ],
+      [
+       "Çizgileri karenin dışına taşırınca 4 çizgi yeter",
+       "Let the lines run past the edges, and 4 are enough",
+       "✓"
+      ]
+     ],
+     "fin": "“Kutunun dışında düşünmek” deyiminin bu bulmacadan geldiği söylenir",
+     "fine": "The phrase “thinking outside the box” is said to come from this puzzle"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Fermi Tahmini · Fermi Estimate",
+     "q": "Trabzon’da bir günde kaç bardak çay içiliyor?",
+     "e": "How many glasses of tea are drunk in Trabzon in a day?",
+     "c1": "#2a2218",
+     "c2": "#070504",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Nüfus ≈ 800.000",
+       "Population ≈ 800,000",
+       ""
+      ],
+      [
+       "Yetişkinler ≈ %70 → ≈ 560.000 kişi",
+       "Adults ≈ 70% → ≈ 560,000 people",
+       ""
+      ],
+      [
+       "Kişi başı günde ≈ 5 bardak",
+       "About 5 glasses each per day",
+       ""
+      ],
+      [
+       "560.000 × 5 ≈",
+       "560,000 × 5 ≈",
+       "≈ 3 milyon · million"
+      ]
+     ],
+     "fin": "Kesin değil ama doğru büyüklükte — Enrico Fermi’nin sevdiği düşünme oyunu",
+     "fine": "Not exact, but the right size — Enrico Fermi’s favourite thinking game"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "197.281",
+     "tr": "Satrançta iki taraf da yalnızca ikişer hamle yaptıktan sonra 197.281 farklı oyun mümkün",
+     "en": "After just two moves each, there are 197,281 possible chess games",
+     "src": "Hamle sayısı arttıkça sayı, evrendeki atomlardan bile fazla olur · Soon the count exceeds the atoms in the universe",
+     "c1": "#1c2228",
+     "c2": "#040506"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-19",
+   "name": "Antik Harikalar · Ancient Wonders",
+   "from": "2026-11-12T19:00",
+   "until": "2026-11-12T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-gobekli.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Şanlıurfa",
+     "tr": "Göbeklitepe — oyma taş sütunlarla dünyanın bilinen en eski tapınak alanlarından biri",
+     "en": "Göbekli Tepe — one of the oldest known monumental sites on Earth",
+     "cr": "Foto · Photo: Teomancimit · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 11.600 yıllık: Stonehenge’den 6.000 yıl daha eski; UNESCO Dünya Mirası",
+     "facte": "About 11,600 years old — 6,000 years older than Stonehenge; UNESCO World Heritage"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-petra.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ürdün · Jordan",
+     "tr": "Petra’daki el-Hazne — kumtaşı kayaya oyulmuş bir cephe",
+     "en": "Al-Khazneh in Petra — a façade carved into sandstone",
+     "cr": "Foto · Photo: Graham Racher / MrPanyGoff · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Nebatiler onu yaklaşık 2.000 yıl önce yukarıdan aşağıya doğru oydu",
+     "facte": "The Nabataeans carved it about 2,000 years ago, working from the top down",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-celsus.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Efes, İzmir · Ephesus",
+     "tr": "Celsus Kütüphanesi’nin cephesi",
+     "en": "The façade of the Library of Celsus",
+     "cr": "Foto · Photo: Benh LIEU SONG · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "MS 117 civarında tamamlandı; yaklaşık 12.000 parşömen tomarı saklıyordu",
+     "facte": "Completed around AD 117, it held some 12,000 scrolls"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-nemrut.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Adıyaman",
+     "tr": "Nemrut Dağı’nın zirvesindeki dev taş başlar",
+     "en": "The giant stone heads on the summit of Mount Nemrut",
+     "cr": "Foto · Photo: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kommagene Kralı I. Antiokhos’un anıt mezarı, MÖ 1. yüzyıl, 2.134 m",
+     "facte": "The tomb-sanctuary of King Antiochus I of Commagene, 1st century BC, 2,134 m",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-machu.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Peru",
+     "tr": "Machu Picchu — bulutlara yakın bir İnka kenti",
+     "en": "Machu Picchu — an Inca city close to the clouds",
+     "cr": "Foto · Photo: Martin St-Amant · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Taşlar harçsız ama öyle iyi oturtulmuş ki arasına bıçak girmez",
+     "facte": "The stones use no mortar, yet fit so tightly a knife blade won’t go between them",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "25.000",
+     "tr": "Efes’in Büyük Tiyatrosu yaklaşık 25.000 kişi alıyordu — mikrofon olmadan",
+     "en": "The Great Theatre of Ephesus seated about 25,000 people — with no microphones",
+     "src": "Basamakların biçimi sesi en arka sıraya kadar taşır · The shape of the tiers carries sound to the back row",
+     "c1": "#2a2418",
+     "c2": "#070604"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Taştan yapılmış ama<br>ne ev ne köprü;<br>gölgesiyle saati söyler. Nedir?",
+     "qe": "Made of stone, yet neither house nor bridge; it tells the time with its shadow. What is it?",
+     "a": "Güneş saati!",
+     "ae": "A sundial.",
+     "sec": 16,
+     "c1": "#2a2620",
+     "c2": "#070605"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-20",
+   "name": "Mikro Dünya · The Micro World",
+   "from": "2026-11-12T20:00",
+   "until": "2026-11-12T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h12-diatom.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Diyatomeler — Ernst Haeckel, “Doğadaki Sanat Biçimleri”, 1904",
+     "en": "Diatoms — Ernst Haeckel, “Art Forms in Nature”, 1904",
+     "cr": "Eser · Artwork: Ernst Haeckel · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Camdan kabuklu bu minik algler, soluduğumuz oksijenin yaklaşık beşte birini üretir",
+     "facte": "These tiny algae with glass shells make roughly a fifth of the oxygen we breathe",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-pollen.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Elektron mikroskobu · Electron microscope",
+     "tr": "Ayçiçeği, gündüzsefası, gambak ve zambak polenleri (renklendirilmiş)",
+     "en": "Pollen grains of sunflower, morning glory, hollyhock and lily (colourised)",
+     "cr": "Foto · Photo: Dartmouth Electron Microscope Facility · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Polen kabuğu o kadar dayanıklıdır ki milyonlarca yıl bozulmadan kalabilir",
+     "facte": "A pollen wall is so tough it can survive for millions of years",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h12-leeuwenhoek.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Leeuwenhoek mikroskobu · Leeuwenhoek microscope",
+     "tr": "Tek mercekli, avuç içi büyüklüğünde bir mikroskop",
+     "en": "A palm-sized microscope with a single lens",
+     "cr": "Foto · Photo: Jeroen Rouwkema · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Antonie van Leeuwenhoek 1676’da bununla bakterileri ilk gören kişi oldu",
+     "facte": "In 1676 Antonie van Leeuwenhoek became the first person to see bacteria with one like this",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h12-radiolaria.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Radyolaryalar — Ernst Haeckel, 1904",
+     "en": "Radiolarians — Ernst Haeckel, 1904",
+     "cr": "Eser · Artwork: Ernst Haeckel · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bir milimetreden küçük bu canlılar camdan, simetrik iskeletler örer",
+     "facte": "Smaller than a millimetre, these creatures build symmetrical skeletons of glass",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "39 trilyon",
+     "tr": "Vücudunda yaklaşık 39 trilyon bakteri yaşar — kendi hücrelerin kadar",
+     "en": "About 39 trillion bacteria live in your body — roughly as many as your own cells",
+     "src": "Çoğu dost: sindirime ve bağışıklığa yardım ederler · Most are friends, helping digestion and immunity",
+     "c1": "#1c2a26",
+     "c2": "#040806"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir insan saçının kalınlığı<br>kaç mikron?<br>1 mi, 10 mu, 70 mi?",
+     "qe": "How thick is a human hair in microns: 1, 10 or 70?",
+     "a": "≈ 70 mikron!",
+     "ae": "About 70 micrometres — a bacterium is about 1, a pollen grain about 25.",
+     "sec": 18,
+     "c1": "#20262c",
+     "c2": "#050607"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-21",
+   "name": "Akşam Galerisi · Evening Gallery",
+   "from": "2026-11-12T21:00",
+   "until": "2026-11-12T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h12-ninthwave.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Dokuzuncu Dalga — İvan Ayvazovski, 1850",
+     "en": "The Ninth Wave — Ivan Aivazovsky, 1850",
+     "cr": "Eser · Artwork: Ivan Aivazovsky · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ayvazovski denizi hafızasından boyardı; ömrü boyunca 6.000’e yakın tablo yaptı",
+     "facte": "Aivazovsky painted the sea from memory, making nearly 6,000 pictures in his life",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Gerçekten sevdiğin şeyin|seni sessizce çekmesine izin ver",
+     "en": "Let yourself be silently drawn by the strange pull of what you really love",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h12-wanderer.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Sis Denizinin Üzerindeki Gezgin — Caspar David Friedrich, yaklaşık 1818",
+     "en": "Wanderer above the Sea of Fog — Caspar David Friedrich, c. 1818",
+     "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yüzünü hiç görmeyiz; böylece manzaraya onun gözleriyle bakarız",
+     "facte": "We never see his face — so we look at the view through his eyes",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h12-hammershoi.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Strandgade 30’da İç Mekân — Vilhelm Hammershøi, 1900",
+     "en": "Interior, Strandgade 30 — Vilhelm Hammershøi, 1900",
+     "cr": "Eser · Artwork: Vilhelm Hammershøi · kamu malı · public domain · Wikimedia Commons",
+     "fact": "“Sessizliğin ressamı”: Kopenhag’daki evinin boş odalarını ve pencere ışığını boyadı",
+     "facte": "“The painter of silence”: he painted the empty rooms and window light of his Copenhagen home",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h12-milkmaid.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Sütçü Kız — Johannes Vermeer, yaklaşık 1658",
+     "en": "The Milkmaid — Johannes Vermeer, c. 1658",
+     "cr": "Eser · Artwork: Johannes Vermeer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Küçücük bir tablo (45 × 41 cm); bugün Amsterdam’daki Rijksmuseum’da",
+     "facte": "A small painting (45 × 41 cm), today in the Rijksmuseum in Amsterdam",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-22",
+   "name": "Sessiz Kış Gecesi · Quiet Winter Night",
+   "from": "2026-11-12T22:00",
+   "until": "2026-11-12T23:00",
+   "items": [
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Ne kadar sessizleşirsen|o kadar çok duyarsın",
+     "en": "The quieter you become, the more you are able to hear",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h12-snowforest.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kış · Winter",
+     "tr": "Karlı ormanda ağaçların arasından süzülen ışık",
+     "en": "Light filtering through a snowy forest",
+     "cr": "Foto · Photo: Antoloji · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kar örtüsü, altındaki toprağı bir battaniye gibi sıcak tutar",
+     "facte": "A blanket of snow keeps the soil beneath it warm"
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Sakin Açıklama · Calm Explainer",
+     "q": "Ayılar kış uykusunda ne yapar?",
+     "e": "What do bears do while they hibernate?",
+     "c1": "#121a26",
+     "c2": "#020306",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Kaçkarlar’ın boz ayıları kasımda inine çekilir",
+       "The brown bears of the Kaçkar Mountains retreat to their dens in November",
+       ""
+      ],
+      [
+       "Kalp atışı dakikada 40’tan 10 civarına iner",
+       "Their heart rate drops from about 40 to around 10 beats a minute",
+       ""
+      ],
+      [
+       "Aylarca yemez, içmez — vücudu kendi yağını kullanır",
+       "For months they neither eat nor drink — the body burns its own fat",
+       ""
+      ],
+      [
+       "Baharda uyanır; dişiler inde yavrulamış olur",
+       "They wake in spring — and the mothers have had their cubs in the den",
+       "🐻"
+      ]
+     ],
+     "fin": "Doğanın en uzun ve en derin dinlenmesi",
+     "fine": "Nature’s longest, deepest rest"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h12-frost.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Buz çiçekleri · Frost ferns",
+     "tr": "Soğuk bir gecede cama işlenen buz kristalleri",
+     "en": "Ice crystals drawn on a window pane on a cold night",
+     "cr": "Foto · Photo: Jojoo64 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Havadaki su buharı soğuk camın üstünde doğrudan buza dönüşür, eğrelti otu gibi dallanır",
+     "facte": "Water vapour turns straight to ice on the cold glass and branches like ferns"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "≈1 saat",
+     "tr": "Bir kar tanesinin buluttan yere düşmesi yarım saatle bir saat arasında sürebilir",
+     "en": "A snowflake can take between half an hour and an hour to fall from its cloud to the ground",
+     "src": "Saniyede yalnızca yaklaşık 1 metre · Only about 1 metre per second",
+     "c1": "#121a28",
+     "c2": "#020306"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Düşerken hiç ses çıkarmam,<br>ama sabah herkes beni konuşur.<br>Neyim?",
+     "qe": "I make no sound when I fall, but in the morning everyone talks about me. What am I?",
+     "a": "Kar!",
+     "ae": "Snow.",
+     "sec": 16,
+     "c1": "#10162a",
+     "c2": "#020307"
+    }
+   ]
+  },
+  {
+   "id": "h-11-12-23",
+   "name": "İlk Kar · First Snow (sakin · calm)",
+   "from": "2026-11-12T23:00",
+   "until": "2026-11-13T02:00",
+   "items": [
+    {
+     "k": "hzsnow",
+     "d": 80
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Bir mum, başka bir mumu tutuşturmakla|ışığından bir şey kaybetmez",
+     "en": "A candle loses none of its light by lighting another candle",
+     "pal": "night"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Sakin Yolculuk · Calm Journey",
+     "q": "Sen uyurken yaptığın yolculuk (8 saat)",
+     "e": "The journey you make while you sleep (8 hours)",
+     "c1": "#0e1624",
+     "c2": "#020306",
+     "gap": 7,
+     "steps": [
+      [
+       "Trabzon, Dünya’nın dönüşüyle saatte ≈1.260 km hızla döner",
+       "Trabzon spins with the Earth at ≈1,260 km/h",
+       "≈10.000 km"
+      ],
+      [
+       "Dünya, Güneş’in çevresinde saatte ≈107.000 km gider",
+       "Earth travels round the Sun at ≈107,000 km/h",
+       "≈860.000 km"
+      ],
+      [
+       "Güneş de galaksinin çevresinde dolanır",
+       "And the Sun circles the galaxy",
+       "≈6,6 milyon km"
+      ],
+      [
+       "Ve sen hiç kıpırdamadan dinlenirsin",
+       "And you rest without moving at all",
+       "☾"
+      ]
+     ],
+     "fin": "Yarın sabah, bambaşka bir uzay noktasında uyanacaksın",
+     "fine": "Tomorrow morning you will wake in a completely different spot in space",
+     "bg": "stars"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "½",
+     "tr": "Yunuslar beynin yarısıyla uyur; diğer yarısı nefes almak için uyanık kalır",
+     "en": "Dolphins sleep with half their brain; the other half stays awake to breathe",
+     "src": "Sonra iki yarım nöbet değiştirir · Then the halves take turns",
+     "c1": "#101a26",
+     "c2": "#020305"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Senindir ama<br>başkaları senden çok kullanır.<br>Nedir?",
+     "qe": "It belongs to you, but other people use it more than you do. What is it?",
+     "a": "Adın!",
+     "ae": "Your name.",
+     "sec": 16,
+     "c1": "#0e1424",
+     "c2": "#020306"
+    }
+   ]
+  }
+ ]
+}

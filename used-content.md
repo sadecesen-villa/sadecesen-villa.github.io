@@ -4,6 +4,132 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-12 (rev 59, hourly sets 09:00–02:00, days/2026-11-12.json)
+
+New hz functions in hourly.js v59: hzturing hzvoronoi hzcollatz hzsnow hzpogg hzwhite. Mevlânâ quotes used: Bir işi ruhundan yaptığında… nehir (09), Akıllılığını sat, hayret satın al (11), İnsan olmak bir misafirhanedir (14), Gerçekten sevdiğin şeyin seni sessizce çekmesine izin ver (21), Ne kadar sessizleşirsen o kadar çok duyarsın (22), Bir mum başka bir mumu tutuşturmakla ışığından bir şey kaybetmez (23). requests.md: no pending items.
+
+### 09:00–10:00 · Vadilerin Sesi · Voices of the Valleys
+- 09 | hzphoto | Zilkale — Fırtına Vadisi’nde ormanın içinden yükselen bir ortaçağ kalesi | m/h12-zilkale.jpg
+- 09 | hzquote | Bir işi ruhundan yaptığında içinde akan bir nehir hissedersin | —
+- 09 | hzphoto | Bilen köyü — yemyeşil yamaçlara serpilmiş evler | m/h12-hemsin.jpg
+- 09 | hzfact | Giresun’un Kuşköy’ünde insanlar ıslıkla konuşur: kelimeler bir vadiden ötekine ıslık olarak taşınır | —
+- 09 | hzsteps | Yeşil yaprak nasıl siyah çaya dönüşür? | —
+- 09 | hzphoto | Boztepe’den akşam Trabzon — şehrin ışıkları ve Karadeniz | m/h12-boztepe.jpg
+- 09 | hzriddle | Yatağı var ama hiç uyumaz, ağzı var ama hiç konuşmaz. Nedir? | —
+
+### 10:00–11:00 · Turing’in Desenleri · Turing Patterns
+- 10 | hzturing | NEW Turing patterns (Gray-Scott reaction-diffusion: spots → labyrinth) | —
+- 10 | hzphoto | Kar leoparının benekleri: kayalık dağlarda kusursuz bir kamuflaj | m/h12-leopard.jpg
+- 10 | hzfact | Alan Turing son makalelerinden birinde, hayvan desenlerinin iki kimyasalın yarışından doğabileceğini yazdı | —
+- 10 | hzphoto | Ova zebrasının gözü ve çizgileri | m/h12-zebra.jpg
+- 10 | hzphoto | Balon balığının sarı renk formu | m/h12-puffer.jpg
+- 10 | hzriddle | Zebra beyaz üstüne siyah çizgili mi, yoksa siyah üstüne beyaz mı? | —
+
+### 11:00–12:00 · Düşünce Deneyleri · Thought Experiments
+- 11 | hzphoto | Pisa Katedrali ve eğik kulesi, gün doğumunda | m/h12-pisa.jpg
+- 11 | hzsteps | Galileo: ağır cisimler daha mı hızlı düşer? | —
+- 11 | hzquote | Akıllılığını sat, hayret satın al | —
+- 11 | hzsteps | Newton’un Topu: dağın tepesinden bir top ateşle… | —
+- 11 | hzfact | Einstein 16 yaşındayken bir ışık huzmesinin yanında, onunla aynı hızda koştuğunu hayal etti | —
+- 11 | hzriddle | Bir tuğla 1 kilo artı yarım tuğla geliyor. Bir tuğla kaç kilo? | —
+
+### 12:00–13:00 · Çarşı ve Zanaat · Bazaar & Craft
+- 12 | hzphoto | Kapalıçarşı — dünyanın en eski ve en büyük kapalı çarşılarından biri | m/h12-bazaar.jpg
+- 12 | hzphoto | Ebru sanatçısı suyun üstüne boyayla lale çiziyor | m/h12-ebru.jpg
+- 12 | hzsteps | Ebru: resim suyun üstünde nasıl durur? | —
+- 12 | hzphoto | Tezgâhta halı dokuyan bir kadın | m/h12-carpet.jpg
+- 12 | hzfact | Bir halıda metrekarede 1 milyondan fazla düğüm olabilir; ipek halılar yıllarca dokunur | —
+- 12 | hzriddle | Satıcı bir halıyı 100 TL’ye alıp 120’ye sattı, 140’a geri alıp 160’a sattı. Kârı ya da zararı ne? | —
+
+### 13:00–14:00 · Hücrelerin Geometrisi · Geometry of Cells
+- 13 | hzvoronoi | NEW Voronoi cells growing (giraffe coat → stained glass) | —
+- 13 | hzphoto | Kusursuz altıgenler: bal peteği | m/h12-honeycomb.jpg
+- 13 | hzphoto | Zürafaların derisindeki lekeler | m/h12-giraffe.jpg
+- 13 | hzfact | Köpükte baloncuklar hep üçerli buluşur ve aralarında 120° açı olur | —
+- 13 | hzphoto | Planktonların oluşturduğu deniz köpüğü | m/h12-foam.jpg
+- 13 | hzphoto | Bir dala tünemiş yusufçuk | m/h12-dragonfly.jpg
+- 13 | hzriddle | Hangi şekil zemini boşluksuz kaplar: düzgün beşgen mi, altıgen mi? | —
+
+### 14:00–15:00 · Villa Fikirleri: Kış Ritüelleri · Villa Ideas: Winter Rituals
+- 14 | hzphoto | Mermer göbek taşı ve kubbeden süzülen ışık | m/h12-hamam.jpg
+- 14 | hzquote | İnsan olmak bir misafirhanedir; her sabah yeni bir konuk gelir | —
+- 14 | hzphoto | Geleneksel bir duman saunasının taş sobası | m/h12-sauna.jpg
+- 14 | hzfact | 5,5 milyon nüfuslu Finlandiya’da yaklaşık 3,3 milyon sauna var | —
+- 14 | hzphoto | Karlar içinde açık hava kaplıcası (rotenburo) | m/h12-onsen.jpg
+- 14 | hzsteps | Kış akşamı misafir ritüeli | —
+
+### 15:00–16:00 · Sayıların Gizemi · Mysteries of Numbers
+- 15 | hzcollatz | NEW Collatz seaweed (paths of 1–4000 back to 1) | —
+- 15 | hzphoto | Ishango kemiği — üzerinde gruplar hâlinde çentikler olan bir kemik | m/h12-ishango.jpg
+- 15 | hzsteps | 1’den 100’e kadar bütün sayıları hızla nasıl toplarsın? | —
+- 15 | hzphoto | Kendi kendine matematik öğrenen Hintli dâhi Ramanujan | m/h12-ramanujan.jpg
+- 15 | hzfact | 1 ve ardından 100 sıfır: “googol”. Adı 1920’de 9 yaşındaki bir çocuk koydu | —
+- 15 | hzriddle | Bir sayı düşün. 2 ile çarp, 10 ekle, 2’ye böl, sonra düşündüğün sayıyı çıkar. Sonuç kaç? | —
+
+### 16:00–17:00 · Algı ve Gerçek · Perception & Reality
+- 16 | hzwhite | NEW White’s illusion (identical grey bars) | —
+- 16 | hzphoto | Fata Morgana: deniz ufkunda gemiler ve kıyı havada asılı gibi | m/h12-mirage.jpg
+- 16 | hzsteps | Serap nasıl oluşur? | —
+- 16 | hzpogg | NEW Poggendorff illusion (A/B/C line behind a band) | —
+- 16 | hzfact | Beyin kabuğunun yaklaşık üçte biri görmeyle ilgili işlere ayrılır | —
+- 16 | hzriddle | Ne kadar yaklaşırsan o kadar uzaklaşır. Nedir? | —
+
+### 17:00–18:00 · Çöllerin Sessizliği · The Silence of Deserts
+- 17 | hzphoto | Deadvlei: turuncu kum tepelerinin önünde kurumuş ağaçlar | m/h12-deadvlei.jpg
+- 17 | hzphoto | Wadi Rum: kızıl kumlar ve kumtaşı dağlar | m/h12-wadirum.jpg
+- 17 | hzfact | Sahra yeşildi: göller, çayırlar, zürafalar ve suaygırları vardı | —
+- 17 | hzphoto | Erg Chebbi kumulları | m/h12-erg.jpg
+- 17 | hzsteps | Deve çölde nasıl hayatta kalır? | —
+- 17 | hzphoto | Dünyanın en kurak çölünde, ALMA gözlemevi yakınında yaşayan bir bitki | m/h12-atacama.jpg
+- 17 | hzriddle | Denize hiç girmez ama ona gemi derler. Nedir? | —
+
+### 18:00–19:00 · Zekâ Atölyesi · Brain Workshop
+- 18 | hzsteps | Kurt, keçi ve lahana | —
+- 18 | hzphoto | Mankala ailesinden bir oyun tahtası (kisolo) | m/h12-mangala.jpg
+- 18 | hzriddle | Bir saatin 3’ü vurması 3 saniye sürüyor. 6’yı vurması kaç saniye sürer? | —
+- 18 | hzsteps | 9 nokta, 4 düz çizgi: kalemi kaldırmadan hepsini birleştir | —
+- 18 | hzsteps | Trabzon’da bir günde kaç bardak çay içiliyor? | —
+- 18 | hzfact | Satrançta iki taraf da yalnızca ikişer hamle yaptıktan sonra 197.281 farklı oyun mümkün | —
+
+### 19:00–20:00 · Antik Harikalar · Ancient Wonders
+- 19 | hzphoto | Göbeklitepe — oyma taş sütunlarla dünyanın bilinen en eski tapınak alanlarından biri | m/h12-gobekli.jpg
+- 19 | hzphoto | Petra’daki el-Hazne — kumtaşı kayaya oyulmuş bir cephe | m/h12-petra.jpg
+- 19 | hzphoto | Celsus Kütüphanesi’nin cephesi | m/h12-celsus.jpg
+- 19 | hzphoto | Nemrut Dağı’nın zirvesindeki dev taş başlar | m/h12-nemrut.jpg
+- 19 | hzphoto | Machu Picchu — bulutlara yakın bir İnka kenti | m/h12-machu.jpg
+- 19 | hzfact | Efes’in Büyük Tiyatrosu yaklaşık 25.000 kişi alıyordu — mikrofon olmadan | —
+- 19 | hzriddle | Taştan yapılmış ama ne ev ne köprü; gölgesiyle saati söyler. Nedir? | —
+
+### 20:00–21:00 · Mikro Dünya · The Micro World
+- 20 | hzphoto | Diyatomeler — Ernst Haeckel, “Doğadaki Sanat Biçimleri”, 1904 | m/h12-diatom.jpg
+- 20 | hzphoto | Ayçiçeği, gündüzsefası, gambak ve zambak polenleri (renklendirilmiş) | m/h12-pollen.jpg
+- 20 | hzphoto | Tek mercekli, avuç içi büyüklüğünde bir mikroskop | m/h12-leeuwenhoek.jpg
+- 20 | hzphoto | Radyolaryalar — Ernst Haeckel, 1904 | m/h12-radiolaria.jpg
+- 20 | hzfact | Vücudunda yaklaşık 39 trilyon bakteri yaşar — kendi hücrelerin kadar | —
+- 20 | hzriddle | Bir insan saçının kalınlığı kaç mikron? 1 mi, 10 mu, 70 mi? | —
+
+### 21:00–22:00 · Akşam Galerisi · Evening Gallery
+- 21 | hzphoto | Dokuzuncu Dalga — İvan Ayvazovski, 1850 | m/h12-ninthwave.jpg
+- 21 | hzquote | Gerçekten sevdiğin şeyin seni sessizce çekmesine izin ver | —
+- 21 | hzphoto | Sis Denizinin Üzerindeki Gezgin — Caspar David Friedrich, yaklaşık 1818 | m/h12-wanderer.jpg
+- 21 | hzphoto | Strandgade 30’da İç Mekân — Vilhelm Hammershøi, 1900 | m/h12-hammershoi.jpg
+- 21 | hzphoto | Sütçü Kız — Johannes Vermeer, yaklaşık 1658 | m/h12-milkmaid.jpg
+
+### 22:00–23:00 · Sessiz Kış Gecesi · Quiet Winter Night
+- 22 | hzquote | Ne kadar sessizleşirsen o kadar çok duyarsın | —
+- 22 | hzphoto | Karlı ormanda ağaçların arasından süzülen ışık | m/h12-snowforest.jpg
+- 22 | hzsteps | Ayılar kış uykusunda ne yapar? | —
+- 22 | hzphoto | Soğuk bir gecede cama işlenen buz kristalleri | m/h12-frost.jpg
+- 22 | hzfact | Bir kar tanesinin buluttan yere düşmesi yarım saatle bir saat arasında sürebilir | —
+- 22 | hzriddle | Düşerken hiç ses çıkarmam, ama sabah herkes beni konuşur. Neyim? | —
+
+### 23:00–02:00 · İlk Kar · First Snow (sakin · calm)
+- 23 | hzsnow | NEW first snow over a hillside house (calm night illustration) | —
+- 23 | hzquote | Bir mum, başka bir mumu tutuşturmakla ışığından bir şey kaybetmez | —
+- 23 | hzsteps | Sen uyurken yaptığın yolculuk (8 saat) | —
+- 23 | hzfact | Yunuslar beynin yarısıyla uyur; diğer yarısı nefes almak için uyanık kalır | —
+- 23 | hzriddle | Senindir ama başkaları senden çok kullanır. Nedir? | —
+
 ## 2026-11-11 (rev 58, hourly sets 09:00–02:00, days/2026-11-11.json)
 
 New hz functions in hourly.js v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi hzzoll. Mevlânâ “seven advices” series used: Güneş gibi ol (09), Akarsu gibi ol (12), Toprak gibi ol (15), Deniz gibi ol (21), Gece gibi ol (22) — remaining ones of that series: Ölü gibi ol (öfke), Ya olduğun gibi görün (used earlier).

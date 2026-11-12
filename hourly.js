@@ -1,6 +1,6 @@
-/* hourly.js v58 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v59 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -386,5 +386,80 @@ W.hzzoll=function(L,it){L.style.background='#e9e6df';var c=wCv(L),x=c.getContext
   for(var k=0;k<9;k++){var ox=180+k*190;x.strokeStyle='#111';x.lineWidth=5;x.beginPath();x.moveTo(ox,240);x.lineTo(ox+600,840);x.stroke();
    x.globalAlpha=ha;x.lineWidth=4;for(var s=0;s<14;s++){var px=ox+s*45,py=240+s*45,dr=(k%2?1:-1);x.beginPath();if(dr>0){x.moveTo(px-26,py);x.lineTo(px+26,py)}else{x.moveTo(px,py-26);x.lineTo(px,py+26)}x.stroke()}x.globalAlpha=1}
   x.restore()});return L};
+
+/* ---------- v59 additions: hzturing hzvoronoi hzcollatz hzsnow (art/sims), hzpogg hzwhite (illusions) ---------- */
+/* Turing patterns: Gray-Scott reaction-diffusion grows leopard-like spots, then a coral/zebra labyrinth */
+W.hzturing=function(L,it){L.style.background='#0b0a09';var c=wCv(L),x=c.getContext('2d'),GW=128,GH=72,N=GW*GH,A,B,A2,B2,off=document.createElement('canvas');off.width=GW;off.height=GH;var o=off.getContext('2d'),im=o.createImageData(GW,GH),dd=im.data,mode=-1,i;
+ var PR=[{f:.0367,k:.0649,c0:[28,18,12],c1:[226,196,150],n:'Benekler · Spots — f 0,037 · k 0,065'},{f:.0545,k:.062,c0:[10,24,30],c1:[214,232,228],n:'Labirent · Labyrinth — f 0,055 · k 0,062'}];
+ function seed(){A=new Float32Array(N);B=new Float32Array(N);A2=new Float32Array(N);B2=new Float32Array(N);for(i=0;i<N;i++)A[i]=1;for(var s=0;s<26;s++){var cx=4+Math.floor(Math.random()*(GW-8)),cy=4+Math.floor(Math.random()*(GH-8));for(var yy=-2;yy<=2;yy++)for(var xx=-2;xx<=2;xx++)B[(cy+yy)*GW+cx+xx]=1}}
+ function step(p){for(var y=0;y<GH;y++){var yu=((y+GH-1)%GH)*GW,yd=((y+1)%GH)*GW,yc=y*GW;for(var xx=0;xx<GW;xx++){var xl=(xx+GW-1)%GW,xr=(xx+1)%GW,k=yc+xx,a=A[k],b=B[k];
+  var la=.2*(A[yc+xl]+A[yc+xr]+A[yu+xx]+A[yd+xx])+.05*(A[yu+xl]+A[yu+xr]+A[yd+xl]+A[yd+xr])-a,lb=.2*(B[yc+xl]+B[yc+xr]+B[yu+xx]+B[yd+xx])+.05*(B[yu+xl]+B[yu+xr]+B[yd+xl]+B[yd+xr])-b,abb=a*b*b;
+  A2[k]=a+(la-abb+p.f*(1-a));B2[k]=b+(.5*lb+abb-(p.k+p.f)*b)}}var t1=A;A=A2;A2=t1;t1=B;B=B2;B2=t1}
+ T(L,'<div class="hzbox">'+hd('Turing’in Desenleri · Turing Patterns — simülasyon · simulation','İki kimyasal yarışıyor: biri yayılıyor, biri frenliyor…','Two chemicals race: one spreads, one holds it back…')+'</div>','top:22px',.4);
+ var V=T(L,'','bottom:22px',1);
+ wLoop(L,function(t){var m=t<36?0:1;if(m!==mode){mode=m;seed();V.innerHTML='<div class="hzbox"><div class="sm" style="font-size:1.25vw;color:#e8e2d8">Alan Turing, 1952: leoparın benekleri ve zebranın çizgileri böyle basit kurallarla oluşabilir · Leopard spots and zebra stripes can arise from simple rules like these<br><i style="color:#b9c4c9">'+PR[m].n+'</i></div></div>'}
+  var p=PR[mode];for(var s=0;s<12;s++)step(p);
+  for(i=0;i<N;i++){var v=Math.max(0,Math.min(1,(A[i]-B[i]-.1)*1.6)),q=i*4;dd[q]=p.c0[0]+(p.c1[0]-p.c0[0])*v;dd[q+1]=p.c0[1]+(p.c1[1]-p.c0[1])*v;dd[q+2]=p.c0[2]+(p.c1[2]-p.c0[2])*v;dd[q+3]=255}
+  o.putImageData(im,0,0);x.imageSmoothingEnabled=true;x.drawImage(off,0,0,1920,1080)});return L};
+
+/* Voronoi: every point of the plane belongs to its nearest seed. Cells grow at the same speed and meet on straight borders */
+W.hzvoronoi=function(L,it){L.style.background='#0c0b0a';var c=wCv(L),x=c.getContext('2d'),GW=384,GH=216,N=GW*GH,off=document.createElement('canvas');off.width=GW;off.height=GH;var o=off.getContext('2d'),im=o.createImageData(GW,GH),dd=im.data,rnd=-1,R=null;
+ var PAL=[{edge:[236,226,206],cols:[[122,62,34],[140,74,40],[104,52,30],[150,86,48],[118,70,44]],n:'Zürafa derisi gibi · Like a giraffe’s coat'},{edge:[18,20,24],cols:[[54,92,110],[120,150,120],[170,90,70],[200,190,170],[70,110,90],[140,70,80],[90,120,160]],n:'Vitray gibi · Like stained glass'}];
+ function build(r){var p=PAL[r],S=[],i,k;for(i=0;i<42;i++)S.push([Math.random()*GW,Math.random()*GH,p.cols[i%p.cols.length]]);
+  var D1=new Float32Array(N),D2=new Float32Array(N),ID=new Uint8Array(N),mx=0;for(var y=0;y<GH;y++)for(var xx=0;xx<GW;xx++){var a=1e9,b=1e9,id=0;for(k=0;k<S.length;k++){var dx=S[k][0]-xx,dy=S[k][1]-y,d=dx*dx+dy*dy;if(d<a){b=a;a=d;id=k}else if(d<b)b=d}var j=y*GW+xx;D1[j]=Math.sqrt(a);D2[j]=Math.sqrt(b);ID[j]=id;if(D1[j]>mx)mx=D1[j]}
+  var nb=Math.ceil(mx)+1,cnt=new Int32Array(nb+1);for(i=0;i<N;i++)cnt[Math.floor(D1[i])+1]++;for(i=1;i<=nb;i++)cnt[i]+=cnt[i-1];var ord=new Int32Array(N),pos=new Int32Array(cnt);for(i=0;i<N;i++)ord[pos[Math.floor(D1[i])]++]=i;
+  for(i=0;i<N*4;i+=4){dd[i]=12;dd[i+1]=11;dd[i+2]=10;dd[i+3]=255}return {S:S,D1:D1,D2:D2,ID:ID,ord:ord,p:0,mx:mx,pal:p}}
+ T(L,'<div class="hzbox">'+hd('Hücrelerin Geometrisi · Geometry of Cells — çizim · illustration','Her nokta en yakın tohuma ait: Voronoi hücreleri','Every point belongs to its nearest seed: Voronoi cells')+'</div>','top:22px',.4);
+ var V=T(L,'','bottom:22px',1);
+ wLoop(L,function(t){var r=t<34?0:1;if(r!==rnd){rnd=r;R=build(r);V.innerHTML='<div class="hzbox"><div class="sm" style="font-size:1.25vw;color:#e8e2d8">Hücreler aynı hızla büyür ve buluştukları yerde düz bir sınır çizer — zürafa derisi, yusufçuk kanadı, kuruyan çamur<br><i style="color:#b9c4c9">Cells grow at the same speed and meet on straight borders — giraffe skin, dragonfly wings, drying mud · '+R.pal.n+'</i></div></div>'}
+  var rad=Math.max(0,(t-r*34-2))*12.8;while(R.p<N&&R.D1[R.ord[R.p]]<=rad){var j=R.ord[R.p++],q=j*4,col=R.S[R.ID[j]][2],e=R.D2[j]-R.D1[j]<1.35,sh=1-.18*Math.min(1,R.D1[j]/72);
+   if(e){dd[q]=R.pal.edge[0];dd[q+1]=R.pal.edge[1];dd[q+2]=R.pal.edge[2]}else{dd[q]=col[0]*sh;dd[q+1]=col[1]*sh;dd[q+2]=col[2]*sh}}
+  o.putImageData(im,0,0);x.imageSmoothingEnabled=true;x.drawImage(off,0,0,1920,1080);x.fillStyle='rgba(255,255,255,.9)';for(var k=0;k<R.S.length;k++){x.beginPath();x.arc(R.S[k][0]*5,R.S[k][1]*5,4,0,7);x.fill()}});return L};
+
+/* Collatz coral: draw every number's path back to 1, turning one way on even steps and the other way on odd steps */
+W.hzcollatz=function(L,it){grad(L,'#10202a','#03070a');var c=wCv(L),x=c.getContext('2d'),n=1,MAXN=4000,EA=.08,OA=-.096,SL=7.5;
+ T(L,'<div class="hzbox">'+hd('Sayıların Gizemi · Mystery of Numbers — çizim · illustration','Çiftse ikiye böl, tekse 3’le çarp 1 ekle… Hep 1’e mi varır?','If even, halve it; if odd, triple it and add 1… Does it always reach 1?')+'</div>','top:22px',.4);
+ var V=T(L,'','top:430px;left:60px;right:auto;width:420px;text-align:left',1);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.22vw;color:#dfe6e9">Her sayının 1’e giden yolu çiziliyor: çift adımda sağa, tek adımda sola dön. Ortaya bir deniz yosunu çıkıyor<br><i>Each number’s path to 1 is drawn — turn right on even steps, left on odd ones. A seaweed appears. Collatz sanısı, 1937 — hâlâ kanıtlanamadı · still unproven</i></div></div>','bottom:20px',6);
+ wLoop(L,function(t){var tg=Math.min(MAXN,Math.floor(t<10?t*3:30+Math.pow(t-10,2)*2.4));
+  for(;n<=tg;n++){var s=[],v=n;while(v!=1){s.push(v);v=(v%2==0)?v/2:(3*v+1)/2}s.push(1);var px=1200,py=900,a=-Math.PI/2;x.strokeStyle='hsla('+(165+Math.min(120,s.length*1.1))+',55%,'+(58+n%10)+'%,'+(n<40?.8:.13)+')';x.lineWidth=n<40?2.2:1.2;x.beginPath();x.moveTo(px,py);
+   for(var i=s.length-2;i>=0;i--){a+=(s[i]%2==0)?EA:OA;px+=SL*Math.cos(a);py+=SL*Math.sin(a);x.lineTo(px,py)}x.stroke()}
+  var m=Math.max(1,n-1),st=0,v2=m,mxv=m;while(v2!=1){v2=(v2%2==0)?v2/2:3*v2+1;st++;if(v2>mxv)mxv=v2}
+  V.innerHTML='<div class="hzbox" style="padding:14px 26px"><div class="lb">Sayı · Number</div><div style="font-size:2.4vw">'+m.toLocaleString('tr-TR')+'</div><div class="lb" style="margin-top:12px">1’e kadar adım · Steps to 1</div><div class="a" style="font-size:2.1vw">'+st+'</div><div class="sm">en yüksek · peak: '+mxv.toLocaleString('tr-TR')+'</div></div>'});return L};
+
+/* calm night: first snow over a quiet hillside house (illustration) */
+W.hzsnow=function(L,it){var c=wCv(L),x=c.getContext('2d'),F=[],i,TR=[];for(i=0;i<420;i++)F.push([Math.random()*1920,Math.random()*1080,.4+Math.random()*1.6,Math.random()*6.28]);
+ for(i=0;i<38;i++)TR.push([Math.random()*1920,0,30+Math.random()*40]);for(i=0;i<TR.length;i++){var u=TR[i][0];TR[i][1]=760+Math.sin(u*.0021+1)*60+Math.sin(u*.006)*18}
+ T(L,hd('Sessiz Gece · Quiet Night — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Yaylaya ilk kar düşüyor','The first snow falls on the highlands'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Taze kar sesi yutar: kar tanelerinin arasındaki hava, sünger gibi sesleri emer<br><i>Fresh snow swallows sound — the air between the flakes soaks it up like a sponge</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,1080);g.addColorStop(0,'#060a16');g.addColorStop(.6,'#142036');g.addColorStop(1,'#1c2a40');x.fillStyle=g;x.fillRect(0,0,1920,1080);
+  var mg=x.createRadialGradient(1480,250,10,1480,250,260);mg.addColorStop(0,'rgba(220,228,245,.55)');mg.addColorStop(.2,'rgba(200,210,235,.18)');mg.addColorStop(1,'rgba(200,210,235,0)');x.fillStyle=mg;x.fillRect(1180,0,600,560);x.fillStyle='#e6ebf5';x.beginPath();x.arc(1480,250,46,0,7);x.fill();
+  x.fillStyle='#2a3a52';x.beginPath();x.moveTo(0,1080);for(var u=0;u<=1920;u+=30)x.lineTo(u,650+Math.sin(u*.0016+2)*80);x.lineTo(1920,1080);x.fill();
+  x.fillStyle='#d5dceb';x.beginPath();x.moveTo(0,1080);for(u=0;u<=1920;u+=30)x.lineTo(u,760+Math.sin(u*.0021+1)*60+Math.sin(u*.006)*18);x.lineTo(1920,1080);x.fill();
+  for(i=0;i<TR.length;i++){var tx=TR[i][0],ty=TR[i][1]+6,h=TR[i][2]*2.2;x.fillStyle='#0d1626';x.beginPath();x.moveTo(tx,ty-h);x.lineTo(tx-h*.32,ty);x.lineTo(tx+h*.32,ty);x.fill();x.fillStyle='rgba(225,232,245,.8)';x.beginPath();x.moveTo(tx,ty-h);x.lineTo(tx-h*.1,ty-h*.68);x.lineTo(tx+h*.1,ty-h*.68);x.fill()}
+  var hx=760,hy=772;x.fillStyle='#3a2c24';x.fillRect(hx,hy-80,170,80);x.fillStyle='#e8edf6';x.beginPath();x.moveTo(hx-22,hy-78);x.lineTo(hx+85,hy-150);x.lineTo(hx+192,hy-78);x.fill();
+  var fl=.85+.08*Math.sin(t*1.3);x.fillStyle='rgba(255,214,160,'+fl+')';x.fillRect(hx+30,hy-58,34,30);x.fillRect(hx+106,hy-58,34,30);var wg=x.createRadialGradient(hx+85,hy-40,5,hx+85,hy-40,190);wg.addColorStop(0,'rgba(255,200,140,.16)');wg.addColorStop(1,'rgba(255,200,140,0)');x.fillStyle=wg;x.fillRect(hx-120,hy-240,410,360);
+  x.fillStyle='rgba(180,190,205,.18)';for(i=0;i<5;i++){var sy=hy-170-i*40-(t*14)%40;x.beginPath();x.arc(hx+130+Math.sin(t*.5+i)*10,sy,10+i*4,0,7);x.fill()}
+  x.fillStyle='#fff';for(i=0;i<F.length;i++){var f=F[i];f[1]+=f[2]*.55;f[0]+=Math.sin(t*.4+f[3])*.35;if(f[1]>1085){f[1]=-5;f[0]=Math.random()*1920}x.globalAlpha=.35+f[2]*.3;x.beginPath();x.arc(f[0],f[1],f[2]*1.4,0,7);x.fill()}x.globalAlpha=1});return L};
+
+/* Poggendorff illusion: which line on the right continues the line on the left? */
+W.hzpogg=function(L,it){L.style.background='#e9e6df';var c=wCv(L),x=c.getContext('2d'),BX0=840,BX1=1080,BY0=300,BY1=880,sl=-.42,X0=420,Y0=850;
+ function yAt(X,off){return Y0+(X-X0)*sl+(off||0)}
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Soldaki çizgi, sağdaki hangi çizgiyle devam ediyor: A, B ya da C?','Which line on the right continues the line on the left: A, B or C?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.95vw">Doğru cevap B — çoğu gözü yanılır!</div><div class="e" style="font-size:1.35vw">The answer is B — most eyes get it wrong. Kutunun kenarları açıyı yanlış okutur · The band’s edges trick your sense of angle</div><div class="sm">Poggendorff illüzyonu · Poggendorff illusion — 1860</div></div>','bottom:18px',18);
+ x.font='bold 46px Helvetica,Arial';x.textAlign='left';x.textBaseline='middle';
+ wLoop(L,function(t){var r=t<17?0:Math.min(1,(t-17)/3);x.clearRect(0,0,1920,1080);x.lineCap='round';
+  x.strokeStyle='#1b2328';x.lineWidth=7;x.beginPath();x.moveTo(X0,Y0);x.lineTo(BX0,yAt(BX0));x.stroke();
+  var offs=[-70,0,70],nm=['A','B','C'];for(var k=0;k<3;k++){x.strokeStyle='#1b2328';x.beginPath();x.moveTo(BX1,yAt(BX1,offs[k]));x.lineTo(1380,yAt(1380,offs[k]));x.stroke();x.fillStyle='#1b2328';x.fillText(nm[k],1405,yAt(1395,offs[k]))}
+  if(r>0){x.globalAlpha=r;x.strokeStyle='#d0432c';x.lineWidth=4;x.setLineDash([16,12]);x.beginPath();x.moveTo(X0,Y0);x.lineTo(1380,yAt(1380));x.stroke();x.setLineDash([]);x.globalAlpha=1}
+  x.fillStyle='rgba(120,138,150,'+(1-r*.7)+')';x.fillRect(BX0,BY0,BX1-BX0,BY1-BY0)});return L};
+
+/* White's illusion: the grey bars are identical */
+W.hzwhite=function(L,it){L.style.background='#808080';var c=wCv(L),x=c.getContext('2d'),X0=360,Y0=290,H=40,NR=14,W2=1200;
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Hangi gri çubuklar daha açık: soldakiler mi, sağdakiler mi?','Which grey bars are lighter: the left ones or the right ones?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.95vw">Hepsi tamamen aynı gri! Çizgiler kaybolunca kendin gör</div><div class="e" style="font-size:1.35vw">They are all exactly the same grey — watch as the stripes fade</div><div class="sm">White illüzyonu · White’s illusion — Michael White, 1979</div></div>','bottom:18px',17);
+ wLoop(L,function(t){var f=t<17?1:Math.max(0,1-(t-17)/4);if(t>36)f=Math.min(1,(t-36)/3);x.clearRect(0,0,1920,1080);
+  for(var r=0;r<NR;r++){var blk=r%2==0,v=Math.round(blk?128-128*f:128+127*f);x.fillStyle='rgb('+v+','+v+','+v+')';x.fillRect(X0,Y0+r*H,W2,H)}
+  x.fillStyle='rgb(128,128,128)';for(r=3;r<NR-3;r++){if(r%2==0)x.fillRect(X0+170,Y0+r*H,200,H);else x.fillRect(X0+W2-370,Y0+r*H,200,H)}});return L};
 
 })();
