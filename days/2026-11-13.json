@@ -1,0 +1,1165 @@
+{
+ "date": "2026-11-13",
+ "rev": 60,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-13.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-13-09",
+   "name": "Karadeniz Kıyıları · Black Sea Shores",
+   "from": "2026-11-13T09:00",
+   "until": "2026-11-13T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-giresunadasi.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Giresun",
+     "tr": "Giresun Adası — Türkiye’nin Karadeniz kıyısındaki en büyük ada",
+     "en": "Giresun Island — the largest island on Türkiye’s Black Sea coast",
+     "cr": "Foto · Photo: Dr. Zeynel Cebeci · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Antik çağda Aretias diye anılırdı; efsaneye göre Amazonlar burada bir tapınak kurmuştu",
+     "facte": "In antiquity it was called Aretias; legend says the Amazons built a temple here"
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Dünle beraber gitti cancağızım|ne kadar söz varsa düne ait;|şimdi yeni şeyler söylemek lazım",
+     "en": "All the words that belonged to yesterday went with yesterday, dear soul — now it is time to say new things",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-hamsilos.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sinop",
+     "tr": "Hamsilos Koyu — “Türkiye’nin tek fiyordu” diye anılan sakin bir koy",
+     "en": "Hamsilos Bay — a calm cove often called “Türkiye’s only fjord”",
+     "cr": "Foto · Photo: Erturkercin · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Sinop’ta Türkiye’nin en kuzey ucu da var: İnceburun",
+     "facte": "Sinop also holds Türkiye’s northernmost point, İnceburun"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "½",
+     "tr": "Karadeniz’in yüzey suyu, okyanusların yalnızca yarısı kadar tuzludur",
+     "en": "The Black Sea’s surface water is only about half as salty as the ocean",
+     "src": "Tuna, Dinyeper ve Don gibi büyük nehirler onu tatlı suyla besler · Great rivers like the Danube, Dnieper and Don pour in fresh water",
+     "c1": "#14303a",
+     "c2": "#03080b"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-cal.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Düzköy, Trabzon",
+     "tr": "Çal Mağarası — içinden yer altı deresi akan bir mağara",
+     "en": "Çal Cave — a cave with an underground stream running through it",
+     "cr": "Foto · Photo: Varvara Kless-Kaminskaia · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "İçeride şelaleler ve dereler var; mağara yazın bile serin kalır",
+     "facte": "Inside are waterfalls and streams — the cave stays cool even in summer"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-horon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sis Dağı, Trabzon",
+     "tr": "Sis Dağı’nda horon şenliği — yayla çayırında omuz omuza",
+     "en": "A horon festival on Sis Mountain — shoulder to shoulder on the highland meadow",
+     "cr": "Foto · Photo: Turreis10700 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Horon kemençenin hızlı ritmiyle oynanır; omuzların titreyişi denizde çırpınan hamsiye benzetilir",
+     "facte": "The horon is danced to the fast beat of the kemençe — the shimmy of the shoulders is likened to anchovies flickering in the sea"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-10",
+   "name": "Kristallerin Büyümesi · How Crystals Grow",
+   "from": "2026-11-13T10:00",
+   "until": "2026-11-13T11:00",
+   "items": [
+    {
+     "k": "hzdla",
+     "d": 75
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-lichtenberg.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Lichtenberg figürü · Lichtenberg figure",
+     "tr": "Akrilik bir blokta “donmuş şimşek”: yüksek gerilimin açtığı dallar",
+     "en": "“Frozen lightning” in an acrylic block: branches cut by a high-voltage discharge",
+     "cr": "Foto · Photo: Jan1959 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Elektrik, plastiğin içinden en kolay yolu ararken ağaç gibi dallanır",
+     "facte": "The electricity forks like a tree as it searches for the easiest path through the plastic",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-naica.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Naica, Meksika · Mexico",
+     "tr": "Kristaller Mağarası — insandan kat kat büyük alçıtaşı kristalleri",
+     "en": "The Cave of Crystals — selenite crystals many times taller than a person",
+     "cr": "Foto · Photo: Alexander Van Driessche · CC BY 3.0 · Wikimedia Commons",
+     "fact": "En büyüğü yaklaşık 12 m boyunda ve 55 ton; sıcak suyun içinde yarım milyon yılda büyüdü",
+     "facte": "The largest is about 12 m long and weighs 55 tonnes — it grew in hot water over about half a million years"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-dendrite.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Maden dendritleri · Mineral dendrites",
+     "tr": "Taş üstünde manganez dendritleri — bitki fosili değil, kristal",
+     "en": "Manganese dendrites on stone — not fossil plants, but crystals",
+     "cr": "Foto · Photo: Géry PARENT · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Mineralli su taşın çatlağına sızar ve az önce gördüğün simülasyondaki gibi dallanarak çöker",
+     "facte": "Mineral-rich water seeps into a crack and branches out just like the simulation you saw"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-geode.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ametist jeodu · Amethyst geode",
+     "tr": "İçi kristal dolu bir taş: ametist jeodu",
+     "en": "A stone full of crystals: an amethyst geode",
+     "cr": "Foto · Photo: Ludvig14 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Volkanik kayadaki bir gaz boşluğu, milyonlarca yıl boyunca sızan sudan kristal büyütür",
+     "facte": "A gas bubble in volcanic rock slowly grows crystals from seeping water over millions of years",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "6 yüz",
+     "tr": "Kuvars kristalleri her zaman altı yüzlü bir prizma olarak büyür",
+     "en": "Quartz crystals always grow as six-sided prisms",
+     "src": "Atomların içerideki diziliş düzeni dış şekle yansır · The order of the atoms inside shows in the outer shape",
+     "c1": "#22202c",
+     "c2": "#060508"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-11",
+   "name": "Sonsuzluk Paradoksları · Paradoxes of Infinity",
+   "from": "2026-11-13T11:00",
+   "until": "2026-11-13T12:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Hilbert’in Oteli: sonsuz sayıda odası var ve hepsi dolu…",
+     "e": "Hilbert’s Hotel: infinitely many rooms, and every one is full…",
+     "c1": "#1e2430",
+     "c2": "#040508",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Yeni bir misafir geliyor. Resepsiyon: “Yerimiz var!”",
+       "A new guest arrives. Reception says: “We have room!”",
+       ""
+      ],
+      [
+       "Herkes bir sonraki odaya geçiyor: 1→2, 2→3, 3→4…",
+       "Everyone moves up one room: 1→2, 2→3, 3→4…",
+       ""
+      ],
+      [
+       "1 numaralı oda boşaldı",
+       "Room 1 is now free",
+       "✓"
+      ],
+      [
+       "Sonsuz kişilik bir otobüs gelirse? Herkes oda numarasının iki katına geçer",
+       "What if an infinite coach arrives? Everyone moves to double their room number",
+       "n → 2n"
+      ],
+      [
+       "Sonsuz sayıda tek numaralı oda boşalır",
+       "Infinitely many odd-numbered rooms are freed",
+       "∞"
+      ]
+     ],
+     "fin": "Sonsuzlukta “dolu” demek “yer yok” demek değildir — David Hilbert, 1924",
+     "fine": "With infinity, “full” does not mean “no room” — David Hilbert, 1924"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-penrose.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · East Perth, Avustralya · Australia",
+     "tr": "İmkânsız Üçgen heykeli — doğru noktadan bakınca kapalı bir üçgen gibi görünür",
+     "en": "The Impossible Triangle sculpture — from the right spot it looks like a closed triangle",
+     "cr": "Foto · Photo: Greg O’Beirne · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Gerçek bir Penrose üçgeni var olamaz; heykel aslında açık uçlu ve yalnızca tek bir noktadan “kapanır”",
+     "facte": "A true Penrose triangle cannot exist — the sculpture is open-ended and only “closes” from one viewpoint"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "∞ > ∞",
+     "tr": "Bazı sonsuzluklar ötekilerden büyüktür: 0 ile 1 arasındaki sayılar, bütün sayma sayılarından daha çoktur",
+     "en": "Some infinities are bigger than others: there are more numbers between 0 and 1 than there are counting numbers",
+     "src": "Georg Cantor, 1874–1891",
+     "c1": "#262030",
+     "c2": "#060508"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Akıllı Tahmin · Clever Estimate",
+     "q": "Türkiye’de bir günde kaç bardak çay içilir? Bilmeden tahmin edelim…",
+     "e": "How many glasses of tea are drunk in Türkiye in a day? Let’s estimate without knowing…",
+     "c1": "#2a2018",
+     "c2": "#070504",
+     "gap": 6,
+     "steps": [
+      [
+       "Nüfus yaklaşık 85 milyon",
+       "Population about 85 million",
+       "85 M"
+      ],
+      [
+       "Çay içenler: belki üçte ikisi",
+       "Tea drinkers: maybe two thirds",
+       "≈ 57 M"
+      ],
+      [
+       "Kişi başı günde ortalama 4 bardak",
+       "On average about 4 glasses each per day",
+       "× 4"
+      ],
+      [
+       "Sonuç · Result",
+       "",
+       "≈ 230 milyon bardak · glasses"
+      ]
+     ],
+     "fin": "Fermi tahmini: kaba ama akıllı adımlar şaşırtıcı derecede yakın sonuç verir — Türkiye, kişi başı çay tüketiminde dünyada ilk sıralarda",
+     "fine": "A Fermi estimate: rough but clever steps get surprisingly close — Türkiye is among the world’s top tea drinkers per person"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hep yukarı çıkar,<br>ama hiç aşağı inmez.<br>Nedir?",
+     "qe": "It always goes up but never comes down. What is it?",
+     "a": "Yaşın!",
+     "ae": "Your age.",
+     "sec": 16,
+     "c1": "#22262c",
+     "c2": "#050607"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-12",
+   "name": "Kuşların Mimarları · Bird Architects",
+   "from": "2026-11-13T12:00",
+   "until": "2026-11-13T13:00",
+   "items": [
+    {
+     "cp": "top",
+     "pos": "50% 90%",
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-weaver.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Dokumacı kuş · Weaver bird",
+     "tr": "Erkek dokumacı kuş, otları düğümleyerek asılı bir yuva örüyor",
+     "en": "A male weaver knots blades of grass into a hanging nest",
+     "cr": "Foto · Photo: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Dişi yuvayı beğenmezse erkek söküp baştan örer",
+     "facte": "If the female doesn’t like it, the male tears it down and starts again"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-bower.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Saten çardak kuşu · Satin bowerbird, Avustralya · Australia",
+     "tr": "Saten çardak kuşu ve mavi süslerle bezediği çardağı",
+     "en": "A satin bowerbird with the bower he has decorated in blue",
+     "cr": "Foto · Photo: JJ Harrison · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Dişiyi etkilemek için yalnızca mavi şeyler toplar: tüyler, çiçekler, hatta şişe kapakları",
+     "facte": "To impress a female he collects only blue things — feathers, flowers, even bottle caps"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "2 ton",
+     "tr": "Kayıtlardaki en büyük kel kartal yuvası 2 tondan ağırdı",
+     "en": "The largest bald eagle nest on record weighed more than 2 tonnes",
+     "src": "Kartallar aynı yuvayı yıllarca kullanır ve her yıl biraz daha büyütür · Eagles reuse the same nest for years, adding to it every season",
+     "c1": "#1e2a22",
+     "c2": "#040705"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-sociable.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kalahari",
+     "tr": "Ortak dokumacı kuşların bir akasya ağacındaki dev ortak yuvası",
+     "en": "A giant communal nest of sociable weavers in an acacia tree",
+     "cr": "Foto · Photo: Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yüzlerce kuş birlikte yaşar; bazı yuvalar 100 yıldan uzun kullanılır",
+     "facte": "Hundreds of birds live together — some nests are used for more than 100 years"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-hornero.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Uruguay",
+     "tr": "Fırıncı kuşu, çamurdan yaptığı fırın biçimli yuvasının üstünde",
+     "en": "A rufous hornero on its oven-shaped mud nest",
+     "cr": "Foto · Photo: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Adını eski toprak fırınlara benzeyen yuvasından alır; Arjantin’in ulusal kuşudur",
+     "facte": "It is named for its nest, shaped like an old clay oven — and it is Argentina’s national bird"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-13",
+   "name": "Kendiliğinden Düzen · Order Without a Plan",
+   "from": "2026-11-13T13:00",
+   "until": "2026-11-13T14:00",
+   "items": [
+    {
+     "k": "hzsandpile",
+     "d": 72
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-murmuration.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Galashiels, İskoçya · Scotland",
+     "tr": "Binlerce sığırcık gökyüzünde tek bir canlı gibi dalgalanıyor",
+     "en": "Thousands of starlings ripple across the sky like a single creature",
+     "cr": "Foto · Photo: Walter Baxter · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Lider yok: her kuş yalnızca en yakın yedi komşusunu izler",
+     "facte": "There is no leader — each bird simply follows its seven nearest neighbours"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Karıncalar en kısa yolu nasıl bulur? Hiçbiri haritaya bakmadan…",
+     "e": "How do ants find the shortest path — without any of them reading a map?",
+     "c1": "#24301c",
+     "c2": "#050803",
+     "gap": 5.5,
+     "steps": [
+      [
+       "Her karınca yürürken yere koku (feromon) bırakır",
+       "Every ant leaves a scent trail (pheromone) as it walks",
+       ""
+      ],
+      [
+       "Kısa yoldan gidenler yuvaya daha çabuk döner",
+       "Ants on the short route get back to the nest sooner",
+       ""
+      ],
+      [
+       "Kısa yolda koku daha hızlı birikir",
+       "So scent builds up faster on the short route",
+       ""
+      ],
+      [
+       "Yeni karıncalar en güçlü kokuyu izler",
+       "New ants follow the strongest scent",
+       ""
+      ],
+      [
+       "Uzun yolun kokusu uçup gider",
+       "The long route’s scent fades away",
+       "✓"
+      ]
+     ],
+     "fin": "Bu fikir bugün kargo rotalarını ve internet trafiğini planlayan algoritmalara ilham veriyor",
+     "fine": "This idea now inspires algorithms that plan delivery routes and internet traffic"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-pamukkale.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Denizli",
+     "tr": "Pamukkale travertenleri — sıcak sudan çöken kireçle oluşan beyaz teraslar",
+     "en": "The travertines of Pamukkale — white terraces built from lime left by hot springs",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kimse tasarlamadı: su her kenarda biraz kireç bırakır ve teraslar kendiliğinden yükselir · UNESCO Dünya Mirası",
+     "facte": "Nobody designed them: the water leaves a little lime at every rim and the terraces rise by themselves · UNESCO World Heritage"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-ripples.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Fuerteventura, İspanya · Spain",
+     "tr": "Rüzgârın kumda çizdiği dalgacıklar",
+     "en": "Ripples drawn in the sand by the wind",
+     "cr": "Foto · Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Dalgacıkların aralığı, rüzgârın kum tanelerini zıplattığı mesafeye göre kendiliğinden ayarlanır",
+     "facte": "Their spacing sets itself — matched to how far the wind makes the grains hop"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-14",
+   "name": "Villa Fikirleri: Sessiz Bahçeler · Villa Ideas: Quiet Gardens",
+   "from": "2026-11-13T14:00",
+   "until": "2026-11-13T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-ryoanji.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Kyoto)",
+     "tr": "Ryōan-ji’nin kuru bahçesi: tırmıklanmış çakıl ve 15 taş",
+     "en": "The dry garden of Ryōan-ji: raked gravel and 15 stones",
+     "cr": "Foto · Photo: Stephane D'Alu · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Verandanın hiçbir noktasından 15 taşın hepsi birden görünmez",
+     "facte": "From no spot on the veranda can you see all 15 stones at once"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Dünyanın bahçesinin sınırı yoktur;|sınır yalnızca zihnindedir",
+     "en": "The garden of the world has no limits, except in your mind",
+     "pal": "ink"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-vertical.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · CaixaForum, Madrid)",
+     "tr": "Yaşayan duvar: binlerce bitkiden oluşan dikey bir bahçe",
+     "en": "A living wall: a vertical garden of thousands of plants",
+     "cr": "Foto · Photo: Javier martin · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Toprak yok: bitkiler keçe katmanlarında damla sulamayla büyür — taş bir avlu duvarı için güzel bir fikir",
+     "facte": "No soil — the plants grow in layers of felt with drip irrigation: a lovely idea for a stone courtyard wall"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-kew.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Kew, Londra · London)",
+     "tr": "Büyük bir cam serada palmiyeler ve eğrelti otları arasında yürüyüş yolu",
+     "en": "A walkway among palms and ferns inside a great glasshouse",
+     "cr": "Foto · Photo: Mike Peel · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kışın bile yeşil: camlı bir kış bahçesi, yağmurlu Karadeniz günlerinde kahvaltı için harika bir köşe olur",
+     "facte": "Green even in winter: a glass winter garden makes a wonderful breakfast spot on rainy Black Sea days"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Kendi kuru bahçeni kur: taş, çakıl ve sessizlik",
+     "e": "Make your own dry garden: stone, gravel and silence",
+     "c1": "#262a26",
+     "c2": "#060706",
+     "gap": 6,
+     "steps": [
+      [
+       "Sessiz bir köşe seç: bir pencerenin ya da çay köşesinin önü",
+       "Choose a quiet corner — in front of a window or the tea nook",
+       ""
+      ],
+      [
+       "Açık gri çakıl ser, 5–7 cm kalınlığında",
+       "Spread pale grey gravel, 5–7 cm deep",
+       ""
+      ],
+      [
+       "Tek sayıda iri taş yerleştir: 3, 5 ya da 7",
+       "Place an odd number of large stones: 3, 5 or 7",
+       ""
+      ],
+      [
+       "Çakılı tırmıkla dalgalandır — her sabah yeniden",
+       "Rake the gravel into waves — afresh each morning",
+       "≋"
+      ],
+      [
+       "Biraz yosun ve tek bir küçük akçaağaç yeter",
+       "A little moss and a single small maple are enough",
+       ""
+      ]
+     ],
+     "fin": "Karadeniz yeşilinin yanında sakin, gri bir ada: misafirler orada yavaşlar",
+     "fine": "A calm grey island beside the Black Sea green — where guests slow down"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-15",
+   "name": "Sonbaharın Renkleri · Colours of Autumn",
+   "from": "2026-11-13T15:00",
+   "until": "2026-11-13T16:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-yedigoller.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bolu",
+     "tr": "Yedigöller Milli Parkı — göle yansıyan sonbahar renkleri",
+     "en": "Yedigöller National Park — autumn colours mirrored in the lake",
+     "cr": "Foto · Photo: Guraysamber · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yedi gölü birbirine dereler ve yer altı kanalları bağlar",
+     "facte": "Its seven lakes are linked by streams and underground channels"
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Yapraklar sonbaharda neden sararıp kızarır?",
+     "e": "Why do leaves turn yellow and red in autumn?",
+     "c1": "#2e2016",
+     "c2": "#080503",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Yaz boyunca yeşil klorofil öteki renkleri örter",
+       "All summer, green chlorophyll hides the other colours",
+       ""
+      ],
+      [
+       "Günler kısalınca ağaç klorofil üretmeyi bırakır",
+       "As the days shorten, the tree stops making chlorophyll",
+       ""
+      ],
+      [
+       "Hep orada olan sarı ve turuncular ortaya çıkar",
+       "The yellows and oranges that were there all along appear",
+       "karotenoid · carotenoids"
+      ],
+      [
+       "Kızıl renk ise yeni üretilir — soğuk, güneşli günlerden sonra daha parlak",
+       "Reds are newly made — brightest after cold, sunny days",
+       "antosiyanin · anthocyanins"
+      ]
+     ],
+     "fin": "Yani sarı yaprak yeni bir renk giymiyor; maskesini çıkarıyor",
+     "fine": "So a yellow leaf isn’t putting on a new colour — it is taking off its mask"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-tofukuji.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kyoto",
+     "tr": "Tōfuku-ji’de gece ışıklandırılan kızıl akçaağaçlar",
+     "en": "Crimson maples lit up at night at Tōfuku-ji",
+     "cr": "Foto · Photo: lumoplank · CC0 · Wikimedia Commons",
+     "fact": "Tōfuku-ji’nin akçaağaç vadisi Kyoto’nun en ünlü sonbahar manzaralarından biridir",
+     "facte": "Tōfuku-ji’s maple valley is one of Kyoto’s most famous autumn sights"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Bir ağaç gibi ol;|kuru yaprakların düşmesine izin ver",
+     "en": "Be like a tree and let the dead leaves drop",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-mapleleaf.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Québec, Kanada · Canada",
+     "tr": "Sonbahar ışığına tutulmuş bir akçaağaç yaprağı",
+     "en": "A maple leaf held up to the autumn light",
+     "cr": "Foto · Photo: Wilfredor · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Akçaağaç yaprağı 1965’ten beri Kanada bayrağında",
+     "facte": "The maple leaf has been on Canada’s flag since 1965"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-beech.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Steckenroth, Almanya · Germany",
+     "tr": "Sonbaharda bir kayın ormanından geçen patika",
+     "en": "A path through a beech forest in autumn",
+     "cr": "Foto · Photo: Gerda Arendt · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Karadeniz’in doğu kayını ormanları da kasımda bakır rengine döner",
+     "facte": "The oriental beech forests of the Black Sea turn copper-red in November too"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-16",
+   "name": "Derinlik Yanılgıları · Tricks of Depth",
+   "from": "2026-11-13T16:00",
+   "until": "2026-11-13T17:00",
+   "items": [
+    {
+     "k": "hzponzo",
+     "d": 48
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-rays.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tan ışınları · Crepuscular rays",
+     "tr": "Ağaçların arasından süzülen ışık huzmeleri",
+     "en": "Shafts of light streaming between the trees",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Bu ışınlar aslında birbirine paralel; bir noktadan yayılıyor gibi görünmeleri bir perspektif oyunu — tıpkı demiryolu rayları gibi",
+     "facte": "These rays are really parallel — they only seem to fan out from one point because of perspective, just like railway tracks"
+    },
+    {
+     "k": "hzhering",
+     "d": 48
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-moonrise.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Paranal, Şili · Chile",
+     "tr": "Paranal Gözlemevi’nde bir teleskobun yanında doğan kızıl Ay",
+     "en": "A reddish Moon rising beside a telescope at Paranal Observatory",
+     "cr": "Foto · Photo: ESO/G. Lombardi · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Ufuktaki Ay daha büyük görünür ama değildir: fotoğrafta tepedeki Ay’la aynı boydadır — buna “Ay yanılgısı” denir",
+     "facte": "The Moon looks bigger near the horizon, but it isn’t — in photos it is the same size as high in the sky: the “Moon illusion”"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Uzaktaki dağlar neden mavi görünür?",
+     "e": "Why do distant mountains look blue?",
+     "c1": "#18243a",
+     "c2": "#03050a",
+     "gap": 6,
+     "steps": [
+      [
+       "Gözünle dağ arasında kilometrelerce hava var",
+       "Between your eye and the mountain lie kilometres of air",
+       ""
+      ],
+      [
+       "Hava, mavi ışığı en çok saçar",
+       "Air scatters blue light the most",
+       ""
+      ],
+      [
+       "Mesafe arttıkça bu mavi perde kalınlaşır",
+       "The farther away, the thicker this blue veil",
+       ""
+      ],
+      [
+       "Beyin bunu “uzak” diye okur",
+       "Your brain reads it as “far away”",
+       "✓"
+      ]
+     ],
+     "fin": "Ressamlar buna “hava perspektifi” der: Leonardo da Vinci uzak tepeleri bilerek mavi boyadı",
+     "fine": "Painters call it “aerial perspective” — Leonardo da Vinci painted distant hills blue on purpose"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-17",
+   "name": "Ateş Dağları · Fire Mountains",
+   "from": "2026-11-13T17:00",
+   "until": "2026-11-13T18:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-ararat.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ağrı",
+     "tr": "Ağrı Dağı — 5.137 metreyle Türkiye’nin en yüksek dağı",
+     "en": "Mount Ararat — at 5,137 m, the highest mountain in Türkiye",
+     "cr": "Foto · Photo: W. Bulach · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Sönmüş değil, uykuda bir yanardağ; zirvesi yıl boyu buzulla kaplı",
+     "facte": "A dormant — not extinct — volcano, its summit capped with ice all year"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-kilauea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hawaii",
+     "tr": "Pāhoehoe lavası Büyük Okyanus’la buluşuyor",
+     "en": "Pāhoehoe lava meets the Pacific Ocean",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Hawaii adalarının hepsi deniz tabanından yükselen lavlarla oluştu — yeni kara hâlâ doğuyor",
+     "facte": "All the Hawaiian islands were built by lava rising from the seafloor — new land is still being born"
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Bir yanardağ neden patlar?",
+     "e": "Why does a volcano erupt?",
+     "c1": "#2e1a14",
+     "c2": "#080403",
+     "gap": 5.5,
+     "steps": [
+      [
+       "Derinlerde kaya erir: magma",
+       "Deep down, rock melts into magma",
+       ""
+      ],
+      [
+       "Magma çevresindeki kayadan hafiftir, yukarı yükselir",
+       "Magma is lighter than the rock around it, so it rises",
+       ""
+      ],
+      [
+       "İçindeki gazlar, gazozdaki kabarcıklar gibi sıkışık durur",
+       "Gases are trapped inside, like the bubbles in a fizzy drink",
+       ""
+      ],
+      [
+       "Yüzeye yaklaşınca basınç düşer, gazlar genişler",
+       "Near the surface the pressure drops and the gases expand",
+       ""
+      ],
+      [
+       "Kapak açılır: patlama!",
+       "The cap pops — eruption!",
+       "🌋"
+      ]
+     ],
+     "fin": "Akışkan magma (Hawaii) sakin akar; yapışkan magma (Vezüv) patlar",
+     "fine": "Runny magma (Hawaii) flows calmly; sticky magma (Vesuvius) explodes"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-peri.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kapadokya, Nevşehir",
+     "tr": "Kapadokya’nın peri bacaları",
+     "en": "The fairy chimneys of Cappadocia",
+     "cr": "Foto · Photo: Feridun F. Alkaya · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Erciyes, Hasandağı ve Göllüdağ’ın milyonlarca yıl önceki küllerinden oluştular; sert şapkalar altlarındaki yumuşak tüfü korur",
+     "facte": "They formed from ash thrown out millions of years ago by Erciyes, Hasandağı and Göllüdağ — the hard caps shield the soft tuff below"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-fuji.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kawaguchi Gölü, Japonya · Japan",
+     "tr": "Kawaguchi Gölü’nden Fuji Dağı",
+     "en": "Mount Fuji from Lake Kawaguchi",
+     "cr": "Foto · Photo: Suicasmo · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Son kez 1707’de patladı; neredeyse kusursuz koni şekli, üst üste yığılan patlamalarla oluştu",
+     "facte": "It last erupted in 1707 — its near-perfect cone was built eruption upon eruption"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir adam yağmurda şapkasız, şemsiyesiz yürüdü;<br>saçının tek teli bile ıslanmadı.<br>Nasıl?",
+     "qe": "A man walked in the rain with no hat and no umbrella, yet not one hair got wet. How?",
+     "a": "Adam keldi!",
+     "ae": "He was bald.",
+     "sec": 18,
+     "c1": "#2a201c",
+     "c2": "#070505"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-18",
+   "name": "Buz Dünyaları · Ice Worlds",
+   "from": "2026-11-13T18:00",
+   "until": "2026-11-13T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-perito.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Patagonya, Arjantin · Argentina",
+     "tr": "Perito Moreno Buzulu — yaklaşık 70 metre yüksekliğinde bir buz duvarı",
+     "en": "Perito Moreno Glacier — a wall of ice about 70 m high",
+     "cr": "Foto · Photo: Luca Galuzzi · CC BY-SA 2.5 · Wikimedia Commons",
+     "fact": "Küçülmeyen az sayıdaki buzuldan biri; zaman zaman dev buz blokları göle düşer",
+     "facte": "One of the few glaciers that isn’t shrinking — now and then huge blocks of ice crash into the lake"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-penguins.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Antarktika · Antarctica",
+     "tr": "Sudan buzun üstüne fırlayan bir imparator penguen",
+     "en": "An emperor penguin leaping out of the water onto the ice",
+     "cr": "Foto · Photo: Christopher Michel · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Tüylerinden bıraktığı hava kabarcıkları onu bir an için çok hızlandırır — fırlayışın sırrı bu",
+     "facte": "Air bubbles released from its feathers make it much faster for a moment — the secret of the leap"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-iceberg.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Buzdağı · Iceberg",
+     "tr": "Dalgaların yonttuğu bir buzdağı parçası",
+     "en": "A piece of iceberg sculpted by the waves",
+     "cr": "Foto · Photo: Virtual-Pano · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bir buzdağının yaklaşık %90’ı suyun altında kalır",
+     "facte": "About 90% of an iceberg stays hidden under water"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "%70",
+     "tr": "Dünyadaki tatlı suyun yaklaşık %70’i Antarktika’nın buzunda saklı",
+     "en": "About 70% of the world’s fresh water is locked in Antarctica’s ice",
+     "src": "Hepsi erirse deniz seviyesi yaklaşık 58 m yükselirdi · If it all melted, sea level would rise by about 58 m",
+     "c1": "#16263a",
+     "c2": "#03060a"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-icecave.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İzlanda · Iceland",
+     "tr": "İzlanda’da bir buzul mağarası — mavi ışığın içinde bir kâşif",
+     "en": "An ice cave in Iceland — an explorer in the blue light",
+     "cr": "Foto · Photo: Eric Kilby · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Buzul buzu o kadar sıkışmıştır ki kırmızı ışığı yutar, yalnızca maviyi geçirir",
+     "facte": "Glacier ice is so dense it swallows red light and lets only the blue through"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-19",
+   "name": "Galaksiler · Galaxies",
+   "from": "2026-11-13T19:00",
+   "until": "2026-11-13T20:00",
+   "items": [
+    {
+     "k": "hzgalaxy",
+     "d": 72
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-m51.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hubble",
+     "tr": "Girdap Galaksisi (M51) ve küçük komşusu",
+     "en": "The Whirlpool Galaxy (M51) and its small companion",
+     "cr": "Foto · Photo: NASA and European Space Agency · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yaklaşık 30 milyon ışık yılı uzakta; komşusunun çekimi sarmal kollarını belirginleştiriyor",
+     "facte": "About 30 million light-years away — its neighbour’s pull sharpens its spiral arms"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-sombrero.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hubble",
+     "tr": "Sombrero Galaksisi (M104) — yandan gördüğümüz bir galaksi ve koyu toz halkası",
+     "en": "The Sombrero Galaxy (M104) — seen edge-on, with its dark ring of dust",
+     "cr": "Foto · Photo: NASA/ESA and The Hubble Heritage Team · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Merkezinde Güneş’ten yaklaşık 1 milyar kat ağır bir kara delik var",
+     "facte": "At its heart sits a black hole about a billion times the mass of the Sun"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "≈ 0",
+     "tr": "İki galaksi çarpıştığında yıldızlar neredeyse hiç birbirine değmez — aralarındaki boşluk o kadar büyüktür",
+     "en": "When two galaxies collide, their stars almost never touch — the gaps between them are that huge",
+     "src": "Güneş bir kum tanesi olsaydı, en yakın yıldız ≈6 km ötede olurdu · If the Sun were a grain of sand, the nearest star would be ≈6 km away",
+     "c1": "#141a30",
+     "c2": "#020308"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-cliffs.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · James Webb",
+     "tr": "Karina Bulutsusu’nun “Kozmik Uçurumları” — James Webb Uzay Teleskobu",
+     "en": "The “Cosmic Cliffs” of the Carina Nebula — James Webb Space Telescope",
+     "cr": "Foto · Photo: NASA / ESA / CSA / STScI · kamu malı · public domain · Wikimedia Commons",
+     "fact": "En yüksek “tepeler” yaklaşık 7 ışık yılı boyunda; içlerinde yeni yıldızlar doğuyor",
+     "facte": "The tallest “peaks” are about 7 light-years high — new stars are being born inside them"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-20",
+   "name": "Akıllı Mühendislik · Clever Engineering",
+   "from": "2026-11-13T20:00",
+   "until": "2026-11-13T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-falkirk.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Falkirk, İskoçya · Scotland",
+     "tr": "Falkirk Çarkı — tekneleri bir kanaldan ötekine döndürerek taşıyan dev çark",
+     "en": "The Falkirk Wheel — a giant wheel that turns boats from one canal to another",
+     "cr": "Foto · Photo: Sean Mack · CC BY 2.5 · Wikimedia Commons",
+     "fact": "İki kol hep dengede: tekne girince tam kendi ağırlığı kadar su taşar. Yarım tur, yaklaşık 8 su ısıtıcısı kaynatacak kadar enerji harcar",
+     "facte": "The two arms always balance: a boat pushes out exactly its own weight in water. Half a turn uses about the energy of boiling eight kettles"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Binlerce tonluk çelik bir gemi neden batmaz?",
+     "e": "Why doesn’t a steel ship weighing thousands of tonnes sink?",
+     "c1": "#16263a",
+     "c2": "#03060a",
+     "gap": 5.5,
+     "steps": [
+      [
+       "Su, içine giren her şeyi yukarı iter",
+       "Water pushes up on anything that enters it",
+       ""
+      ],
+      [
+       "Bu itme = yerinden çıkan suyun ağırlığı",
+       "That push equals the weight of the water pushed aside",
+       "Arşimet · Archimedes"
+      ],
+      [
+       "Dolu bir çelik blok az su iter: batar",
+       "A solid steel block pushes aside little water — it sinks",
+       ""
+      ],
+      [
+       "Aynı çelik içi boş bir gövde olunca çok su iter",
+       "Shape the same steel into a hollow hull and it pushes aside a lot of water",
+       ""
+      ],
+      [
+       "Gemi, kendi ağırlığı kadar su ittiği yerde yüzer",
+       "The ship floats once it has pushed aside its own weight in water",
+       "⚓"
+      ]
+     ],
+     "fin": "Rivayete göre Arşimet bunu yıkanırken fark etti ve “Eureka — buldum!” diye bağırdı",
+     "fine": "Legend says Archimedes realised this in the bath and shouted “Eureka — I’ve found it!”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h13-millau.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Millau, Fransa · France",
+     "tr": "Millau Viyadüğü — vadinin çok üstünden geçen bir köprü",
+     "en": "The Millau Viaduct — a bridge running high above the valley",
+     "cr": "Foto · Photo: Richard Leeming · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "En yüksek direği 343 m: Eyfel Kulesi’nden daha uzun",
+     "facte": "Its tallest mast reaches 343 m — taller than the Eiffel Tower"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h13-canakkale.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çanakkale",
+     "tr": "1915 Çanakkale Köprüsü — Avrupa ile Asya’yı Çanakkale Boğazı üzerinden bağlıyor",
+     "en": "The 1915 Çanakkale Bridge — linking Europe and Asia across the Dardanelles",
+     "cr": "Foto · Photo: Zafer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "2.023 metrelik orta açıklığıyla dünyanın en uzun asma köprüsü; bu sayı Cumhuriyet’in 100. yılını anıyor",
+     "facte": "With a 2,023 m main span it is the world’s longest suspension bridge — the number honours the Republic’s centenary"
+    },
+    {
+     "k": "hzriddle",
+     "d": 38,
+     "q": "Sepette 5 elma var. 5 arkadaşına birer elma verdin,<br>ama sepette yine bir elma kaldı.<br>Nasıl?",
+     "qe": "There are 5 apples in a basket. You give one to each of 5 friends, yet one apple stays in the basket. How?",
+     "a": "Sonuncusuna elmayı sepetiyle verdin!",
+     "ae": "You gave the last friend the apple still inside the basket.",
+     "sec": 22,
+     "c1": "#24282c",
+     "c2": "#050607"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-21",
+   "name": "Işığın Ressamları · Painters of Light",
+   "from": "2026-11-13T21:00",
+   "until": "2026-11-13T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h13-impression.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "İzlenim, Gün Doğumu — Claude Monet, 1872",
+     "en": "Impression, Sunrise — Claude Monet, 1872",
+     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bu tablo bir akıma adını verdi: bir eleştirmen alay ederek bu ressamlara “izlenimciler” dedi",
+     "facte": "This painting named a movement — a critic mockingly called these painters “Impressionists”"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Sevdiğin şeyin güzelliği|yaptığın şey olsun",
+     "en": "Let the beauty of what you love be what you do",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h13-temeraire.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Savaşan Temeraire — J. M. W. Turner, 1839",
+     "en": "The Fighting Temeraire — J. M. W. Turner, 1839",
+     "cr": "Eser · Artwork: J. M. W. Turner · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Eski bir yelkenli savaş gemisi, buharlı bir römorkörle son yolculuğuna çekiliyor; Turner bu tabloyu hiç satmadı, ona “sevgilim” derdi",
+     "facte": "An old sailing warship is towed to its last berth by a steam tug — Turner never sold it and called it his “darling”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h13-hiroshige.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Shin-Ōhashi Köprüsü’nde Ani Sağanak — Utagawa Hiroshige, 1857",
+     "en": "Sudden Shower over Shin-Ōhashi Bridge — Utagawa Hiroshige, 1857",
+     "cr": "Eser · Artwork: Utagawa Hiroshige · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Van Gogh bu baskıya öyle hayran kaldı ki 1887’de yağlıboyayla kopyasını yaptı",
+     "facte": "Van Gogh admired this print so much that he copied it in oils in 1887"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h13-almond.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Badem Çiçekleri — Vincent van Gogh, 1890",
+     "en": "Almond Blossom — Vincent van Gogh, 1890",
+     "cr": "Eser · Artwork: Vincent van Gogh · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yeğeninin doğumu için yaptı: bahar dalları yeni bir hayatın simgesi",
+     "facte": "He painted it for his newborn nephew — spring branches as a sign of new life"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h13-sorolla.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Deniz Kıyısında Gezinti — Joaquín Sorolla, 1909",
+     "en": "Strolling along the Seashore — Joaquín Sorolla, 1909",
+     "cr": "Eser · Artwork: Joaquín Sorolla · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Sorolla’ya “ışığın ressamı” denir; tablolarını çoğu zaman sahilde, açık havada boyadı",
+     "facte": "Sorolla is called “the painter of light” — he often painted right on the beach, in the open air"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-22",
+   "name": "Sakin Sular · Still Waters",
+   "from": "2026-11-13T22:00",
+   "until": "2026-11-13T23:00",
+   "items": [
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Nerede olursan ol,|ne yaparsan yap, sevgi içinde ol",
+     "en": "Wherever you are, whatever you do, be in love",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h13-bled.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Slovenya · Slovenia",
+     "tr": "Kışın Bled Gölü — karlı ağaçlar ve pembe bir alacakaranlık",
+     "en": "Lake Bled in winter — snowy trees and a pink dusk",
+     "cr": "Foto · Photo: Mihael Grmek · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Gölün ortasındaki küçük adaya, “pletna” denen geleneksel kayıklarla gidilir",
+     "facte": "The little island in the middle of the lake is reached by traditional “pletna” boats"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h13-lotus.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Lotus yaprağı · Lotus leaf",
+     "tr": "Lotus yaprağının üstünde bir su damlası — içinde minik bir kurbağa",
+     "en": "A drop of water on a lotus leaf — with a tiny frog inside",
+     "cr": "Foto · Photo: Basile Morin · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaprağın yüzeyi mikroskobik tümseklerle kaplı: su tutunamaz, kirle birlikte yuvarlanıp gider — “lotus etkisi”",
+     "facte": "The leaf is covered in microscopic bumps — water can’t cling and rolls away with the dirt: the “lotus effect”"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "20 dk",
+     "tr": "Doğada 20 dakika geçirmek stres hormonunu belirgin biçimde düşürür",
+     "en": "Spending 20 minutes in nature noticeably lowers your stress hormone",
+     "src": "Michigan Üniversitesi araştırması, 2019 · University of Michigan study, 2019",
+     "c1": "#14202a",
+     "c2": "#030507"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h13-hallstatt.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Avusturya · Austria",
+     "tr": "Hallstatt Gölü’nde kış — karlı dağlar ve durgun su",
+     "en": "Winter on Lake Hallstatt — snowy mountains and still water",
+     "cr": "Foto · Photo: Uoaei1 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Hallstatt’ta 7.000 yıldır tuz çıkarılıyor; bilinen en eski tuz madeni burada",
+     "facte": "Salt has been mined at Hallstatt for 7,000 years — the oldest known salt mine in the world"
+    }
+   ]
+  },
+  {
+   "id": "h-11-13-23",
+   "name": "Ay Yolu · Moon Road (sakin · calm)",
+   "from": "2026-11-13T23:00",
+   "until": "2026-11-14T02:00",
+   "items": [
+    {
+     "k": "hzmoonsea",
+     "d": 80
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Aradığın şey|seni arıyor",
+     "en": "What you seek is seeking you",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h13-hedgehog.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Garching, Almanya · Germany",
+     "tr": "Kuru yapraklar arasında uyuyan bir kirpi",
+     "en": "A hedgehog asleep among dry leaves",
+     "cr": "Foto · Photo: Fatemeh Deyhim · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kış uykusundan önce yaprak ve yosundan sıcak bir yuva yapar; kasımdan marta kadar uyur",
+     "facte": "Before hibernating it builds a warm nest of leaves and moss — and sleeps from November to March"
+    },
+    {
+     "k": "hzsteps",
+     "d": 48,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Uyumadan önce: bugünün üç küçük güzelliği",
+     "e": "Before sleep: three small good things from today",
+     "c1": "#0e1624",
+     "c2": "#020306",
+     "gap": 7,
+     "steps": [
+      [
+       "Bugün seni gülümseten bir an",
+       "A moment that made you smile today",
+       ""
+      ],
+      [
+       "Tadını çıkardığın bir şey: bir çay, bir manzara, bir ses",
+       "Something you enjoyed — a tea, a view, a sound",
+       ""
+      ],
+      [
+       "Yarın için küçük bir merak",
+       "One small thing you are curious about for tomorrow",
+       "☾"
+      ]
+     ],
+     "fin": "Araştırmalar, her akşam üç güzel şeyi hatırlamanın ruh halini iyileştirdiğini gösteriyor",
+     "fine": "Studies show that recalling three good things each evening lifts your mood",
+     "bg": "stars"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "%12",
+     "tr": "Ay, üstüne düşen güneş ışığının yalnızca yaklaşık %12’sini yansıtır",
+     "en": "The Moon reflects only about 12% of the sunlight that falls on it",
+     "src": "Yani aslında eski bir asfalt kadar koyu — gece gökyüzünde parlak görünmesi karanlığın sayesinde · As dark as worn asphalt — it only looks bright against the night",
+     "c1": "#101a26",
+     "c2": "#020305"
+    }
+   ]
+  }
+ ]
+}

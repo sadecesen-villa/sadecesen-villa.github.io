@@ -238,3 +238,53 @@ m/h12-hooke.jpg — Robert Hooke, Micrographia, flea Wellcome L0043503.jpg — W
 m/h12-bear.jpg — Kodiak brown bear in the snow (51941642062).jpg — USFWS Alaska — Public domain — https://commons.wikimedia.org/wiki/File:Kodiak_brown_bear_in_the_snow_(51941642062).jpg
 m/h12-cabin.jpg — Wannenkopfhütte (139486673).jpeg — Markus Trienke — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Wannenkopfh%C3%BCtte_(139486673).jpeg
 m/h12-orion.jpg — Orion Setting Over Snowy Mountain.jpg — Eric Kilby — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Orion_Setting_Over_Snowy_Mountain.jpg
+
+## 2026-11-13 (days/2026-11-13.json, m/h13-*)
+m/h13-almond.jpg — Vincent van Gogh - Almond blossom - Google Art Project.jpg — Vincent van Gogh — Public domain — https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg (framed on a gallery wall)
+m/h13-ararat.jpg — 00 2399 Mount Ararat, Turkey.jpg — W. Bulach — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:00_2399_Mount_Ararat,_Turkey.jpg
+m/h13-beech.jpg — Beech forest, Steckenroth.jpg — Gerda Arendt — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Beech_forest,_Steckenroth.jpg
+m/h13-bled.jpg — Panorama Bled 01.jpg — Mihael Grmek — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Panorama_Bled_01.jpg
+m/h13-bower.jpg — Satin Bowerbird at Bower 6533.jpg — JJ Harrison — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Satin_Bowerbird_at_Bower_6533.jpg
+m/h13-cal.jpg — Çal Mağarası1.jpg — Varvara Kless-Kaminskaia — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%C3%87al_Ma%C4%9Faras%C4%B11.jpg
+m/h13-canakkale.jpg — 1915 Çanakkale Bridge 20220327.jpg — Zafer — Public domain — https://commons.wikimedia.org/wiki/File:1915_%C3%87anakkale_Bridge_20220327.jpg
+m/h13-cliffs.jpg — NASA’s Webb Reveals Cosmic Cliffs, Glittering Landscape of Star Birth.jpg — Image: National Aeronautics and Space Administration — Public domain — https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_Webb_Reveals_Cosmic_Cliffs,_Glittering_Landscape_of_Star_Birth.jpg
+m/h13-dendrite.jpg — Manganese dendrites.jpg — Géry PARENT — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Manganese_dendrites.jpg
+m/h13-falkirk.jpg — FalkirkWheelSide 2004 SeanMcClean.jpg — Sean Mack — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:FalkirkWheelSide_2004_SeanMcClean.jpg
+m/h13-fuji.jpg — Mount Fuji from Lake Kawaguchi 20170206.jpg — Suicasmo — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Lake_Kawaguchi_20170206.jpg
+m/h13-geode.jpg — Amethyst-geode 020 7765.jpg — Ludvig14 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Amethyst-geode_020_7765.jpg
+m/h13-giresunadasi.jpg — Giresun Adasi (Amazon Island) Giresun Turkey.jpg — Dr. Zeynel Cebeci — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Giresun_Adasi_(Amazon_Island)_Giresun_Turkey.jpg
+m/h13-hallstatt.jpg — Hallstätter See 20180206.jpg — Uoaei1 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Hallst%C3%A4tter_See_20180206.jpg
+m/h13-hamsilos.jpg — Hamsilos ve Sinop Manzarası.jpg — Erturkercin — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Hamsilos_ve_Sinop_Manzaras%C4%B1.jpg
+m/h13-hedgehog.jpg — Sleeping Hedgehog by the Garchinger See.jpg — Fatemeh Deyhim — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sleeping_Hedgehog_by_the_Garchinger_See.jpg
+m/h13-hiroshige.jpg — Hiroshige, Sudden shower over Shin-Ōhashi bridge and Atake, 1857.jpg — Utagawa Hiroshige — Public domain — https://commons.wikimedia.org/wiki/File:Hiroshige,_Sudden_shower_over_Shin-%C5%8Chashi_bridge_and_Atake,_1857.jpg (framed on a gallery wall)
+m/h13-hornero.jpg — Rufous hornero (Furnarius rufus) at nest Colonia.jpg — Charles J. Sharp — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Rufous_hornero_(Furnarius_rufus)_at_nest_Colonia.jpg
+m/h13-horon.jpg — Sisdağında Horon Şenliği.jpg — Turreis10700 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sisda%C4%9F%C4%B1nda_Horon_%C5%9Eenli%C4%9Fi.jpg
+m/h13-iceberg.jpg — 114 once an iceberg now a Growler and a scupture V-P.jpg — Virtual-Pano — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:114_once_an_iceberg_now_a_Growler_and_a_scupture_V-P.jpg
+m/h13-icecave.jpg — Ice Cave Explorer - Iceland.jpg — Eric Kilby — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Ice_Cave_Explorer_-_Iceland.jpg
+m/h13-impression.jpg — Monet - Impression, Sunrise.jpg — Claude Monet — Public domain — https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg (framed on a gallery wall)
+m/h13-kew.jpg — At Royal Botanic Gardens, Kew 2024 498.jpg — Mike Peel — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:At_Royal_Botanic_Gardens,_Kew_2024_498.jpg
+m/h13-kilauea.jpg — Pāhoehoe lava meets Pacific.jpg — Brocken Inaglory — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:P%C4%81hoehoe_lava_meets_Pacific.jpg
+m/h13-lichtenberg.jpg — Lichtenberg figure within a acrylic block.jpg — Jan1959 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lichtenberg_figure_within_a_acrylic_block.jpg
+m/h13-lotus.jpg — Juvenile Kaloula in a drop of water on a Sacred lotus leaf.jpg — Basile Morin — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Juvenile_Kaloula_in_a_drop_of_water_on_a_Sacred_lotus_leaf.jpg
+m/h13-m51.jpg — Messier51 sRGB.jpg — NASA and European Space Agency — Public domain — https://commons.wikimedia.org/wiki/File:Messier51_sRGB.jpg
+m/h13-mapleleaf.jpg — Maple leaf held up in autumn, Vieux-Limoilou.jpg — Wilfredor — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Maple_leaf_held_up_in_autumn,_Vieux-Limoilou.jpg
+m/h13-millau.jpg — Millau Viaduct (2724128971).jpg — Richard Leeming from London, UK — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Millau_Viaduct_(2724128971).jpg
+m/h13-moonrise.jpg — Red Moon Rising.jpg — ESO/G. Lombardi — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Red_Moon_Rising.jpg
+m/h13-murmuration.jpg — A starling murmuration at Galashiels - geograph.org.uk - 5991163.jpg — Walter Baxter — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:A_starling_murmuration_at_Galashiels_-_geograph.org.uk_-_5991163.jpg
+m/h13-naica.jpg — Cristales cueva de Naica.JPG — Alexander Van Driessche — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Cristales_cueva_de_Naica.JPG
+m/h13-pamukkale.jpg — Hot Springs of Pamukkale Turkey.jpg — Brocken Inaglory — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Hot_Springs_of_Pamukkale_Turkey.jpg
+m/h13-penguins.jpg — Penguin in Antarctica jumping out of the water.jpg — Christopher Michel — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Penguin_in_Antarctica_jumping_out_of_the_water.jpg
+m/h13-penrose.jpg — ImpossibleTriangleEastPerth gobeirne.jpg — Photograph by Greg O'Beirne — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:ImpossibleTriangleEastPerth_gobeirne.jpg
+m/h13-peri.jpg — CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. The Fairy Chimneys.jpg — Feridun F. Alkaya — Public domain — https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg
+m/h13-perito.jpg — Perito Moreno Glacier Patagonia Argentina Luca Galuzzi 2005.JPG — Luca Galuzzi — CC BY-SA 2.5 — https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG
+m/h13-rays.jpg — Crepuscular rays 09-11-2010 1.jpg — Brocken Inaglory — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Crepuscular_rays_09-11-2010_1.jpg
+m/h13-ripples.jpg — Morro Jable (Fuerteventura, Spain), Strand -- 2025 -- 2487.jpg — Dietmar Rabich — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Morro_Jable_(Fuerteventura,_Spain),_Strand_--_2025_--_2487.jpg
+m/h13-ryoanji.jpg — RyoanJi-Dry garden.jpg — Stephane D'Alu — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:RyoanJi-Dry_garden.jpg
+m/h13-sociable.jpg — 119 Sociable weaver nests on an Acacia tree in the Kalahari Desert of Namibia Photo by Giles Laurent.jpg — Giles Laurent — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:119_Sociable_weaver_nests_on_an_Acacia_tree_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg
+m/h13-sombrero.jpg — M104 ngc4594 sombrero galaxy hi-res.jpg — NASA/ESA and The Hubble Heritage Team — Public domain — https://commons.wikimedia.org/wiki/File:M104_ngc4594_sombrero_galaxy_hi-res.jpg
+m/h13-sorolla.jpg — Joaquín Sorolla y Bastida - Strolling along the Seashore - Google Art Project.jpg — Joaquín Sorolla — Public domain — https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_y_Bastida_-_Strolling_along_the_Seashore_-_Google_Art_Project.jpg (framed on a gallery wall)
+m/h13-temeraire.jpg — The Fighting Temeraire, JMW Turner, National Gallery.jpg — J. M. W. Turner — Public domain — https://commons.wikimedia.org/wiki/File:The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg (framed on a gallery wall)
+m/h13-tofukuji.jpg — Tofuku-ji, Kyoto - Tofukuji6622.jpg — lumoplank — CC0 — https://commons.wikimedia.org/wiki/File:Tofuku-ji,_Kyoto_-_Tofukuji6622.jpg
+m/h13-vertical.jpg — CaixaForumMadridyJardinVertical.jpg — Javier martin — Public domain — https://commons.wikimedia.org/wiki/File:CaixaForumMadridyJardinVertical.jpg
+m/h13-weaver.jpg — Black-headed weaver (Ploceus cucullatus bohndorffi) male nest building.jpg — Charles J. Sharp — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Black-headed_weaver_(Ploceus_cucullatus_bohndorffi)_male_nest_building.jpg
+m/h13-yedigoller.jpg — Bolu Yedigöller tabiat parkı sonbahar renkleri.jpg — Guraysamber — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bolu_Yedig%C3%B6ller_tabiat_park%C4%B1_sonbahar_renkleri.jpg

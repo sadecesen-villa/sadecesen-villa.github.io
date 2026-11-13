@@ -1,6 +1,6 @@
-/* hourly.js v59 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v60 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -461,5 +461,85 @@ W.hzwhite=function(L,it){L.style.background='#808080';var c=wCv(L),x=c.getContex
  wLoop(L,function(t){var f=t<17?1:Math.max(0,1-(t-17)/4);if(t>36)f=Math.min(1,(t-36)/3);x.clearRect(0,0,1920,1080);
   for(var r=0;r<NR;r++){var blk=r%2==0,v=Math.round(blk?128-128*f:128+127*f);x.fillStyle='rgb('+v+','+v+','+v+')';x.fillRect(X0,Y0+r*H,W2,H)}
   x.fillStyle='rgb(128,128,128)';for(r=3;r<NR-3;r++){if(r%2==0)x.fillRect(X0+170,Y0+r*H,200,H);else x.fillRect(X0+W2-370,Y0+r*H,200,H)}});return L};
+
+
+/* ---------- v60 additions: hzdla hzsandpile hzgalaxy hzmoonsea (art/sims), hzhering hzponzo (illusions) ---------- */
+/* time-budgeted work helper: run fn() repeatedly for at most ms milliseconds */
+function budget(ms,fn){var t0=Date.now(),n=0;while(Date.now()-t0<ms){if(fn()===false)break;n++}return n}
+
+/* Diffusion-limited aggregation: random walkers stick to a growing crystal (frost, coral, lightning scars) */
+W.hzdla=function(L,it){L.style.background='#05080d';var c=wCv(L),x=c.getContext('2d'),GW=480,GH=270,N=GW*GH,G=new Uint8Array(N),off=document.createElement('canvas');off.width=GW;off.height=GH;var o=off.getContext('2d'),im=o.createImageData(GW,GH),dd=im.data,CX=240,CY=140,rmax=2,cnt=1,RL=92,wx=0,wy=0,alive=false,i;
+ for(i=0;i<N*4;i+=4){dd[i]=5;dd[i+1]=8;dd[i+2]=13;dd[i+3]=255}
+ function put(px,py){var j=py*GW+px;G[j]=1;var q=j*4,h=Math.min(1,cnt/5200);dd[q]=235-h*170;dd[q+1]=245-h*60;dd[q+2]=255-h*40;cnt++;var r=Math.sqrt((px-CX)*(px-CX)+(py-CY)*(py-CY));if(r>rmax)rmax=r}
+ put(CX,CY);
+ function spawn(){var a=Math.random()*6.2832,r=rmax+4;wx=Math.round(CX+r*Math.cos(a));wy=Math.round(CY+r*Math.sin(a));alive=true}
+ T(L,'<div class="hzbox">'+hd('Kristallerin Büyümesi · How Crystals Grow — simülasyon · simulation','Rastgele dolaşan her parçacık, ilk değdiği yere yapışıyor…','Each randomly wandering particle sticks to the first thing it touches…')+'</div>','top:22px',.4);
+ var V=T(L,'','top:430px;left:60px;right:auto;width:400px;text-align:left',1);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.22vw;color:#dfe6e9">Kural bu kadar basit — ama ortaya buz çiçekleri, mercanlar, şimşek izleri ve taşlardaki maden dendritleri gibi dallar çıkıyor<br><i>That is the whole rule — yet it grows branches like frost, coral, lightning scars and mineral dendrites. Difüzyonla sınırlı büyüme · Diffusion-limited aggregation (Witten &amp; Sander, 1981)</i></div></div>','bottom:20px',6);
+ wLoop(L,function(t){if(rmax<RL){budget(14,function(){for(var s=0;s<400;s++){if(!alive)spawn();var m=Math.random()*4|0;if(m==0)wx++;else if(m==1)wx--;else if(m==2)wy++;else wy--;
+    var dx=wx-CX,dy=wy-CY,r2=dx*dx+dy*dy;if(r2>(rmax+14)*(rmax+14)||wx<1||wy<1||wx>=GW-1||wy>=GH-1){alive=false;continue}
+    var j=wy*GW+wx;if(G[j-1]||G[j+1]||G[j-GW]||G[j+GW]){put(wx,wy);alive=false;if(rmax>=RL)return false}}})}
+  o.putImageData(im,0,0);x.imageSmoothingEnabled=false;x.clearRect(0,0,1920,1080);x.drawImage(off,0,0,1920,1080);
+  V.innerHTML='<div class="hzbox" style="padding:14px 26px"><div class="lb">Parçacık · Particles</div><div style="font-size:2.4vw">'+cnt.toLocaleString('tr-TR')+'</div></div>'});return L};
+
+/* Abelian sandpile: add grains to one cell; any cell with 4 grains gives one to each neighbour. A fractal appears */
+W.hzsandpile=function(L,it){L.style.background='#070a10';var c=wCv(L),x=c.getContext('2d'),S=181,N=S*S,G=new Int32Array(N),off=document.createElement('canvas');off.width=S;off.height=S;var o=off.getContext('2d'),im=o.createImageData(S,S),dd=im.data,C=(S>>1)*S+(S>>1),added=0,TOT=40000,lo=S>>1,hi=S>>1;
+ var COL=[[12,18,30],[38,104,124],[214,182,128],[238,236,228]];
+ T(L,'<div class="hzbox">'+hd('Kum Yığını · Sandpile — simülasyon · simulation','Ortaya tek tek kum tanesi ekleniyor. 4 tane biriken kare, komşularına birer tane dağıtıyor…','Grains are dropped in the middle. Any square with 4 grains hands one to each neighbour…')+'</div>','top:22px',.4);
+ var V=T(L,'','top:430px;left:60px;right:auto;width:400px;text-align:left',1);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.22vw;color:#dfe6e9">Tek bir tane bazen hiçbir şey yapmaz, bazen bütün yığını kaydırır: kendiliğinden kritiklik. Depremler, çığlar ve orman yangınları da böyle davranır<br><i>One grain may do nothing — or set off an avalanche across the whole pile: self-organised criticality, like earthquakes, snow slides and forest fires. Bak–Tang–Wiesenfeld, 1987</i></div></div>','bottom:20px',6);
+ function sweep(){var any=false;for(var y=lo;y<=hi;y++){var r=y*S;for(var xx=lo;xx<=hi;xx++){var j=r+xx,v=G[j];if(v>=4){var q=v>>2;G[j]=v-4*q;G[j-1]+=q;G[j+1]+=q;G[j-S]+=q;G[j+S]+=q;any=true;if(xx-1<lo)lo=Math.max(1,xx-1);if(xx+1>hi)hi=Math.min(S-2,xx+1);if(y-1<lo)lo=Math.max(1,y-1);if(y+1>hi)hi=Math.min(S-2,y+1)}}}return any}
+ wLoop(L,function(t){var target=Math.min(TOT,Math.floor(t<4?0:Math.pow((t-4)/44,1.4)*TOT));if(target>added){G[C]+=target-added;added=target}
+  budget(14,function(){return sweep()});
+  for(var j=0;j<N;j++){var v=G[j],q=j*4,cc=v>3?[255,255,255]:COL[v];dd[q]=cc[0];dd[q+1]=cc[1];dd[q+2]=cc[2];dd[q+3]=255}
+  o.putImageData(im,0,0);x.imageSmoothingEnabled=false;x.clearRect(0,0,1920,1080);x.drawImage(off,960-362+80,560-362+20,724,724);
+  V.innerHTML='<div class="hzbox" style="padding:14px 26px"><div class="lb">Kum tanesi · Grains</div><div style="font-size:2.4vw">'+added.toLocaleString('tr-TR')+'</div><div class="sm">0 · 1 · 2 · 3 tane: lacivert · camgöbeği · kum · beyaz<br>navy · teal · sand · white</div></div>'});return L};
+
+/* Spiral galaxy from tilted ellipses: stars on ellipses, each ellipse turned a little more — arms appear (density wave) */
+W.hzgalaxy=function(L,it){L.style.background='#020308';var c=wCv(L),x=c.getContext('2d'),ST=[],i,BG=stars(240);
+ for(i=0;i<11000;i++){var a=Math.round((Math.pow(Math.random(),.8)*400+18)/4)*4;ST.push([a,Math.random()*6.2832,i<14])}
+ T(L,'<div class="hzbox">'+hd('Galaksiler · Galaxies — simülasyon · simulation','Her yıldız kendi oval yolunda dönüyor. Ovaller biraz biraz döndürülünce…','Every star circles on its own oval path. Turn each oval a little more than the last…')+'</div>','top:22px',.4);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.22vw;color:#dfe6e9">…sarmal kollar belirir. Kollar sabit değildir: kırmızı yıldızlar kollara girip çıkar — tıpkı otoyoldaki trafik sıkışıklığı gibi<br><i>…spiral arms appear. The arms are not fixed: the red stars drift into them and out again — like a traffic jam on a motorway. Yoğunluk dalgası · Density wave theory (Lin &amp; Shu, 1964)</i></div></div>','bottom:20px',12);
+ wLoop(L,function(t){x.fillStyle='#020308';x.fillRect(0,0,1920,1080);drawStars(x,BG,t);
+  var tw=t<8?0:Math.min(1,(t-8)/14)*.0105,cx=960,cy=575,tl=.78,rot=t*.03;x.globalCompositeOperation='lighter';
+  for(var k=0;k<ST.length;k++){var s=ST[k],a=s[0],b=a*.62,ph=a*tw+rot,th=s[1]+t*3.2/Math.sqrt(a+40);
+   var ex=a*Math.cos(th),ey=b*Math.sin(th),px=ex*Math.cos(ph)-ey*Math.sin(ph),py=(ex*Math.sin(ph)+ey*Math.cos(ph))*tl;
+   if(s[2]){x.fillStyle='#ff5a4a';x.beginPath();x.arc(cx+px,cy+py,5,0,7);x.fill();continue}
+   var f=Math.max(0,1-a/420);x.fillStyle='rgba('+(150+105*f|0)+','+(180+60*f|0)+',255,'+(.28+.35*f)+')';x.fillRect(cx+px-1,cy+py-1,2.2,2.2)}
+  var g=x.createRadialGradient(cx,cy,0,cx,cy,110);g.addColorStop(0,'rgba(255,240,220,.4)');g.addColorStop(1,'rgba(255,240,220,0)');x.fillStyle=g;x.fillRect(cx-110,cy-110,220,220);x.globalCompositeOperation='source-over'});return L};
+
+/* calm night: moonlight draws a silver road on the Black Sea (illustration) */
+W.hzmoonsea=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(200),GL=[],i,HZ=600,MX=1260;
+ for(i=0;i<900;i++){var d=Math.pow(Math.random(),1.6);GL.push([d,(Math.random()-.5),Math.random()*6.28,.4+Math.random()*1.2])}
+ T(L,hd('Gece Denizi · Night Sea — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Ay ışığı denizde gümüş bir yol çiziyor','Moonlight draws a silver road across the sea'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Bu yol aslında yok: her dalga, ayı sana yansıtan minik bir ayna. Kıyıdaki herkes yolu kendi önünde görür<br><i>The road isn’t really there: every wave is a tiny mirror tilting the moon towards you — everyone on the shore sees the path leading to themselves</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,HZ);g.addColorStop(0,'#03060f');g.addColorStop(1,'#16223a');x.fillStyle=g;x.fillRect(0,0,1920,HZ);drawStars(x,S.filter(function(s){return s[1]<HZ-40}),t);
+  var mg=x.createRadialGradient(MX,250,10,MX,250,300);mg.addColorStop(0,'rgba(230,236,250,.5)');mg.addColorStop(.25,'rgba(200,212,240,.14)');mg.addColorStop(1,'rgba(200,212,240,0)');x.fillStyle=mg;x.fillRect(MX-300,0,600,560);x.fillStyle='#eef1f8';x.beginPath();x.arc(MX,250,52,0,7);x.fill();
+  var sg=x.createLinearGradient(0,HZ,0,1080);sg.addColorStop(0,'#0e1a2e');sg.addColorStop(1,'#04080f');x.fillStyle=sg;x.fillRect(0,HZ,1920,480);
+  x.fillStyle='#070b14';x.beginPath();x.moveTo(0,HZ);for(var u=0;u<=760;u+=20)x.lineTo(u,HZ-26-Math.sin(u*.008)*22-Math.sin(u*.03)*5);x.lineTo(760,HZ);x.fill();
+  x.fillStyle='rgba(255,206,150,.85)';for(i=0;i<14;i++){var lx=40+i*50+(i*37%23),ly=HZ-8-(i*13%11);x.fillRect(lx,ly,2.4,2.4)}
+  for(i=0;i<GL.length;i++){var p=GL[i],yy=HZ+4+p[0]*470,wd=40+p[0]*420,xx=MX+p[1]*wd*(1+.15*Math.sin(t*.3+p[2])),al=Math.max(0,Math.sin(t*p[3]+p[2]))*(.25+.6*(1-p[0]*.6));
+   x.fillStyle='rgba(225,232,248,'+al.toFixed(3)+')';x.fillRect(xx,yy,6+p[0]*30,1.2+p[0]*2.2)}
+  x.strokeStyle='rgba(120,140,170,.10)';x.lineWidth=1;for(i=0;i<12;i++){var wy=HZ+20+i*i*3.4+((t*6)%14);x.beginPath();for(u=0;u<=1920;u+=40)x.lineTo(u,wy+Math.sin(u*.01+t*.4+i)*2);x.stroke()}});return L};
+
+/* Hering illusion: two straight red lines look bowed by the rays behind them */
+W.hzhering=function(L,it){L.style.background='#ece8e0';var c=wCv(L),x=c.getContext('2d');
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Kırmızı çizgiler düz mü, yoksa dışa doğru eğri mi?','Are the red lines straight, or do they bow outwards?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.95vw">İkisi de dümdüz ve birbirine paralel! Işınlar kaybolunca kendin gör</div><div class="e" style="font-size:1.35vw">Both are perfectly straight and parallel — watch as the rays fade</div><div class="sm">Hering illüzyonu · Hering illusion — Ewald Hering, 1861</div></div>','bottom:18px',17);
+ wLoop(L,function(t){var f=t<17?1:Math.max(0,1-(t-17)/4);if(t>36)f=Math.min(1,(t-36)/3);x.clearRect(0,0,1920,1080);var cx=960,cy=560;
+  x.save();x.beginPath();x.rect(380,230,1160,660);x.clip();x.globalAlpha=f;x.strokeStyle='#1d252b';x.lineWidth=2.2;for(var k=0;k<40;k++){var a=k*Math.PI/40;x.beginPath();x.moveTo(cx-Math.cos(a)*900,cy-Math.sin(a)*900);x.lineTo(cx+Math.cos(a)*900,cy+Math.sin(a)*900);x.stroke()}x.restore();x.globalAlpha=1;
+  x.strokeStyle='#c8372a';x.lineWidth=7;x.beginPath();x.moveTo(cx-150,240);x.lineTo(cx-150,880);x.moveTo(cx+150,240);x.lineTo(cx+150,880);x.stroke()});return L};
+
+/* Ponzo illusion: two identical bars on railway tracks — the upper one looks longer */
+W.hzponzo=function(L,it){L.style.background='#d9d4c8';var c=wCv(L),x=c.getContext('2d');
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Hangi kırmızı çubuk daha uzun: üstteki mi, alttaki mi?','Which red bar is longer: the top one or the bottom one?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.95vw">İkisi de tam olarak aynı uzunlukta!</div><div class="e" style="font-size:1.35vw">They are exactly the same length — your brain thinks the top one is farther away, so it “stretches” it</div><div class="sm">Ponzo illüzyonu · Ponzo illusion — Mario Ponzo, 1911</div></div>','bottom:18px',17);
+ function rx(y,s){var k=(1000-y)/780;return s<0?560+k*360:1360-k*360}
+ wLoop(L,function(t){var f=t<17?1:Math.max(.12,1-(t-17)/4);if(t>36)f=Math.min(1,(t-36)/3);x.clearRect(0,0,1920,1080);
+  x.save();x.beginPath();x.rect(0,220,1920,860);x.clip();x.globalAlpha=f;x.strokeStyle='#4a4038';
+  for(var k=0;k<16;k++){var y=1000-780*(1-Math.pow(.86,k));x.lineWidth=2+9*Math.pow(.86,k);x.beginPath();x.moveTo(rx(y,-1)-40*Math.pow(.86,k),y);x.lineTo(rx(y,1)+40*Math.pow(.86,k),y);x.stroke()}
+  x.strokeStyle='#2a2622';x.lineWidth=9;x.beginPath();x.moveTo(560,1000);x.lineTo(920,220);x.moveTo(1360,1000);x.lineTo(1000,220);x.stroke();x.restore();x.globalAlpha=1;
+  x.fillStyle='#c8372a';x.fillRect(850,370,220,22);x.fillRect(850,790,220,22);
+  if(t>19&&t<36){var a=Math.min(1,(t-19)/2);x.globalAlpha=a;x.strokeStyle='#1f6f8b';x.lineWidth=3;x.setLineDash([12,10]);x.beginPath();x.moveTo(850,330);x.lineTo(850,850);x.moveTo(1070,330);x.lineTo(1070,850);x.stroke();x.setLineDash([]);x.globalAlpha=1}});return L};
 
 })();

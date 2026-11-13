@@ -4,6 +4,120 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-13 (rev 60, hourly sets 09:00–02:00, days/2026-11-13.json)
+
+New hz functions in hourly.js v60: hzdla hzsandpile hzgalaxy hzmoonsea (hzmoonsea = calm night), illusions hzhering hzponzo. Mevlânâ quotes used: Dünle beraber gitti cancağızım… (09), Dünyanın bahçesinin sınırı yoktur (14), Bir ağaç gibi ol; kuru yaprakların düşmesine izin ver (15), Sevdiğin şeyin güzelliği yaptığın şey olsun (21), Nerede olursan ol… sevgi içinde ol (22), Aradığın şey seni arıyor (23). requests.md: no pending items. h11-* images archived to /workspace/tv-media-archive/h11.
+
+### 09:00–10:00 · Karadeniz Kıyıları · Black Sea Shores
+- 09 | hzphoto | Giresun Adası — Türkiye’nin Karadeniz kıyısındaki en büyük ada | m/h13-giresunadasi.jpg
+- 09 | hzquote | Dünle beraber gitti cancağızım ne kadar söz varsa düne ait; şimdi yeni şeyler söylemek lazım | —
+- 09 | hzphoto | Hamsilos Koyu — “Türkiye’nin tek fiyordu” diye anılan sakin bir koy | m/h13-hamsilos.jpg
+- 09 | hzfact | Karadeniz’in yüzey suyu, okyanusların yalnızca yarısı kadar tuzludur | —
+- 09 | hzphoto | Çal Mağarası — içinden yer altı deresi akan bir mağara | m/h13-cal.jpg
+- 09 | hzphoto | Sis Dağı’nda horon şenliği — yayla çayırında omuz omuza | m/h13-horon.jpg
+
+### 10:00–11:00 · Kristallerin Büyümesi · How Crystals Grow
+- 10 | hzdla | NEW Diffusion-limited aggregation crystal growth | —
+- 10 | hzphoto | Akrilik bir blokta “donmuş şimşek”: yüksek gerilimin açtığı dallar | m/h13-lichtenberg.jpg
+- 10 | hzphoto | Kristaller Mağarası — insandan kat kat büyük alçıtaşı kristalleri | m/h13-naica.jpg
+- 10 | hzphoto | Taş üstünde manganez dendritleri — bitki fosili değil, kristal | m/h13-dendrite.jpg
+- 10 | hzphoto | İçi kristal dolu bir taş: ametist jeodu | m/h13-geode.jpg
+- 10 | hzfact | Kuvars kristalleri her zaman altı yüzlü bir prizma olarak büyür | —
+
+### 11:00–12:00 · Sonsuzluk Paradoksları · Paradoxes of Infinity
+- 11 | hzsteps | Hilbert’in Oteli: sonsuz sayıda odası var ve hepsi dolu… | —
+- 11 | hzphoto | İmkânsız Üçgen heykeli — doğru noktadan bakınca kapalı bir üçgen gibi görünür | m/h13-penrose.jpg
+- 11 | hzfact | Bazı sonsuzluklar ötekilerden büyüktür: 0 ile 1 arasındaki sayılar, bütün sayma sayılarından daha çoktur | —
+- 11 | hzsteps | Türkiye’de bir günde kaç bardak çay içilir? Bilmeden tahmin edelim… | —
+- 11 | hzriddle | Hep yukarı çıkar, ama hiç aşağı inmez. Nedir? | —
+
+### 12:00–13:00 · Kuşların Mimarları · Bird Architects
+- 12 | hzphoto | Erkek dokumacı kuş, otları düğümleyerek asılı bir yuva örüyor | m/h13-weaver.jpg
+- 12 | hzphoto | Saten çardak kuşu ve mavi süslerle bezediği çardağı | m/h13-bower.jpg
+- 12 | hzfact | Kayıtlardaki en büyük kel kartal yuvası 2 tondan ağırdı | —
+- 12 | hzphoto | Ortak dokumacı kuşların bir akasya ağacındaki dev ortak yuvası | m/h13-sociable.jpg
+- 12 | hzphoto | Fırıncı kuşu, çamurdan yaptığı fırın biçimli yuvasının üstünde | m/h13-hornero.jpg
+
+### 13:00–14:00 · Kendiliğinden Düzen · Order Without a Plan
+- 13 | hzsandpile | NEW Abelian sandpile fractal (self-organised criticality) | —
+- 13 | hzphoto | Binlerce sığırcık gökyüzünde tek bir canlı gibi dalgalanıyor | m/h13-murmuration.jpg
+- 13 | hzsteps | Karıncalar en kısa yolu nasıl bulur? Hiçbiri haritaya bakmadan… | —
+- 13 | hzphoto | Pamukkale travertenleri — sıcak sudan çöken kireçle oluşan beyaz teraslar | m/h13-pamukkale.jpg
+- 13 | hzphoto | Rüzgârın kumda çizdiği dalgacıklar | m/h13-ripples.jpg
+
+### 14:00–15:00 · Villa Fikirleri: Sessiz Bahçeler · Villa Ideas: Quiet Gardens
+- 14 | hzphoto | Ryōan-ji’nin kuru bahçesi: tırmıklanmış çakıl ve 15 taş | m/h13-ryoanji.jpg
+- 14 | hzquote | Dünyanın bahçesinin sınırı yoktur; sınır yalnızca zihnindedir | —
+- 14 | hzphoto | Yaşayan duvar: binlerce bitkiden oluşan dikey bir bahçe | m/h13-vertical.jpg
+- 14 | hzphoto | Büyük bir cam serada palmiyeler ve eğrelti otları arasında yürüyüş yolu | m/h13-kew.jpg
+- 14 | hzsteps | Kendi kuru bahçeni kur: taş, çakıl ve sessizlik | —
+
+### 15:00–16:00 · Sonbaharın Renkleri · Colours of Autumn
+- 15 | hzphoto | Yedigöller Milli Parkı — göle yansıyan sonbahar renkleri | m/h13-yedigoller.jpg
+- 15 | hzsteps | Yapraklar sonbaharda neden sararıp kızarır? | —
+- 15 | hzphoto | Tōfuku-ji’de gece ışıklandırılan kızıl akçaağaçlar | m/h13-tofukuji.jpg
+- 15 | hzquote | Bir ağaç gibi ol; kuru yaprakların düşmesine izin ver | —
+- 15 | hzphoto | Sonbahar ışığına tutulmuş bir akçaağaç yaprağı | m/h13-mapleleaf.jpg
+- 15 | hzphoto | Sonbaharda bir kayın ormanından geçen patika | m/h13-beech.jpg
+
+### 16:00–17:00 · Derinlik Yanılgıları · Tricks of Depth
+- 16 | hzponzo | NEW Ponzo illusion (railway tracks, equal bars) | —
+- 16 | hzphoto | Ağaçların arasından süzülen ışık huzmeleri | m/h13-rays.jpg
+- 16 | hzhering | NEW Hering illusion (straight red lines vs rays) | —
+- 16 | hzphoto | Paranal Gözlemevi’nde bir teleskobun yanında doğan kızıl Ay | m/h13-moonrise.jpg
+- 16 | hzsteps | Uzaktaki dağlar neden mavi görünür? | —
+
+### 17:00–18:00 · Ateş Dağları · Fire Mountains
+- 17 | hzphoto | Ağrı Dağı — 5.137 metreyle Türkiye’nin en yüksek dağı | m/h13-ararat.jpg
+- 17 | hzphoto | Pāhoehoe lavası Büyük Okyanus’la buluşuyor | m/h13-kilauea.jpg
+- 17 | hzsteps | Bir yanardağ neden patlar? | —
+- 17 | hzphoto | Kapadokya’nın peri bacaları | m/h13-peri.jpg
+- 17 | hzphoto | Kawaguchi Gölü’nden Fuji Dağı | m/h13-fuji.jpg
+- 17 | hzriddle | Bir adam yağmurda şapkasız, şemsiyesiz yürüdü; saçının tek teli bile ıslanmadı. Nasıl? | —
+
+### 18:00–19:00 · Buz Dünyaları · Ice Worlds
+- 18 | hzphoto | Perito Moreno Buzulu — yaklaşık 70 metre yüksekliğinde bir buz duvarı | m/h13-perito.jpg
+- 18 | hzphoto | Sudan buzun üstüne fırlayan bir imparator penguen | m/h13-penguins.jpg
+- 18 | hzphoto | Dalgaların yonttuğu bir buzdağı parçası | m/h13-iceberg.jpg
+- 18 | hzfact | Dünyadaki tatlı suyun yaklaşık %70’i Antarktika’nın buzunda saklı | —
+- 18 | hzphoto | İzlanda’da bir buzul mağarası — mavi ışığın içinde bir kâşif | m/h13-icecave.jpg
+
+### 19:00–20:00 · Galaksiler · Galaxies
+- 19 | hzgalaxy | NEW Spiral galaxy from tilted ellipses (density wave) | —
+- 19 | hzphoto | Girdap Galaksisi (M51) ve küçük komşusu | m/h13-m51.jpg
+- 19 | hzphoto | Sombrero Galaksisi (M104) — yandan gördüğümüz bir galaksi ve koyu toz halkası | m/h13-sombrero.jpg
+- 19 | hzfact | İki galaksi çarpıştığında yıldızlar neredeyse hiç birbirine değmez — aralarındaki boşluk o kadar büyüktür | —
+- 19 | hzphoto | Karina Bulutsusu’nun “Kozmik Uçurumları” — James Webb Uzay Teleskobu | m/h13-cliffs.jpg
+
+### 20:00–21:00 · Akıllı Mühendislik · Clever Engineering
+- 20 | hzphoto | Falkirk Çarkı — tekneleri bir kanaldan ötekine döndürerek taşıyan dev çark | m/h13-falkirk.jpg
+- 20 | hzsteps | Binlerce tonluk çelik bir gemi neden batmaz? | —
+- 20 | hzphoto | Millau Viyadüğü — vadinin çok üstünden geçen bir köprü | m/h13-millau.jpg
+- 20 | hzphoto | 1915 Çanakkale Köprüsü — Avrupa ile Asya’yı Çanakkale Boğazı üzerinden bağlıyor | m/h13-canakkale.jpg
+- 20 | hzriddle | Sepette 5 elma var. 5 arkadaşına birer elma verdin, ama sepette yine bir elma kaldı. Nasıl? | —
+
+### 21:00–22:00 · Işığın Ressamları · Painters of Light
+- 21 | hzphoto | İzlenim, Gün Doğumu — Claude Monet, 1872 | m/h13-impression.jpg
+- 21 | hzquote | Sevdiğin şeyin güzelliği yaptığın şey olsun | —
+- 21 | hzphoto | Savaşan Temeraire — J. M. W. Turner, 1839 | m/h13-temeraire.jpg
+- 21 | hzphoto | Shin-Ōhashi Köprüsü’nde Ani Sağanak — Utagawa Hiroshige, 1857 | m/h13-hiroshige.jpg
+- 21 | hzphoto | Badem Çiçekleri — Vincent van Gogh, 1890 | m/h13-almond.jpg
+- 21 | hzphoto | Deniz Kıyısında Gezinti — Joaquín Sorolla, 1909 | m/h13-sorolla.jpg
+
+### 22:00–23:00 · Sakin Sular · Still Waters
+- 22 | hzquote | Nerede olursan ol, ne yaparsan yap, sevgi içinde ol | —
+- 22 | hzphoto | Kışın Bled Gölü — karlı ağaçlar ve pembe bir alacakaranlık | m/h13-bled.jpg
+- 22 | hzphoto | Lotus yaprağının üstünde bir su damlası — içinde minik bir kurbağa | m/h13-lotus.jpg
+- 22 | hzfact | Doğada 20 dakika geçirmek stres hormonunu belirgin biçimde düşürür | —
+- 22 | hzphoto | Hallstatt Gölü’nde kış — karlı dağlar ve durgun su | m/h13-hallstatt.jpg
+
+### 23:00–02:00 · Ay Yolu · Moon Road (sakin · calm)
+- 23 | hzmoonsea | NEW Moon road on the night sea (calm illustration) | —
+- 23 | hzquote | Aradığın şey seni arıyor | —
+- 23 | hzphoto | Kuru yapraklar arasında uyuyan bir kirpi | m/h13-hedgehog.jpg
+- 23 | hzsteps | Uyumadan önce: bugünün üç küçük güzelliği | —
+- 23 | hzfact | Ay, üstüne düşen güneş ışığının yalnızca yaklaşık %12’sini yansıtır | —
+
 ## 2026-11-12 (rev 59, hourly sets 09:00–02:00, days/2026-11-12.json)
 
 New hz functions in hourly.js v59: hzturing hzvoronoi hzcollatz hzsnow hzpogg hzwhite. Mevlânâ quotes used: Bir işi ruhundan yaptığında… nehir (09), Akıllılığını sat, hayret satın al (11), İnsan olmak bir misafirhanedir (14), Gerçekten sevdiğin şeyin seni sessizce çekmesine izin ver (21), Ne kadar sessizleşirsen o kadar çok duyarsın (22), Bir mum başka bir mumu tutuşturmakla ışığından bir şey kaybetmez (23). requests.md: no pending items.

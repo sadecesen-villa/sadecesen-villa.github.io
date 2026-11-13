@@ -113,7 +113,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none;font-
 </style></head><body>
 <video id="ka" src="keepawake.mp4" muted autoplay loop playsinline style="position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:0.01;z-index:9999;pointer-events:none"></video>
 <div id="dim"></div><div id="corner"><div class="t" id="ct"></div><div class="w" id="cw"></div></div>
-<script src="wow.js?v=52"></script><script src="spark.js?v=52"></script><script src="fun.js?v=53"></script><script src="night.js?v=54"></script><script src="hourly.js?v=59"></script>
+<script src="wow.js?v=52"></script><script src="spark.js?v=52"></script><script src="fun.js?v=53"></script><script src="night.js?v=54"></script><script src="hourly.js?v=60"></script>
 <script>
 // v42
 // ---- Sadece Sen TV: autonomous rotation (all media hosted here on GitHub Pages; ngrok only for manual pushes) ----
@@ -412,7 +412,7 @@ var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr
  {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'prov',tr:'Bin dost az, bir düşman çok',en:'A thousand friends are too few; one enemy is too many',st:'Türk atasözü · Turkish proverb'},
  {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
-var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}var REV=59,ALLSETS=null;function dk(o){var d=new Date(ist().getTime()+o*86400000);function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())}
+var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}var REV=60,ALLSETS=null;function dk(o){var d=new Date(ist().getTime()+o*86400000);function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())}
 function gj(u,cb){var x=new XMLHttpRequest();x.open('GET',u+'?t='+Date.now(),true);x.timeout=30000;x.onload=function(){var r=null;if(x.status==200){try{r=JSON.parse(x.responseText)}catch(e){}}cb(r)};x.onerror=x.ontimeout=function(){cb(null)};x.send()}
 // tonight.json + days/<yesterday>.json + days/<today>.json (hourly day schedule; later sets win). Re-read every minute, so hourly sets switch on their own.
 function jx(){gj('tonight.json',function(d){if(!d)return;if(d.rev&&d.rev>REV){location.reload();return}var sets=(d.sets||[]).slice(),K=[dk(-1),dk(0)],q=0;
