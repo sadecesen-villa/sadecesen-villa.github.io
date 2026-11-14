@@ -1,6 +1,6 @@
-/* hourly.js v60 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v62 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -541,5 +541,97 @@ W.hzponzo=function(L,it){L.style.background='#d9d4c8';var c=wCv(L),x=c.getContex
   x.strokeStyle='#2a2622';x.lineWidth=9;x.beginPath();x.moveTo(560,1000);x.lineTo(920,220);x.moveTo(1360,1000);x.lineTo(1000,220);x.stroke();x.restore();x.globalAlpha=1;
   x.fillStyle='#c8372a';x.fillRect(850,370,220,22);x.fillRect(850,790,220,22);
   if(t>19&&t<36){var a=Math.min(1,(t-19)/2);x.globalAlpha=a;x.strokeStyle='#1f6f8b';x.lineWidth=3;x.setLineDash([12,10]);x.beginPath();x.moveTo(850,330);x.lineTo(850,850);x.moveTo(1070,330);x.lineTo(1070,850);x.stroke();x.setLineDash([]);x.globalAlpha=1}});return L};
+
+/* ---------- v62 additions: hzlorenz hzlife hztree hzdragon hzrainwin (art/sims; hzrainwin = calm night), hzmuller hzjastrow (illusions) ---------- */
+/* Lorenz attractor: three paths that start almost exactly together drift apart — the butterfly effect */
+W.hzlorenz=function(L,it){L.style.background='#04060c';var c=wCv(L),x=c.getContext('2d'),hc=wCv(L),h=hc.getContext('2d'),P=[[1,1,1],[1.00001,1,1],[1.00002,1,1]],COL=['#8fd3c1','#ff9e7a','#a9b8ff'],PR=[null,null,null],dt=.005,done=0,SPS=120;
+ T(L,'<div class="hzbox">'+hd('Kelebek Etkisi · The Butterfly Effect — simülasyon · simulation','Üç nokta neredeyse aynı yerden yola çıkıyor: aralarındaki fark yüz binde bir…','Three points start from almost the same place — just one hundred-thousandth apart…')+'</div>','top:22px',.4);
+ var V=T(L,'','top:430px;left:60px;right:auto;width:420px;text-align:left',1);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.22vw;color:#dfe6e9">…bir süre birlikte giderler, sonra bambaşka yollara ayrılırlar. Hava durumu da böyledir: en küçük ölçüm hatası büyür, bu yüzden iki haftadan uzun tahmin yapılamaz<br><i>…they travel together for a while, then split onto completely different paths. Weather works the same way: the tiniest measuring error grows, so forecasts beyond about two weeks are impossible. Lorenz çekicisi · Lorenz attractor (Edward Lorenz, 1963)</i></div></div>','bottom:20px',22);
+ function st(p){var dx=10*(p[1]-p[0]),dy=p[0]*(28-p[2])-p[1],dz=p[0]*p[1]-8/3*p[2];p[0]+=dx*dt;p[1]+=dy*dt;p[2]+=dz*dt}
+ function sp(p){return [1010+p[0]*24,945-p[2]*13.2]}
+ x.lineWidth=2.2;x.lineCap='round';
+ wLoop(L,function(t){x.fillStyle='rgba(4,6,12,.008)';x.fillRect(0,0,1920,1080);var want=Math.min(Math.floor(t*SPS),done+40);
+  while(done<want){done++;for(var k=0;k<3;k++){st(P[k]);var q=sp(P[k]);if(PR[k]){x.strokeStyle=COL[k];x.globalAlpha=.85;x.beginPath();x.moveTo(PR[k][0],PR[k][1]);x.lineTo(q[0],q[1]);x.stroke()}PR[k]=q}}
+  x.globalAlpha=1;h.clearRect(0,0,1920,1080);for(k=0;k<3;k++){if(!PR[k])continue;h.fillStyle=COL[k];h.beginPath();h.arc(PR[k][0],PR[k][1],7,0,7);h.fill()}
+  var dd=Math.sqrt(Math.pow(P[0][0]-P[2][0],2)+Math.pow(P[0][1]-P[2][1],2)+Math.pow(P[0][2]-P[2][2],2));
+  V.innerHTML='<div class="hzbox" style="padding:14px 26px"><div class="lb">Aradaki fark · Gap</div><div style="font-size:2.3vw">'+(dd<.01?dd.toFixed(5):dd.toFixed(2))+'</div><div class="sm">başta · at start: 0.00002</div></div>'});return L};
+
+/* Conway's Game of Life: four simple rules, living patterns */
+W.hzlife=function(L,it){L.style.background='#060a0f';var c=wCv(L),x=c.getContext('2d'),CW=160,CH=90,S=12,N=CW*CH,G=new Uint8Array(N),H=new Float32Array(N),gen=0,last=0,seedT=0,i;
+ function seed(){for(i=0;i<N;i++){var cx=(i%CW)-80,cy=((i/CW)|0)-50;G[i]=(Math.abs(cx)<46&&Math.abs(cy)<24&&Math.random()<.34)?1:0}
+  var gl=[[1,0],[2,1],[0,2],[1,2],[2,2]];for(var r=0;r<6;r++){var ox=6+r*24,oy=26;gl.forEach(function(p){G[(oy+p[1])*CW+ox+p[0]]=1})}gen=0}
+ seed();
+ T(L,'<div class="hzbox">'+hd('Yaşam Oyunu · The Game of Life — simülasyon · simulation','Her kare canlı ya da ölü. Komşu sayısına bakarak her adımda yeniden karar veriyor…','Every square is alive or dead — and decides again at every step by counting its neighbours…')+'</div>','top:22px',.4);
+ var V=T(L,'','top:430px;left:40px;right:auto;width:330px;text-align:left',1);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.2vw;color:#dfe6e9">2 ya da 3 komşu: yaşar · 3 komşu: doğar · gerisi: ölür. Bu kadar basit kurallardan “uçan” desenler, saatler, hatta bilgisayarlar kurulabilir<br><i>2 or 3 neighbours: it lives · 3 neighbours: a birth · otherwise it dies. From rules this simple come gliders, clocks — even working computers. John Conway, 1970</i></div></div>','bottom:20px',8);
+ function step(){var nG=new Uint8Array(N);for(var y=0;y<CH;y++)for(var xx=0;xx<CW;xx++){var n=0;for(var dy=-1;dy<=1;dy++)for(var dx=-1;dx<=1;dx++){if(!dx&&!dy)continue;var yy=(y+dy+CH)%CH,x2=(xx+dx+CW)%CW;n+=G[yy*CW+x2]}var j=y*CW+xx;nG[j]=(n==3||(n==2&&G[j]))?1:0;if(G[j]&&!nG[j])H[j]=1}G=nG;gen++}
+ wLoop(L,function(t){if(t>2&&t-last>.13){last=t;step();if(gen>420){seed()}}
+  x.fillStyle='#060a0f';x.fillRect(0,0,1920,1080);var pop=0;
+  for(var j=0;j<N;j++){var px=(j%CW)*S,py=((j/CW)|0)*S;if(G[j]){pop++;x.fillStyle='#8fd3c1';x.fillRect(px+1,py+1,S-2,S-2)}else if(H[j]>.02){x.fillStyle='rgba(255,158,122,'+(H[j]*.45).toFixed(2)+')';x.fillRect(px+2,py+2,S-4,S-4);H[j]*=.93}}
+  V.innerHTML='<div class="hzbox" style="padding:14px 26px"><div class="lb">Kuşak · Generation</div><div style="font-size:2.2vw">'+gen+'</div><div class="lb" style="margin-top:.6vw">Canlı · Alive</div><div style="font-size:2.2vw">'+pop+'</div></div>'});return L};
+
+/* Fractal tree: one rule (split in two, a little shorter) repeated — and it sways in the wind */
+W.hztree=function(L,it){var c=wCv(L),x=c.getContext('2d'),R=[],i,MAXD=11,PET=[];for(i=0;i<4096;i++)R.push(Math.random());
+ for(i=0;i<70;i++)PET.push([Math.random()*1920,Math.random()*1080,Math.random()*6.28,1+Math.random()*1.5]);
+ T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — çizim · illustration, hayal ürünü · imagined','Tek bir kural: “İkiye ayrıl, biraz kısal.” Sonra aynısını tekrar et…','One rule: “split in two, get a little shorter.” Then do it again…')+'</div>','top:22px',.4);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.22vw;color:#dfe6e9">11 tekrarda 2.048 dal uç verir. Ağaçlar, damarlarımız, nehir ağları ve şimşek aynı “dallanma” fikrini kullanır<br><i>Eleven repeats give 2,048 branch tips. Trees, our blood vessels, river networks and lightning all use the same branching idea — a fractal</i></div></div>','bottom:20px',14);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,1080);g.addColorStop(0,'#0b1626');g.addColorStop(1,'#1c2a2a');x.fillStyle=g;x.fillRect(0,0,1920,1080);
+  x.fillStyle='#14201c';x.beginPath();x.ellipse(960,1070,700,70,0,0,7);x.fill();
+  var grow=Math.min(MAXD+1,t<1?0:(t-1)/1.1),wind=Math.sin(t*.55)*.05+Math.sin(t*1.3)*.015,idx=0;x.lineCap='round';
+  function br(x0,y0,a,len,d,id){if(d>grow)return;var f=Math.min(1,grow-d),sw=wind*(d+1)*.35,x1=x0+Math.cos(a+sw)*len*f,y1=y0+Math.sin(a+sw)*len*f;
+   x.strokeStyle=d<6?'rgb('+(70+d*6)+','+(52+d*8)+','+(44+d*6)+')':'rgb('+(80+d*6)+','+(110+d*6)+','+(90+d*4)+')';x.lineWidth=Math.max(1,22*Math.pow(.68,d));x.beginPath();x.moveTo(x0,y0);x.lineTo(x1,y1);x.stroke();
+   if(d==MAXD&&f>=1){x.fillStyle='rgba(246,206,220,.85)';x.beginPath();x.arc(x1,y1,3.4,0,7);x.fill();return}
+   if(f<1)return;var r1=R[id%4096],r2=R[(id*7+3)%4096];br(x1,y1,a-.32-r1*.22,len*(.7+r2*.08),d+1,id*2+1);br(x1,y1,a+.30+r2*.22,len*(.7+r1*.08),d+1,id*2+2)}
+  br(960,1060,-Math.PI/2,190,0,0);
+  if(grow>MAXD){x.fillStyle='rgba(246,206,220,.75)';for(i=0;i<PET.length;i++){var p=PET[i];p[1]+=p[3]*.6;p[0]+=Math.sin(t*.7+p[2])*.8+.4;if(p[1]>1080){p[1]=300;p[0]=500+Math.random()*900}x.beginPath();x.ellipse(p[0],p[1],4,2.4,p[2]+t,0,7);x.fill()}}});return L};
+
+/* Dragon curve: fold a paper strip in half again and again, unfold every crease to 90° */
+W.hzdragon=function(L,it){L.style.background='#070b12';var c=wCv(L),x=c.getContext('2d'),P=[[0,0],[1,0]],lvl=0,MAXL=13,LT=3.6,T0=3;
+ T(L,'<div class="hzbox">'+hd('Kâğıt Katlama · Paper Folding — simülasyon · simulation','Bir kâğıt şeridini hep aynı yöne ikiye katla, sonra her kıvrımı dik açıyla aç…','Fold a paper strip in half, always the same way — then open every crease to a right angle…')+'</div>','top:22px',.4);
+ var V=T(L,'','top:430px;left:60px;right:auto;width:330px;text-align:left',1);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.22vw;color:#dfe6e9">Çizgi hiçbir zaman kendini kesmez ama düzlemi doldurur: Ejderha eğrisi. NASA fizikçileri bunu 1960’larda böyle buldu<br><i>The line never crosses itself, yet it fills the plane: the Dragon curve, discovered by NASA physicists in the 1960s — and Jurassic Park’s chapter pages show it</i></div></div>','bottom:20px',10);
+ function rot(p,c0,a){var dx=p[0]-c0[0],dy=p[1]-c0[1],cs=Math.cos(a),sn=Math.sin(a);return [c0[0]+dx*cs-dy*sn,c0[1]+dx*sn+dy*cs]}
+ wLoop(L,function(t){var want=Math.min(MAXL,Math.max(0,Math.floor((t-T0)/LT)));while(lvl<want){var pv=P[P.length-1],n=P.length;for(var i=n-2;i>=0;i--){var q=rot(P[i],pv,Math.PI/2);P.push([Math.round(q[0]),Math.round(q[1])])}lvl++}
+  var pr=lvl<MAXL&&t>T0?ease(((t-T0)/LT)-lvl):0,pv2=P[P.length-1],A=[];
+  if(pr>0){for(var j=P.length-2;j>=0;j--)A.push(rot(P[j],pv2,Math.PI/2*pr))}
+  var mnx=1e9,mny=1e9,mxx=-1e9,mxy=-1e9,all=[P,A];all.forEach(function(Z){Z.forEach(function(p){if(p[0]<mnx)mnx=p[0];if(p[0]>mxx)mxx=p[0];if(p[1]<mny)mny=p[1];if(p[1]>mxy)mxy=p[1]})});
+  var sc=Math.min(1240/Math.max(1,mxx-mnx),560/Math.max(1,mxy-mny),260),ox=1080-(mnx+mxx)/2*sc,oy=575-(mny+mxy)/2*sc;
+  x.clearRect(0,0,1920,1080);x.lineWidth=Math.max(1.3,Math.min(8,sc*.28));x.lineCap='round';x.lineJoin='round';
+  function draw(Z,col){if(Z.length<2)return;var CH=Math.max(1,Math.ceil(Z.length/40));for(var k=0;k<Z.length-1;k+=CH){x.strokeStyle=col(k/Z.length);x.beginPath();x.moveTo(ox+Z[k][0]*sc,oy+Z[k][1]*sc);for(var m=k+1;m<=Math.min(Z.length-1,k+CH);m++)x.lineTo(ox+Z[m][0]*sc,oy+Z[m][1]*sc);x.stroke()}}
+  draw(P,function(f){return 'hsl('+(175+f*120|0)+',55%,66%)'});draw(A,function(f){return 'hsl('+(10+f*20|0)+',85%,70%)'});
+  V.innerHTML='<div class="hzbox" style="padding:14px 26px"><div class="lb">Katlama · Folds</div><div style="font-size:2.3vw">'+lvl+'</div><div class="lb" style="margin-top:.6vw">Parça · Segments</div><div style="font-size:2.3vw">'+(P.length-1).toLocaleString('tr-TR')+'</div></div>'});return L};
+
+/* calm night: rain on a window, harbour lights blurred behind (illustration) */
+W.hzrainwin=function(L,it){var c=wCv(L),x=c.getContext('2d'),B=[],D=[],S=[],i;
+ for(i=0;i<46;i++)B.push([Math.random()*1920,560+Math.random()*360,30+Math.random()*90,Math.random()<.7?[255,196,140]:[170,200,255],Math.random()*6.28]);
+ for(i=0;i<520;i++)S.push([Math.random()*1920,Math.random()*1080,1+Math.random()*3.2]);
+ for(i=0;i<26;i++)D.push([Math.random()*1920,Math.random()*1080,3+Math.random()*4,.4+Math.random()*1.6,Math.random()*30]);
+ T(L,hd('Yağmurlu Gece · Rainy Night — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Cama vuran yağmur, ötede limanın ışıkları','Rain on the glass, harbour lights beyond'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Her damla küçük bir mercek: içine bakarsan dışarıdaki dünyayı ters dönmüş görürsün<br><i>Every drop is a tiny lens — look closely and you see the world outside upside down</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,1080);g.addColorStop(0,'#060a14');g.addColorStop(.55,'#0d1628');g.addColorStop(1,'#080c16');x.fillStyle=g;x.fillRect(0,0,1920,1080);
+  for(i=0;i<B.length;i++){var b=B[i],a=.10+.05*Math.sin(t*.4+b[4]),rg=x.createRadialGradient(b[0],b[1],0,b[0],b[1],b[2]);rg.addColorStop(0,'rgba('+b[3]+','+(a*2.2).toFixed(3)+')');rg.addColorStop(1,'rgba('+b[3]+',0)');x.fillStyle=rg;x.fillRect(b[0]-b[2],b[1]-b[2],2*b[2],2*b[2])}
+  x.fillStyle='rgba(200,215,235,.16)';for(i=0;i<S.length;i++){var s=S[i];x.beginPath();x.arc(s[0],s[1],s[2],0,7);x.fill()}
+  for(i=0;i<D.length;i++){var d=D[i];if(t>d[4]){d[1]+=d[3]*(.6+.4*Math.sin(t*2+i));d[0]+=Math.sin(t*1.7+i)*.15}if(d[1]>1100){d[1]=-20;d[0]=Math.random()*1920;d[4]=t+Math.random()*12}
+   var tg=x.createLinearGradient(d[0],d[1]-160,d[0],d[1]);tg.addColorStop(0,'rgba(190,210,235,0)');tg.addColorStop(1,'rgba(190,210,235,.16)');x.strokeStyle=tg;x.lineWidth=d[2]*.7;x.beginPath();x.moveTo(d[0],d[1]-160);x.lineTo(d[0],d[1]);x.stroke();
+   x.fillStyle='rgba(215,228,245,.35)';x.beginPath();x.arc(d[0],d[1],d[2],0,7);x.fill();x.fillStyle='rgba(255,255,255,.5)';x.beginPath();x.arc(d[0]-d[2]*.35,d[1]-d[2]*.35,d[2]*.3,0,7);x.fill()}});return L};
+
+/* Müller-Lyer illusion: arrow fins change how long a line looks */
+W.hzmuller=function(L,it){L.style.background='#e6e2d8';var c=wCv(L),x=c.getContext('2d');
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Hangi yatay çizgi daha uzun: üstteki mi, alttaki mi?','Which horizontal line is longer: the top one or the bottom one?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.95vw">İkisi de tam olarak aynı uzunlukta!</div><div class="e" style="font-size:1.35vw">They are exactly the same length — the fins make the brain read corners of a room</div><div class="sm">Müller-Lyer illüzyonu · Müller-Lyer illusion — Franz Müller-Lyer, 1889</div></div>','bottom:18px',17);
+ function fin(px,py,dir,f){x.globalAlpha=f;x.beginPath();x.moveTo(px,py);x.lineTo(px+dir*80,py-62);x.moveTo(px,py);x.lineTo(px+dir*80,py+62);x.stroke();x.globalAlpha=1}
+ wLoop(L,function(t){var f=t<17?1:Math.max(0,1-(t-17)/4);if(t>36)f=Math.min(1,(t-36)/3);x.clearRect(0,0,1920,1080);x.strokeStyle='#1b2328';x.lineWidth=9;x.lineCap='round';
+  var X0=660,X1=1260,Y1=440,Y2=770;x.beginPath();x.moveTo(X0,Y1);x.lineTo(X1,Y1);x.moveTo(X0,Y2);x.lineTo(X1,Y2);x.stroke();
+  fin(X0,Y1,-1,f);fin(X1,Y1,1,f);fin(X0,Y2,1,f);fin(X1,Y2,-1,f);
+  if(t>19&&t<36){x.globalAlpha=Math.min(1,(t-19)/2);x.strokeStyle='#c8372a';x.lineWidth=3;x.setLineDash([12,10]);x.beginPath();x.moveTo(X0,360);x.lineTo(X0,850);x.moveTo(X1,360);x.lineTo(X1,850);x.stroke();x.setLineDash([]);x.globalAlpha=1}});return L};
+
+/* Jastrow illusion: two identical curved blocks — the lower one looks bigger */
+W.hzjastrow=function(L,it){L.style.background='#e9e5dc';var c=wCv(L),x=c.getContext('2d');
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Hangi kavisli parça daha büyük: mavi mi, kırmızı mı?','Which curved piece is bigger: the blue one or the red one?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.95vw">İkisi de tıpatıp aynı! Üst üste konunca kendin gör</div><div class="e" style="font-size:1.35vw">They are identical — watch them slide on top of each other. The brain compares the short inner edge with the long outer edge next to it</div><div class="sm">Jastrow illüzyonu · Jastrow illusion — Joseph Jastrow, 1889</div></div>','bottom:18px',17);
+ function arc(cx,cy,col,al){var R1=520,R2=330,a0=-Math.PI/2-.62,a1=-Math.PI/2+.62;x.globalAlpha=al;x.fillStyle=col;x.beginPath();x.arc(cx,cy,R1,a0,a1);x.arc(cx,cy,R2,a1,a0,true);x.closePath();x.fill();x.globalAlpha=1}
+ wLoop(L,function(t){x.clearRect(0,0,1920,1080);var m=t<19?0:t<23?ease((t-19)/4):t<31?1:t<35?1-ease((t-31)/4):0;
+  var cyA=820,cyB=1040,cy=cyA+(cyB-cyA)*m;arc(960,cyB,'#c8372a',1);arc(960,cy,'#2a6f9b',m>0?.8:1)});return L};
 
 })();

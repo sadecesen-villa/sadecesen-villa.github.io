@@ -1,0 +1,1305 @@
+{
+ "date": "2026-11-14",
+ "rev": 62,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-14.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-14-09",
+   "name": "Karadeniz’in Taş Hafızası · Stone Memory of the Black Sea",
+   "from": "2026-11-14T09:00",
+   "until": "2026-11-14T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-ayasofya.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon",
+     "tr": "Trabzon Ayasofya’nın 13. yüzyıldan kalma freskleri",
+     "en": "The 13th-century frescoes of Hagia Sophia in Trabzon",
+     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "1250–1260 yıllarında Trabzon İmparatorluğu döneminde yapıldı; freskleri geç Bizans sanatının en güzel örneklerinden sayılır",
+     "facte": "Built in 1250–1260 in the days of the Empire of Trebizond — its frescoes are counted among the finest of late Byzantine art"
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Sen denizde bir damla değilsin;|bir damlada okyanusun tamamısın",
+     "en": "You are not a drop in the ocean — you are the entire ocean in a drop",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-sumela.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Maçka, Trabzon",
+     "tr": "Sümela Manastırı — Altındere Vadisi’nde sarp bir kayalığa yaslanmış",
+     "en": "Sümela Monastery — clinging to a sheer cliff above the Altındere Valley",
+     "cr": "Foto · Photo: Bjørn Christian Tørrissen · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Rivayete göre 4. yüzyılda kuruldu; yaklaşık 1.200 metre yükseklikte, ormanın içinden bakınca kayaya oyulmuş gibi görünür",
+     "facte": "Tradition says it was founded in the 4th century — at about 1,200 m, it looks carved into the rock when seen from the forest"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "%90",
+     "tr": "Karadeniz’in sularının yaklaşık %90’ında hiç oksijen yok — dünyanın en büyük oksijensiz su kütlesi",
+     "en": "About 90% of the Black Sea’s water holds no oxygen at all — the largest oxygen-free body of water on Earth",
+     "src": "Bu yüzden derinlerdeki batıklar çürümez: 2018’de 2.400 yıllık bir Yunan gemisi neredeyse sağlam bulundu · So deep wrecks don’t rot — in 2018 a 2,400-year-old Greek ship was found almost intact",
+     "c1": "#12303a",
+     "c2": "#03080b"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-kackar.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rize",
+     "tr": "Kaçkar Dağları — 3.937 metrelik zirvesiyle Doğu Karadeniz’in çatısı",
+     "en": "The Kaçkar Mountains — roof of the eastern Black Sea, with a 3,937 m summit",
+     "cr": "Foto · Photo: Wikimol · CC BY-SA 2.5 · Wikimedia Commons",
+     "fact": "Buzul gölleri ve yaz yaylalarıyla ünlü; denizden 50 km içeride 3.900 metreyi aşan dağlar, bulutları yakalayıp kıyıyı yeşil tutar",
+     "facte": "Famous for glacial lakes and summer pastures — peaks above 3,900 m just 50 km from the sea catch the clouds and keep the coast green"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Suda doğar, suda ölür;<br>sofraya tat verir.<br>Nedir?",
+     "qe": "It is born in water and dies in water, and gives the table its taste. What is it?",
+     "a": "Tuz!",
+     "ae": "Salt.",
+     "sec": 16,
+     "c1": "#1c2a30",
+     "c2": "#040708"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-10",
+   "name": "Kelebek Etkisi · The Butterfly Effect",
+   "from": "2026-11-14T10:00",
+   "until": "2026-11-14T11:00",
+   "items": [
+    {
+     "k": "hzlorenz",
+     "d": 78
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Gerçek Hikâye · True Story",
+     "q": "1961: Bir meteorolog kahve molası verir ve kaos keşfedilir…",
+     "e": "1961: a meteorologist takes a coffee break — and chaos is discovered…",
+     "c1": "#1a2230",
+     "c2": "#040508",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Edward Lorenz bilgisayarında basit bir hava modeli çalıştırıyor",
+       "Edward Lorenz runs a simple weather model on his computer",
+       ""
+      ],
+      [
+       "Bir hesabı yeniden başlatmak için sayıyı kısaltarak giriyor: 0,506127 yerine 0,506",
+       "To rerun a forecast he types a shortened number: 0.506 instead of 0.506127",
+       ""
+      ],
+      [
+       "Kahvesini içip dönüyor",
+       "He goes for a coffee and comes back",
+       "☕"
+      ],
+      [
+       "Birkaç “hafta” sonra tahmin bambaşka: güneş yerine fırtına",
+       "A few simulated “weeks” later the forecast is completely different — storm instead of sun",
+       "≠"
+      ],
+      [
+       "Binde birlik fark, bütün havayı değiştirmişti",
+       "A difference of one part in a thousand had changed all the weather",
+       "🦋"
+      ]
+     ],
+     "fin": "Lorenz’in 1972 konuşmasının adı: “Brezilya’da bir kelebeğin kanat çırpışı Teksas’ta bir kasırga başlatabilir mi?”",
+     "fine": "The title of Lorenz’s 1972 talk: “Does the flap of a butterfly’s wings in Brazil set off a tornado in Texas?”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-supercell.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · New Mexico, ABD · USA",
+     "tr": "Dönen dev bir fırtına bulutu: süper hücre",
+     "en": "A giant rotating storm cloud: a supercell",
+     "cr": "Foto · Photo: Greg Lundeen / NWS · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Tepesi 12–15 km’ye, yolcu uçaklarının üstüne kadar yükselebilir; içindeki hava sütunu yavaşça döner",
+     "facte": "Its top can tower 12–15 km high — above airliners — while the column of air inside slowly turns"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "+1 gün",
+     "tr": "Hava tahminleri her on yılda yaklaşık bir gün daha ileriyi görüyor",
+     "en": "Weather forecasts see about one day further ahead every decade",
+     "src": "Bugünün 5 günlük tahmini, 1980’lerin 3 günlük tahmini kadar isabetli · A 5-day forecast today is as good as a 3-day forecast in the 1980s",
+     "c1": "#18243a",
+     "c2": "#03050a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ne kadar çok alırsan,<br>arkanda o kadar çok bırakırsın.<br>Nedir?",
+     "qe": "The more you take, the more you leave behind. What are they?",
+     "a": "Adımlar!",
+     "ae": "Footsteps.",
+     "sec": 18,
+     "c1": "#22262c",
+     "c2": "#050607"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-11",
+   "name": "Yaşam Oyunu · The Game of Life",
+   "from": "2026-11-14T11:00",
+   "until": "2026-11-14T12:00",
+   "items": [
+    {
+     "k": "hzlife",
+     "d": 75
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Beş karelik bir “planör” nasıl yürür? Hiçbir kare kıpırdamadan…",
+     "e": "How does a five-square “glider” walk — when no square ever moves?",
+     "c1": "#16282a",
+     "c2": "#030707",
+     "gap": 6,
+     "steps": [
+      [
+       "Kareler yer değiştirmez; yalnızca doğar ya da ölür",
+       "Squares never move — they are only born or die",
+       ""
+      ],
+      [
+       "Planör her adımda biçim değiştirir: dört farklı şekil",
+       "The glider changes shape at every step — four different forms",
+       ""
+      ],
+      [
+       "4 adım sonra ilk şekline döner…",
+       "After 4 steps it is back to its first shape…",
+       ""
+      ],
+      [
+       "…ama bir kare çapraz kaymış olarak",
+       "…but shifted one square diagonally",
+       "↘"
+      ],
+      [
+       "Ortada hareket eden bir şey yok — ama desen yürüyor",
+       "Nothing is moving — yet the pattern walks",
+       "✓"
+      ]
+     ],
+     "fin": "Dalgalar da böyledir: denizde su yerinde kalır, ilerleyen şey biçimdir",
+     "fine": "Waves are like this too — the water stays put; it is the shape that travels"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-conus.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Konik salyangoz · Cone snail, Conus textile",
+     "tr": "Konik salyangoz kabuğu — üçgen desenleri bir bilgisayar programı gibi büyür",
+     "en": "A cone snail shell — its triangle patterns grow like a computer program",
+     "cr": "Foto · Photo: H. Zell · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kabuğun kenarındaki hücreler komşularına bakarak boya bırakır; ortaya basit kurallı bir “hücresel otomat” deseni çıkar (bu salyangoz zehirlidir, dokunulmaz!)",
+     "facte": "Cells along the shell’s edge lay down pigment by checking their neighbours — a simple-rule “cellular automaton” pattern (this snail is venomous — never touch!)",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "1970",
+     "tr": "Yaşam Oyunu 1970’te bir dergi köşesinde tanıtıldı; bilgisayar azdı, insanlar kareli kâğıt ve go taşlarıyla oynadı",
+     "en": "The Game of Life was introduced in a magazine column in 1970 — few people had computers, so they played it on graph paper and Go boards",
+     "src": "Martin Gardner, Scientific American · Conway kendisi de go tahtası kullandı · Conway himself used a Go board",
+     "c1": "#1e2430",
+     "c2": "#040508"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "1 · 11 · 21 · 1211 · 111221<br>Sıradaki ne?",
+     "qe": "1, 11, 21, 1211, 111221 — what comes next?",
+     "a": "312211 — her sayı bir öncekini sesli okur: “üç 1, iki 2, bir 1”",
+     "ae": "312211 — each line reads the one before aloud: “three 1s, two 2s, one 1” (Conway studied this too)",
+     "sec": 26,
+     "hint": "İpucu: sayıları yüksek sesle oku · Hint: read them aloud",
+     "c1": "#24282c",
+     "c2": "#050607"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-12",
+   "name": "Ağaçların Mimarisi · The Architecture of Trees",
+   "from": "2026-11-14T12:00",
+   "until": "2026-11-14T13:00",
+   "items": [
+    {
+     "k": "hztree",
+     "d": 60
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-crown.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Taç utangaçlığı · Crown shyness",
+     "tr": "Taç utangaçlığı: komşu ağaçların tepeleri birbirine değmez",
+     "en": "Crown shyness: the crowns of neighbouring trees don’t touch",
+     "cr": "Foto · Photo: Vijayanrajapuram · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Nedeni tam bilinmiyor: rüzgârda sürtünmemek, böceklerin yayılmasını önlemek ya da ışığı paylaşmak olabilir",
+     "facte": "Nobody knows exactly why — perhaps to avoid rubbing in the wind, to stop insects spreading, or to share the light"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-dragontree.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sokotra, Yemen",
+     "tr": "Ejder kanı ağacı — ters dönmüş bir şemsiye gibi",
+     "en": "The dragon’s blood tree — like an umbrella turned inside out",
+     "cr": "Foto · Photo: Alex38 · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Şemsiye biçimi sisi ve gölgeyi yakalar; kabuğu çizilince kırmızı reçine sızar, adı buradan gelir",
+     "facte": "Its umbrella shape catches mist and makes shade — cut the bark and red resin seeps out, hence the name",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-baobab.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Madagaskar · Madagascar",
+     "tr": "Baobab ağacı — gövdesinde binlerce litre su saklar",
+     "en": "A baobab — storing thousands of litres of water in its trunk",
+     "cr": "Foto · Photo: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Bazı baobablar 800 yıldan yaşlıdır; kurak mevsimde yapraklarını döküp suyunu korur",
+     "facte": "Some baobabs are over 800 years old — in the dry season they drop their leaves to save water",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-angeloak.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Johns Island, ABD · USA",
+     "tr": "Melek Meşesi — dalları yere kadar uzanan yaşlı bir meşe",
+     "en": "The Angel Oak — an ancient oak whose limbs reach down to the ground",
+     "cr": "Foto · Photo: Lightbulb Noob · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "300–400 yaşında olduğu tahmin ediliyor; gölgesi yaklaşık 1.600 m²’lik bir alanı kaplar",
+     "facte": "Thought to be 300–400 years old — its shade covers about 1,600 m²",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "da Vinci",
+     "tr": "Leonardo da Vinci fark etti: ağaç dallandığında dalların kalınlıkları toplamı gövdeyle aşağı yukarı aynı kalır",
+     "en": "Leonardo da Vinci noticed that when a tree branches, the branches together are about as thick as the trunk",
+     "src": "“Leonardo kuralı” — bugün rüzgâra dayanıklılıkla açıklanıyor · “Leonardo’s rule” — now explained by resistance to wind",
+     "c1": "#1e2a22",
+     "c2": "#040705"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-13",
+   "name": "Katlamanın Sırları · Secrets of Folding",
+   "from": "2026-11-14T13:00",
+   "until": "2026-11-14T14:00",
+   "items": [
+    {
+     "k": "hzdragon",
+     "d": 66
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "0,1 mm kalınlığında bir kâğıdı 42 kez katlayabilseydin…",
+     "e": "If you could fold a 0.1 mm sheet of paper 42 times…",
+     "c1": "#1e2430",
+     "c2": "#040508",
+     "gap": 6.5,
+     "steps": [
+      [
+       "10 katta: bir kibrit kutusu kadar, yaklaşık 10 cm",
+       "10 folds: about 10 cm — a matchbox",
+       "10 cm"
+      ],
+      [
+       "20 katta: 30 katlı bir gökdelen boyu",
+       "20 folds: as tall as a 30-storey tower",
+       "105 m"
+      ],
+      [
+       "30 katta: uzayın kıyısını geçer",
+       "30 folds: past the edge of space",
+       "107 km"
+      ],
+      [
+       "42 katta: Ay’a ulaşıp geçer",
+       "42 folds: all the way to the Moon — and beyond",
+       "440.000 km"
+      ]
+     ],
+     "fin": "Gerçekte rekor 12 kat — 2002’de bir lise öğrencisi Britney Gallivan, 1 km’yi aşan tek bir kâğıt şeritle yaptı",
+     "fine": "The real record is 12 folds — set in 2002 by high-school student Britney Gallivan with a single strip over 1 km long"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-origami.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Origami",
+     "tr": "Kâğıt turnalar — tek bir kare kâğıttan, kesmeden ve yapıştırmadan",
+     "en": "Paper cranes — from a single square sheet, no cutting, no glue",
+     "cr": "Foto · Photo: Laitche · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Japon geleneğine göre bin turna katlayanın bir dileği gerçekleşir: “senbazuru”",
+     "facte": "Japanese tradition says that whoever folds a thousand cranes is granted a wish — “senbazuru”"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Başkalarının hikâyeleriyle yetinme;|kendi efsaneni aç",
+     "en": "Don’t be satisfied with stories of how things have gone with others — unfold your own myth",
+     "pal": "ink"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-miura.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Miura katlaması · Miura fold",
+     "tr": "Miura katlaması — tek bir çekişle açılıp kapanan bir desen",
+     "en": "The Miura fold — a pattern that opens and closes with a single pull",
+     "cr": "Foto · Photo: Origamicke · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Japon astrofizikçi Kōryō Miura buldu; 1995’te bir uydunun güneş panelleri bu desenle katlanıp uzayda açıldı",
+     "facte": "Invented by Japanese astrophysicist Kōryō Miura — in 1995 a satellite’s solar panels were folded this way and opened in space",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-jwst.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · NASA",
+     "tr": "James Webb Uzay Teleskobu’nun 18 altıgen ayna parçası, testte",
+     "en": "The 18 hexagonal mirror segments of the James Webb Space Telescope, under test",
+     "cr": "Foto · Photo: NASA/MSFC/David Higginbotham/Emmett Given · kamu malı · public domain · Wikimedia Commons",
+     "fact": "6,5 metrelik ayna roketin içine sığmadı: teleskop origami gibi katlandı ve uzayda kendi kendine açıldı (2022)",
+     "facte": "The 6.5 m mirror didn’t fit inside the rocket — so the telescope was folded like origami and unfolded itself in space (2022)"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-14",
+   "name": "Villa Fikirleri: Işık ve Gölge · Villa Ideas: Light & Shadow",
+   "from": "2026-11-14T14:00",
+   "until": "2026-11-14T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-louvreabu.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Louvre Abu Dabi · Abu Dhabi)",
+     "tr": "Kubbeden süzülen “ışık yağmuru”",
+     "en": "A “rain of light” falling through the dome",
+     "cr": "Foto · Photo: Boubloub · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Jean Nouvel’in kubbesi 8 katmanda 7.850 yıldızdan oluşur; güneş ışığı içeri hurma yapraklarının arasından süzülür gibi damlar",
+     "facte": "Jean Nouvel’s dome is made of 7,850 stars in 8 layers — sunlight drips through as if through palm fronds"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Yara,|ışığın içine girdiği yerdir",
+     "en": "The wound is the place where the Light enters you",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-nasir.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Nasırülmülk Camii, Şiraz · Nasir al-Mulk, Shiraz)",
+     "tr": "Sabah güneşi renkli camlardan halılara düşüyor",
+     "en": "Morning sun falls through stained glass onto the carpets",
+     "cr": "Foto · Photo: Ayyoubsabawiki · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Doğuya bakan birkaç renkli cam, sabah kahvaltısında taş zemine ve yastıklara renk serpebilir",
+     "facte": "A few coloured panes facing east could scatter colour across a stone floor and cushions at breakfast"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-alcove.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Japonya · Japan)",
+     "tr": "Kâğıt sürgü kapılar (şoji) ışığı yumuşatıyor",
+     "en": "Paper sliding screens (shoji) soften the light",
+     "cr": "Foto · Photo: Benh LIEU SONG · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Keten ya da pirinç kâğıdı perdeler sert güneşi süt beyazı bir ışığa çevirir — bir yatak odası ya da okuma köşesi için huzurlu bir fikir",
+     "facte": "Linen or rice-paper screens turn harsh sun into milky light — a calm idea for a bedroom or reading nook"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Butik otel ışığı: tavandan değil, katmanlardan",
+     "e": "Boutique-hotel lighting: layers, not the ceiling",
+     "c1": "#2a2420",
+     "c2": "#070605",
+     "gap": 6,
+     "steps": [
+      [
+       "Genel ışık: sıcak beyaz 2700 K, kısılabilir",
+       "Ambient: warm white 2700 K, dimmable",
+       ""
+      ],
+      [
+       "Görev ışığı: okuma koltuğu, mutfak tezgâhı",
+       "Task light: the reading chair, the kitchen counter",
+       ""
+      ],
+      [
+       "Vurgu: bal rengi taş duvarı aşağıdan yalayan ışık dokusunu ortaya çıkarır",
+       "Accent: light grazing the honey stone walls from below brings out their texture",
+       "✦"
+      ],
+      [
+       "Akşam: ışıklar göz hizasının altında — abajurlar, aplikler",
+       "Evening: light below eye level — lamps and low wall lights",
+       "☾"
+      ]
+     ],
+     "fin": "Otellerin sırrı: akşam tavandaki lambayı kapatıp alçak, sıcak ışık adacıkları bırakmak",
+     "fine": "The hotels’ secret: switch off the ceiling light in the evening and leave low, warm islands of light"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "2700 K",
+     "tr": "Akşam için ideal ışık rengi yaklaşık 2700 kelvin: mum ve gün batımına yakın sıcak beyaz",
+     "en": "The ideal evening light colour is about 2700 kelvin — a warm white close to candlelight and sunset",
+     "src": "4000 K ve üstü ofis hissi verir; yatak odasında 2200–2700 K daha dinlendiricidir · 4000 K and above feels like an office — 2200–2700 K is more restful in a bedroom",
+     "c1": "#2a2018",
+     "c2": "#070504"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-15",
+   "name": "Mantarların Gizli Krallığı · The Hidden Kingdom of Fungi",
+   "from": "2026-11-14T15:00",
+   "until": "2026-11-14T16:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-amanita.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sinek mantarı · Fly agaric",
+     "tr": "Sinek mantarı — masallardaki kırmızı beyaz benekli mantar",
+     "en": "The fly agaric — the red-and-white spotted mushroom of fairy tales",
+     "cr": "Foto · Photo: Holger Krisp · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Çok zehirlidir; kayın, huş ve çam köklerine sarılarak onlarla ortak yaşar",
+     "facte": "It is poisonous — and lives in partnership with the roots of birch, beech and pine"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Ormanın altındaki “internet”: ağaçlar mantarlarla nasıl takas yapar?",
+     "e": "The “internet” under the forest: how do trees trade with fungi?",
+     "c1": "#1e2a1c",
+     "c2": "#040703",
+     "gap": 6,
+     "steps": [
+      [
+       "Mantar iplikleri ağaç köklerini sarar",
+       "Fungal threads wrap around tree roots",
+       ""
+      ],
+      [
+       "Ağaç, yapraklarında yaptığı şekeri mantara verir",
+       "The tree gives the fungus sugar made in its leaves",
+       "🍃→"
+      ],
+      [
+       "Mantar karşılığında su ve mineral taşır",
+       "In return the fungus brings water and minerals",
+       "→💧"
+      ],
+      [
+       "İplikler bir ağaçtan ötekine uzanıp onları bağlayabilir",
+       "The threads can reach from tree to tree and link them",
+       ""
+      ],
+      [
+       "Bilim insanları bu ağın ne kadar “paylaştığını” hâlâ tartışıyor",
+       "Scientists are still debating how much this network really “shares”",
+       "?"
+      ]
+     ],
+     "fin": "Karadeniz ormanlarındaki ağaçların çoğu da kökleriyle mantarlara bağlı yaşar",
+     "fine": "Most trees in the Black Sea forests live linked to fungi through their roots too"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-mycelium.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Miselyum · Mycelium",
+     "tr": "Toprağın altında: bir mantarın kök gibi yayılan iplikleri (miselyum)",
+     "en": "Under the soil: a fungus’s root-like threads (mycelium)",
+     "cr": "Foto · Photo: FungiFriendly · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Gördüğümüz mantar yalnızca “meyvesi”; asıl canlı toprağın altındaki iplik ağıdır. Bir avuç orman toprağında kilometrelerce iplik olabilir",
+     "facte": "The mushroom we see is only its “fruit” — the real organism is the web of threads below. A handful of forest soil can hold kilometres of them",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-mycena.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Işıldayan mantar · Bioluminescent fungi",
+     "tr": "Karanlıkta yeşil ışıldayan mantar",
+     "en": "Fungi glowing green in the dark",
+     "cr": "Foto · Photo: Bruce McAdam · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 100 mantar türü ışık saçar; Aristoteles bu “soğuk ateşi” çürüyen odunlarda görüp yazmıştı",
+     "facte": "About 100 kinds of fungi glow — Aristotle wrote about this “cold fire” on rotting wood",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "9 km²",
+     "tr": "Bilinen en büyük canlılardan biri bir mantar: Oregon’daki bir bal mantarı yaklaşık 9 km²’ye yayılıyor",
+     "en": "One of the largest known living things is a fungus: a honey mushroom in Oregon spreads across about 9 km²",
+     "src": "Binlerce yaşında olduğu tahmin ediliyor · Thought to be thousands of years old (Armillaria ostoyae)",
+     "c1": "#22201a",
+     "c2": "#060504"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-shelf.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hollanda · Netherlands",
+     "tr": "Devrilmiş bir gövdede raf mantarları",
+     "en": "Bracket fungi on a fallen trunk",
+     "cr": "Foto · Photo: Agnes Monkelbaan · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "5.300 yıllık “Buz Adam” Ötzi yanında iki tür raf mantarı taşıyordu: biri ateş yakmak, biri belki ilaç için",
+     "facte": "Ötzi the 5,300-year-old “Iceman” carried two kinds of bracket fungus — one for lighting fires, one perhaps as medicine"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-16",
+   "name": "Beynin Kısa Yolları · The Brain’s Shortcuts",
+   "from": "2026-11-14T16:00",
+   "until": "2026-11-14T17:00",
+   "items": [
+    {
+     "k": "hzmuller",
+     "d": 48
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-parthenon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Atina · Athens",
+     "tr": "Parthenon — düz görünen ama aslında hiçbir çizgisi tam düz olmayan tapınak",
+     "en": "The Parthenon — it looks straight, yet hardly a single line in it is truly straight",
+     "cr": "Foto · Photo: Thermos · CC BY-SA 2.5 · Wikimedia Commons",
+     "fact": "Taban ortada yaklaşık 11 cm yükselir, sütunlar hafifçe şişkin ve içe eğiktir: göz bina sarkıyor sanmasın diye",
+     "facte": "The base rises about 11 cm in the middle and the columns swell slightly and lean inwards — so the eye won’t see the building sag",
+     "fit": "contain"
+    },
+    {
+     "k": "hzjastrow",
+     "d": 48
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Neden kanıyoruz? Beyin bir tahmin makinesidir",
+     "e": "Why are we fooled? The brain is a guessing machine",
+     "c1": "#1e2430",
+     "c2": "#040508",
+     "gap": 6,
+     "steps": [
+      [
+       "Göz yalnızca düz, iki boyutlu bir görüntü alır",
+       "The eye only receives a flat, two-dimensional picture",
+       ""
+      ],
+      [
+       "Beyin derinliği ipuçlarından tahmin eder: köşeler, gölgeler, boyutlar",
+       "The brain guesses depth from clues — corners, shadows, sizes",
+       ""
+      ],
+      [
+       "Ok uçları ona bir odanın ya da binanın köşesini hatırlatır",
+       "Arrow fins remind it of the corners of a room or a building",
+       ""
+      ],
+      [
+       "“Uzaktaki şey küçük görünmeli” der ve onu büyütür",
+       "It decides “far things should look small” — and enlarges it",
+       ""
+      ],
+      [
+       "Biz görüntüyü değil, beynin tahminini görürüz",
+       "We don’t see the image — we see the brain’s guess",
+       "👁"
+      ]
+     ],
+     "fin": "Araştırmalara göre köşeli binalardan uzak yaşayan toplulukları bu yanılgılar daha az kandırıyor",
+     "fine": "Studies suggest people who grow up with fewer square buildings are fooled less by these illusions"
+    },
+    {
+     "k": "hzriddle",
+     "d": 36,
+     "q": "Sabah dört,<br>öğlen iki,<br>akşam üç ayakla yürür.<br>Nedir?",
+     "qe": "It walks on four legs in the morning, two at noon and three in the evening. What is it?",
+     "a": "İnsan! Bebekken emekler, büyüyünce yürür, yaşlanınca bastona dayanır",
+     "ae": "A human: crawling as a baby, walking as an adult, with a stick in old age — the Sphinx’s riddle",
+     "sec": 20,
+     "c1": "#2a2420",
+     "c2": "#070605"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-17",
+   "name": "Zamanın Derinliği · Deep Time",
+   "from": "2026-11-14T17:00",
+   "until": "2026-11-14T18:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Evrenin 13,8 milyar yılını tek bir takvim yılına sığdırsak…",
+     "e": "If we squeezed the universe’s 13.8 billion years into a single calendar year…",
+     "c1": "#1a2030",
+     "c2": "#030407",
+     "gap": 6.2,
+     "steps": [
+      [
+       "1 Ocak, gece yarısı: Büyük Patlama",
+       "1 January, midnight: the Big Bang",
+       "💥"
+      ],
+      [
+       "Mart ortası: Samanyolu oluşuyor",
+       "Mid-March: the Milky Way forms",
+       ""
+      ],
+      [
+       "1 Eylül: Güneş ve Dünya doğuyor",
+       "1 September: the Sun and Earth are born",
+       ""
+      ],
+      [
+       "Eylül sonu: ilk canlılar",
+       "Late September: the first life",
+       ""
+      ],
+      [
+       "25 Aralık: dinozorlar",
+       "25 December: the dinosaurs",
+       "🦕"
+      ],
+      [
+       "31 Aralık, 23:48: ilk insanlar",
+       "31 December, 23:48: the first humans",
+       ""
+      ]
+     ],
+     "fin": "Bütün yazılı tarih — piramitler, İstanbul, telefonlar — yılın son 12 saniyesine sığar",
+     "fine": "All of written history — the pyramids, Istanbul, phones — fits in the last 12 seconds of the year"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-stromatolite.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Shark Bay, Avustralya · Australia",
+     "tr": "Yaşayan stromatolitler — mikroplerin kat kat ördüğü taşlar",
+     "en": "Living stromatolites — rocks built layer by layer by microbes",
+     "cr": "Foto · Photo: Ed Landing & Markes E. Johnson · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Bunların fosilleri 3,5 milyar yaşında: havayı ilk oksijenle dolduran canlılar onların atalarıydı",
+     "facte": "Their fossils are 3.5 billion years old — their ancestors were the first to fill the air with oxygen"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-grandcanyon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Arizona, ABD · USA",
+     "tr": "Büyük Kanyon — kayaların her katı bir çağ",
+     "en": "The Grand Canyon — every layer of rock an age",
+     "cr": "Foto · Photo: Tuxyso · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "En alttaki kayalar yaklaşık 1,8 milyar yaşında; Colorado Nehri kanyonu son 5–6 milyon yılda oydu",
+     "facte": "The deepest rocks are about 1.8 billion years old — the Colorado River carved the canyon in the last 5–6 million years"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-trilobite.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trilobit fosili · Trilobite fossil",
+     "tr": "Bir trilobit fosili — denizlerin eski bekçisi",
+     "en": "A trilobite fossil — an ancient guardian of the seas",
+     "cr": "Foto · Photo: Juan Carlos Fonseca Mata · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 270 milyon yıl yaşadılar, dinozorlardan çok daha uzun; gözleri kalsit kristalinden yapılmıştı",
+     "facte": "They lived for about 270 million years — far longer than the dinosaurs — and their eyes were made of calcite crystal",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "%99",
+     "tr": "Yeryüzünde yaşamış türlerin %99’undan fazlası yok oldu",
+     "en": "More than 99% of all species that ever lived on Earth have gone extinct",
+     "src": "Bugün gördüğümüz her canlı, uzun bir hayatta kalma zincirinin son halkası · Every creature alive today is the last link in a long chain of survivors",
+     "c1": "#22201c",
+     "c2": "#060505"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-18",
+   "name": "Zekâ Soruları · Brain Teasers",
+   "from": "2026-11-14T18:00",
+   "until": "2026-11-14T19:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Kısa Bulmaca · Quick Challenge",
+     "q": "Kurt, keçi ve lahana: kayığa yalnızca biri sığıyor. Kurt keçiyi, keçi lahanayı yer. Nasıl geçirirsin?",
+     "e": "Wolf, goat and cabbage: the boat holds only one. Left alone, the wolf eats the goat and the goat eats the cabbage. How do you cross?",
+     "c1": "#24301c",
+     "c2": "#050803",
+     "gap": 7,
+     "steps": [
+      [
+       "Önce keçiyi götür",
+       "First take the goat across",
+       "🐐→"
+      ],
+      [
+       "Dön, kurdu götür…",
+       "Go back and take the wolf…",
+       "🐺→"
+      ],
+      [
+       "…ama keçiyi geri getir!",
+       "…but bring the goat back!",
+       "←🐐"
+      ],
+      [
+       "Lahanayı götürüp kurdun yanına bırak",
+       "Take the cabbage and leave it with the wolf",
+       "🥬→"
+      ],
+      [
+       "Dön ve keçiyi al",
+       "Go back and fetch the goat",
+       "🐐→ ✓"
+      ]
+     ],
+     "fin": "Bu bulmaca 1.200 yıldan eski: 9. yüzyılda Alcuin’in bilmece kitabında var",
+     "fine": "This puzzle is over 1,200 years old — it is in Alcuin’s 9th-century puzzle book"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "10 m derinliğinde bir kuyudaki kurbağa<br>gündüz 3 m tırmanıyor, gece 2 m kayıyor.<br>Kaç günde çıkar?",
+     "qe": "A frog in a 10 m well climbs 3 m by day and slips back 2 m at night. How many days to get out?",
+     "a": "8 günde! 7. günün sonunda 7 m’de; 8. gün 3 m tırmanıp dışarıda",
+     "ae": "8 days — after 7 days it is at 7 m; on day 8 it climbs 3 m and is out",
+     "sec": 26,
+     "c1": "#1e2a30",
+     "c2": "#040708"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Kısa Bulmaca · Quick Challenge",
+     "q": "8 bilyeden biri biraz daha ağır. Terazide yalnızca 2 tartıyla hangisi olduğunu bul…",
+     "e": "One of 8 marbles is slightly heavier. Find it with just 2 weighings on a balance…",
+     "c1": "#262030",
+     "c2": "#060508",
+     "gap": 7,
+     "steps": [
+      [
+       "3’e karşı 3 tart, 2 bilyeyi kenarda bırak",
+       "Weigh 3 against 3 and keep 2 aside",
+       ""
+      ],
+      [
+       "Denge varsa ağır olan kenardaki 2’den biri: onları tart",
+       "If they balance, it is one of the 2 aside — weigh them",
+       "✓"
+      ],
+      [
+       "Bir taraf ağır basarsa o 3’ten ikisini tart",
+       "If one side is heavier, weigh two of those 3",
+       ""
+      ],
+      [
+       "Denge varsa üçüncüsü; yoksa ağır basan",
+       "If they balance it’s the third — otherwise the heavier one",
+       "✓"
+      ]
+     ],
+     "fin": "Akıllı yol: her tartı seçenekleri üçe böler — 9 bilyeye kadar 2 tartı yeter",
+     "fine": "The trick: each weighing splits the options into three — 2 weighings are enough for up to 9 marbles"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Efsane ve Matematik · Legend & Maths",
+     "q": "Hanoi Kulesi: rahipler 64 diski bir çubuktan ötekine taşıyor; büyük disk küçüğün üstüne konamaz…",
+     "e": "The Tower of Hanoi: monks move 64 discs from one peg to another — never a big disc on a small one…",
+     "c1": "#2a2018",
+     "c2": "#070504",
+     "gap": 6.5,
+     "steps": [
+      [
+       "3 disk: en az 7 hamle",
+       "3 discs: at least 7 moves",
+       "7"
+      ],
+      [
+       "Her yeni disk hamleleri iki katına çıkarır (+1)",
+       "Each new disc doubles the moves (plus one)",
+       "2ⁿ − 1"
+      ],
+      [
+       "64 disk: 18 kentilyondan fazla hamle",
+       "64 discs: over 18 quintillion moves",
+       "18.446.744.073.709.551.615"
+      ],
+      [
+       "Saniyede bir hamleyle: yaklaşık 585 milyar yıl",
+       "At one move a second: about 585 billion years",
+       "⌛"
+      ]
+     ],
+     "fin": "Bu, evrenin bugünkü yaşının yaklaşık 42 katı — efsaneye göre iş bitince dünya sona erecek, ama acele etmeye gerek yok",
+     "fine": "That is about 42 times the age of the universe — legend says the world ends when they finish, so no need to hurry"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "318 milyar",
+     "tr": "Satrançta iki oyuncu da ilk 4 hamlesini yapana kadar 318 milyardan fazla farklı oyun oynanabilir",
+     "en": "There are more than 318 billion different ways to play the first four moves each in chess",
+     "src": "Hesaplayan: Maurice Kraitchik, 1942 · Calculated by Maurice Kraitchik, 1942",
+     "c1": "#20262c",
+     "c2": "#050607"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-19",
+   "name": "Kuyruklu Yıldızlar · Comets",
+   "from": "2026-11-14T19:00",
+   "until": "2026-11-14T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-halebopp.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Avusturya · Austria, 1997",
+     "tr": "Hale-Bopp Kuyruklu Yıldızı, 1997 — mavi gaz ve beyaz toz kuyruğuyla",
+     "en": "Comet Hale-Bopp, 1997 — with its blue gas tail and white dust tail",
+     "cr": "Foto · Photo: E. Kolmhofer, H. Raab (Johannes-Kepler-Sternwarte) · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Rekor bir süre, 18 ay boyunca çıplak gözle görüldü; bir sonraki dönüşü yaklaşık 4380 yılında",
+     "facte": "It stayed visible to the naked eye for a record 18 months — its next return is around the year 4380",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "Kuyruklu yıldızın kuyruğu neden hep Güneş’in tersini gösterir?",
+     "e": "Why does a comet’s tail always point away from the Sun?",
+     "c1": "#141a30",
+     "c2": "#020308",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Kuyruklu yıldız kirli bir kar topudur: buz, toz ve kaya",
+       "A comet is a dirty snowball — ice, dust and rock",
+       ""
+      ],
+      [
+       "Güneş’e yaklaşınca buz doğrudan gaza dönüşür",
+       "Near the Sun its ice turns straight into gas",
+       ""
+      ],
+      [
+       "Güneş rüzgârı ve ışığın basıncı bu gazı ve tozu iter",
+       "The solar wind and the pressure of sunlight push that gas and dust away",
+       "☀→"
+      ],
+      [
+       "Kuyruk bu yüzden hep Güneş’in tersine uzanır — giderken bile önden gider",
+       "So the tail always streams away from the Sun — even leading the way as the comet leaves",
+       "✓"
+      ]
+     ],
+     "fin": "Bir kuyruklu yıldızın kuyruğu 100 milyon km’yi aşabilir — Dünya ile Güneş arasındaki mesafenin üçte ikisi",
+     "fine": "A comet’s tail can stretch over 100 million km — two thirds of the distance from Earth to the Sun"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-neowise.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Slovakya · Slovakia, 2020",
+     "tr": "NEOWISE Kuyruklu Yıldızı, Temmuz 2020 — teleskobun yanında bir gözlemci",
+     "en": "Comet NEOWISE, July 2020 — an observer beside a telescope",
+     "cr": "Foto · Photo: Palonitor · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bir sonraki ziyareti yaklaşık 6.800 yıl sonra",
+     "facte": "It will be back in about 6,800 years"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-rosetta.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · ESA Rosetta, 2014",
+     "tr": "67P kuyruklu yıldızı — Rosetta uzay aracının yakından çektiği 4 km’lik bir buz ve kaya kütlesi",
+     "en": "Comet 67P — a 4 km lump of ice and rock seen up close by the Rosetta spacecraft",
+     "cr": "Foto · Photo: ESA / Rosetta / NAVCAM · CC BY-SA 3.0 igo · Wikimedia Commons",
+     "fact": "12 Kasım 2014’te — tam 12 yıl önce bu hafta — Philae, bir kuyruklu yıldıza konan ilk araç oldu",
+     "facte": "On 12 November 2014 — exactly 12 years ago this week — Philae became the first craft to land on a comet",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-bayeux.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bayeux, Fransa · France",
+     "tr": "Bayeux Duvar Halısı’nda Halley Kuyruklu Yıldızı (1066): insanlar gökyüzünü gösteriyor",
+     "en": "Halley’s Comet on the Bayeux Tapestry (1066) — people point at the sky",
+     "cr": "Foto · Photo: Myrabella · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Üstündeki Latince yazı: “ISTI MIRANT STELLA” — “Bu yıldıza hayranlıkla bakıyorlar”",
+     "facte": "The Latin above says “ISTI MIRANT STELLA” — “They marvel at the star”"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "2061",
+     "tr": "Halley Kuyruklu Yıldızı yaklaşık her 76 yılda bir döner; bir sonraki gelişi 2061’de",
+     "en": "Halley’s Comet returns about every 76 years — next in 2061",
+     "src": "Mark Twain 1835’te Halley gelirken doğdu ve 1910’da Halley dönerken öldü · Mark Twain was born as Halley came in 1835 and died as it returned in 1910",
+     "c1": "#141a2a",
+     "c2": "#020306"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-20",
+   "name": "Renklerin Hikâyesi · The Story of Colours",
+   "from": "2026-11-14T20:00",
+   "until": "2026-11-14T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-murex.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Akdeniz · Mediterranean",
+     "tr": "Boya salyangozu — Tyros moru bundan yapılırdı",
+     "en": "The dye murex — the source of Tyrian purple",
+     "cr": "Foto · Photo: H. Zell · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "1 gram mor boya için yaklaşık 10.000 salyangoz gerekiyordu; bu yüzden mor yüzyıllarca kralların rengi oldu",
+     "facte": "About 10,000 snails were needed for 1 gram of purple dye — so for centuries purple was the colour of kings",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h14-turquoise.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Arizona, ABD · USA",
+     "tr": "Ham turkuaz taşı",
+     "en": "A raw turquoise stone",
+     "cr": "Foto · Photo: W.carter · CC BY 4.0 · Wikimedia Commons",
+     "fact": "“Turkuaz” Fransızca “Türk taşı” demek: taş, Avrupa’ya Türk toprakları üzerinden geldiği için bu adı aldı",
+     "facte": "“Turquoise” means “Turkish stone” in French — it was named because it reached Europe through Turkish lands",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-iznik.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İstanbul Arkeoloji Müzeleri · Istanbul Archaeology Museums",
+     "tr": "İznik çinileri — mavi, yeşil ve kabarık bir kırmızı",
+     "en": "İznik tiles — blue, green and a raised red",
+     "cr": "Foto · Photo: Carole Raddato · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "1550’lerden sonra kabartma “İznik kırmızısı” ortaya çıktı; tekniği yüzyıllarca kayboldu ve ancak yakın zamanda yeniden çözüldü",
+     "facte": "After the 1550s a raised “İznik red” appeared — the technique was lost for centuries and only recently worked out again"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h14-fez.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Fes, Fas · Morocco",
+     "tr": "Şuara Tabakhanesi — taş kazanlarda doğal boyalar",
+     "en": "The Chouara Tannery — natural dyes in stone vats",
+     "cr": "Foto · Photo: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Yaklaşık bin yıldır çalışıyor: kırmızı için gelincik, mavi için çivit, turuncu için kına kullanılır",
+     "facte": "It has worked for about a thousand years — poppy for red, indigo for blue, henna for orange"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Akıllı Açıklama · Clever Explainer",
+     "q": "İnsanın yaptığı ilk yapay boya: Mısır mavisi",
+     "e": "The first man-made pigment: Egyptian blue",
+     "c1": "#14263a",
+     "c2": "#03060a",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Kum, bakır, kireç taşı ve natron karıştırılır",
+       "Mix sand, copper, limestone and natron",
+       ""
+      ],
+      [
+       "Yaklaşık 900 °C’de saatlerce pişirilir",
+       "Fire it at about 900 °C for hours",
+       "🔥"
+      ],
+      [
+       "Ezilince parlak bir mavi toz çıkar",
+       "Grind it and a bright blue powder appears",
+       "■"
+      ],
+      [
+       "Bugün kızılötesi ışıkta parlıyor: arkeologlar heykellerdeki izlerini böyle buluyor",
+       "It glows under infrared light — that is how archaeologists find traces of it on statues",
+       "✓"
+      ]
+     ],
+     "fin": "5.000 yıl önce Mısır’da yapıldı; tarifi Roma’dan sonra unutuldu",
+     "fine": "It was made in Egypt 5,000 years ago — and the recipe was forgotten after Rome"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Mumya · Mummy",
+     "tr": "Bir zamanlar “mumya kahverengisi” diye bir boya satılırdı — gerçekten öğütülmüş Mısır mumyalarından yapılıyordu",
+     "en": "There was once a paint called “mummy brown” — really made from ground-up Egyptian mummies",
+     "src": "20. yüzyılda mumya bitince üretim durdu · Production stopped in the 20th century when the mummies ran out",
+     "c1": "#2a1e16",
+     "c2": "#070503"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-21",
+   "name": "Galeri: Kış Tabloları · Gallery: Winter in Painting",
+   "from": "2026-11-14T21:00",
+   "until": "2026-11-14T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h14-hunters.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Karda Avcılar — Pieter Bruegel (Yaşlı), 1565",
+     "en": "Hunters in the Snow — Pieter Bruegel the Elder, 1565",
+     "cr": "Eser · Artwork: Pieter Bruegel (Yaşlı · the Elder) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Mevsimleri anlatan bir dizinin parçası; avcıların yorgunluğu ile buzda kayan köylülerin neşesi aynı tabloda",
+     "facte": "Part of a series about the seasons — the hunters’ weariness and the villagers’ joy on the ice share one canvas"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Güzellik bizi sarıyor;|ama onu görmek için|bir bahçede yürümek gerekir",
+     "en": "Beauty surrounds us, but usually we need to be walking in a garden to know it",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h14-magpie.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Saksağan — Claude Monet, 1868–69",
+     "en": "The Magpie — Claude Monet, 1868–69",
+     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
+     "fact": "1869 Salonu tabloyu reddetti; bugün Monet’nin en sevilen kış tablolarından. Kardaki gölgeler gri değil, mavi ve lila",
+     "facte": "The 1869 Salon rejected it — today it is one of Monet’s best-loved winter scenes. The shadows on the snow are blue and lilac, not grey"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h14-avercamp.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Buz Üstünde Kolf Oyuncuları — Hendrick Avercamp, y. 1625",
+     "en": "Kolf Players on the Ice — Hendrick Avercamp, c. 1625",
+     "cr": "Eser · Artwork: Hendrick Avercamp · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Avercamp doğuştan işitme engelliydi; Hollanda kanallarının sık sık donduğu “Küçük Buz Çağı” kışlarını resmetti",
+     "facte": "Avercamp was deaf from birth — he painted the “Little Ice Age” winters, when Dutch canals often froze"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h14-seaofice.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Buz Denizi — Caspar David Friedrich, 1823–24",
+     "en": "The Sea of Ice — Caspar David Friedrich, 1823–24",
+     "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Buz kütlelerinin arasında ezilmiş bir gemi; Friedrich yaşarken tablo satılmadı, bugün en ünlü eserlerinden",
+     "facte": "A ship crushed between slabs of ice — it never sold in Friedrich’s lifetime and is now one of his most famous works"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h14-shishkin.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Vahşi Kuzeyde — İvan Şişkin, 1891",
+     "en": "In the Wild North — Ivan Shishkin, 1891",
+     "cr": "Eser · Artwork: İvan Şişkin · Ivan Shishkin · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Lermontov’un bir şiirinden: kuzeyde karlı bir uçurumda tek başına duran çam, uzak güneydeki bir palmiyeyi düşler",
+     "facte": "From a poem by Lermontov: a lone pine on a snowy northern cliff dreams of a palm tree in the far south",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-22",
+   "name": "Sisli Ormanlar · Misty Forests",
+   "from": "2026-11-14T22:00",
+   "until": "2026-11-14T23:00",
+   "items": [
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Üzülme;|kaybettiğin her şey|başka bir biçimde sana döner",
+     "en": "Don’t grieve — anything you lose comes round in another form",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h14-mistforest.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Makaravank, Ermenistan · Armenia",
+     "tr": "Sisli bir sonbahar sabahı — ormanın üstünde yüzyıllık bir manastır",
+     "en": "A misty autumn morning — a centuries-old monastery above the forest",
+     "cr": "Foto · Photo: Wowan1978 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Sis, yere inmiş bir buluttur: serin hava nemi milyarlarca küçücük damlacığa çevirir",
+     "facte": "Fog is simply a cloud that has come down to the ground — cool air turns moisture into billions of tiny droplets"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h14-yakushima.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Yakuşima, Japonya · Yakushima, Japan",
+     "tr": "Yakuşima’nın yosunlu ormanı",
+     "en": "The moss forest of Yakushima",
+     "cr": "Foto · Photo: Raita Futo · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Bu orman Prenses Mononoke filmindeki ormana ilham verdi; adadaki bazı sedirler binlerce yaşında",
+     "facte": "This forest inspired the woods in the film Princess Mononoke — some of the island’s cedars are thousands of years old"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h14-redwoodfog.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kaliforniya · California",
+     "tr": "Sisin içinde dev sekoyalar",
+     "en": "Giant redwoods in the fog",
+     "cr": "Foto · Photo: Michael Schweppe · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Kıyı sekoyaları yazın suyunun yaklaşık üçte birini sisten alır; en uzunu 115 metreyi aşıyor",
+     "facte": "Coast redwoods get about a third of their summer water from fog — the tallest is over 115 m"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "2.200 mm",
+     "tr": "Rize, yılda 2.200 mm’den fazla yağışla Türkiye’nin en yağışlı yeri",
+     "en": "Rize is the wettest place in Türkiye, with over 2,200 mm of rain a year",
+     "src": "Çay bahçelerinin ve yemyeşil yamaçların sırrı bu yağmur · This rain is the secret of the tea gardens and green slopes",
+     "c1": "#14202a",
+     "c2": "#030507"
+    }
+   ]
+  },
+  {
+   "id": "h-11-14-23",
+   "name": "Yağmurlu Gece · Rainy Night (sakin · calm)",
+   "from": "2026-11-14T23:00",
+   "until": "2026-11-15T02:00",
+   "items": [
+    {
+     "k": "hzrainwin",
+     "d": 80
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Sesini değil, sözünü yükselt;|çiçekleri yetiştiren gök gürültüsü değil,|yağmurdur",
+     "en": "Raise your words, not your voice — it is rain that grows flowers, not thunder",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h14-flamingo.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Flamingo · Flamingos",
+     "tr": "Tek ayak üstünde uyuyan flamingolar",
+     "en": "Flamingos asleep on one leg",
+     "cr": "Foto · Photo: chrisinphilly5448 · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Tek ayakta durmak onlar için daha az yorucu: eklemleri kendiliğinden kilitlenir ve vücut ısısı daha az kaybolur",
+     "facte": "Standing on one leg is less tiring for them — the joints lock by themselves and less body heat is lost"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Uyumadan önce: hayalî bir yürüyüş",
+     "e": "Before sleep: an imagined walk",
+     "c1": "#0e1624",
+     "c2": "#020306",
+     "gap": 7.5,
+     "steps": [
+      [
+       "Villanın kapısından çıkıyorsun; yağmur yeni dinmiş",
+       "You step out of the villa door — the rain has just stopped",
+       ""
+      ],
+      [
+       "Islak taşların ve toprağın kokusu",
+       "The smell of wet stone and earth",
+       ""
+      ],
+      [
+       "Uzakta denizin ve yaprakların sesi",
+       "The sound of the sea and the leaves in the distance",
+       ""
+      ],
+      [
+       "Geri dönüyorsun: sıcak bir oda, yumuşak bir yastık",
+       "You come back to a warm room and a soft pillow",
+       "☾"
+      ]
+     ],
+     "fin": "Zihin, ayrıntılı ve sakin bir sahneyi hayal ederken düşüncelerin gürültüsünden uzaklaşır",
+     "fine": "When the mind pictures a calm, detailed scene, it drifts away from the noise of its thoughts",
+     "bg": "stars"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "4,5 mm",
+     "tr": "Yağmur damlası gözyaşı biçiminde değildir: küçükken küre, büyüdükçe hamburger ekmeği gibi yassılaşır",
+     "en": "A raindrop isn’t tear-shaped — small ones are spheres, and bigger ones flatten like a burger bun",
+     "src": "Yaklaşık 4,5 mm’yi aşan damla paraşüt gibi açılıp küçük damlalara bölünür · A drop bigger than about 4.5 mm opens like a parachute and splits",
+     "c1": "#101a26",
+     "c2": "#020305"
+    }
+   ]
+  }
+ ]
+}

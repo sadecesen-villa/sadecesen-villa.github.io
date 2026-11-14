@@ -4,6 +4,123 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-14 (rev 62, hourly sets 09:00–02:00, days/2026-11-14.json)
+
+New hz functions in hourly.js v62: hzlorenz hzlife hztree hzdragon hzrainwin (hzrainwin = calm night), illusions hzmuller hzjastrow. Mevlânâ quotes used: Sen denizde bir damla değilsin; bir damlada okyanusun tamamısın (09), Başkalarının hikâyeleriyle yetinme; kendi efsaneni aç (13), Yara, ışığın içine girdiği yerdir (14), Güzellik bizi sarıyor; ama onu görmek için bir bahçede yürümek gerekir (21), Üzülme; kaybettiğin her şey başka bir biçimde sana döner (22), Sesini değil, sözünü yükselt; çiçekleri yetiştiren yağmurdur (23). requests.md: no pending items. h12-* images archived to /workspace/tv-media-archive/h12.
+
+### 09:00–10:00 · Karadeniz’in Taş Hafızası · Stone Memory of the Black Sea
+- 09 | hzphoto | Trabzon Ayasofya’nın 13. yüzyıldan kalma freskleri | m/h14-ayasofya.jpg
+- 09 | hzquote | Sen denizde bir damla değilsin; bir damlada okyanusun tamamısın | —
+- 09 | hzphoto | Sümela Manastırı — Altındere Vadisi’nde sarp bir kayalığa yaslanmış | m/h14-sumela.jpg
+- 09 | hzfact | Karadeniz’in sularının yaklaşık %90’ında hiç oksijen yok — dünyanın en büyük oksijensiz su kütlesi | —
+- 09 | hzphoto | Kaçkar Dağları — 3.937 metrelik zirvesiyle Doğu Karadeniz’in çatısı | m/h14-kackar.jpg
+- 09 | hzriddle | Suda doğar, suda ölür; sofraya tat verir. Nedir? | —
+
+### 10:00–11:00 · Kelebek Etkisi · The Butterfly Effect
+- 10 | hzlorenz | NEW Lorenz attractor — three near-identical paths diverge (butterfly effect) | —
+- 10 | hzsteps | 1961: Bir meteorolog kahve molası verir ve kaos keşfedilir… | —
+- 10 | hzphoto | Dönen dev bir fırtına bulutu: süper hücre | m/h14-supercell.jpg
+- 10 | hzfact | Hava tahminleri her on yılda yaklaşık bir gün daha ileriyi görüyor | —
+- 10 | hzriddle | Ne kadar çok alırsan, arkanda o kadar çok bırakırsın. Nedir? | —
+
+### 11:00–12:00 · Yaşam Oyunu · The Game of Life
+- 11 | hzlife | NEW Conway’s Game of Life (random soup + gliders, reseeds) | —
+- 11 | hzsteps | Beş karelik bir “planör” nasıl yürür? Hiçbir kare kıpırdamadan… | —
+- 11 | hzphoto | Konik salyangoz kabuğu — üçgen desenleri bir bilgisayar programı gibi büyür | m/h14-conus.jpg
+- 11 | hzfact | Yaşam Oyunu 1970’te bir dergi köşesinde tanıtıldı; bilgisayar azdı, insanlar kareli kâğıt ve go taşlarıyla oynadı | —
+- 11 | hzriddle | 1 · 11 · 21 · 1211 · 111221 Sıradaki ne? | —
+
+### 12:00–13:00 · Ağaçların Mimarisi · The Architecture of Trees
+- 12 | hztree | NEW fractal blossom tree growing and swaying (imagined illustration) | —
+- 12 | hzphoto | Taç utangaçlığı: komşu ağaçların tepeleri birbirine değmez | m/h14-crown.jpg
+- 12 | hzphoto | Ejder kanı ağacı — ters dönmüş bir şemsiye gibi | m/h14-dragontree.jpg
+- 12 | hzphoto | Baobab ağacı — gövdesinde binlerce litre su saklar | m/h14-baobab.jpg
+- 12 | hzphoto | Melek Meşesi — dalları yere kadar uzanan yaşlı bir meşe | m/h14-angeloak.jpg
+- 12 | hzfact | Leonardo da Vinci fark etti: ağaç dallandığında dalların kalınlıkları toplamı gövdeyle aşağı yukarı aynı kalır | —
+
+### 13:00–14:00 · Katlamanın Sırları · Secrets of Folding
+- 13 | hzdragon | NEW Dragon curve from paper folding (13 folds) | —
+- 13 | hzsteps | 0,1 mm kalınlığında bir kâğıdı 42 kez katlayabilseydin… | —
+- 13 | hzphoto | Kâğıt turnalar — tek bir kare kâğıttan, kesmeden ve yapıştırmadan | m/h14-origami.jpg
+- 13 | hzquote | Başkalarının hikâyeleriyle yetinme; kendi efsaneni aç | —
+- 13 | hzphoto | Miura katlaması — tek bir çekişle açılıp kapanan bir desen | m/h14-miura.jpg
+- 13 | hzphoto | James Webb Uzay Teleskobu’nun 18 altıgen ayna parçası, testte | m/h14-jwst.jpg
+
+### 14:00–15:00 · Villa Fikirleri: Işık ve Gölge · Villa Ideas: Light & Shadow
+- 14 | hzphoto | Kubbeden süzülen “ışık yağmuru” | m/h14-louvreabu.jpg
+- 14 | hzquote | Yara, ışığın içine girdiği yerdir | —
+- 14 | hzphoto | Sabah güneşi renkli camlardan halılara düşüyor | m/h14-nasir.jpg
+- 14 | hzphoto | Kâğıt sürgü kapılar (şoji) ışığı yumuşatıyor | m/h14-alcove.jpg
+- 14 | hzsteps | Butik otel ışığı: tavandan değil, katmanlardan | —
+- 14 | hzfact | Akşam için ideal ışık rengi yaklaşık 2700 kelvin: mum ve gün batımına yakın sıcak beyaz | —
+
+### 15:00–16:00 · Mantarların Gizli Krallığı · The Hidden Kingdom of Fungi
+- 15 | hzphoto | Sinek mantarı — masallardaki kırmızı beyaz benekli mantar | m/h14-amanita.jpg
+- 15 | hzsteps | Ormanın altındaki “internet”: ağaçlar mantarlarla nasıl takas yapar? | —
+- 15 | hzphoto | Toprağın altında: bir mantarın kök gibi yayılan iplikleri (miselyum) | m/h14-mycelium.jpg
+- 15 | hzphoto | Karanlıkta yeşil ışıldayan mantar | m/h14-mycena.jpg
+- 15 | hzfact | Bilinen en büyük canlılardan biri bir mantar: Oregon’daki bir bal mantarı yaklaşık 9 km²’ye yayılıyor | —
+- 15 | hzphoto | Devrilmiş bir gövdede raf mantarları | m/h14-shelf.jpg
+
+### 16:00–17:00 · Beynin Kısa Yolları · The Brain’s Shortcuts
+- 16 | hzmuller | NEW Müller-Lyer illusion (fins fade) | —
+- 16 | hzphoto | Parthenon — düz görünen ama aslında hiçbir çizgisi tam düz olmayan tapınak | m/h14-parthenon.jpg
+- 16 | hzjastrow | NEW Jastrow illusion (arcs slide together) | —
+- 16 | hzsteps | Neden kanıyoruz? Beyin bir tahmin makinesidir | —
+- 16 | hzriddle | Sabah dört, öğlen iki, akşam üç ayakla yürür. Nedir? | —
+
+### 17:00–18:00 · Zamanın Derinliği · Deep Time
+- 17 | hzsteps | Evrenin 13,8 milyar yılını tek bir takvim yılına sığdırsak… | —
+- 17 | hzphoto | Yaşayan stromatolitler — mikroplerin kat kat ördüğü taşlar | m/h14-stromatolite.jpg
+- 17 | hzphoto | Büyük Kanyon — kayaların her katı bir çağ | m/h14-grandcanyon.jpg
+- 17 | hzphoto | Bir trilobit fosili — denizlerin eski bekçisi | m/h14-trilobite.jpg
+- 17 | hzfact | Yeryüzünde yaşamış türlerin %99’undan fazlası yok oldu | —
+
+### 18:00–19:00 · Zekâ Soruları · Brain Teasers
+- 18 | hzsteps | Kurt, keçi ve lahana: kayığa yalnızca biri sığıyor. Kurt keçiyi, keçi lahanayı yer. Nasıl geçirirsin? | —
+- 18 | hzriddle | 10 m derinliğinde bir kuyudaki kurbağa gündüz 3 m tırmanıyor, gece 2 m kayıyor. Kaç günde çıkar? | —
+- 18 | hzsteps | 8 bilyeden biri biraz daha ağır. Terazide yalnızca 2 tartıyla hangisi olduğunu bul… | —
+- 18 | hzsteps | Hanoi Kulesi: rahipler 64 diski bir çubuktan ötekine taşıyor; büyük disk küçüğün üstüne konamaz… | —
+- 18 | hzfact | Satrançta iki oyuncu da ilk 4 hamlesini yapana kadar 318 milyardan fazla farklı oyun oynanabilir | —
+
+### 19:00–20:00 · Kuyruklu Yıldızlar · Comets
+- 19 | hzphoto | Hale-Bopp Kuyruklu Yıldızı, 1997 — mavi gaz ve beyaz toz kuyruğuyla | m/h14-halebopp.jpg
+- 19 | hzsteps | Kuyruklu yıldızın kuyruğu neden hep Güneş’in tersini gösterir? | —
+- 19 | hzphoto | NEOWISE Kuyruklu Yıldızı, Temmuz 2020 — teleskobun yanında bir gözlemci | m/h14-neowise.jpg
+- 19 | hzphoto | 67P kuyruklu yıldızı — Rosetta uzay aracının yakından çektiği 4 km’lik bir buz ve kaya kütlesi | m/h14-rosetta.jpg
+- 19 | hzphoto | Bayeux Duvar Halısı’nda Halley Kuyruklu Yıldızı (1066): insanlar gökyüzünü gösteriyor | m/h14-bayeux.jpg
+- 19 | hzfact | Halley Kuyruklu Yıldızı yaklaşık her 76 yılda bir döner; bir sonraki gelişi 2061’de | —
+
+### 20:00–21:00 · Renklerin Hikâyesi · The Story of Colours
+- 20 | hzphoto | Boya salyangozu — Tyros moru bundan yapılırdı | m/h14-murex.jpg
+- 20 | hzphoto | Ham turkuaz taşı | m/h14-turquoise.jpg
+- 20 | hzphoto | İznik çinileri — mavi, yeşil ve kabarık bir kırmızı | m/h14-iznik.jpg
+- 20 | hzphoto | Şuara Tabakhanesi — taş kazanlarda doğal boyalar | m/h14-fez.jpg
+- 20 | hzsteps | İnsanın yaptığı ilk yapay boya: Mısır mavisi | —
+- 20 | hzfact | Bir zamanlar “mumya kahverengisi” diye bir boya satılırdı — gerçekten öğütülmüş Mısır mumyalarından yapılıyordu | —
+
+### 21:00–22:00 · Galeri: Kış Tabloları · Gallery: Winter in Painting
+- 21 | hzphoto | Karda Avcılar — Pieter Bruegel (Yaşlı), 1565 | m/h14-hunters.jpg
+- 21 | hzquote | Güzellik bizi sarıyor; ama onu görmek için bir bahçede yürümek gerekir | —
+- 21 | hzphoto | Saksağan — Claude Monet, 1868–69 | m/h14-magpie.jpg
+- 21 | hzphoto | Buz Üstünde Kolf Oyuncuları — Hendrick Avercamp, y. 1625 | m/h14-avercamp.jpg
+- 21 | hzphoto | Buz Denizi — Caspar David Friedrich, 1823–24 | m/h14-seaofice.jpg
+- 21 | hzphoto | Vahşi Kuzeyde — İvan Şişkin, 1891 | m/h14-shishkin.jpg
+
+### 22:00–23:00 · Sisli Ormanlar · Misty Forests
+- 22 | hzquote | Üzülme; kaybettiğin her şey başka bir biçimde sana döner | —
+- 22 | hzphoto | Sisli bir sonbahar sabahı — ormanın üstünde yüzyıllık bir manastır | m/h14-mistforest.jpg
+- 22 | hzphoto | Yakuşima’nın yosunlu ormanı | m/h14-yakushima.jpg
+- 22 | hzphoto | Sisin içinde dev sekoyalar | m/h14-redwoodfog.jpg
+- 22 | hzfact | Rize, yılda 2.200 mm’den fazla yağışla Türkiye’nin en yağışlı yeri | —
+
+### 23:00–02:00 · Yağmurlu Gece · Rainy Night (sakin · calm)
+- 23 | hzrainwin | NEW rain on a night window with harbour bokeh (calm night illustration) | —
+- 23 | hzquote | Sesini değil, sözünü yükselt; çiçekleri yetiştiren gök gürültüsü değil, yağmurdur | —
+- 23 | hzphoto | Tek ayak üstünde uyuyan flamingolar | m/h14-flamingo.jpg
+- 23 | hzsteps | Uyumadan önce: hayalî bir yürüyüş | —
+- 23 | hzfact | Yağmur damlası gözyaşı biçiminde değildir: küçükken küre, büyüdükçe hamburger ekmeği gibi yassılaşır | —
+
 ## 2026-11-13 (rev 60, hourly sets 09:00–02:00, days/2026-11-13.json)
 
 New hz functions in hourly.js v60: hzdla hzsandpile hzgalaxy hzmoonsea (hzmoonsea = calm night), illusions hzhering hzponzo. Mevlânâ quotes used: Dünle beraber gitti cancağızım… (09), Dünyanın bahçesinin sınırı yoktur (14), Bir ağaç gibi ol; kuru yaprakların düşmesine izin ver (15), Sevdiğin şeyin güzelliği yaptığın şey olsun (21), Nerede olursan ol… sevgi içinde ol (22), Aradığın şey seni arıyor (23). requests.md: no pending items. h11-* images archived to /workspace/tv-media-archive/h11.
