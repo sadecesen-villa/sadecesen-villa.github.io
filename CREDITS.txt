@@ -330,3 +330,45 @@ m/h14-supercell.jpg — Chaparral Supercell 2.JPG — Greg Lundeen (NWS El Paso 
 m/h14-trilobite.jpg — Trilobite fossil, Desert Museum.jpg — Juan Carlos Fonseca Mata — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trilobite_fossil,_Desert_Museum.jpg
 m/h14-turquoise.jpg — Raw turquoise from Arizona 1.jpg — W.carter — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Raw_turquoise_from_Arizona_1.jpg
 m/h14-yakushima.jpg — Yakushima moss trail (52931599465).jpg — Raita Futo from Tokyo, Japan — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Yakushima_moss_trail_(52931599465).jpg
+
+# 2026-11-14 afternoon/evening rework (rev 63, friends’ evening sets 15:00–23:00)
+m/h14-pokut.jpg — Home in the skies - Pokut Yaylasi.jpg — Cems77 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Home_in_the_skies_-_Pokut_Yaylasi.jpg
+m/h14-trabzon.jpg — Panoromik Trabzon.jpg — Nezih Durmazlar — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Panoromik_Trabzon.jpg
+m/h14-hamsitava.jpg — Hamsi tava, roka, lemon and red onions.jpg — E4024 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Hamsi_tava,_roka,_lemon_and_red_onions.jpg
+m/h14-lazboregi.jpg — Real laz böreği (with pepper).jpg — E4024 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Real_laz_b%C3%B6re%C4%9Fi_(with_pepper).jpg
+m/h14-hazelnut.jpg — Hazelnuts.jpg — Fir0002 at English Wikipedia — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Hazelnuts.jpg
+m/h14-kemence.jpg — Kemece yapımı.jpg — Metininan61 — CC0 — https://commons.wikimedia.org/wiki/File:Kemece_yap%C4%B1m%C4%B1.jpg
+m/h14-blacksea.jpg — Turkey and the Black Sea (MODIS 2017-04-26).jpg — Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC — Public domain — https://commons.wikimedia.org/wiki/File:Turkey_and_the_Black_Sea_(MODIS_2017-04-26).jpg
+m/h14-kayabasi.jpg — Kayabaşı yaylakent.jpg — Erkut Meral — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Kayaba%C5%9F%C4%B1_yaylakent.jpg
+m/h14-chefchaouen.jpg — Chefchaouen Street B.jpg — Mark Fischer — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Chefchaouen_Street_B.jpg
+m/h14-fushimi.jpg — KyotoFushimiInariLarge.jpg — Paul Vlaar — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:KyotoFushimiInariLarge.jpg
+m/h14-lofoten.jpg — Reine Lofoten 2009.JPG — User:Sveter (Please credit as "Petr Šmerkl, Wikipedia" in case you use this outside WMF projects.) — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Reine_Lofoten_2009.JPG
+m/h14-santorini.jpg — Oia, Santorini (2600397727).jpg — bongo vongo — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Oia,_Santorini_(2600397727).jpg
+m/h14-matera.jpg — A panorama at Matera 05.jpg — Maksimsokolov — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:A_panorama_at_Matera_05.jpg
+m/h14-plitvice.jpg — Plitvice Lakes1.jpg — Tesla Delacroix — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Plitvice_Lakes1.jpg
+m/h14-manarola.jpg — Manarola NW Cinque Terre Sep23 A7C 07233.jpg — This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would m — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Manarola_NW_Cinque_Terre_Sep23_A7C_07233.jpg
+m/h14-hamsi.jpg — Engraulis encrasicol, Istanbul.jpg — Mark Ahsmann — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Engraulis_encrasicol,_Istanbul.jpg
+m/h14-simit.jpg — Simits on a street stand in Istanbul.jpg — Miomir Magdevski — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Simits_on_a_street_stand_in_Istanbul.jpg
+m/h14-lokum.jpg — Turkish delight.jpg — Maksym Kozlenko — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Turkish_delight.jpg
+m/h14-cherries.jpg — Cherries on a tree Germany 2020.jpg — NiTenIchiRyu — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Cherries_on_a_tree_Germany_2020.jpg
+m/h14-trabzonnight.jpg — Trabzonas nakti.JPG — Aleksasfi — Public domain — https://commons.wikimedia.org/wiki/File:Trabzonas_nakti.JPG
+m/h14-pokutsnow.jpg — Pokut Yaylası 2.jpg — Engin Tavlı — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Pokut_Yaylas%C4%B1_2.jpg
+m/h14-maldives.jpg — Eriyadu Island. View from the south. Maldives.jpg — Ввласенко — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Eriyadu_Island._View_from_the_south._Maldives.jpg
+m/h14-kizkulesi.jpg — Kız Kulesi, Maiden's Tower (52396926549).jpg — Sonse — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:K%C4%B1z_Kulesi,_Maiden%27s_Tower_(52396926549).jpg
+m/h14-aurora.jpg — Aurora Borealis Norway 2013.jpg — Carsten — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Aurora_Borealis_Norway_2013.jpg
+m/h14-galataday.jpg — Galata Tower 2016.jpg — Cemallamec — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Galata_Tower_2016.jpg
+m/h14-prague.jpg — Prague Castle at Night viewed from Charles Bridge.jpg — Lucas Garron — CC0 — https://commons.wikimedia.org/wiki/File:Prague_Castle_at_Night_viewed_from_Charles_Bridge.jpg
+m/h14-moonsea.jpg — Andaman Sea at night, Moonset, Moonlight.jpg — Vyacheslav Argenberg — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Andaman_Sea_at_night,_Moonset,_Moonlight.jpg
+m/h14-stockholm.jpg — Estocolmo de noche " Blue hour ".jpg — Hector Melo A. — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Estocolmo_de_noche_%22_Blue_hour_%22.jpg
+m/h14-landwasser.jpg — RhB Ge 4-4 II 614 Glacier Express on Landwasser Viaduct.jpg — Kabelleger / David Gubler — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:RhB_Ge_4-4_II_614_Glacier_Express_on_Landwasser_Viaduct.jpg
+m/h14-doguekspresi.jpg — Doğu ekspresi.jpg — Oyuncubaba — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Do%C4%9Fu_ekspresi.jpg
+m/h14-faroe.jpg — Faroe Islands (Unsplash eRwWGWkh0vU).jpg — Eric Welch eric_welch — CC0 — https://commons.wikimedia.org/wiki/File:Faroe_Islands_(Unsplash_eRwWGWkh0vU).jpg
+m/h14-moraine.jpg — Moraine Lake-Banff NP.JPG — Tobias Alt, Tobi 87 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Moraine_Lake-Banff_NP.JPG
+m/h14-halong.jpg — Halong Bay in Vietnam.jpg — Thomas Hirsch / User:Ravn — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg
+m/h14-trolltunga.jpg — Trolltunga 2.jpg — Steinar Talmoen — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Trolltunga_2.jpg
+m/h14-tulips.jpg — Tulip Festival Emirgan 2018.jpg — Husain007 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Tulip_Festival_Emirgan_2018.jpg
+m/h14-safranbolu.jpg — Safranbolu Evleri 2014-17.jpg — Hamdigumus — CC0 — https://commons.wikimedia.org/wiki/File:Safranbolu_Evleri_2014-17.jpg
+m/h14-kizilirmak.jpg — Kızılırmak River from Kapıkaya Köyü.jpg — sami yılmaz — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:K%C4%B1z%C4%B1l%C4%B1rmak_River_from_Kap%C4%B1kaya_K%C3%B6y%C3%BC.jpg
+m/h14-milkyway2.jpg — 018 Human looking at the stars during Perseids with the Milky Way in the background Photo by Giles Laurent.jpg — Giles Laurent — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:018_Human_looking_at_the_stars_during_Perseids_with_the_Milky_Way_in_the_background_Photo_by_Giles_Laurent.jpg
+m/h14-fjordstars.jpg — Stars and Milky Way over Åbyfjorden 8.jpg — W.carter — CC0 — https://commons.wikimedia.org/wiki/File:Stars_and_Milky_Way_over_%C3%85byfjorden_8.jpg
+m/h14-startrails.jpg — 2017-04 Circumpolar trails sunset at La Hague lighthouse.jpg — Antoine Lamielle — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2017-04_Circumpolar_trails_sunset_at_La_Hague_lighthouse.jpg

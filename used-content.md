@@ -4,6 +4,68 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-14 · afternoon rework (rev 63, sets 15:00–23:00 rebuilt ~14:45 for M’s friends’ evening)
+
+M had friends over (Murat, Şerif; İbo from ~18:00). Sets 15–22 were replaced with group-friendly content; the original 15–22 sets listed in the 2026-11-14 section below ran only in the morning build and never aired (count them as used anyway). New hz templates in hourly.js v63: hzwelcome (script lettering on a still photo), hzchoose (two-photo “which would you pick”), hzguess (guess-together over a photo, answer after a pause; without an answer it is a conversation starter), party game hzstroop (Stroop colour game). No Mevlânâ quotes in these sets. h13-* and the unused h14-* images were archived to /workspace/tv-media-archive/.
+
+### 15:00–16:00 · Hoş Geldiniz! · Welcome, Murat & Şerif
+- 15 | hzwelcome | Sadece Sen’e hoş geldiniz — çay demde, sohbet sizde! | m/h14-pokut.jpg
+- 15 | hzguess | Trabzon’un antik adı “Trapezus”. Sizce ne demek? | m/h14-trabzon.jpg
+- 15 | hzchoose | Bu akşamın sofrası için tek seçim hakkınız var! | m/h14-hamsitava.jpg + m/h14-lazboregi.jpg
+- 15 | hzguess | Dünyadaki fındığın yaklaşık ne kadarı Türkiye’de yetişiyor? | m/h14-hazelnut.jpg
+- 15 | hzguess | Karadeniz kemençesinin kaç teli var? | m/h14-kemence.jpg
+- 15 | hzguess | Karadeniz’e kaç ülkenin kıyısı var? | m/h14-blacksea.jpg
+- 15 | hzphoto | Bulut denizinin üstünde bir Trabzon yaylası | m/h14-kayabasi.jpg
+
+### 16:00–17:00 · Neresi Burası? · Where in the World?
+- 16 | hzguess | Bu masmavi sokaklar hangi ülkede? | m/h14-chefchaouen.jpg
+- 16 | hzguess | Binlerce turuncu kapının arasından geçen bu yol nerede? | m/h14-fushimi.jpg
+- 16 | hzchoose | Bir hafta tatil: kuzeyin fiyortları mı, Ege’nin beyaz evleri mi? | m/h14-lofoten.jpg + m/h14-santorini.jpg
+- 16 | hzguess | Bu taş şehir hangi ülkede? | m/h14-matera.jpg
+- 16 | hzguess | Turkuaz göller ve şelaleler… Neresi? | m/h14-plitvice.jpg
+- 16 | hzguess | Sıradaki tatil nereye? Herkes bir yer söylesin! | m/h14-manarola.jpg
+
+### 17:00–18:00 · Çay Saati Oyunları · Tea-Time Games
+- 17 | hzstroop | NEW Stroop colour game (say the colour, not the word; round 2 mismatched) | —
+- 17 | hzguess | Hamsi en lezzetli hangi mevsimde yenir? | m/h14-hamsi.jpg
+- 17 | hzchoose | Çayın yanına hangisi? | m/h14-simit.jpg + m/h14-lokum.jpg
+- 17 | hzguess | Kiraza adını verdiği söylenen Karadeniz şehri hangisi? | m/h14-cherries.jpg
+- 17 | hzfact | Bir araştırmaya göre birini “yakın arkadaş” yapmak için yaklaşık 200 saat birlikte vakit geçirmek gerekiyor | —
+
+### 18:00–19:00 · Hoş Geldin İbo! · Welcome, İbo!
+- 18 | hzwelcome | Ekip tamam — şimdi akşam başlasın! | m/h14-trabzonnight.jpg
+- 18 | hzsteps | İki Doğru Bir Yalan: herkes kendisi hakkında üç şey söyler — biri yalan! | —
+- 18 | hzchoose | Kış tatili: karlı bir yayla evi mi, sıcak bir ada mı? | m/h14-pokutsnow.jpg + m/h14-maldives.jpg
+- 18 | hzguess | Bu küçük kule hangi şehirde ve adı ne? | m/h14-kizkulesi.jpg
+- 18 | hzguess | Kuzey ışıklarını görmek için yılın hangi zamanı en iyisi? | m/h14-aurora.jpg
+
+### 19:00–20:00 · Dünyanın Gece Işıkları · World Lights at Night
+- 19 | hzguess | Bu kule kaç yaşında? | m/h14-galataday.jpg
+- 19 | hzphoto | Prag Kalesi ve Karlov Köprüsü, gece | m/h14-prague.jpg
+- 19 | hzguess | Ay her yıl Dünya’dan ne kadar uzaklaşıyor? | m/h14-moonsea.jpg
+- 19 | hzguess | Gece yürüyüşü için dünyada tek bir şehir seçseniz, hangisi olurdu? | m/h14-stockholm.jpg
+- 19 | hzfact | İnsanlığın üçte birinden fazlası, ışık kirliliği yüzünden Samanyolu’nu evinden göremiyor | —
+
+### 20:00–21:00 · Hayal Rotaları · Dream Routes
+- 20 | hzchoose | Hayal tren yolculuğu: hangisine binerdiniz? | m/h14-landwasser.jpg + m/h14-doguekspresi.jpg
+- 20 | hzguess | Bu şelale doğrudan okyanusa dökülüyor. Neresi? | m/h14-faroe.jpg
+- 20 | hzguess | Bu gölün rengi neden bu kadar turkuaz? | m/h14-moraine.jpg
+- 20 | hzphoto | Ha Long Körfezi — denizden yükselen yaklaşık 1.600 kireçtaşı ada | m/h14-halong.jpg
+- 20 | hzguess | Norveç’teki bu ünlü kaya çıkıntısının adı sizce ne? | m/h14-trolltunga.jpg
+
+### 21:00–22:00 · Türkiye Bilgi Gecesi · Türkiye Trivia Night
+- 21 | hzguess | İngilizce “tulip” (lale) kelimesi hangi Türkçe kelimeden geliyor? | m/h14-tulips.jpg
+- 21 | hzguess | Safranbolu adını nereden alıyor? | m/h14-safranbolu.jpg
+- 21 | hzsteps | Nasreddin Hoca ve doğuran kazan | —
+- 21 | hzguess | Tamamen Türkiye’de akan en uzun nehir hangisi? | m/h14-kizilirmak.jpg
+- 21 | hzfact | İlk 67 ilin plaka kodları alfabetik sırayla verildi: 01 Adana … 61 Trabzon | —
+
+### 22:00–23:00 · Gece Sohbeti · Late-Night Talk
+- 22 | hzguess | Çocukken ne olmak istiyordunuz? | m/h14-milkyway2.jpg
+- 22 | hzphoto | Sakin bir fiyortun üstünde yıldızlar ve Samanyolu | m/h14-fjordstars.jpg
+- 22 | hzguess | Bu yıl sizi en çok güldüren an neydi? | m/h14-startrails.jpg
+- 22 | hzfact | Başkalarıyla birlikteyken, tek başımıza olduğumuzdan yaklaşık 30 kat daha fazla güleriz | —
+
 ## 2026-11-14 (rev 62, hourly sets 09:00–02:00, days/2026-11-14.json)
 
 New hz functions in hourly.js v62: hzlorenz hzlife hztree hzdragon hzrainwin (hzrainwin = calm night), illusions hzmuller hzjastrow. Mevlânâ quotes used: Sen denizde bir damla değilsin; bir damlada okyanusun tamamısın (09), Başkalarının hikâyeleriyle yetinme; kendi efsaneni aç (13), Yara, ışığın içine girdiği yerdir (14), Güzellik bizi sarıyor; ama onu görmek için bir bahçede yürümek gerekir (21), Üzülme; kaybettiğin her şey başka bir biçimde sana döner (22), Sesini değil, sözünü yükselt; çiçekleri yetiştiren yağmurdur (23). requests.md: no pending items. h12-* images archived to /workspace/tv-media-archive/h12.

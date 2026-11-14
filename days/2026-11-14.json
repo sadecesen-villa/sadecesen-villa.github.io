@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "rev": 62,
+ "rev": 63,
  "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-14.py. Content log: used-content.md",
  "sets": [
   {
@@ -490,510 +490,442 @@
   },
   {
    "id": "h-11-14-15",
-   "name": "Mantarların Gizli Krallığı · The Hidden Kingdom of Fungi",
+   "name": "Hoş Geldiniz! · Welcome, Murat & Şerif",
    "from": "2026-11-14T15:00",
    "until": "2026-11-14T16:00",
    "items": [
     {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-amanita.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Sinek mantarı · Fly agaric",
-     "tr": "Sinek mantarı — masallardaki kırmızı beyaz benekli mantar",
-     "en": "The fly agaric — the red-and-white spotted mushroom of fairy tales",
-     "cr": "Foto · Photo: Holger Krisp · CC BY 3.0 · Wikimedia Commons",
-     "fact": "Çok zehirlidir; kayın, huş ve çam köklerine sarılarak onlarla ortak yaşar",
-     "facte": "It is poisonous — and lives in partnership with the roots of birch, beech and pine"
-    },
-    {
-     "k": "hzsteps",
-     "d": 56,
-     "lb": "Akıllı Açıklama · Clever Explainer",
-     "q": "Ormanın altındaki “internet”: ağaçlar mantarlarla nasıl takas yapar?",
-     "e": "The “internet” under the forest: how do trees trade with fungi?",
-     "c1": "#1e2a1c",
-     "c2": "#040703",
-     "gap": 6,
-     "steps": [
+     "k": "hzwelcome",
+     "d": 45,
+     "f": "m/h14-pokut.jpg",
+     "lb": "Hoş Geldiniz · Welcome — Gerçek Fotoğraf · Real Photo · Pokut Yaylası, Rize",
+     "lines": [
       [
-       "Mantar iplikleri ağaç köklerini sarar",
-       "Fungal threads wrap around tree roots",
-       ""
+       "Hoş geldiniz",
+       8.2
       ],
       [
-       "Ağaç, yapraklarında yaptığı şekeri mantara verir",
-       "The tree gives the fungus sugar made in its leaves",
-       "🍃→"
-      ],
-      [
-       "Mantar karşılığında su ve mineral taşır",
-       "In return the fungus brings water and minerals",
-       "→💧"
-      ],
-      [
-       "İplikler bir ağaçtan ötekine uzanıp onları bağlayabilir",
-       "The threads can reach from tree to tree and link them",
-       ""
-      ],
-      [
-       "Bilim insanları bu ağın ne kadar “paylaştığını” hâlâ tartışıyor",
-       "Scientists are still debating how much this network really “shares”",
-       "?"
+       "Murat &amp; Şerif",
+       6.6
       ]
      ],
-     "fin": "Karadeniz ormanlarındaki ağaçların çoğu da kökleriyle mantarlara bağlı yaşar",
-     "fine": "Most trees in the Black Sea forests live linked to fungi through their roots too"
+     "tr": "Sadece Sen’e hoş geldiniz — çay demde, sohbet sizde!",
+     "en": "Welcome to Sadece Sen — the tea is brewing, the conversation is all yours!",
+     "cr": "Foto · Photo: Cems77 · CC BY-SA 4.0 · Wikimedia Commons"
     },
     {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-mycelium.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Miselyum · Mycelium",
-     "tr": "Toprağın altında: bir mantarın kök gibi yayılan iplikleri (miselyum)",
-     "en": "Under the soil: a fungus’s root-like threads (mycelium)",
-     "cr": "Foto · Photo: FungiFriendly · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Gördüğümüz mantar yalnızca “meyvesi”; asıl canlı toprağın altındaki iplik ağıdır. Bir avuç orman toprağında kilometrelerce iplik olabilir",
-     "facte": "The mushroom we see is only its “fruit” — the real organism is the web of threads below. A handful of forest soil can hold kilometres of them",
-     "fit": "contain"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-trabzon.jpg",
+     "q": "Trabzon’un antik adı “Trapezus”. Sizce ne demek?",
+     "qe": "Trabzon’s ancient name was “Trapezus”. What do you think it means?",
+     "a": "“Masa”! Yunanca trapeza — şehrin üstündeki tepe masa gibi düz olduğu için",
+     "ae": "“Table” — Greek trapeza, after the table-flat hill above the city",
+     "sec": 22,
+     "cr": "Foto · Photo: Nezih Durmazlar · CC BY-SA 2.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Trabzon",
+     "hint": "İpucu: şehrin üstündeki düz tepeli Boztepe’yi düşünün · Hint: think of the flat-topped hill above the city"
     },
     {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-mycena.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Işıldayan mantar · Bioluminescent fungi",
-     "tr": "Karanlıkta yeşil ışıldayan mantar",
-     "en": "Fungi glowing green in the dark",
-     "cr": "Foto · Photo: Bruce McAdam · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "Yaklaşık 100 mantar türü ışık saçar; Aristoteles bu “soğuk ateşi” çürüyen odunlarda görüp yazmıştı",
-     "facte": "About 100 kinds of fungi glow — Aristotle wrote about this “cold fire” on rotting wood",
-     "fit": "contain"
+     "k": "hzchoose",
+     "d": 40,
+     "q": "Bu akşamın sofrası için tek seçim hakkınız var!",
+     "qe": "You only get one pick for tonight’s table!",
+     "a": {
+      "f": "m/h14-hamsitava.jpg",
+      "t": "Hamsi tava",
+      "e": "Fried hamsi — crispy Black Sea anchovies",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "b": {
+      "f": "m/h14-lazboregi.jpg",
+      "t": "Laz böreği",
+      "e": "Laz böreği — a sweet custard pastry in syrup",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "p": "Herkes seçsin, sebebini söylesin!",
+     "pe": "Everyone picks — and says why!",
+     "cr": "Fotoğraflar · Photos: A — E4024 · CC BY-SA 4.0 · B — E4024 · CC BY-SA 4.0 · Wikimedia Commons"
     },
     {
-     "k": "hzfact",
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-hazelnut.jpg",
+     "q": "Dünyadaki fındığın yaklaşık ne kadarı Türkiye’de yetişiyor?",
+     "qe": "About how much of the world’s hazelnuts grow in Türkiye?",
+     "a": "Yaklaşık üçte ikisi! Başı Ordu ve Giresun çekiyor",
+     "ae": "About two thirds — led by Ordu and Giresun",
+     "sec": 20,
+     "cr": "Foto · Photo: Fir0002 · CC BY-SA 3.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Fındık · Hazelnuts",
+     "hint": "Tahminleri sırayla söyleyin · Take turns guessing",
+     "pos": "50% 40%"
+    },
+    {
+     "k": "hzguess",
      "d": 32,
-     "big": "9 km²",
-     "tr": "Bilinen en büyük canlılardan biri bir mantar: Oregon’daki bir bal mantarı yaklaşık 9 km²’ye yayılıyor",
-     "en": "One of the largest known living things is a fungus: a honey mushroom in Oregon spreads across about 9 km²",
-     "src": "Binlerce yaşında olduğu tahmin ediliyor · Thought to be thousands of years old (Armillaria ostoyae)",
-     "c1": "#22201a",
-     "c2": "#060504"
+     "f": "m/h14-kemence.jpg",
+     "q": "Karadeniz kemençesinin kaç teli var?",
+     "qe": "How many strings does the Black Sea kemençe have?",
+     "a": "Üç! Dizde dik tutulur ve yayla çalınır",
+     "ae": "Three — held upright on the knee and played with a bow",
+     "sec": 16,
+     "cr": "Foto · Photo: Metininan61 · CC0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Trabzon’da bir kemençe ustası · A kemençe maker in Trabzon"
+    },
+    {
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-blacksea.jpg",
+     "q": "Karadeniz’e kaç ülkenin kıyısı var?",
+     "qe": "How many countries have a Black Sea coast?",
+     "a": "Altı: Türkiye, Gürcistan, Rusya, Ukrayna, Romanya ve Bulgaristan",
+     "ae": "Six: Türkiye, Georgia, Russia, Ukraine, Romania and Bulgaria",
+     "sec": 20,
+     "cr": "Foto · Photo: Jeff Schmaltz, MODIS / NASA GSFC · kamu malı · public domain · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Uydu Fotoğrafı · Real Satellite Photo · NASA uydusu · NASA satellite, 2017",
+     "hint": "İpucu: bir elin parmaklarından fazla · Hint: more than the fingers on one hand"
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-shelf.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Hollanda · Netherlands",
-     "tr": "Devrilmiş bir gövdede raf mantarları",
-     "en": "Bracket fungi on a fallen trunk",
-     "cr": "Foto · Photo: Agnes Monkelbaan · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "5.300 yıllık “Buz Adam” Ötzi yanında iki tür raf mantarı taşıyordu: biri ateş yakmak, biri belki ilaç için",
-     "facte": "Ötzi the 5,300-year-old “Iceman” carried two kinds of bracket fungus — one for lighting fires, one perhaps as medicine"
+     "d": 34,
+     "f": "m/h14-kayabasi.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kayabaşı Yaylası, Düzköy, Trabzon",
+     "tr": "Bulut denizinin üstünde bir Trabzon yaylası",
+     "en": "A Trabzon highland pasture above a sea of clouds",
+     "cr": "Foto · Photo: Erkut Meral · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Nemli deniz havası yamaçlara tırmanırken soğur ve bulut olur — yaylaya çıkınca bulutlar ayağınızın altında kalır",
+     "facte": "Moist sea air cools as it climbs the slopes and turns to cloud — up on the yayla, the clouds lie below your feet"
     }
    ]
   },
   {
    "id": "h-11-14-16",
-   "name": "Beynin Kısa Yolları · The Brain’s Shortcuts",
+   "name": "Neresi Burası? · Where in the World?",
    "from": "2026-11-14T16:00",
    "until": "2026-11-14T17:00",
    "items": [
     {
-     "k": "hzmuller",
-     "d": 48
-    },
-    {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-parthenon.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Atina · Athens",
-     "tr": "Parthenon — düz görünen ama aslında hiçbir çizgisi tam düz olmayan tapınak",
-     "en": "The Parthenon — it looks straight, yet hardly a single line in it is truly straight",
-     "cr": "Foto · Photo: Thermos · CC BY-SA 2.5 · Wikimedia Commons",
-     "fact": "Taban ortada yaklaşık 11 cm yükselir, sütunlar hafifçe şişkin ve içe eğiktir: göz bina sarkıyor sanmasın diye",
-     "facte": "The base rises about 11 cm in the middle and the columns swell slightly and lean inwards — so the eye won’t see the building sag",
-     "fit": "contain"
-    },
-    {
-     "k": "hzjastrow",
-     "d": 48
-    },
-    {
-     "k": "hzsteps",
-     "d": 54,
-     "lb": "Akıllı Açıklama · Clever Explainer",
-     "q": "Neden kanıyoruz? Beyin bir tahmin makinesidir",
-     "e": "Why are we fooled? The brain is a guessing machine",
-     "c1": "#1e2430",
-     "c2": "#040508",
-     "gap": 6,
-     "steps": [
-      [
-       "Göz yalnızca düz, iki boyutlu bir görüntü alır",
-       "The eye only receives a flat, two-dimensional picture",
-       ""
-      ],
-      [
-       "Beyin derinliği ipuçlarından tahmin eder: köşeler, gölgeler, boyutlar",
-       "The brain guesses depth from clues — corners, shadows, sizes",
-       ""
-      ],
-      [
-       "Ok uçları ona bir odanın ya da binanın köşesini hatırlatır",
-       "Arrow fins remind it of the corners of a room or a building",
-       ""
-      ],
-      [
-       "“Uzaktaki şey küçük görünmeli” der ve onu büyütür",
-       "It decides “far things should look small” — and enlarges it",
-       ""
-      ],
-      [
-       "Biz görüntüyü değil, beynin tahminini görürüz",
-       "We don’t see the image — we see the brain’s guess",
-       "👁"
-      ]
-     ],
-     "fin": "Araştırmalara göre köşeli binalardan uzak yaşayan toplulukları bu yanılgılar daha az kandırıyor",
-     "fine": "Studies suggest people who grow up with fewer square buildings are fooled less by these illusions"
-    },
-    {
-     "k": "hzriddle",
+     "k": "hzguess",
      "d": 36,
-     "q": "Sabah dört,<br>öğlen iki,<br>akşam üç ayakla yürür.<br>Nedir?",
-     "qe": "It walks on four legs in the morning, two at noon and three in the evening. What is it?",
-     "a": "İnsan! Bebekken emekler, büyüyünce yürür, yaşlanınca bastona dayanır",
-     "ae": "A human: crawling as a baby, walking as an adult, with a stick in old age — the Sphinx’s riddle",
+     "f": "m/h14-chefchaouen.jpg",
+     "q": "Bu masmavi sokaklar hangi ülkede?",
+     "qe": "Which country are these bright blue streets in?",
+     "a": "Fas — Şefşavan (Chefchaouen), Rif Dağları’nda",
+     "ae": "Morocco — Chefchaouen, in the Rif Mountains",
      "sec": 20,
-     "c1": "#2a2420",
-     "c2": "#070605"
+     "cr": "Foto · Photo: Mark Fischer · CC BY-SA 2.0 · Wikimedia Commons",
+     "lb": "Neresi Burası? · Where Is This? — Gerçek Fotoğraf · Real Photo",
+     "hint": "İpucu: Afrika’da, Akdeniz’e çok yakın · Hint: in Africa, close to the Mediterranean"
+    },
+    {
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-fushimi.jpg",
+     "q": "Binlerce turuncu kapının arasından geçen bu yol nerede?",
+     "qe": "Where is this path through thousands of orange gates?",
+     "a": "Japonya, Kyoto — Fuşimi İnari: dağa tırmanan binlerce torii kapısı",
+     "ae": "Kyoto, Japan — Fushimi Inari, thousands of torii gates climbing the hill",
+     "sec": 20,
+     "cr": "Foto · Photo: Paul Vlaar · CC BY-SA 3.0 · Wikimedia Commons",
+     "lb": "Neresi Burası? · Where Is This? — Gerçek Fotoğraf · Real Photo",
+     "hint": "İpucu: Uzak Doğu · Hint: the Far East"
+    },
+    {
+     "k": "hzchoose",
+     "d": 40,
+     "q": "Bir hafta tatil: kuzeyin fiyortları mı, Ege’nin beyaz evleri mi?",
+     "qe": "A week away: northern fjords or white Aegean houses?",
+     "a": {
+      "f": "m/h14-lofoten.jpg",
+      "t": "Lofoten, Norveç",
+      "e": "Lofoten, Norway — red fishing cabins under sharp peaks",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "b": {
+      "f": "m/h14-santorini.jpg",
+      "t": "Santorini, Yunanistan",
+      "e": "Santorini, Greece — white houses and blue domes above the sea",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "p": "Herkes elini kaldırsın: A mı, B mi?",
+     "pe": "Hands up — A or B?",
+     "cr": "Fotoğraflar · Photos: A — Petr Šmerkl · CC BY-SA 3.0 · B — bongo vongo · CC BY-SA 2.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-matera.jpg",
+     "q": "Bu taş şehir hangi ülkede?",
+     "qe": "Which country is this stone city in?",
+     "a": "İtalya — Matera: kayaya oyulmuş mağara evleri bugün otel ve restoran",
+     "ae": "Italy — Matera: its cave houses cut into the rock are now hotels and restaurants",
+     "sec": 20,
+     "cr": "Foto · Photo: Maksimsokolov · CC BY-SA 4.0 · Wikimedia Commons",
+     "lb": "Neresi Burası? · Where Is This? — Gerçek Fotoğraf · Real Photo",
+     "hint": "İpucu: evlerin çoğu kayaya oyulmuş mağaralar · Hint: many homes are caves cut into the rock"
+    },
+    {
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-plitvice.jpg",
+     "q": "Turkuaz göller ve şelaleler… Neresi?",
+     "qe": "Turquoise lakes and waterfalls — where?",
+     "a": "Hırvatistan — Plitvice Gölleri: 16 göl birbirine şelalelerle bağlanır",
+     "ae": "Croatia — Plitvice Lakes: 16 lakes linked by waterfalls",
+     "sec": 20,
+     "cr": "Foto · Photo: Tesla Delacroix · CC BY-SA 4.0 · Wikimedia Commons",
+     "lb": "Neresi Burası? · Where Is This? — Gerçek Fotoğraf · Real Photo",
+     "hint": "İpucu: Balkanlar · Hint: the Balkans"
+    },
+    {
+     "k": "hzguess",
+     "d": 34,
+     "f": "m/h14-manarola.jpg",
+     "lb": "Sohbet Sorusu · Conversation Starter — Gerçek Fotoğraf · Real Photo · Manarola, Cinque Terre, İtalya · Italy",
+     "q": "Sıradaki tatil nereye? Herkes bir yer söylesin!",
+     "qe": "Where should the next trip be? Everyone name a place!",
+     "p": "Sırayla anlatın! · Take turns!",
+     "cr": "Foto · Photo: Timothy A. Gonsalves · CC BY-SA 4.0 · Wikimedia Commons"
     }
    ]
   },
   {
    "id": "h-11-14-17",
-   "name": "Zamanın Derinliği · Deep Time",
+   "name": "Çay Saati Oyunları · Tea-Time Games",
    "from": "2026-11-14T17:00",
    "until": "2026-11-14T18:00",
    "items": [
     {
-     "k": "hzsteps",
-     "d": 58,
-     "lb": "Düşünce Deneyi · Thought Experiment",
-     "q": "Evrenin 13,8 milyar yılını tek bir takvim yılına sığdırsak…",
-     "e": "If we squeezed the universe’s 13.8 billion years into a single calendar year…",
-     "c1": "#1a2030",
-     "c2": "#030407",
-     "gap": 6.2,
-     "steps": [
-      [
-       "1 Ocak, gece yarısı: Büyük Patlama",
-       "1 January, midnight: the Big Bang",
-       "💥"
-      ],
-      [
-       "Mart ortası: Samanyolu oluşuyor",
-       "Mid-March: the Milky Way forms",
-       ""
-      ],
-      [
-       "1 Eylül: Güneş ve Dünya doğuyor",
-       "1 September: the Sun and Earth are born",
-       ""
-      ],
-      [
-       "Eylül sonu: ilk canlılar",
-       "Late September: the first life",
-       ""
-      ],
-      [
-       "25 Aralık: dinozorlar",
-       "25 December: the dinosaurs",
-       "🦕"
-      ],
-      [
-       "31 Aralık, 23:48: ilk insanlar",
-       "31 December, 23:48: the first humans",
-       ""
-      ]
-     ],
-     "fin": "Bütün yazılı tarih — piramitler, İstanbul, telefonlar — yılın son 12 saniyesine sığar",
-     "fine": "All of written history — the pyramids, Istanbul, phones — fits in the last 12 seconds of the year"
+     "k": "hzstroop",
+     "d": 52
     },
     {
-     "k": "hzphoto",
+     "k": "hzguess",
+     "d": 32,
+     "f": "m/h14-hamsi.jpg",
+     "q": "Hamsi en lezzetli hangi mevsimde yenir?",
+     "qe": "In which season does hamsi taste best?",
+     "a": "Kışın — yani tam şimdi! Soğuk sularda yağlanır; av sezonu eylülde açılır",
+     "ae": "In winter — right now! It fattens in the cold water; the season opens in September",
+     "sec": 18,
+     "cr": "Foto · Photo: Mark Ahsmann · CC BY-SA 3.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · İstanbul’da bir balık tezgâhı · A fish stall in Istanbul"
+    },
+    {
+     "k": "hzchoose",
      "d": 40,
-     "f": "m/h14-stromatolite.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Shark Bay, Avustralya · Australia",
-     "tr": "Yaşayan stromatolitler — mikroplerin kat kat ördüğü taşlar",
-     "en": "Living stromatolites — rocks built layer by layer by microbes",
-     "cr": "Foto · Photo: Ed Landing & Markes E. Johnson · CC BY 4.0 · Wikimedia Commons",
-     "fact": "Bunların fosilleri 3,5 milyar yaşında: havayı ilk oksijenle dolduran canlılar onların atalarıydı",
-     "facte": "Their fossils are 3.5 billion years old — their ancestors were the first to fill the air with oxygen"
+     "q": "Çayın yanına hangisi?",
+     "qe": "Which one goes with the tea?",
+     "a": {
+      "f": "m/h14-simit.jpg",
+      "t": "Simit",
+      "e": "Simit — the sesame bread ring",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "b": {
+      "f": "m/h14-lokum.jpg",
+      "t": "Lokum",
+      "e": "Lokum — Turkish delight with pistachio and rose",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "p": "Kararsız kalan çayları tazelesin!",
+     "pe": "Whoever can’t decide refills the tea!",
+     "cr": "Fotoğraflar · Photos: A — Miomir Magdevski · CC BY-SA 4.0 · B — Maksym Kozlenko · CC BY-SA 4.0 · Wikimedia Commons"
     },
     {
-     "k": "hzphoto",
-     "d": 40,
-     "f": "m/h14-grandcanyon.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Arizona, ABD · USA",
-     "tr": "Büyük Kanyon — kayaların her katı bir çağ",
-     "en": "The Grand Canyon — every layer of rock an age",
-     "cr": "Foto · Photo: Tuxyso · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "En alttaki kayalar yaklaşık 1,8 milyar yaşında; Colorado Nehri kanyonu son 5–6 milyon yılda oydu",
-     "facte": "The deepest rocks are about 1.8 billion years old — the Colorado River carved the canyon in the last 5–6 million years"
-    },
-    {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-trilobite.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Trilobit fosili · Trilobite fossil",
-     "tr": "Bir trilobit fosili — denizlerin eski bekçisi",
-     "en": "A trilobite fossil — an ancient guardian of the seas",
-     "cr": "Foto · Photo: Juan Carlos Fonseca Mata · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Yaklaşık 270 milyon yıl yaşadılar, dinozorlardan çok daha uzun; gözleri kalsit kristalinden yapılmıştı",
-     "facte": "They lived for about 270 million years — far longer than the dinosaurs — and their eyes were made of calcite crystal",
-     "fit": "contain"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-cherries.jpg",
+     "q": "Kiraza adını verdiği söylenen Karadeniz şehri hangisi?",
+     "qe": "Which Black Sea city is said to have given the cherry its name?",
+     "a": "Giresun! Antik adı Kerasus; rivayete göre Romalı Lucullus kirazı buradan Roma’ya götürdü",
+     "ae": "Giresun — ancient Kerasus; legend says the Roman Lucullus took cherries from here to Rome",
+     "sec": 20,
+     "cr": "Foto · Photo: NiTenIchiRyu · CC BY-SA 4.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Kiraz · Cherries",
+     "hint": "İpucu: antik adı Kerasus · Hint: its ancient name was Kerasus"
     },
     {
      "k": "hzfact",
      "d": 30,
-     "big": "%99",
-     "tr": "Yeryüzünde yaşamış türlerin %99’undan fazlası yok oldu",
-     "en": "More than 99% of all species that ever lived on Earth have gone extinct",
-     "src": "Bugün gördüğümüz her canlı, uzun bir hayatta kalma zincirinin son halkası · Every creature alive today is the last link in a long chain of survivors",
-     "c1": "#22201c",
-     "c2": "#060505"
+     "big": "200 saat",
+     "tr": "Bir araştırmaya göre birini “yakın arkadaş” yapmak için yaklaşık 200 saat birlikte vakit geçirmek gerekiyor",
+     "en": "One study found it takes about 200 hours together to turn someone into a “close friend”",
+     "src": "Jeffrey Hall, Kansas Üniversitesi, 2018 · Bu akşam saatleri doldurmaya devam! · Keep adding the hours tonight!",
+     "c1": "#1e2a30",
+     "c2": "#040708"
     }
    ]
   },
   {
    "id": "h-11-14-18",
-   "name": "Zekâ Soruları · Brain Teasers",
+   "name": "Hoş Geldin İbo! · Welcome, İbo!",
    "from": "2026-11-14T18:00",
    "until": "2026-11-14T19:00",
    "items": [
     {
-     "k": "hzsteps",
-     "d": 56,
-     "lb": "Kısa Bulmaca · Quick Challenge",
-     "q": "Kurt, keçi ve lahana: kayığa yalnızca biri sığıyor. Kurt keçiyi, keçi lahanayı yer. Nasıl geçirirsin?",
-     "e": "Wolf, goat and cabbage: the boat holds only one. Left alone, the wolf eats the goat and the goat eats the cabbage. How do you cross?",
-     "c1": "#24301c",
-     "c2": "#050803",
-     "gap": 7,
-     "steps": [
+     "k": "hzwelcome",
+     "d": 48,
+     "f": "m/h14-trabzonnight.jpg",
+     "lb": "Hoş Geldiniz · Welcome — Gerçek Fotoğraf · Real Photo · Trabzon, gece · at night",
+     "lines": [
       [
-       "Önce keçiyi götür",
-       "First take the goat across",
-       "🐐→"
+       "Hoş geldin",
+       8.2
       ],
       [
-       "Dön, kurdu götür…",
-       "Go back and take the wolf…",
-       "🐺→"
-      ],
-      [
-       "…ama keçiyi geri getir!",
-       "…but bring the goat back!",
-       "←🐐"
-      ],
-      [
-       "Lahanayı götürüp kurdun yanına bırak",
-       "Take the cabbage and leave it with the wolf",
-       "🥬→"
-      ],
-      [
-       "Dön ve keçiyi al",
-       "Go back and fetch the goat",
-       "🐐→ ✓"
+       "İbo!",
+       8.8
       ]
      ],
-     "fin": "Bu bulmaca 1.200 yıldan eski: 9. yüzyılda Alcuin’in bilmece kitabında var",
-     "fine": "This puzzle is over 1,200 years old — it is in Alcuin’s 9th-century puzzle book"
+     "names": "Mami · Şerif · Murat · İbo",
+     "tr": "Ekip tamam — şimdi akşam başlasın!",
+     "en": "The whole crew is here — let the evening begin!",
+     "cr": "Foto · Photo: Aleksasfi · kamu malı · public domain · Wikimedia Commons"
     },
     {
-     "k": "hzriddle",
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Oyun · Party Game",
+     "q": "İki Doğru Bir Yalan: herkes kendisi hakkında üç şey söyler — biri yalan!",
+     "e": "Two Truths and a Lie: everyone says three things about themselves — one is a lie!",
+     "c1": "#1c2a34",
+     "c2": "#04070a",
+     "gap": 6,
+     "steps": [
+      [
+       "Sırayla, kendinle ilgili üç cümle söyle",
+       "Take turns saying three things about yourself",
+       ""
+      ],
+      [
+       "İkisi doğru, biri uydurma olsun",
+       "Two are true, one is made up",
+       ""
+      ],
+      [
+       "Diğerleri yalanı tahmin etsin",
+       "The others guess the lie",
+       "?"
+      ],
+      [
+       "Bilen bir puan alır; kimse bilemezse puan senin",
+       "A right guess wins a point — if nobody gets it, the point is yours",
+       "★"
+      ]
+     ],
+     "fin": "İpucu: en iyi yalan, en sıradan görünen cümledir",
+     "fine": "Tip: the best lie is the most ordinary-sounding one"
+    },
+    {
+     "k": "hzchoose",
      "d": 40,
-     "q": "10 m derinliğinde bir kuyudaki kurbağa<br>gündüz 3 m tırmanıyor, gece 2 m kayıyor.<br>Kaç günde çıkar?",
-     "qe": "A frog in a 10 m well climbs 3 m by day and slips back 2 m at night. How many days to get out?",
-     "a": "8 günde! 7. günün sonunda 7 m’de; 8. gün 3 m tırmanıp dışarıda",
-     "ae": "8 days — after 7 days it is at 7 m; on day 8 it climbs 3 m and is out",
-     "sec": 26,
-     "c1": "#1e2a30",
-     "c2": "#040708"
+     "q": "Kış tatili: karlı bir yayla evi mi, sıcak bir ada mı?",
+     "qe": "Winter break: a snowy mountain hut or a warm island?",
+     "a": {
+      "f": "m/h14-pokutsnow.jpg",
+      "t": "Pokut Yaylası, Rize",
+      "e": "Pokut, Rize — snow, a wood stove and silence",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "b": {
+      "f": "m/h14-maldives.jpg",
+      "t": "Maldivler",
+      "e": "The Maldives — white sand and turquoise water",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "p": "Herkes seçsin — kazanan tarafa çay ısmarlanır!",
+     "pe": "Everyone picks — the winning side gets the tea!",
+     "cr": "Fotoğraflar · Photos: A — Engin Tavlı · CC BY-SA 4.0 · B — Ввласенко · CC BY-SA 3.0 · Wikimedia Commons"
     },
     {
-     "k": "hzsteps",
-     "d": 54,
-     "lb": "Kısa Bulmaca · Quick Challenge",
-     "q": "8 bilyeden biri biraz daha ağır. Terazide yalnızca 2 tartıyla hangisi olduğunu bul…",
-     "e": "One of 8 marbles is slightly heavier. Find it with just 2 weighings on a balance…",
-     "c1": "#262030",
-     "c2": "#060508",
-     "gap": 7,
-     "steps": [
-      [
-       "3’e karşı 3 tart, 2 bilyeyi kenarda bırak",
-       "Weigh 3 against 3 and keep 2 aside",
-       ""
-      ],
-      [
-       "Denge varsa ağır olan kenardaki 2’den biri: onları tart",
-       "If they balance, it is one of the 2 aside — weigh them",
-       "✓"
-      ],
-      [
-       "Bir taraf ağır basarsa o 3’ten ikisini tart",
-       "If one side is heavier, weigh two of those 3",
-       ""
-      ],
-      [
-       "Denge varsa üçüncüsü; yoksa ağır basan",
-       "If they balance it’s the third — otherwise the heavier one",
-       "✓"
-      ]
-     ],
-     "fin": "Akıllı yol: her tartı seçenekleri üçe böler — 9 bilyeye kadar 2 tartı yeter",
-     "fine": "The trick: each weighing splits the options into three — 2 weighings are enough for up to 9 marbles"
+     "k": "hzguess",
+     "d": 28,
+     "f": "m/h14-kizkulesi.jpg",
+     "q": "Bu küçük kule hangi şehirde ve adı ne?",
+     "qe": "Which city is this little tower in — and what is it called?",
+     "a": "İstanbul — Kız Kulesi, Üsküdar açıklarında küçük bir adacıkta",
+     "ae": "Istanbul — the Maiden’s Tower, on an islet off Üsküdar",
+     "sec": 12,
+     "cr": "Foto · Photo: Sonse · CC BY 2.0 · Wikimedia Commons",
+     "lb": "Neresi Burası? · Where Is This? — Gerçek Fotoğraf · Real Photo",
+     "hint": "Isınma sorusu: en hızlı kim? · Warm-up: who’s fastest?"
     },
     {
-     "k": "hzsteps",
-     "d": 54,
-     "lb": "Efsane ve Matematik · Legend & Maths",
-     "q": "Hanoi Kulesi: rahipler 64 diski bir çubuktan ötekine taşıyor; büyük disk küçüğün üstüne konamaz…",
-     "e": "The Tower of Hanoi: monks move 64 discs from one peg to another — never a big disc on a small one…",
-     "c1": "#2a2018",
-     "c2": "#070504",
-     "gap": 6.5,
-     "steps": [
-      [
-       "3 disk: en az 7 hamle",
-       "3 discs: at least 7 moves",
-       "7"
-      ],
-      [
-       "Her yeni disk hamleleri iki katına çıkarır (+1)",
-       "Each new disc doubles the moves (plus one)",
-       "2ⁿ − 1"
-      ],
-      [
-       "64 disk: 18 kentilyondan fazla hamle",
-       "64 discs: over 18 quintillion moves",
-       "18.446.744.073.709.551.615"
-      ],
-      [
-       "Saniyede bir hamleyle: yaklaşık 585 milyar yıl",
-       "At one move a second: about 585 billion years",
-       "⌛"
-      ]
-     ],
-     "fin": "Bu, evrenin bugünkü yaşının yaklaşık 42 katı — efsaneye göre iş bitince dünya sona erecek, ama acele etmeye gerek yok",
-     "fine": "That is about 42 times the age of the universe — legend says the world ends when they finish, so no need to hurry"
-    },
-    {
-     "k": "hzfact",
-     "d": 30,
-     "big": "318 milyar",
-     "tr": "Satrançta iki oyuncu da ilk 4 hamlesini yapana kadar 318 milyardan fazla farklı oyun oynanabilir",
-     "en": "There are more than 318 billion different ways to play the first four moves each in chess",
-     "src": "Hesaplayan: Maurice Kraitchik, 1942 · Calculated by Maurice Kraitchik, 1942",
-     "c1": "#20262c",
-     "c2": "#050607"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-aurora.jpg",
+     "q": "Kuzey ışıklarını görmek için yılın hangi zamanı en iyisi?",
+     "qe": "When is the best time of year to see the northern lights?",
+     "a": "Eylülden marta kadar — uzun ve karanlık gecelerde",
+     "ae": "September to March — in the long, dark nights",
+     "sec": 18,
+     "cr": "Foto · Photo: Carsten · CC BY 2.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Norveç · Norway"
     }
    ]
   },
   {
    "id": "h-11-14-19",
-   "name": "Kuyruklu Yıldızlar · Comets",
+   "name": "Dünyanın Gece Işıkları · World Lights at Night",
    "from": "2026-11-14T19:00",
    "until": "2026-11-14T20:00",
    "items": [
     {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-halebopp.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Avusturya · Austria, 1997",
-     "tr": "Hale-Bopp Kuyruklu Yıldızı, 1997 — mavi gaz ve beyaz toz kuyruğuyla",
-     "en": "Comet Hale-Bopp, 1997 — with its blue gas tail and white dust tail",
-     "cr": "Foto · Photo: E. Kolmhofer, H. Raab (Johannes-Kepler-Sternwarte) · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Rekor bir süre, 18 ay boyunca çıplak gözle görüldü; bir sonraki dönüşü yaklaşık 4380 yılında",
-     "facte": "It stayed visible to the naked eye for a record 18 months — its next return is around the year 4380",
-     "fit": "contain"
-    },
-    {
-     "k": "hzsteps",
-     "d": 54,
-     "lb": "Akıllı Açıklama · Clever Explainer",
-     "q": "Kuyruklu yıldızın kuyruğu neden hep Güneş’in tersini gösterir?",
-     "e": "Why does a comet’s tail always point away from the Sun?",
-     "c1": "#141a30",
-     "c2": "#020308",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Kuyruklu yıldız kirli bir kar topudur: buz, toz ve kaya",
-       "A comet is a dirty snowball — ice, dust and rock",
-       ""
-      ],
-      [
-       "Güneş’e yaklaşınca buz doğrudan gaza dönüşür",
-       "Near the Sun its ice turns straight into gas",
-       ""
-      ],
-      [
-       "Güneş rüzgârı ve ışığın basıncı bu gazı ve tozu iter",
-       "The solar wind and the pressure of sunlight push that gas and dust away",
-       "☀→"
-      ],
-      [
-       "Kuyruk bu yüzden hep Güneş’in tersine uzanır — giderken bile önden gider",
-       "So the tail always streams away from the Sun — even leading the way as the comet leaves",
-       "✓"
-      ]
-     ],
-     "fin": "Bir kuyruklu yıldızın kuyruğu 100 milyon km’yi aşabilir — Dünya ile Güneş arasındaki mesafenin üçte ikisi",
-     "fine": "A comet’s tail can stretch over 100 million km — two thirds of the distance from Earth to the Sun"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-galataday.jpg",
+     "q": "Bu kule kaç yaşında?",
+     "qe": "How old is this tower?",
+     "a": "Yaklaşık 680! Bugünkü Galata Kulesi 1348’de yapıldı",
+     "ae": "About 680 years — today’s Galata Tower was built in 1348",
+     "sec": 20,
+     "cr": "Foto · Photo: Cemallamec · CC BY-SA 4.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Galata Kulesi, İstanbul · Galata Tower, Istanbul",
+     "hint": "İpucu: İstanbul’un en eski kulelerinden · Hint: one of Istanbul’s oldest towers"
     },
     {
      "k": "hzphoto",
-     "d": 40,
-     "f": "m/h14-neowise.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Slovakya · Slovakia, 2020",
-     "tr": "NEOWISE Kuyruklu Yıldızı, Temmuz 2020 — teleskobun yanında bir gözlemci",
-     "en": "Comet NEOWISE, July 2020 — an observer beside a telescope",
-     "cr": "Foto · Photo: Palonitor · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Bir sonraki ziyareti yaklaşık 6.800 yıl sonra",
-     "facte": "It will be back in about 6,800 years"
+     "d": 36,
+     "f": "m/h14-prague.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Prag · Prague",
+     "tr": "Prag Kalesi ve Karlov Köprüsü, gece",
+     "en": "Prague Castle above the Charles Bridge at night",
+     "cr": "Foto · Photo: Lucas Garron · CC0 · Wikimedia Commons",
+     "fact": "Köprünün yapımı 1357’de başladı; üstünde 30 heykel var ve gece yarısından sonra neredeyse bomboş",
+     "facte": "Building began in 1357 — it is lined with 30 statues and almost empty after midnight"
     },
     {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-rosetta.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · ESA Rosetta, 2014",
-     "tr": "67P kuyruklu yıldızı — Rosetta uzay aracının yakından çektiği 4 km’lik bir buz ve kaya kütlesi",
-     "en": "Comet 67P — a 4 km lump of ice and rock seen up close by the Rosetta spacecraft",
-     "cr": "Foto · Photo: ESA / Rosetta / NAVCAM · CC BY-SA 3.0 igo · Wikimedia Commons",
-     "fact": "12 Kasım 2014’te — tam 12 yıl önce bu hafta — Philae, bir kuyruklu yıldıza konan ilk araç oldu",
-     "facte": "On 12 November 2014 — exactly 12 years ago this week — Philae became the first craft to land on a comet",
-     "fit": "contain"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-moonsea.jpg",
+     "q": "Ay her yıl Dünya’dan ne kadar uzaklaşıyor?",
+     "qe": "How far does the Moon drift away from Earth each year?",
+     "a": "Yaklaşık 3,8 santim — tırnaklarımızın uzama hızı kadar",
+     "ae": "About 3.8 cm — roughly as fast as our fingernails grow",
+     "sec": 20,
+     "cr": "Foto · Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Andaman Denizi · Andaman Sea",
+     "hint": "İpucu: bir cetvelle ölçebilirsiniz · Hint: you could measure it with a ruler"
     },
     {
-     "k": "hzphoto",
-     "d": 40,
-     "f": "m/h14-bayeux.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Bayeux, Fransa · France",
-     "tr": "Bayeux Duvar Halısı’nda Halley Kuyruklu Yıldızı (1066): insanlar gökyüzünü gösteriyor",
-     "en": "Halley’s Comet on the Bayeux Tapestry (1066) — people point at the sky",
-     "cr": "Foto · Photo: Myrabella · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Üstündeki Latince yazı: “ISTI MIRANT STELLA” — “Bu yıldıza hayranlıkla bakıyorlar”",
-     "facte": "The Latin above says “ISTI MIRANT STELLA” — “They marvel at the star”"
+     "k": "hzguess",
+     "d": 34,
+     "f": "m/h14-stockholm.jpg",
+     "lb": "Sohbet Sorusu · Conversation Starter — Gerçek Fotoğraf · Real Photo · Stockholm, mavi saat · blue hour",
+     "q": "Gece yürüyüşü için dünyada tek bir şehir seçseniz, hangisi olurdu?",
+     "qe": "If you could pick one city in the world for a night walk, which would it be?",
+     "p": "Sırayla anlatın! · Take turns!",
+     "cr": "Foto · Photo: Hector Melo A · CC BY 2.0 · Wikimedia Commons"
     },
     {
      "k": "hzfact",
      "d": 30,
-     "big": "2061",
-     "tr": "Halley Kuyruklu Yıldızı yaklaşık her 76 yılda bir döner; bir sonraki gelişi 2061’de",
-     "en": "Halley’s Comet returns about every 76 years — next in 2061",
-     "src": "Mark Twain 1835’te Halley gelirken doğdu ve 1910’da Halley dönerken öldü · Mark Twain was born as Halley came in 1835 and died as it returned in 1910",
+     "big": "⅓",
+     "tr": "İnsanlığın üçte birinden fazlası, ışık kirliliği yüzünden Samanyolu’nu evinden göremiyor",
+     "en": "More than a third of humanity can’t see the Milky Way from home because of light pollution",
+     "src": "Falchi ve ark., Science Advances, 2016 · Karadeniz yaylalarında hâlâ görünüyor · Still visible from the Black Sea highlands",
      "c1": "#141a2a",
      "c2": "#020306"
     }
@@ -1001,228 +933,223 @@
   },
   {
    "id": "h-11-14-20",
-   "name": "Renklerin Hikâyesi · The Story of Colours",
+   "name": "Hayal Rotaları · Dream Routes",
    "from": "2026-11-14T20:00",
    "until": "2026-11-14T21:00",
    "items": [
     {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-murex.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Akdeniz · Mediterranean",
-     "tr": "Boya salyangozu — Tyros moru bundan yapılırdı",
-     "en": "The dye murex — the source of Tyrian purple",
-     "cr": "Foto · Photo: H. Zell · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "1 gram mor boya için yaklaşık 10.000 salyangoz gerekiyordu; bu yüzden mor yüzyıllarca kralların rengi oldu",
-     "facte": "About 10,000 snails were needed for 1 gram of purple dye — so for centuries purple was the colour of kings",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h14-turquoise.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Arizona, ABD · USA",
-     "tr": "Ham turkuaz taşı",
-     "en": "A raw turquoise stone",
-     "cr": "Foto · Photo: W.carter · CC BY 4.0 · Wikimedia Commons",
-     "fact": "“Turkuaz” Fransızca “Türk taşı” demek: taş, Avrupa’ya Türk toprakları üzerinden geldiği için bu adı aldı",
-     "facte": "“Turquoise” means “Turkish stone” in French — it was named because it reached Europe through Turkish lands",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
+     "k": "hzchoose",
      "d": 40,
-     "f": "m/h14-iznik.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · İstanbul Arkeoloji Müzeleri · Istanbul Archaeology Museums",
-     "tr": "İznik çinileri — mavi, yeşil ve kabarık bir kırmızı",
-     "en": "İznik tiles — blue, green and a raised red",
-     "cr": "Foto · Photo: Carole Raddato · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "1550’lerden sonra kabartma “İznik kırmızısı” ortaya çıktı; tekniği yüzyıllarca kayboldu ve ancak yakın zamanda yeniden çözüldü",
-     "facte": "After the 1550s a raised “İznik red” appeared — the technique was lost for centuries and only recently worked out again"
+     "q": "Hayal tren yolculuğu: hangisine binerdiniz?",
+     "qe": "Dream train ride — which would you board?",
+     "a": {
+      "f": "m/h14-landwasser.jpg",
+      "t": "Glacier Express, İsviçre",
+      "e": "Glacier Express, Switzerland — over the 65 m Landwasser Viaduct",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "b": {
+      "f": "m/h14-doguekspresi.jpg",
+      "t": "Doğu Ekspresi, Ankara–Kars",
+      "e": "The Doğu Express, Ankara–Kars — about a day through the snow",
+      "tag": "Gerçek Fotoğraf · Real Photo"
+     },
+     "p": "Kim kiminle aynı kompartımana?",
+     "pe": "Who shares a compartment with whom?",
+     "cr": "Fotoğraflar · Photos: A — Kabelleger / David Gubler · CC BY-SA 4.0 · B — Oyuncubaba · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-faroe.jpg",
+     "q": "Bu şelale doğrudan okyanusa dökülüyor. Neresi?",
+     "qe": "This waterfall drops straight into the ocean. Where is it?",
+     "a": "Faroe Adaları — Gásadalur köyündeki Múlafossur Şelalesi",
+     "ae": "The Faroe Islands — Múlafossur waterfall at Gásadalur",
+     "sec": 20,
+     "cr": "Foto · Photo: Eric Welch · CC0 · Wikimedia Commons",
+     "lb": "Neresi Burası? · Where Is This? — Gerçek Fotoğraf · Real Photo",
+     "hint": "İpucu: İzlanda ile Norveç arasında küçük adalar · Hint: small islands between Iceland and Norway"
+    },
+    {
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-moraine.jpg",
+     "q": "Bu gölün rengi neden bu kadar turkuaz?",
+     "qe": "Why is this lake so turquoise?",
+     "a": "“Buzul unu”! Buzulların öğüttüğü ince kaya tozu suda asılı kalır ve ışığı saçar",
+     "ae": "“Glacial flour” — fine rock dust ground by glaciers hangs in the water and scatters the light",
+     "sec": 22,
+     "cr": "Foto · Photo: Tobias Alt, Tobi 87 · CC BY-SA 4.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Moraine Gölü, Kanada · Moraine Lake, Canada"
     },
     {
      "k": "hzphoto",
-     "d": 40,
-     "f": "m/h14-fez.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Fes, Fas · Morocco",
-     "tr": "Şuara Tabakhanesi — taş kazanlarda doğal boyalar",
-     "en": "The Chouara Tannery — natural dyes in stone vats",
-     "cr": "Foto · Photo: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Yaklaşık bin yıldır çalışıyor: kırmızı için gelincik, mavi için çivit, turuncu için kına kullanılır",
-     "facte": "It has worked for about a thousand years — poppy for red, indigo for blue, henna for orange"
+     "d": 36,
+     "f": "m/h14-halong.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Vietnam",
+     "tr": "Ha Long Körfezi — denizden yükselen yaklaşık 1.600 kireçtaşı ada",
+     "en": "Ha Long Bay — about 1,600 limestone islands rising from the sea",
+     "cr": "Foto · Photo: Thomas Hirsch / User:Ravn · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Adı “inen ejder” demek: efsaneye göre adaları denize inen bir ejder yaptı",
+     "facte": "Its name means “descending dragon” — legend says a dragon made the islands as it came down to the sea"
     },
     {
-     "k": "hzsteps",
-     "d": 54,
-     "lb": "Akıllı Açıklama · Clever Explainer",
-     "q": "İnsanın yaptığı ilk yapay boya: Mısır mavisi",
-     "e": "The first man-made pigment: Egyptian blue",
-     "c1": "#14263a",
-     "c2": "#03060a",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Kum, bakır, kireç taşı ve natron karıştırılır",
-       "Mix sand, copper, limestone and natron",
-       ""
-      ],
-      [
-       "Yaklaşık 900 °C’de saatlerce pişirilir",
-       "Fire it at about 900 °C for hours",
-       "🔥"
-      ],
-      [
-       "Ezilince parlak bir mavi toz çıkar",
-       "Grind it and a bright blue powder appears",
-       "■"
-      ],
-      [
-       "Bugün kızılötesi ışıkta parlıyor: arkeologlar heykellerdeki izlerini böyle buluyor",
-       "It glows under infrared light — that is how archaeologists find traces of it on statues",
-       "✓"
-      ]
-     ],
-     "fin": "5.000 yıl önce Mısır’da yapıldı; tarifi Roma’dan sonra unutuldu",
-     "fine": "It was made in Egypt 5,000 years ago — and the recipe was forgotten after Rome"
-    },
-    {
-     "k": "hzfact",
-     "d": 30,
-     "big": "Mumya · Mummy",
-     "tr": "Bir zamanlar “mumya kahverengisi” diye bir boya satılırdı — gerçekten öğütülmüş Mısır mumyalarından yapılıyordu",
-     "en": "There was once a paint called “mummy brown” — really made from ground-up Egyptian mummies",
-     "src": "20. yüzyılda mumya bitince üretim durdu · Production stopped in the 20th century when the mummies ran out",
-     "c1": "#2a1e16",
-     "c2": "#070503"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-trolltunga.jpg",
+     "q": "Norveç’teki bu ünlü kaya çıkıntısının adı sizce ne?",
+     "qe": "What do you think this famous Norwegian rock ledge is called?",
+     "a": "Trolltunga — “Trolün Dili”! Gölün yaklaşık 700 metre üstünde",
+     "ae": "Trolltunga — “the Troll’s Tongue”, about 700 m above the lake",
+     "sec": 20,
+     "cr": "Foto · Photo: Steinar Talmoen · CC BY-SA 3.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Norveç · Norway",
+     "hint": "İpucu: masallardaki dev bir yaratığın bir parçası · Hint: part of a fairy-tale giant"
     }
    ]
   },
   {
    "id": "h-11-14-21",
-   "name": "Galeri: Kış Tabloları · Gallery: Winter in Painting",
+   "name": "Türkiye Bilgi Gecesi · Türkiye Trivia Night",
    "from": "2026-11-14T21:00",
    "until": "2026-11-14T22:00",
    "items": [
     {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h14-hunters.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Karda Avcılar — Pieter Bruegel (Yaşlı), 1565",
-     "en": "Hunters in the Snow — Pieter Bruegel the Elder, 1565",
-     "cr": "Eser · Artwork: Pieter Bruegel (Yaşlı · the Elder) · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Mevsimleri anlatan bir dizinin parçası; avcıların yorgunluğu ile buzda kayan köylülerin neşesi aynı tabloda",
-     "facte": "Part of a series about the seasons — the hunters’ weariness and the villagers’ joy on the ice share one canvas"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-tulips.jpg",
+     "q": "İngilizce “tulip” (lale) kelimesi hangi Türkçe kelimeden geliyor?",
+     "qe": "The English word “tulip” comes from which Turkish word?",
+     "a": "Tülbent! Lale çiçeği başa sarılan tülbende benzetilmiş",
+     "ae": "Tülbent, a turban cloth — the flower was likened to a turban",
+     "sec": 22,
+     "cr": "Foto · Photo: Husain007 · CC BY-SA 4.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Emirgan Korusu, İstanbul",
+     "hint": "İpucu: başa sarılan bir kumaş · Hint: a cloth wrapped around the head"
     },
     {
-     "k": "hzquote",
-     "d": 44,
-     "tr": "Güzellik bizi sarıyor;|ama onu görmek için|bir bahçede yürümek gerekir",
-     "en": "Beauty surrounds us, but usually we need to be walking in a garden to know it",
-     "pal": "night"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-safranbolu.jpg",
+     "q": "Safranbolu adını nereden alıyor?",
+     "qe": "Where does Safranbolu get its name?",
+     "a": "Safrandan! Çevresinde hâlâ safran yetişiyor; eski evleri UNESCO Dünya Mirası",
+     "ae": "From saffron — it still grows nearby; the old town is a UNESCO World Heritage Site",
+     "sec": 18,
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Safranbolu, Karabük"
     },
     {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h14-magpie.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Saksağan — Claude Monet, 1868–69",
-     "en": "The Magpie — Claude Monet, 1868–69",
-     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
-     "fact": "1869 Salonu tabloyu reddetti; bugün Monet’nin en sevilen kış tablolarından. Kardaki gölgeler gri değil, mavi ve lila",
-     "facte": "The 1869 Salon rejected it — today it is one of Monet’s best-loved winter scenes. The shadows on the snow are blue and lilac, not grey"
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Fıkra · Folk Tale",
+     "q": "Nasreddin Hoca ve doğuran kazan",
+     "e": "Nasreddin Hodja and the pot that gave birth",
+     "c1": "#2a2420",
+     "c2": "#070605",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Hoca komşusundan büyük bir kazan ödünç alır",
+       "The Hodja borrows a big pot from his neighbour",
+       ""
+      ],
+      [
+       "Geri verirken içine küçük bir tencere koyar: “Kazanın doğurdu!”",
+       "He returns it with a little pan inside: “Your pot gave birth!”",
+       ""
+      ],
+      [
+       "Komşu sevinir, sesini çıkarmaz",
+       "The neighbour is delighted and says nothing",
+       ""
+      ],
+      [
+       "Hoca kazanı yine ister… ama bu kez geri getirmez: “Kazanın öldü!”",
+       "The Hodja borrows it again… and this time: “Your pot died!”",
+       ""
+      ],
+      [
+       "“Kazan ölür mü?” — “Doğurduğuna inandın da öldüğüne niye inanmıyorsun?”",
+       "“Can a pot die?” — “You believed it gave birth, so why not that it died?”",
+       "😄"
+      ]
+     ],
+     "fin": "Sıra sizde: bir sonraki fıkrayı kim anlatıyor?",
+     "fine": "Your turn — who tells the next joke?"
     },
     {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h14-avercamp.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Buz Üstünde Kolf Oyuncuları — Hendrick Avercamp, y. 1625",
-     "en": "Kolf Players on the Ice — Hendrick Avercamp, c. 1625",
-     "cr": "Eser · Artwork: Hendrick Avercamp · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Avercamp doğuştan işitme engelliydi; Hollanda kanallarının sık sık donduğu “Küçük Buz Çağı” kışlarını resmetti",
-     "facte": "Avercamp was deaf from birth — he painted the “Little Ice Age” winters, when Dutch canals often froze"
+     "k": "hzguess",
+     "d": 36,
+     "f": "m/h14-kizilirmak.jpg",
+     "q": "Tamamen Türkiye’de akan en uzun nehir hangisi?",
+     "qe": "What is the longest river flowing entirely within Türkiye?",
+     "a": "Kızılırmak — 1.355 km; Bafra’da Karadeniz’e dökülür",
+     "ae": "The Kızılırmak — 1,355 km, reaching the Black Sea at Bafra",
+     "sec": 20,
+     "cr": "Foto · Photo: sami yılmaz · CC BY 3.0 · Wikimedia Commons",
+     "lb": "Birlikte Tahmin · Guess Together — Gerçek Fotoğraf · Real Photo · Kapıkaya Köyü",
+     "hint": "İpucu: adı bir renk · Hint: its name is a colour"
     },
     {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h14-seaofice.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Buz Denizi — Caspar David Friedrich, 1823–24",
-     "en": "The Sea of Ice — Caspar David Friedrich, 1823–24",
-     "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Buz kütlelerinin arasında ezilmiş bir gemi; Friedrich yaşarken tablo satılmadı, bugün en ünlü eserlerinden",
-     "facte": "A ship crushed between slabs of ice — it never sold in Friedrich’s lifetime and is now one of his most famous works"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h14-shishkin.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Vahşi Kuzeyde — İvan Şişkin, 1891",
-     "en": "In the Wild North — Ivan Shishkin, 1891",
-     "cr": "Eser · Artwork: İvan Şişkin · Ivan Shishkin · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Lermontov’un bir şiirinden: kuzeyde karlı bir uçurumda tek başına duran çam, uzak güneydeki bir palmiyeyi düşler",
-     "facte": "From a poem by Lermontov: a lone pine on a snowy northern cliff dreams of a palm tree in the far south",
-     "fit": "contain"
+     "k": "hzfact",
+     "d": 30,
+     "big": "61",
+     "tr": "İlk 67 ilin plaka kodları alfabetik sırayla verildi: 01 Adana … 61 Trabzon",
+     "en": "The first 67 provinces got their plate codes in alphabetical order: 01 Adana … 61 Trabzon",
+     "src": "Sonradan il olanlar 68’den 81’e kadar sıralandı · Later provinces were numbered 68 to 81",
+     "c1": "#1c2434",
+     "c2": "#04060a"
     }
    ]
   },
   {
    "id": "h-11-14-22",
-   "name": "Sisli Ormanlar · Misty Forests",
+   "name": "Gece Sohbeti · Late-Night Talk",
    "from": "2026-11-14T22:00",
    "until": "2026-11-14T23:00",
    "items": [
     {
-     "k": "hzquote",
-     "d": 46,
-     "tr": "Üzülme;|kaybettiğin her şey|başka bir biçimde sana döner",
-     "en": "Don’t grieve — anything you lose comes round in another form",
-     "pal": "night"
+     "k": "hzguess",
+     "d": 34,
+     "f": "m/h14-milkyway2.jpg",
+     "lb": "Sohbet Sorusu · Conversation Starter — Gerçek Fotoğraf · Real Photo · Samanyolu altında bir gözlemci · Stargazing under the Milky Way",
+     "q": "Çocukken ne olmak istiyordunuz?",
+     "qe": "What did you want to be when you were a kid?",
+     "p": "Sırayla anlatın! · Take turns!",
+     "cr": "Foto · Photo: Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons"
     },
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h14-mistforest.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Makaravank, Ermenistan · Armenia",
-     "tr": "Sisli bir sonbahar sabahı — ormanın üstünde yüzyıllık bir manastır",
-     "en": "A misty autumn morning — a centuries-old monastery above the forest",
-     "cr": "Foto · Photo: Wowan1978 · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Sis, yere inmiş bir buluttur: serin hava nemi milyarlarca küçücük damlacığa çevirir",
-     "facte": "Fog is simply a cloud that has come down to the ground — cool air turns moisture into billions of tiny droplets"
+     "d": 40,
+     "f": "m/h14-fjordstars.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Åbyfjorden, İsveç · Sweden",
+     "tr": "Sakin bir fiyortun üstünde yıldızlar ve Samanyolu",
+     "en": "Stars and the Milky Way above a still fjord",
+     "cr": "Foto · Photo: W.carter · CC0 · Wikimedia Commons",
+     "fact": "Karanlık ve açık bir gecede çıplak gözle aynı anda yaklaşık 2.500 yıldız görülebilir",
+     "facte": "On a dark, clear night the naked eye can see about 2,500 stars at once"
     },
     {
-     "k": "hzphoto",
-     "d": 42,
-     "f": "m/h14-yakushima.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Yakuşima, Japonya · Yakushima, Japan",
-     "tr": "Yakuşima’nın yosunlu ormanı",
-     "en": "The moss forest of Yakushima",
-     "cr": "Foto · Photo: Raita Futo · CC BY 2.0 · Wikimedia Commons",
-     "fact": "Bu orman Prenses Mononoke filmindeki ormana ilham verdi; adadaki bazı sedirler binlerce yaşında",
-     "facte": "This forest inspired the woods in the film Princess Mononoke — some of the island’s cedars are thousands of years old"
-    },
-    {
-     "k": "hzphoto",
-     "d": 42,
-     "f": "m/h14-redwoodfog.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Kaliforniya · California",
-     "tr": "Sisin içinde dev sekoyalar",
-     "en": "Giant redwoods in the fog",
-     "cr": "Foto · Photo: Michael Schweppe · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "Kıyı sekoyaları yazın suyunun yaklaşık üçte birini sisten alır; en uzunu 115 metreyi aşıyor",
-     "facte": "Coast redwoods get about a third of their summer water from fog — the tallest is over 115 m"
+     "k": "hzguess",
+     "d": 34,
+     "f": "m/h14-startrails.jpg",
+     "lb": "Sohbet Sorusu · Conversation Starter — Gerçek Fotoğraf · Real Photo · La Hague Feneri, Fransa · France",
+     "q": "Bu yıl sizi en çok güldüren an neydi?",
+     "qe": "What was the moment that made you laugh most this year?",
+     "p": "Sırayla anlatın! · Take turns!",
+     "cr": "Foto · Photo: Antoine Lamielle · CC BY-SA 4.0 · Wikimedia Commons"
     },
     {
      "k": "hzfact",
-     "d": 32,
-     "big": "2.200 mm",
-     "tr": "Rize, yılda 2.200 mm’den fazla yağışla Türkiye’nin en yağışlı yeri",
-     "en": "Rize is the wettest place in Türkiye, with over 2,200 mm of rain a year",
-     "src": "Çay bahçelerinin ve yemyeşil yamaçların sırrı bu yağmur · This rain is the secret of the tea gardens and green slopes",
-     "c1": "#14202a",
-     "c2": "#030507"
+     "d": 30,
+     "big": "30 kat",
+     "tr": "Başkalarıyla birlikteyken, tek başımıza olduğumuzdan yaklaşık 30 kat daha fazla güleriz",
+     "en": "We laugh about 30 times more when we are with others than when we are alone",
+     "src": "Robert Provine, gülme araştırmaları · laughter research · Kahkaha bulaşıcıdır · Laughter is contagious",
+     "c1": "#141c28",
+     "c2": "#020306"
     }
    ]
   },

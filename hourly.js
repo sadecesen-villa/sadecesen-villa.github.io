@@ -1,6 +1,6 @@
-/* hourly.js v62 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v63 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -633,5 +633,53 @@ W.hzjastrow=function(L,it){L.style.background='#e9e5dc';var c=wCv(L),x=c.getCont
  function arc(cx,cy,col,al){var R1=520,R2=330,a0=-Math.PI/2-.62,a1=-Math.PI/2+.62;x.globalAlpha=al;x.fillStyle=col;x.beginPath();x.arc(cx,cy,R1,a0,a1);x.arc(cx,cy,R2,a1,a0,true);x.closePath();x.fill();x.globalAlpha=1}
  wLoop(L,function(t){x.clearRect(0,0,1920,1080);var m=t<19?0:t<23?ease((t-19)/4):t<31?1:t<35?1-ease((t-31)/4):0;
   var cyA=820,cyB=1040,cy=cyA+(cyB-cyA)*m;arc(960,cyB,'#c8372a',1);arc(960,cy,'#2a6f9b',m>0?.8:1)});return L};
+
+
+/* ---------- v63: group / friends templates ---------- */
+/* hzwelcome: still photo + painted script lettering. it: f, pos, lb, lines[[text,fs_vw],...], names, tr, en, cr */
+W.hzwelcome=function(L,it){L.style.background='#000';
+ var m=wEl('img','');m.src=it.f;m.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:'+(it.pos||'50% 50%');L.appendChild(m);
+ L.appendChild(wEl('div','',null,'position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 50% 42%,rgba(6,12,18,.62),rgba(6,12,18,.28) 62%,rgba(0,0,0,.55))'));
+ L.appendChild(wEl('div','',null,'position:absolute;left:0;right:0;bottom:0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.78))'));
+ var lb=T(L,'<div class="lb" style="color:#bfe9dd">'+it.lb+'</div>','top:3.5vh;bottom:auto;max-height:7vh;overflow:hidden',.3);
+ var h='';for(var i=0;i<it.lines.length;i++){var ln=it.lines[i];h+='<div style="font-family:HzScript,Georgia,serif;font-size:'+ln[1]+'vw;line-height:1.18;color:#fbf8f2;text-shadow:0 0.3vw 2.2vw rgba(0,0,0,.85)"><span class="hzw" style="animation-delay:'+(0.8+i*3.2)+'s;padding:.42em .5em .28em;margin:-.42em 0 -.28em">'+ln[0]+'</span></div>'}
+ var sz=T(L,h,'top:10vh;bottom:'+(it.names?'37vh':'30vh')+';display:flex;flex-direction:column;justify-content:center;overflow:hidden',.1);
+ if(it.names){var nm=T(L,'<div style="font-family:HzBrush,Georgia,serif;font-size:3.1vw;color:#c9f0e4;letter-spacing:.04em;line-height:1.2">'+it.names+'</div>','top:65vh;bottom:auto;max-height:10vh;overflow:hidden',6.5)}
+ var sub=T(L,'<div class="q" style="font-size:2.2vw">'+it.tr+'</div><div class="e" style="font-size:1.45vw">'+it.en+'</div>','bottom:7.5vh;top:auto;max-height:16vh;overflow:hidden',it.names?8.5:7);fitEl(sub,16);
+ T(L,'<div class="sm">'+it.cr+'</div>','',1.6).className+=' hz-credit';return L};
+
+/* hzchoose: “which would you pick?” two still photos side by side. it: q, qe, a:{f,t,e,tag,pos}, b:{...}, p, pe, cr */
+W.hzchoose=function(L,it){grad(L,it.c1||'#16232c',it.c2||'#04070a');
+ var hdEl=T(L,'<div class="lb">'+(it.lb||'Hangisini Seçerdin? · Which Would You Pick?')+'</div><div class="q" style="font-size:2.5vw">'+it.q+'</div><div class="e" style="font-size:1.4vw">'+it.qe+'</div>','top:3vh;bottom:auto;max-height:17vh;overflow:hidden',.3);fitEl(hdEl,17);
+ var S=[it.a,it.b];for(var i=0;i<2;i++){var o=S[i],x=i?51.5:4;
+  var fr=wEl('div','',null,'position:absolute;top:21.5vh;height:49vh;left:'+x+'vw;width:44.5vw;border-radius:.8vw;overflow:hidden;box-shadow:0 1vw 3vw rgba(0,0,0,.6);opacity:0;animation:hzin 1.6s '+(0.8+i*1.2)+'s forwards');
+  var im=wEl('img','');im.src=o.f;im.style.cssText='width:100%;height:100%;object-fit:cover;object-position:'+(o.pos||'50% 50%');fr.appendChild(im);L.appendChild(fr);
+  var badge=T(L,'<div style="font-family:Helvetica,Arial,sans-serif;font-weight:300;font-size:2.4vw;color:#fff;line-height:1">'+(i?'B':'A')+'</div>','top:23vh;bottom:auto;left:'+(x+1.2)+'vw;right:auto;width:4.2vw;padding:.7vw 0;background:rgba(4,9,14,.72);border-radius:.6vw;text-shadow:none',1+i*1.2);
+  var cap=T(L,'<div class="lb" style="font-size:.85vw;letter-spacing:.2em">'+o.tag+'</div><div class="q" style="font-size:2.05vw;margin-top:.3vw">'+o.t+'</div><div class="e" style="font-size:1.25vw;margin-top:.2vw">'+o.e+'</div>','top:72.5vh;bottom:auto;max-height:13.5vh;overflow:hidden;left:'+x+'vw;right:auto;width:44.5vw',1.4+i*1.2);fitEl(cap,13.5)}
+ if(it.p){var pr=T(L,'<div style="font-family:HzBrush,Georgia,serif;font-size:2vw;color:#ff9e7a;line-height:1.15">'+it.p+'</div><div class="sm" style="margin-top:.1vw;font-size:1.05vw;color:#c3cdd2">'+it.pe+'</div>','top:86.6vh;bottom:auto;max-height:7vh;overflow:hidden',5);fitEl(pr,7)}
+ T(L,'<div class="sm">'+it.cr+'</div>','',1.6).className+=' hz-credit';return L};
+
+/* hzguess: guess together over a still photo; answer after sec. No a = conversation question. it: f, pos, lb, q, qe, hint, a, ae, sec, cr */
+W.hzguess=function(L,it){L.style.background='#000';var sec=it.sec||20;
+ var m=wEl('img','');m.src=it.f;m.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:'+(it.pos||'50% 50%');L.appendChild(m);
+ L.appendChild(wEl('div','',null,'position:absolute;left:0;right:0;top:0;height:42%;background:linear-gradient(rgba(0,0,0,.7),transparent)'));
+ L.appendChild(wEl('div','',null,'position:absolute;left:0;right:0;bottom:0;height:42%;background:linear-gradient(transparent,rgba(0,0,0,.75))'));
+ var q=T(L,'<div class="hzbox"><div class="lb">'+(it.lb||'Birlikte Tahmin · Guess Together')+'</div><div class="q" style="font-size:2.6vw">'+it.q+'</div><div class="e" style="font-size:1.45vw">'+it.qe+'</div></div>','top:4vh;bottom:auto;max-height:31vh;overflow:hidden',.5);fitEl(q,31);
+ var b='';if(it.hint)b+='<div class="sm" style="font-size:1.25vw;color:#dfe6e9;margin-bottom:.8vh">'+it.hint+'</div>';
+ if(it.a){b+='<div id="hzcd" class="lb" style="color:#ff9e7a;min-height:1.6vw"></div><div id="hzans" style="opacity:0;transition:opacity .8s"><div class="a" style="font-size:2.3vw">'+it.a+'</div><div class="e" style="font-size:1.35vw">'+it.ae+'</div></div>'}
+ else b+='<div style="font-family:HzBrush,Georgia,serif;font-size:2.2vw;color:#ff9e7a">'+(it.p||'Sırayla anlatın! · Take turns!')+'</div>';
+ var bot=T(L,'<div class="hzbox">'+b+'</div>','bottom:7.5vh;top:auto;max-height:30vh;overflow:hidden',2);fitEl(bot,30);
+ T(L,'<div class="sm">'+it.cr+'</div>','',1.6).className+=' hz-credit';
+ if(it.a)wLoop(L,function(t){var r=Math.ceil(sec-t),cd=bot.querySelector('#hzcd'),an=bot.querySelector('#hzans');if(cd)cd.textContent=(r>0&&t>3)?'Cevap · Answer: '+r:'';if(an&&t>=sec+0.6)an.style.opacity=1});return L};
+
+/* hzstroop: Stroop colour game for a group. Round 1 words match colours, round 2 they don't. */
+W.hzstroop=function(L,it){grad(L,'#1b2230','#05070b');
+ var C=[['KIRMIZI','#ff5252'],['MAVİ','#4fa8ff'],['YEŞİL','#3ddc84'],['SARI','#fff04d'],['MOR','#b884ff'],['PEMBE','#ff86cf']];
+ var A=[0,3,1,5,2,4,1,0,4,3,5,2],B=[[1,0],[2,3],[0,4],[5,1],[3,2],[4,5],[2,0],[1,4],[0,3],[4,1],[3,5],[5,2]];
+ var hdEl=T(L,hd('Oyun · Party Game','Kelimeyi okuma — rengini yüksek sesle söyle!','Don’t read the word — say its colour out loud!'),'',.4);hdEl.className+=' hz-top';hdEl.style.maxHeight='21vh';fitEl(hdEl,21);
+ function grid(r2){var h='<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:3.2vh 2vw;align-items:center">';for(var i=0;i<12;i++){var w=r2?C[B[i][0]][0]:C[A[i]][0],c=r2?C[B[i][1]][1]:C[A[i]][1];h+='<div style="font-family:Helvetica,Arial,sans-serif;font-weight:700;font-size:3.1vw;letter-spacing:.04em;color:'+c+';text-shadow:none">'+w+'</div>'}return h+'</div>'}
+ var mid=T(L,'<div class="lb" id="hzrd" style="margin-bottom:2.4vh;color:#ff9e7a">1. Tur: ısınma · Round 1: warm-up</div>'+grid(0),'top:25vh;bottom:25vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden',1.2);
+ var bt=T(L,'<div class="e" style="font-size:1.45vw;color:#dfe6e9">Stroop etkisi (1935): beyin okumayı otomatik yapar, bu yüzden renk söylemek yavaşlar. En hızlı kim?</div><div class="sm">The Stroop effect (1935): the brain reads automatically, so naming the colour slows you down. Who is fastest?</div>','',3);bt.className+=' hz-bot';bt.style.maxHeight='19vh';
+ var sw=0;wLoop(L,function(t){if(!sw&&t>22){sw=1;mid.innerHTML='<div class="lb" style="margin-bottom:2.4vh;color:#ff9e7a">2. Tur: şimdi zor! · Round 2: now it gets hard!</div>'+grid(1)}});return L};
 
 })();
