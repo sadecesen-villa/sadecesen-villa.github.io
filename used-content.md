@@ -4,6 +4,54 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-15 · evening rework (rev 65, sets 18:00–02:00 rebuilt ~18:50 for a calm night alone)
+
+M came home alone after staying with Şerif and his family; he asked for the TV to be updated. Sets 18–23 were replaced with quiet, peaceful content (Black Sea and Trabzon/Rize landscapes, misty yaylas, still-water photographs, soft gallery paintings, starry skies, and short lines from Yunus Emre, Mevlânâ and Turkish proverbs about peace, gratitude and friendship). No games, quizzes, illusions, generators or party themes. The loss is not named on screen. The original 18–23 sets in the 2026-11-15 section below: the 18:00 set aired for about 50 minutes before this rebuild; 19–23 never aired (count them as used anyway). No new hz functions. h14-* images archived to /workspace/tv-media-archive/h14 (site was 48 MB). 20 new CC/PD photos/artworks (m/h15-*). Quotes used: Ben gelmedim dava için; benim işim sevi için (Yunus Emre, 18), Kanaat tükenmez bir hazinedir (atasözü, 19), Yaratılanı hoş gör, Yaradan’dan ötürü (Yunus Emre, 20), Sular durulsun; ayı ve yıldızları kendi içinde görürsün (Mevlânâ, 21), Şükrü bir örtü gibi giy (Mevlânâ, 22), Bir fincan kahvenin kırk yıl hatırı vardır (atasözü, 23).
+
+### 18:00–19:00 · Karadeniz’in Huzuru · Black Sea Peace
+- 18 | hzphoto | Zilkale — Fırtına Vadisi’nin sisli yamaçlarında bir kale | m/h15-zilkale.jpg
+- 18 | hzquote | Ben gelmedim dava için; benim işim sevi için (Yunus Emre) | —
+- 18 | hzphoto | Sisli bir günde Karadeniz — Ünye kıyısındaki kayalıklar | m/h15-unyesea.jpg
+- 18 | hzphoto | Çağrankaya Yaylası — bulut denizi yaylanın hemen altında | m/h15-cagrankaya.jpg
+- 18 | hzfact | Doğu Karadeniz yaylalarında sis bir deniz gibi yaylaların altında kalır | —
+
+### 19:00–20:00 · Sisli Yaylalar · Misty Highlands
+- 19 | hzphoto | Elevit — sisin sarıp sarmaladığı ahşap yayla evleri | m/h15-elevit.jpg
+- 19 | hzphoto | Yayla çiçeklerinin ardından, vadiyi dolduran bir sis denizi | m/h15-cagfire.jpg
+- 19 | hzquote | Kanaat, tükenmez bir hazinedir (atasözü) | —
+- 19 | hzphoto | Sisin içinden çıkan ladinler | m/h15-elevitpine.jpg
+- 19 | hzphoto | Sisin içinde tek başına duran bir yayla evi | m/h15-elevitmist.jpg
+- 19 | hzfact | Karadeniz’de “yayla”, yazın hayvanlarla çıkılan yüksek, serin çayır demektir | —
+
+### 20:00–21:00 · Galeri: Sakin Fırçalar · Gallery: Quiet Brushes
+- 20 | hzphoto | Sakin Deniz — Ivan Aivazovsky, 1887 | m/h15-aivazovsky.jpg
+- 20 | hzphoto | Ville-d’Avray Göleti — Jean-Baptiste-Camille Corot | m/h15-corot.jpg
+- 20 | hzquote | Yaratılanı hoş gör, Yaradan’dan ötürü (Yunus Emre) | —
+- 20 | hzphoto | Sis, Voisins — Alfred Sisley, 1874 | m/h15-sisley.jpg
+- 20 | hzphoto | Alacakaranlık — İsaak Levitan, 1899 | m/h15-levitan.jpg
+- 20 | hzphoto | Ankara Manzarası — Şeker Ahmed Paşa | m/h15-sekerahmet.jpg
+
+### 21:00–22:00 · Ayna Gibi · Like a Mirror
+- 21 | hzphoto | Stanton ve Vaught dağları, McDonald Gölü’nde bir ayna gibi | m/h15-mcdonald.jpg
+- 21 | hzquote | Sular durulsun; ayı ve yıldızları kendi içinde görürsün (Mevlânâ) | —
+- 21 | hzphoto | Borçka Karagöl — ormanın durgun, yeşil bir aynası | m/h15-karagol.jpg
+- 21 | hzphoto | Kış sabahı Bohinj Gölü — durgun suda dağların yansıması | m/h15-bohinj.jpg
+- 21 | hzphoto | Sakin bir akşam: Derwent Gölü’nün durulmuş suyu | m/h15-derwent.jpg
+- 21 | hzfact | Dağ göllerinde “ayna saati” çoğu zaman şafaktan hemen sonradır | —
+
+### 22:00–23:00 · Yıldızların Altında · Under the Stars (sakin · calm)
+- 22 | hzphoto | Yıldızlar ve bir dağın sessiz yansıması | m/h15-starlake.jpg
+- 22 | hzquote | Şükrü bir örtü gibi giy; hayatının her köşesini besler (Mevlânâ) | —
+- 22 | hzphoto | Ogwen Gölü’nün üstünde Samanyolu | m/h15-ogwen.jpg
+- 22 | hzphoto | Karanlık dağların üstünde uzanan Samanyolu | m/h15-madera.jpg
+- 22 | hzfact | Kasım ortasında akşamları doğu ufkundan yükselen avcı Orion | —
+
+### 23:00–02:00 · Gönül Rahatlığı · A Quiet Heart (sakin · calm)
+- 23 | hzphoto | Yıldızların altında, ışığı yanan küçük bir ev | m/h15-cabin.jpg
+- 23 | hzquote | Bir fincan kahvenin kırk yıl hatırı vardır (atasözü) | —
+- 23 | hzsteps | Uyumadan önce: dört sakin düşünce | —
+- 23 | hzfact | Yunus Emre, 13. ve 14. yüzyılda Anadolu’da yaşadı | —
+
 ## 2026-11-15 (rev 64, hourly sets 09:00–02:00, days/2026-11-15.json) · Sunday
 
 New hz functions in hourly.js v64: hzmeta hzkaleido hzyakamoz (hzyakamoz = calm night), illusions hzmib hzcorn hzfraser. Mevlânâ quotes used: Ruhunu heyecanlandıran her çağrıya cevap ver (09), Evrendeki her şey senin içinde; her şeyi kendinden iste (12), Lambalar farklıdır, ama ışık aynıdır (20), Sessizlik bir okyanustur; söz ise bir nehir (22), Ay, geceden kaçmadığı için parlak kalır (23). requests.md: no pending items. h13-* had already been archived on 14 Nov; h14-* kept for yesterday’s file (nothing new archived). 44 new CC/PD photos/artworks (m/h15-*).

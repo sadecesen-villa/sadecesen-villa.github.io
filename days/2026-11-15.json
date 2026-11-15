@@ -1,7 +1,7 @@
 {
  "date": "2026-11-15",
- "rev": 64,
- "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-15.py. Content log: used-content.md",
+ "rev": 65,
+ "_note": "Hourly sets for the villa TV. Morning from days/build_2026-11-15.py; evening 18:00-02:00 rebuilt by days/build_2026-11-15_evening.py (rev 65, calm night). Content log: used-content.md",
  "sets": [
   {
    "id": "h-11-15-09",
@@ -785,456 +785,399 @@
   },
   {
    "id": "h-11-15-18",
-   "name": "Bir Saniyede Dünya · The World in One Second",
+   "name": "Karadeniz’in Huzuru · Black Sea Peace",
    "from": "2026-11-15T18:00",
    "until": "2026-11-15T19:00",
    "items": [
     {
-     "k": "hzsteps",
-     "d": 50,
-     "lb": "Ölçek Yolculuğu · Scale Journey",
-     "q": "Sadece bir saniye… Bu sürede neler oluyor?",
-     "e": "Just one second… what happens in that time?",
-     "c1": "#141c2a",
-     "c2": "#03050a",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Işık yaklaşık 300.000 km yol alır: Dünya’nın çevresini 7,5 kez dolaşır",
-       "Light travels about 300,000 km — seven and a half times around the Earth",
-       "✦"
-      ],
-      [
-       "Dünya, Güneş’in çevresinde yaklaşık 30 km ilerler",
-       "The Earth moves about 30 km along its orbit around the Sun",
-       "🌍"
-      ],
-      [
-       "Kalbin aşağı yukarı bir kez atar",
-       "Your heart beats about once",
-       "♥"
-      ],
-      [
-       "Vücudun 2 milyondan fazla yeni kırmızı kan hücresi yapar",
-       "Your body makes more than 2 million new red blood cells",
-       "●"
-      ]
-     ],
-     "fin": "Bir saniye küçük görünür ama içine koca bir dünya sığar",
-     "fine": "A second looks small — yet a whole world fits inside it"
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-zilkale.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Zilkale · Çamlıhemşin, Rize",
+     "tr": "Zilkale — Fırtına Vadisi’nin sisli yamaçlarında bir kale",
+     "en": "Zilkale — a castle on the misty slopes of the Fırtına valley",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "fact": "14. ya da 15. yüzyıldan; Fırtına Deresi’ne bakan bir kayanın üstünde, yaklaşık 750 metre yükseklikte",
+     "facte": "From the 14th or 15th century — on a rock above the Fırtına river, about 750 metres up"
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Ben gelmedim dava için;|benim işim sevi için",
+     "en": "I did not come to quarrel; my work is love",
+     "pal": "sea"
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h15-hummingbird.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Sinekkuşu · Hummingbird",
-     "tr": "Havada asılı duran bir sinekkuşu",
-     "en": "A hummingbird hanging in mid-air",
-     "cr": "Foto · Photo: Jonathan Rodgers · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Kanatlarını saniyede 50 kezden fazla çırpar; geriye doğru uçabilen tek kuş grubu",
-     "facte": "It beats its wings more than 50 times a second — the only birds that can fly backwards",
-     "fit": "contain"
+     "d": 42,
+     "f": "m/h15-unyesea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ünye, Ordu · Çamlık sahili",
+     "tr": "Sisli bir günde Karadeniz — Ünye kıyısındaki kayalıklar",
+     "en": "The Black Sea on a misty day — the rocks of the Çamlık shore in Ünye",
+     "cr": "Foto · Photo: Mahrujan · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kıyıdaki çamlar ve kayalar, Karadeniz’in sık sık takındığı bu yumuşak griye çok yakışır",
+     "facte": "The pines and rocks along the shore belong to this soft grey the Black Sea often wears"
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h15-dropcrown.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Süt tacı · Milk crown",
-     "tr": "Bir damlanın çarpıştığı an: süt tacı",
-     "en": "The instant a drop lands: a milk crown",
-     "cr": "Foto · Photo: mescon · CC BY 2.0 · Wikimedia Commons",
-     "fact": "Bu taç bir saniyenin yüzde biri kadar bile yaşamaz; Harold Edgerton’ın 1957 fotoğrafıyla ünlendi",
-     "facte": "The crown lasts less than a hundredth of a second — made famous by Harold Edgerton’s 1957 photograph"
-    },
-    {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h15-cheetah.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Namibya · Namibia",
-     "tr": "Koşan bir çita — bir saniyede yaklaşık 30 metre",
-     "en": "A running cheetah — about 30 metres in one second",
-     "cr": "Foto · Photo: Alexander Klink · CC BY 4.0 · Wikimedia Commons",
-     "fact": "Karadaki en hızlı hayvan: üç saniyede saatte yaklaşık 100 km hıza çıkabilir",
-     "facte": "The fastest land animal — it can reach about 100 km/h in three seconds"
+     "d": 42,
+     "f": "m/h15-cagrankaya.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çağrankaya Yaylası · Hayrat, Trabzon",
+     "tr": "Çağrankaya Yaylası — bulut denizi yaylanın hemen altında",
+     "en": "Çağrankaya plateau — a sea of cloud just below the highland",
+     "cr": "Foto · Photo: Askorozlu · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Hayrat ilçesinde, Trabzon’un doğu yaylalarından; açık bir günde sisin altındaki vadiler ta uzağa kadar görünür",
+     "facte": "In Hayrat, among Trabzon’s eastern highlands — on a clear day the valleys below the mist run all the way to the far horizon"
     },
     {
      "k": "hzfact",
      "d": 30,
-     "big": "≈4",
-     "tr": "Sen bu cümleyi okurken bir saniyede dünyada yaklaşık 4 bebek doğuyor",
-     "en": "In the second it takes to read this, about 4 babies are born around the world",
-     "src": "Yılda yaklaşık 130 milyon doğum · About 130 million births a year",
-     "c1": "#2a1f2a",
-     "c2": "#070507"
+     "big": "Sis",
+     "tr": "Doğu Karadeniz yaylalarında, vadideki soğuk hava sıkışınca sis bir deniz gibi yaylaların altında kalır",
+     "en": "In the eastern Black Sea highlands, when cold air sits in the valleys, the mist lies like a sea below the yaylas",
+     "src": "Bu görüntüye “bulut denizi” denir · This is called a “sea of clouds”",
+     "c1": "#15202c",
+     "c2": "#030508"
     }
    ]
   },
   {
    "id": "h-11-15-19",
-   "name": "Yavaş Şehirler · Slow Towns (Cittaslow)",
+   "name": "Sisli Yaylalar · Misty Highlands",
    "from": "2026-11-15T19:00",
    "until": "2026-11-15T20:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 40,
-     "f": "m/h15-sigacik.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Seferihisar, İzmir",
-     "tr": "Sığacık Kalesi ve limanı — Türkiye’nin ilk “yavaş şehri” Seferihisar’da",
-     "en": "Sığacık castle and harbour — in Seferihisar, Türkiye’s first “slow town”",
-     "cr": "Foto · Photo: BSRF · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Seferihisar 2009’da Cittaslow ağına katıldı; pazarında yerel üreticiler, kale içinde taş evler var",
-     "facte": "Seferihisar joined the Cittaslow network in 2009 — local growers fill its market, and stone houses fill the castle"
+     "d": 42,
+     "f": "m/h15-elevit.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Elevit Yaylası · Çamlıhemşin, Rize",
+     "tr": "Elevit — sisin sarıp sarmaladığı ahşap yayla evleri",
+     "en": "Elevit — wooden highland houses wrapped in mist",
+     "cr": "Foto · Photo: Kadir Kara · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Çamlıhemşin’in yüksek yaylalarından; yazın yaylacılar burada kalır, sis vadiden her an yükselebilir",
+     "facte": "One of Çamlıhemşin’s high plateaus — herders stay here in summer, and the mist can rise from the valley at any moment"
     },
     {
      "k": "hzphoto",
-     "d": 40,
-     "f": "m/h15-halfeti.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Halfeti, Şanlıurfa",
-     "tr": "Halfeti — Fırat’ın kıyısında, bir kısmı suların altında kalan kasaba",
-     "en": "Halfeti — a town on the Euphrates, partly beneath the water",
-     "cr": "Foto · Photo: Mtbey · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Baraj gölü eski mahallelerin bir bölümünü kapladı; tekne gezileri ve yalnızca burada yetişen kara gülüyle ünlü",
-     "facte": "A dam lake covered part of the old quarter — it is known for boat trips and the black rose that grows only here",
-     "fit": "contain"
+     "d": 42,
+     "f": "m/h15-cagfire.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Aşağı Çağrankaya · Hayrat, Trabzon",
+     "tr": "Yayla çiçeklerinin ardından, vadiyi dolduran bir sis denizi",
+     "en": "Beyond the highland flowers, a sea of mist filling the valley",
+     "cr": "Foto · Photo: Ahmet Gökhan Kara · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Öndeki mor çiçekler yakıotu; yaz sonuna doğru Karadeniz yaylalarının kenarlarında açar",
+     "facte": "The purple flowers in front are fireweed — they bloom along the edges of Black Sea yaylas towards the end of summer"
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Kanaat, tükenmez|bir hazinedir",
+     "en": "Contentment is a treasure that never runs out",
+     "pal": "clay"
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h15-tarakli.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Taraklı, Sakarya",
-     "tr": "Taraklı’nın ahşap konakları",
-     "en": "The wooden mansions of Taraklı",
-     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
-     "fact": "Bu küçük kasaba da bir “yavaş şehir”; eski evleri ve tahta kaşık ustalığıyla tanınır",
-     "facte": "This small town is a “slow town” too — known for its old houses and its wooden spoon makers"
+     "d": 42,
+     "f": "m/h15-elevitpine.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Elevit Yaylası · Çamlıhemşin",
+     "tr": "Sisin içinden çıkan ladinler",
+     "en": "Spruce trees stepping out of the mist",
+     "cr": "Foto · Photo: Kadir Kara · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaylanın yamaçları ladin ve çam ormanıyla kaplıdır; sis evlerin hemen üstüne kadar iner",
+     "facte": "The slopes are clothed in spruce and pine — the mist comes down to just above the houses"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-elevitmist.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Elevit Yaylası · Çamlıhemşin",
+     "tr": "Sisin içinde tek başına duran bir yayla evi",
+     "en": "A single highland house standing in the mist",
+     "cr": "Foto · Photo: Merve Çelik · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yağmurlu bir günde yayla sessizleşir; yalnızca çayır ve bulut kalır",
+     "facte": "On a rainy day the yayla grows quiet — only meadow and cloud are left"
     },
     {
      "k": "hzfact",
      "d": 30,
-     "big": "1999",
-     "tr": "Cittaslow (“yavaş şehir”) hareketi 1999’da İtalya’da doğdu: acele etmeyen, yerelini koruyan küçük kasabalar",
-     "en": "The Cittaslow (“slow town”) movement began in Italy in 1999 — small towns that refuse to rush and protect what is local",
-     "src": "Üye olmak için nüfusun 50.000’in altında olması gerekir · Members must have fewer than 50,000 people",
-     "c1": "#22301f",
-     "c2": "#050805"
-    },
-    {
-     "k": "hzphoto",
-     "d": 38,
-     "f": "m/h15-goynuk.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Göynük, Bolu",
-     "tr": "Göynük yakınlarında Çubuk Gölü — Göynük de bir “yavaş şehir”",
-     "en": "Çubuk Lake near Göynük — Göynük is a “slow town” too",
-     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
-     "fact": "Ormanla çevrili bu göl, piknik ve sakin yürüyüşler için bölgenin sevilen durağı",
-     "facte": "Ringed by forest, the lake is the area’s favourite stop for picnics and quiet walks"
-    },
-    {
-     "k": "hzsteps",
-     "d": 48,
-     "lb": "Villa Fikri · Villa Idea",
-     "q": "Villada “yavaş bir pazar”: üç küçük kural",
-     "e": "A “slow Sunday” at the villa — three small rules",
-     "c1": "#2a2418",
-     "c2": "#080604",
-     "gap": 7,
-     "steps": [
-      [
-       "Telefonlar bir saatliğine kapının yanındaki sepete",
-       "Phones go into a basket by the door for one hour",
-       "📵"
-      ],
-      [
-       "Sofraya yalnızca yakından gelenler: köy peyniri, mısır ekmeği, bahçeden ne varsa",
-       "Only local food on the table — village cheese, corn bread, whatever the garden gives",
-       "🧺"
-      ],
-      [
-       "Gün batımında acelesiz bir yürüyüş, dönüşte çay",
-       "An unhurried walk at sunset, tea when you get back",
-       "☕"
-      ]
-     ],
-     "fin": "Butik otellerin sırrı da bu: misafire daha çok şey değil, daha çok zaman sunmak",
-     "fine": "It is the secret of boutique hotels too — not offering guests more things, but more time"
+     "big": "Yayla",
+     "tr": "Karadeniz’de “yayla”, yazın hayvanlarla çıkılan yüksek, serin çayır demektir",
+     "en": "In the Black Sea, a “yayla” is a high, cool meadow that people go up to in summer with their animals",
+     "src": "Kışın evler kapanır; baharda yol yeniden açılır · In winter the houses are shut; in spring the road opens again",
+     "c1": "#1a2420",
+     "c2": "#040605"
     }
    ]
   },
   {
    "id": "h-11-15-20",
-   "name": "Galeri: Mavi Saat · Gallery: The Blue Hour",
+   "name": "Galeri: Sakin Fırçalar · Gallery: Quiet Brushes",
    "from": "2026-11-15T20:00",
    "until": "2026-11-15T21:00",
    "items": [
     {
      "k": "hzphoto",
      "d": 44,
-     "f": "m/h15-kroyer.jpg",
+     "f": "m/h15-aivazovsky.jpg",
      "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Skagen’in Güney Kumsalında Yaz Akşamı — Peder Severin Krøyer, 1893",
-     "en": "Summer Evening on Skagen’s Southern Beach — Peder Severin Krøyer, 1893",
-     "cr": "Eser · Artwork: Peder Severin Krøyer · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Danimarka’nın en kuzey ucunda deniz ve gökyüzü, gün batımından sonra aynı maviye bürünür; Skagen ressamları bu saati çok severdi",
-     "facte": "At Denmark’s northern tip, sea and sky turn the same blue after sunset — the Skagen painters loved this hour",
+     "tr": "Sakin Deniz — Ivan Aivazovsky, 1887",
+     "en": "Calm Sea — Ivan Aivazovsky, 1887",
+     "cr": "Eser · Artwork: Ivan Aivazovsky · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Aivazovsky Karadeniz kıyısında, Kefe’de doğdu; denizi hayatı boyunca yüzlerce tablosunda resmetti",
+     "facte": "Aivazovsky was born in Feodosia (Kefe) on the Black Sea — he painted the sea in hundreds of pictures over his lifetime",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-corot.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Ville-d’Avray Göleti — Jean-Baptiste-Camille Corot",
+     "en": "The Pond at Ville-d’Avray — Jean-Baptiste-Camille Corot",
+     "cr": "Eser · Artwork: Jean-Baptiste-Camille Corot · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Corot bu göletlerin kıyısında yaşadı; suları ve ağaçları defalarca, hep yumuşak bir ışıkla çizdi",
+     "facte": "Corot lived beside these ponds and painted their water and trees again and again, always in a soft light",
      "fit": "contain"
     },
     {
      "k": "hzquote",
-     "d": 44,
-     "tr": "Lambalar farklıdır,|ama ışık aynıdır",
-     "en": "The lamps are different, but the light is the same",
-     "pal": "night"
+     "d": 46,
+     "tr": "Yaratılanı hoş gör,|Yaradan’dan ötürü",
+     "en": "Be kind to all that is created, for the sake of the Creator",
+     "pal": "ink"
     },
     {
      "k": "hzphoto",
      "d": 44,
-     "f": "m/h15-whistler.jpg",
+     "f": "m/h15-sisley.jpg",
      "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Nokturn: Mavi ve Gümüş, Chelsea — James McNeill Whistler, 1871",
-     "en": "Nocturne: Blue and Silver – Chelsea — James McNeill Whistler, 1871",
-     "cr": "Eser · Artwork: James McNeill Whistler · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Whistler gece resimlerine müzik gibi “nokturn” adını verdi; bu, serinin ilklerinden",
-     "facte": "Whistler named his night paintings “nocturnes”, like music — this is one of the first",
+     "tr": "Sis, Voisins — Alfred Sisley, 1874",
+     "en": "Fog, Voisins — Alfred Sisley, 1874",
+     "cr": "Eser · Artwork: Alfred Sisley · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Sisley bu bahçeyi neredeyse tek bir renkle, mavimsi bir gümüşle boyadı; figür sisin içinde kayboluyor",
+     "facte": "Sisley painted this garden in almost a single colour — a bluish silver — and the figure disappears into the fog",
      "fit": "contain"
     },
     {
      "k": "hzphoto",
      "d": 44,
-     "f": "m/h15-grimshaw.jpg",
+     "f": "m/h15-levitan.jpg",
      "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Ay Işığında Liverpool Rıhtımı — John Atkinson Grimshaw, 1887",
-     "en": "Liverpool Quay by Moonlight — John Atkinson Grimshaw, 1887",
-     "cr": "Eser · Artwork: John Atkinson Grimshaw · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Islak kaldırımda parlayan dükkân ışıkları: Grimshaw ay ışığının ressamı olarak anılır",
-     "facte": "Shop lights glowing on wet stone — Grimshaw is remembered as the painter of moonlight",
+     "tr": "Alacakaranlık — İsaak Levitan, 1899",
+     "en": "Twilight — Isaac Levitan, 1899",
+     "cr": "Eser · Artwork: Isaac Levitan · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Levitan Rusya’nın sakin akşamlarını çok severdi; bu tabloda ay, bir samanlık ve bir çit yeter",
+     "facte": "Levitan loved Russia’s quiet evenings — here a moon, a barn and a fence are enough",
      "fit": "contain"
     },
     {
      "k": "hzphoto",
      "d": 44,
-     "f": "m/h15-kuindzhi.jpg",
+     "f": "m/h15-sekerahmet.jpg",
      "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Dinyeper Üzerinde Ay Işığı — Arhip Kuinci, 1880",
-     "en": "Moonlit Night on the Dnieper — Arkhip Kuindzhi, 1880",
-     "cr": "Eser · Artwork: Arkhip Kuindzhi · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Tablo karanlık bir odada tek başına sergilendi; ay o kadar parlak görünüyordu ki izleyiciler arkasında lamba var mı diye baktı",
-     "facte": "It was shown alone in a darkened room — the moon looked so bright that visitors checked behind the canvas for a lamp",
+     "tr": "Ankara Manzarası — Şeker Ahmed Paşa",
+     "en": "Landscape of Ankara — Şeker Ahmed Paşa",
+     "cr": "Eser · Artwork: Şeker Ahmed Paşa · kamu malı · public domain; Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Şeker Ahmed Paşa (1841–1907), Paris’te yetişmiş ilk Osmanlı manzara ressamlarındandır",
+     "facte": "Şeker Ahmed Paşa (1841–1907) was among the first Ottoman landscape painters trained in Paris",
      "fit": "contain"
-    },
-    {
-     "k": "hzfact",
-     "d": 30,
-     "big": "4°–6°",
-     "tr": "Mavi saat, Güneş ufkun yaklaşık 4–6 derece altındayken yaşanır: kızıllar kaybolur, gökyüzünü derin bir mavi kaplar",
-     "en": "The blue hour comes when the Sun is about 4–6° below the horizon — the reds fade and a deep blue fills the sky",
-     "src": "Fotoğrafçıların en sevdiği saat · Photographers’ favourite hour",
-     "c1": "#131c32",
-     "c2": "#03050b"
     }
    ]
   },
   {
    "id": "h-11-15-21",
-   "name": "Pazar Akşamı Meydan Okumaları · Sunday-Night Challenges",
+   "name": "Ayna Gibi · Like a Mirror",
    "from": "2026-11-15T21:00",
    "until": "2026-11-15T22:00",
    "items": [
     {
-     "k": "hzfraser",
-     "d": 52
-    },
-    {
-     "k": "hzsteps",
-     "d": 46,
-     "lb": "Küçük Meydan Okuma · Little Challenge",
-     "q": "Üç mini görev — hemen şimdi, oturduğun yerden",
-     "e": "Three mini tasks — right now, from where you sit",
-     "c1": "#1c2434",
-     "c2": "#04060a",
-     "gap": 8,
-     "steps": [
-      [
-       "1 dakika: odada mavi olan 5 şey bul",
-       "1 minute: find 5 blue things in the room",
-       "①"
-      ],
-      [
-       "Gözlerini kapat: duyduğun 4 farklı sesi say",
-       "Close your eyes and count 4 different sounds you can hear",
-       "②"
-      ],
-      [
-       "Adını öteki elinle havaya yaz",
-       "Write your name in the air with your other hand",
-       "③"
-      ]
-     ],
-     "fin": "Alışılmadık küçük işler beyni “otomatik pilottan” çıkarır",
-     "fine": "Small unusual tasks switch the brain off autopilot"
-    },
-    {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Sesim var ama ağzım yok;<br>sen ne dersen onu söylerim.<br>Ben neyim?",
-     "qe": "I have a voice but no mouth — I say whatever you say. What am I?",
-     "a": "Yankı!",
-     "ae": "An echo.",
-     "sec": 16,
-     "c1": "#1c2430",
-     "c2": "#04060a"
-    },
-    {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Yüzü var, iki eli var;<br>ama ne gülümser ne alkışlar.<br>Nedir?",
-     "qe": "It has a face and two hands, but never smiles or claps. What is it?",
-     "a": "Saat!",
-     "ae": "A clock.",
-     "sec": 16,
-     "c1": "#2a2420",
-     "c2": "#070605"
-    },
-    {
-     "k": "hzfact",
-     "d": 30,
-     "big": "6.000",
-     "tr": "Bir araştırmaya göre insan zihninde günde 6.000’den fazla yeni düşünce başlıyor",
-     "en": "According to one study, more than 6,000 new thoughts start in the human mind each day",
-     "src": "Queen’s Üniversitesi, Kanada, 2020 · Queen’s University, Canada, 2020",
-     "c1": "#1b2230",
-     "c2": "#05070b"
-    }
-   ]
-  },
-  {
-   "id": "h-11-15-22",
-   "name": "Durgun Sular · Still Waters (sakin · calm)",
-   "from": "2026-11-15T22:00",
-   "until": "2026-11-15T23:00",
-   "items": [
-    {
      "k": "hzphoto",
      "d": 42,
-     "f": "m/h15-abant.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Bolu",
-     "tr": "Abant Gölü — kışın durgun, mavi bir ayna",
-     "en": "Lake Abant — a still blue mirror in winter",
-     "cr": "Foto · Photo: Bora1324 · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Bir heyelanın vadiyi kapatmasıyla oluştu; yaklaşık 1.300 metre yükseklikte, çam ve kayın ormanlarıyla çevrili",
-     "facte": "Formed when a landslide blocked a valley — about 1,300 m up, ringed by pine and beech forest"
+     "f": "m/h15-mcdonald.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · McDonald Gölü · Glacier, Montana",
+     "tr": "Stanton ve Vaught dağları, McDonald Gölü’nde bir ayna gibi",
+     "en": "Mount Stanton and Mount Vaught, a mirror in Lake McDonald",
+     "cr": "Foto · Photo: Glacier National Park Service · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Göl o kadar durgundur ki, dağın her çizgisi suda ikinci kez görünür",
+     "facte": "The lake is so still that every line of the mountain appears a second time in the water"
     },
     {
      "k": "hzquote",
      "d": 46,
-     "tr": "Sessizlik bir okyanustur;|söz ise bir nehir",
-     "en": "Silence is an ocean; speech is a river",
+     "tr": "Sular durulsun;|ayı ve yıldızları kendi içinde görürsün",
+     "en": "Let the waters settle, and you will see the moon and the stars in yourself",
      "pal": "sea"
     },
     {
      "k": "hzphoto",
      "d": 42,
-     "f": "m/h15-matheson.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Yeni Zelanda · New Zealand",
-     "tr": "Matheson Gölü’nde Aoraki (Cook) ve Tasman dağlarının yansıması",
-     "en": "Mount Cook (Aoraki) and Mount Tasman reflected in Lake Matheson",
-     "cr": "Foto · Photo: Pseudopanax (en.wikipedia) · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Ormandan gelen doğal maddeler suyu koyu kahverengiye boyar; bu yüzden göl kusursuz bir ayna gibi yansıtır",
-     "facte": "Natural matter from the forest stains the water dark brown — that is why the lake reflects like a perfect mirror"
+     "f": "m/h15-karagol.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Borçka Karagöl · Artvin",
+     "tr": "Borçka Karagöl — ormanın durgun, yeşil bir aynası",
+     "en": "Borçka Karagöl — a still, green mirror of the forest",
+     "cr": "Foto · Photo: Valen1988 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Artvin’de, kayın ve ladin ormanının içinde; adı, suyun koyu renginden gelir",
+     "facte": "In Artvin, inside a forest of beech and spruce — it is named for the dark colour of the water"
     },
     {
      "k": "hzphoto",
      "d": 42,
-     "f": "m/h15-braies.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Dolomitler, İtalya · Dolomites, Italy",
-     "tr": "Braies Gölü — dağların dibinde yeşil bir su",
-     "en": "Lake Braies — green water at the foot of the mountains",
-     "cr": "Foto · Photo: kallerna · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Yaklaşık 1.500 metrede; sabah erken saatlerde rüzgâr yokken su neredeyse hiç kıpırdamaz",
-     "facte": "At about 1,500 m — early in the morning, with no wind, the water barely moves"
+     "f": "m/h15-bohinj.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bohinj Gölü · Slovenya",
+     "tr": "Kış sabahı Bohinj Gölü — durgun suda dağların yansıması",
+     "en": "Lake Bohinj on a winter morning — the mountains reflected in still water",
+     "cr": "Foto · Photo: Dreamy Pixel · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Slovenya’nın en büyük gölü; rüzgâr yokken su, cam gibi gerilir",
+     "facte": "Slovenia’s largest lake — when there is no wind the water stretches like glass"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-derwent.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Derwent Water · İngiltere",
+     "tr": "Sakin bir akşam: Derwent Gölü’nün durulmuş suyu",
+     "en": "A calm evening: the settled water of Derwent Water",
+     "cr": "Foto · Photo: Philip Jeffrey · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "İngiltere’nin Göl Bölgesi’nde; taşların gölün dibinde bile göründüğü kadar duru",
+     "facte": "In England’s Lake District — so clear you can see the stones on the bed of the lake"
     },
     {
      "k": "hzfact",
      "d": 32,
-     "big": "%20",
-     "tr": "Sibirya’daki Baykal Gölü, dünyadaki donmamış tatlı suyun yaklaşık beşte birini tutar",
-     "en": "Lake Baikal in Siberia holds about a fifth of all the unfrozen fresh water on Earth",
-     "src": "En derin yeri 1.642 metre; dünyanın en derin ve en yaşlı gölü · 1,642 m at its deepest — the world’s deepest and oldest lake",
+     "big": "Ayna",
+     "tr": "Dağ göllerinde “ayna saati” çoğu zaman şafaktan hemen sonradır: rüzgâr henüz uyanmamıştır",
+     "en": "On mountain lakes the “mirror hour” is often just after dawn, before the wind has woken",
+     "src": "Fotoğrafçıların en sevdiği kısa aralık · Photographers’ favourite brief window",
      "c1": "#10202a",
      "c2": "#020507"
     }
    ]
   },
   {
-   "id": "h-11-15-23",
-   "name": "Yakamoz · Sea Sparkle (sakin · calm)",
-   "from": "2026-11-15T23:00",
-   "until": "2026-11-16T02:00",
+   "id": "h-11-15-22",
+   "name": "Yıldızların Altında · Under the Stars",
+   "from": "2026-11-15T22:00",
+   "until": "2026-11-15T23:00",
    "items": [
     {
-     "k": "hzyakamoz",
-     "d": 80
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-starlake.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Glacier Milli Parkı · Montana",
+     "tr": "Yıldızlar ve bir dağın sessiz yansıması",
+     "en": "The stars and the quiet reflection of a mountain",
+     "cr": "Foto · Photo: Jacob W. Frank (NPS) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Su o kadar durgundur ki, gökyüzü gölün içinde ikinci bir gece olur",
+     "facte": "The water is so still that the sky becomes a second night inside the lake"
     },
     {
      "k": "hzquote",
      "d": 46,
-     "tr": "Ay, geceden kaçmadığı için|parlak kalır",
-     "en": "The moon stays bright because it does not run from the night",
+     "tr": "Şükrü bir örtü gibi giy;|hayatının her köşesini besler",
+     "en": "Wear gratitude like a cloak, and it will feed every corner of your life",
      "pal": "night"
     },
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h15-biolum.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · San Diego, ABD · USA",
-     "tr": "Alacakaranlıkta mavi parlayan dalgalar",
-     "en": "Waves glowing blue at dusk",
-     "cr": "Foto · Photo: Saltytog · CC BY 4.0 · Wikimedia Commons",
-     "fact": "Bu ışığı denizdeki tek hücreli canlılar yapar; dalga onları sarstıkça kıyı boyunca mavi bir çizgi yanıp söner",
-     "facte": "Single-celled sea creatures make this light — as the waves jostle them, a blue line flickers along the shore"
+     "d": 44,
+     "f": "m/h15-ogwen.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ogwen Gölü · Galler, İngiltere",
+     "tr": "Ogwen Gölü’nün üstünde Samanyolu",
+     "en": "The Milky Way over Llyn Ogwen",
+     "cr": "Foto · Photo: John Badham · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Küçük bir göl, küçük bir kulübe ve bütün bir gökyüzü",
+     "facte": "A small lake, a small hut, and the whole of the sky"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-madera.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Madera Kanyonu · Arizona",
+     "tr": "Karanlık dağların üstünde uzanan Samanyolu",
+     "en": "The Milky Way stretching above dark mountains",
+     "cr": "Foto · Photo: Burley Packwood · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Işık kirliliği olmayınca gökyüzü, gündüz unuttuğumuz kadar kalabalıktır",
+     "facte": "With no light pollution, the sky is as crowded as we forget it is by day"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Orion",
+     "tr": "Kasım ortasında, akşamları doğu ufkundan yükselen avcı Orion, kış gökyüzünün kapısını açar",
+     "en": "In mid-November the hunter Orion rises in the eastern evening sky — opening the door to the winter heavens",
+     "src": "Kuşağı: üç parlak yıldız, yan yana · His belt: three bright stars, side by side",
+     "c1": "#0e1624",
+     "c2": "#020306"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-23",
+   "name": "Gönül Rahatlığı · A Quiet Heart",
+   "from": "2026-11-15T23:00",
+   "until": "2026-11-16T02:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-cabin.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Yellowstone · Wyoming",
+     "tr": "Yıldızların altında, ışığı yanan küçük bir ev",
+     "en": "A little house with its light on, under the stars",
+     "cr": "Foto · Photo: Yellowstone National Park Service · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ormanın sessizliğinde tek bir pencere yeter",
+     "facte": "In the quiet of the forest, a single window is enough"
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Bir fincan kahvenin|kırk yıl hatırı vardır",
+     "en": "A cup of coffee is remembered for forty years",
+     "pal": "clay"
     },
     {
      "k": "hzsteps",
      "d": 50,
      "lb": "Sakin Düşünce · Calm Thought",
-     "q": "Uyumadan önce: dört sakin resim",
-     "e": "Before sleep: four calm pictures",
+     "q": "Uyumadan önce: dört sakin düşünce",
+     "e": "Before sleep: four quiet thoughts",
      "c1": "#0e1624",
      "c2": "#020306",
      "gap": 7.5,
      "steps": [
       [
-       "Uzakta yanıp sönen bir deniz feneri",
-       "A lighthouse blinking far away",
-       "✧"
+       "Bugün birine iyi gelen bir ânın",
+       "A moment today that did someone good",
+       "♡"
       ],
       [
-       "Kıyıya usulca vuran mavi dalgalar",
-       "Blue waves lapping softly at the shore",
+       "Buharı tüten duru bir çay",
+       "A clear glass of tea, still steaming",
        ""
       ],
       [
-       "Ilık bir battaniye ve sessiz bir oda",
-       "A warm blanket and a quiet room",
+       "Dışarıda, görünmeden duran deniz",
+       "The sea outside, there even when you cannot see it",
        ""
       ],
       [
-       "Sabaha karşı ötecek ilk kuş",
-       "The first bird that will sing before dawn",
+       "Yarın terasa vuracak ilk ışık",
+       "The first light that will touch the terrace tomorrow",
        "☾"
       ]
      ],
-     "fin": "İyi geceler — yarın yeni bir hafta",
-     "fine": "Good night — tomorrow a new week begins",
+     "fin": "İyi geceler — sakin uykular",
+     "fine": "Good night — sleep gently",
      "bg": "stars"
     },
     {
      "k": "hzfact",
      "d": 32,
-     "big": "Noctiluca",
-     "tr": "Yakamozun en bilinen kaynağı Noctiluca adlı tek hücreli bir canlı; adı Latince “geceyi aydınlatan” demek",
-     "en": "The best-known source of sea sparkle is a single-celled creature called Noctiluca — Latin for “night light”",
-     "src": "Dokunulunca bir anlık mavi ışık verir · It gives a brief blue flash when disturbed",
+     "big": "Yunus",
+     "tr": "Yunus Emre, 13. ve 14. yüzyılda Anadolu’da yaşadı; şiirleri yedi yüzyıldır gönülden gönüle dolaşır",
+     "en": "Yunus Emre lived in Anatolia in the 13th and 14th centuries — his poems have travelled from heart to heart for seven hundred years",
+     "src": "“Benim işim sevi için” · “My work is love”",
      "c1": "#0c1a26",
      "c2": "#020406"
     }
