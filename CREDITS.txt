@@ -372,3 +372,49 @@ m/h14-kizilirmak.jpg — Kızılırmak River from Kapıkaya Köyü.jpg — sami 
 m/h14-milkyway2.jpg — 018 Human looking at the stars during Perseids with the Milky Way in the background Photo by Giles Laurent.jpg — Giles Laurent — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:018_Human_looking_at_the_stars_during_Perseids_with_the_Milky_Way_in_the_background_Photo_by_Giles_Laurent.jpg
 m/h14-fjordstars.jpg — Stars and Milky Way over Åbyfjorden 8.jpg — W.carter — CC0 — https://commons.wikimedia.org/wiki/File:Stars_and_Milky_Way_over_%C3%85byfjorden_8.jpg
 m/h14-startrails.jpg — 2017-04 Circumpolar trails sunset at La Hague lighthouse.jpg — Antoine Lamielle — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2017-04_Circumpolar_trails_sunset_at_La_Hague_lighthouse.jpg
+
+## 2026-11-15 (days/2026-11-15.json, m/h15-*)
+m/h15-abant.jpg — Abant Gölü - 2024 Ocak.jpg — Bora1324 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Abant_G%C3%B6l%C3%BC_-_2024_Ocak.jpg
+m/h15-acequia.jpg — Patio Acequia Generalife 2012.jpg — Jebulon — CC0 — https://commons.wikimedia.org/wiki/File:Patio_Acequia_Generalife_2012.jpg
+m/h15-aloe.jpg — Aloe polyphylla spiral aloe Kew Gardens.jpg — LavaLampBamboo — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Aloe_polyphylla_spiral_aloe_Kew_Gardens.jpg
+m/h15-biolum.jpg — Bioluminescence in San Diego.jpg — Saltytog — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Bioluminescence_in_San_Diego.jpg
+m/h15-boating.jpg — Pierre-Auguste Renoir - Luncheon of the Boating Party - Google Art Project.jpg — Pierre-Auguste Renoir — Public domain — https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg
+m/h15-braies.jpg — Lago di Braies South Tyrol 3.jpg — kallerna — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lago_di_Braies_South_Tyrol_3.jpg
+m/h15-breezing.jpg — Winslow Homer - Breezing Up (A Fair Wind).jpg — Winslow Homer — Public domain — https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_Breezing_Up_(A_Fair_Wind).jpg
+m/h15-bubble2.jpg — Thin Film Interference Soap Bubble.jpg — Pksois23 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Thin_Film_Interference_Soap_Bubble.jpg
+m/h15-bzreaction.jpg — Belousov Zhabotinsky reaction (3572095252).jpg — Stephen Morris from Toronto, Canada — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Belousov_Zhabotinsky_reaction_(3572095252).jpg
+m/h15-cassatt.jpg — Mary Cassatt - The Boating Party - Google Art Project.jpg — Mary Cassatt — Public domain — https://commons.wikimedia.org/wiki/File:Mary_Cassatt_-_The_Boating_Party_-_Google_Art_Project.jpg
+m/h15-cheetah.jpg — Namibia Otjiwarongo Cheetah Conservation Fund Cheetah Jumping While Running.jpg — Alexander Klink — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Namibia_Otjiwarongo_Cheetah_Conservation_Fund_Cheetah_Jumping_While_Running.jpg
+m/h15-cuttlefish.jpg — Camouflage.jpg — Raul654 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Camouflage.jpg
+m/h15-dropcrown.jpg — Crown of Milk ^photog (EXPLORED^) - Flickr - mescon.jpg — mescon — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Crown_of_Milk_%5Ephotog_(EXPLORED%5E)_-_Flickr_-_mescon.jpg
+m/h15-dunes.jpg — Dunes-Merzouga-Erg Chebi.JPG — Nomadz — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Dunes-Merzouga-Erg_Chebi.JPG
+m/h15-elephants.jpg — Savanna Elephants (Loxodonta africana) family ... (52844381572).jpg — Bernard DUPONT from FRANCE — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Savanna_Elephants_(Loxodonta_africana)_family_..._(52844381572).jpg
+m/h15-fallstreak.jpg — HolePunchCloud.jpg — H. Raab (User:Vesta) — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:HolePunchCloud.jpg
+m/h15-ferrofluid.jpg — Ferrofluid spikes (magnet placed underneath the fluid).jpg — ChemGeeks — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Ferrofluid_spikes_(magnet_placed_underneath_the_fluid).jpg
+m/h15-fin.jpg — Jardín de Fin, Kashan, Irán, 2016-09-19, DD 17.jpg — Diego Delso — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_de_Fin,_Kashan,_Ir%C3%A1n,_2016-09-19,_DD_17.jpg
+m/h15-goynuk.jpg — Çubuk Gölü Panorama, Göynük, Bolu 2014-1.jpg — Hamdigumus — CC0 — https://commons.wikimedia.org/wiki/File:%C3%87ubuk_G%C3%B6l%C3%BC_Panorama,_G%C3%B6yn%C3%BCk,_Bolu_2014-1.jpg
+m/h15-grandejatte.jpg — A Sunday on La Grande Jatte, Georges Seurat, 1884.jpg — Georges Seurat — Public domain — https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg
+m/h15-grimshaw.jpg — John Atkinson Grimshaw (1836-1893) - Liverpool Quay by Moonlight - T00902 - Tate.jpg — John Atkinson Grimshaw — Public domain — https://commons.wikimedia.org/wiki/File:John_Atkinson_Grimshaw_(1836-1893)_-_Liverpool_Quay_by_Moonlight_-_T00902_-_Tate.jpg
+m/h15-halfeti.jpg — Halfeti-Fırat Nehri1.jpg — Mtbey — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Halfeti-F%C4%B1rat_Nehri1.jpg
+m/h15-hummingbird.jpg — Hummingbird hovering in flight.jpg — Jonathan Rodgers — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Hummingbird_hovering_in_flight.jpg
+m/h15-kelvinhh.jpg — Kelvin-Helmholtz instability clouds.JPG — Brocken Inaglory — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Kelvin-Helmholtz_instability_clouds.JPG
+m/h15-kroyer.jpg — P.S. Krøyer - Summer evening on Skagen's Beach. Anna Ancher and Marie Krøyer walking together. - Google Art Project.jpg — Peder Severin Krøyer — Public domain — https://commons.wikimedia.org/wiki/File:P.S._Kr%C3%B8yer_-_Summer_evening_on_Skagen%27s_Beach._Anna_Ancher_and_Marie_Kr%C3%B8yer_walking_together._-_Google_Art_Project.jpg
+m/h15-kuindzhi.jpg — Kuindzhi Moonlit night on the Dnieper 1880 grm x2.jpg — Arkhip Kuindzhi — Public domain — https://commons.wikimedia.org/wiki/File:Kuindzhi_Moonlit_night_on_the_Dnieper_1880_grm_x2.jpg
+m/h15-kuzalan.jpg — Waterfall Kuzalan - Kuzalan Şelalesi, Giresun 2017-07-07 01-4.jpg — Zeynel Cebeci — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Waterfall_Kuzalan_-_Kuzalan_%C5%9Eelalesi,_Giresun_2017-07-07_01-4.jpg
+m/h15-lenticular.jpg — Lenticular clouds over Titlis, Switzerland.jpg — Jan Remund — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Lenticular_clouds_over_Titlis,_Switzerland.jpg
+m/h15-lyrebird.jpg — Lyrebird, Dandenongs, Victoria, 1935 slnsw.jpg — Unknown authorUnknown author — Public domain — https://commons.wikimedia.org/wiki/File:Lyrebird,_Dandenongs,_Victoria,_1935_slnsw.jpg
+m/h15-macahel.jpg — The site of the Camili (Macahel) 12.jpg — Leplebi — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:The_site_of_the_Camili_(Macahel)_12.jpg
+m/h15-macaque.jpg — Japanese Macaque, Nagano, Japan..JPG — Yblieb — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Japanese_Macaque,_Nagano,_Japan..JPG
+m/h15-mammatus.jpg — Mammatus-clouds-Tulsa-1973.png — NOAA — Public domain — https://commons.wikimedia.org/wiki/File:Mammatus-clouds-Tulsa-1973.png
+m/h15-matheson.jpg — Lake Matheson reflection of Mount Tasman and Aoraki Mount Cook.jpg — Pseudopanax at English Wikipedia — Public domain — https://commons.wikimedia.org/wiki/File:Lake_Matheson_reflection_of_Mount_Tasman_and_Aoraki_Mount_Cook.jpg
+m/h15-morpho.jpg — Blue Morpho butterfly (Morpho peleides) wings open.jpg — Alias 0591 from the Netherlands — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Blue_Morpho_butterfly_(Morpho_peleides)_wings_open.jpg
+m/h15-myrtles.jpg — Patio de los Arrayanes detail Alhambra Granada Spain.jpg — Jebulon — CC0 — https://commons.wikimedia.org/wiki/File:Patio_de_los_Arrayanes_detail_Alhambra_Granada_Spain.jpg
+m/h15-prairiedog.jpg — Black-Tailed Prairie Dog.jpg — Joe Ravi — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Black-Tailed_Prairie_Dog.jpg
+m/h15-rainyday.jpg — Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg — Gustave Caillebotte — Public domain — https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg
+m/h15-selimiye.jpg — Interior of dome, Selimiye Mosque, Edirne - Tarik Kaan Muslu.jpg — Tarikkaanmuslu — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Interior_of_dome,_Selimiye_Mosque,_Edirne_-_Tarik_Kaan_Muslu.jpg
+m/h15-sigacik.jpg — Sığacık Castle and Harbour 08.jpg — BSRF — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:S%C4%B1%C4%9Fac%C4%B1k_Castle_and_Harbour_08.jpg
+m/h15-tarakli.jpg — Taraklı Eski Evleri, Sakarya 2014-13.jpg — Hamdigumus — CC0 — https://commons.wikimedia.org/wiki/File:Tarakl%C4%B1_Eski_Evleri,_Sakarya_2014-13.jpg
+m/h15-tsukubai2.jpg — Ryōan-ji tsukubai.jpg — Gmihail at Serbian Wikipedia — CC BY-SA 3.0 rs — https://commons.wikimedia.org/wiki/File:Ry%C5%8Dan-ji_tsukubai.jpg
+m/h15-whistler.jpg — James Abbott McNeill Whistler - Nocturne- Blue and Silver - Chelsea - Google Art Project.jpg — James McNeill Whistler — Public domain — https://commons.wikimedia.org/wiki/File:James_Abbott_McNeill_Whistler_-_Nocturne-_Blue_and_Silver_-_Chelsea_-_Google_Art_Project.jpg
+m/h15-wolf.jpg — Canis lupus arctos howling.jpg — plenty.r. — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Canis_lupus_arctos_howling.jpg
+m/h15-yayla.jpg — Kadırga Yaylası... - panoramio.jpg — Sinan Şahin — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Kad%C4%B1rga_Yaylas%C4%B1..._-_panoramio.jpg

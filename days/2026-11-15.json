@@ -1,0 +1,1244 @@
+{
+ "date": "2026-11-15",
+ "rev": 64,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-15.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-15-09",
+   "name": "Pazar Sabahı · Sunday Morning",
+   "from": "2026-11-15T09:00",
+   "until": "2026-11-15T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h15-yayla.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kadırga Yaylası · Trabzon–Giresun",
+     "tr": "Kadırga Yaylası — bulutların hemen altında bir pazar sabahı",
+     "en": "Kadırga plateau — a Sunday morning just below the clouds",
+     "cr": "Foto · Photo: Sinan Şahin · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Trabzon ile Giresun’un sınırında; her temmuz iki ilin yaylacıları burada büyük bir şenlikte buluşur",
+     "facte": "On the Trabzon–Giresun border — every July highlanders from both provinces meet here for a big festival"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Ruhunu heyecanlandıran|her çağrıya cevap ver",
+     "en": "Respond to every call that excites your spirit",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h15-kuzalan.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Dereli, Giresun",
+     "tr": "Kuzalan Şelalesi — ormanın içinde basamak basamak inen su",
+     "en": "Kuzalan Waterfall — water stepping down through the forest",
+     "cr": "Foto · Photo: Zeynel Cebeci · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Dereli’de, ladin ve kayın ağaçlarının arasında; yazın serin bir mola, sonbaharda renk cümbüşü",
+     "facte": "In Dereli, among spruce and beech — a cool stop in summer, a riot of colour in autumn",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Pazar",
+     "tr": "Pazar gününün adı, o gün kurulan pazardan gelir",
+     "en": "Sunday is called “Pazar” in Turkish after the market held that day",
+     "src": "Kelime Farsça “bâzâr”dan; eskiden “bazar günü” denirdi · From the Persian “bāzār” — it used to be called “bazar günü”, market day",
+     "c1": "#2a2218",
+     "c2": "#080604"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h15-macahel.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Camili, Borçka, Artvin",
+     "tr": "Macahel (Camili) — Türkiye’nin ilk UNESCO biyosfer rezervi",
+     "en": "Macahel (Camili) — Türkiye’s first UNESCO biosphere reserve",
+     "cr": "Foto · Photo: Leplebi · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "2005’te biyosfer rezervi oldu; ormanları el değmemiş, arıları saf Kafkas arısı olarak korunuyor",
+     "facte": "Named a biosphere reserve in 2005 — its forests are untouched and its bees are protected as pure Caucasian honeybees"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Her ayda en az<br>kaç Pazar günü vardır?",
+     "qe": "What is the smallest number of Sundays any month can have?",
+     "a": "4! En kısa ay bile 28 gün, yani tam 4 hafta",
+     "ae": "4 — even the shortest month has 28 days: exactly four weeks",
+     "sec": 16,
+     "c1": "#22301f",
+     "c2": "#050805"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-10",
+   "name": "Yaşayan Sanat: Akışkanlar · Living Art: Fluids",
+   "from": "2026-11-15T10:00",
+   "until": "2026-11-15T11:00",
+   "items": [
+    {
+     "k": "hzmeta",
+     "d": 75
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-ferrofluid.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ferroakışkan · Ferrofluid",
+     "tr": "Mıknatısın üstünde diken diken olan bir sıvı: ferroakışkan",
+     "en": "A liquid that turns spiky over a magnet: ferrofluid",
+     "cr": "Foto · Photo: ChemGeeks · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "1963’te NASA’da, roket yakıtını yerçekimsiz ortamda yönlendirmek için icat edildi — lav lambasıyla aynı yıl",
+     "facte": "Invented at NASA in 1963 to steer rocket fuel in zero gravity — the same year as the lava lamp"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-bubble2.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sabun Köpüğü · Soap Bubble",
+     "tr": "Bir sabun köpüğünün yüzeyinde dans eden renkler",
+     "en": "Colours dancing on the skin of a soap bubble",
+     "cr": "Foto · Photo: Pksois23 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Renkler zarın kalınlığından gelir; zar bir saç telinden yüzlerce kat incedir. Patlamadan hemen önce o kadar incelir ki kararır",
+     "facte": "The colours come from the film’s thickness — hundreds of times thinner than a hair. Just before it pops it gets so thin it turns dark"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h15-bzreaction.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kimyasal Saat · Chemical Clock",
+     "tr": "Kendi kendine halkalar çizen bir karışım: Belousov–Zhabotinsky tepkimesi",
+     "en": "A mixture that draws its own rings: the Belousov–Zhabotinsky reaction",
+     "cr": "Foto · Photo: Stephen Morris · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Boris Belousov 1950’lerde keşfettiğinde dergiler “imkânsız” diyerek makalesini reddetti; bugün doğadaki desenleri anlamak için inceleniyor",
+     "facte": "When Boris Belousov found it in the 1950s, journals rejected his paper as “impossible” — today it is studied to understand patterns in nature"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir koşu yarışında<br>ikinciyi geçtin.<br>Kaçıncı oldun?",
+     "qe": "In a race you overtake the runner in second place. What place are you in now?",
+     "a": "İkinci! Birinci olmak için birinciyi geçmen gerekirdi",
+     "ae": "Second — to be first you would have to pass the leader",
+     "sec": 16,
+     "c1": "#2a1f33",
+     "c2": "#07050a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-11",
+   "name": "Galeri: Bir Pazar Öğleden Sonrası · Gallery: A Sunday Afternoon",
+   "from": "2026-11-15T11:00",
+   "until": "2026-11-15T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-grandejatte.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "La Grande Jatte Adası’nda Bir Pazar Öğleden Sonrası — Georges Seurat, 1884–86",
+     "en": "A Sunday on La Grande Jatte — Georges Seurat, 1884–86",
+     "cr": "Eser · Artwork: Georges Seurat · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Seurat bu tabloyu yaklaşık iki yılda, renkleri karıştırmadan yan yana koyduğu küçük noktalarla yaptı; renkleri gözümüz karıştırıyor",
+     "facte": "Seurat spent about two years on it, placing tiny dots of unmixed colour side by side — our eyes do the mixing",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-boating.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Kayıkçıların Öğle Yemeği — Pierre-Auguste Renoir, 1880–81",
+     "en": "Luncheon of the Boating Party — Pierre-Auguste Renoir, 1880–81",
+     "cr": "Eser · Artwork: Pierre-Auguste Renoir · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Seine kıyısında bir terasta Renoir’ın arkadaşları; sağ altta ters sandalyede oturan genç adam ressam Gustave Caillebotte",
+     "facte": "Renoir’s friends on a terrace by the Seine — the young man astride a chair at lower right is the painter Gustave Caillebotte",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-rainyday.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Paris Sokağı, Yağmurlu Gün — Gustave Caillebotte, 1877",
+     "en": "Paris Street; Rainy Day — Gustave Caillebotte, 1877",
+     "cr": "Eser · Artwork: Gustave Caillebotte · kamu malı · public domain · Wikimedia Commons",
+     "fact": "İşte Caillebotte’un kendi tablosu: şemsiyeler, ıslak kaldırım taşları ve yeni yapılmış geniş Paris caddeleri",
+     "facte": "And here is Caillebotte’s own painting — umbrellas, wet cobblestones and the newly built wide streets of Paris",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-breezing.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Rüzgârı Arkaya Almak — Winslow Homer, 1873–76",
+     "en": "Breezing Up (A Fair Wind) — Winslow Homer, 1873–76",
+     "cr": "Eser · Artwork: Winslow Homer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bir baba ve üç çocuk, dolgun bir yelkenle eve dönüyor; Homer’ın en sevilen deniz tablolarından",
+     "facte": "A father and three boys heading home under a full sail — one of Homer’s best-loved sea paintings",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-cassatt.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Kayık Gezisi — Mary Cassatt, 1893–94",
+     "en": "The Boating Party — Mary Cassatt, 1893–94",
+     "cr": "Eser · Artwork: Mary Cassatt · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Cassatt bu sahneyi Fransız Rivierası’nda, Antibes’te geçirdiği bir kışta çizdi",
+     "facte": "Cassatt painted this scene during a winter spent at Antibes on the French Riviera",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Küçük Meydan Okuma · Little Challenge",
+     "q": "Bir tabloya “yavaş bakmayı” dene: 3 dakika, tek tablo",
+     "e": "Try “slow looking”: three minutes, one painting",
+     "c1": "#262019",
+     "c2": "#070605",
+     "gap": 7,
+     "steps": [
+      [
+       "Önce uzaktan bütününe bak: ilk ne dikkatini çekiyor?",
+       "First look at the whole: what catches your eye first?",
+       "①"
+      ],
+      [
+       "Bir kişiyi seç: şu an ne düşünüyor olabilir?",
+       "Pick one person — what might they be thinking right now?",
+       "②"
+      ],
+      [
+       "Işık nereden geliyor? Gölgeler hangi yöne düşüyor?",
+       "Where does the light come from? Which way do the shadows fall?",
+       "③"
+      ],
+      [
+       "Bir rengi seç ve tablonun içinde takip et",
+       "Choose one colour and follow it around the canvas",
+       "④"
+      ]
+     ],
+     "fin": "Müzelerde insanlar bir tabloya ortalama yalnızca 30 saniye kadar bakıyor. Üç dakika, bambaşka bir tablo gösterir",
+     "fine": "In museums people look at a painting for only about 30 seconds on average — three minutes shows you a different picture"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-12",
+   "name": "Simetri · Symmetry",
+   "from": "2026-11-15T12:00",
+   "until": "2026-11-15T13:00",
+   "items": [
+    {
+     "k": "hzkaleido",
+     "d": 72
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h15-selimiye.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Edirne",
+     "tr": "Selimiye Camii’nin kubbesi — içeriden bakınca bir kaleydoskop",
+     "en": "The dome of the Selimiye Mosque — a kaleidoscope seen from below",
+     "cr": "Foto · Photo: Tarikkaanmuslu · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Mimar Sinan 80 yaşını geçmişken bitirdi (1575) ve onu “ustalık eserim” diye anlattı; kubbenin çapı yaklaşık 31 metre",
+     "facte": "Mimar Sinan finished it in his eighties (1575) and called it his masterpiece — the dome is about 31 m across"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-fin.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bağ-ı Fin, Kaşan · Fin Garden, Kashan",
+     "tr": "Bağ-ı Fin köşkünün tavanı — taşa ve sıvaya işlenmiş yıldızlar",
+     "en": "The ceiling of a pavilion in the Fin Garden — stars worked in plaster",
+     "cr": "Foto · Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kaşan’daki bu bahçe, UNESCO listesindeki “İran Bahçesi” örneklerinden biri",
+     "facte": "This garden in Kashan is one of the “Persian Garden” sites on the UNESCO list"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-aloe.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sarmal aloe · Spiral aloe",
+     "tr": "Kendi etrafında kusursuz bir sarmal çizen bitki: sarmal aloe",
+     "en": "A plant that draws a perfect spiral around itself: the spiral aloe",
+     "cr": "Foto · Photo: LavaLampBamboo · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Lesotho dağlarına özgü; yaprakları beş sıra halinde, kimi bitkide saat yönünde, kimisinde tersine döner",
+     "facte": "Native to the mountains of Lesotho — its leaves wind in five rows, clockwise on some plants and anticlockwise on others"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-morpho.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mavi morfo kelebeği · Blue morpho",
+     "tr": "Mavi morfo kelebeği — kanatlar birbirinin aynası",
+     "en": "A blue morpho butterfly — each wing a mirror of the other",
+     "cr": "Foto · Photo: Alias 0591 · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Bu mavide hiç boya yok: kanattaki minicik pullar ışığı kırıp yalnızca maviyi geri yansıtıyor",
+     "facte": "There is no blue pigment here — tiny scales on the wings bend the light and reflect only blue"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Evrendeki her şey senin içinde;|her şeyi kendinden iste",
+     "en": "Everything in the universe is within you — ask all of it from yourself",
+     "pal": "ink"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-13",
+   "name": "Düşünce Deneyleri · Thought Experiments",
+   "from": "2026-11-15T13:00",
+   "until": "2026-11-15T14:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Kum Yığını Paradoksu: tek bir tane neyi değiştirir?",
+     "e": "The heap paradox: what difference does one grain make?",
+     "c1": "#2c2418",
+     "c2": "#080604",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Önünde bir kum yığını var",
+       "In front of you is a heap of sand",
+       "⛰"
+      ],
+      [
+       "Bir tane alıyorsun: hâlâ yığın mı? Elbette",
+       "You take away one grain — still a heap? Of course",
+       ""
+      ],
+      [
+       "Bir tane daha… bir tane daha…",
+       "Another grain… and another…",
+       ""
+      ],
+      [
+       "Sonunda tek bir tane kalıyor: bu yığın değil",
+       "At last one grain is left — that is not a heap",
+       ""
+      ],
+      [
+       "Peki yığın hangi tanede “yığın” olmaktan çıktı?",
+       "So which grain was the one that stopped it being a heap?",
+       "?"
+      ]
+     ],
+     "fin": "Milattan önce 4. yüzyılda Miletli Eubulides sordu; “uzun”, “yaşlı”, “sıcak” gibi sınırı belirsiz bütün kelimeler aynı soruyu taşır",
+     "fine": "Eubulides of Miletus asked it in the 4th century BC — every word with a fuzzy edge, like “tall”, “old” or “warm”, carries the same puzzle"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-dunes.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Erg Chebbi, Fas · Morocco",
+     "tr": "Sahra’nın kenarında kum denizi: Erg Chebbi",
+     "en": "A sea of sand at the edge of the Sahara: Erg Chebbi",
+     "cr": "Foto · Photo: Nomadz · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Rüzgârın yığdığı kum tepeleri yer yer 150 metreye ulaşıyor — milyarlarca tanenin her biri yığının bir parçası",
+     "facte": "Wind-built dunes here reach up to about 150 m — billions of grains, each one part of the heap"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Sonsuz Maymun: rastgele tuşlara basan bir maymun Hamlet’i yazabilir mi?",
+     "e": "The infinite monkey: could a monkey hitting random keys type Hamlet?",
+     "c1": "#1c2430",
+     "c2": "#04060a",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Bir maymun, bir daktilo ve sonsuz zaman",
+       "One monkey, one typewriter and endless time",
+       "🐒"
+      ],
+      [
+       "Her tuşa rastgele basıyor",
+       "It hits every key at random",
+       ""
+      ],
+      [
+       "Sadece “HAMLET” kelimesi için şans: 309 milyonda 1",
+       "The chance of just the word “HAMLET”: 1 in 309 million",
+       ""
+      ],
+      [
+       "Bütün oyun için gereken süre, evrenin yaşından trilyonlarca kat uzun",
+       "For the whole play it would take trillions of times the age of the universe",
+       ""
+      ],
+      [
+       "Ama zaman gerçekten sonsuzsa… bir gün mutlaka yazar",
+       "But if time is truly endless… one day it will",
+       "∞"
+      ]
+     ],
+     "fin": "Fransız matematikçi Émile Borel 1913’te anlattı: “olası” ile “mümkün” arasındaki uçurumu gösterir",
+     "fine": "French mathematician Émile Borel described it in 1913 — it shows the gulf between “likely” and “possible”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-macaque.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Nagano, Japonya · Japan",
+     "tr": "Kışın sıcak su kaynağında ısınan Japon makakları",
+     "en": "Japanese macaques warming up in a hot spring in winter",
+     "cr": "Foto · Photo: Yblieb · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Nagano’daki bu maymunlar karlı kış günlerinde sıcak suya girer; dünyanın en kuzeyde yaşayan maymunları onlar",
+     "facte": "These monkeys in Nagano slip into hot water on snowy days — they are the most northerly living monkeys on Earth"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Buridan’ın Eşeği: iki eşit saman yığınının tam ortasında aç bir eşek…",
+     "e": "Buridan’s donkey: a hungry donkey exactly halfway between two identical haystacks…",
+     "c1": "#22301f",
+     "c2": "#050805",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Sol yığın da sağ yığın da aynı büyüklükte",
+       "The left haystack and the right are the same size",
+       ""
+      ],
+      [
+       "İkisi de aynı uzaklıkta, aynı güzel kokuyor",
+       "Same distance, same lovely smell",
+       ""
+      ],
+      [
+       "Eşeğin birini seçmesi için hiçbir sebep yok",
+       "The donkey has no reason at all to choose one",
+       ""
+      ],
+      [
+       "Karar veremiyor… ve aç kalıyor",
+       "It cannot decide… and goes hungry",
+       "🫏"
+      ]
+     ],
+     "fin": "Ders: Bazen hangisini seçtiğin değil, bir seçim yapman önemlidir — pazar günü ne yapacağına karar vermek gibi",
+     "fine": "The lesson: sometimes what matters is not which one you pick, but that you pick — like deciding what to do on a Sunday"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir odanın dört köşesinde<br>birer kedi oturuyor.<br>Her kedinin karşısında 3 kedi var.<br>Odada kaç kedi var?",
+     "qe": "A cat sits in each of the four corners of a room. Each cat sees three cats facing it. How many cats are in the room?",
+     "a": "4 kedi!",
+     "ae": "Just 4 cats.",
+     "sec": 18,
+     "c1": "#2a2420",
+     "c2": "#070605"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-14",
+   "name": "Villa Fikirleri: Suyun Sesi · Villa Ideas: The Sound of Water",
+   "from": "2026-11-15T14:00",
+   "until": "2026-11-15T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-myrtles.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Elhamra, Granada)",
+     "tr": "Mersin Avlusu: uzun, durgun bir havuz bütün cepheyi ikiye katlıyor",
+     "en": "The Court of the Myrtles: one long, still pool doubles the whole facade",
+     "cr": "Foto · Photo: Jebulon · CC0 · Wikimedia Commons",
+     "fact": "Villa için ders: dar ve sığ bir yansıma havuzu bile, akşam ışıklarıyla evi suyun içinde ikinci kez gösterir",
+     "facte": "Lesson for the villa: even a narrow, shallow reflecting pool shows the house a second time in the water at night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-acequia.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Generalife, Granada)",
+     "tr": "Generalife’in Su Arkı Avlusu: yolun iki yanından kemer çizen ince su fıskiyeleri",
+     "en": "The Generalife’s Court of the Water Channel: thin jets arching from both sides of a path",
+     "cr": "Foto · Photo: Jebulon · CC0 · Wikimedia Commons",
+     "fact": "Fıskiyeler alçak ve ince olunca su sıçramaz, sadece hafif bir şırıltı duyulur — oturma köşesinin yanına çok yakışır",
+     "facte": "Low, fine jets don’t splash — you hear only a soft murmur, perfect beside a seating corner",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-tsukubai2.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Ryōan-ji, Kyoto)",
+     "tr": "Taş bir su teknesi (tsukubai): bambu oluktan damlayan su",
+     "en": "A stone water basin (tsukubai) fed by a bamboo spout",
+     "cr": "Foto · Photo: Gmihail (sr.wikipedia) · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Ortadaki kare boşluğun çevresindeki dört işaret “Ben yalnızca yetinmeyi bilirim” diye okunur — girişe yakışacak sakin bir karşılama",
+     "facte": "The four signs around the square hole read “I only know contentment” — a calm welcome for an entrance",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Villa için küçük bir su köşesi: nereye, nasıl?",
+     "e": "A small water corner for the villa — where and how?",
+     "c1": "#14262a",
+     "c2": "#030708",
+     "gap": 7,
+     "steps": [
+      [
+       "Yer: oturma köşesine 3–5 metre — ses duyulsun ama sohbeti bastırmasın",
+       "Place: 3–5 m from the seating, so you hear it without drowning the conversation",
+       "📍"
+      ],
+      [
+       "Ses: şelale gürlemesi değil, ince bir şırıltı",
+       "Sound: not a roaring cascade — a gentle trickle",
+       "〰"
+      ],
+      [
+       "Pompa: suyu kendi içinde döndüren küçük bir devridaim pompası yeter",
+       "Pump: a small recirculating pump that reuses the same water is enough",
+       "♻"
+      ],
+      [
+       "Gece: suyu yandan ya da alttan yumuşak, sıcak bir ışıkla aydınlat",
+       "Night: light the water softly and warmly from the side or below",
+       "✦"
+      ]
+     ],
+     "fin": "Trabzon kışı için not: soğuk gecelerden önce boruları boşaltıp pompayı içeri almak gerekir",
+     "fine": "A note for Trabzon winters: drain the pipes and bring the pump inside before the frosty nights"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "6 km",
+     "tr": "Elhamra’nın havuzlarına su, yaklaşık 6 km yukarıdaki Darro Nehri’nden, yalnızca eğimle akan bir arkla geliyordu",
+     "en": "The Alhambra’s pools were fed by a channel running about 6 km from the Darro River — powered by nothing but gravity",
+     "src": "Kraliyet Arkı (Acequia Real), 13. yüzyıl · The Royal Channel, 13th century",
+     "c1": "#173032",
+     "c2": "#030809"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-15",
+   "name": "Göz Oyunları · Tricks of the Eye",
+   "from": "2026-11-15T15:00",
+   "until": "2026-11-15T16:00",
+   "items": [
+    {
+     "k": "hzmib",
+     "d": 60
+    },
+    {
+     "k": "hzguess",
+     "d": 38,
+     "f": "m/h15-cuttlefish.jpg",
+     "lb": "Bul Bakalım · Can You Spot It? — Gerçek Fotoğraf · Real Photo · Akvaryum · Aquarium",
+     "q": "Bu fotoğrafta bir hayvan saklanıyor. Bulabilir misin?",
+     "qe": "An animal is hiding in this photo. Can you find it?",
+     "a": "Ortada, kumla aynı desene bürünmüş yavru bir mürekkepbalığı!",
+     "ae": "In the middle — a baby cuttlefish wearing the exact pattern of the sand",
+     "sec": 22,
+     "cr": "Foto · Photo: Raul654 · CC BY-SA 3.0 · Wikimedia Commons",
+     "hint": "İpucu: ortaya yakın bak · Hint: look near the centre"
+    },
+    {
+     "k": "hzcorn",
+     "d": 52
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "3",
+     "tr": "Gözlerin her saniye yaklaşık 3 kez sıçrar; beyin aradaki bulanık anları siler, sen hiç fark etmezsin",
+     "en": "Your eyes jump about 3 times every second — the brain erases the blurry moments in between, so you never notice",
+     "src": "Bu sıçramalara “sakkad” denir · These jumps are called saccades",
+     "c1": "#1b2230",
+     "c2": "#05070b"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Doktor sana 3 hap verdi:<br>“Yarım saatte bir tane iç.”<br>Haplar kaç dakikada biter?",
+     "qe": "A doctor gives you 3 pills: “Take one every half hour.” How many minutes until they are gone?",
+     "a": "60 dakika! İlki hemen, ikincisi 30., üçüncüsü 60. dakikada",
+     "ae": "60 minutes — the first right away, then at 30 and at 60",
+     "sec": 20,
+     "c1": "#1c2a30",
+     "c2": "#040708"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-16",
+   "name": "Bulut Seyri · Cloud Watching",
+   "from": "2026-11-15T16:00",
+   "until": "2026-11-15T17:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-lenticular.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Titlis, İsviçre · Switzerland",
+     "tr": "Dağın üstünde duran mercek bulutları",
+     "en": "Lens-shaped clouds parked over a mountain",
+     "cr": "Foto · Photo: Jan Remund · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Rüzgâr dağı aşınca dalgalanır; dalganın tepesinde bulut oluşur ve yerinden kıpırdamıyormuş gibi durur. Çoğu zaman UFO sanılır",
+     "facte": "Wind ripples as it crosses a mountain — a cloud forms on the wave crest and seems to hang still. Often mistaken for UFOs"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-mammatus.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tulsa, ABD · USA · 1973",
+     "tr": "Gök kubbeden sarkan keseler: mammatus bulutları",
+     "en": "Pouches hanging from the sky: mammatus clouds",
+     "cr": "Foto · Photo: NOAA · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Genellikle büyük bir fırtına bulutunun altında görülür; serin hava cepleri aşağı çöker",
+     "facte": "Usually seen beneath a big storm cloud — pockets of cool air sinking downwards"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-kelvinhh.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kelvin–Helmholtz",
+     "tr": "Gökyüzünde kıvrılan dalgalar: Kelvin–Helmholtz bulutları",
+     "en": "Waves curling across the sky: Kelvin–Helmholtz clouds",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "İki hava katmanı farklı hızla akınca sınırda deniz dalgası gibi kıvrımlar oluşur; çoğu birkaç dakika içinde kaybolur",
+     "facte": "When two layers of air flow at different speeds, the boundary curls like breaking sea waves — most vanish within minutes"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-fallstreak.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Delik bulut · Hole-punch cloud",
+     "tr": "Bulutta açılmış kocaman bir delik",
+     "en": "A huge hole punched in a cloud",
+     "cr": "Foto · Photo: H. Raab · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Bulutta donmadan soğumuş su damlaları vardır; bir uçak geçince bir anda buza döner ve aşağı düşerler — ortada bir pencere açılır",
+     "facte": "The cloud holds supercooled droplets — when a plane passes they suddenly freeze and fall, opening a window in the middle"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Küçük Meydan Okuma · Little Challenge",
+     "q": "Bulut avı: bugün gökyüzüne iki dakika ayır",
+     "e": "Cloud hunt — give the sky two minutes today",
+     "c1": "#1c2a3a",
+     "c2": "#04070b",
+     "gap": 7,
+     "steps": [
+      [
+       "Terasa çık ya da pencereden bak",
+       "Step out on the terrace or look out of a window",
+       "☁"
+      ],
+      [
+       "Bir bulutta bir hayvan ya da yüz bul",
+       "Find an animal or a face in a cloud",
+       ""
+      ],
+      [
+       "Bulutlar hangi yöne gidiyor? Denizden mi, dağdan mı?",
+       "Which way are they moving — from the sea or from the mountains?",
+       ""
+      ],
+      [
+       "Bugün öğrendiğin bulutlardan birini ara",
+       "Look for one of the clouds you just learned about",
+       "🔎"
+      ]
+     ],
+     "fin": "Bulutlarda yüz görmenin adı “pareidolia”: beyin rastgele şekillerde bile tanıdık şeyler arar",
+     "fine": "Seeing faces in clouds is called pareidolia — the brain looks for familiar things even in random shapes"
+    },
+    {
+     "k": "hzfact",
+     "d": 28,
+     "big": "⅔",
+     "tr": "Herhangi bir anda Dünya’nın yaklaşık üçte ikisi bulutlarla örtülüdür",
+     "en": "At any moment, about two-thirds of the Earth is covered by clouds",
+     "src": "NASA uydu ölçümleri · NASA satellite data",
+     "c1": "#18263a",
+     "c2": "#03060b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-17",
+   "name": "Hayvanların Dili · How Animals Talk",
+   "from": "2026-11-15T17:00",
+   "until": "2026-11-15T18:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-elephants.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Savan filleri · Savanna elephants",
+     "tr": "Bir fil ailesi — duyamadığımız seslerle konuşuyorlar",
+     "en": "An elephant family — talking in sounds we cannot hear",
+     "cr": "Foto · Photo: Bernard Dupont · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Filler insan kulağının duyamayacağı kadar pes seslerle kilometrelerce uzağa mesaj gönderir; bu titreşimleri ayaklarıyla da hissederler",
+     "facte": "Elephants send rumbles too deep for human ears over kilometres — and feel the vibrations through their feet too"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Doğa Zekâsı · Nature’s Genius",
+     "q": "Arıların dansı: “Çiçekler şu tarafta, şu kadar uzakta!”",
+     "e": "The honeybee dance: “Flowers that way — this far!”",
+     "c1": "#2c2616",
+     "c2": "#080604",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Bir arı güzel çiçekler bulup kovana dönüyor",
+       "A bee finds good flowers and flies home",
+       "🐝"
+      ],
+      [
+       "Peteğin üstünde sekiz çizerek dans ediyor",
+       "On the comb it dances in a figure of eight",
+       ""
+      ],
+      [
+       "Ortadaki titreşimli yürüyüşün açısı: Güneş’e göre yön",
+       "The angle of the waggle run: the direction relative to the Sun",
+       ""
+      ],
+      [
+       "Titreşimin süresi: uzaklık — uzun dans, uzak çiçek",
+       "How long it waggles: the distance — a long dance means far-away flowers",
+       ""
+      ],
+      [
+       "Öteki arılar dansı izleyip doğrudan çiçeğe uçuyor",
+       "The others watch and fly straight to the flowers",
+       "✓"
+      ]
+     ],
+     "fin": "Karl von Frisch bu dili çözdüğü için 1973’te Nobel Ödülü aldı",
+     "fine": "Karl von Frisch won the 1973 Nobel Prize for decoding this language"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h15-prairiedog.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kara kuyruklu çayır köpeği · Black-tailed prairie dog",
+     "tr": "Nöbetteki bir çayır köpeği",
+     "en": "A prairie dog on lookout",
+     "cr": "Foto · Photo: Joe Ravi · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Araştırmalara göre uyarı sesleri yalnızca “tehlike!” demiyor: gelen hayvanın türünü, büyüklüğünü, hatta bir insanın üstündeki rengi bile anlatabiliyor",
+     "facte": "Research suggests their alarm calls say more than “danger!” — they can describe the predator’s kind, size and even the colour a person is wearing",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-lyrebird.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Victoria, Avustralya · Australia · 1935",
+     "tr": "Kuyruğunu açmış bir lir kuşu",
+     "en": "A lyrebird with its tail spread",
+     "cr": "Foto · Photo: bilinmeyen fotoğrafçı · unknown photographer (State Library of NSW) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Dünyanın en iyi taklitçisi: öteki kuşların seslerini, fotoğraf makinesi deklanşörünü, hatta motorlu testereyi bile kusursuz taklit edebilir",
+     "facte": "The world’s greatest mimic — it can copy other birds, a camera shutter, even a chainsaw"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-wolf.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kutup kurdu · Arctic wolf",
+     "tr": "Uluyan bir kurt",
+     "en": "A wolf howling",
+     "cr": "Foto · Photo: plenty.r · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Bir kurdun uluması açık arazide kilometrelerce öteden duyulur; her kurdun sesi farklıdır ve sürü birbirini sesinden tanır",
+     "facte": "A wolf’s howl carries for kilometres over open ground — every wolf sounds different, and the pack knows each voice",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Karga",
+     "tr": "Kargalar insan yüzlerini tanır, yıllarca hatırlar — ve bunu öbür kargalara da öğretir",
+     "en": "Crows recognise human faces, remember them for years — and teach other crows about them too",
+     "src": "Washington Üniversitesi’nin maskeli deneyleri · University of Washington mask experiments",
+     "c1": "#1c2026",
+     "c2": "#040506"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-18",
+   "name": "Bir Saniyede Dünya · The World in One Second",
+   "from": "2026-11-15T18:00",
+   "until": "2026-11-15T19:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "Sadece bir saniye… Bu sürede neler oluyor?",
+     "e": "Just one second… what happens in that time?",
+     "c1": "#141c2a",
+     "c2": "#03050a",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Işık yaklaşık 300.000 km yol alır: Dünya’nın çevresini 7,5 kez dolaşır",
+       "Light travels about 300,000 km — seven and a half times around the Earth",
+       "✦"
+      ],
+      [
+       "Dünya, Güneş’in çevresinde yaklaşık 30 km ilerler",
+       "The Earth moves about 30 km along its orbit around the Sun",
+       "🌍"
+      ],
+      [
+       "Kalbin aşağı yukarı bir kez atar",
+       "Your heart beats about once",
+       "♥"
+      ],
+      [
+       "Vücudun 2 milyondan fazla yeni kırmızı kan hücresi yapar",
+       "Your body makes more than 2 million new red blood cells",
+       "●"
+      ]
+     ],
+     "fin": "Bir saniye küçük görünür ama içine koca bir dünya sığar",
+     "fine": "A second looks small — yet a whole world fits inside it"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-hummingbird.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sinekkuşu · Hummingbird",
+     "tr": "Havada asılı duran bir sinekkuşu",
+     "en": "A hummingbird hanging in mid-air",
+     "cr": "Foto · Photo: Jonathan Rodgers · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kanatlarını saniyede 50 kezden fazla çırpar; geriye doğru uçabilen tek kuş grubu",
+     "facte": "It beats its wings more than 50 times a second — the only birds that can fly backwards",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-dropcrown.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Süt tacı · Milk crown",
+     "tr": "Bir damlanın çarpıştığı an: süt tacı",
+     "en": "The instant a drop lands: a milk crown",
+     "cr": "Foto · Photo: mescon · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Bu taç bir saniyenin yüzde biri kadar bile yaşamaz; Harold Edgerton’ın 1957 fotoğrafıyla ünlendi",
+     "facte": "The crown lasts less than a hundredth of a second — made famous by Harold Edgerton’s 1957 photograph"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-cheetah.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Namibya · Namibia",
+     "tr": "Koşan bir çita — bir saniyede yaklaşık 30 metre",
+     "en": "A running cheetah — about 30 metres in one second",
+     "cr": "Foto · Photo: Alexander Klink · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Karadaki en hızlı hayvan: üç saniyede saatte yaklaşık 100 km hıza çıkabilir",
+     "facte": "The fastest land animal — it can reach about 100 km/h in three seconds"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "≈4",
+     "tr": "Sen bu cümleyi okurken bir saniyede dünyada yaklaşık 4 bebek doğuyor",
+     "en": "In the second it takes to read this, about 4 babies are born around the world",
+     "src": "Yılda yaklaşık 130 milyon doğum · About 130 million births a year",
+     "c1": "#2a1f2a",
+     "c2": "#070507"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-19",
+   "name": "Yavaş Şehirler · Slow Towns (Cittaslow)",
+   "from": "2026-11-15T19:00",
+   "until": "2026-11-15T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h15-sigacik.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Seferihisar, İzmir",
+     "tr": "Sığacık Kalesi ve limanı — Türkiye’nin ilk “yavaş şehri” Seferihisar’da",
+     "en": "Sığacık castle and harbour — in Seferihisar, Türkiye’s first “slow town”",
+     "cr": "Foto · Photo: BSRF · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Seferihisar 2009’da Cittaslow ağına katıldı; pazarında yerel üreticiler, kale içinde taş evler var",
+     "facte": "Seferihisar joined the Cittaslow network in 2009 — local growers fill its market, and stone houses fill the castle"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h15-halfeti.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Halfeti, Şanlıurfa",
+     "tr": "Halfeti — Fırat’ın kıyısında, bir kısmı suların altında kalan kasaba",
+     "en": "Halfeti — a town on the Euphrates, partly beneath the water",
+     "cr": "Foto · Photo: Mtbey · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Baraj gölü eski mahallelerin bir bölümünü kapladı; tekne gezileri ve yalnızca burada yetişen kara gülüyle ünlü",
+     "facte": "A dam lake covered part of the old quarter — it is known for boat trips and the black rose that grows only here",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-tarakli.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Taraklı, Sakarya",
+     "tr": "Taraklı’nın ahşap konakları",
+     "en": "The wooden mansions of Taraklı",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "fact": "Bu küçük kasaba da bir “yavaş şehir”; eski evleri ve tahta kaşık ustalığıyla tanınır",
+     "facte": "This small town is a “slow town” too — known for its old houses and its wooden spoon makers"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "1999",
+     "tr": "Cittaslow (“yavaş şehir”) hareketi 1999’da İtalya’da doğdu: acele etmeyen, yerelini koruyan küçük kasabalar",
+     "en": "The Cittaslow (“slow town”) movement began in Italy in 1999 — small towns that refuse to rush and protect what is local",
+     "src": "Üye olmak için nüfusun 50.000’in altında olması gerekir · Members must have fewer than 50,000 people",
+     "c1": "#22301f",
+     "c2": "#050805"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h15-goynuk.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Göynük, Bolu",
+     "tr": "Göynük yakınlarında Çubuk Gölü — Göynük de bir “yavaş şehir”",
+     "en": "Çubuk Lake near Göynük — Göynük is a “slow town” too",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "fact": "Ormanla çevrili bu göl, piknik ve sakin yürüyüşler için bölgenin sevilen durağı",
+     "facte": "Ringed by forest, the lake is the area’s favourite stop for picnics and quiet walks"
+    },
+    {
+     "k": "hzsteps",
+     "d": 48,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Villada “yavaş bir pazar”: üç küçük kural",
+     "e": "A “slow Sunday” at the villa — three small rules",
+     "c1": "#2a2418",
+     "c2": "#080604",
+     "gap": 7,
+     "steps": [
+      [
+       "Telefonlar bir saatliğine kapının yanındaki sepete",
+       "Phones go into a basket by the door for one hour",
+       "📵"
+      ],
+      [
+       "Sofraya yalnızca yakından gelenler: köy peyniri, mısır ekmeği, bahçeden ne varsa",
+       "Only local food on the table — village cheese, corn bread, whatever the garden gives",
+       "🧺"
+      ],
+      [
+       "Gün batımında acelesiz bir yürüyüş, dönüşte çay",
+       "An unhurried walk at sunset, tea when you get back",
+       "☕"
+      ]
+     ],
+     "fin": "Butik otellerin sırrı da bu: misafire daha çok şey değil, daha çok zaman sunmak",
+     "fine": "It is the secret of boutique hotels too — not offering guests more things, but more time"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-20",
+   "name": "Galeri: Mavi Saat · Gallery: The Blue Hour",
+   "from": "2026-11-15T20:00",
+   "until": "2026-11-15T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-kroyer.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Skagen’in Güney Kumsalında Yaz Akşamı — Peder Severin Krøyer, 1893",
+     "en": "Summer Evening on Skagen’s Southern Beach — Peder Severin Krøyer, 1893",
+     "cr": "Eser · Artwork: Peder Severin Krøyer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Danimarka’nın en kuzey ucunda deniz ve gökyüzü, gün batımından sonra aynı maviye bürünür; Skagen ressamları bu saati çok severdi",
+     "facte": "At Denmark’s northern tip, sea and sky turn the same blue after sunset — the Skagen painters loved this hour",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Lambalar farklıdır,|ama ışık aynıdır",
+     "en": "The lamps are different, but the light is the same",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-whistler.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Nokturn: Mavi ve Gümüş, Chelsea — James McNeill Whistler, 1871",
+     "en": "Nocturne: Blue and Silver – Chelsea — James McNeill Whistler, 1871",
+     "cr": "Eser · Artwork: James McNeill Whistler · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Whistler gece resimlerine müzik gibi “nokturn” adını verdi; bu, serinin ilklerinden",
+     "facte": "Whistler named his night paintings “nocturnes”, like music — this is one of the first",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-grimshaw.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Ay Işığında Liverpool Rıhtımı — John Atkinson Grimshaw, 1887",
+     "en": "Liverpool Quay by Moonlight — John Atkinson Grimshaw, 1887",
+     "cr": "Eser · Artwork: John Atkinson Grimshaw · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Islak kaldırımda parlayan dükkân ışıkları: Grimshaw ay ışığının ressamı olarak anılır",
+     "facte": "Shop lights glowing on wet stone — Grimshaw is remembered as the painter of moonlight",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h15-kuindzhi.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Dinyeper Üzerinde Ay Işığı — Arhip Kuinci, 1880",
+     "en": "Moonlit Night on the Dnieper — Arkhip Kuindzhi, 1880",
+     "cr": "Eser · Artwork: Arkhip Kuindzhi · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Tablo karanlık bir odada tek başına sergilendi; ay o kadar parlak görünüyordu ki izleyiciler arkasında lamba var mı diye baktı",
+     "facte": "It was shown alone in a darkened room — the moon looked so bright that visitors checked behind the canvas for a lamp",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "4°–6°",
+     "tr": "Mavi saat, Güneş ufkun yaklaşık 4–6 derece altındayken yaşanır: kızıllar kaybolur, gökyüzünü derin bir mavi kaplar",
+     "en": "The blue hour comes when the Sun is about 4–6° below the horizon — the reds fade and a deep blue fills the sky",
+     "src": "Fotoğrafçıların en sevdiği saat · Photographers’ favourite hour",
+     "c1": "#131c32",
+     "c2": "#03050b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-21",
+   "name": "Pazar Akşamı Meydan Okumaları · Sunday-Night Challenges",
+   "from": "2026-11-15T21:00",
+   "until": "2026-11-15T22:00",
+   "items": [
+    {
+     "k": "hzfraser",
+     "d": 52
+    },
+    {
+     "k": "hzsteps",
+     "d": 46,
+     "lb": "Küçük Meydan Okuma · Little Challenge",
+     "q": "Üç mini görev — hemen şimdi, oturduğun yerden",
+     "e": "Three mini tasks — right now, from where you sit",
+     "c1": "#1c2434",
+     "c2": "#04060a",
+     "gap": 8,
+     "steps": [
+      [
+       "1 dakika: odada mavi olan 5 şey bul",
+       "1 minute: find 5 blue things in the room",
+       "①"
+      ],
+      [
+       "Gözlerini kapat: duyduğun 4 farklı sesi say",
+       "Close your eyes and count 4 different sounds you can hear",
+       "②"
+      ],
+      [
+       "Adını öteki elinle havaya yaz",
+       "Write your name in the air with your other hand",
+       "③"
+      ]
+     ],
+     "fin": "Alışılmadık küçük işler beyni “otomatik pilottan” çıkarır",
+     "fine": "Small unusual tasks switch the brain off autopilot"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Sesim var ama ağzım yok;<br>sen ne dersen onu söylerim.<br>Ben neyim?",
+     "qe": "I have a voice but no mouth — I say whatever you say. What am I?",
+     "a": "Yankı!",
+     "ae": "An echo.",
+     "sec": 16,
+     "c1": "#1c2430",
+     "c2": "#04060a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Yüzü var, iki eli var;<br>ama ne gülümser ne alkışlar.<br>Nedir?",
+     "qe": "It has a face and two hands, but never smiles or claps. What is it?",
+     "a": "Saat!",
+     "ae": "A clock.",
+     "sec": 16,
+     "c1": "#2a2420",
+     "c2": "#070605"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "6.000",
+     "tr": "Bir araştırmaya göre insan zihninde günde 6.000’den fazla yeni düşünce başlıyor",
+     "en": "According to one study, more than 6,000 new thoughts start in the human mind each day",
+     "src": "Queen’s Üniversitesi, Kanada, 2020 · Queen’s University, Canada, 2020",
+     "c1": "#1b2230",
+     "c2": "#05070b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-22",
+   "name": "Durgun Sular · Still Waters (sakin · calm)",
+   "from": "2026-11-15T22:00",
+   "until": "2026-11-15T23:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-abant.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bolu",
+     "tr": "Abant Gölü — kışın durgun, mavi bir ayna",
+     "en": "Lake Abant — a still blue mirror in winter",
+     "cr": "Foto · Photo: Bora1324 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bir heyelanın vadiyi kapatmasıyla oluştu; yaklaşık 1.300 metre yükseklikte, çam ve kayın ormanlarıyla çevrili",
+     "facte": "Formed when a landslide blocked a valley — about 1,300 m up, ringed by pine and beech forest"
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Sessizlik bir okyanustur;|söz ise bir nehir",
+     "en": "Silence is an ocean; speech is a river",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-matheson.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Yeni Zelanda · New Zealand",
+     "tr": "Matheson Gölü’nde Aoraki (Cook) ve Tasman dağlarının yansıması",
+     "en": "Mount Cook (Aoraki) and Mount Tasman reflected in Lake Matheson",
+     "cr": "Foto · Photo: Pseudopanax (en.wikipedia) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ormandan gelen doğal maddeler suyu koyu kahverengiye boyar; bu yüzden göl kusursuz bir ayna gibi yansıtır",
+     "facte": "Natural matter from the forest stains the water dark brown — that is why the lake reflects like a perfect mirror"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-braies.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Dolomitler, İtalya · Dolomites, Italy",
+     "tr": "Braies Gölü — dağların dibinde yeşil bir su",
+     "en": "Lake Braies — green water at the foot of the mountains",
+     "cr": "Foto · Photo: kallerna · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 1.500 metrede; sabah erken saatlerde rüzgâr yokken su neredeyse hiç kıpırdamaz",
+     "facte": "At about 1,500 m — early in the morning, with no wind, the water barely moves"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "%20",
+     "tr": "Sibirya’daki Baykal Gölü, dünyadaki donmamış tatlı suyun yaklaşık beşte birini tutar",
+     "en": "Lake Baikal in Siberia holds about a fifth of all the unfrozen fresh water on Earth",
+     "src": "En derin yeri 1.642 metre; dünyanın en derin ve en yaşlı gölü · 1,642 m at its deepest — the world’s deepest and oldest lake",
+     "c1": "#10202a",
+     "c2": "#020507"
+    }
+   ]
+  },
+  {
+   "id": "h-11-15-23",
+   "name": "Yakamoz · Sea Sparkle (sakin · calm)",
+   "from": "2026-11-15T23:00",
+   "until": "2026-11-16T02:00",
+   "items": [
+    {
+     "k": "hzyakamoz",
+     "d": 80
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Ay, geceden kaçmadığı için|parlak kalır",
+     "en": "The moon stays bright because it does not run from the night",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h15-biolum.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · San Diego, ABD · USA",
+     "tr": "Alacakaranlıkta mavi parlayan dalgalar",
+     "en": "Waves glowing blue at dusk",
+     "cr": "Foto · Photo: Saltytog · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Bu ışığı denizdeki tek hücreli canlılar yapar; dalga onları sarstıkça kıyı boyunca mavi bir çizgi yanıp söner",
+     "facte": "Single-celled sea creatures make this light — as the waves jostle them, a blue line flickers along the shore"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Uyumadan önce: dört sakin resim",
+     "e": "Before sleep: four calm pictures",
+     "c1": "#0e1624",
+     "c2": "#020306",
+     "gap": 7.5,
+     "steps": [
+      [
+       "Uzakta yanıp sönen bir deniz feneri",
+       "A lighthouse blinking far away",
+       "✧"
+      ],
+      [
+       "Kıyıya usulca vuran mavi dalgalar",
+       "Blue waves lapping softly at the shore",
+       ""
+      ],
+      [
+       "Ilık bir battaniye ve sessiz bir oda",
+       "A warm blanket and a quiet room",
+       ""
+      ],
+      [
+       "Sabaha karşı ötecek ilk kuş",
+       "The first bird that will sing before dawn",
+       "☾"
+      ]
+     ],
+     "fin": "İyi geceler — yarın yeni bir hafta",
+     "fine": "Good night — tomorrow a new week begins",
+     "bg": "stars"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Noctiluca",
+     "tr": "Yakamozun en bilinen kaynağı Noctiluca adlı tek hücreli bir canlı; adı Latince “geceyi aydınlatan” demek",
+     "en": "The best-known source of sea sparkle is a single-celled creature called Noctiluca — Latin for “night light”",
+     "src": "Dokunulunca bir anlık mavi ışık verir · It gives a brief blue flash when disturbed",
+     "c1": "#0c1a26",
+     "c2": "#020406"
+    }
+   ]
+  }
+ ]
+}

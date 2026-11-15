@@ -4,6 +4,123 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-15 (rev 64, hourly sets 09:00–02:00, days/2026-11-15.json) · Sunday
+
+New hz functions in hourly.js v64: hzmeta hzkaleido hzyakamoz (hzyakamoz = calm night), illusions hzmib hzcorn hzfraser. Mevlânâ quotes used: Ruhunu heyecanlandıran her çağrıya cevap ver (09), Evrendeki her şey senin içinde; her şeyi kendinden iste (12), Lambalar farklıdır, ama ışık aynıdır (20), Sessizlik bir okyanustur; söz ise bir nehir (22), Ay, geceden kaçmadığı için parlak kalır (23). requests.md: no pending items. h13-* had already been archived on 14 Nov; h14-* kept for yesterday’s file (nothing new archived). 44 new CC/PD photos/artworks (m/h15-*).
+
+### 09:00–10:00 · Pazar Sabahı · Sunday Morning
+- 09 | hzphoto | Kadırga Yaylası — bulutların hemen altında bir pazar sabahı | m/h15-yayla.jpg
+- 09 | hzquote | Ruhunu heyecanlandıran her çağrıya cevap ver | —
+- 09 | hzphoto | Kuzalan Şelalesi — ormanın içinde basamak basamak inen su | m/h15-kuzalan.jpg
+- 09 | hzfact | Pazar gününün adı, o gün kurulan pazardan gelir | —
+- 09 | hzphoto | Macahel (Camili) — Türkiye’nin ilk UNESCO biyosfer rezervi | m/h15-macahel.jpg
+- 09 | hzriddle | Her ayda en az kaç Pazar günü vardır? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Akışkanlar · Living Art: Fluids
+- 10 | hzmeta | NEW lava lamp metaballs (wax rises/sinks) | —
+- 10 | hzphoto | Mıknatısın üstünde diken diken olan bir sıvı: ferroakışkan | m/h15-ferrofluid.jpg
+- 10 | hzphoto | Bir sabun köpüğünün yüzeyinde dans eden renkler | m/h15-bubble2.jpg
+- 10 | hzphoto | Kendi kendine halkalar çizen bir karışım: Belousov–Zhabotinsky tepkimesi | m/h15-bzreaction.jpg
+- 10 | hzriddle | Bir koşu yarışında ikinciyi geçtin. Kaçıncı oldun? | —
+
+### 11:00–12:00 · Galeri: Bir Pazar Öğleden Sonrası · Gallery: A Sunday Afternoon
+- 11 | hzphoto | La Grande Jatte Adası’nda Bir Pazar Öğleden Sonrası — Georges Seurat, 1884–86 | m/h15-grandejatte.jpg
+- 11 | hzphoto | Kayıkçıların Öğle Yemeği — Pierre-Auguste Renoir, 1880–81 | m/h15-boating.jpg
+- 11 | hzphoto | Paris Sokağı, Yağmurlu Gün — Gustave Caillebotte, 1877 | m/h15-rainyday.jpg
+- 11 | hzphoto | Rüzgârı Arkaya Almak — Winslow Homer, 1873–76 | m/h15-breezing.jpg
+- 11 | hzphoto | Kayık Gezisi — Mary Cassatt, 1893–94 | m/h15-cassatt.jpg
+- 11 | hzsteps | Bir tabloya “yavaş bakmayı” dene: 3 dakika, tek tablo | —
+
+### 12:00–13:00 · Simetri · Symmetry
+- 12 | hzkaleido | NEW 12-fold kaleidoscope (Brewster 1816) | —
+- 12 | hzphoto | Selimiye Camii’nin kubbesi — içeriden bakınca bir kaleydoskop | m/h15-selimiye.jpg
+- 12 | hzphoto | Bağ-ı Fin köşkünün tavanı — taşa ve sıvaya işlenmiş yıldızlar | m/h15-fin.jpg
+- 12 | hzphoto | Kendi etrafında kusursuz bir sarmal çizen bitki: sarmal aloe | m/h15-aloe.jpg
+- 12 | hzphoto | Mavi morfo kelebeği — kanatlar birbirinin aynası | m/h15-morpho.jpg
+- 12 | hzquote | Evrendeki her şey senin içinde; her şeyi kendinden iste | —
+
+### 13:00–14:00 · Düşünce Deneyleri · Thought Experiments
+- 13 | hzsteps | Kum Yığını Paradoksu: tek bir tane neyi değiştirir? | —
+- 13 | hzphoto | Sahra’nın kenarında kum denizi: Erg Chebbi | m/h15-dunes.jpg
+- 13 | hzsteps | Sonsuz Maymun: rastgele tuşlara basan bir maymun Hamlet’i yazabilir mi? | —
+- 13 | hzphoto | Kışın sıcak su kaynağında ısınan Japon makakları | m/h15-macaque.jpg
+- 13 | hzsteps | Buridan’ın Eşeği: iki eşit saman yığınının tam ortasında aç bir eşek… | —
+- 13 | hzriddle | Bir odanın dört köşesinde birer kedi oturuyor. Her kedinin karşısında 3 kedi var. Odada kaç kedi var? | —
+
+### 14:00–15:00 · Villa Fikirleri: Suyun Sesi · Villa Ideas: The Sound of Water
+- 14 | hzphoto | Mersin Avlusu: uzun, durgun bir havuz bütün cepheyi ikiye katlıyor | m/h15-myrtles.jpg
+- 14 | hzphoto | Generalife’in Su Arkı Avlusu: yolun iki yanından kemer çizen ince su fıskiyeleri | m/h15-acequia.jpg
+- 14 | hzphoto | Taş bir su teknesi (tsukubai): bambu oluktan damlayan su | m/h15-tsukubai2.jpg
+- 14 | hzsteps | Villa için küçük bir su köşesi: nereye, nasıl? | —
+- 14 | hzfact | Elhamra’nın havuzlarına su, yaklaşık 6 km yukarıdaki Darro Nehri’nden, yalnızca eğimle akan bir arkla geliyordu | —
+
+### 15:00–16:00 · Göz Oyunları · Tricks of the Eye
+- 15 | hzmib | NEW motion-induced blindness (yellow dots vanish) | —
+- 15 | hzguess | Bu fotoğrafta bir hayvan saklanıyor. Bulabilir misin? | m/h15-cuttlefish.jpg
+- 15 | hzcorn | NEW Cornsweet illusion (same grey, edge covered) | —
+- 15 | hzfact | Gözlerin her saniye yaklaşık 3 kez sıçrar; beyin aradaki bulanık anları siler, sen hiç fark etmezsin | —
+- 15 | hzriddle | Doktor sana 3 hap verdi: “Yarım saatte bir tane iç.” Haplar kaç dakikada biter? | —
+
+### 16:00–17:00 · Bulut Seyri · Cloud Watching
+- 16 | hzphoto | Dağın üstünde duran mercek bulutları | m/h15-lenticular.jpg
+- 16 | hzphoto | Gök kubbeden sarkan keseler: mammatus bulutları | m/h15-mammatus.jpg
+- 16 | hzphoto | Gökyüzünde kıvrılan dalgalar: Kelvin–Helmholtz bulutları | m/h15-kelvinhh.jpg
+- 16 | hzphoto | Bulutta açılmış kocaman bir delik | m/h15-fallstreak.jpg
+- 16 | hzsteps | Bulut avı: bugün gökyüzüne iki dakika ayır | —
+- 16 | hzfact | Herhangi bir anda Dünya’nın yaklaşık üçte ikisi bulutlarla örtülüdür | —
+
+### 17:00–18:00 · Hayvanların Dili · How Animals Talk
+- 17 | hzphoto | Bir fil ailesi — duyamadığımız seslerle konuşuyorlar | m/h15-elephants.jpg
+- 17 | hzsteps | Arıların dansı: “Çiçekler şu tarafta, şu kadar uzakta!” | —
+- 17 | hzphoto | Nöbetteki bir çayır köpeği | m/h15-prairiedog.jpg
+- 17 | hzphoto | Kuyruğunu açmış bir lir kuşu | m/h15-lyrebird.jpg
+- 17 | hzphoto | Uluyan bir kurt | m/h15-wolf.jpg
+- 17 | hzfact | Kargalar insan yüzlerini tanır, yıllarca hatırlar — ve bunu öbür kargalara da öğretir | —
+
+### 18:00–19:00 · Bir Saniyede Dünya · The World in One Second
+- 18 | hzsteps | Sadece bir saniye… Bu sürede neler oluyor? | —
+- 18 | hzphoto | Havada asılı duran bir sinekkuşu | m/h15-hummingbird.jpg
+- 18 | hzphoto | Bir damlanın çarpıştığı an: süt tacı | m/h15-dropcrown.jpg
+- 18 | hzphoto | Koşan bir çita — bir saniyede yaklaşık 30 metre | m/h15-cheetah.jpg
+- 18 | hzfact | Sen bu cümleyi okurken bir saniyede dünyada yaklaşık 4 bebek doğuyor | —
+
+### 19:00–20:00 · Yavaş Şehirler · Slow Towns (Cittaslow)
+- 19 | hzphoto | Sığacık Kalesi ve limanı — Türkiye’nin ilk “yavaş şehri” Seferihisar’da | m/h15-sigacik.jpg
+- 19 | hzphoto | Halfeti — Fırat’ın kıyısında, bir kısmı suların altında kalan kasaba | m/h15-halfeti.jpg
+- 19 | hzphoto | Taraklı’nın ahşap konakları | m/h15-tarakli.jpg
+- 19 | hzfact | Cittaslow (“yavaş şehir”) hareketi 1999’da İtalya’da doğdu: acele etmeyen, yerelini koruyan küçük kasabalar | —
+- 19 | hzphoto | Göynük yakınlarında Çubuk Gölü — Göynük de bir “yavaş şehir” | m/h15-goynuk.jpg
+- 19 | hzsteps | Villada “yavaş bir pazar”: üç küçük kural | —
+
+### 20:00–21:00 · Galeri: Mavi Saat · Gallery: The Blue Hour
+- 20 | hzphoto | Skagen’in Güney Kumsalında Yaz Akşamı — Peder Severin Krøyer, 1893 | m/h15-kroyer.jpg
+- 20 | hzquote | Lambalar farklıdır, ama ışık aynıdır | —
+- 20 | hzphoto | Nokturn: Mavi ve Gümüş, Chelsea — James McNeill Whistler, 1871 | m/h15-whistler.jpg
+- 20 | hzphoto | Ay Işığında Liverpool Rıhtımı — John Atkinson Grimshaw, 1887 | m/h15-grimshaw.jpg
+- 20 | hzphoto | Dinyeper Üzerinde Ay Işığı — Arhip Kuinci, 1880 | m/h15-kuindzhi.jpg
+- 20 | hzfact | Mavi saat, Güneş ufkun yaklaşık 4–6 derece altındayken yaşanır: kızıllar kaybolur, gökyüzünü derin bir mavi kaplar | —
+
+### 21:00–22:00 · Pazar Akşamı Meydan Okumaları · Sunday-Night Challenges
+- 21 | hzfraser | NEW Fraser spiral (concentric circles, coral trace) | —
+- 21 | hzsteps | Üç mini görev — hemen şimdi, oturduğun yerden | —
+- 21 | hzriddle | Sesim var ama ağzım yok; sen ne dersen onu söylerim. Ben neyim? | —
+- 21 | hzriddle | Yüzü var, iki eli var; ama ne gülümser ne alkışlar. Nedir? | —
+- 21 | hzfact | Bir araştırmaya göre insan zihninde günde 6.000’den fazla yeni düşünce başlıyor | —
+
+### 22:00–23:00 · Durgun Sular · Still Waters (sakin · calm)
+- 22 | hzphoto | Abant Gölü — kışın durgun, mavi bir ayna | m/h15-abant.jpg
+- 22 | hzquote | Sessizlik bir okyanustur; söz ise bir nehir | —
+- 22 | hzphoto | Matheson Gölü’nde Aoraki (Cook) ve Tasman dağlarının yansıması | m/h15-matheson.jpg
+- 22 | hzphoto | Braies Gölü — dağların dibinde yeşil bir su | m/h15-braies.jpg
+- 22 | hzfact | Sibirya’daki Baykal Gölü, dünyadaki donmamış tatlı suyun yaklaşık beşte birini tutar | —
+
+### 23:00–02:00 · Yakamoz · Sea Sparkle (sakin · calm)
+- 23 | hzyakamoz | NEW yakamoz bioluminescent night waves (calm night illustration) | —
+- 23 | hzquote | Ay, geceden kaçmadığı için parlak kalır | —
+- 23 | hzphoto | Alacakaranlıkta mavi parlayan dalgalar | m/h15-biolum.jpg
+- 23 | hzsteps | Uyumadan önce: dört sakin resim | —
+- 23 | hzfact | Yakamozun en bilinen kaynağı Noctiluca adlı tek hücreli bir canlı; adı Latince “geceyi aydınlatan” demek | —
+
 ## 2026-11-14 · afternoon rework (rev 63, sets 15:00–23:00 rebuilt ~14:45 for M’s friends’ evening)
 
 M had friends over (Murat, Şerif; İbo from ~18:00). Sets 15–22 were replaced with group-friendly content; the original 15–22 sets listed in the 2026-11-14 section below ran only in the morning build and never aired (count them as used anyway). New hz templates in hourly.js v63: hzwelcome (script lettering on a still photo), hzchoose (two-photo “which would you pick”), hzguess (guess-together over a photo, answer after a pause; without an answer it is a conversation starter), party game hzstroop (Stroop colour game). No Mevlânâ quotes in these sets. h13-* and the unused h14-* images were archived to /workspace/tv-media-archive/.

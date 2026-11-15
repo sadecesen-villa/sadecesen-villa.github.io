@@ -1,6 +1,6 @@
-/* hourly.js v63 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v64 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -681,5 +681,74 @@ W.hzstroop=function(L,it){grad(L,'#1b2230','#05070b');
  var mid=T(L,'<div class="lb" id="hzrd" style="margin-bottom:2.4vh;color:#ff9e7a">1. Tur: ısınma · Round 1: warm-up</div>'+grid(0),'top:25vh;bottom:25vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden',1.2);
  var bt=T(L,'<div class="e" style="font-size:1.45vw;color:#dfe6e9">Stroop etkisi (1935): beyin okumayı otomatik yapar, bu yüzden renk söylemek yavaşlar. En hızlı kim?</div><div class="sm">The Stroop effect (1935): the brain reads automatically, so naming the colour slows you down. Who is fastest?</div>','',3);bt.className+=' hz-bot';bt.style.maxHeight='19vh';
  var sw=0;wLoop(L,function(t){if(!sw&&t>22){sw=1;mid.innerHTML='<div class="lb" style="margin-bottom:2.4vh;color:#ff9e7a">2. Tur: şimdi zor! · Round 2: now it gets hard!</div>'+grid(1)}});return L};
+
+
+/* ---------- v64 additions: hzmeta hzkaleido hzyakamoz (living art; hzyakamoz = calm night), hzmib hzcorn hzfraser (illusions) ---------- */
+/* Lava lamp: wax blobs warm up, rise, cool and sink (metaballs) */
+W.hzmeta=function(L,it){L.style.background='#070a18';var c=wCv(L),x=c.getContext('2d'),FW=192,FH=108,oc=document.createElement('canvas');oc.width=FW;oc.height=FH;var o=oc.getContext('2d'),img=o.createImageData(FW,FH),B=[],i;
+ for(i=0;i<9;i++)B.push({x:40+Math.random()*112,ph:Math.random()*6.28,sp:.05+Math.random()*.05,r:5.5+Math.random()*4.5,w:Math.random()*6.28});
+ T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — simülasyon · simulation','Lav lambası: ısınan mum hafifler ve yükselir; tepede soğuyunca ağırlaşıp geri iner…','A lava lamp: warm wax gets lighter and rises — at the top it cools, grows heavier and sinks again…')+'</div>','top:22px',.4);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.2vw;color:#dfe6e9">Hiçbir şekil iki kez tekrarlanmaz. İlk lav lambası 1963’te İngiltere’de Edward Craven Walker tarafından yapıldı; içinde yalnızca mum, su ve bir ampulün ısısı var<br><i>No shape ever repeats. The first lava lamp was made in England in 1963 by Edward Craven Walker — just wax, water and the warmth of a bulb</i></div></div>','bottom:20px',14);
+ var C1=[255,104,96],C2=[90,60,190];
+ wLoop(L,function(t){var d=img.data,k=0,j;
+  for(i=0;i<B.length;i++){var b=B[i];b.cy=FH*.55-Math.sin(t*b.sp*2.2+b.ph)*FH*.42;b.cx=b.x+Math.sin(t*.13+b.w)*14}
+  for(var y=0;y<FH;y++)for(var xx=0;xx<FW;xx++){var f=0;for(j=0;j<B.length;j++){var dx=xx-B[j].cx,dy=(y-B[j].cy)*1.15;f+=B[j].r*B[j].r/(dx*dx+dy*dy+1)}
+   var m=f<.85?0:f<1?(f-.85)/.15:1,gl=Math.min(1,f*.5),yy=y/FH;
+   d[k]=7+C2[0]*gl*.25+(C1[0]*(1-yy*.3)-7)*m;d[k+1]=10+C2[1]*gl*.2+(C1[1]*(1-yy*.2)-10)*m;d[k+2]=24+C2[2]*gl*.35+(C1[2]+yy*30-24)*m;d[k+3]=255;k+=4}
+  o.putImageData(img,0,0);x.imageSmoothingEnabled=true;x.drawImage(oc,0,0,1920,1080)});return L};
+
+/* Kaleidoscope: drifting coloured pieces in one wedge, mirrored twelve times */
+W.hzkaleido=function(L,it){L.style.background='#05070c';var c=wCv(L),x=c.getContext('2d'),P=[],i,N=12,CX=960,CY=575,R=500,COL=['#8fd3c1','#ff9e7a','#a9b8ff','#f2efe6','#5fa8d3','#e07a9a','#7fd18b'];
+ for(i=0;i<34;i++)P.push({r:40+Math.random()*(R-60),a:Math.random(),s:8+Math.random()*34,c:COL[i%COL.length],vr:(Math.random()-.5)*14,va:(Math.random()-.5)*.03,sh:i%3,rot:Math.random()*6.28});
+ T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — canlı çizim · live drawing','Birkaç renkli parça ve aynalar: kaleydoskopta aynı desen asla iki kez gelmez','A few coloured pieces and mirrors — a kaleidoscope never shows the same pattern twice')+'</div>','top:22px',.4);
+ T(L,'<div class="hzbox"><div class="sm" style="font-size:1.2vw;color:#dfe6e9">David Brewster, 1816. Adı Yunanca: kalos (güzel) + eidos (biçim) + skopein (bakmak) — “güzel biçimleri seyretmek”<br><i>David Brewster, 1816. The name is Greek: kalos (beautiful) + eidos (form) + skopein (to look) — “watching beautiful forms”</i></div></div>','bottom:20px',12);
+ var WA=Math.PI*2/N;
+ function piece(p){var a=p.a*WA,px=Math.cos(a)*p.r,py=Math.sin(a)*p.r;x.save();x.translate(px,py);x.rotate(p.rot);x.fillStyle=p.c;x.globalAlpha=.55;x.beginPath();
+  if(p.sh==0)x.arc(0,0,p.s,0,7);else if(p.sh==1){x.moveTo(0,-p.s*1.4);x.quadraticCurveTo(p.s,0,0,p.s*1.4);x.quadraticCurveTo(-p.s,0,0,-p.s*1.4)}else{x.moveTo(0,-p.s);x.lineTo(p.s*.9,p.s*.6);x.lineTo(-p.s*.9,p.s*.6);x.closePath()}x.fill();x.restore()}
+ wLoop(L,function(t){x.fillStyle='rgba(5,7,12,.16)';x.fillRect(0,0,1920,1080);
+  for(i=0;i<P.length;i++){var p=P[i];p.r+=p.vr*.016;p.a+=p.va*.3;p.rot+=.004;if(p.r<30||p.r>R-20)p.vr*=-1;if(p.a<0||p.a>1)p.va*=-1}
+  x.save();x.translate(CX,CY);x.rotate(t*.02);x.beginPath();x.arc(0,0,R,0,7);x.clip();
+  for(var k=0;k<N;k++){x.save();x.rotate(k*WA);if(k%2){x.rotate(WA);x.scale(1,-1)}x.beginPath();x.moveTo(0,0);x.arc(0,0,R,-.002,WA+.002);x.closePath();x.save();x.clip();for(i=0;i<P.length;i++)piece(P[i]);x.restore();x.restore()}
+  x.restore();x.globalAlpha=1;x.strokeStyle='rgba(200,215,225,.25)';x.lineWidth=3;x.beginPath();x.arc(CX,CY,R+4,0,7);x.stroke()});return L};
+
+/* Motion-induced blindness: stare at the centre — the still yellow dots vanish */
+W.hzmib=function(L,it){L.style.background='#000';var c=wCv(L),x=c.getContext('2d'),CX=960,CY=560,D=[[960,330],[760,700],[1160,700]];
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion — şimdi dene · try it now','Ortadaki yanıp sönen noktaya 15–20 saniye gözünü ayırmadan bak…','Stare at the blinking dot in the centre for 15–20 seconds without looking away…')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.8vw">Sarı noktalar teker teker kayboldu mu? Hiçbiri yerinden oynamadı!</div><div class="e" style="font-size:1.3vw">Did the yellow dots vanish one by one? None of them ever moved. The brain “deletes” still details when strong motion surrounds them</div><div class="sm">Harekete bağlı körlük · Motion-induced blindness — Bonneh, Cooperman &amp; Sagi, 2001</div></div>','bottom:18px',26);
+ wLoop(L,function(t){x.clearRect(0,0,1920,1080);x.save();x.translate(CX,CY);x.rotate(t*.9);x.strokeStyle='#2f5bff';x.lineWidth=5;
+  for(var gx=-9;gx<=9;gx++)for(var gy=-9;gy<=9;gy++){var px=gx*58,py=gy*58;if(px*px+py*py>520*520)continue;x.beginPath();x.moveTo(px-13,py);x.lineTo(px+13,py);x.moveTo(px,py-13);x.lineTo(px,py+13);x.stroke()}
+  x.restore();x.fillStyle='#ffe23a';for(var i=0;i<3;i++){x.beginPath();x.arc(D[i][0],D[i][1],12,0,7);x.fill()}
+  x.fillStyle=(Math.floor(t*2.5)%2)?'#3ddc84':'#0c3';x.beginPath();x.arc(CX,CY,9,0,7);x.fill()});return L};
+
+/* Cornsweet illusion: two halves of the same grey look different because of a thin edge */
+W.hzcorn=function(L,it){L.style.background='#343434';var c=wCv(L),x=c.getContext('2d'),im=x.createImageData(1920,1080),d=im.data,X0=360,X1=1560,Y0=300,Y1=830,MID=960,RW=170,i,y,xx;
+ for(y=0;y<1080;y++)for(xx=0;xx<1920;xx++){var v=52,k=(y*1920+xx)*4;if(y>=Y0&&y<Y1&&xx>=X0&&xx<X1){v=127;if(xx<MID&&xx>MID-RW)v=127-42*Math.pow((xx-(MID-RW))/RW,2);else if(xx>=MID&&xx<MID+RW)v=127+42*Math.pow(1-(xx-MID)/RW,2)}d[k]=d[k+1]=d[k+2]=v;d[k+3]=255}
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Sol taraf sağdan daha koyu, değil mi?','The left half looks darker than the right, doesn’t it?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.9vw">İki taraf da tam olarak aynı gri! Fark yalnızca ortadaki ince kenarda</div><div class="e" style="font-size:1.3vw">Both sides are exactly the same grey — the only difference is a thin edge in the middle. Cover it and the halves match</div><div class="sm">Cornsweet illüzyonu · Cornsweet illusion — Tom Cornsweet, 1970</div></div>','bottom:18px',17);
+ wLoop(L,function(t){x.putImageData(im,0,0);var m=t<18?0:t<21?ease((t-18)/3):t<34?1:t<37?1-ease((t-34)/3):0;
+  if(m>0){x.fillStyle='#1b2328';x.fillRect(MID-RW-10,Y0-40-(1-m)*600,2*RW+20,(Y1-Y0+80))}});return L};
+
+/* Fraser spiral: perfect circles that look like a spiral */
+W.hzfraser=function(L,it){L.style.background='#8fa39c';var c=wCv(L),x=c.getContext('2d'),CX=960,CY=575,RR=[],r;for(r=70;r<=470;r+=50)RR.push(r);
+ function scene(){x.fillStyle='#8fa39c';x.fillRect(0,0,1920,1080);
+  for(var a=0;a<24;a++){x.fillStyle=a%2?'#7d948c':'#a3b5ae';x.beginPath();x.moveTo(CX,CY);x.arc(CX,CY,560,a*Math.PI/12,(a+1)*Math.PI/12);x.closePath();x.fill()}
+  for(var q=0;q<RR.length;q++){var R=RR[q],n=Math.round(2*Math.PI*R/26);for(var s=0;s<n;s++){var an=s/n*Math.PI*2;x.save();x.translate(CX+Math.cos(an)*R,CY+Math.sin(an)*R);x.rotate(an+Math.PI/2+.42);x.fillStyle=s%2?'#111':'#f4f4f0';x.fillRect(-12,-5,24,10);x.restore()}}}
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Ortaya doğru dönen bir sarmal görüyorsun, değil mi?','You see a spiral winding into the centre, right?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.9vw">Sarmal yok: hepsi iç içe kusursuz çemberler!</div><div class="e" style="font-size:1.3vw">There is no spiral — they are all perfect, separate circles. The tilted “twisted cord” pieces fool the brain. Follow the coral line</div><div class="sm">Fraser sarmalı · Fraser spiral illusion — James Fraser, 1908</div></div>','bottom:18px',18);
+ wLoop(L,function(t){scene();if(t>19){var p=Math.min(1,(t-19)/6),R=RR[5];x.strokeStyle='#ff6b4a';x.lineWidth=7;x.beginPath();x.arc(CX,CY,R,-Math.PI/2,-Math.PI/2+p*Math.PI*2);x.stroke()}});return L};
+
+/* Yakamoz: glowing plankton on night waves (calm night) */
+W.hzyakamoz=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(170),SP=[],i,HY=500;
+ T(L,hd('Yakamoz · Sea Sparkle — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Dalgalar kıyıya varınca deniz mavi bir ışıkla parlıyor','As the waves reach the shore, the sea lights up blue'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Bu ışığı minicik plankton canlıları yapar: dalga onları sarstığında bir an parlarlar. Karadeniz’de de yaz gecelerinde görülür<br><i>Tiny plankton make this light — they glow for a moment when a wave shakes them. It can be seen on Black Sea summer nights too</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,HY);g.addColorStop(0,'#03050c');g.addColorStop(1,'#0b1424');x.fillStyle=g;x.fillRect(0,0,1920,HY);drawStars(x,S.filter(function(s){return s[1]<HY-20}),t);
+  x.fillStyle='rgba(225,232,245,.85)';x.beginPath();x.arc(1500,170,34,0,7);x.fill();x.fillStyle='#050810';x.beginPath();x.arc(1514,160,32,0,7);x.fill();
+  var sg=x.createLinearGradient(0,HY,0,1080);sg.addColorStop(0,'#081220');sg.addColorStop(1,'#02040a');x.fillStyle=sg;x.fillRect(0,HY,1920,1080-HY);
+  x.fillStyle='#120f0d';x.beginPath();x.moveTo(0,1080);x.lineTo(0,930);for(var sx=0;sx<=1920;sx+=60)x.lineTo(sx,930+Math.sin(sx*.004)*20);x.lineTo(1920,1080);x.fill();
+  for(var w=0;w<7;w++){var ph=((t*.05+w/7)%1),y=HY+12+Math.pow(ph,1.7)*420,amp=2+ph*9,glow=ph>.72?Math.min(1,(ph-.72)/.12)*(1-Math.max(0,(ph-.94)/.06)):0;
+   x.lineWidth=1+ph*3;x.strokeStyle='rgba(120,140,170,'+(.12+ph*.15).toFixed(3)+')';x.shadowBlur=0;
+   if(glow>0){x.strokeStyle='rgba(70,220,255,'+(.25+.6*glow).toFixed(3)+')';x.shadowColor='#39d4ff';x.shadowBlur=26*glow;x.lineWidth=3+5*glow;if(Math.random()<.5*glow)SP.push([Math.random()*1920,y+Math.random()*10,1])}
+   x.beginPath();for(var px=0;px<=1920;px+=24){var yy=y+Math.sin(px*.006+t*.6+w)*amp+Math.sin(px*.017-t*.4)*amp*.4;if(px)x.lineTo(px,yy);else x.moveTo(px,yy)}x.stroke()}
+  x.shadowBlur=0;for(i=SP.length-1;i>=0;i--){var p=SP[i];p[2]-=.012;if(p[2]<=0){SP.splice(i,1);continue}x.fillStyle='rgba(120,235,255,'+(p[2]*.8).toFixed(3)+')';x.beginPath();x.arc(p[0],p[1],2.2,0,7);x.fill()}});return L};
 
 })();
