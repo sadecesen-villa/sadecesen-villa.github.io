@@ -4,6 +4,121 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-16 (rev 66, hourly sets 09:00–02:00, days/2026-11-16.json) · Monday
+
+No pending requests in requests.md. 6 new hz scenes: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold. hzquote now accepts optional lb/by so non-Rumi lines (proverbs, Yunus Emre) are labelled correctly (rev 65 had shown Yunus Emre/proverb lines under the Mevlânâ label). 41 new CC/PD photos/artworks (m/h16-*). Quotes: Sabah rüzgârının sana söyleyecek sırları var (Mevlânâ, 09); Doğru ve yanlış fikirlerinin ötesinde bir çayır var (Mevlânâ, 11); Kendini küçük görme; sen coşkuyla dönen bir evrensin (Mevlânâ, 21); Herkes belli bir iş için yaratıldı (Mevlânâ, 22); Gün doğmadan neler doğar (atasözü, 23).
+
+### 09:00–10:00 · Pazartesi Sabahı · Monday Morning
+- 09 | hzphoto | İnceburun Feneri — Türkiye’nin en kuzey ucunda yeni bir haftanın sabahı | m/h16-inceburun.jpg
+- 09 | hzquote | Sabah rüzgârının sana söyleyecek sırları var; uykuya geri dönme | —
+- 09 | hzphoto | Mahakampos Yaylası — bulutların hemen üstünde ahşap yayla evleri | m/h16-mahakampos.jpg
+- 09 | hzfact | “Pazartesi” kelimesi “pazar ertesi”nden gelir: pazar gününden sonraki gün | —
+- 09 | hzphoto | Palovit Şelalesi — ormanın içinden dökülen beyaz bir perde | m/h16-palovit.jpg
+- 09 | hzriddle | Sözlükte her zaman “yanlış” yazılan kelime hangisi? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Doğanın Formülleri · Living Art: Nature’s Formulas
+- 10 | hzfern | NEW Barnsley fern (4 random affine rules) | —
+- 10 | hzphoto | Açılmaya hazırlanan bir eğreltiotu sürgünü — doğanın sarmalı | m/h16-fiddlehead.jpg
+- 10 | hzphoto | İçinden kesilmiş bir nautilus kabuğu: her oda bir öncekinden biraz büyük | m/h16-nautilus.jpg
+- 10 | hzriddle | Kökleri ve dalları var; ama ne gölgesi var ne meyvesi. Nedir? | —
+
+### 11:00–12:00 · Galeri: Bahçede · Gallery: In the Garden
+- 11 | hzphoto | Karanfil, Zambak, Zambak, Gül — John Singer Sargent, 1885–86 | m/h16-sargent.jpg
+- 11 | hzphoto | Süsenler — Vincent van Gogh, 1889 | m/h16-irises.jpg
+- 11 | hzphoto | Sainte-Adresse’de Teras — Claude Monet, 1867 | m/h16-vetheuil.jpg
+- 11 | hzphoto | Portakal Ağaçları — Gustave Caillebotte, 1878 | m/h16-orangetrees.jpg
+- 11 | hzphoto | Ayçiçekli Köy Bahçesi — Gustav Klimt, yaklaşık 1907 | m/h16-klimtgarden.jpg
+- 11 | hzquote | Doğru ve yanlış fikirlerinin ötesinde bir çayır var; seninle orada buluşacağım | —
+
+### 12:00–13:00 · Zekice Düşünce · Clever Thinking
+- 12 | hzhilbert | NEW Hilbert space-filling curve, orders 1–6 | —
+- 12 | hzsteps | Fermi tahmini: Bir insan hayatı boyunca kaç kez göz kırpar? | —
+- 12 | hzphoto | Soroban: elektriksiz bir hesap makinesi | m/h16-soroban.jpg
+- 12 | hzsteps | Ockham’ın Usturası: iki açıklama da uyuyorsa hangisini seçersin? | —
+- 12 | hzriddle | Bir saatin akrebi ile yelkovanı bir günde kaç kez üst üste gelir? | —
+- 12 | hzfact | Google adını “googol”dan aldı: 1’in ardından 100 sıfır | —
+
+### 13:00–14:00 · Düşünce Deneyleri · Thought Experiments
+- 13 | hzsteps | Platon’un Mağarası: hayatı boyunca yalnızca gölgeleri gören insanlar… | —
+- 13 | hzphoto | Karagöz, Hacivat ve Tiryaki — perdenin arkasında ışıkla canlanan deri tasvirler | m/h16-karagoz.jpg
+- 13 | hzsteps | Deneyim Makinesi: istediğin her hayatı yaşatan bir makineye bağlanır mıydın? | —
+- 13 | hzphoto | Kutuya sığmayı seven kediler | m/h16-catbox.jpg
+- 13 | hzsteps | Sonsuz Tekrar: bugünü sonsuza dek yeniden yaşayacak olsaydın… | —
+- 13 | hzriddle | Bir adam bir fotoğrafa bakıp diyor: “Kardeşim yok; ama bu adamın babası babamın oğlu.” Fotoğraftaki kim? | —
+
+### 14:00–15:00 · Villa Fikirleri: Butik Otel Ayrıntıları · Villa Ideas: Boutique-Hotel Details
+- 14 | hzphoto | Yosunun üstünde basamak taşları ve bir taş fener: insanı yavaşlatan bir yol | m/h16-stepping.jpg
+- 14 | hzphoto | Pencerelerin önünde duran ayaklı bir küvet — bir butik otel süitinden | m/h16-bathtub.jpg
+- 14 | hzphoto | Verandada bir salıncak: akşam çayının en sevilen köşesi | m/h16-porchswing.jpg
+- 14 | hzsteps | Akşam hizmeti (turndown): misafir odasına döndüğünde… | —
+- 14 | hzfact | “Butik otel” deyimi, 1984’te New York’ta açılan Morgans Hotel için kullanıldı: dev bir zincir değil, küçük, kişisel ve özenle tasarlanmış | —
+
+### 15:00–16:00 · Göz Oyunları · Tricks of the Eye
+- 15 | hzshepard | NEW Shepard tables illusion (identical tops, overlay rotates) | —
+- 15 | hzguess | Bu ne? Çok, çok yakından çekildi… | m/h16-wingscales.jpg
+- 15 | hzbezold | NEW Bezold/Munker colour assimilation (same red on yellow vs blue stripes) | —
+- 15 | hzfact | İnsan gözü tahminen bir milyon kadar renk tonunu ayırt edebilir — hem de yalnızca üç tür koni hücresiyle | —
+- 15 | hzriddle | Gözlerin kapalıyken bile görebildiğin şey nedir? | —
+
+### 16:00–17:00 · Ölçek Yolculuğu: Uzay ve Zaman · Scale Journey: Space & Time
+- 16 | hzorrery | NEW orrery — inner planets + Jupiter at true period ratios (1 yr = 12 s) | —
+- 16 | hzsteps | Bir milyon, bir milyar, bir trilyon… saniye olarak ne kadar? | —
+- 16 | hzphoto | Güneş’ten fırlayan dev bir plazma bulutu (koronal kütle atımı) | m/h16-sdo.jpg
+- 16 | hzphoto | Ay, Dünya’nın önünden geçerken — bize hiç göstermediği yüzüyle | m/h16-dscovr.jpg
+- 16 | hzfact | Neptün 1846’da keşfedildi ve Güneş’in çevresindeki ilk tam turunu ancak 2011’de tamamladı | —
+
+### 17:00–18:00 · Işığın Oyunları · Tricks of Light
+- 17 | hzphoto | Güneşin yanında ikinci bir “güneş”: güneş köpeği (parhelion) | m/h16-sundog.jpg
+- 17 | hzphoto | Güneşin çevresinde kusursuz bir halka: 22 derecelik hale | m/h16-halo.jpg
+- 17 | hzphoto | Kendi gölgenin çevresinde renkli bir halka: Brocken tayfı ve “glory” | m/h16-glory.jpg
+- 17 | hzphoto | Güneş batarken son anda beliren yeşil ışık — kare kare | m/h16-greenflash.jpg
+- 17 | hzphoto | Soğuk bir kış gecesinde gökyüzüne yükselen ışık sütunları | m/h16-pillars.jpg
+- 17 | hzphoto | Bulutta yatay bir gökkuşağı: ufka paralel yay | m/h16-circumhorizontal.jpg
+
+### 18:00–19:00 · Trabzon’un Hikâyeleri · Stories of Trabzon
+- 18 | hzphoto | Kostaki Konağı — bugün Trabzon Müzesi | m/h16-kostaki.jpg
+- 18 | hzphoto | Gülbahar Hatun Camii’nin içi — 1514 | m/h16-gulbahar.jpg
+- 18 | hzphoto | Zağnos Köprüsü ve vadisi — eski surların dibinde bir park | m/h16-zagnos.jpg
+- 18 | hzphoto | Kızlar Manastırı — kayaya yaslanan 14. yüzyıldan bir manastır | m/h16-theoskepastos.jpg
+- 18 | hzfact | 19. yüzyılda İran’ın Avrupa ile ticaretinin büyük bölümü Trabzon limanından, Zigana Geçidi üzerinden Tebriz’e giden kervan yolundan geçerdi | —
+
+### 19:00–20:00 · Galeri: Aynı Yer, Farklı Işık · Gallery: Same Place, Different Light
+- 19 | hzphoto | Saman Yığınları, Yaz Sonu — Claude Monet, 1891 | m/h16-haystack1.jpg
+- 19 | hzphoto | Saman Yığınları, Kar Etkisi — Claude Monet, 1891 | m/h16-haystack2.jpg
+- 19 | hzphoto | Rouen Katedrali, Batı Cephesi, Güneş Işığı — Claude Monet, 1894 | m/h16-rouen1.jpg
+- 19 | hzphoto | Rouen Katedrali, Sabah Etkisi — Claude Monet, 1894 | m/h16-rouen2.jpg
+- 19 | hzphoto | Londra Parlamentosu, Gün Batımı — Claude Monet, 1903 | m/h16-parliament.jpg
+- 19 | hzsteps | Monet gibi bak: yarın pencereden aynı manzaraya üç kez bak | —
+
+### 20:00–21:00 · Anadolu’dan Dâhiler · Genius Machines
+- 20 | hzphoto | Fil Saati — el-Cezerî’nin kitabından bir sayfa | m/h16-elephantclock.jpg
+- 20 | hzsteps | Fil saati nasıl çalışır? Suyla ölçülen yarım saat | —
+- 20 | hzphoto | Takiyüddin ve gökbilimciler, İstanbul Rasathanesi — Şehinşahname minyatürü, 1581 | m/h16-takiyuddin.jpg
+- 20 | hzfact | “Robot” kelimesi 1920’de Çek yazar Karel Čapek’in bir tiyatro oyununda doğdu; Çekçe “robota”, yani angarya, zorunlu iş | —
+- 20 | hzriddle | Kumdan yapılır, kumla çalışır ve zamanı söyler. Nedir? | —
+
+### 21:00–22:00 · Kelimelerin Yolculuğu · Journeys of Words
+- 21 | hzphoto | Bağdat Köşkü — İngilizcedeki “kiosk” kelimesi Türkçe “köşk”ten geliyor | m/h16-bagdatkosku.jpg
+- 21 | hzphoto | Yoğurtla yapılan cacık — “yoğurt” bugün onlarca dilde neredeyse aynı söyleniyor | m/h16-yogurt.jpg
+- 21 | hzsteps | “Divan” kelimesinin şaşırtıcı yolculuğu | —
+- 21 | hzfact | İngilizcedeki “horde” (kalabalık, sürü) kelimesi Türkçe “ordu”dan gelir; Lehçe “horda” üzerinden geçti | —
+- 21 | hzriddle | Hangisi tersten okununca da aynıdır: “kabak” mı, “kavun” mu? | —
+- 21 | hzquote | Kendini küçük görme; sen coşkuyla dönen bir evrensin | —
+
+### 22:00–23:00 · Kasım Gecesi: Leonidler · November Night: The Leonids (sakin · calm)
+- 22 | hzphoto | Gecenin içinde aynı anda iki yıldız kayması | m/h16-meteor.jpg
+- 22 | hzquote | Herkes belli bir iş için yaratıldı; o işin arzusu her kalbe konuldu | —
+- 22 | hzphoto | 1966 Leonid fırtınası: dört fotoğraf karesinde yağan yıldızlar | m/h16-leonids.jpg
+- 22 | hzfact | Leonid meteorları atmosfere saniyede yaklaşık 71 km hızla girer — en hızlı yıldız kaymalarından | —
+- 22 | hzsteps | Yıldız kayması izlemek için dört sakin adım | —
+
+### 23:00–02:00 · Fener Işığı · Lighthouse Light (sakin · calm)
+- 23 | hzfener | NEW lighthouse beam over the night sea (calm night illustration) | —
+- 23 | hzquote | Gün doğmadan neler doğar | —
+- 23 | hzphoto | Kış uykusuna hazırlanan bir fındık faresi | m/h16-dormouse.jpg
+- 23 | hzsteps | Uyumadan önce: yarına küçük bir hediye | —
+- 23 | hzfact | Dünyanın en ünlü ilk deniz feneri İskenderiye Feneri’ydi; yüksekliğinin 100 metreyi aştığı düşünülüyor | —
+
 ## 2026-11-15 · evening rework (rev 65, sets 18:00–02:00 rebuilt ~18:50 for a calm night alone)
 
 M came home alone after staying with Şerif and his family; he asked for the TV to be updated. Sets 18–23 were replaced with quiet, peaceful content (Black Sea and Trabzon/Rize landscapes, misty yaylas, still-water photographs, soft gallery paintings, starry skies, and short lines from Yunus Emre, Mevlânâ and Turkish proverbs about peace, gratitude and friendship). No games, quizzes, illusions, generators or party themes. The loss is not named on screen. The original 18–23 sets in the 2026-11-15 section below: the 18:00 set aired for about 50 minutes before this rebuild; 19–23 never aired (count them as used anyway). No new hz functions. h14-* images archived to /workspace/tv-media-archive/h14 (site was 48 MB). 20 new CC/PD photos/artworks (m/h15-*). Quotes used: Ben gelmedim dava için; benim işim sevi için (Yunus Emre, 18), Kanaat tükenmez bir hazinedir (atasözü, 19), Yaratılanı hoş gör, Yaradan’dan ötürü (Yunus Emre, 20), Sular durulsun; ayı ve yıldızları kendi içinde görürsün (Mevlânâ, 21), Şükrü bir örtü gibi giy (Mevlânâ, 22), Bir fincan kahvenin kırk yıl hatırı vardır (atasözü, 23).

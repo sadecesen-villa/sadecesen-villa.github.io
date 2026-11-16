@@ -438,3 +438,46 @@ m/h15-sisley.jpg — Alfred Sisley - Fog, Voisins - Google Art Project.jpg — A
 m/h15-starlake.jpg — Starry constellations over Glacier National Park (26368402193).jpg — Jacob W. Frank, National Park Service — Public domain — https://commons.wikimedia.org/wiki/File:Starry_constellations_over_Glacier_National_Park_(26368402193).jpg
 m/h15-unyesea.jpg — Ünye, Çamlık, outcrops on the coastline.jpg — Mahrujan — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%C3%9Cnye,_%C3%87aml%C4%B1k,_outcrops_on_the_coastline.jpg
 m/h15-zilkale.jpg — Zilkale, Çamlıhemşin,Rize 2014-5.jpg — Hamdigumus — CC0 — https://commons.wikimedia.org/wiki/File:Zilkale,_%C3%87aml%C4%B1hem%C5%9Fin,Rize_2014-5.jpg
+
+## 2026-11-16 (days/2026-11-16.json, m/h16-*)
+m/h16-bagdatkosku.jpg — Baghdad Kiosk at the Topkapı Palace in Istanbul, Turkey 001.JPG — Moonik — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Baghdad_Kiosk_at_the_Topkap%C4%B1_Palace_in_Istanbul,_Turkey_001.JPG
+m/h16-bathtub.jpg — Bathtub of Khan Pool Suite in Amantaka luxury Resort & Hotel in Luang Prabang Laos.jpg — Basile Morin — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bathtub_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg
+m/h16-catbox.jpg — Cats in cardboard boxes Philippines.jpg — FBenjr123 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Cats_in_cardboard_boxes_Philippines.jpg
+m/h16-circumhorizontal.jpg — Circumhorizontal arc Rennes.jpg — Eusebius — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Circumhorizontal_arc_Rennes.jpg
+m/h16-dormouse.jpg — Haselmaus.jpg — Danielle Schwarz — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Haselmaus.jpg
+m/h16-dscovr.jpg — Globe epc 2015198 lrg.jpg — NASA image courtesy of the DSCOVR EPIC team. DSCOVR is a partnership between NASA, NOAA and the U.S. Air Force, with the primary objective of maintaining the nation’s real-time solar wind monitoring capabilities. — Public domain — https://commons.wikimedia.org/wiki/File:Globe_epc_2015198_lrg.jpg
+m/h16-elephantclock.jpg — "The Elephant Clock", Folio from a Book of the Knowledge of Ingenious Mechanical Devices by al-Jazari MET DP234075.jpg — al-Jazari — CC0 — https://commons.wikimedia.org/wiki/File:%22The_Elephant_Clock%22,_Folio_from_a_Book_of_the_Knowledge_of_Ingenious_Mechanical_Devices_by_al-Jazari_MET_DP234075.jpg
+m/h16-fiddlehead.jpg — Unfurling Spiral Fiddlehead Fern Frond.JPG — Wingchi Poon — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Unfurling_Spiral_Fiddlehead_Fern_Frond.JPG
+m/h16-glory.jpg — Solar glory and Spectre of the Brocken from GGB on 07-05-2011.jpg — Brocken Inaglory — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Solar_glory_and_Spectre_of_the_Brocken_from_GGB_on_07-05-2011.jpg
+m/h16-greenflash.jpg — Development of Green Flash.jpg — Brocken Inaglory — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Development_of_Green_Flash.jpg
+m/h16-gulbahar.jpg — Trebisonda, moschea di Gülbahar Hatun, completata nel 1514 da selim in onore di sua madre, interno, minbar 05.jpg — Francesco Bini — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trebisonda,_moschea_di_G%C3%BClbahar_Hatun,_completata_nel_1514_da_selim_in_onore_di_sua_madre,_interno,_minbar_05.jpg
+m/h16-halo.jpg — 2024-03-01 - Cirrostratus - halo (22 deg) centered on sun - DSN2151-1.jpg — Franz van Duns — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:2024-03-01_-_Cirrostratus_-_halo_(22_deg)_centered_on_sun_-_DSN2151-1.jpg
+m/h16-haystack1.jpg — Claude Monet - Haystacks, end of Summer - Google Art Project.jpg — Claude Monet — Public domain — https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Haystacks,_end_of_Summer_-_Google_Art_Project.jpg
+m/h16-haystack2.jpg — Claude Monet - Haystacks, Snow Effect - NG 2283 - National Galleries of Scotland.jpg — Claude Monet — Public domain — https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Haystacks,_Snow_Effect_-_NG_2283_-_National_Galleries_of_Scotland.jpg
+m/h16-inceburun.jpg — İnceburun lighthouse.jpg — Nedim Ardoğa — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%C4%B0nceburun_lighthouse.jpg
+m/h16-irises.jpg — Vincent van Gogh - Irises (1889).jpg — Vincent van Gogh — Public domain — https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Irises_(1889).jpg
+m/h16-karagoz.jpg — Karagöz and Hacivat - Karagöz, Hacivat and Tiryaki.jpg — Credits to Mourad Ben Abdallah / Wikimedia Commons — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Karag%C3%B6z_and_Hacivat_-_Karag%C3%B6z,_Hacivat_and_Tiryaki.jpg
+m/h16-klimtgarden.jpg — Klimt - Bauerngarten mit Sonnenblumen - ca1907.jpeg — Gustav Klimt — Public domain — https://commons.wikimedia.org/wiki/File:Klimt_-_Bauerngarten_mit_Sonnenblumen_-_ca1907.jpeg
+m/h16-kostaki.jpg — Trabzon Museum 1.jpg — PlanetKorriban — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Trabzon_Museum_1.jpg
+m/h16-leonids.jpg — Four views of the Leonid meteor shower of 1966 Noao-4127A.jpg — NOIRLab/NSF/AURA — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Four_views_of_the_Leonid_meteor_shower_of_1966_Noao-4127A.jpg
+m/h16-mahakampos.jpg — Mahakampos, Çaykara.jpg — İhsan Deniz Kılıçoğlu — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mahakampos,_%C3%87aykara.jpg
+m/h16-meteor.jpg — Double Meteor (134048953).jpeg — 卓珺 黄 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Double_Meteor_(134048953).jpeg
+m/h16-nautilus.jpg — Inside Nautilus Pompilius.jpg — Philippe Alès — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Inside_Nautilus_Pompilius.jpg
+m/h16-orangetrees.jpg — Gustave Caillebotte - The Orange Trees - Google Art Project.jpg — Gustave Caillebotte — Public domain — https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_The_Orange_Trees_-_Google_Art_Project.jpg
+m/h16-palovit.jpg — Palovit Waterfall 2.jpg — Kharkil — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Palovit_Waterfall_2.jpg
+m/h16-parliament.jpg — Monet w1604.jpg — Claude Monet — Public domain — https://commons.wikimedia.org/wiki/File:Monet_w1604.jpg
+m/h16-pillars.jpg — Close-up of Light Pillars during a cold January winter night in Stockholm, Sweden.JPG — Raitisfreimanis — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Close-up_of_Light_Pillars_during_a_cold_January_winter_night_in_Stockholm,_Sweden.JPG
+m/h16-porchswing.jpg — Porch swing from behind.jpg — blgrssby from St. Louis, United States — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Porch_swing_from_behind.jpg
+m/h16-rouen1.jpg — Claude Monet - Rouen Cathedral, West Façade, Sunlight - Google Art Project.jpg — Claude Monet — Public domain — https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Rouen_Cathedral,_West_Fa%C3%A7ade,_Sunlight_-_Google_Art_Project.jpg
+m/h16-rouen2.jpg — Claude Monet - Rouen Cathedral Façade and Tour d'Albane (Morning Effect) - Google Art Project.jpg — Claude Monet — Public domain — https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Rouen_Cathedral_Fa%C3%A7ade_and_Tour_d%27Albane_(Morning_Effect)_-_Google_Art_Project.jpg
+m/h16-sargent.jpg — John Singer Sargent - Carnation, Lily, Lily, Rose - Google Art Project.jpg — John Singer Sargent — Public domain — https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Carnation,_Lily,_Lily,_Rose_-_Google_Art_Project.jpg
+m/h16-sdo.jpg — Magnificent CME Erupts on the Sun - August 31.jpg — NASA Goddard Space Flight Center — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Magnificent_CME_Erupts_on_the_Sun_-_August_31.jpg
+m/h16-soroban.jpg — Soroban (Abacus).JPG — Fisle — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Soroban_(Abacus).JPG
+m/h16-stepping.jpg — Stone lantern, stepping stones and Japanese maple on a moss lawn, Portland Japanese Garden.jpg — Z3lvs — CC0 — https://commons.wikimedia.org/wiki/File:Stone_lantern,_stepping_stones_and_Japanese_maple_on_a_moss_lawn,_Portland_Japanese_Garden.jpg
+m/h16-sundog.jpg — Sun dog with reflection over Brofjorden.jpg — W.carter — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sun_dog_with_reflection_over_Brofjorden.jpg
+m/h16-takiyuddin.jpg — Taqi al din.jpg — Ala ad-Din Mansur-Shirazi — Public domain — https://commons.wikimedia.org/wiki/File:Taqi_al_din.jpg
+m/h16-theoskepastos.jpg — Trabzon Kızlar Manastırı 4848.jpg — Dosseman — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trabzon_K%C4%B1zlar_Manast%C4%B1r%C4%B1_4848.jpg
+m/h16-vetheuil.jpg — Claude Monet - Jardin à Sainte-Adresse.jpg — Claude Monet — Public domain — https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg
+m/h16-wingscales.jpg — 2021-08-16 - Peacock butterfly (Aglais io) - eyespot on forewing - colourful scales - DSG3404-1 (magnif. ratio 2.2x, HiRes focus stack).jpg — Franz van Duns — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2021-08-16_-_Peacock_butterfly_(Aglais_io)_-_eyespot_on_forewing_-_colourful_scales_-_DSG3404-1_(magnif._ratio_2.2x,_HiRes_focus_stack).jpg
+m/h16-yogurt.jpg — Cacık in Turkey.jpg — E4024 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Cac%C4%B1k_in_Turkey.jpg
+m/h16-zagnos.jpg — Trebisonda, ponte di zağnos 01.jpg — Francesco Bini — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trebisonda,_ponte_di_za%C4%9Fnos_01.jpg

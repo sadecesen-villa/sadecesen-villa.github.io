@@ -1,6 +1,6 @@
-/* hourly.js v64 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v66 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -48,10 +48,10 @@ W.hzquote=function(L,it){var p=PAL[it.pal||'ink'],c=wCv(L),x=c.getContext('2d');
  x.strokeStyle=p[4];x.globalAlpha=.55;x.lineWidth=2;x.strokeRect(70,60,1780,960);x.globalAlpha=.3;x.strokeRect(84,74,1752,932);x.globalAlpha=1;
  var ln=it.tr.split('|');
  var nch=ln.join('').length,fs=it.fs? (it.fs/1920*100).toFixed(2)+'vw' : (nch>90?3.4:nch>55?4.0:4.6)+'vw';
- var h='<div class="lb" style="color:'+p[4]+';text-shadow:none;margin-bottom:1.6vh">Mevlânâ’dan · From Rumi</div>';
+ var h='<div class="lb" style="color:'+p[4]+';text-shadow:none;margin-bottom:1.6vh">'+(it.lb||'Mevlânâ’dan · From Rumi')+'</div>';
  for(i=0;i<ln.length;i++)h+='<div class="qln" style="font-size:'+fs+';color:'+p[2]+'"><span class="hzw" style="animation-delay:'+(1.2+i*4)+'s">'+ln[i]+'</span></div>';
  var qz=T(L,h,'',0.2);qz.className+=' hz-qzone';qz.style.textShadow='none';
- var attr=T(L,'<div style="width:6vw;height:2px;background:'+p[4]+';margin:0 auto 1.4vh"></div><div class="e" style="color:'+p[3]+';text-shadow:none;font-size:1.55vw">'+it.en+'</div><div class="sm" style="color:'+p[3]+';text-shadow:none">Mevlânâ’ya atfedilir · attributed to Rumi — yazı çizimi · lettering illustration</div>','',1.6);
+ var attr=T(L,'<div style="width:6vw;height:2px;background:'+p[4]+';margin:0 auto 1.4vh"></div><div class="e" style="color:'+p[3]+';text-shadow:none;font-size:1.55vw">'+it.en+'</div><div class="sm" style="color:'+p[3]+';text-shadow:none">'+(it.by||'Mevlânâ’ya atfedilir · attributed to Rumi')+' — yazı çizimi · lettering illustration</div>','',1.6);
  attr.className+=' hz-bot';attr.style.maxHeight='20vh';return L};
 
 W.hzriddle=function(L,it){grad(L,it.c1||'#1d2f3c',it.c2||'#05080c');var sec=it.sec||18;
@@ -750,5 +750,84 @@ W.hzyakamoz=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(170),SP=[],
    if(glow>0){x.strokeStyle='rgba(70,220,255,'+(.25+.6*glow).toFixed(3)+')';x.shadowColor='#39d4ff';x.shadowBlur=26*glow;x.lineWidth=3+5*glow;if(Math.random()<.5*glow)SP.push([Math.random()*1920,y+Math.random()*10,1])}
    x.beginPath();for(var px=0;px<=1920;px+=24){var yy=y+Math.sin(px*.006+t*.6+w)*amp+Math.sin(px*.017-t*.4)*amp*.4;if(px)x.lineTo(px,yy);else x.moveTo(px,yy)}x.stroke()}
   x.shadowBlur=0;for(i=SP.length-1;i>=0;i--){var p=SP[i];p[2]-=.012;if(p[2]<=0){SP.splice(i,1);continue}x.fillStyle='rgba(120,235,255,'+(p[2]*.8).toFixed(3)+')';x.beginPath();x.arc(p[0],p[1],2.2,0,7);x.fill()}});return L};
+
+/* ---------- v66 additions: hzfern hzhilbert hzorrery hzfener (living art / explainers; hzfener = calm night), hzshepard hzbezold (illusions) ---------- */
+/* Barnsley fern: four tiny rules picked at random grow a real-looking fern */
+W.hzfern=function(L,it){grad(L,'#0f1d16','#020504');var c=wCv(L),x=c.getContext('2d'),px=0,py=0,n=0,R=T(L,'','bottom:30px;left:40px;right:auto;text-align:left;width:440px',1),done=false;
+ T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — simülasyon · simulation','Dört küçük kural, rastgele seçiliyor… ve bir eğrelti otu büyüyor','Four tiny rules, picked at random… and a fern grows')+'</div>','top:22px',.4);
+ wLoop(L,function(t){var tg=t<8?Math.floor(t*40):Math.min(160000,Math.floor(320+(t-8)*(t-8)*90));
+  for(;n<tg;n++){var r=Math.random(),nx,ny;if(r<.01){nx=0;ny=.16*py}else if(r<.86){nx=.85*px+.04*py;ny=-.04*px+.85*py+1.6}else if(r<.93){nx=.2*px-.26*py;ny=.23*px+.22*py+1.6}else{nx=-.15*px+.28*py;ny=.26*px+.24*py+.44}px=nx;py=ny;
+   var sx=720+px*84,sy=1050-py*84,g=Math.floor(120+py*12);x.fillStyle='rgba('+Math.floor(60+py*6)+','+Math.min(235,g)+','+Math.floor(90+py*4)+','+(t<8?1:.8)+')';var s=t<8?5:1.6;x.fillRect(sx-s/2,sy-s/2,s,s)}
+  R.innerHTML='<div class="hzbox" style="padding:12px 28px"><div class="lb">Nokta · Points</div><div style="font-size:2.292vw">'+n.toLocaleString('tr-TR')+'</div><div class="sm">%85 büyüt · grow &nbsp; %7 sol yaprak · left leaf<br>%7 sağ yaprak · right leaf &nbsp; %1 sap · stem</div></div>';
+  if(t>34&&!done){done=true;T(L,'<div class="hzbox" style="max-width:40vw"><div class="a" style="font-size:1.7vw">Her yaprak, bütün eğrelti otunun küçük bir kopyası</div><div class="e" style="font-size:1.3vw">Every frond is a small copy of the whole fern — Michael Barnsley, 1988: the whole plant hides in just 28 numbers</div></div>','bottom:20px;left:auto;right:40px;width:40vw',.1)}});return L};
+
+/* Hilbert curve: one unbroken line that fills a square, order by order */
+W.hzhilbert=function(L,it){grad(L,'#171a2a','#040509');var c=wCv(L),x=c.getContext('2d'),S=680,X0=440,Y0=240,cache={};
+ function d2xy(n,d){var rx,ry,s,t=d,xx=0,yy=0;for(s=1;s<n;s*=2){rx=1&(t/2);ry=1&(t^rx);if(ry==0){if(rx==1){xx=s-1-xx;yy=s-1-yy}var tm=xx;xx=yy;yy=tm}xx+=s*rx;yy+=s*ry;t=Math.floor(t/4)}return[xx,yy]}
+ function pts(o){if(cache[o])return cache[o];var n=1<<o,P=[];for(var d=0;d<n*n;d++){var p=d2xy(n,d);P.push([X0+(p[0]+.5)*S/n,Y0+(p[1]+.5)*S/n])}return cache[o]=P}
+ T(L,'<div class="hzbox">'+hd('Zekice Düşünce · Clever Thinking — canlı çizim · live drawing','Kalemi hiç kaldırmadan, tek bir çizgiyle bir kareyi doldurabilir misin?','Can you fill a whole square with one line, without ever lifting the pen?')+'</div>','top:20px',.4);
+ var R=T(L,'','bottom:30px;left:40px;right:auto;text-align:left;width:380px',1),done=false;
+ wLoop(L,function(t){var o=Math.min(6,1+Math.floor(t/8)),f=Math.min(1,(t-(o-1)*8)/6.5);if(o==6)f=Math.min(1,(t-40)/9);var P=pts(o),m=Math.max(2,Math.floor(P.length*f));
+  x.clearRect(0,0,1920,1080);x.strokeStyle='rgba(255,255,255,.08)';x.lineWidth=2;x.strokeRect(X0,Y0,S,S);x.lineWidth=o<4?6:o<5?4:2.6;x.lineJoin='round';
+  for(var i=1;i<m;i++){x.strokeStyle='hsl('+Math.floor(170+i/P.length*190)+',70%,68%)';x.beginPath();x.moveTo(P[i-1][0],P[i-1][1]);x.lineTo(P[i][0],P[i][1]);x.stroke()}
+  R.innerHTML='<div class="hzbox" style="padding:12px 28px"><div class="lb">Aşama · Order '+o+'</div><div style="font-size:1.6vw">'+(P.length).toLocaleString('tr-TR')+' kare · squares</div><div class="sm">Her aşamada çizgi 2 kat uzar<br>The line doubles in length each step</div></div>';
+  if(t>49&&!done){done=true;T(L,'<div class="hzbox" style="max-width:40vw"><div class="a" style="font-size:1.6vw">David Hilbert, 1891: sonsuz aşamada çizgi karenin her noktasından geçer</div><div class="e" style="font-size:1.25vw">At infinite order the line passes through every point of the square. Points close on the line stay close on the map — used today to sort map data and pixels</div></div>','bottom:20px;left:auto;right:40px;width:40vw',.1)}});return L};
+
+/* Orrery: the inner planets with their true speed ratios (1 Earth year = 12 s) */
+W.hzorrery=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(220),CX=960,CY=610,K=.42,Y=12,
+ PL=[['Merkür · Mercury',87.97,135,7,'#b9b2a8'],['Venüs · Venus',224.7,210,11,'#e9d8b0'],['Dünya · Earth',365.26,290,12,'#5fa8d3'],['Mars',686.98,380,9,'#d77a55'],['Jüpiter · Jupiter',4332.6,540,22,'#d8b99a']],TR=[];
+ T(L,'<div class="hzbox">'+hd('Ölçek Yolculuğu · Scale Journey — simülasyon · simulation','Gezegenler gerçek hız oranlarıyla dönüyor: 1 Dünya yılı = 12 saniye','The planets turning at their true relative speeds — 1 Earth year = 12 seconds')+'</div>','top:20px',.4);
+ var R=T(L,'','bottom:30px;left:40px;right:auto;text-align:left;width:400px',1),done=false;
+ wLoop(L,function(t){x.fillStyle='#03050b';x.fillRect(0,0,1920,1080);drawStars(x,S,t);var days=t/Y*365.26;
+  var g=x.createRadialGradient(CX,CY,0,CX,CY,70);g.addColorStop(0,'#fff6d8');g.addColorStop(.35,'#ffc966');g.addColorStop(1,'rgba(255,150,60,0)');x.fillStyle=g;x.beginPath();x.arc(CX,CY,70,0,7);x.fill();
+  for(var i=0;i<PL.length;i++){var p=PL[i],a=-days/p[1]*Math.PI*2+i,px=CX+Math.cos(a)*p[2],py=CY+Math.sin(a)*p[2]*K;
+   x.strokeStyle='rgba(160,180,200,.18)';x.lineWidth=1.5;x.beginPath();x.ellipse(CX,CY,p[2],p[2]*K,0,0,7);x.stroke();
+   if(i==2){TR.push([px,py]);if(TR.length>90)TR.shift();x.strokeStyle='rgba(95,168,211,.5)';x.lineWidth=3;x.beginPath();for(var j=0;j<TR.length;j++){if(j)x.lineTo(TR[j][0],TR[j][1]);else x.moveTo(TR[j][0],TR[j][1])}x.stroke()}
+   x.fillStyle=p[4];x.beginPath();x.arc(px,py,p[3],0,7);x.fill();x.fillStyle='rgba(230,236,240,.75)';x.font='20px Helvetica,Arial';x.fillText(p[0],px+p[3]+8,py+6)}
+  R.innerHTML='<div class="hzbox" style="padding:12px 28px"><div class="lb">Geçen süre · Time passed</div><div style="font-size:2vw">'+(days/365.26).toFixed(1).replace('.',',')+' yıl · years</div><div class="sm">Uzaklıklar ölçeksiz · distances not to scale</div></div>';
+  if(t>30&&!done){done=true;T(L,'<div class="hzbox" style="max-width:58vw"><div class="a" style="font-size:1.8vw">Merkür 88 günde, Mars 687 günde, Jüpiter neredeyse 12 yılda bir tur atar</div><div class="e" style="font-size:1.25vw">Mercury laps the Sun in 88 days, Mars in 687, Jupiter in almost 12 years — at this speed one Jupiter year would take 2.4 minutes</div></div>','bottom:20px;left:auto;right:40px;width:58vw',.1)}});return L};
+
+/* Shepard tables: two table tops that are exactly the same shape */
+W.hzshepard=function(L,it){L.style.background='#ece6da';var c=wCv(L),x=c.getContext('2d'),E1=[150,-300],E2=[120,45];
+ function rot(v,a){return[v[0]*Math.cos(a)-v[1]*Math.sin(a),v[0]*Math.sin(a)+v[1]*Math.cos(a)]}
+ function top(cx,cy,a){var e1=rot(E1,a),e2=rot(E2,a),p0=[cx-(e1[0]+e2[0])/2,cy-(e1[1]+e2[1])/2];return[p0,[p0[0]+e1[0],p0[1]+e1[1]],[p0[0]+e1[0]+e2[0],p0[1]+e1[1]+e2[1]],[p0[0]+e2[0],p0[1]+e2[1]]]}
+ function poly(P,f,s,w){x.beginPath();x.moveTo(P[0][0],P[0][1]);for(var i=1;i<P.length;i++)x.lineTo(P[i][0],P[i][1]);x.closePath();if(f){x.fillStyle=f;x.fill()}if(s){x.strokeStyle=s;x.lineWidth=w||3;x.stroke()}}
+ function table(P){var th=22,LG=150;var lo=P.slice().sort(function(a,b){return b[1]-a[1]});
+  for(var i=0;i<4;i++){var q=P[i];x.fillStyle='#5a3b26';x.fillRect(q[0]-9,q[1],18,LG)}
+  for(i=0;i<4;i++){var a=P[i],b=P[(i+1)%4];if(a[1]+b[1]>lo[2][1]+lo[3][1]-1)poly([a,b,[b[0],b[1]+th],[a[0],a[1]+th]],'#7a5034')}
+  poly(P,'#b5835a','#4b311f',3)}
+ var A=top(640,600,0),B=top(1290,620,Math.PI/2),done=false;
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)">'+hd('Göz Oyunu · Optical Illusion','Hangi masanın üstü daha uzun ve ince?','Which table top is longer and thinner?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="background:rgba(20,24,28,.85)"><div class="a" style="font-size:1.9vw">İki masa üstü birebir aynı! Biri yalnızca döndürülmüş</div><div class="e" style="font-size:1.3vw">The two table tops are exactly the same shape — one is just turned. The brain “corrects” for depth and stretches the one going away</div><div class="sm">Shepard masaları · Shepard tables — Roger Shepard, 1990</div></div>','bottom:18px',20);
+ wLoop(L,function(t){x.fillStyle='#ece6da';x.fillRect(0,0,1920,1080);table(A);table(B);
+  var m=t<20?0:t<26?ease((t-20)/6):t<34?1:t<38?1-ease((t-34)/4):0;
+  if(m>0){var cx=640+(1290-640)*m,cy=600+20*m,P=top(cx,cy,Math.PI/2*m);poly(P,'rgba(255,107,74,.35)','#ff6b4a',5)}});return L};
+
+/* Bezold / Munker effect: the same red looks orange on yellow stripes and purple on blue stripes */
+W.hzbezold=function(L,it){L.style.background='#14171c';var c=wCv(L),x=c.getContext('2d'),RED='#e8433a',SW=10;
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','Ortadaki iki karenin rengi aynı mı?','Are the two squares in the middle the same colour?')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.9vw">Evet: ikisi de aynı kırmızı! Komşu çizgiler rengi kendine çekiyor</div><div class="e" style="font-size:1.3vw">Yes — both are the very same red. The neighbouring stripes pull the colour towards themselves (colour assimilation)</div><div class="sm">Bezold etkisi · Bezold effect — Wilhelm von Bezold, 1874 · Munker illüzyonu · Munker illusion</div></div>','bottom:18px',20);
+ function panel(X,col,fade){for(var y=0;y<520;y+=SW){var k=(y/SW)%2,inSq=y>=130&&y<390;var px0=X,px1=X+600;
+  if(k==0){x.fillStyle=col;x.globalAlpha=1-fade;x.fillRect(px0,280+y,600,SW);x.globalAlpha=1}else{x.fillStyle='#14171c';x.fillRect(px0,280+y,600,SW)}
+  if(inSq&&k==1){x.fillStyle=RED;x.fillRect(X+170,280+y,260,SW)}
+  if(inSq&&k==0&&fade>0){x.fillStyle='#14171c';x.globalAlpha=fade;x.fillRect(X+170,280+y,260,SW);x.globalAlpha=1}}}
+ wLoop(L,function(t){var f=t<20?0:t<24?ease((t-20)/4):t<34?1:t<38?1-ease((t-34)/4):0;x.fillStyle='#14171c';x.fillRect(0,0,1920,1080);panel(250,'#ffd21f',f);panel(1070,'#2f55ff',f)});return L};
+
+/* Lighthouse: a slow beam turning over the night sea (calm night) */
+W.hzfener=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(200),HY=620,LX=1450,LY=360,P=10;
+ T(L,hd('Deniz Feneri · Lighthouse — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Gece boyunca usulca dönen bir deniz feneri','A lighthouse turning slowly through the night'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Her fenerin kendine özgü bir çakma düzeni vardır; denizciler feneri ışığının ritminden tanır. Bu hayalî fener her 10 saniyede bir döner<br><i>Every lighthouse has its own flash pattern — sailors recognise it by the rhythm of its light. This imagined one turns once every 10 seconds</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,HY);g.addColorStop(0,'#02040a');g.addColorStop(1,'#0c1626');x.fillStyle=g;x.fillRect(0,0,1920,HY);drawStars(x,S.filter(function(s){return s[1]<HY-10}),t);
+  var sg=x.createLinearGradient(0,HY,0,1080);sg.addColorStop(0,'#0a1424');sg.addColorStop(1,'#02040a');x.fillStyle=sg;x.fillRect(0,HY,1920,1080-HY);
+  var a=(t%P)/P*Math.PI*2,cs=Math.cos(a),sn=Math.sin(a),len=1900,vis=.5+.5*sn;
+  x.save();x.globalCompositeOperation='lighter';var w=.07+.05*(1-Math.abs(cs));var bx=LX+cs*len,by=LY+Math.abs(sn)*40-30;
+  var bg=x.createLinearGradient(LX,LY,bx,by);bg.addColorStop(0,'rgba(255,244,214,'+(.35+.25*vis).toFixed(3)+')');bg.addColorStop(1,'rgba(255,244,214,0)');x.fillStyle=bg;x.beginPath();x.moveTo(LX,LY);x.lineTo(bx,by-len*w);x.lineTo(bx,by+len*w);x.closePath();x.fill();
+  var gl=x.createRadialGradient(LX,LY,0,LX,LY,60+140*Math.pow(vis,6));gl.addColorStop(0,'rgba(255,248,226,.95)');gl.addColorStop(1,'rgba(255,240,200,0)');x.fillStyle=gl;x.beginPath();x.arc(LX,LY,220,0,7);x.fill();
+  for(var r=0;r<26;r++){var yy=HY+10+r*r*.62,ww=6+r*3.2,al=(.22-r*.007)*(.4+.6*vis);if(al<=0)break;x.fillStyle='rgba(255,236,190,'+al.toFixed(3)+')';x.fillRect(LX-ww/2+Math.sin(t*.8+r)*6,yy,ww,2)}x.restore();
+  x.fillStyle='#07090d';x.beginPath();x.moveTo(1180,HY+4);x.quadraticCurveTo(1320,520,1420,505);x.lineTo(1500,500);x.quadraticCurveTo(1640,520,1800,HY+4);x.closePath();x.fill();
+  x.fillStyle='#d9dde2';x.beginPath();x.moveTo(1428,505);x.lineTo(1436,385);x.lineTo(1464,385);x.lineTo(1472,505);x.closePath();x.fill();
+  x.fillStyle='#9a3b34';x.fillRect(1434,440,32,18);x.fillRect(1431,475,38,14);x.fillStyle='#1b2028';x.fillRect(1438,346,24,34);x.beginPath();x.moveTo(1432,348);x.lineTo(1450,326);x.lineTo(1468,348);x.closePath();x.fill();
+  for(var wv=0;wv<5;wv++){var wy=HY+40+wv*80+Math.sin(t*.4+wv)*4;x.strokeStyle='rgba(120,140,170,.10)';x.lineWidth=2;x.beginPath();for(var px=0;px<=1920;px+=40){var q=wy+Math.sin(px*.005+t*.5+wv)*4;if(px)x.lineTo(px,q);else x.moveTo(px,q)}x.stroke()}});return L};
+
 
 })();

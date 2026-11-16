@@ -1,0 +1,1244 @@
+{
+ "date": "2026-11-16",
+ "rev": 66,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-16.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-16-09",
+   "name": "Pazartesi Sabahı · Monday Morning",
+   "from": "2026-11-16T09:00",
+   "until": "2026-11-16T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-inceburun.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İnceburun, Sinop",
+     "tr": "İnceburun Feneri — Türkiye’nin en kuzey ucunda yeni bir haftanın sabahı",
+     "en": "İnceburun Lighthouse — a new week’s morning at the northern tip of Türkiye",
+     "cr": "Foto · Photo: Nedim Ardoğa · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Anadolu’nun en kuzey noktası, yaklaşık 42° kuzey enleminde; fener 19. yüzyıldan beri gemilere yol gösteriyor",
+     "facte": "The northernmost point of Anatolia, at about 42° north — the lighthouse has guided ships since the 19th century",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Sabah rüzgârının sana söyleyecek|sırları var; uykuya geri dönme",
+     "en": "The breeze at dawn has secrets to tell you — don’t go back to sleep",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-mahakampos.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çaykara, Trabzon",
+     "tr": "Mahakampos Yaylası — bulutların hemen üstünde ahşap yayla evleri",
+     "en": "Mahakampos plateau — wooden highland houses just above the clouds",
+     "cr": "Foto · Photo: İhsan Deniz Kılıçoğlu · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bu evlerin çoğu yalnızca yazın açılır; kışın yayla karın altında sessizce bekler",
+     "facte": "Most of these houses open only in summer — in winter the plateau waits quietly under the snow"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Pazartesi",
+     "tr": "“Pazartesi” kelimesi “pazar ertesi”nden gelir: pazar gününden sonraki gün",
+     "en": "“Pazartesi” (Monday) comes from “pazar ertesi” — the day after market day",
+     "src": "Cumartesi de aynı mantıkla: “cuma ertesi” · Saturday too: “cuma ertesi”, the day after Friday",
+     "c1": "#22301f",
+     "c2": "#050805"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-palovit.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çamlıhemşin, Rize",
+     "tr": "Palovit Şelalesi — ormanın içinden dökülen beyaz bir perde",
+     "en": "Palovit Waterfall — a white curtain falling through the forest",
+     "cr": "Foto · Photo: Kharkil · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Aynı adı taşıyan Palovit Yaylası’na giden yolun üzerinde; yürüyüşçülerin sevdiği bir mola yeri",
+     "facte": "On the road up to the Palovit plateau of the same name — a favourite stop for walkers",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Sözlükte her zaman<br>“yanlış” yazılan kelime hangisi?",
+     "qe": "Which word is always spelled “wrong” in the dictionary?",
+     "a": "“Yanlış” kelimesi!",
+     "ae": "The word “wrong”!",
+     "sec": 16,
+     "c1": "#2a2418",
+     "c2": "#080604"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-10",
+   "name": "Yaşayan Sanat: Doğanın Formülleri · Living Art: Nature’s Formulas",
+   "from": "2026-11-16T10:00",
+   "until": "2026-11-16T11:00",
+   "items": [
+    {
+     "k": "hzfern",
+     "d": 75
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-fiddlehead.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Eğreltiotu sürgünü · Fern fiddlehead",
+     "tr": "Açılmaya hazırlanan bir eğreltiotu sürgünü — doğanın sarmalı",
+     "en": "A fern fiddlehead about to unfurl — nature’s spiral",
+     "cr": "Foto · Photo: Wingchi Poon · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Eğreltiotları dinozorlardan çok önce de vardı: yaklaşık 360 milyon yıldır yeryüzündeler",
+     "facte": "Ferns were here long before the dinosaurs — they have been on Earth for about 360 million years"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-nautilus.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Nautilus kabuğu · Nautilus shell",
+     "tr": "İçinden kesilmiş bir nautilus kabuğu: her oda bir öncekinden biraz büyük",
+     "en": "A nautilus shell cut open — each chamber a little larger than the last",
+     "cr": "Foto · Photo: Philippe Alès · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Hayvan büyüdükçe yeni bir odaya taşınır ve arkasını kapatır. Sık söylenenin aksine bu sarmal “altın oran” değildir — daha sıkıdır",
+     "facte": "As the animal grows it moves into a new chamber and seals the old one. Despite the popular claim, the spiral is not the golden ratio — it is tighter",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Kökleri ve dalları var;<br>ama ne gölgesi var ne meyvesi.<br>Nedir?",
+     "qe": "It has roots and branches, but no shade and no fruit. What is it?",
+     "a": "Soy ağacı!",
+     "ae": "A family tree.",
+     "sec": 16,
+     "c1": "#1f2a1c",
+     "c2": "#050705"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-11",
+   "name": "Galeri: Bahçede · Gallery: In the Garden",
+   "from": "2026-11-16T11:00",
+   "until": "2026-11-16T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-sargent.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Karanfil, Zambak, Zambak, Gül — John Singer Sargent, 1885–86",
+     "en": "Carnation, Lily, Lily, Rose — John Singer Sargent, 1885–86",
+     "cr": "Eser · Artwork: John Singer Sargent · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Sargent bu tabloyu iki yaz boyunca, yalnızca alacakaranlıkta birkaç dakika süren mor ışıkta boyadı — her akşam yaklaşık 20 dakika",
+     "facte": "Sargent painted it over two summers, only in the few minutes of violet dusk light — about 20 minutes each evening",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-irises.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Süsenler — Vincent van Gogh, 1889",
+     "en": "Irises — Vincent van Gogh, 1889",
+     "cr": "Eser · Artwork: Vincent van Gogh · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Saint-Rémy’deki hastanenin bahçesinde, oraya vardığı ilk hafta yaptı; kalabalığın içinde tek bir beyaz süsen dikkat çekiyor",
+     "facte": "Painted in the asylum garden at Saint-Rémy in his first week there — one white iris stands out in the crowd",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-vetheuil.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Sainte-Adresse’de Teras — Claude Monet, 1867",
+     "en": "Garden at Sainte-Adresse — Claude Monet, 1867",
+     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Monet sahneyi Japon baskılarından esinlenerek üç yatay bant halinde kurdu: bahçe, deniz, gökyüzü. Hasır şapkalı oturan, ressamın babası",
+     "facte": "Inspired by Japanese prints, Monet built the scene in three bands — garden, sea, sky. The seated man in the hat is the painter’s father",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-orangetrees.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Portakal Ağaçları — Gustave Caillebotte, 1878",
+     "en": "The Orange Trees — Gustave Caillebotte, 1878",
+     "cr": "Eser · Artwork: Gustave Caillebotte · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ressamın kardeşi Martial ve kuzeni, Yerres’teki aile bahçesinde; büyük saksılardaki portakal ağaçları kışı seralarda geçirirdi",
+     "facte": "The painter’s brother Martial and their cousin in the family garden at Yerres — orange trees in big tubs spent the winter indoors",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-klimtgarden.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Ayçiçekli Köy Bahçesi — Gustav Klimt, yaklaşık 1907",
+     "en": "Farm Garden with Sunflowers — Gustav Klimt, c. 1907",
+     "cr": "Eser · Artwork: Gustav Klimt · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Klimt manzaralarının çoğunu kare tuvallere yaptı; bu tabloda gökyüzü hiç yok — yalnızca çiçekler",
+     "facte": "Klimt painted most of his landscapes on square canvases — this one has no sky at all, only flowers",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Doğru ve yanlış fikirlerinin ötesinde|bir çayır var; seninle orada buluşacağım",
+     "en": "Out beyond ideas of wrongdoing and rightdoing there is a field — I’ll meet you there",
+     "pal": "clay"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-12",
+   "name": "Zekice Düşünce · Clever Thinking",
+   "from": "2026-11-16T12:00",
+   "until": "2026-11-16T13:00",
+   "items": [
+    {
+     "k": "hzhilbert",
+     "d": 62
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Fermi tahmini: Bir insan hayatı boyunca kaç kez göz kırpar?",
+     "e": "A Fermi estimate: how many times does a person blink in a lifetime?",
+     "c1": "#1c2430",
+     "c2": "#04060a",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Dakikada yaklaşık 15 kez göz kırparız",
+       "We blink about 15 times a minute",
+       "👁"
+      ],
+      [
+       "Günde yaklaşık 16 saat uyanığız: 960 dakika",
+       "We are awake about 16 hours a day — 960 minutes",
+       ""
+      ],
+      [
+       "960 × 15 ≈ günde 14.400 kez",
+       "960 × 15 ≈ 14,400 blinks a day",
+       ""
+      ],
+      [
+       "Bir yılda ≈ 5 milyon; 80 yılda ≈ 420 milyon",
+       "≈ 5 million a year; ≈ 420 million in 80 years",
+       "≈"
+      ]
+     ],
+     "fin": "Enrico Fermi öğrencilerine böyle sorular sorardı: kaba ama akıllı tahminler çoğu zaman gerçeğe şaşırtıcı derecede yakın çıkar",
+     "fine": "Enrico Fermi loved asking his students questions like this — rough but clever estimates often land surprisingly close to the truth"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-soroban.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Soroban · Japon abaküsü · Japanese abacus",
+     "tr": "Soroban: elektriksiz bir hesap makinesi",
+     "en": "The soroban — a calculator that needs no electricity",
+     "cr": "Foto · Photo: Fisle · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Ustaları zamanla boncukları yalnızca zihinlerinde hayal ederek, abaküs olmadan büyük sayıları saniyeler içinde toplayabiliyor (anzan)",
+     "facte": "Experts learn to picture the beads in their minds and add huge numbers in seconds without any abacus at all (anzan)",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Ockham’ın Usturası: iki açıklama da uyuyorsa hangisini seçersin?",
+     "e": "Ockham’s razor: when two explanations both fit, which do you choose?",
+     "c1": "#2a2420",
+     "c2": "#070605",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Mutfakta yerde kırık bir bardak; kedi masanın yanında oturuyor",
+       "A broken glass on the kitchen floor; the cat sits next to the table",
+       "🐈"
+      ],
+      [
+       "Açıklama A: kedi masaya atladı, bardağı devirdi",
+       "Explanation A: the cat jumped up and knocked it over",
+       ""
+      ],
+      [
+       "Açıklama B: küçük bir deprem oldu ama başka hiçbir şey kıpırdamadı",
+       "Explanation B: a tiny earthquake struck, but nothing else moved",
+       ""
+      ],
+      [
+       "Daha az varsayım isteyen açıklama genellikle doğruya daha yakındır",
+       "The explanation needing fewer assumptions is usually closer to the truth",
+       "✂"
+      ]
+     ],
+     "fin": "14. yüzyıl İngiliz düşünürü Ockhamlı William’a atfedilir. Kesin bir kural değil — ama iyi bir başlangıç noktası",
+     "fine": "Attributed to the 14th-century English thinker William of Ockham — not a strict rule, but a good place to start"
+    },
+    {
+     "k": "hzriddle",
+     "d": 38,
+     "q": "Bir saatin akrebi ile yelkovanı<br>bir günde kaç kez üst üste gelir?",
+     "qe": "How many times a day do the hour and minute hands of a clock overlap?",
+     "a": "22 kez! 24 değil: 11 ile 1 arasında yalnızca bir kez, saat 12’de buluşurlar",
+     "ae": "22 times, not 24 — between 11 and 1 they meet only once, at 12",
+     "sec": 22,
+     "c1": "#1c2a30",
+     "c2": "#040708"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "10¹⁰⁰",
+     "tr": "Google adını “googol”dan aldı: 1’in ardından 100 sıfır",
+     "en": "Google took its name from the “googol” — a 1 followed by 100 zeros",
+     "src": "Kelimeyi 1920 civarında 9 yaşındaki Milton Sirotta uydurdu · The word was coined around 1920 by 9-year-old Milton Sirotta",
+     "c1": "#1b2230",
+     "c2": "#05070b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-13",
+   "name": "Düşünce Deneyleri · Thought Experiments",
+   "from": "2026-11-16T13:00",
+   "until": "2026-11-16T14:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Platon’un Mağarası: hayatı boyunca yalnızca gölgeleri gören insanlar…",
+     "e": "Plato’s Cave: people who have only ever seen shadows…",
+     "c1": "#2c2418",
+     "c2": "#080604",
+     "gap": 6.5,
+     "steps": [
+      [
+       "İnsanlar bir mağarada, sırtları girişe dönük oturuyor",
+       "People sit in a cave with their backs to the entrance",
+       "🕯"
+      ],
+      [
+       "Arkalarındaki ateşin önünden geçen nesnelerin yalnızca gölgelerini görüyorlar",
+       "They see only the shadows of objects carried past a fire behind them",
+       ""
+      ],
+      [
+       "Onlar için gerçek bu: duvardaki gölgeler",
+       "For them, reality is the shadows on the wall",
+       ""
+      ],
+      [
+       "Biri dışarı çıkıyor: güneş, renkler, gerçek dünya!",
+       "One of them walks outside — sunlight, colour, the real world!",
+       ""
+      ],
+      [
+       "Geri dönüp anlattığında kimse ona inanmıyor",
+       "When he comes back and tells them, nobody believes him",
+       "?"
+      ]
+     ],
+     "fin": "Platon, Devlet, yaklaşık MÖ 375. Bugün bizim “gölgelerimiz” neler olabilir — ekranlar, alışkanlıklar, önyargılar?",
+     "fine": "Plato, The Republic, around 375 BC. What might our “shadows” be today — screens, habits, assumptions?"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-karagoz.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Karagöz gölge oyunu · Shadow play",
+     "tr": "Karagöz, Hacivat ve Tiryaki — perdenin arkasında ışıkla canlanan deri tasvirler",
+     "en": "Karagöz, Hacivat and Tiryaki — leather figures brought to life by light behind a screen",
+     "cr": "Foto · Photo: Mourad Ben Abdallah · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Tasvirler deve derisinden kesilip boyanır ve ışık geçsin diye inceltilir; seyirci yalnızca perdedeki renkli gölgeleri görür — tıpkı Platon’un mağarasındaki gibi",
+     "facte": "The figures are cut from camel hide, dyed and scraped thin so light shines through — the audience sees only coloured shadows, just like in Plato’s cave",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Deneyim Makinesi: istediğin her hayatı yaşatan bir makineye bağlanır mıydın?",
+     "e": "The Experience Machine: would you plug into a machine that lets you live any life you want?",
+     "c1": "#1c2430",
+     "c2": "#04060a",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Bağlandığında istediğin hayatı yaşıyormuş gibi hissediyorsun",
+       "Once plugged in, you feel you are living whatever life you wish",
+       "🎧"
+      ],
+      [
+       "Dünya turu, büyük başarılar, kusursuz günler — hepsi gerçek gibi",
+       "World travel, great achievements, perfect days — all feel real",
+       ""
+      ],
+      [
+       "Ama hiçbiri gerçekten olmuyor; sen bir koltukta uzanıyorsun",
+       "But none of it is really happening — you are lying in a chair",
+       ""
+      ],
+      [
+       "Ömür boyu bağlanır mıydın?",
+       "Would you plug in for life?",
+       "?"
+      ]
+     ],
+     "fin": "Robert Nozick, 1974: çoğu insan “hayır” diyor. Demek ki yalnızca iyi hissetmek değil, gerçekten yaşamak ve yapmak istiyoruz",
+     "fine": "Robert Nozick, 1974: most people say “no” — so we want not just to feel good, but to really live and do things"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-catbox.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kutudaki kediler · Cats in boxes",
+     "tr": "Kutuya sığmayı seven kediler",
+     "en": "Cats who love to squeeze into boxes",
+     "cr": "Foto · Photo: FBenjr123 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bir araştırmaya göre barınaktaki kediler, saklanabilecekleri bir kutu verildiğinde yeni ortama çok daha çabuk alışıyor (Utrecht Üniversitesi, 2014)",
+     "facte": "One study found shelter cats given a box to hide in settled into their new home much faster (Utrecht University, 2014)"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Sonsuz Tekrar: bugünü sonsuza dek yeniden yaşayacak olsaydın…",
+     "e": "Eternal recurrence: if you had to live today again, forever…",
+     "c1": "#22301f",
+     "c2": "#050805",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Biri sana şöyle diyor:",
+       "Someone tells you:",
+       ""
+      ],
+      [
+       "“Bu hayatı, her ayrıntısıyla, sayısız kez yeniden yaşayacaksın”",
+       "“You will live this life again, in every detail, countless times”",
+       ""
+      ],
+      [
+       "Bu haber seni sevindirir mi, korkutur mu?",
+       "Would that news delight you or frighten you?",
+       ""
+      ],
+      [
+       "Cevabın, bugün neyi değiştirmek istediğini söyler",
+       "Your answer tells you what you would like to change today",
+       "↻"
+      ]
+     ],
+     "fin": "Friedrich Nietzsche, 1882. Aynı fikir 1993’te “Bugün Aslında Dündü” (Groundhog Day) filminde de oynanır",
+     "fine": "Friedrich Nietzsche, 1882 — the same idea plays out in the 1993 film Groundhog Day"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "Bir adam bir fotoğrafa bakıp diyor:<br>“Kardeşim yok; ama bu adamın babası<br>babamın oğlu.” Fotoğraftaki kim?",
+     "qe": "A man looks at a photo and says: “I have no brothers, but this man’s father is my father’s son.” Who is in the photo?",
+     "a": "Kendi oğlu! “Babamın oğlu” kendisi",
+     "ae": "His own son — “my father’s son” is himself",
+     "sec": 24,
+     "c1": "#2a2420",
+     "c2": "#070605"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-14",
+   "name": "Villa Fikirleri: Butik Otel Ayrıntıları · Villa Ideas: Boutique-Hotel Details",
+   "from": "2026-11-16T14:00",
+   "until": "2026-11-16T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h16-stepping.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Portland Japon Bahçesi, ABD · Portland Japanese Garden, USA)",
+     "tr": "Yosunun üstünde basamak taşları ve bir taş fener: insanı yavaşlatan bir yol",
+     "en": "Stepping stones on moss and a stone lantern — a path that slows you down",
+     "cr": "Foto · Photo: Z3lvs · CC0 · Wikimedia Commons",
+     "fact": "Japon bahçelerinde basamak taşları (tobi-ishi) bilerek biraz düzensiz dizilir: misafir adımına bakar, yavaşlar, etrafı görür. Villa için: kapıdan terasa birkaç büyük, düz taş yeter",
+     "facte": "In Japanese gardens stepping stones (tobi-ishi) are set slightly irregular on purpose — guests watch their step, slow down and look around. For the villa: a few large flat stones from the door to the terrace are enough",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h16-bathtub.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Amantaka, Luang Prabang, Laos)",
+     "tr": "Pencerelerin önünde duran ayaklı bir küvet — bir butik otel süitinden",
+     "en": "A freestanding tub in front of the windows — from a boutique-hotel suite",
+     "cr": "Foto · Photo: Basile Morin · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Butik otellerin sevilen ayrıntısı: küveti duvara gömmek yerine ışığın ve manzaranın önüne koymak. Villada deniz tarafındaki bir süite çok yakışır",
+     "facte": "A favourite boutique-hotel touch: set the tub in front of the light and the view instead of against a wall. It would suit a sea-facing suite at the villa"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h16-porchswing.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · St. Louis, ABD · USA)",
+     "tr": "Verandada bir salıncak: akşam çayının en sevilen köşesi",
+     "en": "A porch swing — the favourite spot for evening tea",
+     "cr": "Foto · Photo: blgrssby · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Tavana asılı ahşap bir salıncak terasın en çok kullanılan yeri olur. Trabzon kışında minderleri ve battaniyeyi içeri almak yeter",
+     "facte": "A wooden swing hung from the ceiling becomes the most-used spot on a terrace — in Trabzon winters just bring the cushions and blankets inside"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Akşam hizmeti (turndown): misafir odasına döndüğünde…",
+     "e": "Turndown service — when guests return to their room…",
+     "c1": "#2a2418",
+     "c2": "#080604",
+     "gap": 7,
+     "steps": [
+      [
+       "Perdeler kapanmış, yalnızca başucu lambası yanıyor",
+       "Curtains drawn, only the bedside lamp on",
+       "🛏"
+      ],
+      [
+       "Yastığın yanında küçük bir lokum ya da fındık ezmesi",
+       "A little lokum or hazelnut treat beside the pillow",
+       ""
+      ],
+      [
+       "Ertesi günün havasını ve gün doğumu saatini yazan el yazısı bir kart",
+       "A handwritten card with tomorrow’s weather and sunrise time",
+       "✎"
+      ],
+      [
+       "Yatağın yanında bir sürahi su ve terlikler",
+       "A carafe of water and slippers by the bed",
+       ""
+      ]
+     ],
+     "fin": "Pahalı değil — ama misafirin “beni düşünmüşler” dediği küçük bir ritüel",
+     "fine": "Not expensive — but a small ritual that makes guests feel “they thought of me”"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "1984",
+     "tr": "“Butik otel” deyimi, 1984’te New York’ta açılan Morgans Hotel için kullanıldı: dev bir zincir değil, küçük, kişisel ve özenle tasarlanmış",
+     "en": "The phrase “boutique hotel” was coined for the Morgans Hotel, opened in New York in 1984 — not a giant chain, but small, personal and carefully designed",
+     "src": "Kurucuları Steve Rubell ve Ian Schrager: “büyük mağaza değil, bir butik gibi” · Founders Steve Rubell & Ian Schrager: “like a boutique, not a department store”",
+     "c1": "#173032",
+     "c2": "#030809"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-15",
+   "name": "Göz Oyunları · Tricks of the Eye",
+   "from": "2026-11-16T15:00",
+   "until": "2026-11-16T16:00",
+   "items": [
+    {
+     "k": "hzshepard",
+     "d": 52
+    },
+    {
+     "k": "hzguess",
+     "d": 38,
+     "f": "m/h16-wingscales.jpg",
+     "lb": "Bil Bakalım · Can You Guess? — Gerçek Fotoğraf · Real Photo · Makro · Macro",
+     "q": "Bu ne? Çok, çok yakından çekildi…",
+     "qe": "What is this? It was photographed very, very close up…",
+     "a": "Bir tavus kelebeğinin kanadındaki “göz” deseni! Kiremit gibi dizilmiş minicik pullardan oluşuyor; kuşları korkutmak için bir baykuş gözünü andırır",
+     "ae": "The “eyespot” on a peacock butterfly’s wing — made of tiny scales laid like roof tiles. It looks like an owl’s eye to scare off birds",
+     "sec": 22,
+     "cr": "Foto · Photo: Franz van Duns · CC BY-SA 4.0 · Wikimedia Commons",
+     "hint": "İpucu: uçar · Hint: it flies"
+    },
+    {
+     "k": "hzbezold",
+     "d": 50
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "≈1 milyon",
+     "tr": "İnsan gözü tahminen bir milyon kadar renk tonunu ayırt edebilir — hem de yalnızca üç tür koni hücresiyle",
+     "en": "The human eye can tell apart roughly a million shades of colour — with just three kinds of cone cells",
+     "src": "Kırmızıya, yeşile ve maviye duyarlı koniler · Cones tuned to red, green and blue light",
+     "c1": "#2a1f2a",
+     "c2": "#070507"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Gözlerin kapalıyken bile<br>görebildiğin şey nedir?",
+     "qe": "What can you see even with your eyes closed?",
+     "a": "Rüya!",
+     "ae": "A dream.",
+     "sec": 16,
+     "c1": "#1c2434",
+     "c2": "#04060a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-16",
+   "name": "Ölçek Yolculuğu: Uzay ve Zaman · Scale Journey: Space & Time",
+   "from": "2026-11-16T16:00",
+   "until": "2026-11-16T17:00",
+   "items": [
+    {
+     "k": "hzorrery",
+     "d": 60
+    },
+    {
+     "k": "hzsteps",
+     "d": 46,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "Bir milyon, bir milyar, bir trilyon… saniye olarak ne kadar?",
+     "e": "A million, a billion, a trillion… how long in seconds?",
+     "c1": "#141c2a",
+     "c2": "#03050a",
+     "gap": 7,
+     "steps": [
+      [
+       "1 milyon saniye ≈ 11,5 gün",
+       "1 million seconds ≈ 11.5 days",
+       "⏱"
+      ],
+      [
+       "1 milyar saniye ≈ 31,7 yıl",
+       "1 billion seconds ≈ 31.7 years",
+       ""
+      ],
+      [
+       "1 trilyon saniye ≈ 31.700 yıl — en eski mağara resimleri kadar geriye",
+       "1 trillion seconds ≈ 31,700 years — back to the age of the oldest cave paintings",
+       "∞"
+      ]
+     ],
+     "fin": "Milyon ile milyar arasındaki fark, iki hafta ile bir ömrün yarısı arasındaki fark kadar",
+     "fine": "The gap between a million and a billion is the gap between two weeks and half a lifetime"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-sdo.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · NASA SDO · 31 Ağustos 2012",
+     "tr": "Güneş’ten fırlayan dev bir plazma bulutu (koronal kütle atımı)",
+     "en": "A giant cloud of plasma erupting from the Sun (a coronal mass ejection)",
+     "cr": "Foto · Photo: NASA Goddard Space Flight Center · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Bu bulut uzaya saniyede 1.400 km’den hızlı fırladı; üç gün sonra Dünya’da kutup ışıklarına yol açtı",
+     "facte": "It shot into space at more than 1,400 km per second — three days later it set off auroras on Earth"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-dscovr.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · NASA DSCOVR · Temmuz 2015",
+     "tr": "Ay, Dünya’nın önünden geçerken — bize hiç göstermediği yüzüyle",
+     "en": "The Moon crossing in front of the Earth — showing the face we never see",
+     "cr": "Foto · Photo: NASA / DSCOVR EPIC · kamu malı · public domain · Wikimedia Commons",
+     "fact": "1,5 milyon km uzaktaki DSCOVR uydusu çekti. Ay’ın uzak yüzünde, bize bakan yüzündeki koyu “denizler” neredeyse hiç yok",
+     "facte": "Taken by the DSCOVR satellite 1.5 million km away — the far side of the Moon has almost none of the dark “seas” of the side we know",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "1",
+     "tr": "Neptün 1846’da keşfedildi ve Güneş’in çevresindeki ilk tam turunu ancak 2011’de tamamladı",
+     "en": "Neptune was discovered in 1846 and finished its first full orbit since then only in 2011",
+     "src": "Bir Neptün yılı ≈ 165 Dünya yılı · One Neptune year ≈ 165 Earth years",
+     "c1": "#131c32",
+     "c2": "#03050b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-17",
+   "name": "Işığın Oyunları · Tricks of Light",
+   "from": "2026-11-16T17:00",
+   "until": "2026-11-16T18:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-sundog.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Brofjorden, İsveç · Sweden",
+     "tr": "Güneşin yanında ikinci bir “güneş”: güneş köpeği (parhelion)",
+     "en": "A second “sun” beside the Sun: a sun dog (parhelion)",
+     "cr": "Foto · Photo: W.carter · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Havadaki altıgen, yassı buz kristalleri ışığı yaklaşık 22° kırar; güneşin iki yanında parlak lekeler belirir",
+     "facte": "Flat hexagonal ice crystals in the air bend sunlight by about 22° — bright spots appear on either side of the Sun"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-halo.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · 22° hale · 22° halo",
+     "tr": "Güneşin çevresinde kusursuz bir halka: 22 derecelik hale",
+     "en": "A perfect ring around the Sun: the 22° halo",
+     "cr": "Foto · Photo: Franz van Duns · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Kolunu uzatıp elini açınca serçe parmağından başparmağına kadar yaklaşık 22° eder — halenin yarıçapı tam o kadar",
+     "facte": "Stretch out your arm and spread your hand: thumb to little finger is about 22° — exactly the halo’s radius",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-glory.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Golden Gate, San Francisco",
+     "tr": "Kendi gölgenin çevresinde renkli bir halka: Brocken tayfı ve “glory”",
+     "en": "A coloured ring around your own shadow: the Brocken spectre and glory",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Arkanda güneş, önünde sis varken gölgen sise düşer ve başının çevresinde renkli halkalar belirir. Yanındaki kişi yalnızca kendi halkasını görür",
+     "facte": "With the Sun behind you and fog ahead, your shadow falls on the fog with coloured rings round your head — the person next to you sees only their own",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-greenflash.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Yeşil şimşek · Green flash",
+     "tr": "Güneş batarken son anda beliren yeşil ışık — kare kare",
+     "en": "The green light that appears at the very last moment of sunset — frame by frame",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Atmosfer bir prizma gibi davranır: Güneş’in son kenarı bir iki saniyeliğine yeşil görünür. Karadeniz’in açık ufkunda, berrak bir akşamda yakalanabilir",
+     "facte": "The atmosphere acts like a prism — the Sun’s last sliver turns green for a second or two. Watch for it over the open Black Sea horizon on a clear evening",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-pillars.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Stockholm, İsveç · Sweden",
+     "tr": "Soğuk bir kış gecesinde gökyüzüne yükselen ışık sütunları",
+     "en": "Pillars of light rising into the sky on a cold winter night",
+     "cr": "Foto · Photo: Raitisfreimanis · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Havada asılı yassı buz kristalleri yerdeki lambaların ışığını küçük aynalar gibi yansıtıp dikey sütunlar çizer",
+     "facte": "Flat ice crystals floating in the air reflect street lights like tiny mirrors, drawing tall vertical columns"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-circumhorizontal.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rennes, Fransa · France",
+     "tr": "Bulutta yatay bir gökkuşağı: ufka paralel yay",
+     "en": "A horizontal rainbow in a cloud: the circumhorizontal arc",
+     "cr": "Foto · Photo: Eusebius · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Yalnızca Güneş ufkun 58° üzerine çıktığında oluşur; Trabzon’un enleminde bu ancak ilkbahar ve yaz öğlelerinde olur",
+     "facte": "It forms only when the Sun is more than 58° high — at Trabzon’s latitude that happens only around midday in spring and summer",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-18",
+   "name": "Trabzon’un Hikâyeleri · Stories of Trabzon",
+   "from": "2026-11-16T18:00",
+   "until": "2026-11-16T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-kostaki.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ortahisar, Trabzon",
+     "tr": "Kostaki Konağı — bugün Trabzon Müzesi",
+     "en": "The Kostaki Mansion — today the Trabzon Museum",
+     "cr": "Foto · Photo: PlanetKorriban · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "20. yüzyılın başında banker Kostaki Teofilaktos için yapıldı; Atatürk 1924’teki Trabzon ziyaretinde bu konakta kaldı",
+     "facte": "Built in the early 20th century for the banker Kostaki Theophylaktos — Atatürk stayed here on his 1924 visit to Trabzon"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-gulbahar.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ortahisar, Trabzon",
+     "tr": "Gülbahar Hatun Camii’nin içi — 1514",
+     "en": "Inside the Gülbahar Hatun Mosque — 1514",
+     "cr": "Foto · Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Trabzon’da şehzadeyken yaşayan Yavuz Sultan Selim, annesi Gülbahar Hatun’un anısına yaptırdı",
+     "facte": "Built by Selim I, who lived in Trabzon as a young prince, in memory of his mother Gülbahar Hatun",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-zagnos.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ortahisar, Trabzon",
+     "tr": "Zağnos Köprüsü ve vadisi — eski surların dibinde bir park",
+     "en": "The Zağnos bridge and valley — a park at the foot of the old walls",
+     "cr": "Foto · Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Vadi bir zamanlar surların doğal hendeğiydi; bugün yürüyüş yolları ve çay bahçeleriyle bir şehir parkı",
+     "facte": "The valley was once the walls’ natural moat — today it is a city park with walking paths and tea gardens"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h16-theoskepastos.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Boztepe yamacı, Trabzon",
+     "tr": "Kızlar Manastırı — kayaya yaslanan 14. yüzyıldan bir manastır",
+     "en": "Kızlar Monastery — a 14th-century monastery leaning on the rock",
+     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Eski adı Panagia Theoskepastos: “Tanrı’nın örttüğü Meryem”. Bir mağara kilisenin çevresine kurulmuş",
+     "facte": "Its old name is Panagia Theoskepastos, “the Virgin sheltered by God” — built around a cave church"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Tebriz",
+     "tr": "19. yüzyılda İran’ın Avrupa ile ticaretinin büyük bölümü Trabzon limanından, Zigana Geçidi üzerinden Tebriz’e giden kervan yolundan geçerdi",
+     "en": "In the 19th century much of Iran’s trade with Europe passed through Trabzon harbour, on the caravan road over the Zigana Pass to Tabriz",
+     "src": "Trabzon–Erzurum–Tebriz yolu · The Trabzon–Erzurum–Tabriz road",
+     "c1": "#2a2418",
+     "c2": "#080604"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-19",
+   "name": "Galeri: Aynı Yer, Farklı Işık · Gallery: Same Place, Different Light",
+   "from": "2026-11-16T19:00",
+   "until": "2026-11-16T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-haystack1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Saman Yığınları, Yaz Sonu — Claude Monet, 1891",
+     "en": "Haystacks, End of Summer — Claude Monet, 1891",
+     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Monet evinin yakınındaki tarlada aynı saman yığınlarını 25’ten fazla kez boyadı; asıl konusu yığınlar değil, ışıktı",
+     "facte": "Monet painted the same haystacks near his house more than 25 times — his real subject was not the stacks but the light",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-haystack2.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Saman Yığınları, Kar Etkisi — Claude Monet, 1891",
+     "en": "Haystacks, Snow Effect — Claude Monet, 1891",
+     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Işık o kadar hızlı değişiyordu ki tarlaya birçok tuval taşır, güneş döndükçe tuval değiştirirdi",
+     "facte": "The light changed so fast that he carried several canvases into the field and switched as the sun moved",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-rouen1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Rouen Katedrali, Batı Cephesi, Güneş Işığı — Claude Monet, 1894",
+     "en": "Rouen Cathedral, West Façade, Sunlight — Claude Monet, 1894",
+     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Katedralin tam karşısında bir oda kiralayıp aynı cepheyi 30’dan fazla kez boyadı",
+     "facte": "He rented a room right opposite the cathedral and painted the same façade more than 30 times",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-rouen2.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Rouen Katedrali, Sabah Etkisi — Claude Monet, 1894",
+     "en": "Rouen Cathedral, Morning Effect — Claude Monet, 1894",
+     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Aynı taş: sabah serin bir mavi, öğleden sonra sıcak ve parlak — ışık taşı bambaşka bir malzemeye çeviriyor",
+     "facte": "The same stone — cool blue in the morning, warm and bright in the afternoon. Light turns it into a different material",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-parliament.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Londra Parlamentosu, Gün Batımı — Claude Monet, 1903",
+     "en": "The Houses of Parliament, Sunset — Claude Monet, 1903",
+     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Monet Londra sisini çok severdi; Thames’in karşı kıyısındaki St Thomas Hastanesi’nin terasından boyadı",
+     "facte": "Monet loved London fog — he painted this from a terrace of St Thomas’ Hospital across the Thames",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 46,
+     "lb": "Küçük Meydan Okuma · Little Challenge",
+     "q": "Monet gibi bak: yarın pencereden aynı manzaraya üç kez bak",
+     "e": "Look like Monet: tomorrow, look at the same view from a window three times",
+     "c1": "#262019",
+     "c2": "#070605",
+     "gap": 8,
+     "steps": [
+      [
+       "Sabah: renkler serin mi, sıcak mı?",
+       "Morning: are the colours cool or warm?",
+       "☀"
+      ],
+      [
+       "Öğle: gölgeler nerede kısalıyor?",
+       "Noon: where do the shadows get short?",
+       ""
+      ],
+      [
+       "Akşam: deniz hangi renge dönüyor?",
+       "Evening: what colour does the sea turn?",
+       "☾"
+      ]
+     ],
+     "fin": "Aynı yerden üç fotoğraf çekip yan yana koy — aynı manzara, üç farklı tablo",
+     "fine": "Take three photos from the same spot and put them side by side — one view, three different paintings"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-20",
+   "name": "Anadolu’dan Dâhiler · Genius Machines",
+   "from": "2026-11-16T20:00",
+   "until": "2026-11-16T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-elephantclock.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Fil Saati — el-Cezerî’nin kitabından bir sayfa",
+     "en": "The Elephant Clock — a page from al-Jazari’s book",
+     "cr": "Eser · Artwork: el-Cezerî · al-Jazari (1315 kopyası · copy, The Met) · CC0 · Wikimedia Commons",
+     "fact": "Adını doğduğu Cizre’den alan Cezerî, 1206’da Diyarbakır’daki Artuklu sarayında “Olağanüstü Mekanik Araçların Bilgisi” kitabını tamamladı; fil saatinde farklı kültürlerden figürler bir arada",
+     "facte": "Named after his birthplace Cizre, al-Jazari finished his “Book of Knowledge of Ingenious Mechanical Devices” in 1206 at the Artuqid court in Diyarbakır — the elephant clock combines figures from many cultures",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Fil saati nasıl çalışır? Suyla ölçülen yarım saat",
+     "e": "How does the elephant clock work? Half an hour measured by water",
+     "c1": "#173032",
+     "c2": "#030809",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Filin karnındaki su tankında, dibi delik bir kâse yüzer",
+       "Inside the elephant’s belly a bowl with a small hole floats in a tank of water",
+       "💧"
+      ],
+      [
+       "Kâse yavaş yavaş dolar ve yarım saatte batar",
+       "It slowly fills and sinks in half an hour",
+       ""
+      ],
+      [
+       "Batarken iplere asılı düzeneği çeker: bir top düşer, kuş öter, davul çalar",
+       "As it sinks it pulls cords — a ball drops, a bird whistles, a drum beats",
+       ""
+      ],
+      [
+       "Kâse yeniden yukarı çekilir ve her şey baştan başlar",
+       "The bowl is pulled back up and it all begins again",
+       "↻"
+      ]
+     ],
+     "fin": "Kendi kendini yeniden kuran bu düzenek, bugünkü otomasyonun 800 yıllık atalarından biri",
+     "fine": "A machine that resets itself — one of the 800-year-old ancestors of today’s automation"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h16-takiyuddin.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Takiyüddin ve gökbilimciler, İstanbul Rasathanesi — Şehinşahname minyatürü, 1581",
+     "en": "Taqi al-Din and his astronomers at the Istanbul Observatory — miniature from the Shahanshahnama, 1581",
+     "cr": "Eser · Artwork: Alaeddin Mansur · Ala ad-Din Mansur-Shirazi (Şehinşahname, 1581) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "1577’de Galata’da kurulan rasathane, zamanının en gelişmiş gözlemevlerinden biriydi; Takiyüddin gözlemlerde mekanik saat kullanan ilk gökbilimcilerdendi",
+     "facte": "Founded in Galata in 1577, it was one of the most advanced observatories of its day — Taqi al-Din was among the first astronomers to use mechanical clocks for observations",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Robot",
+     "tr": "“Robot” kelimesi 1920’de Çek yazar Karel Čapek’in bir tiyatro oyununda doğdu; Çekçe “robota”, yani angarya, zorunlu iş",
+     "en": "The word “robot” was born in 1920 in a play by Czech writer Karel Čapek — from the Czech “robota”, forced labour",
+     "src": "Oyunun adı: R.U.R. · The play: R.U.R.",
+     "c1": "#1c2026",
+     "c2": "#040506"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Kumdan yapılır, kumla çalışır<br>ve zamanı söyler. Nedir?",
+     "qe": "It is made from sand, runs on sand and tells the time. What is it?",
+     "a": "Kum saati! Camı da kumdan yapılır",
+     "ae": "An hourglass — even its glass is made from sand",
+     "sec": 16,
+     "c1": "#2a2420",
+     "c2": "#070605"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-21",
+   "name": "Kelimelerin Yolculuğu · Journeys of Words",
+   "from": "2026-11-16T21:00",
+   "until": "2026-11-16T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h16-bagdatkosku.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Topkapı Sarayı, İstanbul",
+     "tr": "Bağdat Köşkü — İngilizcedeki “kiosk” kelimesi Türkçe “köşk”ten geliyor",
+     "en": "The Baghdad Kiosk — the English word “kiosk” comes from the Turkish “köşk”",
+     "cr": "Foto · Photo: Moonik · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kelime Farsçadan Türkçeye, oradan Fransızcaya ve İngilizceye geçti: önce bahçe köşkü, sonra gazete büfesi. Bağdat Köşkü 1639’da Bağdat seferinin anısına yapıldı",
+     "facte": "The word travelled from Persian to Turkish, then to French and English — first a garden pavilion, later a newsstand. The Baghdad Kiosk was built in 1639 to mark the Baghdad campaign"
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h16-yogurt.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Cacık",
+     "tr": "Yoğurtla yapılan cacık — “yoğurt” bugün onlarca dilde neredeyse aynı söyleniyor",
+     "en": "Cacık, made with yoghurt — “yoğurt” sounds almost the same in dozens of languages today",
+     "cr": "Foto · Photo: E4024 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kelime Türkçe “yoğurmak” ile ilgili: koyulaştırmak. İngilizcede yogurt, Fransızcada yaourt",
+     "facte": "The word is linked to the Turkish “yoğurmak”, to thicken — yogurt in English, yaourt in French"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Kelimelerin Yolculuğu · Journeys of Words",
+     "q": "“Divan” kelimesinin şaşırtıcı yolculuğu",
+     "e": "The surprising journey of the word “divan”",
+     "c1": "#2a2418",
+     "c2": "#080604",
+     "gap": 6.5,
+     "steps": [
+      [
+       "Farsça “dīvān”: kayıt defteri, liste",
+       "Persian “dīvān”: a register, a list",
+       "📜"
+      ],
+      [
+       "Sonra devlet meclisi: Divan-ı Hümayun",
+       "Then a council of state: the Imperial Divan",
+       ""
+      ],
+      [
+       "Meclis odasındaki duvar boyu minderli sedirler → Avrupa’da “divan”: kanepe",
+       "The long cushioned benches of that council room → the “divan” sofa in Europe",
+       "🛋"
+      ],
+      [
+       "Gümrük de buradan gelir: Fransızca douane, İtalyanca dogana",
+       "Customs comes from it too: French douane, Italian dogana",
+       ""
+      ]
+     ],
+     "fin": "Bir şiir kitabına da “divan” denir — tek kelime, dört ayrı dünya",
+     "fine": "A book of poems is also a “divan” — one word, four different worlds"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Ordu",
+     "tr": "İngilizcedeki “horde” (kalabalık, sürü) kelimesi Türkçe “ordu”dan gelir; Lehçe “horda” üzerinden geçti",
+     "en": "The English word “horde” comes from the Turkic “ordu” (army, camp) — by way of the Polish “horda”",
+     "src": "Kelimeler de göç eder · Words migrate too",
+     "c1": "#1c2430",
+     "c2": "#04060a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hangisi tersten okununca da aynıdır:<br>“kabak” mı, “kavun” mu?",
+     "qe": "Which Turkish word reads the same backwards: “kabak” (courgette) or “kavun” (melon)?",
+     "a": "Kabak! Böyle kelimelere palindrom denir",
+     "ae": "Kabak — words like that are called palindromes",
+     "sec": 16,
+     "c1": "#22301f",
+     "c2": "#050805"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Kendini küçük görme;|sen coşkuyla dönen bir evrensin",
+     "en": "Stop acting so small — you are the universe in ecstatic motion",
+     "pal": "night"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-22",
+   "name": "Kasım Gecesi: Leonidler · November Night: The Leonids (sakin · calm)",
+   "from": "2026-11-16T22:00",
+   "until": "2026-11-16T23:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h16-meteor.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Gece gökyüzü · Night sky",
+     "tr": "Gecenin içinde aynı anda iki yıldız kayması",
+     "en": "Two shooting stars at the same moment",
+     "cr": "Foto · Photo: Zhuojun Huang · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Bu gece ve yarın gece (17–18 Kasım) Leonid yağmurunun en yoğun zamanı; ışıklardan uzakta, gece yarısından sonra doğuya bak",
+     "facte": "Tonight and tomorrow night (17–18 November) the Leonid shower peaks — away from lights, look east after midnight",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Herkes belli bir iş için yaratıldı;|o işin arzusu her kalbe konuldu",
+     "en": "Everyone has been made for some particular work, and the desire for that work has been put in every heart",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h16-leonids.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kitt Peak, ABD · USA · 1966",
+     "tr": "1966 Leonid fırtınası: dört fotoğraf karesinde yağan yıldızlar",
+     "en": "The 1966 Leonid storm — shooting stars raining across four frames",
+     "cr": "Foto · Photo: NOIRLab / NSF / AURA · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Leonidler, 33 yılda bir dönen Tempel–Tuttle kuyruklu yıldızının bıraktığı tozdan gelir. 1966’da saatte 100.000’den fazla yıldız kaydığı tahmin ediliyor",
+     "facte": "The Leonids come from dust left by comet Tempel–Tuttle, which returns every 33 years — in 1966 more than 100,000 meteors an hour are thought to have fallen",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "71 km/s",
+     "tr": "Leonid meteorları atmosfere saniyede yaklaşık 71 km hızla girer — en hızlı yıldız kaymalarından",
+     "en": "Leonid meteors hit the atmosphere at about 71 km per second — among the fastest shooting stars",
+     "src": "Tanelerin çoğu bir kum tanesinden küçüktür · Most grains are smaller than a grain of sand",
+     "c1": "#10202a",
+     "c2": "#020507"
+    },
+    {
+     "k": "hzsteps",
+     "d": 48,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Yıldız kayması izlemek için dört sakin adım",
+     "e": "Four calm steps for watching shooting stars",
+     "c1": "#0e1624",
+     "c2": "#020306",
+     "gap": 7.5,
+     "steps": [
+      [
+       "Sıcak giyin, bir battaniye al",
+       "Dress warm and bring a blanket",
+       "🧣"
+      ],
+      [
+       "Işıkları söndür, ekrana bakma",
+       "Turn off the lights, keep away from screens",
+       ""
+      ],
+      [
+       "Gözlerin karanlığa alışsın: yaklaşık 20 dakika",
+       "Let your eyes adjust to the dark — about 20 minutes",
+       ""
+      ],
+      [
+       "Tek bir noktaya değil, gökyüzünün genişliğine bak",
+       "Look at the whole wide sky, not one spot",
+       "✧"
+      ]
+     ],
+     "fin": "Ve bir dilek tutmayı unutma",
+     "fine": "And don’t forget to make a wish",
+     "bg": "stars"
+    }
+   ]
+  },
+  {
+   "id": "h-11-16-23",
+   "name": "Fener Işığı · Lighthouse Light (sakin · calm)",
+   "from": "2026-11-16T23:00",
+   "until": "2026-11-17T02:00",
+   "items": [
+    {
+     "k": "hzfener",
+     "d": 80
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Gün doğmadan|neler doğar",
+     "en": "Before the sun rises, so much is born",
+     "pal": "sea",
+     "lb": "Atasözü · Turkish Proverb",
+     "by": "Türk atasözü · Turkish proverb"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h16-dormouse.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Fındık faresi · Hazel dormouse",
+     "tr": "Kış uykusuna hazırlanan bir fındık faresi",
+     "en": "A hazel dormouse getting ready for its winter sleep",
+     "cr": "Foto · Photo: Danielle Schwarz · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Adını fındığa olan düşkünlüğünden alır; ekimden nisana kadar, yılın yarısından fazlasını uyuyarak geçirebilir",
+     "facte": "Named for its love of hazelnuts — it can sleep from October to April, more than half the year"
+    },
+    {
+     "k": "hzsteps",
+     "d": 46,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Uyumadan önce: yarına küçük bir hediye",
+     "e": "Before sleep: a small gift for tomorrow",
+     "c1": "#0e1624",
+     "c2": "#020306",
+     "gap": 8,
+     "steps": [
+      [
+       "Yarın seni gülümsetecek tek bir küçük şey seç",
+       "Choose one small thing that will make you smile tomorrow",
+       "☾"
+      ],
+      [
+       "Sabahın ilk çayını nerede içeceğini düşün",
+       "Think where you will drink the first tea of the morning",
+       ""
+      ],
+      [
+       "Bugünden teşekkür ettiğin bir anı hatırla",
+       "Remember one moment from today you are grateful for",
+       ""
+      ]
+     ],
+     "fin": "İyi geceler",
+     "fine": "Good night",
+     "bg": "stars"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "MÖ 3. yy",
+     "tr": "Dünyanın en ünlü ilk deniz feneri İskenderiye Feneri’ydi; yüksekliğinin 100 metreyi aştığı düşünülüyor",
+     "en": "The world’s first famous lighthouse was the Pharos of Alexandria — thought to have stood more than 100 m tall",
+     "src": "Antik dünyanın yedi harikasından biri · One of the Seven Wonders of the Ancient World",
+     "c1": "#0c1a26",
+     "c2": "#020406"
+    }
+   ]
+  }
+ ]
+}
