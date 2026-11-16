@@ -1,5 +1,5 @@
-/* hourly.js v66 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
-   Data-driven templates: hzphoto hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
+/* hourly.js v67 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+   Data-driven templates: hzphoto (quiet:1 = dim ambient still, tiny caption, fade only) hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
    Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
@@ -32,6 +32,22 @@ var W=WOW;
 /* ---------- data templates ---------- */
 /* still photo (never moves). it: f, lb, tr, en, cr, fact/facte, fit:'contain', cp:'top' */
 W.hzphoto=function(L,it){L.style.background='#000';
+ if(it.quiet){
+  var dim=it.dim==null?0.7:it.dim, con=it.con==null?0.92:it.con;
+  var m=wEl('img','');m.src=it.f;
+  m.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;object-fit:'+(it.fit||'cover')+';object-position:'+(it.pos||'50% 50%')+';filter:brightness('+dim+') contrast('+con+')';
+  L.appendChild(m);
+  var v=wEl('div','');v.style.cssText='position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 42%,rgba(0,0,0,.5) 100%)';
+  L.appendChild(v);
+  if(it.tr||it.cr){
+    var op=it.capop==null?0.34:it.capop;
+    var html='<div style="opacity:'+op+';font-family:Helvetica,Arial,sans-serif;text-align:left;text-shadow:0 1px 10px rgba(0,0,0,.8)">';
+    if(it.tr) html+='<div style="font-size:1.05vw;letter-spacing:.08em;color:#e8eef2;font-weight:400">'+it.tr+(it.en?' <span style="font-style:italic;opacity:.8">· '+it.en+'</span>':'')+'</div>';
+    if(it.cr) html+='<div style="font-size:.68vw;color:#c5ced4;margin-top:.35vh;letter-spacing:.04em">'+it.cr+'</div>';
+    html+='</div>';
+    L.appendChild(wEl('div','',html,'position:absolute;left:3vw;right:3vw;bottom:2.6vh;top:auto;text-align:left;z-index:2'));
+  }
+  L.tri='fade';L.dur=it.d;L.corner=false;return L}
  if(it.fit=='contain'){var b=wEl('img','');b.src=it.f;b.style.cssText='position:absolute;top:-4vw;left:-4vw;width:108vw;height:108vh;object-fit:cover;filter:blur(30px) brightness(.35)';L.appendChild(b)}
  var m=wEl('img','');m.src=it.f;m.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;object-fit:'+(it.fit||'cover')+';object-position:'+(it.pos||'50% 50%');L.appendChild(m);
  var top=it.cp=='top';

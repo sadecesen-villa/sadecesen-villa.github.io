@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
- "rev": 66,
- "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-16.py. Content log: used-content.md",
+ "rev": 67,
+ "_note": "Hourly sets for the villa TV. Morning from days/build_2026-11-16.py; 18:00–22:00 rebuilt by days/build_2026-11-16_evening.py (rev 67, calm movie background until 21:30, quiet continuation until 22:00). Content log: used-content.md",
  "sets": [
   {
    "id": "h-11-16-09",
@@ -746,341 +746,198 @@
    ]
   },
   {
-   "id": "h-11-16-18",
-   "name": "Trabzon’un Hikâyeleri · Stories of Trabzon",
+   "id": "h-11-16-mb",
+   "name": "Sakin Fon · Quiet Background",
    "from": "2026-11-16T18:00",
-   "until": "2026-11-16T19:00",
+   "until": "2026-11-16T21:30",
    "items": [
     {
      "k": "hzphoto",
-     "d": 40,
-     "f": "m/h16-kostaki.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Ortahisar, Trabzon",
-     "tr": "Kostaki Konağı — bugün Trabzon Müzesi",
-     "en": "The Kostaki Mansion — today the Trabzon Museum",
-     "cr": "Foto · Photo: PlanetKorriban · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "20. yüzyılın başında banker Kostaki Teofilaktos için yapıldı; Atatürk 1924’teki Trabzon ziyaretinde bu konakta kaldı",
-     "facte": "Built in the early 20th century for the banker Kostaki Theophylaktos — Atatürk stayed here on his 1924 visit to Trabzon"
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-aftersunset.jpg",
+     "tr": "Gün batımından sonra",
+     "en": "After sunset",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: Rnbc · CC BY-SA 3.0 · Wikimedia Commons",
+     "dim": 0.55,
+     "capop": 0.32
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h16-gulbahar.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Ortahisar, Trabzon",
-     "tr": "Gülbahar Hatun Camii’nin içi — 1514",
-     "en": "Inside the Gülbahar Hatun Mosque — 1514",
-     "cr": "Foto · Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Trabzon’da şehzadeyken yaşayan Yavuz Sultan Selim, annesi Gülbahar Hatun’un anısına yaptırdı",
-     "facte": "Built by Selim I, who lived in Trabzon as a young prince, in memory of his mother Gülbahar Hatun",
-     "fit": "contain"
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-agvadusk.jpg",
+     "tr": "Karadeniz alacakaranlığı",
+     "en": "Black Sea dusk",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: Alena Belova · CC BY-SA 4.0 · Wikimedia Commons",
+     "dim": 0.48,
+     "capop": 0.32,
+     "pos": "50% 38%"
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h16-zagnos.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Ortahisar, Trabzon",
-     "tr": "Zağnos Köprüsü ve vadisi — eski surların dibinde bir park",
-     "en": "The Zağnos bridge and valley — a park at the foot of the old walls",
-     "cr": "Foto · Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Vadi bir zamanlar surların doğal hendeğiydi; bugün yürüyüş yolları ve çay bahçeleriyle bir şehir parkı",
-     "facte": "The valley was once the walls’ natural moat — today it is a city park with walking paths and tea gardens"
+     "quiet": 1,
+     "d": 260,
+     "f": "m/h16-mb-paranal.jpg",
+     "tr": "Yıldızların altında",
+     "en": "Under the stars",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: ESO / A. Santerne · CC BY 4.0 · Wikimedia Commons",
+     "dim": 0.72,
+     "capop": 0.32
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h16-theoskepastos.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Boztepe yamacı, Trabzon",
-     "tr": "Kızlar Manastırı — kayaya yaslanan 14. yüzyıldan bir manastır",
-     "en": "Kızlar Monastery — a 14th-century monastery leaning on the rock",
-     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Eski adı Panagia Theoskepastos: “Tanrı’nın örttüğü Meryem”. Bir mağara kilisenin çevresine kurulmuş",
-     "facte": "Its old name is Panagia Theoskepastos, “the Virgin sheltered by God” — built around a cave church"
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-pleiades.jpg",
+     "tr": "Ülker",
+     "en": "The Pleiades",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: NASA, ESA, AURA/Caltech, Palomar Observatory · kamu malı · public domain · Wikimedia Commons",
+     "dim": 0.62,
+     "capop": 0.32
     },
     {
-     "k": "hzfact",
-     "d": 30,
-     "big": "Tebriz",
-     "tr": "19. yüzyılda İran’ın Avrupa ile ticaretinin büyük bölümü Trabzon limanından, Zigana Geçidi üzerinden Tebriz’e giden kervan yolundan geçerdi",
-     "en": "In the 19th century much of Iran’s trade with Europe passed through Trabzon harbour, on the caravan road over the Zigana Pass to Tabriz",
-     "src": "Trabzon–Erzurum–Tebriz yolu · The Trabzon–Erzurum–Tabriz road",
-     "c1": "#2a2418",
-     "c2": "#080604"
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-witchhead.jpg",
+     "tr": "Soluk mavi bir bulutsu",
+     "en": "A faint blue nebula",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: NASA/STScI Digitized Sky Survey / Noel Carboni · kamu malı · public domain · Wikimedia Commons",
+     "dim": 0.68,
+     "capop": 0.32,
+     "pos": "50% 45%"
+    },
+    {
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-barnard68.jpg",
+     "tr": "Karanlık bir toz bulutu",
+     "en": "A dark dust cloud",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: ESO · CC BY 4.0 · Wikimedia Commons",
+     "dim": 0.74,
+     "capop": 0.32
+    },
+    {
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 260,
+     "f": "m/h16-mb-ngc891.jpg",
+     "tr": "Kenardan görünen bir galaksi",
+     "en": "A galaxy seen edge-on",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: Juan lacruz · CC BY-SA 4.0 · Wikimedia Commons",
+     "dim": 0.95,
+     "capop": 0.32
+    },
+    {
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-airglow.jpg",
+     "tr": "Dünya’nın kenarı",
+     "en": "The edge of the Earth",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: NASA Johnson Space Center · kamu malı · public domain · Wikimedia Commons",
+     "dim": 0.56,
+     "capop": 0.32
     }
    ]
   },
   {
-   "id": "h-11-16-19",
-   "name": "Galeri: Aynı Yer, Farklı Işık · Gallery: Same Place, Different Light",
-   "from": "2026-11-16T19:00",
-   "until": "2026-11-16T20:00",
-   "items": [
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h16-haystack1.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Saman Yığınları, Yaz Sonu — Claude Monet, 1891",
-     "en": "Haystacks, End of Summer — Claude Monet, 1891",
-     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Monet evinin yakınındaki tarlada aynı saman yığınlarını 25’ten fazla kez boyadı; asıl konusu yığınlar değil, ışıktı",
-     "facte": "Monet painted the same haystacks near his house more than 25 times — his real subject was not the stacks but the light",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h16-haystack2.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Saman Yığınları, Kar Etkisi — Claude Monet, 1891",
-     "en": "Haystacks, Snow Effect — Claude Monet, 1891",
-     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Işık o kadar hızlı değişiyordu ki tarlaya birçok tuval taşır, güneş döndükçe tuval değiştirirdi",
-     "facte": "The light changed so fast that he carried several canvases into the field and switched as the sun moved",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h16-rouen1.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Rouen Katedrali, Batı Cephesi, Güneş Işığı — Claude Monet, 1894",
-     "en": "Rouen Cathedral, West Façade, Sunlight — Claude Monet, 1894",
-     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Katedralin tam karşısında bir oda kiralayıp aynı cepheyi 30’dan fazla kez boyadı",
-     "facte": "He rented a room right opposite the cathedral and painted the same façade more than 30 times",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h16-rouen2.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Rouen Katedrali, Sabah Etkisi — Claude Monet, 1894",
-     "en": "Rouen Cathedral, Morning Effect — Claude Monet, 1894",
-     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Aynı taş: sabah serin bir mavi, öğleden sonra sıcak ve parlak — ışık taşı bambaşka bir malzemeye çeviriyor",
-     "facte": "The same stone — cool blue in the morning, warm and bright in the afternoon. Light turns it into a different material",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h16-parliament.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Londra Parlamentosu, Gün Batımı — Claude Monet, 1903",
-     "en": "The Houses of Parliament, Sunset — Claude Monet, 1903",
-     "cr": "Eser · Artwork: Claude Monet · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Monet Londra sisini çok severdi; Thames’in karşı kıyısındaki St Thomas Hastanesi’nin terasından boyadı",
-     "facte": "Monet loved London fog — he painted this from a terrace of St Thomas’ Hospital across the Thames",
-     "fit": "contain"
-    },
-    {
-     "k": "hzsteps",
-     "d": 46,
-     "lb": "Küçük Meydan Okuma · Little Challenge",
-     "q": "Monet gibi bak: yarın pencereden aynı manzaraya üç kez bak",
-     "e": "Look like Monet: tomorrow, look at the same view from a window three times",
-     "c1": "#262019",
-     "c2": "#070605",
-     "gap": 8,
-     "steps": [
-      [
-       "Sabah: renkler serin mi, sıcak mı?",
-       "Morning: are the colours cool or warm?",
-       "☀"
-      ],
-      [
-       "Öğle: gölgeler nerede kısalıyor?",
-       "Noon: where do the shadows get short?",
-       ""
-      ],
-      [
-       "Akşam: deniz hangi renge dönüyor?",
-       "Evening: what colour does the sea turn?",
-       "☾"
-      ]
-     ],
-     "fin": "Aynı yerden üç fotoğraf çekip yan yana koy — aynı manzara, üç farklı tablo",
-     "fine": "Take three photos from the same spot and put them side by side — one view, three different paintings"
-    }
-   ]
-  },
-  {
-   "id": "h-11-16-20",
-   "name": "Anadolu’dan Dâhiler · Genius Machines",
-   "from": "2026-11-16T20:00",
-   "until": "2026-11-16T21:00",
-   "items": [
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h16-elephantclock.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Fil Saati — el-Cezerî’nin kitabından bir sayfa",
-     "en": "The Elephant Clock — a page from al-Jazari’s book",
-     "cr": "Eser · Artwork: el-Cezerî · al-Jazari (1315 kopyası · copy, The Met) · CC0 · Wikimedia Commons",
-     "fact": "Adını doğduğu Cizre’den alan Cezerî, 1206’da Diyarbakır’daki Artuklu sarayında “Olağanüstü Mekanik Araçların Bilgisi” kitabını tamamladı; fil saatinde farklı kültürlerden figürler bir arada",
-     "facte": "Named after his birthplace Cizre, al-Jazari finished his “Book of Knowledge of Ingenious Mechanical Devices” in 1206 at the Artuqid court in Diyarbakır — the elephant clock combines figures from many cultures",
-     "fit": "contain"
-    },
-    {
-     "k": "hzsteps",
-     "d": 52,
-     "lb": "Zekice Düşünce · Clever Thinking",
-     "q": "Fil saati nasıl çalışır? Suyla ölçülen yarım saat",
-     "e": "How does the elephant clock work? Half an hour measured by water",
-     "c1": "#173032",
-     "c2": "#030809",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Filin karnındaki su tankında, dibi delik bir kâse yüzer",
-       "Inside the elephant’s belly a bowl with a small hole floats in a tank of water",
-       "💧"
-      ],
-      [
-       "Kâse yavaş yavaş dolar ve yarım saatte batar",
-       "It slowly fills and sinks in half an hour",
-       ""
-      ],
-      [
-       "Batarken iplere asılı düzeneği çeker: bir top düşer, kuş öter, davul çalar",
-       "As it sinks it pulls cords — a ball drops, a bird whistles, a drum beats",
-       ""
-      ],
-      [
-       "Kâse yeniden yukarı çekilir ve her şey baştan başlar",
-       "The bowl is pulled back up and it all begins again",
-       "↻"
-      ]
-     ],
-     "fin": "Kendi kendini yeniden kuran bu düzenek, bugünkü otomasyonun 800 yıllık atalarından biri",
-     "fine": "A machine that resets itself — one of the 800-year-old ancestors of today’s automation"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h16-takiyuddin.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Takiyüddin ve gökbilimciler, İstanbul Rasathanesi — Şehinşahname minyatürü, 1581",
-     "en": "Taqi al-Din and his astronomers at the Istanbul Observatory — miniature from the Shahanshahnama, 1581",
-     "cr": "Eser · Artwork: Alaeddin Mansur · Ala ad-Din Mansur-Shirazi (Şehinşahname, 1581) · kamu malı · public domain · Wikimedia Commons",
-     "fact": "1577’de Galata’da kurulan rasathane, zamanının en gelişmiş gözlemevlerinden biriydi; Takiyüddin gözlemlerde mekanik saat kullanan ilk gökbilimcilerdendi",
-     "facte": "Founded in Galata in 1577, it was one of the most advanced observatories of its day — Taqi al-Din was among the first astronomers to use mechanical clocks for observations",
-     "fit": "contain"
-    },
-    {
-     "k": "hzfact",
-     "d": 30,
-     "big": "Robot",
-     "tr": "“Robot” kelimesi 1920’de Çek yazar Karel Čapek’in bir tiyatro oyununda doğdu; Çekçe “robota”, yani angarya, zorunlu iş",
-     "en": "The word “robot” was born in 1920 in a play by Czech writer Karel Čapek — from the Czech “robota”, forced labour",
-     "src": "Oyunun adı: R.U.R. · The play: R.U.R.",
-     "c1": "#1c2026",
-     "c2": "#040506"
-    },
-    {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Kumdan yapılır, kumla çalışır<br>ve zamanı söyler. Nedir?",
-     "qe": "It is made from sand, runs on sand and tells the time. What is it?",
-     "a": "Kum saati! Camı da kumdan yapılır",
-     "ae": "An hourglass — even its glass is made from sand",
-     "sec": 16,
-     "c1": "#2a2420",
-     "c2": "#070605"
-    }
-   ]
-  },
-  {
-   "id": "h-11-16-21",
-   "name": "Kelimelerin Yolculuğu · Journeys of Words",
-   "from": "2026-11-16T21:00",
+   "id": "h-11-16-2130",
+   "name": "Sakin Fon · Quiet Background",
+   "from": "2026-11-16T21:30",
    "until": "2026-11-16T22:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 40,
-     "f": "m/h16-bagdatkosku.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Topkapı Sarayı, İstanbul",
-     "tr": "Bağdat Köşkü — İngilizcedeki “kiosk” kelimesi Türkçe “köşk”ten geliyor",
-     "en": "The Baghdad Kiosk — the English word “kiosk” comes from the Turkish “köşk”",
-     "cr": "Foto · Photo: Moonik · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Kelime Farsçadan Türkçeye, oradan Fransızcaya ve İngilizceye geçti: önce bahçe köşkü, sonra gazete büfesi. Bağdat Köşkü 1639’da Bağdat seferinin anısına yapıldı",
-     "facte": "The word travelled from Persian to Turkish, then to French and English — first a garden pavilion, later a newsstand. The Baghdad Kiosk was built in 1639 to mark the Baghdad campaign"
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-aftersunset.jpg",
+     "tr": "Gün batımından sonra",
+     "en": "After sunset",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: Rnbc · CC BY-SA 3.0 · Wikimedia Commons",
+     "dim": 0.55,
+     "capop": 0.32
     },
     {
      "k": "hzphoto",
-     "d": 36,
-     "f": "m/h16-yogurt.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Cacık",
-     "tr": "Yoğurtla yapılan cacık — “yoğurt” bugün onlarca dilde neredeyse aynı söyleniyor",
-     "en": "Cacık, made with yoghurt — “yoğurt” sounds almost the same in dozens of languages today",
-     "cr": "Foto · Photo: E4024 · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Kelime Türkçe “yoğurmak” ile ilgili: koyulaştırmak. İngilizcede yogurt, Fransızcada yaourt",
-     "facte": "The word is linked to the Turkish “yoğurmak”, to thicken — yogurt in English, yaourt in French"
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-agvadusk.jpg",
+     "tr": "Karadeniz alacakaranlığı",
+     "en": "Black Sea dusk",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: Alena Belova · CC BY-SA 4.0 · Wikimedia Commons",
+     "dim": 0.48,
+     "capop": 0.32,
+     "pos": "50% 38%"
     },
     {
-     "k": "hzsteps",
-     "d": 50,
-     "lb": "Kelimelerin Yolculuğu · Journeys of Words",
-     "q": "“Divan” kelimesinin şaşırtıcı yolculuğu",
-     "e": "The surprising journey of the word “divan”",
-     "c1": "#2a2418",
-     "c2": "#080604",
-     "gap": 6.5,
-     "steps": [
-      [
-       "Farsça “dīvān”: kayıt defteri, liste",
-       "Persian “dīvān”: a register, a list",
-       "📜"
-      ],
-      [
-       "Sonra devlet meclisi: Divan-ı Hümayun",
-       "Then a council of state: the Imperial Divan",
-       ""
-      ],
-      [
-       "Meclis odasındaki duvar boyu minderli sedirler → Avrupa’da “divan”: kanepe",
-       "The long cushioned benches of that council room → the “divan” sofa in Europe",
-       "🛋"
-      ],
-      [
-       "Gümrük de buradan gelir: Fransızca douane, İtalyanca dogana",
-       "Customs comes from it too: French douane, Italian dogana",
-       ""
-      ]
-     ],
-     "fin": "Bir şiir kitabına da “divan” denir — tek kelime, dört ayrı dünya",
-     "fine": "A book of poems is also a “divan” — one word, four different worlds"
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 260,
+     "f": "m/h16-mb-paranal.jpg",
+     "tr": "Yıldızların altında",
+     "en": "Under the stars",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: ESO / A. Santerne · CC BY 4.0 · Wikimedia Commons",
+     "dim": 0.72,
+     "capop": 0.32
     },
     {
-     "k": "hzfact",
-     "d": 30,
-     "big": "Ordu",
-     "tr": "İngilizcedeki “horde” (kalabalık, sürü) kelimesi Türkçe “ordu”dan gelir; Lehçe “horda” üzerinden geçti",
-     "en": "The English word “horde” comes from the Turkic “ordu” (army, camp) — by way of the Polish “horda”",
-     "src": "Kelimeler de göç eder · Words migrate too",
-     "c1": "#1c2430",
-     "c2": "#04060a"
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-pleiades.jpg",
+     "tr": "Ülker",
+     "en": "The Pleiades",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: NASA, ESA, AURA/Caltech, Palomar Observatory · kamu malı · public domain · Wikimedia Commons",
+     "dim": 0.62,
+     "capop": 0.32
     },
     {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Hangisi tersten okununca da aynıdır:<br>“kabak” mı, “kavun” mu?",
-     "qe": "Which Turkish word reads the same backwards: “kabak” (courgette) or “kavun” (melon)?",
-     "a": "Kabak! Böyle kelimelere palindrom denir",
-     "ae": "Kabak — words like that are called palindromes",
-     "sec": 16,
-     "c1": "#22301f",
-     "c2": "#050805"
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-witchhead.jpg",
+     "tr": "Soluk mavi bir bulutsu",
+     "en": "A faint blue nebula",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: NASA/STScI Digitized Sky Survey / Noel Carboni · kamu malı · public domain · Wikimedia Commons",
+     "dim": 0.68,
+     "capop": 0.32,
+     "pos": "50% 45%"
     },
     {
-     "k": "hzquote",
-     "d": 44,
-     "tr": "Kendini küçük görme;|sen coşkuyla dönen bir evrensin",
-     "en": "Stop acting so small — you are the universe in ecstatic motion",
-     "pal": "night"
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-barnard68.jpg",
+     "tr": "Karanlık bir toz bulutu",
+     "en": "A dark dust cloud",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: ESO · CC BY 4.0 · Wikimedia Commons",
+     "dim": 0.74,
+     "capop": 0.32
+    },
+    {
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 260,
+     "f": "m/h16-mb-ngc891.jpg",
+     "tr": "Kenardan görünen bir galaksi",
+     "en": "A galaxy seen edge-on",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: Juan lacruz · CC BY-SA 4.0 · Wikimedia Commons",
+     "dim": 0.95,
+     "capop": 0.32
+    },
+    {
+     "k": "hzphoto",
+     "quiet": 1,
+     "d": 240,
+     "f": "m/h16-mb-airglow.jpg",
+     "tr": "Dünya’nın kenarı",
+     "en": "The edge of the Earth",
+     "cr": "Gerçek fotoğraf · Real photo · Foto · Photo: NASA Johnson Space Center · kamu malı · public domain · Wikimedia Commons",
+     "dim": 0.56,
+     "capop": 0.32
     }
    ]
   },

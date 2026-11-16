@@ -449,5 +449,109 @@
    1200
   ],
   "q": "File:Trabzon Museum 1.jpg"
+ },
+ "mb-pleiades": {
+  "title": "Pleiades large.jpg",
+  "artist": "NASA, ESA, AURA/Caltech, Palomar Observatory",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Pleiades_large.jpg",
+  "size": [
+   1280,
+   923
+  ],
+  "q": "File:Pleiades large.jpg",
+  "api_artist": "NASA, ESA, AURA/Caltech, Palomar Observatory The science team consists of: D. Soderblom and E. Nelan (STScI), F. Benedict and B. Arthur (U. Texas), and B. Jones (Lick Obs.)",
+  "api_lic": "Public domain"
+ },
+ "mb-witchhead": {
+  "title": "Witch Head Nebula.jpg",
+  "artist": "NASA/STScI Digitized Sky Survey / Noel Carboni",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Witch_Head_Nebula.jpg",
+  "size": [
+   1239,
+   1280
+  ],
+  "q": "File:Witch Head Nebula.jpg",
+  "api_artist": "NASA/STScI Digitized Sky Survey/Noel Carboni",
+  "api_lic": "Public domain"
+ },
+ "mb-ngc891": {
+  "title": "NGC 891 2023-07-30 Edge on galaxy in Andromeda.png",
+  "artist": "Juan lacruz",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:NGC_891_2023-07-30_Edge_on_galaxy_in_Andromeda.png",
+  "size": [
+   1280,
+   846
+  ],
+  "q": "File:NGC 891 2023-07-30 Edge on galaxy in Andromeda.png",
+  "api_artist": "Juan lacruz",
+  "api_lic": "CC BY-SA 4.0"
+ },
+ "mb-barnard68": {
+  "title": "Barnard 68.jpg",
+  "artist": "ESO",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Barnard_68.jpg",
+  "size": [
+   1280,
+   1280
+  ],
+  "q": "File:Barnard 68.jpg",
+  "api_artist": "ESO",
+  "api_lic": "CC BY 4.0"
+ },
+ "mb-paranal": {
+  "title": "Stars Circle over the Residencia at Cerro Paranal (wallpaper).jpg",
+  "artist": "ESO / A. Santerne",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Stars_Circle_over_the_Residencia_at_Cerro_Paranal_(wallpaper).jpg",
+  "size": [
+   1280,
+   800
+  ],
+  "q": "File:Stars Circle over the Residencia at Cerro Paranal (wallpaper).jpg",
+  "api_artist": "ESO/A. Santerne",
+  "api_lic": "CC BY 4.0"
+ },
+ "mb-airglow": {
+  "title": "A reddish airglow blankets Earth beneath the Milky Way (iss073e0982696).jpg",
+  "artist": "NASA Johnson Space Center",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:A_reddish_airglow_blankets_Earth_beneath_the_Milky_Way_(iss073e0982696).jpg",
+  "size": [
+   1280,
+   853
+  ],
+  "q": "File:A reddish airglow blankets Earth beneath the Milky Way (iss073e0982696).jpg",
+  "api_artist": "NASA Johnson Space Center",
+  "api_lic": "Public domain"
+ },
+ "mb-aftersunset": {
+  "title": "Seascape after sunset denoised.jpg",
+  "artist": "Rnbc",
+  "lic": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Seascape_after_sunset_denoised.jpg",
+  "size": [
+   1280,
+   853
+  ],
+  "q": "File:Seascape after sunset denoised.jpg",
+  "api_artist": "Rnbc (talk) at en.wikipedia",
+  "api_lic": "CC BY-SA 3.0"
+ },
+ "mb-agvadusk": {
+  "title": "Ağva - Black Sea waves at sunset.jpg",
+  "artist": "Alena Belova",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:A%C4%9Fva_-_Black_Sea_waves_at_sunset.jpg",
+  "size": [
+   960,
+   1280
+  ],
+  "q": "File:Ağva - Black Sea waves at sunset.jpg",
+  "api_artist": "Alena Belova for Exhibo",
+  "api_lic": "CC BY-SA 4.0"
  }
 }

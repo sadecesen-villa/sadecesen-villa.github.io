@@ -4,6 +4,23 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-16 · evening rework (rev 67, movie background 18:00–22:00, built ~18:50)
+
+M is watching Project Hail Mary on his iPhone and asked for the villa TV to be a calm, non-distracting background. Sets 18–21 were replaced with one quiet still-photo set from 18:00 to 21:30, plus the same quiet loop from 21:30 to 22:00. The 22:00 Leonids and 23:00 lighthouse sets are unchanged. No quizzes, puzzles, illusions, facts, quotes or generators in the new sets. Captions are tiny and low-opacity (hzphoto quiet:1, fade transitions only, still photos do not move). No plot references to the film. 8 new CC/PD photos (m/h16-mb-*). The original 18:00 Trabzon set aired for about 40 minutes before this rebuild; 19–21 never aired (already logged as used in the rev 66 section below). h15-* images archived to /workspace/tv-media-archive/h15 (site was 48 MB).
+
+### 18:00–21:30 · Sakin Fon · Quiet Background
+- 18–21 | hzphoto quiet | Gün batımından sonra | m/h16-mb-aftersunset.jpg
+- 18–21 | hzphoto quiet | Karadeniz alacakaranlığı — Ağva | m/h16-mb-agvadusk.jpg
+- 18–21 | hzphoto quiet | Yıldızların altında — Cerro Paranal | m/h16-mb-paranal.jpg
+- 18–21 | hzphoto quiet | Ülker (Pleiades) | m/h16-mb-pleiades.jpg
+- 18–21 | hzphoto quiet | Soluk mavi bir bulutsu (Witch Head / IC 2118) | m/h16-mb-witchhead.jpg
+- 18–21 | hzphoto quiet | Karanlık bir toz bulutu — Barnard 68 | m/h16-mb-barnard68.jpg
+- 18–21 | hzphoto quiet | Kenardan görünen bir galaksi — NGC 891 | m/h16-mb-ngc891.jpg
+- 18–21 | hzphoto quiet | Dünya’nın kenarı — ISS, hava ışıması ve Samanyolu | m/h16-mb-airglow.jpg
+
+### 21:30–22:00 · Sakin Fon · Quiet Background
+- Same eight stills and captions as 18:00–21:30, still in quiet mode, until the 22:00 Leonids set.
+
 ## 2026-11-16 (rev 66, hourly sets 09:00–02:00, days/2026-11-16.json) · Monday
 
 No pending requests in requests.md. 6 new hz scenes: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold. hzquote now accepts optional lb/by so non-Rumi lines (proverbs, Yunus Emre) are labelled correctly (rev 65 had shown Yunus Emre/proverb lines under the Mevlânâ label). 41 new CC/PD photos/artworks (m/h16-*). Quotes: Sabah rüzgârının sana söyleyecek sırları var (Mevlânâ, 09); Doğru ve yanlış fikirlerinin ötesinde bir çayır var (Mevlânâ, 11); Kendini küçük görme; sen coşkuyla dönen bir evrensin (Mevlânâ, 21); Herkes belli bir iş için yaratıldı (Mevlânâ, 22); Gün doğmadan neler doğar (atasözü, 23).
