@@ -4,6 +4,130 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-17 (rev 68, hourly sets 09:00–02:00, days/2026-11-17.json) · Tuesday
+
+No pending requests in requests.md. 6 new hz scenes (hourly.js v68): generators hzflow (flow field) hzlissa (Lissajous table) hzrule (cellular automata rules 30/90/110) hzlantern (calm night) + illusions hzscint (scintillating grid) hzchecker (Adelson checker-shadow). 48 new CC/PD photos/artworks (m/h17-*). Quotes: Dün akıllıydım, dünyayı değiştirmek istedim (Mevlânâ, 09); Gel, her ne olursan ol yine gel (Mevlânâ, 13); Gelin tanış olalım (Yunus Emre, 17); Damlaya damlaya göl olur (atasözü, 16); Eline, beline, diline sahip ol (Hacı Bektaş-ı Veli, 20); Sabreden derviş muradına ermiş (atasözü, 22); Her gecenin bir sabahı vardır (atasözü, 23).
+
+### 09:00–10:00 · Salı Sabahı · Tuesday Morning
+- 09 | hzphoto | Sümela Manastırı — sisin içinden yükselen kayalar ve ormanlar | m/h17-sumela.jpg
+- 09 | hzquote | Dün akıllıydım, dünyayı değiştirmek istedim; bugün bilgeyim, kendimi değiştiriyorum | —
+- 09 | hzphoto | Altındere Vadisi — Sümela’ya giden yolun yeşil dağları | m/h17-altindere.jpg
+- 09 | hzfact | “Salı” kelimesi Arapçada “üçüncü” anlamına gelen bir kelimeden gelir; haftanın üçüncü günü | —
+- 09 | hzriddle | Karanlık bir odaya girdin. Bir mum, bir gaz lambası ve bir şömine var, ama elinde tek kibrit. İlk önce neyi yakarsın? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Akış · Living Art: Flow
+- 10 | hzflow | NEW/generator hzflow | —
+- 10 | hzphoto | Lena Deltası — nehrin binlerce kolu, uzaydan bir ağaç gibi | m/h17-lena.jpg
+- 10 | hzphoto | Romanesko — her tomurcuk bütünün küçük bir kopyası | m/h17-romanesco.jpg
+- 10 | hzphoto | Aurelia: ışıkta cam gibi yüzen bir denizanası | m/h17-jelly.jpg
+- 10 | hzriddle | Bir kutuda 3 elma var. Sen 2 tanesini aldın. Kaç elman var? | —
+
+### 11:00–12:00 · Galeri: Sonbahar ve Yağmur · Gallery: Autumn & Rain
+- 11 | hzphoto | Sis Denizinin Üzerinde Gezgin — Caspar David Friedrich, yaklaşık 1818 | m/h17-friedrich.jpg
+- 11 | hzphoto | Çam Ormanında Sabah — Ivan Shishkin, 1889 | m/h17-shishkin.jpg
+- 11 | hzphoto | Epte Nehri Kıyısında Kavaklar — Claude Monet, 1891 | m/h17-poplars.jpg
+- 11 | hzphoto | Şin-Ohaşi Köprüsü’nde Ani Sağanak — Utagawa Hiroshige, 1857 | m/h17-hiroshige.jpg
+- 11 | hzphoto | Nilüfer Havuzu (detay) — Claude Monet | m/h17-lily.jpg
+- 11 | hzfact | Hiroshige’nin “Edo’nun 100 Ünlü Manzarası” dizisi, yağmuru ve karı çizgiyle anlatmanın en güzel örneklerinden | —
+
+### 12:00–13:00 · Zekice Düşünce: Örüntüyü Gör · Clever Thinking: See the Pattern
+- 12 | hzrule | NEW/generator hzrule | —
+- 12 | hzphoto | Gauss — okulda “1’den 100’e kadar topla” denince birkaç saniyede cevabı buldu (efsaneye göre) | m/h17-gauss.jpg
+- 12 | hzsteps | 1’den 100’e kadar olan sayıları toplamanın kısa yolu | —
+- 12 | hzsteps | Doğum günü paradoksu: bir sınıfta iki kişinin doğum günü aynı olur mu? | —
+- 12 | hzriddle | Bir gölde nilüfer her gün iki katına çıkıyor. 48 günde bütün gölü kaplıyor. Gölün yarısını kaçıncı günde kaplamıştır? | —
+- 12 | hzfact | Bu tür tek sıralı hücresel otomat için tam 256 kural var; çoğu sıkıcı, yalnızca birkaçı — 30, 90, 110 — şaşırtıcı | —
+
+### 13:00–14:00 · Düşünce Deneyleri: Kimlik ve Sonsuzluk · Thought Experiments: Identity & Infinity
+- 13 | hzsteps | Theseus’un Gemisi: bütün tahtaları değişen gemi hâlâ aynı gemi midir? | —
+- 13 | hzphoto | Sonsuz uzun bir otel koridoru düşün — odaların sonu yok | m/h17-hilbertpic.jpg
+- 13 | hzsteps | Hilbert’in Oteli: odaları sonsuz ve hepsi dolu bir otelde yeni misafire yer var mı? | —
+- 13 | hzquote | Gel, her ne olursan ol yine gel; bizim kapımız umutsuzluk kapısı değildir | —
+- 13 | hzsteps | Çin Odası: sembolleri doğru döndürmek, anlamak mıdır? | —
+- 13 | hzriddle | Dört duvarı da güneye bakan bir ev yaptın. Bahçeye bir ayı geliyor. Ayı ne renk? | —
+
+### 14:00–15:00 · Villa Fikirleri: Butik Otel Ayrıntıları · Villa Ideas: Boutique-Hotel Details
+- 14 | hzphoto | Beyaz mermer şömine ve yüksek pencereler: oda ısınmadan önce bile sıcak görünüyor | m/h17-fire.jpg
+- 14 | hzphoto | Zemin kattan tavana kadar kitap rafları: ev bir anda sakin bir çalışma salonuna dönüşüyor | m/h17-library.jpg
+- 14 | hzphoto | Asmalı bir ahşap çardak: yazın gölge, sonbaharda yaprakların rengi | m/h17-pergola.jpg
+- 14 | hzphoto | Şadırvan: ortasında su sesi olan taş bir avlu pavyonu | m/h17-sadirvan.jpg
+- 14 | hzphoto | Bahçe gölü, taş yol ve ağaçlar: ışıkları akşam yakınca aynı yer başka bir hikâye anlatır | m/h17-lantern.jpg
+- 14 | hzriddle | Başı var ama saçı yok; dişi var ama ağzı yok. Nedir? | —
+
+### 15:00–16:00 · Göz Oyunları: Beynin Hileleri · Tricks of the Eye: The Brain’s Shortcuts
+- 15 | hzchecker | NEW/generator hzchecker | —
+- 15 | hzscint | NEW/generator hzscint | —
+- 15 | hzphoto | Ames Odası: aynı boydaki iki kişi biri dev, biri minik görünür | m/h17-ames.jpg
+- 15 | hzphoto | Zorlamalı perspektif: kısa bir koridor çok daha uzun görünüyor | m/h17-pisa.jpg
+- 15 | hzriddle | Aynada sağ ile sol yer değiştirir ama yukarı ile aşağı değişmez. Neden? | —
+- 15 | hzfact | Edward Adelson’ın gölgeli dama tahtası illüzyonu 1995’te yayımlandı; beyin, ışığı ve gölgeyi birbirinden ayırıp “kâğıdın gerçek rengini” bulmaya çalış | —
+
+### 16:00–17:00 · Ölçek Yolculuğu: İçeri Doğru · Scale Journey: Inward
+- 16 | hzsteps | Her adımda 10 kat küçülelim: bir kum tanesinden atoma | —
+- 16 | hzphoto | Renklendirilmiş elektron mikroskobu: çiçek tozu taneleri bir şeker dükkânı gibi | m/h17-pollen.jpg
+- 16 | hzphoto | Mikroskopta cam gibi parlayan diyatomlar: tek hücreli, silikadan kabuklu | m/h17-diatom.jpg
+- 16 | hzphoto | Bir kelebek kanadının pulları: kiremit gibi dizilmiş renkli küçük levhalar | m/h17-butterflywing.jpg
+- 16 | hzriddle | Sağ elinle asla tutamayacağın, ama sol elinle kolayca tutabileceğin şey nedir? | —
+- 16 | hzquote | Damlaya damlaya göl olur | —
+
+### 17:00–18:00 · Ses ve Müzik: Titreşimin Sanatı · Sound & Music: The Art of Vibration
+- 17 | hzlissa | NEW/generator hzlissa | —
+- 17 | hzphoto | Kanun: yatay duran, parmak halkalarıyla çalınan bir tel sarayı | m/h17-kanun.jpg
+- 17 | hzsteps | Bir telin yarısını tutunca ne olur? | —
+- 17 | hzphoto | Sema: sağ eli göğe, sol eli yere açık dönen bir dua | m/h17-sema.jpg
+- 17 | hzquote | Gelin tanış olalım, işi kolay kılalım; sevelim sevilelim, dünya kimseye kalmaz | —
+- 17 | hzfact | Fransız fizikçi Jules Lissajous, 1857’de bir diyapazona ayna yapıştırıp ışık huzmesiyle ses titreşimini görünür hâle getirdi | —
+- 17 | hzriddle | Elim yok ayağım yok; ama kapıyı çalarım, bulutları iterim. Kimim? | —
+
+### 18:00–19:00 · Hayvanların Zekâsı · Animal Minds
+- 18 | hzphoto | Bir ahtapot: üç kalbi, mavi kanı ve kollarında ayrı “mini beyinleri” var | m/h17-octopus.jpg
+- 18 | hzphoto | Karadeniz’de yüzen bir yunus: Karadeniz’de üç yunus türü yaşıyor | m/h17-dolphin.jpg
+- 18 | hzsteps | Zekâyı ölçmenin üç yolu | —
+- 18 | hzphoto | Mavi eşyalarla süslediği çardağın içindeki erkek çardak kuşu | m/h17-bowerbird.jpg
+- 18 | hzphoto | Anadolu’nun sessiz bekçisi: bir Kangal köpeği | m/h17-kangal.jpg
+- 18 | hzriddle | İki baba ve iki oğul balığa gitti. Üç balık tuttular ve her biri birer balık aldı. Nasıl? | —
+
+### 19:00–20:00 · Renklerin Hikâyesi · The Story of Colours
+- 19 | hzphoto | Çivit (indigo) boyası bir kumaşı mavi yapan eski bir sır | m/h17-indigo.jpg
+- 19 | hzphoto | İnci Küpeli Kız — Johannes Vermeer, yaklaşık 1665 | m/h17-ultramarine.jpg
+- 19 | hzsteps | Mavi neden bu kadar pahalıydı? | —
+- 19 | hzphoto | Kökboya bitkisi: kökünden Anadolu halılarının kırmızısı çıkar | m/h17-madder.jpg
+- 19 | hzphoto | Murex kabukları: Antik çağda mor renk bu salyangozlardan elde edilirdi | m/h17-murex.jpg
+- 19 | hzfact | Antik Roma’da “Tyrus moru” giymek ayrıcalıktı; rengin adı, bugünkü Lübnan’daki Sur (Tyre) şehrinden gelir | —
+
+### 20:00–21:00 · Taşta Geometri · Geometry in Stone
+- 20 | hzphoto | Mukarnas: yüzlerce küçük nişin üst üste dizildiği bal peteği tavan | m/h17-muqarnas.jpg
+- 20 | hzphoto | Divriği Ulu Camii ve Darüşşifası’nın taş kapısı | m/h17-divrigi.jpg
+- 20 | hzphoto | Selimiye Camii’nin kubbe içi: sekiz fil ayağı üzerinde yükselen dev bir gökyüzü | m/h17-selimiye.jpg
+- 20 | hzphoto | Girih: yıldızlar ve çokgenlerle dolu, tekrar etmeyen çini desenleri | m/h17-geometry.jpg
+- 20 | hzsteps | Bir zemini boşluksuz kaplamak | —
+- 20 | hzquote | Eline, beline, diline sahip ol | —
+
+### 21:00–22:00 · Göç Yolları: Kasım Gökyüzü · Migration Routes: The November Sky
+- 21 | hzphoto | Turnalar güneye gidiyor: gökyüzünde yazılmış bir “V” mektubu | m/h17-crane.jpg
+- 21 | hzphoto | Yükselen sıcak hava akımlarında süzülen leylek sürüsü | m/h17-stork.jpg
+- 21 | hzphoto | Uçarken uzun boyunlarıyla düz bir çizgi oluşturan flamingolar | m/h17-flamingo.jpg
+- 21 | hzphoto | Arktik sumru: yılda yaklaşık 70.000 km uçan kutuptan kutba yolcu | m/h17-tern.jpg
+- 21 | hzsteps | Kuşlar yollarını nasıl buluyor? | —
+- 21 | hzriddle | Kış gelince çıplak kalır, yaz gelince giyinir; kökü yerin altında, kolları göğe uzanır. Nedir? | —
+
+### 22:00–23:00 · İlk Kar: Sessiz Beyaz · First Snow: Quiet White (sakin · calm)
+- 22 | hzphoto | Uzaydan Türkiye: dağlara düşen ilk karın beyazı | m/h17-snowmount.jpg
+- 22 | hzphoto | Bir kar tanesinin yakından görüntüsü: altı kollu, her biri başka | m/h17-snowflake.jpg
+- 22 | hzphoto | Yapraklarda kırağı: soğuk gecenin bıraktığı ince bir işlemeli kenar | m/h17-frost.jpg
+- 22 | hzphoto | Karla kaplı bir köy: kış, sesleri örter | m/h17-snowvillage.jpg
+- 22 | hzquote | Sabreden derviş muradına ermiş | —
+- 22 | hzsteps | Kar yağarken dört sessiz an | —
+
+### 23:00–02:00 · Gece Kandilleri · Night Lanterns (sakin · calm)
+- 23 | hzlantern | NEW/generator hzlantern | —
+- 23 | hzphoto | Mavi saatte asılı yıldız biçimli fenerler | m/h17-paperlantern.jpg
+- 23 | hzphoto | Karanlıkta tek bir mum alevi | m/h17-candle.jpg
+- 23 | hzphoto | Alacakaranlıkta batan güneşin yanında ince bir hilal | m/h17-moonrise.jpg
+- 23 | hzphoto | Samanyolu ve bir gözlemevi — şili’deki Paranal’dan ESO fotoğrafı | m/h17-milky.jpg
+- 23 | hzquote | Her gecenin bir sabahı vardır | —
+- 23 | hzsteps | Uyumadan önce: bugünün üç iyi anı | —
+
 ## 2026-11-16 · evening rework (rev 67, movie background 18:00–22:00, built ~18:50)
 
 M is watching Project Hail Mary on his iPhone and asked for the villa TV to be a calm, non-distracting background. Sets 18–21 were replaced with one quiet still-photo set from 18:00 to 21:30, plus the same quiet loop from 21:30 to 22:00. The 22:00 Leonids and 23:00 lighthouse sets are unchanged. No quizzes, puzzles, illusions, facts, quotes or generators in the new sets. Captions are tiny and low-opacity (hzphoto quiet:1, fade transitions only, still photos do not move). No plot references to the film. 8 new CC/PD photos (m/h16-mb-*). The original 18:00 Trabzon set aired for about 40 minutes before this rebuild; 19–21 never aired (already logged as used in the rev 66 section below). h15-* images archived to /workspace/tv-media-archive/h15 (site was 48 MB).

@@ -1,0 +1,530 @@
+{
+ "sumela": {
+  "title": "Sümela Monastery in Altindere Valley National Park, Trabzon, Türkiye.jpg",
+  "artist": "Kaan261",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:S%C3%BCmela_Monastery_in_Altindere_Valley_National_Park,_Trabzon,_T%C3%BCrkiye.jpg",
+  "size": [
+   1700,
+   1275
+  ],
+  "q": "Sumela Monastery Trabzon cliff"
+ },
+ "altindere": {
+  "title": "Altındere Valley National Park 02.jpg",
+  "artist": "BSRF",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Alt%C4%B1ndere_Valley_National_Park_02.jpg",
+  "size": [
+   1275,
+   1700
+  ],
+  "q": "Altındere Valley National Park Maçka"
+ },
+ "lena": {
+  "title": "Lena River Delta - Landsat 2000.jpg",
+  "artist": "none (Landsat)",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Lena_River_Delta_-_Landsat_2000.jpg",
+  "size": [
+   1700,
+   1700
+  ],
+  "q": "Lena Delta satellite image"
+ },
+ "romanesco": {
+  "title": "Romanesco broccoli 2025 G2.jpg",
+  "artist": "George Chernilevsky",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Romanesco_broccoli_2025_G2.jpg",
+  "size": [
+   1700,
+   976
+  ],
+  "q": "Romanesco broccoli"
+ },
+ "jelly": {
+  "title": "Aurelia aurita (Cnidaria) Luc Viatour.jpg",
+  "artist": "Luc Viatour",
+  "lic": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Aurelia_aurita_(Cnidaria)_Luc_Viatour.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "q": "Aurelia aurita moon jellyfish"
+ },
+ "friedrich": {
+  "title": "Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+  "artist": "Caspar David Friedrich",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+  "size": [
+   1327,
+   1700
+  ],
+  "q": "Wanderer above the Sea of Fog"
+ },
+ "shishkin": {
+  "title": "Shishkin, Ivan - Morning in a Pine Forest.jpg",
+  "artist": "Ivan Shishkin / Konstantin Savitsky",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Shishkin,_Ivan_-_Morning_in_a_Pine_Forest.jpg",
+  "size": [
+   1700,
+   1152
+  ],
+  "q": "Shishkin Morning in a Pine Forest"
+ },
+ "poplars": {
+  "title": "Monet Poplars on the River Epte.jpg",
+  "artist": "Claude Monet",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Monet_Poplars_on_the_River_Epte.jpg",
+  "size": [
+   1335,
+   1700
+  ],
+  "q": "Monet Poplars"
+ },
+ "hiroshige": {
+  "title": "Hiroshige, Sudden shower over Shin-Ōhashi bridge and Atake, 1857.jpg",
+  "artist": "Utagawa Hiroshige",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Hiroshige,_Sudden_shower_over_Shin-%C5%8Chashi_bridge_and_Atake,_1857.jpg",
+  "size": [
+   1122,
+   1700
+  ],
+  "q": "Hiroshige Sudden Shower over Shin-Ohashi bridge"
+ },
+ "lily": {
+  "title": "Detail of \"The Water-Lily Pond\" by Claude Monet 02.jpg",
+  "artist": "Kritzolina",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Detail_of_%22The_Water-Lily_Pond%22_by_Claude_Monet_02.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "q": "water lily pond Monet Water Lilies"
+ },
+ "gauss": {
+  "title": "Carl Friedrich Gauss 1840 by Jensen.jpg",
+  "artist": "Christian Albrecht Jensen",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss_1840_by_Jensen.jpg",
+  "size": [
+   1334,
+   1700
+  ],
+  "q": "Carl Friedrich Gauss portrait Jensen"
+ },
+ "hilbertpic": {
+  "title": "DFC 3491 Dimly lit hotel corridor with a deep red carpet stretching into the distance flanked by warm-toned walls and evenly spaced doorways.jpg",
+  "artist": "PattayaPatrol",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DFC_3491_Dimly_lit_hotel_corridor_with_a_deep_red_carpet_stretching_into_the_distance_flanked_by_warm-toned_walls_and_evenly_spaced_doorways.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "q": "hotel corridor long empty"
+ },
+ "sadirvan": {
+  "title": "Lüleburgaz Sokollu Mehmet Paşa şadırvan 0029.jpg",
+  "artist": "Dosseman",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:L%C3%BCleburgaz_Sokollu_Mehmet_Pa%C5%9Fa_%C5%9Fad%C4%B1rvan_0029.jpg",
+  "size": [
+   1700,
+   1129
+  ],
+  "q": "Ottoman şadırvan fountain courtyard"
+ },
+ "lantern": {
+  "title": "Rikugien Gardens - Flickr - dalecruse.jpg",
+  "artist": "Dale Cruse from San Francisco, CA, USA",
+  "lic": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rikugien_Gardens_-_Flickr_-_dalecruse.jpg",
+  "size": [
+   1700,
+   956
+  ],
+  "q": "stone garden path lanterns evening"
+ },
+ "ames": {
+  "title": "Casaperspectiva.jpg",
+  "artist": "Andrevruas",
+  "lic": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Casaperspectiva.jpg",
+  "size": [
+   1700,
+   1275
+  ],
+  "q": "Ames room illusion"
+ },
+ "pisa": {
+  "title": "Forced perspective gallery by Francesco Borromini.jpg",
+  "artist": "Livioandronico2013",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Forced_perspective_gallery_by_Francesco_Borromini.jpg",
+  "size": [
+   1700,
+   1143
+  ],
+  "q": "forced perspective photograph"
+ },
+ "pollen": {
+  "title": "Misc pollen colorized.jpg",
+  "artist": "Dartmouth Electron Microscope Facility, Dartmouth College",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Misc_pollen_colorized.jpg",
+  "size": [
+   1228,
+   935
+  ],
+  "q": "pollen grains electron microscope colorized"
+ },
+ "diatom": {
+  "title": "Diatoms through the microscope.jpg",
+  "artist": "Prof. Gordon T. Taylor, Stony Brook University",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Diatoms_through_the_microscope.jpg",
+  "size": [
+   1700,
+   1117
+  ],
+  "q": "diatoms microscope"
+ },
+ "butterflywing": {
+  "title": "Transition of scales color on a butterfly wing (around 30x magnification).jpg",
+  "artist": "Paweł Wałasiewicz",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Transition_of_scales_color_on_a_butterfly_wing_(around_30x_magnification).jpg",
+  "size": [
+   1152,
+   1700
+  ],
+  "q": "butterfly wing scales microscope"
+ },
+ "kanun": {
+  "title": "Qānūn - MET 89.4.330.jpg",
+  "artist": "",
+  "lic": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Q%C4%81n%C5%ABn_-_MET_89.4.330.jpg",
+  "size": [
+   1700,
+   1275
+  ],
+  "q": "Kanun instrument qanun"
+ },
+ "sema": {
+  "title": "Turkish whirling dervishes of Mevlevi Order, bowing in unison during the Sema ceremony.jpg",
+  "artist": "Quinn Dombrowski",
+  "lic": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Turkish_whirling_dervishes_of_Mevlevi_Order,_bowing_in_unison_during_the_Sema_ceremony.jpg",
+  "size": [
+   1133,
+   1700
+  ],
+  "q": "Mevlevi sema whirling dervishes"
+ },
+ "dolphin": {
+  "title": "Black Sea common dolphin, 2026.jpg",
+  "artist": "Dmitry Ivanov",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Black_Sea_common_dolphin,_2026.jpg",
+  "size": [
+   1700,
+   1275
+  ],
+  "q": "common dolphin Black Sea"
+ },
+ "bowerbird": {
+  "title": "Satin Bowerbird at Bower 6533.jpg",
+  "artist": "JJ Harrison",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Satin_Bowerbird_at_Bower_6533.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "q": "Satin bowerbird bower"
+ },
+ "madder": {
+  "title": "Rubia Tincotorum sativa - Robbia - Garance. (Tincture of the root or Dyer's Madder) (NYPL b14444147-1125005).tiff",
+  "artist": "Scan by NYPL",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Rubia_Tincotorum_sativa_-_Robbia_-_Garance._(Tincture_of_the_root_or_Dyer%27s_Madder)_(NYPL_b14444147-1125005).tiff",
+  "size": [
+   1300,
+   1700
+  ],
+  "q": "madder root Rubia tinctorum dye"
+ },
+ "murex": {
+  "title": "MurexShells-MurexHotel-TyreSour RomanDeckert082019.jpg",
+  "artist": "RomanDeckert",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:MurexShells-MurexHotel-TyreSour_RomanDeckert082019.jpg",
+  "size": [
+   1700,
+   1318
+  ],
+  "q": "Murex shell Tyrian purple"
+ },
+ "ultramarine": {
+  "title": "1665 Girl with a Pearl Earring.jpg",
+  "artist": "Johannes Vermeer",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
+  "size": [
+   1435,
+   1700
+  ],
+  "q": "Vermeer Girl with a Pearl Earring"
+ },
+ "divrigi": {
+  "title": "Divriği mosque SW gate021.jpg",
+  "artist": "Dosseman",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Divri%C4%9Fi_mosque_SW_gate021.jpg",
+  "size": [
+   1700,
+   1140
+  ],
+  "q": "Divriği Great Mosque portal"
+ },
+ "selimiye": {
+  "title": "Interior of dome, Selimiye Mosque, Edirne - Tarik Kaan Muslu.jpg",
+  "artist": "Tarikkaanmuslu",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Interior_of_dome,_Selimiye_Mosque,_Edirne_-_Tarik_Kaan_Muslu.jpg",
+  "size": [
+   1700,
+   1129
+  ],
+  "q": "Selimiye Mosque Edirne dome interior"
+ },
+ "stork": {
+  "title": "White Storks Migrating Over Palestine.jpg",
+  "artist": "Mohammad Daraghmeh 19",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:White_Storks_Migrating_Over_Palestine.jpg",
+  "size": [
+   1700,
+   1361
+  ],
+  "q": "white stork migration flock"
+ },
+ "flamingo": {
+  "title": "Phoenicopterus roseus - Greater Flamingo 02.jpg",
+  "artist": "Zeynel Cebeci",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Phoenicopterus_roseus_-_Greater_Flamingo_02.jpg",
+  "size": [
+   1700,
+   1105
+  ],
+  "q": "Greater flamingos Turkey lake"
+ },
+ "tern": {
+  "title": "Arctic tern (Sterna paradisaea) attacking, Amsterdam island, Svalbard.jpg",
+  "artist": "AWeith",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Arctic_tern_(Sterna_paradisaea)_attacking,_Amsterdam_island,_Svalbard.jpg",
+  "size": [
+   1700,
+   1202
+  ],
+  "q": "Arctic tern flight"
+ },
+ "snowvillage": {
+  "title": "Snow in Ogimachi Area, Shirakawa village, Gifu.JPG",
+  "artist": "そらみみ",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Snow_in_Ogimachi_Area,_Shirakawa_village,_Gifu.JPG",
+  "size": [
+   1700,
+   1275
+  ],
+  "q": "Shirakawa-go snow village winter"
+ },
+ "frost": {
+  "title": "Dülmen, Hausdülmen, Eiskristalle auf Blättern -- 2022 -- 9659.jpg",
+  "artist": "Dietmar Rabich",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Eiskristalle_auf_Bl%C3%A4ttern_--_2022_--_9659.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "q": "frost on leaf macro ice crystals"
+ },
+ "candle": {
+  "title": "A Candle in the Dark.jpeg",
+  "artist": "Leoadec",
+  "lic": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Candle_in_the_Dark.jpeg",
+  "size": [
+   1014,
+   1700
+  ],
+  "q": "candle flame dark background"
+ },
+ "moonrise": {
+  "title": "Setting Sun with Crescent Moon at Dusk.jpg",
+  "artist": "Kuber Rana Magar",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Setting_Sun_with_Crescent_Moon_at_Dusk.jpg",
+  "size": [
+   1133,
+   1700
+  ],
+  "q": "crescent moon dusk sky"
+ },
+ "paperlantern": {
+  "title": "Colorful star-shaped lanterns hanging on a building at blue hour in Luang Prabang Laos.jpg",
+  "artist": "Basile Morin",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Colorful_star-shaped_lanterns_hanging_on_a_building_at_blue_hour_in_Luang_Prabang_Laos.jpg",
+  "size": [
+   1700,
+   850
+  ],
+  "q": "paper lanterns hanging night"
+ },
+ "fire": {
+  "title": "Culloden Tower living room fireplace 02.jpg",
+  "artist": "Kognos",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Culloden_Tower_living_room_fireplace_02.jpg",
+  "size": [
+   1133,
+   1700
+  ],
+  "q": "fireplace living room"
+ },
+ "library": {
+  "title": "Niavaran palace library (27).jpg",
+  "artist": "Alborzagros",
+  "lic": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Niavaran_palace_library_(27).jpg",
+  "size": [
+   1700,
+   1275
+  ],
+  "q": "private library interior bookshelves"
+ },
+ "snowflake": {
+  "title": "Snowflake macro photography 1.jpg",
+  "artist": "Alexey Kljatov",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Snowflake_macro_photography_1.jpg",
+  "size": [
+   1700,
+   1275
+  ],
+  "q": "snowflake macro photograph"
+ },
+ "octopus": {
+  "title": "Octopus2.jpg",
+  "artist": "albert kok",
+  "lic": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg",
+  "size": [
+   1700,
+   1294
+  ],
+  "q": "File:Octopus2.jpg"
+ },
+ "kangal": {
+  "title": "Anatolian Shepherd Dog - Kangal köpeği 02.jpg",
+  "artist": "Zeynel Cebeci",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Anatolian_Shepherd_Dog_-_Kangal_k%C3%B6pe%C4%9Fi_02.jpg",
+  "size": [
+   1700,
+   1113
+  ],
+  "q": "Kangal Shepherd Dog"
+ },
+ "crane": {
+  "title": "Common cranes – Grus grus – over Heispelt, Luxembourg, 2018.jpg",
+  "artist": "Cayambe",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Common_cranes_%E2%80%93_Grus_grus_%E2%80%93_over_Heispelt,_Luxembourg,_2018.jpg",
+  "size": [
+   1700,
+   1539
+  ],
+  "q": "Grus grus flock"
+ },
+ "muqarnas": {
+  "title": "Calligraphy of Bibi-Khanym Mausoleum, Samarkand, Uzbekistan (Мавзолей Биби Ханум, Самарканд).jpg",
+  "artist": "Petar Milošević",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Calligraphy_of_Bibi-Khanym_Mausoleum,_Samarkand,_Uzbekistan_(%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9_%D0%91%D0%B8%D0%B1%D0%B8_%D0%A5%D0%B0%D0%BD%D1%83%D0%BC,_%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4).jpg",
+  "size": [
+   1155,
+   1700
+  ],
+  "q": "muqarnas"
+ },
+ "geometry": {
+  "title": "Tiles on Islamic geometric patterns.jpg",
+  "artist": "Jorge Láscar",
+  "lic": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Tiles_on_Islamic_geometric_patterns.jpg",
+  "size": [
+   1700,
+   955
+  ],
+  "q": "Islamic geometric pattern tile"
+ },
+ "snowmount": {
+  "title": "Cold Turkey ESA415078.jpg",
+  "artist": "European Space Agency",
+  "lic": "CC BY-SA 3.0 igo",
+  "page": "https://commons.wikimedia.org/wiki/File:Cold_Turkey_ESA415078.jpg",
+  "size": [
+   1700,
+   1170
+  ],
+  "q": "snow village winter Turkey"
+ },
+ "indigo": {
+  "title": "GutierrezWorkshopTeotitlan019.jpg",
+  "artist": "Thelmadatter",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:GutierrezWorkshopTeotitlan019.jpg",
+  "size": [
+   1138,
+   1700
+  ],
+  "q": "indigo dyeing"
+ },
+ "milky": {
+  "title": "Laser Towards Milky Ways Centre.jpg",
+  "artist": "ESO/Yuri Beletsky (ybialets at eso.org)",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Laser_Towards_Milky_Ways_Centre.jpg",
+  "size": [
+   1700,
+   1543
+  ],
+  "q": "Milky Way night sky Turkey"
+ },
+ "pergola": {
+  "title": "Vine-Covered Pergola Pathway (55253762978).jpg",
+  "artist": "Michael Gaylard from Horsham, UK",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vine-Covered_Pergola_Pathway_(55253762978).jpg",
+  "size": [
+   1133,
+   1700
+  ],
+  "q": "vine covered pergola"
+ }
+}

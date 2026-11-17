@@ -846,4 +846,75 @@ W.hzfener=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(200),HY=620,L
   for(var wv=0;wv<5;wv++){var wy=HY+40+wv*80+Math.sin(t*.4+wv)*4;x.strokeStyle='rgba(120,140,170,.10)';x.lineWidth=2;x.beginPath();for(var px=0;px<=1920;px+=40){var q=wy+Math.sin(px*.005+t*.5+wv)*4;if(px)x.lineTo(px,q);else x.moveTo(px,q)}x.stroke()}});return L};
 
 
+/* ---------- v68 additions: hzflow hzlissa hzrule (living art), hzscint hzchecker (illusions), hzlantern (calm night) ---------- */
+/* flow field: thousands of tiny particles drifting along an invisible, slowly changing wind map */
+W.hzflow=function(L,it){L.style.background='#070d14';var c=wCv(L),x=c.getContext('2d'),P=[],N=1400,i;
+ x.fillStyle='#070d14';x.fillRect(0,0,1920,1080);
+ for(i=0;i<N;i++)P.push([Math.random()*1920,Math.random()*1080,Math.random()*200]);
+ T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — simülasyon · simulation','Görünmez bir rüzgâr haritası; binlerce nokta ona uyuyor','An invisible wind map — and thousands of dots obey it')+'</div>','top:22px',.4);
+ T(L,'<div class="hzbox" style="max-width:56vw"><div class="sm" style="font-size:1.2vw;color:#dfe6e9">Her noktanın tek kuralı var: bulunduğu yerdeki oku izle. Haritayı yavaşça değiştirince çizgiler nehir gibi akıyor<br><i>Each dot has a single rule: follow the arrow where you are. Change the map slowly and the lines flow like rivers</i></div></div>','bottom:20px;left:40px;right:auto;text-align:left',6);
+ function ang(px,py,t){return (Math.sin(px*.0032+t*.07)+Math.cos(py*.0041-t*.05)+Math.sin((px+py)*.0019+t*.04))*1.6}
+ wLoop(L,function(t){x.fillStyle='rgba(7,13,20,.06)';x.fillRect(0,0,1920,1080);
+  for(i=0;i<N;i++){var p=P[i],a=ang(p[0],p[1],t),nx=p[0]+Math.cos(a)*2.4,ny=p[1]+Math.sin(a)*2.4;
+   var h=190+60*Math.sin(a)+(p[2]%40);x.strokeStyle='hsla('+h+',70%,'+(58+10*Math.cos(a))+'%,.55)';x.lineWidth=1.3;x.beginPath();x.moveTo(p[0],p[1]);x.lineTo(nx,ny);x.stroke();
+   p[0]=nx;p[1]=ny;p[2]+=1;if(p[0]<0||p[0]>1920||p[1]<0||p[1]>1080||p[2]>420){p[0]=Math.random()*1920;p[1]=Math.random()*1080;p[2]=Math.random()*60}}});return L};
+
+/* Lissajous table: a grid of curves from two simple oscillations with different frequency ratios */
+W.hzlissa=function(L,it){grad(L,'#16202e','#04070b');var c=wCv(L),x=c.getContext('2d'),G=5,CW=300,OX=(1920-G*CW)/2+CW/2,OY=335;
+ T(L,'<div class="hzbox">'+hd('Sesin Şekli · The Shape of Sound — simülasyon · simulation','İki basit titreşim, bir araya gelince dans eden eğriler','Two simple vibrations, combined, become dancing curves')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="max-width:62vw"><div class="sm" style="font-size:1.2vw;color:#dfe6e9">Yatayda bir titreşim, dikeyde bir başkası. Frekans oranı 1:2 ise sekiz, 2:3 ise bir düğüm çıkar — müzikteki oktav ve beşli aralıklar böyle görünür<br><i>One vibration sideways, another up and down. A 1:2 ratio gives a figure eight, 2:3 a knot — this is how an octave and a fifth look</i></div></div>','bottom:16px',6);
+ wLoop(L,function(t){x.clearRect(0,0,1920,1080);
+  for(var a=0;a<4;a++)for(var b=0;b<G;b++){var cx=OX+b*CW,cy=OY+a*150,fx=b+1,fy=a+1;
+   x.strokeStyle='rgba(143,211,193,.9)';x.lineWidth=2;x.beginPath();var ph=t*.35;
+   for(var k=0;k<=240;k++){var u=k/240*Math.PI*2,px=cx+Math.sin(fx*u+ph)*105,py=cy+Math.sin(fy*u)*55;if(k)x.lineTo(px,py);else x.moveTo(px,py)}x.stroke();
+   var u2=t*1.4;x.fillStyle='#fff';x.beginPath();x.arc(cx+Math.sin(fx*u2+ph)*105,cy+Math.sin(fy*u2)*55,5,0,7);x.fill();
+   x.fillStyle='rgba(180,195,205,.7)';x.font='22px Helvetica,Arial';x.textAlign='center';x.fillText(fx+' : '+fy,cx,cy+80)}});return L};
+
+/* elementary cellular automata: Rule 30, Rule 90 (Sierpinski) and Rule 110, one line at a time */
+W.hzrule=function(L,it){L.style.background='#0a0d12';var c=wCv(L),x=c.getContext('2d'),CS=6,NC=320,TOP=175,NR=Math.floor((1080-TOP-125)/CS),RULES=[30,90,110],NOTE=[
+ ['Kural 30: kaotik görünür; bir zamanlar Mathematica’nın rastgele sayı üretecinde kullanıldı','Rule 30 looks chaotic — it was once used as the random-number generator in Mathematica'],
+ ['Kural 90: aynı kuraldan bir Sierpinski üçgeni doğuyor','Rule 90: the very same game draws a Sierpinski triangle'],
+ ['Kural 110: sonsuza kadar tam bir bilgisayar gibi hesap yapabilir','Rule 110 can compute anything a computer can — it is “Turing complete”']];
+ var hdr=T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — simülasyon · simulation','Her satır, bir üsttekinin üç komşusuna bakıp renk seçiyor','Each row looks at three neighbours above it and chooses its colour')+'</div>','top:20px',.4);
+ var cap=T(L,'','bottom:14px;left:5vw;right:5vw',1),ri=-1,row,cells,y=0,last=-9,seg=19;
+ function start(k){ri=k;cells=new Uint8Array(NC);cells[NC>>1]=1;y=0;x.fillStyle='#0a0d12';x.fillRect(0,TOP,1920,1080-TOP);cap.innerHTML='<div class="hzbox" style="padding:.5vw 1.6vw"><div class="a" style="font-size:1.5vw">'+NOTE[k][0]+'</div><div class="e" style="font-size:1.1vw">'+NOTE[k][1]+'</div></div>'}
+ wLoop(L,function(t){var k=Math.min(2,Math.floor(t/seg));if(k!=ri)start(k);var want=Math.min(NR,Math.floor((t-k*seg)*10));
+  while(y<want){for(var i=0;i<NC;i++)if(cells[i]){x.fillStyle=ri==0?'#8fd3c1':ri==1?'#9db8ff':'#ffb38a';x.fillRect(i*CS,TOP+y*CS,CS-1,CS-1)}
+   var n=new Uint8Array(NC);for(i=0;i<NC;i++){var l=cells[(i+NC-1)%NC],m=cells[i],r=cells[(i+1)%NC];n[i]=(RULES[ri]>>(l*4+m*2+r))&1}cells=n;y++}});return L};
+
+/* scintillating grid: dark dots seem to flash at the crossings you are not looking at */
+W.hzscint=function(L,it){L.style.background='#000';var c=wCv(L),x=c.getContext('2d');x.fillStyle='#000';x.fillRect(0,0,1920,1080);
+ var SP=96,NX=14,NY=7,X0=(1920-SP*(NX-1))/2,Y0=250,i,j;
+ x.fillStyle='#46468a';for(i=0;i<NX;i++)x.fillRect(X0+i*SP-8,Y0-SP*.6,16,SP*(NY-1)+SP*1.2);for(j=0;j<NY;j++)x.fillRect(X0-SP*.6,Y0+j*SP-8,SP*(NX-1)+SP*1.2,16);
+ x.fillStyle='#fff';for(i=0;i<NX;i++)for(j=0;j<NY;j++){x.beginPath();x.arc(X0+i*SP,Y0+j*SP,13,0,7);x.fill()}
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','Beyaz noktaların arasında koyu noktalar yanıp sönüyor mu?','Do dark dots flicker among the white ones?')+'</div>','top:12px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.8vw">Hayır! Ekranda hiç koyu nokta yok; kıvılcımları beynin yaratıyor</div><div class="e" style="font-size:1.25vw">No — there are no dark dots at all. Your visual system makes the flashes. Look at one crossing and the others twinkle (scintillating grid, Schrauf 1993)</div></div>','bottom:14px',16);return L};
+
+/* Adelson checker shadow: squares A and B are exactly the same grey */
+W.hzchecker=function(L,it){L.style.background='#2a2d33';var c=wCv(L),x=c.getContext('2d'),S=80,OX=(1920-S*8)/2,OY=250,LT=205,DK=112,K=DK/LT;
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','A ve B karelerinden hangisi daha açık gri?','Which is lighter grey, square A or square B?')+'</div>','top:14px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.8vw">İkisi tamamen aynı gri! Beyin gölgeyi “hesaplayıp” çıkarıyor</div><div class="e" style="font-size:1.25vw">They are exactly the same grey. Your brain discounts the shadow (Adelson’s checker-shadow illusion, 1995). Ekranda ölçerseniz hem A hem B = %44 parlaklık · measure it: both A and B are 44 % brightness</div></div>','bottom:12px',22);
+ function g(v){v=Math.round(v);return 'rgb('+v+','+v+','+v+')'}
+ var SX=OX+S*4.2,SY=OY+S*3.6;
+ function inSh(cx,cy){var dx=(cx-SX)/(S*2.3),dy=(cy-SY)/(S*1.15);return dx*dx+dy*dy<1||(cx>SX&&cx<SX+S*2.7&&Math.abs(cy-SY)<S*.75&&false)}
+ var A=[0,4],B=[3,4];
+ wLoop(L,function(t){for(var r=0;r<8;r++)for(var q=0;q<8;q++){var light=(r+q)%2==1,cx=OX+q*S+S/2,cy=OY+r*S+S/2,sh=inSh(cx,cy)||(Math.abs(cy-SY)<S*.7&&cx>SX-S*.2&&cx<SX+S*3.3);var v=light?LT:DK;if(sh)v*=K;x.fillStyle=g(v);x.fillRect(OX+q*S,OY+r*S,S,S)}
+  var sq=function(r,q,l){x.fillStyle='rgba(255,60,60,0)';x.strokeStyle='#ff5a4a';x.lineWidth=4;x.strokeRect(OX+q*S+6,OY+r*S+6,S-12,S-12);x.fillStyle='#ff5a4a';x.font='bold 40px Helvetica,Arial';x.textAlign='center';x.fillText(l,OX+q*S+S/2,OY+r*S+S/2+14)};
+  sq(A[1],A[0],'A');sq(B[1],B[0],'B');
+  if(t>14){var al=Math.min(1,(t-14)/3),ya=OY+A[1]*S+S/2;x.globalAlpha=al;x.fillStyle=g(DK);x.fillRect(OX+A[0]*S+S/2,ya-S*.18,(B[0]-A[0])*S,S*.36);x.fillStyle='#ff5a4a';x.font='bold 40px Helvetica,Arial';x.fillText('A',OX+A[0]*S+S/2,ya+14);x.fillText('B',OX+B[0]*S+S/2,ya+14);x.globalAlpha=1}});return L};
+
+/* floating lanterns: calm night, slow warm lights drifting up over dark water and distant hills */
+W.hzlantern=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(160),N=26,P=[],i;
+ for(i=0;i<N;i++)P.push([Math.random()*1920,Math.random()*1000+60,.14+Math.random()*.3,Math.random()*6.28,.6+Math.random()*.9]);
+ T(L,hd('Gece Kandilleri · Night Lanterns — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Karanlık bir gökte yavaşça yükselen kandiller','Lanterns slowly rising into a dark sky'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Kandil, bayram ve anma gecelerinde dileklerin göğe bırakıldığı en eski ışıklardandır; her biri küçük bir niyet taşır<br><i>Lanterns are among the oldest lights for letting wishes drift to the sky — each carries one small intention</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var HY=760,g=x.createLinearGradient(0,0,0,HY);g.addColorStop(0,'#02030a');g.addColorStop(1,'#101a2e');x.fillStyle=g;x.fillRect(0,0,1920,HY);drawStars(x,S.filter(function(s){return s[1]<HY-20}),t);
+  x.fillStyle='#050912';x.beginPath();x.moveTo(0,HY);x.lineTo(0,640);for(var px=0;px<=1920;px+=40)x.lineTo(px,640+Math.sin(px*.004+1)*46+Math.sin(px*.011)*18);x.lineTo(1920,HY);x.fill();
+  var wg=x.createLinearGradient(0,HY,0,1080);wg.addColorStop(0,'#0b1424');wg.addColorStop(1,'#02040a');x.fillStyle=wg;x.fillRect(0,HY,1920,320);
+  for(i=0;i<N;i++){var p=P[i];p[1]-=p[2]*.6;p[0]+=Math.sin(t*.3+p[3])*.25;if(p[1]<-40){p[1]=HY-30;p[0]=Math.random()*1920}
+   var fl=.82+.18*Math.sin(t*2.2+p[3]*3),r=15*p[4];
+   for(var m=0;m<2;m++){var yy=m?HY+(HY-p[1])*.9+20:p[1],al=(m?.18:1)*Math.min(1,(HY-p[1])/80)*fl;if(m&&yy>1070)continue;
+    var gl=x.createRadialGradient(p[0],yy,0,p[0],yy,r*7);gl.addColorStop(0,'rgba(255,214,170,'+(.55*al).toFixed(3)+')');gl.addColorStop(1,'rgba(255,190,150,0)');x.fillStyle=gl;x.beginPath();x.arc(p[0],yy,r*7,0,7);x.fill();
+    x.fillStyle='rgba(255,236,214,'+(.95*al).toFixed(3)+')';x.beginPath();x.ellipse(p[0],yy,r*.7,r,0,0,7);x.fill()}}});return L};
+
 })();
