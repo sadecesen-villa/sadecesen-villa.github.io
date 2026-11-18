@@ -4,6 +4,116 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-18 (rev 69, hourly sets 09:00–02:00, days/2026-11-18.json) · Wednesday
+
+No pending requests in requests.md. 6 new hz scenes (hourly.js v69): generators hzmandel (Mandelbrot zoom) hzbuffon (Buffon’s needle π) hzember (calm night campfire) + illusions hzouchi (Ouchi) hzmach (Mach bands) hzbarber (barber pole / aperture problem). 46 new CC/PD photos/artworks (m/h18-*); h16-* archived to /workspace/tv-media-archive/h16. Evening 18–22 photo-led and calm (no generators/illusions), calm night from 22:00. Quotes: Kapı ardına kadar açıkken neden hapiste kalıyorsun? (Mevlânâ, 09); Hayatını ateşe ver; alevini körükleyenleri ara (Mevlânâ, 13); Dağ dağa kavuşmaz, insan insana kavuşur (atasözü, 21); Gönül ne kahve ister ne kahvehane (Türk sözü, 23).
+
+### 09:00–10:00 · Çarşamba Sabahı · Wednesday Morning
+- 09 | hzphoto | Atatürk Köşkü — Soğuksu’da, ağaçların arasında beyaz bir yazlık köşk | m/h18-ataturkkosk.jpg
+- 09 | hzquote | Kapı ardına kadar açıkken neden hapiste kalıyorsun? | —
+- 09 | hzphoto | Sera Gölü — Trabzon’un hemen batısında, ormanla çevrili sakin bir göl | m/h18-seragolu.jpg
+- 09 | hzfact | “Çarşamba” Farsça “çehâr-şenbe”den gelir: “cumartesiden sonraki dördüncü gün” | —
+- 09 | hzriddle | Her şeyi yer ama hiç doymaz; su içerse ölür. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Fraktal Kıyılar · Living Art: Fractal Coasts
+- 10 | hzmandel | NEW Mandelbrot set zoom into Seahorse Valley (row-by-row render, 9 zoom stages) | —
+- 10 | hzphoto | Norveç kıyısı uzaydan: fiyortlar ve adalarla dantel gibi bir kıyı; açıktaki turkuaz girdaplar bir plankton patlaması | m/h18-norwaycoast.jpg
+- 10 | hzsteps | Kıyı paradoksu: bir kıyının uzunluğu kaç kilometre? | —
+- 10 | hzphoto | Yapraklarını dökmüş bir meşe: her dal, ağacın küçük bir kopyası gibi | m/h18-oaktree.jpg
+
+### 11:00–12:00 · Galeri: Doğanın Ressamları · Gallery: Painters of Nature
+- 11 | hzphoto | Genç Tavşan — Albrecht Dürer, 1502 | m/h18-hare.jpg
+- 11 | hzphoto | Büyük Çim Parçası — Albrecht Dürer, 1503 | m/h18-turf.jpg
+- 11 | hzphoto | Karolina Papağanı — John James Audubon, “Amerika’nın Kuşları”, 1827–1838 | m/h18-audubon.jpg
+- 11 | hzphoto | Muz çiçeği ve meyvesi — Maria Sibylla Merian, 1705 | m/h18-merian.jpg
+- 11 | hzphoto | Vazoda Yaz Çiçekleri — Rachel Ruysch | m/h18-ruysch.jpg
+
+### 12:00–13:00 · Zekice Düşünce: Rastlantının Gücü · Clever Thinking: The Power of Chance
+- 12 | hzbuffon | NEW Buffon’s needle — estimating π from random needles | —
+- 12 | hzsteps | Eratosthenes, Dünya’nın çevresini bir çubuk ve bir gölgeyle nasıl ölçtü? | —
+- 12 | hzsteps | Hayatta kalan yanılgısı: uçağın neresine zırh koymalı? | —
+- 12 | hzriddle | Bir zar attın, 6 geldi. Hemen bir daha atarsan 6 gelme şansı azalır mı? | —
+- 12 | hzfact | 14 Mart, Amerikan tarih yazımıyla 3/14 olduğu için dünyada “Pi Günü” olarak kutlanıyor | —
+
+### 13:00–14:00 · Düşünce Deneyleri: Bilmek ve Görmek · Thought Experiments: Knowing & Seeing
+- 13 | hzsteps | Mary’nin Odası: renk hakkında her şeyi bilen biri, kırmızıyı ilk kez görünce yeni bir şey öğrenir mi? | —
+- 13 | hzphoto | Erwin Schrödinger — 1935’te kuantum fiziğinin tuhaflığını göstermek için bir kedi düşünce deneyi önerdi | m/h18-schrodinger.jpg
+- 13 | hzsteps | Schrödinger’in Kedisi: kutudaki kedi hem canlı hem ölü olabilir mi? | —
+- 13 | hzquote | Hayatını ateşe ver; alevini körükleyenleri ara | —
+- 13 | hzsteps | Molyneux’nün sorusu: doğuştan görmeyen biri görmeye başlasa, küpü ve küreyi gözüyle ayırabilir mi? | —
+- 13 | hzriddle | Bir horoz çatının tam tepesinde yumurtlarsa, yumurta hangi tarafa düşer? | —
+
+### 14:00–15:00 · Villa Fikirleri: Bahçe ve Köşeler · Villa Ideas: Garden & Nooks
+- 14 | hzphoto | Bahçede bir ateş çukuru: serin Karadeniz akşamlarında dostlarla oturmak için | m/h18-firepit.jpg
+- 14 | hzphoto | Bahçede kerpiçten bir ekmek fırını yapılıyor: köy fırını geleneği, misafirlerle pişen pide ve ekmek | m/h18-pizzaoven.jpg
+- 14 | hzphoto | Ot bahçesinde yaşlı bir zeytin ağacı (Polis, Kıbrıs) | m/h18-herbgarden.jpg
+- 14 | hzphoto | Ağaçların arasında bir hamak: bahçenin en sakin köşesi | m/h18-hammock.jpg
+- 14 | hzriddle | Karnı ateşle dolar ama hiç yanmaz; içine giren hamur ekmek olur. Nedir? | —
+
+### 15:00–16:00 · Göz Oyunları: Hareket ve Kenar · Tricks of the Eye: Motion & Edges
+- 15 | hzouchi | NEW Ouchi illusion (vertical-brick disc floats over horizontal bricks) | —
+- 15 | hzbarber | NEW barber-pole / aperture problem (tall vs wide window, same rightward stripes) | —
+- 15 | hzphoto | Beuchet sandalyesi: tek bir delikten bakınca parçalar tek bir sandalye gibi birleşiyor | m/h18-beuchet.jpg
+- 15 | hzmach | NEW Mach bands (flat grey steps, edges seem to glow; profile line reveal) | —
+- 15 | hzfact | Ses hızı birimi “Mach” da, Mach bantlarını 1865’te tanımlayan aynı Avusturyalı bilim insanının adını taşır: Ernst Mach | —
+
+### 16:00–17:00 · Ölçek Yolculuğu: Dışarı Doğru · Scale Journey: Outward
+- 16 | hzphoto | Dünya Doğuşu — Apollo 8, 24 Aralık 1968: Ay’ın ufkundan yükselen Dünya | m/h18-earthrise.jpg
+- 16 | hzsteps | Işık hızıyla yolculuk: saniyede yaklaşık 300.000 km | —
+- 16 | hzphoto | Soluk Mavi Nokta: Voyager 1’in 1990’da yaklaşık 6 milyar km uzaktan çektiği Dünya — ışık huzmesindeki minik nokta | m/h18-palebluedot.jpg
+- 16 | hzphoto | Hubble Ultra Derin Alan: dolunayın onda birinden küçük bir gökyüzü parçasında yaklaşık 10.000 galaksi | m/h18-hudf.jpg
+- 16 | hzphoto | Andromeda — çıplak gözle görülebilen en uzak nesnelerden, yaklaşık 2,5 milyon ışık yılı uzakta | m/h18-andromeda.jpg
+- 16 | hzriddle | Ay ile Dünya arasına yan yana kaç Dünya sığar? 3 mü, 30 mu, 300 mü? | —
+
+### 17:00–18:00 · Doğanın Mühendisleri · Nature’s Engineers
+- 17 | hzphoto | Kunduz barajı: dallar, çamur ve taşla yapılmış bir set | m/h18-beaver.jpg
+- 17 | hzsteps | Bir kunduz barajı nasıl kurulur? | —
+- 17 | hzphoto | Termit tepesi: içindeki tüneller havalandırma kanalı gibi çalışıyor | m/h18-termite.jpg
+- 17 | hzphoto | Çiy damlalarıyla süslenmiş bir örümcek ağı | m/h18-spiderweb.jpg
+- 17 | hzphoto | Su güvesi larvası: minik taşlardan kendine taşınabilir bir ev yapıyor | m/h18-caddis.jpg
+- 17 | hzriddle | Evini sırtında taşır, hiç acele etmez; yağmurdan sonra ortaya çıkar. Nedir? | —
+
+### 18:00–19:00 · Deniz Altında Sessizlik · Quiet Under the Sea
+- 18 | hzphoto | Kızıldeniz’de bir Acropora mercanı: binlerce minik polipten oluşan bir koloni | m/h18-reef.jpg
+- 18 | hzphoto | Galápagos’ta süzülen bir yeşil deniz kaplumbağası | m/h18-turtle.jpg
+- 18 | hzphoto | Mavinin içinde kanat çırpar gibi yüzen bir dev manta | m/h18-manta.jpg
+- 18 | hzphoto | Su altında bir kelp ormanı: ışık, yaprakların arasından süzülüyor | m/h18-kelp.jpg
+- 18 | hzphoto | Bir yosuna kuyruğuyla tutunmuş denizatı | m/h18-seahorse.jpg
+
+### 19:00–20:00 · Kayıp Kentler · Lost Cities
+- 19 | hzphoto | Ani — Arpaçay kıyısında “bin bir kilise” kenti; Ani Katedrali | m/h18-ani.jpg
+- 19 | hzphoto | Sagalassos — Toros Dağları’nda yüksekte bir antik kent; Antoninler Çeşmesi | m/h18-sagalassos.jpg
+- 19 | hzphoto | Hattuşa — Hititlerin başkenti; Aslanlı Kapı | m/h18-hattusa.jpg
+- 19 | hzphoto | Afrodisias — Tetrapylon, kentin anıtsal kapısı | m/h18-afrodisias.jpg
+- 19 | hzsteps | Arkeologlar toprağın altındaki bir kenti nasıl bulur? | —
+
+### 20:00–21:00 · Kuşbakışı Dünya · Earth from Above
+- 20 | hzphoto | Richat Yapısı — Sahra’nın “gözü”, yaklaşık 40 km çapında halkalar | m/h18-richat.jpg
+- 20 | hzphoto | Namib Çölü uydudan: Atlas Okyanusu’na kadar uzanan kum denizi | m/h18-namib.jpg
+- 20 | hzphoto | Uzaydan gece İstanbul: Boğaz’ın karanlık çizgisi ışıkları ikiye ayırıyor | m/h18-istanbulnight.jpg
+- 20 | hzfact | Astronotların uzaydan Dünya’yı görünce yaşadığı derin hayranlık ve bağlılık duygusuna “genel bakış etkisi” denir | —
+
+### 21:00–22:00 · Dağların Sessizliği · Quiet Mountains
+- 21 | hzphoto | Erciyes Dağı ve önünde Kayseri’den bir cami | m/h18-erciyes.jpg
+- 21 | hzphoto | Demirkazık Dağı, Aladağlar — kireçtaşından keskin zirveler | m/h18-aladaglar.jpg
+- 21 | hzphoto | Matterhorn ve bir dağ gölündeki yansıması | m/h18-matterhorn.jpg
+- 21 | hzphoto | Everest — dünyanın en yüksek zirvesi | m/h18-everest.jpg
+- 21 | hzquote | Dağ dağa kavuşmaz, insan insana kavuşur | —
+
+### 22:00–23:00 · Su Sesi · The Sound of Water (sakin · calm)
+- 22 | hzphoto | Tortum Şelalesi — Türkiye’nin en yüksek şelalelerinden | m/h18-tortum.jpg
+- 22 | hzphoto | Kapuzbaşı Şelaleleri — kayalığın içinden fışkıran kaynak suları | m/h18-kapuzbasi.jpg
+- 22 | hzphoto | Yosunlu kayaların arasında yavaşça dönen bir su birikintisi | m/h18-mossstream.jpg
+- 22 | hzsteps | Gözlerini kapat: dört sesi bul | —
+
+### 23:00–02:00 · Kamp Ateşi ve Yıldızlar · Campfire & Stars (sakin · calm)
+- 23 | hzember | NEW campfire under the stars, sparks rising (calm night illustration) | —
+- 23 | hzphoto | Uzun pozlamada yıldız izleri: kamera Dünya’nın dönüşünü kaydediyor | m/h18-startrail.jpg
+- 23 | hzphoto | Dolunay — kraterler ve karanlık “denizler” | m/h18-moon.jpg
+- 23 | hzphoto | Arkadan aydınlanan Satürn: Cassini uzay aracı gezegenin gölgesinden bakıyor | m/h18-saturn.jpg
+- 23 | hzphoto | Dağların ardında son ışık; göle sakin bir akşam iniyor | m/h18-nightvillage.jpg
+- 23 | hzquote | Gönül ne kahve ister ne kahvehane; gönül sohbet ister, kahve bahane | —
+
 ## 2026-11-17 (rev 68, hourly sets 09:00–02:00, days/2026-11-17.json) · Tuesday
 
 No pending requests in requests.md. 6 new hz scenes (hourly.js v68): generators hzflow (flow field) hzlissa (Lissajous table) hzrule (cellular automata rules 30/90/110) hzlantern (calm night) + illusions hzscint (scintillating grid) hzchecker (Adelson checker-shadow). 48 new CC/PD photos/artworks (m/h17-*). Quotes: Dün akıllıydım, dünyayı değiştirmek istedim (Mevlânâ, 09); Gel, her ne olursan ol yine gel (Mevlânâ, 13); Gelin tanış olalım (Yunus Emre, 17); Damlaya damlaya göl olur (atasözü, 16); Eline, beline, diline sahip ol (Hacı Bektaş-ı Veli, 20); Sabreden derviş muradına ermiş (atasözü, 22); Her gecenin bir sabahı vardır (atasözü, 23).

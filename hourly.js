@@ -1,6 +1,6 @@
-/* hourly.js v67 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v69 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto (quiet:1 = dim ambient still, tiny caption, fade only) hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener + hzshepard hzbezold.  v68: hzflow hzlissa hzrule hzlantern + hzscint hzchecker.  v69: hzmandel hzbuffon hzember (calm night) + illusions hzouchi hzmach hzbarber.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -916,5 +916,75 @@ W.hzlantern=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(160),N=26,P
    for(var m=0;m<2;m++){var yy=m?HY+(HY-p[1])*.9+20:p[1],al=(m?.18:1)*Math.min(1,(HY-p[1])/80)*fl;if(m&&yy>1070)continue;
     var gl=x.createRadialGradient(p[0],yy,0,p[0],yy,r*7);gl.addColorStop(0,'rgba(255,214,170,'+(.55*al).toFixed(3)+')');gl.addColorStop(1,'rgba(255,190,150,0)');x.fillStyle=gl;x.beginPath();x.arc(p[0],yy,r*7,0,7);x.fill();
     x.fillStyle='rgba(255,236,214,'+(.95*al).toFixed(3)+')';x.beginPath();x.ellipse(p[0],yy,r*.7,r,0,0,7);x.fill()}}});return L};
+
+/* ---------- v69 additions: hzmandel hzbuffon (living art / clever thinking), hzouchi hzmach hzbarber (illusions), hzember (calm night) ---------- */
+/* Mandelbrot set: z → z² + c, drawn row by row, zooming into "Seahorse Valley" */
+W.hzmandel=function(L,it){L.style.background='#03060c';var c=wCv(L),x=c.getContext('2d'),RW=480,RH=270,o=document.createElement('canvas');o.width=RW;o.height=RH;var ox=o.getContext('2d'),img=ox.createImageData(RW,RH),D=img.data,bg=document.createElement('canvas');bg.width=1920;bg.height=1080;var bx=bg.getContext('2d');
+ var CX=-0.743643887,CY=0.131825904,st=-1,row=0,sc=3.2,mi=80,SEG=it.seg||9,zoomLab=T(L,'','bottom:16px;left:auto;right:40px;width:auto;text-align:right',1);
+ T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — hesaplama · computation','Mandelbrot kümesi: tek bir kısa formül, sonsuz bir kıyı','The Mandelbrot set — one short formula, an endless coastline')+'</div>','top:20px',.4);
+ T(L,'<div class="hzbox" style="max-width:52vw"><div class="sm" style="font-size:1.15vw;color:#dfe6e9">Her nokta için z → z² + c tekrar edilir; sonsuza kaçmayan noktalar kümeye aittir. Ne kadar yaklaşırsan yaklaş, yeni ayrıntı çıkar (Benoit Mandelbrot, 1980’ler)<br><i>For every point, repeat z → z² + c; points that never escape belong to the set. However far you zoom, new detail appears</i></div></div>','bottom:16px;left:40px;right:auto;text-align:left',5);
+ function col(n,zr,zi){if(n>=mi)return [4,8,16];var s=n+1-Math.log(Math.log(Math.sqrt(zr*zr+zi*zi)))/Math.LN2,t=s/40;
+  return [Math.round(15+80*(.5+.5*Math.sin(t*6.28+4.2))),Math.round(60+150*(.5+.5*Math.sin(t*6.28+2.6))),Math.round(120+130*(.5+.5*Math.sin(t*6.28+1.3)))]}
+ function start(k){st=k;row=0;sc=3.2/Math.pow(3.2,k);mi=Math.min(1400,90+k*120);
+  bx.fillStyle='#03060c';bx.fillRect(0,0,1920,1080);if(k>0){bx.save();bx.translate(960,540);bx.scale(3.2,3.2);bx.translate(-960,-540);bx.drawImage(c,0,0);bx.restore()}
+  zoomLab.innerHTML='<div class="hzbox" style="padding:.4vw 1.2vw"><div class="sm" style="font-size:1.1vw;color:#dfe6e9">Yakınlaştırma · Zoom ×'+Math.round(Math.pow(3.2,k)).toLocaleString('tr-TR')+'</div></div>'}
+ wLoop(L,function(t){var k=Math.floor(t/SEG)%9;if(k!=st)start(k);if(row>=RH)return;
+  var end=Math.min(RH,row+10),asp=RW/RH;for(var py=row;py<end;py++){var ci=CY+(py/RH-.5)*sc/asp;for(var px=0;px<RW;px++){var cr=CX+(px/RW-.5)*sc,zr=0,zi=0,n=0,r2;
+    while(n<mi){r2=zr*zr;var i2=zi*zi;if(r2+i2>16)break;zi=2*zr*zi+ci;zr=r2-i2+cr;n++}
+    var cc=col(n,zr,zi),q=(py*RW+px)*4;D[q]=cc[0];D[q+1]=cc[1];D[q+2]=cc[2];D[q+3]=255}}
+  ox.putImageData(img,0,0,0,row,RW,end-row);row=end;x.imageSmoothingEnabled=true;x.drawImage(bg,0,0);x.drawImage(o,0,0,RW,row,0,0,1920,row*4)});return L};
+
+/* Buffon's needle: drop needles on a striped floor; the share that cross a line estimates π */
+W.hzbuffon=function(L,it){L.style.background='#1a140f';var c=wCv(L),x=c.getContext('2d'),D=120,X0=120,X1=1800,Y0=215,Y1=900,N=0,C=0,last=0;
+ function floor(){x.fillStyle='#2b2118';x.fillRect(X0,Y0,X1-X0,Y1-Y0);for(var gx=X0;gx<=X1;gx+=D){x.fillStyle='#d8d2c4';x.fillRect(gx-1.5,Y0,3,Y1-Y0)}}
+ floor();
+ T(L,'<div class="hzbox">'+hd('Zekice Düşünce · Clever Thinking — simülasyon · simulation','Yere rastgele iğne atarak π sayısını bulmak','Finding π by dropping needles at random')+'</div>','top:16px',.4);
+ var box=T(L,'','bottom:14px',1);
+ wLoop(L,function(t){var k=t<3?0:t<10?1:t<20?3:t<35?6:10;x.fillStyle='rgba(43,33,24,.035)';x.fillRect(X0,Y0,X1-X0,Y1-Y0);for(var gx=X0;gx<=X1;gx+=D){x.fillStyle='#d8d2c4';x.fillRect(gx-1.5,Y0,3,Y1-Y0)}
+  for(var i=0;i<k;i++){var cx=X0+D/2+Math.random()*(X1-X0-D),cy=Y0+D/2+Math.random()*(Y1-Y0-D),a=Math.random()*Math.PI,dx=Math.cos(a)*D/2,dy=Math.sin(a)*D/2;
+   var xa=cx-dx,xb=cx+dx,hit=Math.floor((xa-X0)/D)!=Math.floor((xb-X0)/D);N++;if(hit)C++;
+   x.strokeStyle=hit?'rgba(255,140,110,.85)':'rgba(143,211,193,.55)';x.lineWidth=2;x.beginPath();x.moveTo(xa,cy-dy);x.lineTo(xb,cy+dy);x.stroke()}
+  if(N>200000){N=0;C=0;floor()}
+  if(t-last>.3){last=t;var est=C?(2*N/C):0;box.innerHTML='<div class="hzbox" style="padding:.6vw 1.8vw"><div class="a" style="font-size:1.7vw">İğne · Needles: '+N.toLocaleString('tr-TR')+' · çizgiye değen · crossing: '+C.toLocaleString('tr-TR')+' · π ≈ '+(C?est.toFixed(4):'…')+'</div><div class="e" style="font-size:1.1vw">İğne boyu = çizgi aralığı ise, değme olasılığı 2/π. Yani π ≈ 2 × atılan ÷ değen (Buffon, 1777) · If the needle is as long as the line gap, the chance of crossing is 2/π — so π ≈ 2 × thrown ÷ crossing</div></div>'}});return L};
+
+/* Ouchi illusion: a disc of vertical bricks inside a field of horizontal bricks seems to float and slide */
+W.hzouchi=function(L,it){L.style.background='#000';var c=wCv(L),x=c.getContext('2d'),BW=44,BH=11,R=230,CX=960,CY=575;
+ function bricks(vert){for(var yy=0;yy<1080;yy+=(vert?BW:BH))for(var xx=0;xx<1920;xx+=(vert?BH:BW)){var on=((xx/(vert?BH:BW))+(yy/(vert?BW:BH)))%2<1;x.fillStyle=on?'#f2f2f2':'#111';x.fillRect(xx,yy,vert?BH:BW,vert?BW:BH)}}
+ function draw(ox,oy){x.save();x.translate(ox,oy);bricks(false);x.beginPath();x.arc(CX,CY,R,0,7);x.clip();bricks(true);x.restore()}
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','Gözlerini resmin üzerinde gezdir: ortadaki daire ayrı bir katman gibi kayıyor mu?','Let your eyes wander over the picture — does the central disc slide like a separate layer?')+'</div>','top:12px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.7vw">Daire basılı ve hareketsiz; kaymayı beyin üretiyor</div><div class="e" style="font-size:1.2vw">The disc is printed flat and does not move — your brain judges the motion of vertical and horizontal edges differently (Ouchi illusion, Hajime Ouchi, 1977)</div></div>','bottom:12px',18);
+ wLoop(L,function(t){var a=t*.9;draw(Math.round(Math.cos(a)*6),Math.round(Math.sin(a)*6))});return L};
+
+/* Mach bands: each grey band is perfectly even, yet the edges seem to glow light and dark */
+W.hzmach=function(L,it){L.style.background='#202428';var c=wCv(L),x=c.getContext('2d'),N=8,X0=160,BW=200,Y0=250,Y1=760;
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','Her gri şeridin içi düz mü, yoksa kenarlarına doğru açılıp koyulaşıyor mu?','Is each grey band even inside — or does it get lighter and darker towards its edges?')+'</div>','top:12px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.7vw">Her şerit baştan sona tek bir gri! Kenarlardaki parlak ve koyu çizgileri gözün ekliyor</div><div class="e" style="font-size:1.2vw">Every band is a single flat grey. The light and dark lines at the edges are added by your retina, which sharpens contrast (Mach bands, Ernst Mach, 1865). Alttaki çizgi gerçek parlaklık · the line below is the real brightness</div></div>','bottom:12px',16);
+ wLoop(L,function(t){for(var i=0;i<N;i++){var v=Math.round(40+i*26);x.fillStyle='rgb('+v+','+v+','+v+')';x.fillRect(X0+i*BW,Y0,BW,Y1-Y0)}
+  if(t>16){var al=Math.min(1,(t-16)/3);x.fillStyle='#202428';x.fillRect(X0-20,Y1+6,N*BW+40,80);x.globalAlpha=al;x.strokeStyle='#ff9e7a';x.lineWidth=4;x.beginPath();
+   for(i=0;i<N;i++){var yy=Y1+76-i*9;if(i)x.lineTo(X0+i*BW,yy);else x.moveTo(X0,yy);x.lineTo(X0+(i+1)*BW,yy)}x.stroke();x.globalAlpha=1}});return L};
+
+/* Barber pole illusion: the same diagonal stripes move sideways, but a tall window makes them look like they climb */
+W.hzbarber=function(L,it){grad(L,'#1c2430','#05070a');var c=wCv(L),x=c.getContext('2d'),A=[560,250,170,560],B=[940,370,620,190],SP=46;
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','İki pencerede aynı çizgiler aynı yöne gidiyor. Hangi yöne?','Both windows show the same stripes moving the same way. Which way?')+'</div>','top:12px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.7vw">İkisinde de çizgiler sağa kayıyor! Uzun pencerede aşağı, geniş pencerede yana gidiyor gibi görünüyor</div><div class="e" style="font-size:1.2vw">In both, the stripes slide to the right. In the tall window they seem to fall, in the wide one to slide sideways: the brain reads motion along the longer side of the window — the “aperture problem” behind the barber-pole illusion (Hans Wallach, 1935)</div></div>','bottom:12px',20);
+ function win(r,off){x.save();x.beginPath();x.rect(r[0],r[1],r[2],r[3]);x.clip();x.fillStyle='#f3f1ec';x.fillRect(r[0],r[1],r[2],r[3]);x.fillStyle='#c8452f';
+  for(var k=-40;k<40;k++){var bx=r[0]+k*SP*2+off;x.beginPath();x.moveTo(bx,r[1]+r[3]);x.lineTo(bx+SP,r[1]+r[3]);x.lineTo(bx+SP+r[3],r[1]);x.lineTo(bx+r[3],r[1]);x.fill()}
+  x.restore();x.strokeStyle='#8fd3c1';x.lineWidth=4;x.strokeRect(r[0],r[1],r[2],r[3])}
+ wLoop(L,function(t){x.clearRect(0,0,1920,1080);var off=(t*60)%(SP*2);win(A,off);win(B,off);
+  if(t>20){x.fillStyle='rgba(255,158,122,'+Math.min(1,(t-20)/2)+')';x.font='bold 54px Helvetica,Arial';x.textAlign='center';x.fillText('→',A[0]+A[2]/2,A[1]+A[3]+60);x.fillText('→',B[0]+B[2]/2,B[1]+B[3]+60)}});return L};
+
+/* calm night: a small campfire under the stars, sparks drifting slowly upward (illustration) */
+W.hzember=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(170),P=[],i,FX=960,FY=900;
+ T(L,hd('Kamp Ateşi · Campfire — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Yıldızların altında küçük bir ateş','A small fire under the stars'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Kıvılcımlar neden yukarı çıkar? Ateşin ısıttığı hava hafifler ve yükselir; minik köz parçalarını da beraberinde taşır<br><i>Why do sparks rise? Air warmed by the fire becomes lighter and rises, carrying tiny embers with it</i></div>','bottom:34px;left:5vw;right:auto;width:42vw;text-align:left',9);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,1080);g.addColorStop(0,'#02030a');g.addColorStop(.75,'#0b1222');g.addColorStop(1,'#120c0a');x.fillStyle=g;x.fillRect(0,0,1920,1080);drawStars(x,S.filter(function(s){return s[1]<640}),t);
+  x.fillStyle='#04060b';x.beginPath();x.moveTo(0,1080);x.lineTo(0,700);for(var px=0;px<=1920;px+=40)x.lineTo(px,700+Math.sin(px*.003+2)*60+Math.sin(px*.013)*14);x.lineTo(1920,1080);x.fill();
+  var fl=.85+.1*Math.sin(t*7.3)+.05*Math.sin(t*13.1),gl=x.createRadialGradient(FX,FY,0,FX,FY,520*fl);gl.addColorStop(0,'rgba(255,150,90,.38)');gl.addColorStop(1,'rgba(255,120,70,0)');x.fillStyle=gl;x.beginPath();x.arc(FX,FY,520,0,7);x.fill();
+  x.strokeStyle='#1a120e';x.lineWidth=16;x.lineCap='round';x.beginPath();x.moveTo(FX-90,FY+40);x.lineTo(FX+70,FY+5);x.moveTo(FX+90,FY+40);x.lineTo(FX-70,FY+5);x.stroke();
+  for(var f=0;f<5;f++){var fh=(110+30*Math.sin(t*5+f*1.7))*fl,fw=26+f%2*10,fx=FX-50+f*25;var fg=x.createLinearGradient(0,FY+20,0,FY-fh);fg.addColorStop(0,'rgba(255,120,60,.9)');fg.addColorStop(.6,'rgba(255,170,110,.55)');fg.addColorStop(1,'rgba(255,220,190,0)');x.fillStyle=fg;
+   x.beginPath();x.moveTo(fx-fw,FY+20);x.quadraticCurveTo(fx-fw*.6,FY-fh*.5,fx+6*Math.sin(t*3+f),FY-fh);x.quadraticCurveTo(fx+fw*.6,FY-fh*.5,fx+fw,FY+20);x.fill()}
+  if(Math.random()<.35)P.push([FX-40+Math.random()*80,FY-30,(Math.random()-.5)*.5,.6+Math.random()*.9,0]);
+  for(i=P.length-1;i>=0;i--){var p=P[i];p[0]+=p[2]+Math.sin(t+p[1]*.02)*.3;p[1]-=p[3];p[4]+=1/60;var al=Math.max(0,1-p[4]/7);if(al<=0){P.splice(i,1);continue}
+   x.fillStyle='rgba(255,'+(170+Math.round(60*al))+',130,'+al.toFixed(2)+')';x.fillRect(p[0],p[1],2.4,2.4)}});return L};
 
 })();
