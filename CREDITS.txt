@@ -583,3 +583,13 @@ m/h18-startrail.jpg — 2012-03-14 21-42-55-file-etoiles-14f-2min-3d.jpg — Tho
 m/h18-moon.jpg — Full Moon Luc Viatour.jpg — Luc Viatour — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Full_Moon_Luc_Viatour.jpg
 m/h18-saturn.jpg — Backlit Saturn from Cassini Orbiter 2007 May 9.jpg — NASA/JPL/Space Science Institute — Public domain — https://commons.wikimedia.org/wiki/File:Backlit_Saturn_from_Cassini_Orbiter_2007_May_9.jpg
 m/h18-nightvillage.jpg — Night In Paradise (138497861).jpeg — Russo Francesco F R P I X C O M — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Night_In_Paradise_(138497861).jpeg
+m/h70-aurora.jpg — Aurora borealis in Alaska.jpg — Bilinmeyen (kamu malı) · Unknown (public domain) — Public domain — https://commons.wikimedia.org/wiki/File:Aurora_borealis_in_Alaska.jpg
+m/h70-cristales.jpg — Caño Cristales 01.jpg — Astromario — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Ca%C3%B1o_Cristales_01.jpg
+m/h70-danxia.jpg — Danxia-landform-1562852.jpg — iamangela9 — CC0 — https://commons.wikimedia.org/wiki/File:Danxia-landform-1562852.jpg
+m/h70-deadvlei.jpg — Dead Vlei, Sossusvlei, Namibia, 2018-08-06, DD 085.jpg — Diego Delso — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_085.jpg
+m/h70-lencois.jpg — Lençóis Maranhenses 2018.jpg — Julius Dadalti — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Len%C3%A7%C3%B3is_Maranhenses_2018.jpg
+m/h70-milkyway.jpg — Milky Way 2005.jpg — NASA / JPL-Caltech / R. Hurt — Public domain — https://commons.wikimedia.org/wiki/File:Milky_Way_2005.jpg
+m/h70-prismatic.jpg — Grand prismatic spring.jpg — Jim Peaco, National Park Service — Public domain — https://commons.wikimedia.org/wiki/File:Grand_prismatic_spring.jpg
+m/h70-socotra.jpg — Dragonblood tree in Socotra 2.jpg — Alex38 — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Dragonblood_tree_in_Socotra_2.jpg
+m/h70-starlake.jpg — Bontecou Lake Milky Way panorama.jpg — Juliancolton — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bontecou_Lake_Milky_Way_panorama.jpg
+m/h70-thewave.jpg — The Wave - Coyote Buttes North (49995874171).jpg — BLM Utah (Bureau of Land Management) — Public domain — https://commons.wikimedia.org/wiki/File:The_Wave_-_Coyote_Buttes_North_(49995874171).jpg

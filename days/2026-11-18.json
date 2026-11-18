@@ -1,7 +1,7 @@
 {
  "date": "2026-11-18",
- "rev": 69,
- "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-18.py. Content log: used-content.md",
+ "rev": 70,
+ "_note": "Hourly sets for the villa TV. Morning–19:00 and 23:00 from days/build_2026-11-18.py; 20:00–23:00 rebuilt by days/build_2026-11-18_evening.py (rev 70, alone mind-spark: strange places, light, night thoughts). Content log: used-content.md",
  "sets": [
   {
    "id": "h-11-18-09",
@@ -891,192 +891,275 @@
   },
   {
    "id": "h-11-18-20",
-   "name": "Kuşbakışı Dünya · Earth from Above",
+   "name": "Dünyanın Tuhaf Köşeleri · Strange Corners of the Earth",
    "from": "2026-11-18T20:00",
    "until": "2026-11-18T21:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-richat.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Richat Yapısı, Moritanya · Richat Structure, Mauritania",
-     "tr": "Richat Yapısı — Sahra’nın “gözü”, yaklaşık 40 km çapında halkalar",
-     "en": "The Richat Structure — the “Eye of the Sahara”, rings about 40 km across",
-     "cr": "Foto · Photo: NASA / JPL / NIMA · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Uzun süre bir göktaşı kraterine benzetildi; bugün aşınmış bir kubbe yapısı olduğu düşünülüyor",
-     "facte": "Long thought to be an impact crater, it is now seen as an eroded geological dome",
-     "fit": "contain"
+     "d": 48,
+     "f": "m/h70-thewave.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · The Wave, Arizona, ABD · USA",
+     "tr": "The Wave — rüzgârın 190 milyon yıl önce yığdığı kum, şimdi taşa dönüşmüş bir dalga",
+     "en": "The Wave — sand piled by wind 190 million years ago, now a wave turned to stone",
+     "cr": "Foto · Photo: BLM Utah · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bu kumtaşı, bir zamanlar büyük bir çölün kumuluydu; su ve rüzgâr onu yavaşça oymuş",
+     "facte": "This sandstone was once a desert dune; water and wind slowly carved it",
+     "pos": "50% 50%"
     },
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-namib.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Namib Çölü, uydudan · Namib Desert from space",
-     "tr": "Namib Çölü uydudan: Atlas Okyanusu’na kadar uzanan kum denizi",
-     "en": "The Namib Desert from space — a sea of sand running down to the Atlantic",
-     "cr": "Foto · Photo: ESA · CC BY-SA 3.0 igo · Wikimedia Commons",
-     "fact": "Namib, dünyanın en eski çöllerinden biri sayılır",
-     "facte": "The Namib is considered one of the oldest deserts on Earth",
-     "fit": "contain"
+     "d": 48,
+     "f": "m/h70-deadvlei.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Deadvlei, Namibya · Namibia",
+     "tr": "Deadvlei — beyaz kil tabanın üstünde, yüzyıllardır ayakta duran ölü akasya ağaçları",
+     "en": "Deadvlei — dead camel-thorn trees still standing on a white clay pan, centuries later",
+     "cr": "Foto · Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Ağaçlar yaklaşık 600–900 yıl önce kurudu; çölün kuraklığı onları çürütmeden korudu",
+     "facte": "The trees died some 600–900 years ago; the desert’s dryness kept them from rotting",
+     "pos": "50% 55%"
     },
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-istanbulnight.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · İstanbul, uzaydan · Istanbul from space",
-     "tr": "Uzaydan gece İstanbul: Boğaz’ın karanlık çizgisi ışıkları ikiye ayırıyor",
-     "en": "Istanbul at night from space — the dark line of the Bosphorus splits the lights in two",
-     "cr": "Foto · Photo: NASA · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Uluslararası Uzay İstasyonu yaklaşık 400 km yükseklikte, Dünya’nın çevresini yaklaşık 90 dakikada dolaşır",
-     "facte": "The International Space Station orbits about 400 km up and circles the Earth in about 90 minutes"
+     "d": 48,
+     "f": "m/h70-danxia.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Zhangye Danxia, Çin · China",
+     "tr": "Zhangye’nin renkli tepeleri — katman katman mineral, milyonlarca yılın kaydı",
+     "en": "The coloured hills of Zhangye — mineral layers, a record of millions of years",
+     "cr": "Foto · Photo: iamangela9 · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Kırmızı demir, yeşil bakır, sarı kükürt: her şerit başka bir çağın tortusu",
+     "facte": "Red iron, green copper, yellow sulphur: each stripe is the sediment of another age",
+     "pos": "50% 45%"
     },
     {
-     "k": "hzfact",
-     "d": 32,
-     "big": "Genel Bakış",
-     "tr": "Astronotların uzaydan Dünya’yı görünce yaşadığı derin hayranlık ve bağlılık duygusuna “genel bakış etkisi” denir",
-     "en": "The deep awe and sense of connection astronauts feel when they see Earth from space is called the “overview effect”",
-     "src": "Terimi yazar Frank White 1987’de kullandı · Coined by author Frank White in 1987",
-     "c1": "#0e1624",
-     "c2": "#020306"
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h70-prismatic.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Grand Prismatic Spring, Yellowstone",
+     "tr": "Grand Prismatic — dünyanın en büyük sıcak su kaynaklarından, havadan bir gökkuşağı",
+     "en": "Grand Prismatic — one of the world’s largest hot springs, a rainbow from the air",
+     "cr": "Foto · Photo: Jim Peaco, National Park Service · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Halkanın renklerini ısıyı seven mikroplar verir; göbeği ise çok sıcak olduğu için steril ve mavi",
+     "facte": "Heat-loving microbes paint the rings; the centre is sterile and blue because it is too hot",
+     "pos": "50% 48%"
+    },
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h70-socotra.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sokotra, Yemen · Socotra, Yemen",
+     "tr": "Sokotra’nın ejderha kanı ağacı — şemsiye gibi bir taç, dünyada neredeyse yalnızca burada",
+     "en": "Socotra’s dragon’s-blood tree — an umbrella crown, found almost only on this island",
+     "cr": "Foto · Photo: Alex38 · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Adını, kırmızı reçinesinden alır; adada başka yerde görülmeyen yüzlerce tür yaşar",
+     "facte": "It is named for its blood-red resin; the island is home to hundreds of species found nowhere else",
+     "pos": "50% 50%"
+    },
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h70-lencois.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Lençóis Maranhenses, Brezilya · Brazil",
+     "tr": "Lençóis Maranhenses — beyaz kum tepelerinin arasında yağmurun doldurduğu zümrüt göletler",
+     "en": "Lençóis Maranhenses — emerald rain-lagoons held between white sand dunes",
+     "cr": "Foto · Photo: Julius Dadalti · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "“Çarşaflar” anlamına gelir: yağmur mevsiminde kumun içi bir labirent göle dönüşür",
+     "facte": "The name means “bedsheets”: in the rainy season the dunes become a labyrinth of lagoons",
+     "pos": "50% 50%"
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Merak · Wonder",
+     "q": "Bu altı yerin ortak yanı ne?",
+     "e": "What do these six places have in common?",
+     "c1": "#163042",
+     "c2": "#050a10",
+     "gap": 7,
+     "steps": [
+      [
+       "Kimisi rüzgârla, kimisi suyla, kimisi ateşle yazıldı",
+       "Some were written by wind, some by water, some by fire",
+       ""
+      ],
+      [
+       "Hiçbiri bir stüdyoda üretilmedi",
+       "None of them was made in a studio",
+       ""
+      ],
+      [
+       "Çoğu, iki yüz yıl önce haritalarda bile yoktu",
+       "Most were not even on maps two hundred years ago",
+       ""
+      ]
+     ],
+     "fin": "Hepsi gerçek — ve hepsi bu gezegende",
+     "fine": "All of them are real — and all of them are on this planet"
     }
    ]
   },
   {
    "id": "h-11-18-21",
-   "name": "Dağların Sessizliği · Quiet Mountains",
+   "name": "Işığın Sırları · Secrets of Light",
    "from": "2026-11-18T21:00",
    "until": "2026-11-18T22:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-erciyes.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Erciyes Dağı, Kayseri · Mount Erciyes",
-     "tr": "Erciyes Dağı ve önünde Kayseri’den bir cami",
-     "en": "Mount Erciyes, with a Kayseri mosque in front",
-     "cr": "Foto · Photo: Abdurrahman Çam · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "3.917 metre; Kapadokya’nın peribacalarını oluşturan tüfler bu bölgedeki volkanların küllerinden",
-     "facte": "3,917 m — the tuff that forms Cappadocia’s fairy chimneys came from the ash of volcanoes like this one"
+     "d": 48,
+     "f": "m/h70-aurora.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kuzey ışıkları, Alaska · Aurora borealis, Alaska",
+     "tr": "Kuzey ışıkları — Güneş’ten gelen parçacıklar, Dünya’nın manyetik alanında bir perdesi gibi yanıyor",
+     "en": "The northern lights — particles from the Sun glowing like a curtain in Earth’s magnetic field",
+     "cr": "kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yeşil ve kırmızı çoğunlukla oksijenden, mor ve mavi ise azottan gelir",
+     "facte": "Greens and reds mostly come from oxygen; purples and blues from nitrogen",
+     "pos": "50% 40%"
     },
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-aladaglar.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Demirkazık, Aladağlar · Niğde",
-     "tr": "Demirkazık Dağı, Aladağlar — kireçtaşından keskin zirveler",
-     "en": "Mount Demirkazık in the Aladağlar — sharp limestone peaks",
-     "cr": "Foto · Photo: Zeynel Cebeci · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Demirkazık yaklaşık 3.756 metre; Aladağlar Türkiye’nin en sevilen tırmanış bölgelerinden",
-     "facte": "Demirkazık is about 3,756 m — the Aladağlar are among Turkey’s favourite climbing ranges"
+     "d": 48,
+     "f": "m/h70-cristales.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Caño Cristales, Kolombiya · Colombia",
+     "tr": "Caño Cristales — “sıvı gökkuşağı”: nehir yatağındaki bitkiler, ışıkta kırmızı ve sarıya bürünür",
+     "en": "Caño Cristales — the “liquid rainbow”: plants on the riverbed turn red and yellow in the light",
+     "cr": "Foto · Photo: Astromario · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Rengi Macarenia clavigera adlı bir su bitkisi verir; yılın yalnızca bir döneminde bu kadar parlar",
+     "facte": "The colour comes from a water plant, Macarenia clavigera — it only glows like this for part of the year",
+     "pos": "50% 50%"
     },
     {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-matterhorn.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Matterhorn, İsviçre · Switzerland",
-     "tr": "Matterhorn ve bir dağ gölündeki yansıması",
-     "en": "The Matterhorn and its reflection in a mountain lake",
-     "cr": "Foto · Photo: Roy Egloff · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "4.478 metre; zirvesine ilk kez 1865’te çıkıldı",
-     "facte": "4,478 m — first climbed in 1865"
+     "k": "hzfraser",
+     "d": 50
     },
     {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-everest.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Everest, Himalayalar · Himalayas",
-     "tr": "Everest — dünyanın en yüksek zirvesi",
-     "en": "Everest — the highest summit on Earth",
-     "cr": "Foto · Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons",
-     "fact": "2020’deki ortak Çin–Nepal ölçümüne göre 8.848,86 metre",
-     "facte": "8,848.86 m according to the joint China–Nepal survey of 2020"
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Gece gökyüzü neden karanlık?",
+     "e": "Why is the night sky dark?",
+     "c1": "#152032",
+     "c2": "#05070e",
+     "gap": 7,
+     "steps": [
+      [
+       "Evren sonsuz ve yıldızlarla dolu olsaydı…",
+       "If the universe were endless and full of stars…",
+       ""
+      ],
+      [
+       "Her bakış bir yıldıza rastlardı: gece, gündüz gibi parlardı",
+       "Every line of sight would hit a star — night would blaze like day",
+       ""
+      ],
+      [
+       "Ama evrenin bir yaşı var; ışık her yerden henüz ulaşmadı",
+       "But the universe has an age: light has not yet reached us from everywhere",
+       ""
+      ]
+     ],
+     "fin": "Karanlık gece, evrenin hâlâ genç olduğunun kanıtı",
+     "fine": "The dark night is proof that the universe is still young",
+     "bg": "stars"
     },
     {
-     "k": "hzquote",
-     "d": 44,
-     "tr": "Dağ dağa kavuşmaz,|insan insana kavuşur",
-     "en": "Mountains never meet, but people do",
-     "pal": "night",
-     "lb": "Atasözü · Turkish Proverb",
-     "by": "Türk atasözü · Turkish proverb"
+     "k": "hzkaniz",
+     "d": 48
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "8 dk 20 sn",
+     "tr": "Güneş’e baktığında, 8 dakika 20 saniye önceki Güneş’i görürsün",
+     "en": "When you look at the Sun, you see it as it was 8 minutes and 20 seconds ago",
+     "src": "Işık da bir yolculuktur · Light is a journey too",
+     "c1": "#1a2436",
+     "c2": "#05080e"
     }
    ]
   },
   {
    "id": "h-11-18-22",
-   "name": "Su Sesi · The Sound of Water (sakin · calm)",
+   "name": "Geceye Kalan Sorular · Questions for the Night",
    "from": "2026-11-18T22:00",
    "until": "2026-11-18T23:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-tortum.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Tortum Şelalesi, Erzurum",
-     "tr": "Tortum Şelalesi — Türkiye’nin en yüksek şelalelerinden",
-     "en": "Tortum Waterfall — one of the highest waterfalls in Turkey",
-     "cr": "Foto · Photo: Jaba1977 · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Su yaklaşık 48 metre yüksekten dökülür; en coşkulu hâli ilkbaharda kar suları erirken",
-     "facte": "The water falls about 48 m — at its fullest in spring, when the snow melts",
+     "d": 52,
+     "f": "m/h70-starlake.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bontecou Gölü, New York · Bontecou Lake, New York",
+     "tr": "Gölün üstünde Samanyolu — bakışın, binlerce yıl önce yola çıkan ışığa denk geliyor",
+     "en": "The Milky Way over a lake — your gaze meets light that set out thousands of years ago",
+     "cr": "Foto · Photo: Juliancolton · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Gördüğün her yıldız, kendi zamanından bir kartpostal gibidir",
+     "facte": "Every star you see is a postcard from its own time",
      "fit": "contain"
     },
     {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-kapuzbasi.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Kapuzbaşı Şelaleleri, Kayseri",
-     "tr": "Kapuzbaşı Şelaleleri — kayalığın içinden fışkıran kaynak suları",
-     "en": "Kapuzbaşı Waterfalls — spring water bursting out of the cliff face",
-     "cr": "Foto · Photo: halisyalcinkaya · CC BY 3.0 · Wikimedia Commons",
-     "fact": "Aladağlar’ın eteklerinde, Zamantı Irmağı vadisinde",
-     "facte": "At the foot of the Aladağlar, in the valley of the Zamantı river"
+     "k": "hzquote",
+     "d": 48,
+     "tr": "Beni bende demen, bende değilim;|bir ben vardır bende, benden içeri",
+     "en": "Don’t say I am in myself — I am not; there is a self in me, deeper than I am",
+     "pal": "night",
+     "lb": "Yunus Emre’den · From Yunus Emre",
+     "by": "Yunus Emre"
     },
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h18-mossstream.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Yosunlu kayalar · Mossy rocks",
-     "tr": "Yosunlu kayaların arasında yavaşça dönen bir su birikintisi",
-     "en": "A pool turning slowly among mossy rocks",
-     "cr": "Foto · Photo: Forest Wander · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "Akan suyun sesi birçok farklı frekansı birden taşır; pek çok insan onu bu yüzden sakinleştirici bulur",
-     "facte": "The sound of flowing water carries many frequencies at once — which is why so many people find it soothing"
+     "d": 52,
+     "f": "m/h70-milkyway.jpg",
+     "lb": "Sanatçı yorumu · Artist’s conception — NASA / JPL-Caltech / R. Hurt",
+     "tr": "Dışarıdan bakınca Samanyolu böyle olabilir — bu bir fotoğraf değil, bilimsel bir canlandırma",
+     "en": "The Milky Way as it may look from outside — not a photograph, a scientific illustration",
+     "cr": "Foto · Photo: NASA / JPL-Caltech / R. Hurt · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Samanyolu’nu dışarıdan çeken bir uzay aracımız hiç olmadı; görüntü, verilerden çizildi",
+     "facte": "No spacecraft has ever photographed the Milky Way from outside; this was drawn from data",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfirefly",
+     "d": 56
     },
     {
      "k": "hzsteps",
-     "d": 48,
-     "lb": "Sakin Düşünce · Calm Thought",
-     "q": "Gözlerini kapat: dört sesi bul",
-     "e": "Close your eyes and find four sounds",
-     "c1": "#0e1624",
-     "c2": "#020306",
-     "gap": 8,
+     "d": 56,
+     "lb": "Gece Düşüncesi · A Night Thought",
+     "q": "Elinin içindeki demir nereden geldi?",
+     "e": "Where did the iron in your hand come from?",
+     "c1": "#12182a",
+     "c2": "#04060c",
+     "gap": 7,
      "steps": [
       [
-       "En uzaktaki sesi bul",
-       "Find the farthest sound",
-       "☾"
-      ],
-      [
-       "Sonra en yakındakini",
-       "Then the nearest one",
+       "Genç evrende yalnızca en hafif elementler vardı",
+       "The young universe held only the lightest elements",
        ""
       ],
       [
-       "Odanın içindeki küçük bir sesi",
-       "A small sound inside the room",
+       "Demir, ölen yıldızların içinde pişti",
+       "Iron was cooked inside dying stars",
        ""
       ],
       [
-       "Ve seslerin arasındaki sessizliği",
-       "And the silence between the sounds",
+       "Bir süpernova onu uzaya saçtı; toz bu gezegene yağdı",
+       "A supernova scattered it — the dust fell onto this planet",
        ""
       ]
      ],
-     "fin": "Dinlemek de bir dinlenmedir",
-     "fine": "Listening is a kind of rest",
+     "fin": "Elini çevir: yıldızların külleri sende",
+     "fine": "Turn your hand: the ashes of stars are in you",
      "bg": "stars"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "13,8 milyar yıl",
+     "tr": "Gökyüzündeki en uzak ışık, evrenin neredeyse başlangıcından yola çıkmış olabilir",
+     "en": "The most distant light in the sky may have set out from near the beginning of the universe",
+     "src": "Gece, bir zaman makinesidir · Night is a time machine",
+     "c1": "#161c2c",
+     "c2": "#04060a"
     }
    ]
   },

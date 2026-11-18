@@ -4,6 +4,35 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-18 · evening rework (rev 70, sets 20:00–23:00 rebuilt ~20:15, alone mind-spark)
+
+M was alone in the living room and asked for the TV to be taken care of. 19:00 was nearly over, so it was left as “Kayıp Kentler”. 20:00–22:00 replaced the calmer photo-led sets (Earth from Above, Quiet Mountains, Sound of Water) with engaging mind-spark hours: curious science, illusions, beautiful real places, thought-provoking facts. 23:00 calm campfire night kept. No new hz functions. 10 new CC/PD photos/artworks (m/h70-*); replaced 20–22 images (m/h18-richat, namib, istanbulnight, erciyes, aladaglar, matterhorn, everest, tortum, kapuzbasi, mossstream) archived to /workspace/tv-media-archive/h18-evening20-22. Overlap check clean at 1920×1080 and 1280×720. Quote: Beni bende demen, bende değilim; bir ben vardır bende, benden içeri (Yunus Emre, 22).
+
+### 20:00–21:00 · Dünyanın Tuhaf Köşeleri · Strange Corners of the Earth
+- 20 | hzphoto | The Wave — rüzgârın 190 milyon yıl önce yığdığı kum, şimdi taşa dönüşmüş bir dalga | m/h70-thewave.jpg
+- 20 | hzphoto | Deadvlei — beyaz kil tabanın üstünde, yüzyıllardır ayakta duran ölü akasya ağaçları | m/h70-deadvlei.jpg
+- 20 | hzphoto | Zhangye’nin renkli tepeleri — katman katman mineral, milyonlarca yılın kaydı | m/h70-danxia.jpg
+- 20 | hzphoto | Grand Prismatic — dünyanın en büyük sıcak su kaynaklarından, havadan bir gökkuşağı | m/h70-prismatic.jpg
+- 20 | hzphoto | Sokotra’nın ejderha kanı ağacı — şemsiye gibi bir taç, dünyada neredeyse yalnızca burada | m/h70-socotra.jpg
+- 20 | hzphoto | Lençóis Maranhenses — beyaz kum tepelerinin arasında yağmurun doldurduğu zümrüt göletler | m/h70-lencois.jpg
+- 20 | hzsteps | Bu altı yerin ortak yanı ne? Hepsi gerçek — ve hepsi bu gezegende | —
+
+### 21:00–22:00 · Işığın Sırları · Secrets of Light
+- 21 | hzphoto | Kuzey ışıkları — Güneş’ten gelen parçacıklar, Dünya’nın manyetik alanında bir perde gibi yanıyor | m/h70-aurora.jpg
+- 21 | hzphoto | Caño Cristales — “sıvı gökkuşağı”: nehir yatağındaki bitkiler ışıkta kırmızı ve sarıya bürünür | m/h70-cristales.jpg
+- 21 | hzfraser | Fraser spiral illusion (looks like a spiral, is actually circles) | —
+- 21 | hzsteps | Olbers paradoksu: gece gökyüzü neden karanlık? | —
+- 21 | hzkaniz | Kanizsa üçgeni: ortadaki beyaz üçgeni görüyor musun? (çizilmedi — beyin tamamlar) | —
+- 21 | hzfact | Güneş’e baktığında, 8 dakika 20 saniye önceki Güneş’i görürsün | —
+
+### 22:00–23:00 · Geceye Kalan Sorular · Questions for the Night
+- 22 | hzphoto | Bontecou Gölü üstünde Samanyolu — bakışın, binlerce yıl önce yola çıkan ışığa denk geliyor | m/h70-starlake.jpg
+- 22 | hzquote | Beni bende demen, bende değilim; bir ben vardır bende, benden içeri | —
+- 22 | hzphoto | Samanyolu dışarıdan — bilimsel canlandırma (NASA/JPL-Caltech/R. Hurt; gerçek dış fotoğraf değil) | m/h70-milkyway.jpg
+- 22 | hzfirefly | Ateşböcekleri yavaş yavaş birlikte yanıp sönmeye başlıyor (çizim · illustration) | —
+- 22 | hzsteps | Elinin içindeki demir nereden geldi? Yıldızların külleri sende | —
+- 22 | hzfact | 13,8 milyar yıl — gökyüzündeki en uzak ışık, evrenin neredeyse başlangıcından yola çıkmış olabilir | —
+
 ## 2026-11-18 (rev 69, hourly sets 09:00–02:00, days/2026-11-18.json) · Wednesday
 
 No pending requests in requests.md. 6 new hz scenes (hourly.js v69): generators hzmandel (Mandelbrot zoom) hzbuffon (Buffon’s needle π) hzember (calm night campfire) + illusions hzouchi (Ouchi) hzmach (Mach bands) hzbarber (barber pole / aperture problem). 46 new CC/PD photos/artworks (m/h18-*); h16-* archived to /workspace/tv-media-archive/h16. Evening 18–22 photo-led and calm (no generators/illusions), calm night from 22:00. Quotes: Kapı ardına kadar açıkken neden hapiste kalıyorsun? (Mevlânâ, 09); Hayatını ateşe ver; alevini körükleyenleri ara (Mevlânâ, 13); Dağ dağa kavuşmaz, insan insana kavuşur (atasözü, 21); Gönül ne kahve ister ne kahvehane (Türk sözü, 23).
