@@ -1,6 +1,6 @@
-## 2026-11-19 · evening rework (rev 72, set 17:00 rebuilt ~17:15, cozy rainy afternoon)
+## 2026-11-19 · evening rework (rev 72, sets 17:00–19:00 rebuilt ~17:15–17:30, cozy rainy afternoon)
 
-M was in the living room alone; it was raining and he loved the earth-and-rain smell at the window. 17:00 was replaced with “Yağmurun Kokusu” (petrichor science, rain on windows, wet ground, droplets on leaves, Tevfik Fikret). 18:00–19:00 still the morning build at this first push (Black Sea rain and rain-in-art to follow). No new hz functions. 4 new CC/PD photos (m/h72-*). Replaced 17:00 image m/h19-physarum archived to /workspace/tv-media-archive/h19-1719. Overlap check clean at 1920×1080 and 1280×720. Quote: Küçük, muttarid, muhteriz darbeler; kafeslerde, camlarda pür-ihtizâz (Tevfik Fikret, “Yağmur”, 17). Avoided 7-day repeats: Caillebotte Paris Street; Rainy Day (15 Nov), Hiroshige Sudden Shower (13 and 17 Nov), raindrop teardrop-shape one-line fact (14 Nov).
+M was in the living room alone; it was raining and he loved the earth-and-rain smell at the window. 17:00–19:00 replaced with a rainy-afternoon theme: petrichor science, Black Sea tea hills and a misty forest, rain in art, raindrop physics, a hearth fire. 20:00–02:00 left as the morning build. No new hz functions. 12 new CC/PD photos/artworks (m/h72-*). Replaced 17:00–19:00 images (m/h19-physarum, pontdugard, cistern, antikythera, yazd, marsselfie, marssunset, juno, pluto) archived to /workspace/tv-media-archive/h19-1719. Overlap check clean at 1920×1080 and 1280×720. Quote: Küçük, muttarid, muhteriz darbeler; kafeslerde, camlarda pür-ihtizâz (Tevfik Fikret, “Yağmur”, 17). Avoided 7-day repeats: Caillebotte Paris Street; Rainy Day (15 Nov), Hiroshige Sudden Shower over Shin-Ōhashi (13 and 17 Nov — 19:00 uses a different Hiroshige print, Shōno: Driving Rain, and says so on screen), raindrop teardrop-shape one-line fact (14 Nov — 19:00 goes deeper: bun / parachute / breakup), Rize 2,200 mm rainfall fact (14 Nov).
 
 ### 17:00–18:00 · Yağmurun Kokusu · The Smell of Rain
 - 17 | hzphoto | Camın ötesinde yağmur ve koyu ağaçlar — pencereden bakınca dünya yumuşuyor | m/h72-rainglass.jpg
@@ -11,11 +11,20 @@ M was in the living room alone; it was raining and he loved the earth-and-rain s
 - 17 | hzphoto | Yaprakların üstünde duran damlalar neredeyse küre: onları bu biçimde tutan, yüzey gerilimidir | m/h72-rainleaves.jpg
 - 17 | hzquote | Küçük, muttarid, muhteriz darbeler; kafeslerde, camlarda pür-ihtizâz (Tevfik Fikret, “Yağmur”) | —
 
-# Used content log — Sadece Sen villa TV
+### 18:00–19:00 · Karadeniz Yağmuru · Black Sea Rain
+- 18 | hzphoto | Hemşin’in yeşil yamaçları — önde bir çay bahçesi, dağa yayılmış evler | m/h72-hemsin.jpg
+- 18 | hzphoto | Pontus Dağları’nda çay bahçeleri: ağaçların arasında sıra sıra ekilmiş yeşil tarlalar | m/h72-pontic.jpg
+- 18 | hzphoto | Rize yakınlarında çay tarlaları — yamaca basamak basamak işlenmiş yeşil | m/h72-rize.jpg
+- 18 | hzphoto | Sisin içindeki bir kayın ormanı: yosunlu kökler ve ağaçların arasından süzülen ışık (Dülmen, Almanya — labeled) | m/h72-mist2.jpg
+- 18 | hzsteps | Doğu Karadeniz neden bu kadar yeşil? (orographic rain on the Pontic slopes) | —
 
-Purpose: every daily build checks this file and must NOT reuse any topic, quote, riddle, illusion, art generator or image listed here within the last **7 days**. Add a dated section for every build (newest first). Entries older than 7 days may be reused, but prefer fresh ones.
-
-Format: `HH set | template (k) | topic | image file`
+### 19:00–20:00 · Yağmurun Sanatı · The Art of Rain
+- 19 | hzphoto | Yağmur — Vincent van Gogh, 1889: tarlaya çizgi çizgi inen sağanak | m/h72-vgrain.jpg
+- 19 | hzphoto | Shōno’da Sağanak — Utagawa Hiroshige, yaklaşık 1833–34 (different print from Shin-Ōhashi) | m/h72-shono.jpg
+- 19 | hzphoto | Yağmurlu Gün, Boston — Childe Hassam, 1885 | m/h72-hassam.jpg
+- 19 | hzfact | Islak bir sokak gökyüzünü yere indirir: izlenimciler yağmuru bu yüzden de severdi | —
+- 19 | hzsteps | Havadaki bir yağmur damlası gerçekte nasıl durur? (sphere, bun, parachute, breakup) | —
+- 19 | hzphoto | Dışarıda yağmur, içeride çıtırdayan bir şömine ateşi | m/h72-fire3.jpg
 
 ## 2026-11-19 (rev 71, hourly sets 09:00–02:00, days/2026-11-19.json) · Thursday
 

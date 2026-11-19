@@ -716,179 +716,183 @@
   },
   {
    "id": "h-11-19-18",
-   "name": "Antik Mühendislik · Ancient Engineering",
+   "name": "Karadeniz Yağmuru · Black Sea Rain",
    "from": "2026-11-19T18:00",
    "until": "2026-11-19T19:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h19-pontdugard.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Pont du Gard, Fransa · France",
-     "tr": "Pont du Gard: Roma su kemerinin üç katlı taş köprüsü, harç kullanılmadan oturtulmuş bloklar",
-     "en": "The Pont du Gard — a three-tier Roman aqueduct bridge of blocks laid without mortar",
-     "cr": "Foto · Photo: Benh LIEU SONG · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Kemer 50 km boyunca her kilometrede yalnızca yaklaşık 25 cm alçalıyordu: su yalnızca yerçekimiyle Nîmes’e akıyordu",
-     "facte": "The aqueduct fell only about 25 cm per kilometre over 50 km — water reached Nîmes by gravity alone",
-     "fit": "contain"
+     "d": 50,
+     "f": "m/h72-hemsin.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hemşin, Rize (Bilen köyü)",
+     "tr": "Hemşin’in yeşil yamaçları — önde bir çay bahçesi, dağa yayılmış evler",
+     "en": "The green slopes of Hemşin — a tea garden in front, houses on the hillside",
+     "cr": "Foto · Photo: Laurent DAVOU · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bu peyzaj, Doğu Karadeniz’e özgü: sık yağmur, yumuşak kış ve dik yamaçlarda çay",
+     "facte": "This landscape belongs to the eastern Black Sea: frequent rain, mild winters and tea on steep hills",
+     "pos": "50% 55%"
     },
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h19-cistern.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Yerebatan Sarnıcı · Basilica Cistern, İstanbul",
-     "tr": "Yerebatan Sarnıcı: suyun üstünde yükselen yüzlerce sütun ve loş ışık",
-     "en": "The Basilica Cistern — hundreds of columns rising from the water in dim light",
-     "cr": "Foto · Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "6. yüzyılda yapıldı; 80.000 metreküpten fazla su tutabilir ve 336 sütunu vardır",
-     "facte": "Built in the 6th century, it can hold more than 80,000 cubic metres of water and has 336 columns"
+     "d": 46,
+     "f": "m/h72-pontic.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Pontus Dağları · Pontic Mountains",
+     "tr": "Pontus Dağları’nda çay bahçeleri: ağaçların arasında sıra sıra ekilmiş yeşil tarlalar",
+     "en": "Tea gardens in the Pontic Mountains — rows of green planted among the trees",
+     "cr": "Foto · Photo: Ziegler175 · CC BY-SA 4.0 · Wikimedia Commons",
+     "pos": "50% 45%"
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h19-antikythera.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Antikythera Mekanizması · Antikythera Mechanism, Atina",
-     "tr": "Antikythera Mekanizması: bir batıktan çıkan, dişlilerle dolu bronz parçalar",
-     "en": "The Antikythera mechanism — bronze fragments full of gears, recovered from a shipwreck",
-     "cr": "Foto · Photo: Joyofmuseums · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Yaklaşık 2.100 yıl önce yapıldı; Ay’ın evrelerini ve tutulmaları hesaplayan bir “analog bilgisayar”",
-     "facte": "Made about 2,100 years ago, it is an “analogue computer” that predicted the Moon’s phases and eclipses",
-     "fit": "contain"
+     "d": 46,
+     "f": "m/h72-rize.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rize yakınlarında çay bahçeleri · tea gardens near Rize",
+     "tr": "Rize yakınlarında çay tarlaları — yamaca basamak basamak işlenmiş yeşil",
+     "en": "Tea fields near Rize — green terraces stepped into the hillside",
+     "cr": "Foto · Photo: Wikimol · CC BY-SA 2.5 · Wikimedia Commons",
+     "pos": "50% 45%"
     },
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h19-yazd.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Dolat Abad Bahçesi, Yezd · Yazd, İran",
-     "tr": "Yezd’de Dolat Abad köşkü ve 33 metrelik rüzgâr kulesi (badgir)",
-     "en": "The Dolat Abad pavilion in Yazd and its 33-metre windcatcher (badgir)",
-     "cr": "Foto · Photo: Bernard Gagnon · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Kule, esintiyi yakalayıp içeri indirir; sıcak hava yukarıdan çıkar. Elektriksiz bir klima",
-     "facte": "The tower catches the breeze and draws it down inside while hot air escapes above — air conditioning without electricity"
+     "d": 50,
+     "f": "m/h72-mist2.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Roruper Holz, Dülmen, Almanya · Germany",
+     "tr": "Sisin içindeki bir kayın ormanı: yosunlu kökler ve ağaçların arasından süzülen ışık",
+     "en": "A beech forest in the mist — mossy roots, and light slipping between the trees",
+     "cr": "Foto · Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bu fotoğraf Almanya’dan; yağmurdan sonra ormanlar dünyanın her yerinde böyle nefes alır",
+     "facte": "This photograph is from Germany — after rain, forests everywhere breathe like this",
+     "pos": "50% 55%"
     },
     {
      "k": "hzsteps",
-     "d": 54,
-     "lb": "Zekice Düşünce · Clever Thinking",
-     "q": "Elektrik yokken suyu şehre nasıl getirirsin?",
-     "e": "How do you bring water to a city without electricity?",
-     "c1": "#2a241c",
-     "c2": "#0a0806",
+     "d": 58,
+     "lb": "Merak · Wonder",
+     "q": "Doğu Karadeniz neden bu kadar yeşil?",
+     "e": "Why is the eastern Black Sea so green?",
+     "c1": "#1a2a22",
+     "c2": "#050a07",
      "gap": 7,
      "steps": [
       [
-       "Kaynağı şehirden biraz daha yüksekte bul",
-       "Find a spring a little higher than the city",
-       "⛰️"
-      ],
-      [
-       "Kanalı çok hafif bir eğimle döşe: su kendiliğinden aksın",
-       "Lay a channel with a very gentle slope so the water flows by itself",
+       "Karadeniz’den gelen nemli hava, dağların yamaçlarına çarpar",
+       "Moist air from the Black Sea meets the mountain slopes",
        ""
       ],
       [
-       "Vadileri kemerlerle, tepeleri tünellerle geç",
-       "Cross valleys on arches and hills through tunnels",
+       "Hava yükseldikçe soğur; içindeki su yağmur olarak düşer",
+       "As the air rises it cools, and the water in it falls as rain",
        ""
       ],
       [
-       "Şehirde büyük sarnıçlarda depola",
-       "Store it in great cisterns in the city",
+       "Dağların denize bakan yüzü yıl boyunca ıslak ve yumuşak kalır",
+       "The seaward face of the mountains stays wet and soft all year",
+       ""
+      ],
+      [
+       "Çay, fındık ve orman bu sisin ve yağmurun içinde büyür",
+       "Tea, hazelnuts and forest grow inside this mist and rain",
        ""
       ]
      ],
-     "fin": "Roma’nın ve Bizans’ın kentleri, pompasız yalnızca yerçekimiyle yaşadı",
-     "fine": "The cities of Rome and Byzantium lived on gravity alone — no pumps"
+     "fin": "Bu yeşil, bir dağın nemli havayı yukarı kaldırmasının armağanıdır",
+     "fine": "This green is the gift of a mountain lifting moist air upward"
     }
    ]
   },
   {
    "id": "h-11-19-19",
-   "name": "Uzay Araçlarının Gözünden · Through the Eyes of Spacecraft",
+   "name": "Yağmurun Sanatı · The Art of Rain",
    "from": "2026-11-19T19:00",
    "until": "2026-11-19T20:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h19-marsselfie.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Curiosity, Mars",
-     "tr": "Curiosity gezgininin Mars’taki “özçekimi”: birçok kareden birleştirilmiş, kolu görüntüden silinmiş",
-     "en": "Curiosity rover’s “selfie” on Mars — stitched from many frames, with its arm removed from view",
-     "cr": "Foto · Photo: NASA / JPL-Caltech / MSSS · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Curiosity bir arabadan büyük; 2012’den beri Gale Krateri’nde 30 km’den fazla yol aldı",
-     "facte": "Curiosity is bigger than a car — since 2012 it has driven more than 30 km in Gale Crater",
-     "fit": "contain"
+     "d": 50,
+     "f": "m/h72-vgrain.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Vincent van Gogh, 1889",
+     "tr": "Yağmur — Vincent van Gogh, 1889: tarlaya çizgi çizgi inen sağanak",
+     "en": "Rain — Vincent van Gogh, 1889: a shower falling in lines across the field",
+     "cr": "Eser · Artwork: Vincent van Gogh · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Van Gogh bunu Saint-Rémy’de yaptı; yağmuru bir perde gibi, fırça darbeleriyle yazdı",
+     "facte": "Van Gogh made this in Saint-Rémy, writing the rain like a curtain, in strokes of the brush",
+     "pos": "50% 45%"
     },
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h19-marssunset.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Mars’ta gün batımı · Sunset on Mars",
-     "tr": "Mars’ta gün batımı: Güneş’in çevresindeki ışık mavi",
-     "en": "Sunset on Mars — the glow around the Sun is blue",
-     "cr": "Foto · Photo: NASA / JPL-Caltech / MSSS / Texas A&M Univ. · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Dünya’da gün batımı kızıldır; Mars’ta tersine mavidir, çünkü ince toz mavi ışığı Güneş’in yönünde saçar",
-     "facte": "On Earth sunsets are red; on Mars they turn blue, because fine dust scatters blue light towards the Sun’s direction",
-     "fit": "contain"
+     "d": 50,
+     "f": "m/h72-shono.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Utagawa Hiroshige, yaklaşık 1833–34",
+     "tr": "Shōno’da Sağanak — Hiroshige’nin Tōkaidō dizisinden, eğik yağmurun altında yürüyen yolcular",
+     "en": "Driving Rain at Shōno — travellers walking under a slanting downpour, from Hiroshige’s Tōkaidō series",
+     "cr": "Eser · Artwork: Utagawa Hiroshige · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bu, iki gün önce gördüğün Shin-Ōhashi köprüsündeki sağanaktan başka bir gravürdür",
+     "facte": "This is a different print from the Sudden Shower over Shin-Ōhashi you saw two days ago",
+     "pos": "50% 48%"
     },
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h19-juno.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Jüpiter, Juno",
-     "tr": "Juno uzay aracından Jüpiter’in bulutları: girdaplar ve mavi akıntılar (renkler güçlendirilmiş)",
-     "en": "Jupiter’s clouds from the Juno spacecraft — swirls and blue currents (colours enhanced)",
-     "cr": "Foto · Photo: NASA / JPL-Caltech / SwRI / MSSS / Gerald Eichstädt / Seán Doran · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Bu fotoğraflar amatörler tarafından işlendi: NASA, Juno’nun ham görüntülerini herkesin kullanımına açıyor",
-     "facte": "These images were processed by amateurs — NASA releases Juno’s raw pictures for anyone to use",
-     "fit": "contain"
+     "d": 48,
+     "f": "m/h72-hassam.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Childe Hassam, 1885",
+     "tr": "Yağmurlu Gün, Boston — Childe Hassam, 1885: ıslak taşlar, şemsiyeler ve at arabaları",
+     "en": "Rainy Day, Boston — Childe Hassam, 1885: wet stone, umbrellas and horse-drawn carriages",
+     "cr": "Eser · Artwork: Childe Hassam · kamu malı · public domain · Wikimedia Commons",
+     "pos": "50% 50%"
     },
     {
-     "k": "hzphoto",
-     "d": 42,
-     "f": "m/h19-pluto.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Plüton, New Horizons",
-     "tr": "Plüton’un gerçek renkleri: güneyindeki açık renkli kalp biçimli buz ovası",
-     "en": "Pluto in true colour — the pale, heart-shaped plain of ice in its south",
-     "cr": "Foto · Photo: NASA / JHUAPL / SwRI · kamu malı · public domain · Wikimedia Commons",
-     "fact": "New Horizons, 9,5 yıllık yolculuktan sonra 2015’te Plüton’un yanından geçti; bu fotoğrafın Dünya’ya ulaşması günler sürdü",
-     "facte": "New Horizons flew past Pluto in 2015 after a 9.5-year journey — sending this picture home took days",
-     "fit": "contain"
+     "k": "hzfact",
+     "d": 34,
+     "big": "islak sokak",
+     "tr": "Islak bir sokak gökyüzünü yere indirir: izlenimciler yağmuru bu yüzden de severdi",
+     "en": "A wet street brings the sky down to the ground — one reason the Impressionists loved the rain",
+     "src": "Yansıyan ışık, bildik bir caddesini yeni bir manzaraya çevirir · Reflected light turns a familiar street into a new view",
+     "c1": "#1c2430",
+     "c2": "#05080c"
     },
     {
      "k": "hzsteps",
      "d": 58,
-     "lb": "Ölçek Yolculuğu · Scale Journey",
-     "q": "Uzaydan gelen bir fotoğraf eve ne kadar sürede ulaşır?",
-     "e": "How long does a picture from space take to reach home?",
-     "c1": "#1c1f2e",
-     "c2": "#05060c",
-     "gap": 8,
+     "lb": "Merak · Wonder",
+     "q": "Havadaki bir yağmur damlası gerçekte nasıl durur?",
+     "e": "What shape does a raindrop actually have in the air?",
+     "c1": "#1a2430",
+     "c2": "#05090c",
+     "gap": 7,
      "steps": [
       [
-       "Ay’dan: yaklaşık 1,3 saniye",
-       "From the Moon — about 1.3 seconds",
-       "🌙"
-      ],
-      [
-       "Mars’tan: 3 ile 22 dakika arası",
-       "From Mars — between 3 and 22 minutes",
+       "Küçük damlalar, yüzey gerilimiyle neredeyse tam bir küredir",
+       "Small drops are almost perfect spheres, held by surface tension",
        ""
       ],
       [
-       "Jüpiter’den: 35 ile 52 dakika",
-       "From Jupiter — 35 to 52 minutes",
+       "Büyüdükçe altı hava direnciyle yassılaşır: bir hamburger ekmeğine benzer",
+       "As they grow, air resistance flattens the bottom — like a bun",
        ""
       ],
       [
-       "Plüton’dan: yaklaşık 4,5 saat",
-       "From Pluto — about 4.5 hours",
+       "Daha da irileşirse bir paraşüte döner ve parçalanır",
+       "Larger still, they become a parachute and then break apart",
+       ""
+      ],
+      [
+       "Bu yüzden gökyüzünde “dev damla” uzun yaşamaz",
+       "That is why a “giant drop” does not last long in the sky",
        ""
       ]
      ],
-     "fin": "Mars’taki bir gezgine “dur” dersen, sözün ulaştığında çoktan çukura düşmüş olabilir — bu yüzden kendi kendine sürmeyi bilir",
-     "fine": "Tell a Mars rover to “stop” and by the time the word arrives it could already be in a ditch — so it knows how to drive itself"
+     "fin": "Gözyaşı biçimi bir çizim alışkanlığıdır; havadaki damla onu taklit etmez",
+     "fine": "The teardrop is a habit of drawing — a drop in the air does not copy it"
+    },
+    {
+     "k": "hzphoto",
+     "d": 50,
+     "f": "m/h72-fire3.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · şöminede çıtırdayan ateş · a fire crackling in the hearth",
+     "tr": "Dışarıda yağmur, içeride çıtırdayan bir şömine ateşi",
+     "en": "Rain outside, and a fire crackling in the hearth",
+     "cr": "Foto · Photo: Mark Schellhase · CC BY-SA 4.0 · Wikimedia Commons",
+     "pos": "50% 60%"
     }
    ]
   },
