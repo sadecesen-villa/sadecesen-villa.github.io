@@ -1,6 +1,6 @@
-/* hourly.js v69 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v71 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto (quiet:1 = dim ambient still, tiny caption, fade only) hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener + hzshepard hzbezold.  v68: hzflow hzlissa hzrule hzlantern + hzscint hzchecker.  v69: hzmandel hzbuffon hzember (calm night) + illusions hzouchi hzmach hzbarber.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener + hzshepard hzbezold.  v68: hzflow hzlissa hzrule hzlantern + hzscint hzchecker.  v69: hzmandel hzbuffon hzember (calm night) + illusions hzouchi hzmach hzbarber.  v71: hztimes hzmonty hztsp hzbalikci (calm night) + illusions hzcurve hzpinna.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -986,5 +986,81 @@ W.hzember=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(170),P=[],i,F
   if(Math.random()<.35)P.push([FX-40+Math.random()*80,FY-30,(Math.random()-.5)*.5,.6+Math.random()*.9,0]);
   for(i=P.length-1;i>=0;i--){var p=P[i];p[0]+=p[2]+Math.sin(t+p[1]*.02)*.3;p[1]-=p[3];p[4]+=1/60;var al=Math.max(0,1-p[4]/7);if(al<=0){P.splice(i,1);continue}
    x.fillStyle='rgba(255,'+(170+Math.round(60*al))+',130,'+al.toFixed(2)+')';x.fillRect(p[0],p[1],2.4,2.4)}});return L};
+
+/* ---------- v71 additions: hztimes (living art), hzmonty hztsp (clever thinking), hzcurve hzpinna (illusions), hzbalikci (calm night) ---------- */
+/* times tables on a circle: join point i to point i×k (mod N); k=2 draws a cardioid, k=3 a nephroid… */
+W.hztimes=function(L,it){grad(L,'#141c2a','#03050a');var c=wCv(L),x=c.getContext('2d'),N=it.n||240,R=372,CX=960,CY=600,HOLD=it.hold||7,K0=it.k0||2,lab=T(L,'','top:250px;left:auto;right:150px;width:auto;text-align:right',1);
+ T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — matematik · mathematics','Çemberde çarpım tablosu: her noktayı, kendisinin k katına bağla','A times table on a circle — join every point to k times itself')+'</div>','top:16px',.4);
+ T(L,'<div class="hzbox" style="max-width:38vw"><div class="sm" style="font-size:1.1vw;color:#dfe6e9">Çembere '+N+' nokta koy. 1’i k’ya, 2’yi 2k’ya, 3’ü 3k’ya bağla (sayı '+N+'’ü geçerse başa dön). k=2 kalp biçimli bir “kardioid”, k=3 iki yapraklı bir “nefroid” çizer<br><i>Put '+N+' points on a circle. Join 1 to k, 2 to 2k, 3 to 3k (wrapping round past '+N+'). k=2 draws a heart-shaped cardioid, k=3 a two-lobed nephroid</i></div></div>','bottom:16px;left:40px;right:auto;text-align:left',5);
+ var NM={2:['kardioid','cardioid'],3:['nefroid','nephroid'],4:['3 yapraklı · 3 cusps','3 cusps'],5:['4 yapraklı · 4 cusps','4 cusps']},lastK=-1;
+ wLoop(L,function(t){var u=t/HOLD,n=Math.floor(u),f=u-n,e=f<.55?0:ease((f-.55)/.45),k=K0+n+e;x.clearRect(0,0,1920,1080);x.lineWidth=1.1;
+  for(var i=0;i<N;i++){var a=i/N*6.2832-1.5708,b=(i*k)%N/N*6.2832-1.5708,h=(i/N*300+t*6)%360;x.strokeStyle='hsla('+h.toFixed(0)+',70%,68%,.55)';x.beginPath();x.moveTo(CX+Math.cos(a)*R,CY+Math.sin(a)*R);x.lineTo(CX+Math.cos(b)*R,CY+Math.sin(b)*R);x.stroke()}
+  x.strokeStyle='rgba(220,230,235,.25)';x.lineWidth=2;x.beginPath();x.arc(CX,CY,R,0,7);x.stroke();
+  var kk=K0+n;if(kk!==lastK){lastK=kk;var nm=NM[kk];lab.innerHTML='<div class="hzbox" style="padding:.6vw 1.6vw"><div class="a" style="font-size:2.4vw">k = '+kk+'</div>'+(nm?'<div class="e" style="font-size:1.2vw">'+nm[0]+(nm[0]==nm[1]?'':' · '+nm[1])+'</div>':'')+'</div>'}});return L};
+
+/* Monty Hall: three doors, one car. Stay or switch? Simulate thousands of games */
+W.hzmonty=function(L,it){grad(L,'#1d2430','#05070b');var c=wCv(L),x=c.getContext('2d'),G=0,SW=0,ST=0,acc=0,game=null,box=T(L,'','bottom:14px',1),last=0;
+ T(L,'<div class="hzbox">'+hd('Zekice Düşünce · Clever Thinking — simülasyon · simulation','Üç kapı, bir araba. Bir kapı seçtin; sunucu keçili bir kapıyı açtı. Kapını değiştirir misin?','Three doors, one car. You pick a door; the host opens one with a goat. Do you switch?')+'</div>','top:14px',.4);
+ function newGame(){var car=Math.floor(Math.random()*3),pick=Math.floor(Math.random()*3),opts=[0,1,2].filter(function(d){return d!=pick&&d!=car}),open=opts[Math.floor(Math.random()*opts.length)],sw=[0,1,2].filter(function(d){return d!=pick&&d!=open})[0];return {car:car,pick:pick,open:open,sw:sw}}
+ function play(g){G++;if(g.pick==g.car)ST++;if(g.sw==g.car)SW++}
+ function door(i,g,ph){var X=560+i*280,Y=330,Wd=200,H=300;x.fillStyle='#3a2c22';x.fillRect(X-8,Y-8,Wd+16,H+16);
+  var opened=(ph>=2&&i==g.open)||ph>=3;x.fillStyle=opened?'#11161c':'#7c5a3e';x.fillRect(X,Y,Wd,H);
+  if(opened){x.font='120px serif';x.textAlign='center';x.fillText(i==g.car?'🚗':'🐐',X+Wd/2,Y+H/2+40)}else{x.fillStyle='#e8dcc8';x.font='bold 64px Helvetica,Arial';x.textAlign='center';x.fillText(String(i+1),X+Wd/2,Y+H/2+22)}
+  if(ph>=1&&i==g.pick){x.strokeStyle='#8fd3c1';x.lineWidth=8;x.strokeRect(X-14,Y-14,Wd+28,H+28);x.fillStyle='#8fd3c1';x.font='28px Helvetica,Arial';x.fillText('Seçimin · Your pick',X+Wd/2,Y+H+56)}}
+ function bars(){var p1=G?ST/G:0,p2=G?SW/G:0,X=560,Wb=760,Y=760;x.font='26px Helvetica,Arial';x.textAlign='left';
+  [[p1,'Kalırsan kazanma · Win if you stay','#c3cdd2'],[p2,'Değiştirirsen kazanma · Win if you switch','#ff9e7a']].forEach(function(r,j){var y=Y+j*70;x.fillStyle='rgba(255,255,255,.08)';x.fillRect(X,y,Wb,40);x.fillStyle=r[2];x.fillRect(X,y,Wb*r[0],40);x.fillStyle='#f3f1ec';x.fillText(r[1]+' — %'+(r[0]*100).toFixed(1),X,y-10)});
+  x.strokeStyle='rgba(255,255,255,.5)';x.lineWidth=2;[1/3,2/3].forEach(function(q){x.beginPath();x.moveTo(X+Wb*q,Y-4);x.lineTo(X+Wb*q,Y+114);x.stroke()})}
+ wLoop(L,function(t){x.clearRect(0,0,1920,1080);var slow=t<24,ph;
+  if(slow){var gi=Math.floor(t/8),tt=t-gi*8;if(!game||game.i!==gi){if(game&&game.g)play(game.g);game={i:gi,g:newGame()}}ph=tt<1.5?0:tt<3.5?1:tt<5.5?2:3;[0,1,2].forEach(function(i){door(i,game.g,ph)})}
+  else{acc+=t<40?1:t<55?6:25;while(acc>=1){acc--;play(newGame())}var g=newGame();[0,1,2].forEach(function(i){door(i,g,3)})}
+  bars();if(t-last>.4){last=t;box.innerHTML='<div class="hzbox" style="padding:.6vw 1.8vw"><div class="a" style="font-size:1.6vw">Oyun · Games: '+G.toLocaleString('tr-TR')+(t>45?' — değiştirmek kazandırır: ⅔ · switching wins ⅔ of the time':'')+'</div>'+(t>45?'<div class="e" style="font-size:1.05vw">İlk seçimin 1/3 ihtimalle doğru. Sunucu arabanın yerini bildiği için kalan ⅔ ihtimal tek kapalı kapıda toplanır (Monty Hall problemi, 1975) · Your first pick is right 1/3 of the time; the host knows where the car is, so the other ⅔ collects on the one door left closed</div>':'')+'</div>'}});return L};
+
+/* travelling salesman: nearest-neighbour tour, then 2-opt untangles the crossings */
+W.hztsp=function(L,it){grad(L,'#13202a','#04080b');var c=wCv(L),x=c.getContext('2d'),N=it.n||70,P,tour,stage,k,t0,box=T(L,'','bottom:14px',1),last=0;
+ T(L,'<div class="hzbox">'+hd('Zekice Düşünce · Clever Thinking — algoritma · algorithm','Gezgin satıcı: '+N+' şehrin hepsine uğrayıp eve dönen en kısa yol hangisi?','The travelling salesman: what is the shortest route that visits all '+N+' cities and comes home?')+'</div>','top:14px',.4);
+ function d(a,b){var dx=P[a][0]-P[b][0],dy=P[a][1]-P[b][1];return Math.sqrt(dx*dx+dy*dy)}
+ function len(){var s=0;for(var i=0;i<tour.length;i++)s+=d(tour[i],tour[(i+1)%tour.length]);return s}
+ function reset(t){P=[];for(var i=0;i<N;i++)P.push([260+Math.random()*1400,250+Math.random()*560]);tour=[0];stage=0;k=0;t0=t}
+ function nnStep(){var a=tour[tour.length-1],best=-1,bd=1e9;for(var i=0;i<N;i++)if(tour.indexOf(i)<0){var dd=d(a,i);if(dd<bd){bd=dd;best=i}}if(best<0)return false;tour.push(best);return true}
+ function optStep(){var n=tour.length;for(var tries=0;tries<n*n;tries++){var i=k%n,j=Math.floor(k/n)%n;k++;if(j<=i+1)continue;var a=tour[i],b=tour[i+1],cc=tour[j],dd=tour[(j+1)%n];if(d(a,cc)+d(b,dd)<d(a,b)-1e-9+d(cc,dd)-1e-9){var s=tour.slice(i+1,j+1).reverse();Array.prototype.splice.apply(tour,[i+1,s.length].concat(s));k=0;return true}if(k>=n*n)return false}return true}
+ reset(0);var L0=0,Lnn=0,lo=0;
+ wLoop(L,function(t){if(stage==0){if(t-t0>.15*(tour.length)/1.5){if(!nnStep()){stage=1;Lnn=len();k=0}}}else if(stage==1){if(t-lo>.2){lo=t;if(!optStep()){stage=2;t0=t}}}else if(t-t0>10)reset(t);
+  x.clearRect(0,0,1920,1080);x.strokeStyle=stage==0?'rgba(195,205,210,.8)':'rgba(255,158,122,.95)';x.lineWidth=3;x.beginPath();for(var i=0;i<tour.length;i++){var p=P[tour[i]];if(i)x.lineTo(p[0],p[1]);else x.moveTo(p[0],p[1])}if(stage>0)x.closePath();x.stroke();
+  for(i=0;i<N;i++){x.fillStyle=i==0?'#8fd3c1':'#f3f1ec';x.beginPath();x.arc(P[i][0],P[i][1],i==0?11:6,0,7);x.fill()}
+  if(t-last>.4){last=t;var s=stage==0?'1. Adım: hep en yakın şehre git · Step 1: always go to the nearest city':stage==1?'2. Adım: kesişen iki yolu bul, aradaki parçayı ters çevir (2-opt) · Step 2: find two crossing roads and reverse the piece between them (2-opt)':'Bitti · Done — '+(Lnn?Math.round((1-len()/Lnn)*100):0)+'% daha kısa · shorter than the greedy route';
+   box.innerHTML='<div class="hzbox" style="padding:.6vw 1.8vw;max-width:80vw"><div class="a" style="font-size:1.5vw">'+s+'</div><div class="e" style="font-size:1.05vw">'+N+' şehir için olası tur sayısı 100 basamaklı bir sayıdan büyüktür; hepsini denemek imkânsız, bu yüzden akıllı kısayollar kullanılır · For '+N+' cities the number of possible tours has over 100 digits — far too many to try, so clever shortcuts are used</div></div>'}});return L};
+
+/* curvature blindness (Takahashi, 2017): identical gentle waves look zigzag or curved depending on where the shading changes */
+W.hzcurve=function(L,it){L.style.background='#7f7f7f';var c=wCv(L),x=c.getContext('2d'),A=30,WL=180,X0=170,X1=1750;
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','Hangi çizgiler yumuşak dalga, hangileri sivri zikzak?','Which lines are smooth waves, and which are sharp zigzags?')+'</div>','top:12px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.7vw">Hepsi aynı yumuşak dalga! Renk tepe noktalarında değişince beyin köşe görüyor</div><div class="e" style="font-size:1.2vw">Every line is the same smooth wave. Where light and dark switch at the peaks, the brain reads a corner; where they switch on the slopes, it reads a curve (curvature blindness, Kohske Takahashi, 2017). Arada bir hepsi tek renge döner · Now and then they all turn one colour</div></div>','bottom:12px',18);
+ function wave(y,off,uni){var ph=off?WL/4:0;for(var xx=X0;xx<X1;xx+=2){var s=Math.floor((xx-X0+ph)/(WL/2)),col=uni?'#222':(s%2?'#f0f0f0':'#151515');x.strokeStyle=col;x.lineWidth=7;x.beginPath();x.moveTo(xx,y+A*Math.sin((xx-X0)/WL*6.2832));x.lineTo(xx+2.4,y+A*Math.sin((xx+2.4-X0)/WL*6.2832));x.stroke()}}
+ wLoop(L,function(t){x.fillStyle='#7f7f7f';x.fillRect(0,0,1920,1080);var uni=t>22&&Math.floor((t-22)/4)%2==0;
+  x.fillStyle='#b4b4b4';x.fillRect(X0-40,240,X1-X0+80,280);x.fillStyle='#4c4c4c';x.fillRect(X0-40,540,X1-X0+80,280);
+  for(var r=0;r<4;r++){wave(290+r*64,r%2,uni);wave(590+r*64,(r+1)%2,uni)}});return L};
+
+/* Pinna–Brelstaff rings: as the picture slowly grows and shrinks, the two rings seem to turn in opposite directions */
+W.hzpinna=function(L,it){L.style.background='#8a8a8a';var c=wCv(L),x=c.getContext('2d'),CX=960,CY=580;
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','Ortadaki noktaya bak. Resim büyüyüp küçülürken halkalar dönüyor mu?','Look at the centre dot. As the picture grows and shrinks, do the rings turn?')+'</div>','top:12px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.7vw">Hiçbir şey dönmüyor! Sadece büyüyüp küçülüyor</div><div class="e" style="font-size:1.2vw">Nothing rotates — the picture only grows and shrinks. The tilted light and dark edges of each square fool motion detectors in the eye into reading a twist, and the two rings seem to turn in opposite directions (Pinna–Brelstaff illusion, 2000)</div></div>','bottom:12px',22);
+ function ring(R,n,tilt,inv){for(var i=0;i<n;i++){var a=i/n*6.2832,S=R*.11;x.save();x.translate(Math.cos(a)*R,Math.sin(a)*R);x.rotate(a+tilt);x.fillStyle='#8a8a8a';x.fillRect(-S/2,-S/2,S,S);x.lineWidth=S*.16;
+  x.strokeStyle=inv?'#111':'#fafafa';x.beginPath();x.moveTo(-S/2,S/2);x.lineTo(-S/2,-S/2);x.lineTo(S/2,-S/2);x.stroke();x.strokeStyle=inv?'#fafafa':'#111';x.beginPath();x.moveTo(S/2,-S/2);x.lineTo(S/2,S/2);x.lineTo(-S/2,S/2);x.stroke();x.restore()}}
+ wLoop(L,function(t){x.fillStyle='#8a8a8a';x.fillRect(0,0,1920,1080);var s=1+.3*Math.sin(t*1.1);x.save();x.translate(CX,CY);x.scale(s,s);ring(300,48,.785,0);ring(200,32,-.785,1);x.restore();
+  x.fillStyle='#000';x.beginPath();x.arc(CX,CY,8,0,7);x.fill()});return L};
+
+/* calm night: a dark sea with distant fishing-boat lights rocking gently on the horizon (illustration) */
+W.hzbalikci=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(150),HY=640,B=[],i;
+ for(i=0;i<7;i++)B.push([180+i*240+Math.random()*120,.6+Math.random()*.6,Math.random()*6.28,Math.random()<.4]);
+ T(L,hd('Gece Balıkçıları · Night Fishermen — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Ufukta, karanlık denizin üstünde balıkçı ışıkları','Fishing-boat lights on the horizon of a dark sea'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Bazı balıkçılar geceleri güçlü lambalar yakar: küçük balıklar ışığa doğru yüzeye çıkar. Buna “ışıkla avcılık” denir<br><i>Some fishermen light strong lamps at night — small fish rise towards the light. It is called light fishing</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,HY);g.addColorStop(0,'#02030a');g.addColorStop(1,'#0e1626');x.fillStyle=g;x.fillRect(0,0,1920,HY);drawStars(x,S.filter(function(s){return s[1]<HY-30}),t);
+  var mg=x.createRadialGradient(1520,190,0,1520,190,160);mg.addColorStop(0,'rgba(225,230,240,.9)');mg.addColorStop(.25,'rgba(200,210,230,.25)');mg.addColorStop(1,'rgba(200,210,230,0)');x.fillStyle=mg;x.beginPath();x.arc(1520,190,160,0,7);x.fill();
+  for(var k=0;k<3;k++){var cx=((t*6+k*700)%2600)-340,cy=150+k*70;x.fillStyle='rgba(20,26,40,.55)';x.beginPath();x.ellipse(cx,cy,260,34,0,0,7);x.fill()}
+  var wg=x.createLinearGradient(0,HY,0,1080);wg.addColorStop(0,'#08101c');wg.addColorStop(1,'#010206');x.fillStyle=wg;x.fillRect(0,HY,1920,440);
+  for(i=0;i<B.length;i++){var b=B[i],bob=Math.sin(t*.6+b[2])*3,bx=b[0]+Math.sin(t*.05+b[2])*20,by=HY-6+bob,col=b[3]?'200,255,220':'255,240,215';
+   var gl=x.createRadialGradient(bx,by,0,bx,by,60*b[1]);gl.addColorStop(0,'rgba('+col+',.55)');gl.addColorStop(1,'rgba('+col+',0)');x.fillStyle=gl;x.beginPath();x.arc(bx,by,60*b[1],0,7);x.fill();
+   x.fillStyle='rgba('+col+',.95)';x.beginPath();x.arc(bx,by,3.4*b[1],0,7);x.fill();
+   for(var yy=HY+6;yy<HY+200*b[1];yy+=7){var w=(3+Math.sin(t*1.3+yy*.15+b[2])*2.5)*b[1]*(1+(yy-HY)/90),al=.35*(1-(yy-HY)/(200*b[1]));x.fillStyle='rgba('+col+','+Math.max(0,al).toFixed(3)+')';x.fillRect(bx-w+Math.sin(t+yy*.2)*3,yy,w*2,2.5)}}
+  for(var yy2=HY+10;yy2<1080;yy2+=11){x.fillStyle='rgba(150,170,200,.035)';x.fillRect(0,yy2+Math.sin(t*.5+yy2)*2,1920,1)}});return L};
 
 })();

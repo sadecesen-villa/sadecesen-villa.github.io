@@ -593,3 +593,43 @@ m/h70-prismatic.jpg — Grand prismatic spring.jpg — Jim Peaco, National Park 
 m/h70-socotra.jpg — Dragonblood tree in Socotra 2.jpg — Alex38 — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Dragonblood_tree_in_Socotra_2.jpg
 m/h70-starlake.jpg — Bontecou Lake Milky Way panorama.jpg — Juliancolton — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bontecou_Lake_Milky_Way_panorama.jpg
 m/h70-thewave.jpg — The Wave - Coyote Buttes North (49995874171).jpg — BLM Utah (Bureau of Land Management) — Public domain — https://commons.wikimedia.org/wiki/File:The_Wave_-_Coyote_Buttes_North_(49995874171).jpg
+
+## 2026-11-19 (days/2026-11-19.json, m/h19-*)
+m/h19-acequia.jpg — Granada 2015 10 22 2234 (26018401446).jpg — Harvey Barrison — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Granada_2015_10_22_2234_(26018401446).jpg
+m/h19-akcaabat.jpg — Ak Camii, Akçaabat.jpg — miketnorton — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Ak_Camii,_Ak%C3%A7aabat.jpg
+m/h19-altincamp.jpg — Altincamp 20140729 Sunset.jpg — Nevit Dilmen — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Altincamp_20140729_Sunset.jpg
+m/h19-antikythera.jpg — Antikythera Mechanism - National Archaeological Museum, Athens by Joy of Museum.jpg — Joyofmuseums — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Antikythera_Mechanism_-_National_Archaeological_Museum,_Athens_by_Joy_of_Museum.jpg
+m/h19-axolotl.jpg — Axolotl Ambystoma mexicanum Aquarium Zoo Berlin, 2007.jpg — Kristof Magnusson — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Axolotl_Ambystoma_mexicanum_Aquarium_Zoo_Berlin,_2007.jpg
+m/h19-bristlecone.jpg — Big bristlecone pine Pinus longaeva.jpg — Dcrjsr — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Big_bristlecone_pine_Pinus_longaeva.jpg
+m/h19-caykara.jpg — Village near Çaykara, Trabzon.jpg — NeoRetro — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Village_near_%C3%87aykara,_Trabzon.jpg
+m/h19-cistern.jpg — Cisterna Basílica, Estambul, Turquía, 2024-09-28, DD 58-60 HDR.jpg — Diego Delso — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Cisterna_Bas%C3%ADlica,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_58-60_HDR.jpg
+m/h19-darwin.jpg — Darwin Tree 1837.png — Charles Darwin — Public domain — https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png
+m/h19-ejiri.jpg — Ejiri in the Suruga province.jpg — Katsushika Hokusai — Public domain — https://commons.wikimedia.org/wiki/File:Ejiri_in_the_Suruga_province.jpg
+m/h19-fishnight.jpg — DSCF0771 Fishing boats rest in a quiet harbor at night city lights reflecting on the water.jpg — PattayaPatrol — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:DSCF0771_Fishing_boats_rest_in_a_quiet_harbor_at_night_city_lights_reflecting_on_the_water.jpg
+m/h19-frontdoor.jpg — Front Entrance to Headmaster's House, Winchester College.jpg — Tim Sheerman-Chase — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Front_Entrance_to_Headmaster%27s_House,_Winchester_College.jpg
+m/h19-ginkgo.jpg — Ginkgo-Blatt -- 2024 -- 6855.jpg — Dietmar Rabich — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Ginkgo-Blatt_--_2024_--_6855.jpg
+m/h19-glassfrog.jpg — Hyalinobatrachium colymbiphyllum edit.jpg — bgv23 — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Hyalinobatrachium_colymbiphyllum_edit.jpg
+m/h19-greatwave.jpg — Tsunami by hokusai 19th century.jpg — Katsushika Hokusai — Public domain — https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg
+m/h19-horseshoecrab.jpg — Atlantic horseshoe crab (Limulus polyphemus).jpg — Kaldari — CC0 — https://commons.wikimedia.org/wiki/File:Atlantic_horseshoe_crab_(Limulus_polyphemus).jpg
+m/h19-juno.jpg — PIA21972 Jupiter Blues.jpg — NASA / JPL-Caltech / SwRI / MSSS / Gerald Eichstädt / Seán Doran — Public domain — https://commons.wikimedia.org/wiki/File:PIA21972_Jupiter_Blues.jpg
+m/h19-kajikazawa.jpg — Kajikazawa in Kai province.jpg — Katsushika Hokusai — Public domain — https://commons.wikimedia.org/wiki/File:Kajikazawa_in_Kai_province.jpg
+m/h19-kirifuri.jpg — Katsushika Hokusai, Japanese - Pilgrims at Kirifuri Waterfall on Mount Kurokami in Shimotsuke Province - Google Art Project.jpg — Katsushika Hokusai — Public domain — https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai,_Japanese_-_Pilgrims_at_Kirifuri_Waterfall_on_Mount_Kurokami_in_Shimotsuke_Province_-_Google_Art_Project.jpg
+m/h19-laplace.jpg — Les merveilles de l'industrie, 1873 "Pierre-Simon Laplace" (4840056407).jpg — Louis Figuier — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Les_merveilles_de_l%27industrie,_1873_%22Pierre-Simon_Laplace%22_(4840056407).jpg
+m/h19-leoflying.jpg — Leonardo da vinci, Drawing of a flying machine.jpg — Leonardo da Vinci — Public domain — https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Drawing_of_a_flying_machine.jpg
+m/h19-lovelace.jpg — Ada Lovelace portrait.jpg — Alfred Edward Chalon — Public domain — https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg
+m/h19-mantisshrimp.jpg — Odontodactylus scyllarus1.jpg — Jens Petersen — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:Odontodactylus_scyllarus1.jpg
+m/h19-marsselfie.jpg — PIA16239 High-Resolution Self-Portrait by Curiosity Rover Arm Camera.jpg — NASA / JPL-Caltech / MSSS — Public domain — https://commons.wikimedia.org/wiki/File:PIA16239_High-Resolution_Self-Portrait_by_Curiosity_Rover_Arm_Camera.jpg
+m/h19-marssunset.jpg — Curiosity gale crater sunset.tif — NASA / JPL-Caltech / MSSS / Texas A&M Univ. — Public domain — https://commons.wikimedia.org/wiki/File:Curiosity_gale_crater_sunset.tif
+m/h19-nightport.jpg — Trabzon at night from Meydan.jpeg — Robot8A — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trabzon_at_night_from_Meydan.jpeg
+m/h19-olive.jpg — Olive tree in jar 2016d.jpg — Øyvind Holmstad — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Olive_tree_in_jar_2016d.jpg
+m/h19-pathlights.jpg — Longwood Gardens Christmas lights along path.jpeg — Dough4872 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Longwood_Gardens_Christmas_lights_along_path.jpeg
+m/h19-physarum.jpg — Physarum polycephalum.jpg — HelenGinger — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Physarum_polycephalum.jpg
+m/h19-pluto.jpg — Pluto in True Color - High-Res.jpg — NASA / JHUAPL / SwRI — Public domain — https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg
+m/h19-pontdugard.jpg — Pont du Gard BLS.jpg — Benh LIEU SONG — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg
+m/h19-ramanujan.jpg — Srinivasa Ramanujan-Add. MS a94 version2 (cropped).jpg — bilinmeyen fotoğrafçı · unknown photographer — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan-Add._MS_a94_version2_(cropped).jpg
+m/h19-redfuji.jpg — Red Fuji southern wind clear morning.jpg — Katsushika Hokusai — Public domain — https://commons.wikimedia.org/wiki/File:Red_Fuji_southern_wind_clear_morning.jpg
+m/h19-seadragon.jpg — Leafy Seadragon Phycodurus eques 2500px PLW edit.jpg — Derek Ramsey (düzenleme · edit: Papa Lima Whiskey) — CC BY-SA 2.5 — https://commons.wikimedia.org/wiki/File:Leafy_Seadragon_Phycodurus_eques_2500px_PLW_edit.jpg
+m/h19-shoebill.jpg — Balaeniceps rex (Schuhschnabel - Shoebill) - Weltvogelpark Walsrode 2010-10.jpg — Olaf Oliviero Riemer — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Balaeniceps_rex_(Schuhschnabel_-_Shoebill)_-_Weltvogelpark_Walsrode_2010-10.jpg
+m/h19-stonesteps.jpg — Stone steps, Dawyck Botanic Garden - geograph.org.uk - 5789793.jpg — Jim Barton — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Stone_steps,_Dawyck_Botanic_Garden_-_geograph.org.uk_-_5789793.jpg
+m/h19-vitruvian.jpg — Da Vinci Vitruve Luc Viatour.jpg — Leonardo da Vinci — Public domain — https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg
+m/h19-yazd.jpg — Dolat Abad Garden - Pavilion 01.jpg — Bernard Gagnon — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dolat_Abad_Garden_-_Pavilion_01.jpg

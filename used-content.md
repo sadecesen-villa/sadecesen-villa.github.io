@@ -4,6 +4,112 @@ Purpose: every daily build checks this file and must NOT reuse any topic, quote,
 
 Format: `HH set | template (k) | topic | image file`
 
+## 2026-11-19 (rev 71, hourly sets 09:00–02:00, days/2026-11-19.json) · Thursday
+
+No pending requests in requests.md (verified 08:00). 6 new hz scenes (hourly.js v71): generators hztimes (times tables on a circle) hzmonty (Monty Hall) hztsp (travelling salesman 2-opt) hzbalikci (calm night fishing lights), illusions hzcurve (curvature blindness) hzpinna (Pinna–Brelstaff). 38 new CC/PD photos/artworks (m/h19-*); h17-* archived to /workspace/tv-media-archive/h17. Evening kept as previous days: 18–19 photo-led, 20–22 alone mind-spark (as rev 70), 22:00 calm shore, 23:00–02:00 calm night. Quotes: Cömertlikte akarsu gibi ol… (09), Güzel ve hoş yaratılan her şey… (11), Bu dünya bir dağdır… yankı (13), Hayatına gelen değişimlere direnme… (16), Söz ola kese savaşı (Yunus Emre, 21), Sana verilen zorluğu kabul ettiğin an kapı açılır (22), Sabır acıdır, meyvesi tatlıdır (atasözü, 23). Overlap check clean at 1920×1080 and 1280×720.
+
+### 09:00–10:00 · Perşembe Sabahı · Thursday Morning
+- 09 | hzphoto | Çaykara yakınlarında bir yamaç köyü: dağınık evler, yeşil çayırlar ve sis | m/h19-caykara.jpg
+- 09 | hzquote | Cömertlikte akarsu gibi ol; hoşgörüde deniz gibi ol | —
+- 09 | hzphoto | Akçaabat’ta beyaz taş bir cami ve ince minaresi, açık bir gökyüzü altında | m/h19-akcaabat.jpg
+- 09 | hzfact | “Perşembe” Farsça “penc-şenbe”den gelir: “cumartesiden sonraki beşinci gün” | —
+- 09 | hzriddle | Ne kadar çok kurularsa, o kadar ıslanır. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Çemberde Çarpım Tablosu · Living Art: Times Tables on a Circle
+- 10 | hztimes | NEW times tables on a circle (cardioid, nephroid…) | —
+- 10 | hzsteps | Basit bir kural neden bu kadar güzel şekiller çiziyor? | —
+- 10 | hzphoto | Karanlığın içinde tek bir ginkgo yaprağı: yelpaze gibi açılan damarlar | m/h19-ginkgo.jpg
+
+### 11:00–12:00 · Galeri: Hokusai’nin Dünyası · Gallery: The World of Hokusai
+- 11 | hzphoto | Kanagawa Açıklarında Büyük Dalga — Katsushika Hokusai, yaklaşık 1831 | m/h19-greatwave.jpg
+- 11 | hzphoto | Güney Rüzgârı, Açık Sabah (“Kızıl Fuji”) — Hokusai, yaklaşık 1831 | m/h19-redfuji.jpg
+- 11 | hzphoto | Kai Eyaletinde Kajikazawa — Hokusai, yaklaşık 1831 | m/h19-kajikazawa.jpg
+- 11 | hzphoto | Suruga Eyaletinde Ejiri — Hokusai, yaklaşık 1832 | m/h19-ejiri.jpg
+- 11 | hzphoto | Kurokami Dağı’nda Kirifuri Şelalesi — Hokusai, yaklaşık 1832 | m/h19-kirifuri.jpg
+- 11 | hzquote | Güzel ve hoş yaratılan her şey, onu gören göz içindir | —
+
+### 12:00–13:00 · Zekice Düşünce: Olasılığın Tuzakları · Clever Thinking: Traps of Probability
+- 12 | hzmonty | NEW Monty Hall three-door simulation | —
+- 12 | hzsteps | Test pozitif çıktı. Gerçekten hasta olma ihtimalin ne? | —
+- 12 | hzriddle | Bir ailenin iki çocuğu var ve en az biri kız. İkisinin de kız olma olasılığı nedir? | —
+- 12 | hzfact | Yazı tura beş kez üst üste tura geldi. Altıncı atışta tura gelme olasılığı? Yine yarı yarıya | —
+
+### 13:00–14:00 · Düşünce Deneyleri: Kader, Kimlik ve Renk · Thought Experiments: Fate, Identity & Colour
+- 13 | hzsteps | Laplace’ın Cini: her atomun yerini ve hızını bilen bir zihin geleceği görebilir mi? | —
+- 13 | hzphoto | Pierre-Simon Laplace (1749–1827) — gravür, 1873 | m/h19-laplace.jpg
+- 13 | hzsteps | Işınlanma makinesi: seni burada tarar, Mars’ta yeniden kurar. Varan kişi sen misin? | —
+- 13 | hzquote | Bu dünya bir dağdır, yaptıklarımız ses; seslerin yankısı yine bize döner | —
+- 13 | hzsteps | Senin gördüğün kırmızı, benim gördüğüm kırmızıyla aynı mı? | —
+
+### 14:00–15:00 · Villa Fikirleri: Varış ve Karşılama · Villa Ideas: Arrival & Welcome
+- 14 | hzphoto | Büyük bir küpte yaşlı bir zeytin ağacı: girişe ya da terasa tek başına bir heykel gibi | m/h19-olive.jpg
+- 14 | hzphoto | Taş bir kemerin içinde koyu renk ahşap bir kapı: eve giriş başlı başına bir an olur | m/h19-frontdoor.jpg
+- 14 | hzphoto | Bitkilerle çevrili alçak taş basamaklar: yürüyüşü yavaşlatan, bahçeyi gösteren bir yol | m/h19-stonesteps.jpg
+- 14 | hzphoto | Uzun bir su kanalı, iki yanında kemerli fıskiyeler ve çiçek tarhları | m/h19-acequia.jpg
+- 14 | hzphoto | Kış gecesi ışıklandırılmış ağaçlar: bahçe karanlıkta bambaşka bir oda olur | m/h19-pathlights.jpg
+- 14 | hzriddle | Bir bahçıvan dört ağacı, her biri diğer üçüne tam olarak eşit uzaklıkta olacak şekilde dikmek istiyor. Nasıl? | —
+
+### 15:00–16:00 · Göz Oyunları: Eğri, Köşe ve Dönüş · Tricks of the Eye: Curves, Corners & Spin
+- 15 | hzcurve | NEW curvature blindness illusion (Takahashi 2017) | —
+- 15 | hzpinna | NEW Pinna–Brelstaff rotating rings illusion | —
+- 15 | hzsteps | Neden aldanıyoruz? | —
+- 15 | hzfact | Gördüğün şey, aslında yaklaşık 80 milisaniye önce olmuştu; beyin bu gecikmeyi tahminle kapatır | —
+
+### 16:00–17:00 · Zamanın Tanıkları · Witnesses of Time
+- 16 | hzphoto | Büyük Havza kıl çamı: rüzgârın yonttuğu, yarısı ölü, yarısı yaşayan bir gövde | m/h19-bristlecone.jpg
+- 16 | hzphoto | Nal yengeci: adı yengeç ama aslında örümceklerin ve akreplerin uzak akrabası | m/h19-horseshoecrab.jpg
+- 16 | hzsteps | Bir yaşam ne kadar uzun? | —
+- 16 | hzquote | Hayatına gelen değişimlere direnme; bırak hayat senin içinden yaşasın | —
+- 16 | hzriddle | Hep ileri gider, asla geri dönmez; görünmez ama her şeyi değiştirir. Nedir? | —
+
+### 17:00–18:00 · Zekice Düşünce: En Kısa Yol · Clever Thinking: The Shortest Path
+- 17 | hztsp | NEW travelling salesman: nearest-neighbour + 2-opt | —
+- 17 | hzsteps | Königsberg’in yedi köprüsü: hepsinden birer kez geçip başladığın yere dönebilir misin? | —
+- 17 | hzphoto | Sarı bir balçık mantarı: beyni yok, ama yiyecekleri birbirine bağlayan en verimli yolları buluyor | m/h19-physarum.jpg
+- 17 | hzriddle | Bir kurbağa merdivenin dibinde. Her zıplayışta 1 ya da 2 basamak çıkabiliyor. İlk 3 basamağa kaç farklı yoldan çıkar? | —
+
+### 18:00–19:00 · Antik Mühendislik · Ancient Engineering
+- 18 | hzphoto | Pont du Gard: Roma su kemerinin üç katlı taş köprüsü, harç kullanılmadan oturtulmuş bloklar | m/h19-pontdugard.jpg
+- 18 | hzphoto | Yerebatan Sarnıcı: suyun üstünde yükselen yüzlerce sütun ve loş ışık | m/h19-cistern.jpg
+- 18 | hzphoto | Antikythera Mekanizması: bir batıktan çıkan, dişlilerle dolu bronz parçalar | m/h19-antikythera.jpg
+- 18 | hzphoto | Yezd’de Dolat Abad köşkü ve 33 metrelik rüzgâr kulesi (badgir) | m/h19-yazd.jpg
+- 18 | hzsteps | Elektrik yokken suyu şehre nasıl getirirsin? | —
+
+### 19:00–20:00 · Uzay Araçlarının Gözünden · Through the Eyes of Spacecraft
+- 19 | hzphoto | Curiosity gezgininin Mars’taki “özçekimi”: birçok kareden birleştirilmiş, kolu görüntüden silinmiş | m/h19-marsselfie.jpg
+- 19 | hzphoto | Mars’ta gün batımı: Güneş’in çevresindeki ışık mavi | m/h19-marssunset.jpg
+- 19 | hzphoto | Juno uzay aracından Jüpiter’in bulutları: girdaplar ve mavi akıntılar (renkler güçlendirilmiş) | m/h19-juno.jpg
+- 19 | hzphoto | Plüton’un gerçek renkleri: güneyindeki açık renkli kalp biçimli buz ovası | m/h19-pluto.jpg
+- 19 | hzsteps | Uzaydan gelen bir fotoğraf eve ne kadar sürede ulaşır? | —
+
+### 20:00–21:00 · Gezegenin Tuhaf Canlıları · The Planet’s Strangest Creatures
+- 20 | hzphoto | Aksolotl: hep gülümsüyor gibi duran, kafasında tüylü solungaçlar taşıyan bir semender | m/h19-axolotl.jpg
+- 20 | hzphoto | Yapraklı deniz ejderi: yosun gibi görünen yapraklarla süslü, denizatının akrabası | m/h19-seadragon.jpg
+- 20 | hzphoto | Cam kurbağası bir yaprağın üstünde, yanında yumurtaları | m/h19-glassfrog.jpg
+- 20 | hzphoto | Palyaço peygamberdevesi karidesi: gökkuşağı renkli bir avcı | m/h19-mantisshrimp.jpg
+- 20 | hzphoto | Pabuçgaga: tahta pabuca benzeyen gagasıyla dinozor bakışlı bir kuş | m/h19-shoebill.jpg
+- 20 | hzfact | Dünya’da yaşam yaklaşık 3,5 milyar yıldır var; bugün yaşayan türlerin çoğuna henüz bir ad bile verilmedi | —
+
+### 21:00–22:00 · Dahilerin Defterleri · Notebooks of Genius
+- 21 | hzphoto | Vitruvius Adamı — Leonardo da Vinci, yaklaşık 1490 | m/h19-vitruvian.jpg
+- 21 | hzphoto | Uçan makine çizimi — Leonardo da Vinci | m/h19-leoflying.jpg
+- 21 | hzphoto | “I think” — Charles Darwin’in defteri, 1837 | m/h19-darwin.jpg
+- 21 | hzphoto | Ada Lovelace — Alfred Edward Chalon, yaklaşık 1840 | m/h19-lovelace.jpg
+- 21 | hzphoto | Srinivasa Ramanujan: neredeyse kendi kendine öğrenmiş Hint matematikçi | m/h19-ramanujan.jpg
+- 21 | hzquote | Söz ola kese savaşı, söz ola kestire başı; söz ola ağulu aşı bal ile yağ ede bir söz (Yunus Emre, 13.–14. yüzyıl · 13th–14th century) | —
+
+### 22:00–23:00 · Kıyıda Akşam · Evening by the Shore (sakin · calm)
+- 22 | hzphoto | Sakin bir denizin üstünde batan güneş ve suda uzanan sıcak turuncu bir yol | m/h19-altincamp.jpg
+- 22 | hzphoto | Gece Trabzon: Meydan’dan sokak ışıkları ve şehrin sıcak pencereleri | m/h19-nightport.jpg
+- 22 | hzsteps | Bugünden üç güzel an | —
+- 22 | hzquote | Sana verilen zorluğu kabul ettiğin an, kapı açılır | —
+
+### 23:00–02:00 · Gece Balıkçıları · Night Fishermen (sakin · calm)
+- 23 | hzbalikci | NEW night fishing-boat lights on a dark sea (calm night illustration) | —
+- 23 | hzphoto | Sessiz bir limanda gece dinlenen balıkçı tekneleri ve suya düşen ışıklar | m/h19-fishnight.jpg
+- 23 | hzquote | Sabır acıdır, meyvesi tatlıdır (atasözü · proverb) | —
+- 23 | hzfact | Kışın gölün dibi en soğuk değil: su en yoğun hâline 4 °C’de ulaşır ve dibe çöker; buz üstte kalır | —
+
 ## 2026-11-18 · evening rework (rev 70, sets 20:00–23:00 rebuilt ~20:15, alone mind-spark)
 
 M was alone in the living room and asked for the TV to be taken care of. 19:00 was nearly over, so it was left as “Kayıp Kentler”. 20:00–22:00 replaced the calmer photo-led sets (Earth from Above, Quiet Mountains, Sound of Water) with engaging mind-spark hours: curious science, illusions, beautiful real places, thought-provoking facts. 23:00 calm campfire night kept. No new hz functions. 10 new CC/PD photos/artworks (m/h70-*); replaced 20–22 images (m/h18-richat, namib, istanbulnight, erciyes, aladaglar, matterhorn, everest, tortum, kapuzbasi, mossstream) archived to /workspace/tv-media-archive/h18-evening20-22. Overlap check clean at 1920×1080 and 1280×720. Quote: Beni bende demen, bende değilim; bir ben vardır bende, benden içeri (Yunus Emre, 22).
