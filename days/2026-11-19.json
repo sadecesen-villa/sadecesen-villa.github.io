@@ -1,7 +1,7 @@
 {
  "date": "2026-11-19",
- "rev": 71,
- "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-19.py. Content log: used-content.md",
+ "rev": 72,
+ "_note": "Hourly sets for the villa TV. 09:00–16:00 and 20:00–02:00 from days/build_2026-11-19.py; 17:00–19:00 rebuilt by days/build_2026-11-19_evening.py (rev 72, cozy rainy afternoon: petrichor, Black Sea rain, rain in art). Content log: used-content.md",
  "sets": [
   {
    "id": "h-11-19-09",
@@ -611,69 +611,106 @@
   },
   {
    "id": "h-11-19-17",
-   "name": "Zekice Düşünce: En Kısa Yol · Clever Thinking: The Shortest Path",
+   "name": "Yağmurun Kokusu · The Smell of Rain",
    "from": "2026-11-19T17:00",
    "until": "2026-11-19T18:00",
    "items": [
     {
-     "k": "hztsp",
-     "d": 80
+     "k": "hzphoto",
+     "d": 50,
+     "f": "m/h72-rainglass.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo",
+     "tr": "Camın ötesinde yağmur ve koyu ağaçlar — pencereden bakınca dünya yumuşuyor",
+     "en": "Rain and dark trees beyond the glass — looking out, the world softens",
+     "cr": "Foto · Photo: Chinmayee Mishra · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Pencereyi açınca gelen o koku, ıslak toprak ve yağmurun karışımıdır",
+     "facte": "The smell that comes when you open the window is wet earth mixed with rain",
+     "pos": "50% 50%"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h72-rainwin.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo",
+     "tr": "Camdaki her damla küçük bir mercek: arkasındaki bahçeyi ters çevirip büyütüyor",
+     "en": "Each drop on the glass is a tiny lens, turning and magnifying the garden behind it",
+     "cr": "Foto · Photo: Joshua Sampson · CC BY 3.0 · Wikimedia Commons",
+     "pos": "50% 50%"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "petrichor",
+     "tr": "Yağmurun toprağa düştüğü an yayılan o kokunun bilimsel adı: petrichor",
+     "en": "The scientific name for the smell that rises when rain hits the earth is petrichor",
+     "src": "1964’te Isabel Joy Bear ve Richard Thomas, Nature’da bu adı koydu · Bear and Thomas coined the word in Nature in 1964",
+     "c1": "#1a2830",
+     "c2": "#05090c"
+    },
+    {
+     "k": "hzphoto",
+     "d": 50,
+     "f": "m/h72-petrichor.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · yağmurun ıslattığı bir avlu · a rain-soaked courtyard",
+     "tr": "Yağmur ıslak zemine çarpınca, toprakta ve taşta birikmiş yağlar havaya karışır",
+     "en": "When rain strikes the wet ground, oils held in the earth and on stone lift into the air",
+     "cr": "Foto · Photo: Yuna Izmaya · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bu kokunun büyük kısmı geosmin’den gelir: topraktaki Streptomyces bakterilerinin yaptığı bir molekül",
+     "facte": "Much of the scent is geosmin — a molecule made by Streptomyces bacteria in the soil",
+     "pos": "50% 50%"
     },
     {
      "k": "hzsteps",
      "d": 58,
-     "lb": "Zekice Düşünce · Clever Thinking",
-     "q": "Königsberg’in yedi köprüsü: hepsinden birer kez geçip başladığın yere dönebilir misin?",
-     "e": "The seven bridges of Königsberg: can you cross each exactly once and return to the start?",
-     "c1": "#1b2a33",
-     "c2": "#060a0d",
-     "gap": 8,
+     "lb": "Merak · Wonder",
+     "q": "Bu kokuyu neden bu kadar küçük miktarlarda bile duyarız?",
+     "e": "Why can we smell this even in the tiniest amounts?",
+     "c1": "#1a2830",
+     "c2": "#05090c",
+     "gap": 7,
      "steps": [
       [
-       "Kentin ortasında bir nehir, iki ada ve yedi köprü vardı",
-       "The city had a river, two islands and seven bridges",
-       "🌉"
-      ],
-      [
-       "Halk yıllarca denedi; kimse başaramadı",
-       "People tried for years — nobody managed it",
+       "Geosmin, topraktaki bakterilerin ürettiği bir molekül",
+       "Geosmin is a molecule made by bacteria in the soil",
        ""
       ],
       [
-       "1736’da Euler haritayı noktalara ve çizgilere indirdi",
-       "In 1736 Euler reduced the map to dots and lines",
+       "İnsan burnu onu trilyonda beş ila on parçada bile ayırt eder",
+       "The human nose can detect it at just five to ten parts per trillion",
        ""
       ],
       [
-       "Kural: her noktaya çift sayıda köprü değmeli. Königsberg’de dördü de tekti",
-       "The rule: every dot needs an even number of bridges. In Königsberg all four were odd",
+       "Kuru dönemde bitkiler de toprağa yağ bırakır; yağmur bunları serbest bırakır",
+       "In dry spells plants also leave oils in the soil; rain sets them free",
+       ""
+      ],
+      [
+       "Fırtınadan önceki keskin koku ise başka bir şeydir: yıldırımın yaptığı ozon",
+       "The sharp smell before a storm is something else: ozone made by lightning",
        ""
       ]
      ],
-     "fin": "İmkânsız! Ve bu sorudan bugünün ağ biliminin temeli olan “çizge kuramı” doğdu",
-     "fine": "Impossible! And from this puzzle grew graph theory — the basis of today’s network science"
+     "fin": "Petrichor, yağmurun toprağa merhaba dediği andır — burnumuz buna evrimle ayarlıdır",
+     "fine": "Petrichor is the moment rain greets the earth — our noses evolved to notice it"
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h19-physarum.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Physarum polycephalum",
-     "tr": "Sarı bir balçık mantarı: beyni yok, ama yiyecekleri birbirine bağlayan en verimli yolları buluyor",
-     "en": "A yellow slime mould — it has no brain, yet it finds efficient routes linking its food",
-     "cr": "Foto · Photo: HelenGinger · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "2010’da Japon bilim insanları yulafları Tokyo çevresindeki kentlere göre dizdi; balçığın ağı demiryolu ağına çok benzedi",
-     "facte": "In 2010 Japanese scientists placed oat flakes like the cities around Tokyo — the slime’s network closely matched the railway map"
+     "d": 46,
+     "f": "m/h72-rainleaves.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo",
+     "tr": "Yaprakların üstünde duran damlalar neredeyse küre: onları bu biçimde tutan, yüzey gerilimidir",
+     "en": "The droplets resting on the leaves are almost spheres — surface tension holds them in that shape",
+     "cr": "Foto · Photo: Rasheedhrasheed · CC BY-SA 4.0 · Wikimedia Commons",
+     "pos": "50% 45%"
     },
     {
-     "k": "hzriddle",
-     "d": 38,
-     "q": "Bir kurbağa merdivenin dibinde. Her zıplayışta 1 ya da 2 basamak çıkabiliyor. İlk 3 basamağa kaç farklı yoldan çıkar?",
-     "qe": "A frog at the foot of a staircase can hop up 1 or 2 steps at a time. In how many different ways can it climb 3 steps?",
-     "a": "3 yol: 1+1+1, 1+2, 2+1. (4 basamak için 5, 5 için 8: Fibonacci!)",
-     "ae": "3 ways: 1+1+1, 1+2, 2+1. (4 steps give 5, 5 give 8 — Fibonacci!)",
-     "sec": 24,
-     "c1": "#1f2a1c",
-     "c2": "#070a06"
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Küçük, muttarid, muhteriz darbeler;|kafeslerde, camlarda pür-ihtizâz",
+     "en": "Small, steady, timid taps — trembling on the lattices and the windowpanes",
+     "pal": "sea",
+     "lb": "Tevfik Fikret, “Yağmur” · Tevfik Fikret, “Rain”",
+     "by": "Tevfik Fikret (1867–1915)"
     }
    ]
   },

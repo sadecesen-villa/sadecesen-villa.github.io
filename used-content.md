@@ -1,3 +1,16 @@
+## 2026-11-19 · evening rework (rev 72, set 17:00 rebuilt ~17:15, cozy rainy afternoon)
+
+M was in the living room alone; it was raining and he loved the earth-and-rain smell at the window. 17:00 was replaced with “Yağmurun Kokusu” (petrichor science, rain on windows, wet ground, droplets on leaves, Tevfik Fikret). 18:00–19:00 still the morning build at this first push (Black Sea rain and rain-in-art to follow). No new hz functions. 4 new CC/PD photos (m/h72-*). Replaced 17:00 image m/h19-physarum archived to /workspace/tv-media-archive/h19-1719. Overlap check clean at 1920×1080 and 1280×720. Quote: Küçük, muttarid, muhteriz darbeler; kafeslerde, camlarda pür-ihtizâz (Tevfik Fikret, “Yağmur”, 17). Avoided 7-day repeats: Caillebotte Paris Street; Rainy Day (15 Nov), Hiroshige Sudden Shower (13 and 17 Nov), raindrop teardrop-shape one-line fact (14 Nov).
+
+### 17:00–18:00 · Yağmurun Kokusu · The Smell of Rain
+- 17 | hzphoto | Camın ötesinde yağmur ve koyu ağaçlar — pencereden bakınca dünya yumuşuyor | m/h72-rainglass.jpg
+- 17 | hzphoto | Camdaki her damla küçük bir mercek: arkasındaki bahçeyi ters çevirip büyütüyor | m/h72-rainwin.jpg
+- 17 | hzfact | Yağmurun toprağa düştüğü an yayılan o kokunun bilimsel adı: petrichor | —
+- 17 | hzphoto | Yağmur ıslak zemine çarpınca, toprakta ve taşta birikmiş yağlar havaya karışır | m/h72-petrichor.jpg
+- 17 | hzsteps | Bu kokuyu neden bu kadar küçük miktarlarda bile duyarız? (geosmin, 5–10 ppt, plant oils, ozone is different) | —
+- 17 | hzphoto | Yaprakların üstünde duran damlalar neredeyse küre: onları bu biçimde tutan, yüzey gerilimidir | m/h72-rainleaves.jpg
+- 17 | hzquote | Küçük, muttarid, muhteriz darbeler; kafeslerde, camlarda pür-ihtizâz (Tevfik Fikret, “Yağmur”) | —
+
 # Used content log — Sadece Sen villa TV
 
 Purpose: every daily build checks this file and must NOT reuse any topic, quote, riddle, illusion, art generator or image listed here within the last **7 days**. Add a dated section for every build (newest first). Entries older than 7 days may be reused, but prefer fresh ones.
