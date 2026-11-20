@@ -1,7 +1,7 @@
 {
  "date": "2026-11-20",
- "rev": 73,
- "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-20.py. Content log: used-content.md",
+ "rev": 74,
+ "_note": "Hourly sets for the villa TV. 09:00–10:00 and 15:00–02:00 from days/build_2026-11-20.py; 11:00–14:00 rebuilt by days/build_2026-11-20_afternoon.py (rev 74, guest-worthy: breathtaking places, architecture, great masters, wonders of the sky). Sieve of Eratosthenes and afternoon thought experiments moved off 12:00–13:00 and not rescheduled, to keep later hours intact; 17:00 still has the 20-questions / binary search set. Content log: used-content.md",
  "sets": [
   {
    "id": "h-11-20-09",
@@ -130,382 +130,268 @@
   },
   {
    "id": "h-11-20-11",
-   "name": "Galeri: Albert Bierstadt’ın Işığı · Gallery: The Light of Albert Bierstadt",
+   "name": "Nefes Kesen Yerler · Breathtaking Places",
    "from": "2026-11-20T11:00",
    "until": "2026-11-20T12:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h20-bier1.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Sierra Nevada’da, Kaliforniya — Albert Bierstadt, 1868",
-     "en": "Among the Sierra Nevada, California — Albert Bierstadt, 1868",
-     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Bierstadt manzaralarını bulutların arasından vuran tek bir ışık huzmesiyle dramatikleştirirdi",
-     "facte": "Bierstadt made his landscapes dramatic with a single shaft of light breaking through the clouds",
-     "fit": "contain"
+     "d": 50,
+     "f": "m/h74-uyuni.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Uyuni Tuz Çölü, Bolivya · Uyuni Salt Flat, Bolivia",
+     "tr": "Uyuni Tuz Çölü’nde gün doğumu: dağ, sığ suda tersten duruyor",
+     "en": "Sunrise on the Uyuni Salt Flat: a mountain standing upside down in the shallow water",
+     "cr": "Foto · Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Dünyanın en büyük tuz düzlüğü: yaklaşık 10.500 kilometrekare",
+     "facte": "The world’s largest salt flat: about 10,500 square kilometres",
+     "pos": "50% 55%"
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h20-bier3.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Rocky Dağları, Lander Zirvesi — Albert Bierstadt, 1863",
-     "en": "The Rocky Mountains, Lander’s Peak — Albert Bierstadt, 1863",
-     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Öndeki kamp küçücük; dağların büyüklüğünü hissettiren de bu küçüklük",
-     "facte": "The camp in the foreground is tiny — and that tininess is what makes the mountains feel huge",
-     "fit": "contain"
+     "d": 48,
+     "f": "m/h74-dolomites.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tre Cime di Lavaredo, İtalya",
+     "tr": "Dolomitler’de Tre Cime: üç kule gibi yükselen kayalık zirveler",
+     "en": "The Tre Cime in the Dolomites: three peaks rising like stone towers",
+     "cr": "Foto · Photo: Simo Räsänen · CC BY-SA 4.0 · Wikimedia Commons",
+     "pos": "50% 45%"
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h20-bier2.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Yosemite Vadisi’ne Bakış — Albert Bierstadt, 1865",
-     "en": "Looking Down Yosemite Valley — Albert Bierstadt, 1865",
-     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Almanya’da doğdu, Amerika’da büyüdü; Batı’yı hiç görmemiş insanlara vahşi doğanın ölçeğini gösterdi",
-     "facte": "Born in Germany, raised in America — he showed people who had never seen the West the scale of wild nature",
-     "fit": "contain"
+     "d": 48,
+     "f": "m/h74-iguazu.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Iguazú Şelaleleri · Iguazú Falls",
+     "tr": "Iguazú Şelaleleri: ormanın içinden yan yana dökülen onlarca su perdesi",
+     "en": "Iguazú Falls: dozens of curtains of water falling side by side through the forest",
+     "cr": "Foto · Photo: Acediscovery · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Şelale hattı yaklaşık üç kilometre; su 80 metreye kadar düşer",
+     "facte": "The falls stretch for about three kilometres, dropping as much as 80 metres",
+     "pos": "50% 62%"
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h20-bier5.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Rocky Dağları’nda Fırtına, Rosalie Dağı — Albert Bierstadt, 1866",
-     "en": "A Storm in the Rocky Mountains, Mt. Rosalie — Albert Bierstadt, 1866",
-     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Tablo yaklaşık 2 × 3,5 metre: önünde durana pencereden bakıyormuş hissi verir",
-     "facte": "The canvas is about 2 × 3.5 metres — standing before it feels like looking through a window",
-     "fit": "contain"
+     "d": 48,
+     "f": "m/h74-paine.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Torres del Paine, Şili",
+     "tr": "Paine’nin Boynuzları: turkuaz Pehoé Gölü’nün üstünde, rüzgârın yonttuğu zirveler",
+     "en": "The Horns of Paine: wind-carved peaks above the turquoise of Lake Pehoé",
+     "cr": "Foto · Photo: Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+     "pos": "50% 45%"
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h20-bier4.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Dağlar arasında bir göl — Albert Bierstadt, 1868",
-     "en": "A lake among mountains — Albert Bierstadt, 1868",
-     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Durgun su, gökyüzünü ikinci kez boyamanın en kolay yolu",
-     "facte": "Still water is the easiest way to paint the sky twice",
-     "fit": "contain"
+     "d": 48,
+     "f": "m/h74-zhangjiajie.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Zhangjiajie, Çin",
+     "tr": "Zhangjiajie’nin taş ormanı: incelip yükselen kulelerin üstünü orman tutmuş",
+     "en": "The stone forest of Zhangjiajie: slender pillars crowned with forest",
+     "cr": "Foto · Photo: Xiquinho Silva · CC BY 2.0 · Wikimedia Commons",
+     "pos": "50% 50%"
     },
     {
      "k": "hzquote",
-     "d": 40,
-     "tr": "Dağlar çağırıyor|ve gitmeliyim",
-     "en": "The mountains are calling and I must go",
-     "pal": "ink",
-     "lb": "John Muir",
-     "by": "John Muir, 1873 · doğa yazarı · naturalist"
+     "d": 42,
+     "tr": "Akıllılığını sat,|hayret satın al",
+     "en": "Sell your cleverness and buy bewilderment",
+     "pal": "sea"
     }
    ]
   },
   {
    "id": "h-11-20-12",
-   "name": "Zekice Düşünce: Asal Sayılar · Clever Thinking: Prime Numbers",
+   "name": "Taşın Şiiri · Poetry in Stone",
    "from": "2026-11-20T12:00",
    "until": "2026-11-20T13:00",
    "items": [
     {
-     "k": "hzsieve",
-     "d": 96
-    },
-    {
-     "k": "hzsteps",
-     "d": 60,
-     "lb": "Zekice Düşünce · Clever Thinking",
-     "q": "Asal sayılar bir yerde biter mi?",
-     "e": "Do the prime numbers ever run out?",
-     "c1": "#1d2a34",
-     "c2": "#060a0d",
-     "gap": 8,
-     "steps": [
-      [
-       "Diyelim ki bitiyor ve hepsini bir listeye yazdık",
-       "Suppose they do, and we have written them all on a list",
-       "📜"
-      ],
-      [
-       "Hepsini çarp, sonuca 1 ekle",
-       "Multiply them all together and add 1",
-       ""
-      ],
-      [
-       "Bu yeni sayı listedeki hiçbir asala tam bölünmez: her birinde 1 artar",
-       "This new number is not divisible by any prime on the list — each leaves a remainder of 1",
-       ""
-      ],
-      [
-       "Demek ki ya kendisi asal ya da listede olmayan bir asala bölünüyor",
-       "So it is either prime itself or divisible by a prime missing from the list",
-       ""
-      ]
-     ],
-     "fin": "Liste hiçbir zaman tamamlanamaz: asallar sonsuzdur. Öklid bunu yaklaşık 2.300 yıl önce kanıtladı",
-     "fine": "The list can never be complete — the primes are infinite. Euclid proved it about 2,300 years ago"
+     "k": "hzphoto",
+     "d": 50,
+     "f": "m/h74-taj.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tac Mahal, Agra",
+     "tr": "Tac Mahal: yapının kendisi ve sudaki ikizi, aynı sessizlikte",
+     "en": "The Taj Mahal: the building and its twin in the water, equally still",
+     "cr": "Foto · Photo: Antrix3 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Beyaz mermer, günün ışığına göre renk değiştirir: şafakta pembe, öğleyin parlak, akşamüstü sıcak",
+     "facte": "The white marble changes with the light: pink at dawn, bright at noon, warm in the evening",
+     "pos": "50% 50%"
     },
     {
      "k": "hzphoto",
-     "d": 38,
-     "f": "m/h20-euclid.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Oxford Doğa Tarihi Müzesi · Oxford Museum of Natural History",
-     "tr": "Öklid’in heykeli: “Elemanlar” kitabıyla geometriyi 2.000 yıl boyunca öğreten adam",
-     "en": "A statue of Euclid — whose “Elements” taught geometry for 2,000 years",
-     "cr": "Foto · Photo: Set in Stone Project · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "“Elemanlar”, tarihte en çok kopyalanan ve basılan ders kitaplarından biri",
-     "facte": "The “Elements” is one of the most copied and printed textbooks in history"
+     "d": 48,
+     "f": "m/h74-alhambra.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Elhamra, Granada",
+     "tr": "Elhamra’da Mersin Avlusu: uzun bir havuz, işlemeli kemerler ve sakin bir yansıma",
+     "en": "The Court of the Myrtles in the Alhambra: a long pool, carved arches, and a calm reflection",
+     "cr": "Foto · Photo: Jebulon · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "pos": "50% 50%"
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h20-cicada.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · 13 yıllık ağustos böceği · 13-year cicada",
-     "tr": "Magicicada tredecim: toprağın altında 13 yıl bekleyip hep birlikte çıkan bir ağustos böceği",
-     "en": "Magicicada tredecim — a cicada that waits 13 years underground, then emerges all at once",
-     "cr": "Foto · Photo: JeffreyGammon · CC BY 4.0 · Wikimedia Commons",
-     "fact": "Bazı türler 13, bazıları 17 yılda bir çıkar — ikisi de asal. Bir açıklamaya göre böylece 2 ya da 3 yıllık döngüsü olan düşmanlarıyla nadiren aynı yıla denk gelirler",
-     "facte": "Some broods emerge every 13 years, others every 17 — both prime. One explanation: that way they rarely coincide with predators on 2- or 3-year cycles"
+     "d": 48,
+     "f": "m/h74-angkor.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Angkor Wat, Kamboçya",
+     "tr": "Angkor Wat’ta gün doğumu: kuleler ve palmiyeler, havuzda tersine dönmüş",
+     "en": "Sunrise at Angkor Wat: towers and palms turned upside down in the pool",
+     "cr": "Foto · Photo: Vladimir Pankratov · CC BY-SA 2.0 · Wikimedia Commons",
+     "pos": "50% 45%"
     },
     {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Hangi iki asal sayı arasında yalnızca 1 fark vardır?",
-     "qe": "Which two prime numbers are only 1 apart?",
-     "a": "2 ve 3! Ondan sonra her asal tektir, aradaki fark en az 2 olur",
-     "ae": "2 and 3! After that every prime is odd, so the gap is at least 2",
-     "sec": 20,
-     "c1": "#22303a",
-     "c2": "#06090c"
+     "k": "hzphoto",
+     "d": 50,
+     "f": "m/h74-sagrada.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sagrada Família, Barselona",
+     "tr": "Sagrada Família: renkli camların ışığı taşı bir ormana çeviriyor",
+     "en": "The Sagrada Família: light from stained glass turns the stone into a forest",
+     "cr": "Foto · Photo: Smiley.toerist · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Antoni Gaudí’nin tasarladığı bu kilisenin inşası 1882’de başladı; hâlâ sürüyor",
+     "facte": "Antoni Gaudí began this church in 1882 — and it is still being finished",
+     "pos": "50% 40%"
     },
     {
-     "k": "hzfact",
-     "d": 32,
-     "big": "41 milyon",
-     "tr": "2024’te bulunan rekor asal sayının 41 milyondan fazla basamağı var",
-     "en": "The record prime found in 2024 has more than 41 million digits",
-     "src": "Yazmak için binlerce sayfa gerekir; amatör bir araştırmacı onu bulut bilgisayarlarla buldu · Printing it would take thousands of pages; an amateur found it using cloud computers",
-     "c1": "#1a2830",
-     "c2": "#05080a"
+     "k": "hzphoto",
+     "d": 50,
+     "f": "m/h74-montst.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mont-Saint-Michel, Fransa",
+     "tr": "Mont-Saint-Michel: günün ilk ışığında, gelgitin üstünde yükselen bir ada",
+     "en": "Mont-Saint-Michel: an island rising from the tidal flats in the first light",
+     "cr": "Foto · Photo: Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Su çekilince adaya yürüyerek gidilir; gelgit gelince yeniden deniz onu çevreler",
+     "facte": "When the tide goes out you can walk to the island; when it returns, the sea surrounds it again",
+     "pos": "50% 45%"
     }
    ]
   },
   {
    "id": "h-11-20-13",
-   "name": "Düşünce Deneyleri: Seçim, Anlam ve Sonsuz Adımlar · Thought Experiments: Choice, Meaning & Endless Steps",
+   "name": "Büyük Ustalardan · From the Great Masters",
    "from": "2026-11-20T13:00",
    "until": "2026-11-20T14:00",
    "items": [
     {
-     "k": "hzsteps",
-     "d": 62,
-     "lb": "Düşünce Deneyi · Thought Experiment",
-     "q": "Newcomb’un kutuları: geleceği hep doğru tahmin eden biri sana iki kutu veriyor",
-     "e": "Newcomb’s boxes: someone who always predicts the future correctly offers you two boxes",
-     "c1": "#20283a",
-     "c2": "#06080f",
-     "gap": 8,
-     "steps": [
-      [
-       "Açık kutuda 1.000 TL var. Kapalı kutuda ya 1 milyon TL ya da hiçbir şey",
-       "The open box holds 1,000 TL. The closed box holds either 1 million TL or nothing",
-       "📦"
-      ],
-      [
-       "Tahminci, yalnızca kapalı kutuyu alacağını öngördüyse içine 1 milyon koydu",
-       "The predictor put the million in only if it foresaw you taking just the closed box",
-       ""
-      ],
-      [
-       "Kutular çoktan hazırlandı; artık hiçbir şey değişmez — ikisini de almak mantıklı değil mi?",
-       "The boxes are already filled; nothing can change now — so isn’t taking both the logical choice?",
-       ""
-      ],
-      [
-       "Ama ikisini de alanların hepsi 1.000 TL ile, tek kutu alanların hepsi milyonla eve döndü…",
-       "Yet everyone who took both went home with 1,000 TL, and everyone who took one went home a millionaire…",
-       ""
-      ]
-     ],
-     "fin": "Filozoflar 1969’dan beri ikiye bölünmüş durumda. Sen hangisini seçerdin?",
-     "fine": "Philosophers have been split down the middle since 1969. Which would you choose?"
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h74-shalott.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Shalott Leydisi — John William Waterhouse, 1888",
+     "en": "The Lady of Shalott — John William Waterhouse, 1888",
+     "cr": "Eser · Artwork: John William Waterhouse · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Tablo, Tennyson’ın şiirindeki kadını, kaderini beklerken bir kayıkta gösterir",
+     "facte": "The painting shows the woman from Tennyson’s poem, waiting for her fate in a boat",
+     "fit": "contain"
     },
     {
-     "k": "hzsteps",
-     "d": 60,
-     "lb": "Düşünce Deneyi · Thought Experiment",
-     "q": "Çince Oda: kuralları izleyerek doğru cevap veren biri, dili anlıyor mu?",
-     "e": "The Chinese Room: if someone answers perfectly by following rules, do they understand the language?",
-     "c1": "#22283a",
-     "c2": "#07080f",
-     "gap": 8,
-     "steps": [
-      [
-       "Çince bilmeyen biri kapalı bir odada; elinde dev bir kural kitabı var",
-       "Someone who knows no Chinese sits in a closed room with a huge rule book",
-       "🚪"
-      ],
-      [
-       "Kapının altından Çince sorular geliyor; kitaba bakıp doğru işaretleri geri gönderiyor",
-       "Chinese questions come under the door; following the book, they slide back the right symbols",
-       ""
-      ],
-      [
-       "Dışarıdakiler içeride Çince bilen biri olduğuna yemin ediyor",
-       "People outside swear there is a fluent Chinese speaker inside",
-       ""
-      ],
-      [
-       "Ama içerideki kişi tek bir kelimenin anlamını bile bilmiyor",
-       "But the person inside does not know the meaning of a single word",
-       ""
-      ]
-     ],
-     "fin": "John Searle bu soruyu 1980’de sordu: makineler bugün konuşabiliyor, soru hâlâ tartışılıyor",
-     "fine": "John Searle asked this in 1980 — machines can talk today, and the question is still debated"
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h74-canaletto.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Büyük Kanal’ın Girişi, Venedik — Canaletto, yaklaşık 1730",
+     "en": "The Entrance to the Grand Canal, Venice — Canaletto, about 1730",
+     "cr": "Eser · Artwork: Canaletto · kamu malı · public domain · Wikimedia Commons",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h74-cotopaxi.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Cotopaxi — Frederic Edwin Church, 1862",
+     "en": "Cotopaxi — Frederic Edwin Church, 1862",
+     "cr": "Eser · Artwork: Frederic Edwin Church · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Church, Ekvador’daki bu yanardağı yerinde gördükten sonra bu geniş manzarayı yaptı",
+     "facte": "Church painted this wide view after seeing the volcano in Ecuador for himself",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h74-athens.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Atina Okulu — Raphael, 1509–1511",
+     "en": "The School of Athens — Raphael, 1509–1511",
+     "cr": "Eser · Artwork: Raphael · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Vatikan’daki bu duvar resminin ortasında Platon ve Aristoteles yan yana yürür",
+     "facte": "At the centre of this Vatican fresco, Plato and Aristotle walk side by side",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h74-oxbow.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Oxbow, Fırtına Sonrası — Thomas Cole, 1836",
+     "en": "The Oxbow, After a Thunderstorm — Thomas Cole, 1836",
+     "cr": "Eser · Artwork: Thomas Cole · kamu malı · public domain · Wikimedia Commons",
+     "fit": "contain"
     },
     {
      "k": "hzquote",
-     "d": 44,
-     "tr": "Her sürtünmede incinirsen,|aynan nasıl parlar?",
-     "en": "If you are hurt by every rub, how will your mirror ever be polished?",
-     "pal": "clay"
-    },
-    {
-     "k": "hzsteps",
-     "d": 60,
-     "lb": "Düşünce Deneyi · Thought Experiment",
-     "q": "Aşil ile kaplumbağa: en hızlı koşucu, yavaş bir kaplumbağayı yakalayabilir mi?",
-     "e": "Achilles and the tortoise: can the fastest runner ever catch a slow tortoise?",
-     "c1": "#1e2a36",
-     "c2": "#060a0e",
-     "gap": 8,
-     "steps": [
-      [
-       "Kaplumbağa 100 metre önden başlıyor",
-       "The tortoise starts 100 metres ahead",
-       "🐢"
-      ],
-      [
-       "Aşil o 100 metreyi koştuğunda kaplumbağa biraz ilerlemiş oluyor",
-       "By the time Achilles runs those 100 metres, the tortoise has moved a little further",
-       ""
-      ],
-      [
-       "Oraya vardığında yine biraz ilerlemiş… bu sonsuza dek sürüyor",
-       "When he gets there, it has moved again… and so on forever",
-       ""
-      ],
-      [
-       "Zenon’a göre Aşil onu asla yakalayamaz. Ama hepimiz yakaladığını biliyoruz!",
-       "Zeno said Achilles can never catch it — yet we all know he does!",
-       ""
-      ]
-     ],
-     "fin": "Çözüm: sonsuz sayıda parça, sonlu bir toplam verebilir. 1/2 + 1/4 + 1/8 + … = 1",
-     "fine": "The answer: infinitely many pieces can add up to a finite total — 1/2 + 1/4 + 1/8 + … = 1"
-    },
-    {
-     "k": "hzriddle",
-     "d": 40,
-     "q": "Bir adam bir fotoğrafa bakıp şöyle diyor: “Kardeşim yok, ama bu adamın babası, babamın oğlu.” Fotoğraftaki kim?",
-     "qe": "A man looks at a photo and says: “I have no brothers, but this man’s father is my father’s son.” Who is in the photo?",
-     "a": "Kendi oğlu! “Babamın oğlu” — kardeşi olmadığına göre — kendisi",
-     "ae": "His own son! “My father’s son” — with no brothers — is himself",
-     "sec": 24,
-     "c1": "#24303a",
-     "c2": "#070a0d"
+     "d": 42,
+     "tr": "Ne kadar sessizleşirsen,|o kadar çok duyarsın",
+     "en": "The quieter you become, the more you can hear",
+     "pal": "ink"
     }
    ]
   },
   {
    "id": "h-11-20-14",
-   "name": "Villa Fikirleri: Misafir Ritüelleri · Villa Ideas: Guest Rituals",
+   "name": "Gökyüzünün Harikaları · Wonders of the Sky",
    "from": "2026-11-20T14:00",
    "until": "2026-11-20T15:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h20-breakfast.jpg",
-     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · İstanbul)",
-     "tr": "Güne serpme kahvaltıyla başlamak: küçük tabaklarda peynir, zeytin, domates, reçel ve taze ekmek",
-     "en": "Starting the day with a Turkish spread — cheese, olives, tomatoes, jam and fresh bread on small plates",
-     "cr": "Foto · Photo: Mostafameraji · CC BY 3.0 · Wikimedia Commons",
-     "fact": "Misafirlerin en çok fotoğrafladığı an genellikle kahvaltı sofrasıdır: yerel bal ve tereyağı fark yaratır",
-     "facte": "The breakfast table is often the moment guests photograph most — local honey and butter make the difference"
+     "d": 50,
+     "f": "m/h74-eclipse.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · 12 Ağustos 2026",
+     "tr": "Tam güneş tutulması: Ay’ın arkasından görünen taç, korona",
+     "en": "A total solar eclipse: the corona, seen around the Moon",
+     "cr": "Foto · Photo: Luc Viatour · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Korona, Güneş’in milyonlarca derece sıcaklıktaki dış atmosferidir; normal günde görünmez",
+     "facte": "The corona is the Sun’s outer atmosphere, millions of degrees hot; on an ordinary day it is invisible",
+     "fit": "contain",
+     "pos": "50% 50%"
     },
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h20-pestemal.jpg",
-     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · fouta / peştamal)",
-     "tr": "Her odada katlanmış pamuklu peştamallar: hamamdan havuza, plajdan terasa",
-     "en": "Folded cotton peştamals in every room — from hammam to pool, beach to terrace",
-     "cr": "Foto · Photo: Emmanuel Boutet (Bohemeria) · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Peştamal hafiftir, çabuk kurur ve az yer kaplar; Anadolu’da yüzyıllardır hamam kültürünün parçasıdır",
-     "facte": "A peştamal is light, dries fast and packs small — it has been part of Anatolian hammam culture for centuries"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h20-windowseat.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Pencere Kenarı — Edmund Blair Leighton",
-     "en": "The Window Seat — Edmund Blair Leighton",
-     "cr": "Eser · Artwork: Edmund Blair Leighton · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Villa fikri: manzaralı pencerenin önüne yastıklı bir okuma sekisi ve birkaç seçilmiş kitap",
-     "facte": "Villa idea: a cushioned reading seat in front of the view window, with a few chosen books",
+     "d": 50,
+     "f": "m/h74-pillars.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kartal Bulutsusu · Eagle Nebula",
+     "tr": "Yaratılış Sütunları — James Webb’in kızılötesi fotoğrafı (renkler temsili)",
+     "en": "The Pillars of Creation — a James Webb infrared photograph (colours are representative)",
+     "cr": "Foto · Photo: NASA, ESA, CSA, STScI · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Kartal Bulutsusu’nda, yaklaşık 7.000 ışık yılı ötede",
+     "facte": "In the Eagle Nebula, about 7,000 light-years away",
      "fit": "contain"
     },
     {
      "k": "hzphoto",
-     "d": 42,
-     "f": "m/h20-outdoorbath.jpg",
-     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Nasushiobara, Japonya · Japan)",
-     "tr": "Bahçede açık hava banyosu: taşların arasında buharı tüten sıcak su",
-     "en": "An open-air bath in the garden — steaming hot water among the stones",
-     "cr": "Foto · Photo: 黒ゆり · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Soğuk bir Karadeniz akşamında sıcak suda oturmak, misafirlerin unutamayacağı türden bir deneyim",
-     "facte": "Sitting in hot water on a cold Black Sea evening is the kind of experience guests never forget"
+     "d": 48,
+     "f": "m/h74-orion.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Orion Bulutsusu · Orion Nebula",
+     "tr": "Orion Bulutsusu — Hubble’ın binlerce kareden birleştirdiği mozaik (filtre renkleri)",
+     "en": "The Orion Nebula — a Hubble mosaic of thousands of frames (filter colours)",
+     "cr": "Foto · Photo: NASA, ESA, M. Robberto / Hubble · kamu malı · public domain · Wikimedia Commons",
+     "fit": "contain"
     },
     {
-     "k": "hzsteps",
-     "d": 56,
-     "lb": "Villa Fikri · Villa Idea",
-     "q": "Misafirlerin yıllarca hatırladığı dört küçük dokunuş",
-     "e": "Four small touches guests remember for years",
-     "c1": "#22282c",
-     "c2": "#08090a",
-     "gap": 8,
-     "steps": [
-      [
-       "Elle yazılmış bir karşılama notu ve yakındaki gizli bir köşe önerisi",
-       "A handwritten welcome note with a tip for a hidden spot nearby",
-       "✉️"
-      ],
-      [
-       "Akşam bahçeden yatak odasına uzanan yumuşak, alçak ışıklar",
-       "Soft, low lights leading from the garden to the bedrooms at night",
-       ""
-      ],
-      [
-       "Odada yöresel bir ikram: Trabzon hurması ya da fındık",
-       "A local treat in the room — persimmons or hazelnuts",
-       ""
-      ],
-      [
-       "Ayrılırken küçük bir hatıra: bir paket Rize çayı",
-       "A small parting gift — a packet of Rize tea",
-       ""
-      ]
-     ],
-     "fin": "Lüks çoğu zaman büyük şeylerde değil, birinin seni düşündüğünü hissettiren küçük ayrıntılardadır",
-     "fine": "Luxury is rarely in the big things — it is in the small details that show someone thought of you"
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h74-horsehead.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Atbaşı Bulutsusu · Horsehead Nebula",
+     "tr": "Atbaşı Bulutsusu — Hubble’ın kızılötesi fotoğrafı (renkler temsili)",
+     "en": "The Horsehead Nebula — a Hubble infrared photograph (colours are representative)",
+     "cr": "Foto · Photo: NASA, ESA, Hubble Heritage Team · CC BY 4.0 · Wikimedia Commons",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 50,
+     "f": "m/h74-sun.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo",
+     "tr": "Güneş — NASA’nın SDO uydusu, aşırı morötesi ışıkta (renkler temsili)",
+     "en": "The Sun — NASA’s SDO satellite, in extreme ultraviolet (colours are representative)",
+     "cr": "Foto · Photo: NASA / SDO · kamu malı · public domain · Wikimedia Commons",
+     "fit": "contain"
     }
    ]
   },

@@ -1,3 +1,37 @@
+## 2026-11-20 · afternoon rework (rev 74, sets 11:00–14:00 rebuilt ~11:45, guest-worthy)
+
+M was in the living room alone and said someone might drop in, so the TV should look stunning. 11:00–14:00 replaced the morning’s Bierstadt gallery, Sieve of Eratosthenes / primes, thought experiments, and villa-guest-ritual ideas. New themes: breathtaking real places, architecture, great masters, wonders of the sky (no math puzzles or quiz games in these hours). The sieve hour and the 13:00 thought experiments were moved off the afternoon and not rescheduled, so later guest-worthy hours stay as built; 17:00 still has the 20-questions / binary search set (hzhalve). Recamán at 10:00 had already elapsed. No new hz functions. 20 new CC/PD photos/artworks (m/h74-*). Replaced 11:00–14:00 images (m/h20-bier1–5, euclid, cicada, breakfast, pestemal, windowseat, outdoorbath) archived to /workspace/tv-media-archive/h20-1114. Quotes: Akıllılığını sat, hayret satın al (Mevlânâ, 11); Ne kadar sessizleşirsen, o kadar çok duyarsın (Mevlânâ, 13). Avoided 7-day repeats including Bierstadt (this morning), Aivazovsky (15 Nov), Kuindzhi/Levitan (15 Nov), Saturn/Cassini (18 Nov), aurora and Earth-from-above (18 Nov), Earthrise and Pale Blue Dot (18 Nov), sun halo and circumhorizontal arc (16 Nov), snowflake (17 Nov), Andromeda (18 Nov), Carina JWST (13 Nov), Pamukkale and Cappadocia (13 Nov), Ha Long and Moraine (14 Nov), Plitvice (14 Nov), Faroe (14 Nov), Socotra and Zhangye Danxia (18 Nov), Alhambra water-channel fact (15 Nov — 12:00 uses a new courtyard photo, not that fact), Monet/Hokusai/Hiroshige/Van Gogh/Hammershøi and other recent galleries.
+
+### 11:00–12:00 · Nefes Kesen Yerler · Breathtaking Places
+- 11 | hzphoto | Uyuni Tuz Çölü’nde gün doğumu: dağ, sığ suda tersten duruyor | m/h74-uyuni.jpg
+- 11 | hzphoto | Dolomitler’de Tre Cime: üç kule gibi yükselen kayalık zirveler | m/h74-dolomites.jpg
+- 11 | hzphoto | Iguazú Şelaleleri: ormanın içinden yan yana dökülen onlarca su perdesi | m/h74-iguazu.jpg
+- 11 | hzphoto | Paine’nin Boynuzları: turkuaz Pehoé Gölü’nün üstünde, rüzgârın yonttuğu zirveler | m/h74-paine.jpg
+- 11 | hzphoto | Zhangjiajie’nin taş ormanı: incelip yükselen kulelerin üstünü orman tutmuş | m/h74-zhangjiajie.jpg
+- 11 | hzquote | Akıllılığını sat, hayret satın al | —
+
+### 12:00–13:00 · Taşın Şiiri · Poetry in Stone
+- 12 | hzphoto | Tac Mahal: yapının kendisi ve sudaki ikizi, aynı sessizlikte | m/h74-taj.jpg
+- 12 | hzphoto | Elhamra’da Mersin Avlusu: uzun bir havuz, işlemeli kemerler ve sakin bir yansıma | m/h74-alhambra.jpg
+- 12 | hzphoto | Angkor Wat’ta gün doğumu: kuleler ve palmiyeler, havuzda tersine dönmüş | m/h74-angkor.jpg
+- 12 | hzphoto | Sagrada Família: renkli camların ışığı taşı bir ormana çeviriyor | m/h74-sagrada.jpg
+- 12 | hzphoto | Mont-Saint-Michel: günün ilk ışığında, gelgitin üstünde yükselen bir ada | m/h74-montst.jpg
+
+### 13:00–14:00 · Büyük Ustalardan · From the Great Masters
+- 13 | hzphoto | Shalott Leydisi — John William Waterhouse, 1888 | m/h74-shalott.jpg
+- 13 | hzphoto | Büyük Kanal’ın Girişi, Venedik — Canaletto, yaklaşık 1730 | m/h74-canaletto.jpg
+- 13 | hzphoto | Cotopaxi — Frederic Edwin Church, 1862 | m/h74-cotopaxi.jpg
+- 13 | hzphoto | Atina Okulu — Raphael, 1509–1511 | m/h74-athens.jpg
+- 13 | hzphoto | Oxbow, Fırtına Sonrası — Thomas Cole, 1836 | m/h74-oxbow.jpg
+- 13 | hzquote | Ne kadar sessizleşirsen, o kadar çok duyarsın | —
+
+### 14:00–15:00 · Gökyüzünün Harikaları · Wonders of the Sky
+- 14 | hzphoto | Tam güneş tutulması: Ay’ın arkasından görünen taç, korona | m/h74-eclipse.jpg
+- 14 | hzphoto | Yaratılış Sütunları — James Webb’in kızılötesi fotoğrafı (renkler temsili) | m/h74-pillars.jpg
+- 14 | hzphoto | Orion Bulutsusu — Hubble’ın binlerce kareden birleştirdiği mozaik (filtre renkleri) | m/h74-orion.jpg
+- 14 | hzphoto | Atbaşı Bulutsusu — Hubble’ın kızılötesi fotoğrafı (renkler temsili) | m/h74-horsehead.jpg
+- 14 | hzphoto | Güneş — NASA’nın SDO uydusu, aşırı morötesi ışıkta (renkler temsili) | m/h74-sun.jpg
+
 ## 2026-11-20 (rev 73, hourly sets 09:00–02:00, days/2026-11-20.json) · Friday
 
 No pending requests in requests.md (verified ~08:00). 6 new hz scenes (hourly.js v73): generators hzrecaman (Recamán sequence arcs) hzsieve (Sieve of Eratosthenes 1–200) hzhalve (20 questions / binary search to 1,000,000) hzyayla (night mist over highland hills, calm night) + illusions hzwaterfall (motion aftereffect spiral, Addams 1834) hztroxler (Troxler fading). hzguess now accepts fit. 44 new CC/PD photos/artworks (m/h20-*). h18-* and h70-* archived to /workspace/tv-media-archive/h18 and /h70 (site 40 MB before adding h20-*). Quotes: Bir lamba ol, bir can simidi ya da bir merdiven (Mevlânâ, 09); Dağlar çağırıyor ve gitmeliyim (John Muir, 11); Her sürtünmede incinirsen, aynan nasıl parlar? (Mevlânâ, 13); Gözünü kapa, gönül gözünle bak (Mevlânâ, 15); Sabırla koruk helva olur, dut yaprağı atlas olur (atasözü, 19); Sözsüz konuşan bir ses vardır; dinle (Mevlânâ, 21); Görevin sevgiyi aramak değil… (Mevlânâ, 22); Derdin dermanı, yine derdin içindedir (Mevlânâ, 23).

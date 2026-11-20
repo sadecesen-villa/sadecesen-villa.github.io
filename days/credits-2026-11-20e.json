@@ -1,0 +1,428 @@
+{
+ "uyuni": {
+  "title": "Salar de Uyuni, Bolivia, 2016-02-04, DD 10-12 HDR.JPG",
+  "artist": "Diego Delso",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Salar_de_Uyuni,_Bolivia,_2016-02-04,_DD_10-12_HDR.JPG",
+  "size": [
+   1700,
+   956
+  ],
+  "chosen_from": "uyuni3"
+ },
+ "dolomites": {
+  "title": "Valle della Rienza and Tre Cime di Lavaredo from Alpe Specie, Val Pusteria, Trentino-Alto Adige, Italy, 2025 October.jpg",
+  "artist": "Ximonic (Simo Räsänen)",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Valle_della_Rienza_and_Tre_Cime_di_Lavaredo_from_Alpe_Specie,_Val_Pusteria,_Trentino-Alto_Adige,_Italy,_2025_October.jpg",
+  "size": [
+   1700,
+   943
+  ],
+  "orig": 5460,
+  "q": "File:Valle della Rienza and Tre Cime di Lavaredo from Alpe Specie, Val Pusteria, Trentino-Alto Adige, Italy, 2025 October.jpg"
+ },
+ "iguazu": {
+  "title": "Iguazu-Falls-January-2013.jpg",
+  "artist": "Acediscovery",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Iguazu-Falls-January-2013.jpg",
+  "size": [
+   1700,
+   1231
+  ],
+  "chosen_from": "iguazu2"
+ },
+ "paine": {
+  "title": "Cuernos del Paine, Parque Nacional Torres del Paine, Chile6.jpg",
+  "artist": "Diego Delso",
+  "lic": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cuernos_del_Paine,_Parque_Nacional_Torres_del_Paine,_Chile6.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "orig": 3888,
+  "q": "File:Cuernos del Paine, Parque Nacional Torres del Paine, Chile6.jpg"
+ },
+ "zhangjiajie": {
+  "title": "Zhangjiajie National Forest Park 38099-Zhangjiajie (48757253473).jpg",
+  "artist": "xiquinhosilva",
+  "lic": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_38099-Zhangjiajie_(48757253473).jpg",
+  "size": [
+   1700,
+   1086
+  ],
+  "orig": 3000,
+  "q": "File:Zhangjiajie National Forest Park 38099-Zhangjiajie (48757253473).jpg"
+ },
+ "taj": {
+  "title": "Aks The Reflection Taj Mahal.jpg",
+  "artist": "Antrix3",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Aks_The_Reflection_Taj_Mahal.jpg",
+  "size": [
+   1700,
+   1126
+  ],
+  "orig": 4928,
+  "q": "File:Aks The Reflection Taj Mahal.jpg"
+ },
+ "alhambra": {
+  "title": "Patio de los Arrayanes detail Alhambra Granada Spain.jpg",
+  "artist": "Jebulon",
+  "lic": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Patio_de_los_Arrayanes_detail_Alhambra_Granada_Spain.jpg",
+  "size": [
+   1700,
+   1156
+  ],
+  "chosen_from": "alhambra2"
+ },
+ "angkor": {
+  "title": "Sunrise at Angkor Wat Cambodia.jpg",
+  "artist": "Vladimir Pankratov",
+  "lic": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Angkor_Wat_Cambodia.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "chosen_from": "angkor3"
+ },
+ "sagrada": {
+  "title": "Stained-glass windows of the Sagrada Família 2023 2.jpg",
+  "artist": "Smiley.toerist",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Stained-glass_windows_of_the_Sagrada_Fam%C3%ADlia_2023_2.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "chosen_from": "sagrada3"
+ },
+ "montst": {
+  "title": "Mont St Michel at sunrise.jpg",
+  "artist": "Lynx1211",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mont_St_Michel_at_sunrise.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "orig": 6000,
+  "q": "File:Mont St Michel at sunrise.jpg"
+ },
+ "shalott": {
+  "title": "John William Waterhouse - The Lady of Shalott - Google Art Project.jpg",
+  "artist": "John William Waterhouse",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:John_William_Waterhouse_-_The_Lady_of_Shalott_-_Google_Art_Project.jpg",
+  "size": [
+   1700,
+   1305
+  ],
+  "orig": 4180,
+  "q": "File:John William Waterhouse - The Lady of Shalott - Google Art Project.jpg"
+ },
+ "canaletto": {
+  "title": "Canaletto - The Entrance to the Grand Canal, Venice - Google Art Project.jpg",
+  "artist": "Giovanni Antonio Canal",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Canaletto_-_The_Entrance_to_the_Grand_Canal,_Venice_-_Google_Art_Project.jpg",
+  "size": [
+   1700,
+   1160
+  ],
+  "orig": 8392,
+  "q": "File:Canaletto - The Entrance to the Grand Canal, Venice - Google Art Project.jpg"
+ },
+ "cotopaxi": {
+  "title": "Frederic Edwin Church - Cotopaxi - Google Art Project.jpg",
+  "artist": "Frederic Edwin Church",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Frederic_Edwin_Church_-_Cotopaxi_-_Google_Art_Project.jpg",
+  "size": [
+   1700,
+   1094
+  ],
+  "orig": 8322,
+  "q": "File:Frederic Edwin Church - Cotopaxi - Google Art Project.jpg"
+ },
+ "athens": {
+  "title": "Raphael School of Athens.jpg",
+  "artist": "Raphael",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Raphael_School_of_Athens.jpg",
+  "size": [
+   1700,
+   1110
+  ],
+  "orig": 3697,
+  "q": "File:Raphael School of Athens.jpg"
+ },
+ "oxbow": {
+  "title": "Cole Thomas The Oxbow (The Connecticut River near Northampton 1836).jpg",
+  "artist": "Thomas Cole",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Cole_Thomas_The_Oxbow_(The_Connecticut_River_near_Northampton_1836).jpg",
+  "size": [
+   1700,
+   1155
+  ],
+  "orig": 3181,
+  "q": "File:Cole Thomas The Oxbow (The Connecticut River near Northampton 1836).jpg"
+ },
+ "eclipse": {
+  "title": "Eclipse-totale-2026-couronne-Luc-Viatour.jpg",
+  "artist": "Lviatour",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Eclipse-totale-2026-couronne-Luc-Viatour.jpg",
+  "size": [
+   1700,
+   1257
+  ],
+  "orig": 8216,
+  "q": "File:Eclipse-totale-2026-couronne-Luc-Viatour.jpg"
+ },
+ "pillars": {
+  "title": "Pillars of Creation (NIRCam Image).jpg",
+  "artist": "SCIENCE: NASA, ESA, CSA, STScI; IMAGE PROCESSING: Joseph DePasquale (STScI), Anton M. Koekemoer (STScI), Alyssa Pagan (STScI)",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Pillars_of_Creation_(NIRCam_Image).jpg",
+  "size": [
+   981,
+   1700
+  ],
+  "orig": 8423,
+  "q": "File:Pillars of Creation (NIRCam Image).jpg"
+ },
+ "orion": {
+  "title": "Orion Nebula - Hubble 2006 mosaic edit.jpg",
+  "artist": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_edit.jpg",
+  "size": [
+   1700,
+   1700
+  ],
+  "orig": 9000,
+  "q": "File:Orion Nebula - Hubble 2006 mosaic edit.jpg"
+ },
+ "horsehead": {
+  "title": "Hubble Sees a Horsehead of a Different Color.jpg",
+  "artist": "NASA/ESA/Hubble Heritage Team",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Hubble_Sees_a_Horsehead_of_a_Different_Color.jpg",
+  "size": [
+   1626,
+   1700
+  ],
+  "orig": 2704,
+  "q": "File:Hubble Sees a Horsehead of a Different Color.jpg"
+ },
+ "sun": {
+  "title": "The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg",
+  "artist": "NASA/SDO (AIA)",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg",
+  "size": [
+   1700,
+   1623
+  ],
+  "orig": 4044,
+  "q": "File:The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg"
+ },
+ "uyuni2": {
+  "title": "Salar de Uyuni, Bolivia, 2016-02-04, DD 16-18 HDR.JPG",
+  "artist": "Diego Delso",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Salar_de_Uyuni,_Bolivia,_2016-02-04,_DD_16-18_HDR.JPG",
+  "size": [
+   1700,
+   1118
+  ],
+  "orig": 8253,
+  "q": "File:Salar de Uyuni, Bolivia, 2016-02-04, DD 16-18 HDR.JPG"
+ },
+ "taj2": {
+  "title": "El Taj Mahal-Agra India0028.JPG",
+  "artist": "Diego Delso",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:El_Taj_Mahal-Agra_India0028.JPG",
+  "size": [
+   1700,
+   1138
+  ],
+  "orig": 3819,
+  "q": "File:El Taj Mahal-Agra India0028.JPG"
+ },
+ "montst2": {
+  "title": "Mont St Michel 3, Brittany, France - July 2011.jpg",
+  "artist": "Diliff",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Mont_St_Michel_3,_Brittany,_France_-_July_2011.jpg",
+  "size": [
+   1700,
+   1205
+  ],
+  "orig": 2811,
+  "q": "File:Mont St Michel 3, Brittany, France - July 2011.jpg"
+ },
+ "uyuni3": {
+  "title": "Salar de Uyuni, Bolivia, 2016-02-04, DD 10-12 HDR.JPG",
+  "artist": "Diego Delso",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Salar_de_Uyuni,_Bolivia,_2016-02-04,_DD_10-12_HDR.JPG",
+  "size": [
+   1700,
+   956
+  ],
+  "chosen_from": "uyuni3"
+ },
+ "uyuni4": {
+  "title": "Salar de Uyuni, Bolivia, 2016-02-04, DD 44.JPG",
+  "artist": "Diego Delso",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Salar_de_Uyuni,_Bolivia,_2016-02-04,_DD_44.JPG",
+  "size": [
+   1700,
+   1133
+  ]
+ },
+ "uyuni5": {
+  "title": "Salar de Uyuni, Bolivia, 2016-02-04, DD 45.JPG",
+  "artist": "Diego Delso",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Salar_de_Uyuni,_Bolivia,_2016-02-04,_DD_45.JPG",
+  "size": [
+   1700,
+   1133
+  ]
+ },
+ "alhambra2": {
+  "title": "Patio de los Arrayanes detail Alhambra Granada Spain.jpg",
+  "artist": "Jebulon",
+  "lic": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Patio_de_los_Arrayanes_detail_Alhambra_Granada_Spain.jpg",
+  "size": [
+   1700,
+   1156
+  ],
+  "chosen_from": "alhambra2"
+ },
+ "alhambra3": {
+  "title": "Granada - Alhambra - Palacios nazaríes - Patio de los Arrayanes.jpg",
+  "artist": "Benjamin Smith",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Granada_-_Alhambra_-_Palacios_nazar%C3%ADes_-_Patio_de_los_Arrayanes.jpg",
+  "size": [
+   1182,
+   1700
+  ]
+ },
+ "alhambra4": {
+  "title": "Alhambra Granada Mirador san Nicolas.jpg",
+  "artist": "Jebulon",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Alhambra_Granada_Mirador_san_Nicolas.jpg",
+  "size": [
+   1700,
+   809
+  ]
+ },
+ "angkor2": {
+  "title": "Angkor Wat at sunrise 5.jpg",
+  "artist": "Christophe95",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_at_sunrise_5.jpg",
+  "size": [
+   1700,
+   1275
+  ]
+ },
+ "angkor3": {
+  "title": "Sunrise at Angkor Wat Cambodia.jpg",
+  "artist": "Vladimir Pankratov",
+  "lic": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Angkor_Wat_Cambodia.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "chosen_from": "angkor3"
+ },
+ "angkor4": {
+  "title": "Angkor Wat at sunrise 2.jpg",
+  "artist": "Christophe95",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_at_sunrise_2.jpg",
+  "size": [
+   1700,
+   1275
+  ]
+ },
+ "iguazu2": {
+  "title": "Iguazu-Falls-January-2013.jpg",
+  "artist": "Acediscovery",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Iguazu-Falls-January-2013.jpg",
+  "size": [
+   1700,
+   1231
+  ],
+  "chosen_from": "iguazu2"
+ },
+ "iguazu3": {
+  "title": "00 1838 Iguazu Falls from the Brazilian side.jpg",
+  "artist": "W. Bulach",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:00_1838_Iguazu_Falls_from_the_Brazilian_side.jpg",
+  "size": [
+   1700,
+   1133
+  ]
+ },
+ "sagrada2": {
+  "title": "Sagrada Familia, stained glass windows (6) (31150698202).jpg",
+  "artist": "Richard Mortel from Riyadh, Saudi Arabia",
+  "lic": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia,_stained_glass_windows_(6)_(31150698202).jpg",
+  "size": [
+   1700,
+   1133
+  ]
+ },
+ "sagrada3": {
+  "title": "Stained-glass windows of the Sagrada Família 2023 2.jpg",
+  "artist": "Smiley.toerist",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Stained-glass_windows_of_the_Sagrada_Fam%C3%ADlia_2023_2.jpg",
+  "size": [
+   1700,
+   1133
+  ],
+  "chosen_from": "sagrada3"
+ },
+ "sagrada4": {
+  "title": "Sagrada Familia March 2015-10a.jpg",
+  "artist": "Alvesgaspar",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_March_2015-10a.jpg",
+  "size": [
+   1700,
+   1278
+  ]
+ },
+ "sagrada5": {
+  "title": "Simetría na Sagrada Familia. Barcelona B30.jpg",
+  "artist": "Luis Miguel Bugallo Sánchez (Lmbuga)",
+  "lic": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Simetr%C3%ADa_na_Sagrada_Familia._Barcelona_B30.jpg",
+  "size": [
+   1700,
+   1133
+  ]
+ }
+}
