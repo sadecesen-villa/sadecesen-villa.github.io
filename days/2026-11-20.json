@@ -1,0 +1,1228 @@
+{
+ "date": "2026-11-20",
+ "rev": 73,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-20.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-20-09",
+   "name": "Cuma Sabahı · Friday Morning",
+   "from": "2026-11-20T09:00",
+   "until": "2026-11-20T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h20-boztepe.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Boztepe’den Trabzon · Trabzon from Boztepe",
+     "tr": "Boztepe’den Trabzon: yamaca yayılan şehir, liman ve uzanan Karadeniz",
+     "en": "Trabzon from Boztepe — the city spread over the slope, the harbour and the open Black Sea",
+     "cr": "Foto · Photo: Nezih Durmazlar · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Boztepe, şehrin hemen üstünde yaklaşık 250 metre yükseklikte; Trabzonlular için çay ve manzara demek",
+     "facte": "Boztepe rises about 250 metres right above the city — for locals it simply means tea and a view"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Bir lamba ol, bir can simidi|ya da bir merdiven",
+     "en": "Be a lamp, or a lifeboat, or a ladder",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-ortahisar.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ortahisar Fatih Büyük Camii · Trabzon",
+     "tr": "Ortahisar Fatih Büyük Camii’nin ahşap sütunlu son cemaat yeri",
+     "en": "The wooden-columned porch of the Ortahisar Fatih Grand Mosque",
+     "cr": "Foto · Photo: Robot8A · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Ortahisar, Trabzon’un en eski semti: adını iki derin vadi arasındaki surlu “orta hisar”dan alır",
+     "facte": "Ortahisar is Trabzon’s oldest quarter — named after the walled “middle castle” between two deep ravines"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Cuma",
+     "tr": "“Cuma” Arapça “cum‘a”dan gelir: “toplanma, bir araya gelme günü”",
+     "en": "“Cuma” (Friday) comes from Arabic jumu‘a — “the day of gathering”",
+     "src": "İngilizce Friday ise “Frigg’in günü”: eski İskandinav tanrıçasının adından · The English Friday is “Frigg’s day”, after an old Norse goddess",
+     "c1": "#1c2a30",
+     "c2": "#050809"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Tik tak eder, gün boyu yürür ama yerinden hiç kıpırdamaz. Nedir?",
+     "qe": "It ticks and walks all day, yet never leaves its place. What is it?",
+     "a": "Saat!",
+     "ae": "A clock!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-10",
+   "name": "Yaşayan Sanat: Recamán Yayları · Living Art: Recamán’s Arcs",
+   "from": "2026-11-20T10:00",
+   "until": "2026-11-20T11:00",
+   "items": [
+    {
+     "k": "hzrecaman",
+     "d": 100
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Bu kadar basit bir kural nasıl bu kadar karmaşık bir desen çiziyor?",
+     "e": "How can such a simple rule draw such a tangled pattern?",
+     "c1": "#1b2236",
+     "c2": "#060810",
+     "gap": 8,
+     "steps": [
+      [
+       "0’dan başla. n. adımda n kadar geri git",
+       "Start at 0. On step n, go back by n",
+       "🔢"
+      ],
+      [
+       "Ama sayı eksiye düşüyor ya da daha önce ziyaret edildiyse, n kadar ileri git",
+       "But if that number is negative or already visited, go forward by n instead",
+       ""
+      ],
+      [
+       "Dizi bir ileri bir geri sıçrar: 0, 1, 3, 6, 2, 7, 13, 20, 12…",
+       "The sequence leaps back and forth — 0, 1, 3, 6, 2, 7, 13, 20, 12…",
+       ""
+      ],
+      [
+       "Kolombiyalı matematikçi Bernardo Recamán 1991’de bu diziyi bir sayı dizileri ansiklopedisine gönderdi",
+       "Colombian mathematician Bernardo Recamán sent it to an encyclopedia of number sequences in 1991",
+       ""
+      ]
+     ],
+     "fin": "Kimse bir sonraki büyük sıçramanın ne zaman geleceğini formülle söyleyemez: tek yol, adım adım yürümek",
+     "fine": "Nobody can predict the next big leap with a formula — the only way is to walk it step by step"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "0, 1, 3, 6, 2, 7, 13, 20, 12, … Recamán dizisinde sıradaki sayı ne?",
+     "qe": "0, 1, 3, 6, 2, 7, 13, 20, 12, … What comes next in the Recamán sequence?",
+     "a": "21! 12 − 9 = 3 zaten var, o yüzden 12 + 9 = 21",
+     "ae": "21! 12 − 9 = 3 is already taken, so 12 + 9 = 21",
+     "sec": 24,
+     "c1": "#232a3c",
+     "c2": "#070910"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "852.655",
+     "tr": "Bilgisayarlar diziyi akıl almaz uzunlukta hesapladı; 852.655 sayısı hâlâ ortaya çıkmadı",
+     "en": "Computers have run the sequence to unimaginable lengths — and 852,655 has still not appeared",
+     "src": "Her sayının bir gün mutlaka geleceği tahmin ediliyor, ama kanıtlanamadı · Every number is expected to show up one day, but no one has proved it",
+     "c1": "#1a2034",
+     "c2": "#05060c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-11",
+   "name": "Galeri: Albert Bierstadt’ın Işığı · Gallery: The Light of Albert Bierstadt",
+   "from": "2026-11-20T11:00",
+   "until": "2026-11-20T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h20-bier1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Sierra Nevada’da, Kaliforniya — Albert Bierstadt, 1868",
+     "en": "Among the Sierra Nevada, California — Albert Bierstadt, 1868",
+     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bierstadt manzaralarını bulutların arasından vuran tek bir ışık huzmesiyle dramatikleştirirdi",
+     "facte": "Bierstadt made his landscapes dramatic with a single shaft of light breaking through the clouds",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h20-bier3.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Rocky Dağları, Lander Zirvesi — Albert Bierstadt, 1863",
+     "en": "The Rocky Mountains, Lander’s Peak — Albert Bierstadt, 1863",
+     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Öndeki kamp küçücük; dağların büyüklüğünü hissettiren de bu küçüklük",
+     "facte": "The camp in the foreground is tiny — and that tininess is what makes the mountains feel huge",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h20-bier2.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Yosemite Vadisi’ne Bakış — Albert Bierstadt, 1865",
+     "en": "Looking Down Yosemite Valley — Albert Bierstadt, 1865",
+     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Almanya’da doğdu, Amerika’da büyüdü; Batı’yı hiç görmemiş insanlara vahşi doğanın ölçeğini gösterdi",
+     "facte": "Born in Germany, raised in America — he showed people who had never seen the West the scale of wild nature",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h20-bier5.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Rocky Dağları’nda Fırtına, Rosalie Dağı — Albert Bierstadt, 1866",
+     "en": "A Storm in the Rocky Mountains, Mt. Rosalie — Albert Bierstadt, 1866",
+     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Tablo yaklaşık 2 × 3,5 metre: önünde durana pencereden bakıyormuş hissi verir",
+     "facte": "The canvas is about 2 × 3.5 metres — standing before it feels like looking through a window",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h20-bier4.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Dağlar arasında bir göl — Albert Bierstadt, 1868",
+     "en": "A lake among mountains — Albert Bierstadt, 1868",
+     "cr": "Eser · Artwork: Albert Bierstadt · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Durgun su, gökyüzünü ikinci kez boyamanın en kolay yolu",
+     "facte": "Still water is the easiest way to paint the sky twice",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Dağlar çağırıyor|ve gitmeliyim",
+     "en": "The mountains are calling and I must go",
+     "pal": "ink",
+     "lb": "John Muir",
+     "by": "John Muir, 1873 · doğa yazarı · naturalist"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-12",
+   "name": "Zekice Düşünce: Asal Sayılar · Clever Thinking: Prime Numbers",
+   "from": "2026-11-20T12:00",
+   "until": "2026-11-20T13:00",
+   "items": [
+    {
+     "k": "hzsieve",
+     "d": 96
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Asal sayılar bir yerde biter mi?",
+     "e": "Do the prime numbers ever run out?",
+     "c1": "#1d2a34",
+     "c2": "#060a0d",
+     "gap": 8,
+     "steps": [
+      [
+       "Diyelim ki bitiyor ve hepsini bir listeye yazdık",
+       "Suppose they do, and we have written them all on a list",
+       "📜"
+      ],
+      [
+       "Hepsini çarp, sonuca 1 ekle",
+       "Multiply them all together and add 1",
+       ""
+      ],
+      [
+       "Bu yeni sayı listedeki hiçbir asala tam bölünmez: her birinde 1 artar",
+       "This new number is not divisible by any prime on the list — each leaves a remainder of 1",
+       ""
+      ],
+      [
+       "Demek ki ya kendisi asal ya da listede olmayan bir asala bölünüyor",
+       "So it is either prime itself or divisible by a prime missing from the list",
+       ""
+      ]
+     ],
+     "fin": "Liste hiçbir zaman tamamlanamaz: asallar sonsuzdur. Öklid bunu yaklaşık 2.300 yıl önce kanıtladı",
+     "fine": "The list can never be complete — the primes are infinite. Euclid proved it about 2,300 years ago"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h20-euclid.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Oxford Doğa Tarihi Müzesi · Oxford Museum of Natural History",
+     "tr": "Öklid’in heykeli: “Elemanlar” kitabıyla geometriyi 2.000 yıl boyunca öğreten adam",
+     "en": "A statue of Euclid — whose “Elements” taught geometry for 2,000 years",
+     "cr": "Foto · Photo: Set in Stone Project · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "“Elemanlar”, tarihte en çok kopyalanan ve basılan ders kitaplarından biri",
+     "facte": "The “Elements” is one of the most copied and printed textbooks in history"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h20-cicada.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · 13 yıllık ağustos böceği · 13-year cicada",
+     "tr": "Magicicada tredecim: toprağın altında 13 yıl bekleyip hep birlikte çıkan bir ağustos böceği",
+     "en": "Magicicada tredecim — a cicada that waits 13 years underground, then emerges all at once",
+     "cr": "Foto · Photo: JeffreyGammon · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Bazı türler 13, bazıları 17 yılda bir çıkar — ikisi de asal. Bir açıklamaya göre böylece 2 ya da 3 yıllık döngüsü olan düşmanlarıyla nadiren aynı yıla denk gelirler",
+     "facte": "Some broods emerge every 13 years, others every 17 — both prime. One explanation: that way they rarely coincide with predators on 2- or 3-year cycles"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hangi iki asal sayı arasında yalnızca 1 fark vardır?",
+     "qe": "Which two prime numbers are only 1 apart?",
+     "a": "2 ve 3! Ondan sonra her asal tektir, aradaki fark en az 2 olur",
+     "ae": "2 and 3! After that every prime is odd, so the gap is at least 2",
+     "sec": 20,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "41 milyon",
+     "tr": "2024’te bulunan rekor asal sayının 41 milyondan fazla basamağı var",
+     "en": "The record prime found in 2024 has more than 41 million digits",
+     "src": "Yazmak için binlerce sayfa gerekir; amatör bir araştırmacı onu bulut bilgisayarlarla buldu · Printing it would take thousands of pages; an amateur found it using cloud computers",
+     "c1": "#1a2830",
+     "c2": "#05080a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-13",
+   "name": "Düşünce Deneyleri: Seçim, Anlam ve Sonsuz Adımlar · Thought Experiments: Choice, Meaning & Endless Steps",
+   "from": "2026-11-20T13:00",
+   "until": "2026-11-20T14:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 62,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Newcomb’un kutuları: geleceği hep doğru tahmin eden biri sana iki kutu veriyor",
+     "e": "Newcomb’s boxes: someone who always predicts the future correctly offers you two boxes",
+     "c1": "#20283a",
+     "c2": "#06080f",
+     "gap": 8,
+     "steps": [
+      [
+       "Açık kutuda 1.000 TL var. Kapalı kutuda ya 1 milyon TL ya da hiçbir şey",
+       "The open box holds 1,000 TL. The closed box holds either 1 million TL or nothing",
+       "📦"
+      ],
+      [
+       "Tahminci, yalnızca kapalı kutuyu alacağını öngördüyse içine 1 milyon koydu",
+       "The predictor put the million in only if it foresaw you taking just the closed box",
+       ""
+      ],
+      [
+       "Kutular çoktan hazırlandı; artık hiçbir şey değişmez — ikisini de almak mantıklı değil mi?",
+       "The boxes are already filled; nothing can change now — so isn’t taking both the logical choice?",
+       ""
+      ],
+      [
+       "Ama ikisini de alanların hepsi 1.000 TL ile, tek kutu alanların hepsi milyonla eve döndü…",
+       "Yet everyone who took both went home with 1,000 TL, and everyone who took one went home a millionaire…",
+       ""
+      ]
+     ],
+     "fin": "Filozoflar 1969’dan beri ikiye bölünmüş durumda. Sen hangisini seçerdin?",
+     "fine": "Philosophers have been split down the middle since 1969. Which would you choose?"
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Çince Oda: kuralları izleyerek doğru cevap veren biri, dili anlıyor mu?",
+     "e": "The Chinese Room: if someone answers perfectly by following rules, do they understand the language?",
+     "c1": "#22283a",
+     "c2": "#07080f",
+     "gap": 8,
+     "steps": [
+      [
+       "Çince bilmeyen biri kapalı bir odada; elinde dev bir kural kitabı var",
+       "Someone who knows no Chinese sits in a closed room with a huge rule book",
+       "🚪"
+      ],
+      [
+       "Kapının altından Çince sorular geliyor; kitaba bakıp doğru işaretleri geri gönderiyor",
+       "Chinese questions come under the door; following the book, they slide back the right symbols",
+       ""
+      ],
+      [
+       "Dışarıdakiler içeride Çince bilen biri olduğuna yemin ediyor",
+       "People outside swear there is a fluent Chinese speaker inside",
+       ""
+      ],
+      [
+       "Ama içerideki kişi tek bir kelimenin anlamını bile bilmiyor",
+       "But the person inside does not know the meaning of a single word",
+       ""
+      ]
+     ],
+     "fin": "John Searle bu soruyu 1980’de sordu: makineler bugün konuşabiliyor, soru hâlâ tartışılıyor",
+     "fine": "John Searle asked this in 1980 — machines can talk today, and the question is still debated"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Her sürtünmede incinirsen,|aynan nasıl parlar?",
+     "en": "If you are hurt by every rub, how will your mirror ever be polished?",
+     "pal": "clay"
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Düşünce Deneyi · Thought Experiment",
+     "q": "Aşil ile kaplumbağa: en hızlı koşucu, yavaş bir kaplumbağayı yakalayabilir mi?",
+     "e": "Achilles and the tortoise: can the fastest runner ever catch a slow tortoise?",
+     "c1": "#1e2a36",
+     "c2": "#060a0e",
+     "gap": 8,
+     "steps": [
+      [
+       "Kaplumbağa 100 metre önden başlıyor",
+       "The tortoise starts 100 metres ahead",
+       "🐢"
+      ],
+      [
+       "Aşil o 100 metreyi koştuğunda kaplumbağa biraz ilerlemiş oluyor",
+       "By the time Achilles runs those 100 metres, the tortoise has moved a little further",
+       ""
+      ],
+      [
+       "Oraya vardığında yine biraz ilerlemiş… bu sonsuza dek sürüyor",
+       "When he gets there, it has moved again… and so on forever",
+       ""
+      ],
+      [
+       "Zenon’a göre Aşil onu asla yakalayamaz. Ama hepimiz yakaladığını biliyoruz!",
+       "Zeno said Achilles can never catch it — yet we all know he does!",
+       ""
+      ]
+     ],
+     "fin": "Çözüm: sonsuz sayıda parça, sonlu bir toplam verebilir. 1/2 + 1/4 + 1/8 + … = 1",
+     "fine": "The answer: infinitely many pieces can add up to a finite total — 1/2 + 1/4 + 1/8 + … = 1"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "Bir adam bir fotoğrafa bakıp şöyle diyor: “Kardeşim yok, ama bu adamın babası, babamın oğlu.” Fotoğraftaki kim?",
+     "qe": "A man looks at a photo and says: “I have no brothers, but this man’s father is my father’s son.” Who is in the photo?",
+     "a": "Kendi oğlu! “Babamın oğlu” — kardeşi olmadığına göre — kendisi",
+     "ae": "His own son! “My father’s son” — with no brothers — is himself",
+     "sec": 24,
+     "c1": "#24303a",
+     "c2": "#070a0d"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-14",
+   "name": "Villa Fikirleri: Misafir Ritüelleri · Villa Ideas: Guest Rituals",
+   "from": "2026-11-20T14:00",
+   "until": "2026-11-20T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h20-breakfast.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · İstanbul)",
+     "tr": "Güne serpme kahvaltıyla başlamak: küçük tabaklarda peynir, zeytin, domates, reçel ve taze ekmek",
+     "en": "Starting the day with a Turkish spread — cheese, olives, tomatoes, jam and fresh bread on small plates",
+     "cr": "Foto · Photo: Mostafameraji · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Misafirlerin en çok fotoğrafladığı an genellikle kahvaltı sofrasıdır: yerel bal ve tereyağı fark yaratır",
+     "facte": "The breakfast table is often the moment guests photograph most — local honey and butter make the difference"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h20-pestemal.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · fouta / peştamal)",
+     "tr": "Her odada katlanmış pamuklu peştamallar: hamamdan havuza, plajdan terasa",
+     "en": "Folded cotton peştamals in every room — from hammam to pool, beach to terrace",
+     "cr": "Foto · Photo: Emmanuel Boutet (Bohemeria) · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Peştamal hafiftir, çabuk kurur ve az yer kaplar; Anadolu’da yüzyıllardır hamam kültürünün parçasıdır",
+     "facte": "A peştamal is light, dries fast and packs small — it has been part of Anatolian hammam culture for centuries"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h20-windowseat.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Pencere Kenarı — Edmund Blair Leighton",
+     "en": "The Window Seat — Edmund Blair Leighton",
+     "cr": "Eser · Artwork: Edmund Blair Leighton · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Villa fikri: manzaralı pencerenin önüne yastıklı bir okuma sekisi ve birkaç seçilmiş kitap",
+     "facte": "Villa idea: a cushioned reading seat in front of the view window, with a few chosen books",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h20-outdoorbath.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Nasushiobara, Japonya · Japan)",
+     "tr": "Bahçede açık hava banyosu: taşların arasında buharı tüten sıcak su",
+     "en": "An open-air bath in the garden — steaming hot water among the stones",
+     "cr": "Foto · Photo: 黒ゆり · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Soğuk bir Karadeniz akşamında sıcak suda oturmak, misafirlerin unutamayacağı türden bir deneyim",
+     "facte": "Sitting in hot water on a cold Black Sea evening is the kind of experience guests never forget"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Misafirlerin yıllarca hatırladığı dört küçük dokunuş",
+     "e": "Four small touches guests remember for years",
+     "c1": "#22282c",
+     "c2": "#08090a",
+     "gap": 8,
+     "steps": [
+      [
+       "Elle yazılmış bir karşılama notu ve yakındaki gizli bir köşe önerisi",
+       "A handwritten welcome note with a tip for a hidden spot nearby",
+       "✉️"
+      ],
+      [
+       "Akşam bahçeden yatak odasına uzanan yumuşak, alçak ışıklar",
+       "Soft, low lights leading from the garden to the bedrooms at night",
+       ""
+      ],
+      [
+       "Odada yöresel bir ikram: Trabzon hurması ya da fındık",
+       "A local treat in the room — persimmons or hazelnuts",
+       ""
+      ],
+      [
+       "Ayrılırken küçük bir hatıra: bir paket Rize çayı",
+       "A small parting gift — a packet of Rize tea",
+       ""
+      ]
+     ],
+     "fin": "Lüks çoğu zaman büyük şeylerde değil, birinin seni düşündüğünü hissettiren küçük ayrıntılardadır",
+     "fine": "Luxury is rarely in the big things — it is in the small details that show someone thought of you"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-15",
+   "name": "Göz Oyunları: Yorulan Gözler · Tricks of the Eye: Tired Eyes",
+   "from": "2026-11-20T15:00",
+   "until": "2026-11-20T16:00",
+   "items": [
+    {
+     "k": "hzwaterfall",
+     "d": 90
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-foyers.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Foyers Şelalesi, İskoçya · Falls of Foyers, Scotland",
+     "tr": "Foyers Şelalesi: “şelale illüzyonu” ilk kez burada tarif edildi",
+     "en": "The Falls of Foyers — where the “waterfall illusion” was first described",
+     "cr": "Foto · Photo: Zenit · CC BY 2.0 · Wikimedia Commons",
+     "fact": "1834’te Robert Addams şelaleyi uzun süre izledikten sonra yanındaki kayalara baktı: kayalar yukarı doğru kayıyor gibiydi",
+     "facte": "In 1834 Robert Addams watched the falls for a while, then looked at the rocks beside them — they seemed to drift upwards"
+    },
+    {
+     "k": "hztroxler",
+     "d": 50
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Gözünü kapa,|gönül gözünle bak",
+     "en": "Close your eyes, and look with the eye of the heart",
+     "pal": "ink"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "3",
+     "tr": "Gözlerin saniyede yaklaşık 3 kez küçük sıçramalar yapar; sen bunların hiçbirini fark etmezsin",
+     "en": "Your eyes make about 3 tiny jumps every second — and you notice none of them",
+     "src": "Beyin bu sıçramalar sırasında görüntüyü kısa bir an “kapatır” · The brain briefly “switches off” the picture during each jump",
+     "c1": "#22282e",
+     "c2": "#07080a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-16",
+   "name": "Ölçek Yolculuğu: Okyanusun Dibine · Scale Journey: Down to the Ocean Floor",
+   "from": "2026-11-20T16:00",
+   "until": "2026-11-20T17:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 64,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "Denizin yüzeyinden en derin noktasına doğru inelim",
+     "e": "Let us sink from the surface to the deepest point of the sea",
+     "c1": "#0f2130",
+     "c2": "#02070c",
+     "gap": 7,
+     "steps": [
+      [
+       "10 metre: kırmızı ışık kayboldu, her şey mavi-yeşil",
+       "10 m — red light is gone; everything turns blue-green",
+       "🌊"
+      ],
+      [
+       "200 metre: alacakaranlık bölgesi; güneş ışığı yalnızca soluk bir mavi",
+       "200 m — the twilight zone; sunlight is only a faint blue",
+       ""
+      ],
+      [
+       "1.000 metre: gece yarısı bölgesi; tek ışık canlıların kendi ışığı",
+       "1,000 m — the midnight zone; the only light is made by living things",
+       ""
+      ],
+      [
+       "3.800 metre: Titanik’in yattığı derinlik",
+       "3,800 m — the depth where the Titanic lies",
+       ""
+      ],
+      [
+       "Yaklaşık 10.900 metre: Mariana Çukuru, Challenger Derinliği",
+       "About 10,900 m — the Challenger Deep in the Mariana Trench",
+       ""
+      ]
+     ],
+     "fin": "Orada su basıncı yaklaşık 1.000 atmosfer: parmak ucun kadar bir alana bir otomobilin yüklenmesi gibi",
+     "fine": "Down there the pressure is about 1,000 atmospheres — like a car resting on an area the size of your fingertip"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-trieste.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Batiskaf Trieste · Bathyscaphe Trieste",
+     "tr": "Trieste batiskafı: 1960’ta okyanusun en derin noktasına inen ilk araç",
+     "en": "The bathyscaphe Trieste — the first vessel to reach the deepest point of the ocean, in 1960",
+     "cr": "Foto · Photo: bilinmeyen · unknown · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Jacques Piccard ve Don Walsh dibe yaklaşık 5 saatte indiler ve orada yalnızca 20 dakika kalabildiler",
+     "facte": "Jacques Piccard and Don Walsh took about 5 hours to reach the bottom — and could stay only 20 minutes",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-titanic.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Titanik’in pruvası · Titanic’s bow",
+     "tr": "Yaklaşık 3.800 metre derinlikte Titanik’in pruvası",
+     "en": "The bow of the Titanic, about 3,800 metres down",
+     "cr": "Foto · Photo: NOAA / IFE / URI · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Enkaz 1985’te bulundu; demir yiyen bakteriler gemiyi yavaş yavaş “pas sarkıtlarına” çeviriyor",
+     "facte": "The wreck was found in 1985 — iron-eating bacteria are slowly turning the ship into “rusticles”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-angler.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Derin deniz fener balığı — G. H. Ford’un çizimi, 19. yüzyıl",
+     "en": "A deep-sea anglerfish — drawing by G. H. Ford, 19th century",
+     "cr": "Eser · Artwork: G. H. Ford · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Başındaki “olta”nın ucunda ışık saçan bakteriler yaşar; karanlıkta avını bu ışıkla çağırır",
+     "facte": "Glowing bacteria live at the tip of the “fishing rod” on its head — in the dark it lures prey with that light",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h20-dumbo.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Dumbo ahtapotu · Dumbo octopus",
+     "tr": "Kulak gibi yüzgeçleriyle süzülen bir Dumbo ahtapotu",
+     "en": "A dumbo octopus gliding on its ear-like fins",
+     "cr": "Foto · Photo: Mike Vecchione, NOAA · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bilinen en derinde yaşayan ahtapotlardan: 7.000 metreye kadar görüldü",
+     "facte": "One of the deepest-living octopuses known — seen as deep as 7,000 metres",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h20-vampsquid.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Vampir mürekkep balığı — Carl Chun’un çizimi, 1910 civarı",
+     "en": "The vampire squid — drawing by Carl Chun, around 1910",
+     "cr": "Eser · Artwork: Carl Chun · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Adı korkutucu, ama aslında küçük ve zararsız; okyanusta oksijenin en az olduğu katmanlarda yaşar",
+     "facte": "A scary name for a small, harmless animal — it lives in the ocean layers with the least oxygen",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 36,
+     "q": "Everest’i okyanusun en derin noktasına koysak, zirvesi su yüzeyinin altında mı kalır, üstünde mi?",
+     "qe": "If we placed Everest in the deepest point of the ocean, would its summit stay under water or poke out?",
+     "a": "Altında! Zirve yaklaşık 2 km suyun altında kalırdı",
+     "ae": "Under water! The summit would still be about 2 km below the surface",
+     "sec": 22,
+     "c1": "#13283a",
+     "c2": "#03080d"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-17",
+   "name": "Zekice Düşünce: İkiye Bölmenin Gücü · Clever Thinking: The Power of Halving",
+   "from": "2026-11-20T17:00",
+   "until": "2026-11-20T18:00",
+   "items": [
+    {
+     "k": "hzhalve",
+     "d": 92
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "İki elinle 10’a kadar değil, 1.023’e kadar sayabilirsin",
+     "e": "You can count not to 10, but to 1,023 on your two hands",
+     "c1": "#1c2836",
+     "c2": "#05080c",
+     "gap": 8,
+     "steps": [
+      [
+       "Her parmak bir “anahtar” olsun: kalkık = 1, kapalı = 0",
+       "Let each finger be a switch — up = 1, down = 0",
+       "✋"
+      ],
+      [
+       "Sağ başparmak 1, sonraki 2, sonra 4, 8, 16… her parmak bir öncekinin iki katı",
+       "Right thumb is 1, the next finger 2, then 4, 8, 16… each finger worth double the last",
+       ""
+      ],
+      [
+       "Kalkık parmakların değerlerini topla: 5 = 4 + 1",
+       "Add up the raised fingers — 5 = 4 + 1",
+       ""
+      ],
+      [
+       "On parmağın hepsi kalkınca: 1 + 2 + 4 + … + 512 = 1.023",
+       "All ten fingers up — 1 + 2 + 4 + … + 512 = 1,023",
+       ""
+      ]
+     ],
+     "fin": "Bilgisayarların dili de tam olarak bu: yalnızca 0 ve 1 ile her şey",
+     "fine": "This is exactly the language of computers — everything with just 0 and 1"
+    },
+    {
+     "k": "hzriddle",
+     "d": 48,
+     "q": "100 dolaplı bir koridor. 1. kişi hepsini açıyor, 2. kişi her 2. dolabı, 3. kişi her 3. dolabı çeviriyor (açıksa kapatıyor, kapalıysa açıyor)… 100 kişi geçince hangileri açık kalır?",
+     "qe": "A corridor of 100 lockers. Person 1 opens them all, person 2 toggles every 2nd, person 3 every 3rd… After 100 people, which stay open?",
+     "a": "Yalnızca tam kareler: 1, 4, 9, 16, … 100 — 10 dolap! Yalnızca onların tek sayıda böleni var",
+     "ae": "Only the perfect squares — 1, 4, 9, 16, … 100: ten lockers! Only they have an odd number of divisors",
+     "sec": 30,
+     "c1": "#24303a",
+     "c2": "#070a0d"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "1.024",
+     "tr": "Bir “kilobayt” uzun yıllar neden 1.000 değil de 1.024 bayt sayıldı? Çünkü 2’nin 10. kuvveti 1.024",
+     "en": "Why was a “kilobyte” 1,024 bytes and not 1,000? Because 2 to the power 10 is 1,024",
+     "src": "İkili sistemde 1.000’e en yakın yuvarlak sayı budur · In binary, it is the round number closest to 1,000",
+     "c1": "#1a2632",
+     "c2": "#05080b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-18",
+   "name": "Gizlenme Ustaları · Masters of Disguise",
+   "from": "2026-11-20T18:00",
+   "until": "2026-11-20T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h20-leafinsect.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Yaprak böceği · Leaf insect",
+     "tr": "Bir yaprak böceği: damarları, kenarları, hatta ısırılmış lekeleriyle bir yaprak",
+     "en": "A leaf insect — veins, edges, even bite marks, all like a real leaf",
+     "cr": "Foto · Photo: Drägüs · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Yürürken rüzgârda sallanan bir yaprak gibi ileri geri salınır",
+     "facte": "When it walks it sways back and forth like a leaf in the breeze",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h20-stick.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Yosun kılıklı çubuk böceği · Moss-mimic stick insect",
+     "tr": "Yosun kaplı bir dal mı, yoksa bir böcek mi?",
+     "en": "A mossy twig — or an insect?",
+     "cr": "Foto · Photo: Pavel Kirillov · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Çubuk böcekleri gündüz kıpırdamadan durur, avcılar onları dal sanıp geçer",
+     "facte": "Stick insects stay perfectly still by day — predators pass them by as twigs",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-gecko.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Şeytani yaprak kuyruklu kertenkele · Satanic leaf-tailed gecko",
+     "tr": "Madagaskar’ın yaprak kuyruklu kertenkelesi: kuru bir yaprağın ta kendisi",
+     "en": "Madagascar’s leaf-tailed gecko — a dry leaf in every detail",
+     "cr": "Foto · Photo: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kuyruğundaki çentikler bile çürümüş yaprak kenarlarını taklit eder",
+     "facte": "Even the notches in its tail copy the edges of a decaying leaf"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-potoo.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Gri potu kuşu · Common potoo",
+     "tr": "Gri potu: gündüz gözlerini kısıp kırık bir dal gibi dimdik durur",
+     "en": "The common potoo spends the day upright like a broken branch, eyes almost shut",
+     "cr": "Foto · Photo: Vitorguimaraesc · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Göz kapaklarındaki küçük yarıklar sayesinde gözü kapalıyken bile etrafını görebilir",
+     "facte": "Tiny slits in its eyelids let it watch its surroundings even with its eyes closed"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h20-owlbfly.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Baykuş kelebeği · Owl butterfly",
+     "tr": "Baykuş kelebeğinin kanadının altında kocaman bir göz deseni",
+     "en": "A huge eyespot on the underside of an owl butterfly’s wing",
+     "cr": "Foto · Photo: Friedrich Böhringer · CC BY-SA 3.0 AT · Wikimedia Commons",
+     "fact": "Bu “göz” bir baykuşa benzetilir; bilim insanları kuşları ürkütüp ürkütmediğini hâlâ tartışıyor",
+     "facte": "The “eye” is said to look like an owl’s — scientists still debate whether it actually scares birds",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Bukalemun",
+     "tr": "Bukalemunlar renk değiştirmeyi çoğunlukla saklanmak için değil, duygularını göstermek ve ısınmak için kullanır",
+     "en": "Chameleons change colour mostly not to hide, but to signal moods and to warm up",
+     "src": "Derilerindeki minik kristallerin aralığını değiştirerek ışığı farklı yansıtırlar · They reflect light differently by changing the spacing of tiny crystals in their skin",
+     "c1": "#1c2a22",
+     "c2": "#060a07"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-19",
+   "name": "Karadeniz Mutfağı · The Black Sea Kitchen",
+   "from": "2026-11-20T19:00",
+   "until": "2026-11-20T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-kuymak.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Muhlama · Çamlıhemşin, Rize",
+     "tr": "Muhlama: mısır unu, tereyağı ve uzayan peynir",
+     "en": "Muhlama — cornmeal, butter and stretchy cheese",
+     "cr": "Foto · Photo: tomislav medak · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Trabzon’da “kuymak” da denir; asıl sır, uzayan yöresel peynir ve bol tereyağıdır",
+     "facte": "In Trabzon it is also called kuymak — the real secret is the stretchy local cheese and plenty of butter"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Vakfıkebir",
+     "tr": "Trabzon’un Vakfıkebir ekmeği iri, yuvarlak somunlarıyla ünlü: büyükleri birkaç kiloyu bulur",
+     "en": "Trabzon’s Vakfıkebir bread is famous for its big round loaves — the large ones weigh several kilos",
+     "src": "Taş fırında pişer, kabuğu kalın ve çıtır olur; tartıyla, dilim dilim de satılır · Baked in stone ovens with a thick, crisp crust — also sold by the slice, by weight",
+     "c1": "#2a2218",
+     "c2": "#0a0806"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-karalahana.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Karalahana sarması · Stuffed collard greens",
+     "tr": "Karalahana sarması: Karadeniz’in vazgeçilmez yeşili, içi pirinç ya da mısır unuyla dolu",
+     "en": "Karalahana sarması — the Black Sea’s favourite greens, stuffed with rice or cornmeal",
+     "cr": "Foto · Photo: Garrett Ziegler · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Karalahana soğuğa dayanıklıdır; kışın en karlı bahçelerde bile yeşil kalır",
+     "facte": "Karalahana is hardy — it stays green even in the snowiest winter gardens"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-sutlac.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hamsiköy sütlacı · Hamsiköy rice pudding",
+     "tr": "Hamsiköy sütlacı: üstü fındıkla süslenmiş, fırında kızarmış bir kase",
+     "en": "Hamsiköy rice pudding — baked golden on top and sprinkled with hazelnuts",
+     "cr": "Foto · Photo: Ahmet6155 · CC0 · Wikimedia Commons",
+     "fact": "Maçka’nın Hamsiköy’ü, Zigana yolunda; yolcular yüzyıllardır burada mola verip sütlaç yer",
+     "facte": "Hamsiköy in Maçka sits on the Zigana road — travellers have stopped here for rice pudding for generations"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-hurma.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon hurması · Persimmon",
+     "tr": "Trabzon hurması: kasım ayının parlak turuncu meyvesi",
+     "en": "The persimmon (“Trabzon hurması”) — November’s bright orange fruit",
+     "cr": "Foto · Photo: Joe Ravi · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Yapraklar döküldükten sonra bile dallarda kalır; tam yumuşadığında bal gibi tatlı olur",
+     "facte": "It stays on the branches after the leaves fall — once fully soft it is as sweet as honey",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Sabırla koruk helva olur,|dut yaprağı atlas olur",
+     "en": "With patience the sour grape becomes sweet halva, and the mulberry leaf becomes silk",
+     "pal": "clay",
+     "lb": "Türk Atasözü · Turkish Proverb",
+     "by": "atasözü · proverb"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-20",
+   "name": "Mimar Sinan’ın Kubbeleri · The Domes of Mimar Sinan",
+   "from": "2026-11-20T20:00",
+   "until": "2026-11-20T21:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Mimarlık Dehası · Architectural Genius",
+     "q": "Mimar Sinan kendi eserlerini üç aşamaya ayırdı",
+     "e": "Mimar Sinan divided his own work into three stages",
+     "c1": "#22262c",
+     "c2": "#07080a",
+     "gap": 8,
+     "steps": [
+      [
+       "Şehzade Camii: “çıraklık eserim”",
+       "The Şehzade Mosque — “my apprentice work”",
+       "🕌"
+      ],
+      [
+       "Süleymaniye Camii: “kalfalık eserim”",
+       "The Süleymaniye — “my journeyman work”",
+       ""
+      ],
+      [
+       "Selimiye Camii, Edirne: “ustalık eserim”",
+       "The Selimiye in Edirne — “my masterpiece”",
+       ""
+      ],
+      [
+       "Ve bunların arasında camiler, köprüler, hamamlar, medreseler: 300’den fazla yapı",
+       "And in between: mosques, bridges, baths, schools — more than 300 buildings",
+       ""
+      ]
+     ],
+     "fin": "Selimiye’yi bitirdiğinde 80 yaşını geçmişti: en büyük işini hayatının sonuna sakladı",
+     "fine": "He was past 80 when he finished the Selimiye — he saved his greatest work for the end of his life"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-sehzade.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Şehzade Camii — 1853 tarihli bir gravür (Gide et J. Baudry)",
+     "en": "The Şehzade Mosque — an engraving from 1853 (Gide et J. Baudry)",
+     "cr": "Eser · Artwork: Gide et J. Baudry (1853) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Sinan’ın İstanbul’daki ilk büyük sultan camisi; ortadaki kubbe dört yarım kubbeyle taşınır",
+     "facte": "Sinan’s first great imperial mosque in Istanbul — the central dome rests on four half-domes",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-suleymaniye.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Süleymaniye Camii · İstanbul",
+     "tr": "Süleymaniye’de, işlemeli bir kubbenin içi",
+     "en": "Inside a decorated dome at the Süleymaniye",
+     "cr": "Foto · Photo: Moonik · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Söylenceye göre Sinan, mumların isini havalandırma ile tek bir odada toplayıp mürekkep yaptırdı",
+     "facte": "Legend says Sinan’s ventilation gathered the soot of the oil lamps in one room — and it was made into ink"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h20-mihrimah.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mihrimah Sultan Camii, Edirnekapı · İstanbul",
+     "tr": "Mihrimah Sultan Camii: duvarlarında yüzlerce pencereden süzülen ışık",
+     "en": "The Mihrimah Sultan Mosque — light pouring in through hundreds of windows",
+     "cr": "Foto · Photo: Hans G. Oberlack · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Sinan bu camiyi Kanuni’nin kızı Mihrimah Sultan için yaptı; adı “güneş ve ay” anlamına gelir",
+     "facte": "Sinan built it for Mihrimah Sultan, daughter of Süleyman the Magnificent — her name means “sun and moon”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-rustem.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rüstem Paşa Camii · İstanbul",
+     "tr": "Rüstem Paşa Camii’nin çinileri: laleler, karanfiller ve bahar dalları",
+     "en": "The tiles of the Rüstem Paşa Mosque — tulips, carnations and spring branches",
+     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Sinan’ın bu küçük camisi, İznik çinisinin en parlak döneminin bir sergisi gibidir",
+     "facte": "This small mosque by Sinan is like a gallery of İznik tiles at their finest"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-sokollu.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sokollu Mehmed Paşa Külliyesi, Lüleburgaz",
+     "tr": "Lüleburgaz’da Sinan’ın yaptığı Sokollu Mehmed Paşa Camii’nin aydınlık içi",
+     "en": "The bright interior of the Sokollu Mehmed Paşa Mosque in Lüleburgaz, built by Sinan",
+     "cr": "Foto · Photo: Sadrettin · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Sinan büyük kentlerin yanında yol üstündeki kasabalara da cami, han ve hamamdan oluşan külliyeler kurdu",
+     "facte": "Besides great cities, Sinan built complexes of mosque, inn and bath in small towns along the roads"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-21",
+   "name": "Çözülemeyen Sırlar · Unsolved Mysteries",
+   "from": "2026-11-20T21:00",
+   "until": "2026-11-20T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h20-voynich.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Voynich El Yazması · The Voynich Manuscript",
+     "tr": "Voynich El Yazması: kimsenin okuyamadığı bir yazıyla, tanımadığımız bitkilerin çizimleri",
+     "en": "The Voynich Manuscript — drawings of unknown plants, in a script no one can read",
+     "cr": "Foto · Photo: bilinmeyen · unknown · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Parşömeni 1400’lerin başına tarihleniyor; yaklaşık 240 sayfa, ama tek bir kelimesi bile çözülemedi",
+     "facte": "Its vellum dates to the early 1400s — about 240 pages, and not one word has been deciphered",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h20-wow.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · “Wow!” sinyali · The “Wow!” signal",
+     "tr": "15 Ağustos 1977: bir radyo teleskobu 72 saniyelik güçlü bir sinyal yakaladı",
+     "en": "15 August 1977 — a radio telescope caught a powerful 72-second signal",
+     "cr": "Foto · Photo: Big Ear Radio Observatory / NAAPO · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Astronom Jerry Ehman çıktıyı görünce kenarına “Wow!” yazdı. Sinyal bir daha hiç duyulmadı",
+     "facte": "Astronomer Jerry Ehman wrote “Wow!” in the margin of the printout. The signal was never heard again",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h20-bullet.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mermi Kümesi · The Bullet Cluster",
+     "tr": "Mermi Kümesi: çarpışan iki galaksi kümesi",
+     "en": "The Bullet Cluster — two colliding clusters of galaxies",
+     "cr": "Foto · Photo: CTIO / NOIRLab / DOE / NSF / AURA (T.A. Rector, M. Zamani) · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Buradaki kütlenin çoğu görünmüyor; bilim insanları ona “karanlık madde” diyor ama ne olduğunu bilmiyor",
+     "facte": "Most of the mass here is invisible — scientists call it “dark matter”, but nobody knows what it is"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h20-phaistos.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Phaistos Diski · Phaistos Disc — Girit · Crete",
+     "tr": "Phaistos Diski: Tunç Çağı’ndan, kil üstüne damgalanmış 241 işaret",
+     "en": "The Phaistos Disc — 241 signs stamped into clay in the Bronze Age",
+     "cr": "Foto · Photo: C messier · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bilinen en eski “matbaa” örneklerinden biri sayılır: işaretler mühürle basılmış. Anlamı hâlâ bilinmiyor",
+     "facte": "It is counted among the earliest examples of “printing” — the signs were stamped. What they mean is still unknown"
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Büyük Soru · Big Question",
+     "q": "Neden uyuyoruz?",
+     "e": "Why do we sleep?",
+     "c1": "#161c2c",
+     "c2": "#04060c",
+     "gap": 8,
+     "steps": [
+      [
+       "Hayatımızın yaklaşık üçte birini uykuda geçiriyoruz",
+       "We spend about a third of our lives asleep",
+       "🌙"
+      ],
+      [
+       "Uyku sırasında beyin gün içinde biriken atıkları temizler",
+       "During sleep the brain clears waste that builds up during the day",
+       ""
+      ],
+      [
+       "Anılar düzenlenir; bir kısmı kalıcı hâle gelir",
+       "Memories are sorted, and some become permanent",
+       ""
+      ],
+      [
+       "Ama bunların hiçbiri, neden bilincimizi tamamen kapattığımızı tek başına açıklamıyor",
+       "Yet none of this alone explains why we switch off our awareness completely",
+       ""
+      ]
+     ],
+     "fin": "Hemen her hayvan bir biçimde uyur. Doğanın bu kadar ısrar ettiği bir şeyin tam nedeni hâlâ bir sır",
+     "fine": "Almost every animal sleeps in some way — and the full reason nature insists on it is still a mystery"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Sözsüz konuşan|bir ses vardır; dinle",
+     "en": "There is a voice that does not use words — listen",
+     "pal": "night"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-22",
+   "name": "Galeri: Hammershøi’nin Sessiz Odaları · Gallery: Hammershøi’s Quiet Rooms (sakin · calm)",
+   "from": "2026-11-20T22:00",
+   "until": "2026-11-20T23:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h20-ham1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Güneş Işığında Dans Eden Toz Zerreleri — Vilhelm Hammershøi, 1900",
+     "en": "Dust Motes Dancing in the Sunbeams — Vilhelm Hammershøi, 1900",
+     "cr": "Eser · Artwork: Vilhelm Hammershøi · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Odada kimse yok: tablonun tek kahramanı pencereden giren ışık",
+     "facte": "There is no one in the room — the only hero of the painting is the light from the window",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h20-ham2.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Dinlenme — Vilhelm Hammershøi, 1905",
+     "en": "Rest — Vilhelm Hammershøi, 1905",
+     "cr": "Eser · Artwork: Vilhelm Hammershøi · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Hammershøi insanları çoğu zaman arkadan resmetti: yüzü görmeyince, sessizliği daha çok hissederiz",
+     "facte": "Hammershøi often painted people from behind — without a face, we feel the silence more",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h20-ham3.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Arkası Dönük Genç Bir Kadınla İç Mekân — Vilhelm Hammershøi, 1903–1904",
+     "en": "Interior with a Young Woman Seen from the Back — Vilhelm Hammershøi, 1903–1904",
+     "cr": "Eser · Artwork: Vilhelm Hammershøi · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Paleti neredeyse yalnızca griler, beyazlar ve yumuşak kahverengilerden oluşur",
+     "facte": "His palette is almost only greys, whites and soft browns",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h20-ham4.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Yüksek Pencereler — Vilhelm Hammershøi, 1913",
+     "en": "The Tall Windows — Vilhelm Hammershøi, 1913",
+     "cr": "Eser · Artwork: Vilhelm Hammershøi · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Kopenhag’daki evinin pencerelerini yıllarca, her mevsimin ışığında yeniden çizdi",
+     "facte": "He painted the windows of his Copenhagen home again and again, in the light of every season",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h20-ham5.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Sanatçının Strandgade’deki Evinde Bir Oda — Vilhelm Hammershøi",
+     "en": "A Room in the Artist’s Home in Strandgade — Vilhelm Hammershøi",
+     "cr": "Eser · Artwork: Vilhelm Hammershøi · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Boş bir duvar, açık bir kapı ve bir sandalye: sadelik de bir lükstür",
+     "facte": "A bare wall, an open door and a chair — simplicity is a luxury too",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 46,
+     "tr": "Görevin sevgiyi aramak değil;|ona karşı içinde ördüğün duvarları bulmaktır",
+     "en": "Your task is not to seek love, but to find the walls you have built within yourself against it",
+     "pal": "night"
+    }
+   ]
+  },
+  {
+   "id": "h-11-20-23",
+   "name": "Yaylada Gece · Night in the Highlands (sakin · calm)",
+   "from": "2026-11-20T23:00",
+   "until": "2026-11-21T02:00",
+   "items": [
+    {
+     "k": "hzyayla",
+     "d": 100
+    },
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h20-milkyway.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Oeschinen Gölü, İsviçre · Lake Oeschinen, Switzerland",
+     "tr": "Durgun bir dağ gölünde yansıyan Samanyolu",
+     "en": "The Milky Way reflected in a still mountain lake",
+     "cr": "Foto · Photo: Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Gözlerin karanlığa tam alışması 20–30 dakika sürer; ondan sonra gökyüzünde çok daha fazla yıldız belirir",
+     "facte": "Your eyes take 20–30 minutes to fully adjust to the dark — after that, many more stars appear"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Uyumadan önce: bugün öğrendiğin üç şey",
+     "e": "Before sleep — three things you learned today",
+     "c1": "#121a26",
+     "c2": "#03050a",
+     "gap": 9,
+     "steps": [
+      [
+       "Belki asal sayıların hiç bitmediğini",
+       "Perhaps that the primes never run out",
+       "☾"
+      ],
+      [
+       "Belki bir böceğin yosunlu bir dal gibi saklanabildiğini",
+       "Perhaps that an insect can hide as a mossy twig",
+       ""
+      ],
+      [
+       "Ya da sadece, bugün kendin hakkında fark ettiğin küçük bir şeyi",
+       "Or simply one small thing you noticed about yourself today",
+       ""
+      ]
+     ],
+     "fin": "Merakla kapanan bir gün, yarına da merakla açılır",
+     "fine": "A day that closes with curiosity opens tomorrow with curiosity too",
+     "bg": "stars"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h20-moonsea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Brisbane Nehri, Avustralya · Brisbane River, Australia",
+     "tr": "Suyun üstünde yükselen dolunay ve gümüş bir yol",
+     "en": "A full moon rising over the water, laying a silver path",
+     "cr": "Foto · Photo: Sheba_Also · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Ay ufka yakınken daha büyük görünür; ama ölçtüğünde boyutu tepedeyken olduğuyla aynıdır",
+     "facte": "The Moon looks bigger near the horizon — but measure it and it is the same size as when it is high"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Derdin dermanı,|yine derdin içindedir",
+     "en": "The cure for the pain is in the pain",
+     "pal": "night"
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 /* hourly.js v71 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto (quiet:1 = dim ambient still, tiny caption, fade only) hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener + hzshepard hzbezold.  v68: hzflow hzlissa hzrule hzlantern + hzscint hzchecker.  v69: hzmandel hzbuffon hzember (calm night) + illusions hzouchi hzmach hzbarber.  v71: hztimes hzmonty hztsp hzbalikci (calm night) + illusions hzcurve hzpinna.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener + hzshepard hzbezold.  v68: hzflow hzlissa hzrule hzlantern + hzscint hzchecker.  v69: hzmandel hzbuffon hzember (calm night) + illusions hzouchi hzmach hzbarber.  v71: hztimes hzmonty hztsp hzbalikci (calm night) + illusions hzcurve hzpinna.  v73: hzrecaman hzsieve hzhalve hzyayla (calm night) + illusions hzwaterfall hztroxler.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -677,7 +677,7 @@ W.hzchoose=function(L,it){grad(L,it.c1||'#16232c',it.c2||'#04070a');
 
 /* hzguess: guess together over a still photo; answer after sec. No a = conversation question. it: f, pos, lb, q, qe, hint, a, ae, sec, cr */
 W.hzguess=function(L,it){L.style.background='#000';var sec=it.sec||20;
- var m=wEl('img','');m.src=it.f;m.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:'+(it.pos||'50% 50%');L.appendChild(m);
+ var m=wEl('img','');m.src=it.f;m.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;object-fit:'+(it.fit||'cover')+';object-position:'+(it.pos||'50% 50%');L.appendChild(m);
  L.appendChild(wEl('div','',null,'position:absolute;left:0;right:0;top:0;height:42%;background:linear-gradient(rgba(0,0,0,.7),transparent)'));
  L.appendChild(wEl('div','',null,'position:absolute;left:0;right:0;bottom:0;height:42%;background:linear-gradient(transparent,rgba(0,0,0,.75))'));
  var q=T(L,'<div class="hzbox"><div class="lb">'+(it.lb||'Birlikte Tahmin · Guess Together')+'</div><div class="q" style="font-size:2.6vw">'+it.q+'</div><div class="e" style="font-size:1.45vw">'+it.qe+'</div></div>','top:4vh;bottom:auto;max-height:31vh;overflow:hidden',.5);fitEl(q,31);
@@ -1062,5 +1062,96 @@ W.hzbalikci=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(150),HY=640
    x.fillStyle='rgba('+col+',.95)';x.beginPath();x.arc(bx,by,3.4*b[1],0,7);x.fill();
    for(var yy=HY+6;yy<HY+200*b[1];yy+=7){var w=(3+Math.sin(t*1.3+yy*.15+b[2])*2.5)*b[1]*(1+(yy-HY)/90),al=.35*(1-(yy-HY)/(200*b[1]));x.fillStyle='rgba('+col+','+Math.max(0,al).toFixed(3)+')';x.fillRect(bx-w+Math.sin(t+yy*.2)*3,yy,w*2,2.5)}}
   for(var yy2=HY+10;yy2<1080;yy2+=11){x.fillStyle='rgba(150,170,200,.035)';x.fillRect(0,yy2+Math.sin(t*.5+yy2)*2,1920,1)}});return L};
+
+/* ---------- v73 additions: hzrecaman (living art), hzsieve hzhalve (clever thinking), hzwaterfall hztroxler (illusions), hzyayla (calm night) ---------- */
+function ablTR(n){n=Math.round(n);var U=['','den','den','ten','ten','ten','dan','den','den','dan'],Tn=['','dan','den','dan','tan','den','tan','ten','den','dan'];if(n%10)return U[n%10];if(n%100)return Tn[(n/10|0)%10];if(n%1000)return 'den';if(n%1000000)return 'den';return 'dan'}
+function nTR(n){var s=String(Math.round(n));return s.replace(/\B(?=(\d{3})+(?!\d))/g,'.')}
+/* Recamán sequence: step back by n if that number is new and positive, otherwise forward; each step drawn as a half-circle arc */
+W.hzrecaman=function(L,it){grad(L,'#141a2a','#03050a');var c=wCv(L),x=c.getContext('2d'),N=it.n||66,A=[0],seen={0:1},i,mx=0,SP=it.sp||.55,HOLD=10,CY=640,lab=T(L,'','bottom:16px',1),lastN=-1;
+ for(i=1;i<=N;i++){var p=A[i-1],v=p-i;if(v<0||seen[v])v=p+i;A.push(v);seen[v]=1;if(v>mx)mx=v}
+ var sc=Math.min(1760/mx,2*400/N),X0=(1920-mx*sc)/2,TOT=N*SP+HOLD+3;
+ T(L,'<div class="hzbox">'+hd('Yaşayan Sanat · Living Art — matematik · mathematics','Recamán dizisi: geri gidebiliyorsan geri git, gidemiyorsan ileri','The Recamán sequence — step back if you can, otherwise step forward')+'</div>','top:16px',.4);
+ wLoop(L,function(t){var u=t%TOT,k=Math.min(N,u/SP),n=Math.floor(k),f=k-n,fade=u>N*SP+HOLD?1-(u-N*SP-HOLD)/3:1;x.clearRect(0,0,1920,1080);x.globalAlpha=Math.max(0,fade);
+  x.strokeStyle='rgba(220,230,235,.18)';x.lineWidth=1.5;x.beginPath();x.moveTo(X0-20,CY);x.lineTo(X0+mx*sc+20,CY);x.stroke();
+  for(var j=1;j<=Math.min(N,n+1);j++){var a=A[j-1],b=A[j],cx=X0+(a+b)/2*sc,r=Math.abs(b-a)/2*sc,up=j%2==1,fr=j<=n?1:f;if(fr<=0)continue;
+   var h=(200+j/N*160)%360;x.strokeStyle='hsla('+h.toFixed(0)+',65%,'+(j>n-1?78:64)+'%,.9)';x.lineWidth=j>n-1?3.2:2.2;x.beginPath();
+   var s0=b>a?Math.PI:0,dir=(b>a)==up?(b>a?1:-1):(b>a?-1:1);if(up){if(b>a)x.arc(cx,CY,r,Math.PI,Math.PI+Math.PI*fr,false);else x.arc(cx,CY,r,0,-Math.PI*fr,true)}else{if(b>a)x.arc(cx,CY,r,Math.PI,Math.PI-Math.PI*fr,true);else x.arc(cx,CY,r,0,Math.PI*fr,false)}x.stroke()}
+  x.globalAlpha=1;
+  if(n!==lastN){lastN=n;var sh=A.slice(Math.max(0,n-9),n+1).join(', ');lab.innerHTML='<div class="hzbox" style="padding:.6vw 1.8vw;max-width:84vw"><div class="a" style="font-size:1.6vw">'+(n<N?(n+1)+'. adım · step '+(n+1)+': '+A[n]+(A[n+1]<A[n]?' − ':' + ')+(n+1)+' = '+A[n+1]:'Kural hiç değişmedi; desen kendiliğinden çıktı · The rule never changed — the pattern made itself')+'</div><div class="e" style="font-size:1.1vw">… '+sh+' — her yay bir adım; üstte tek, altta çift adımlar · each arc is one step: odd steps above, even steps below. Her sayı bir gün mutlaka gelir mi? Kimse kanıtlayamadı · Does every number eventually appear? Nobody has proved it</div></div>'}});return L};
+
+/* Sieve of Eratosthenes on 1–200 */
+W.hzsieve=function(L,it){grad(L,'#16202c','#04070b');var c=wCv(L),x=c.getContext('2d'),M=200,COLS=20,CW=84,RH=60,X0=(1920-COLS*CW)/2,Y0=262,PR=[2,3,5,7,11,13],COL={2:'#ff9e7a',3:'#8fd3c1',5:'#f2d06b',7:'#b9a3ff',11:'#7fb8ff',13:'#ff8fb8'},ev=[],box=T(L,'','bottom:12px',1),lastS='';
+ T(L,'<div class="hzbox">'+hd('Zekice Düşünce · Clever Thinking — algoritma · algorithm','Eratosthenes’in kalburu: 1’den 200’e kadar bütün asal sayıları bul','The Sieve of Eratosthenes — find every prime from 1 to 200')+'</div>','top:12px',.4);
+ var tt=2;PR.forEach(function(p){ev.push([tt,p,p,1]);tt+=1.2;for(var m=p*p;m<=M;m+=p){ev.push([tt,p,m,0]);tt+=.09}tt+=1});var TEND=tt,TOT=TEND+14;
+ wLoop(L,function(t){var u=t%TOT,cross={},cur=0,i;for(i=0;i<ev.length&&ev[i][0]<=u;i++){var e=ev[i];if(e[3])cur=e[1];else if(!cross[e[2]])cross[e[2]]=e[1]}var done=u>=TEND;
+  x.clearRect(0,0,1920,1080);x.textAlign='center';x.textBaseline='middle';
+  for(var n=1;n<=M;n++){var r=Math.floor((n-1)/COLS),cc=(n-1)%COLS,X=X0+cc*CW+CW/2,Y=Y0+r*RH+RH/2,cr=cross[n],isP=!cr&&n>1&&(PR.indexOf(n)>=0||done||n<cur*cur);
+   if(isP&&(done||PR.indexOf(n)>=0&&n<=cur)){x.fillStyle=done?'rgba(143,211,193,.28)':'rgba(255,255,255,.08)';x.beginPath();x.arc(X,Y,25,0,7);x.fill()}
+   if(n==cur&&!done){x.strokeStyle=COL[cur];x.lineWidth=4;x.beginPath();x.arc(X,Y,27,0,7);x.stroke()}
+   x.font=(isP&&done?'bold 30px':'28px')+' Georgia';x.fillStyle=n==1?'rgba(200,210,215,.25)':cr?'rgba(200,210,215,.22)':(done?'#f3f1ec':'rgba(243,241,236,.9)');x.fillText(n,X,Y);
+   if(cr){x.strokeStyle=COL[cr];x.globalAlpha=.85;x.lineWidth=3;x.beginPath();x.moveTo(X-22,Y+14);x.lineTo(X+22,Y-14);x.stroke();x.globalAlpha=1}}
+  var s=done?'done':cur?'p'+cur:'start';if(s!==lastS){lastS=s;var a,e;
+   if(done){a='Geriye kalan 46 sayının hepsi asal!';e='The 46 numbers left are all prime. We could stop at 13, because 14 × 14 = 196 and every non-prime up to 200 has a factor smaller than 14';}
+   else if(cur){a=cur+' asal. Şimdi '+cur+'’ün bütün katlarını sil';e=cur+' is prime — now cross out all its multiples (starting from '+cur+' × '+cur+' = '+cur*cur+', the smaller ones are already gone)';}
+   else{a='1 asal değil. Silinmemiş ilk sayı: 2';e='1 is not prime. The first number not crossed out is 2';}
+   box.innerHTML='<div class="hzbox" style="padding:.6vw 1.8vw;max-width:86vw"><div class="a" style="font-size:1.6vw">'+a+'</div><div class="e" style="font-size:1.1vw">'+e+'</div></div>'}});return L};
+
+/* 20 questions: binary search finds any number from 1 to 1,000,000 in at most 20 yes/no questions */
+W.hzhalve=function(L,it){grad(L,'#1a2230','#04060a');var c=wCv(L),x=c.getContext('2d'),M=1000000,lo,hi,sec,q,hist,t0,ST=it.st||2.3,state,box=T(L,'','bottom:12px',1),lastK='';
+ T(L,'<div class="hzbox">'+hd('Zekice Düşünce · Clever Thinking — ikiye bölme · halving','1 ile 1.000.000 arasında bir sayı tuttum. Yalnızca evet/hayır sorularıyla kaç soruda bulursun?','I am thinking of a number from 1 to 1,000,000. With yes/no questions only, how many do you need?')+'</div>','top:12px',.4);
+ function reset(t){lo=1;hi=M;sec=1+Math.floor(Math.random()*M);q=0;hist=[];t0=t;state=0}
+ reset(0);var lastStep=-1;
+ wLoop(L,function(t){var el=t-t0;if(state==0&&el>3){state=1;lastStep=t}
+  if(state==1&&t-lastStep>ST){lastStep=t;if(lo<hi){var mid=Math.floor((lo+hi)/2),yes=sec>mid;q++;hist.push([mid,yes]);if(yes)lo=mid+1;else hi=mid}if(lo>=hi){state=2;t0=t}}
+  if(state==2&&t-t0>9)reset(t);
+  x.clearRect(0,0,1920,1080);var BX=160,BW=1600,Y1=360;
+  x.fillStyle='rgba(220,230,235,.12)';x.fillRect(BX,Y1,BW,34);var a=(lo-1)/M*BW,b=hi/M*BW;x.fillStyle='rgba(255,158,122,.9)';x.fillRect(BX+a,Y1,Math.max(3,b-a),34);
+  x.fillStyle='#c3cdd2';x.font='24px Helvetica';x.textAlign='left';x.fillText('1',BX,Y1+66);x.textAlign='right';x.fillText('1.000.000',BX+BW,Y1+66);
+  var Y2=520,span=hi-lo+1;x.fillStyle='rgba(143,211,193,.18)';x.fillRect(BX,Y2,BW,70);x.strokeStyle='rgba(143,211,193,.8)';x.lineWidth=2;x.strokeRect(BX,Y2,BW,70);
+  x.strokeStyle='rgba(255,158,122,.55)';x.beginPath();x.moveTo(BX+a,Y1+34);x.lineTo(BX,Y2);x.moveTo(BX+a+Math.max(3,b-a),Y1+34);x.lineTo(BX+BW,Y2);x.stroke();
+  x.fillStyle='#f3f1ec';x.font='30px Georgia';x.textAlign='left';x.fillText(nTR(lo),BX,Y2+112);x.textAlign='right';x.fillText(nTR(hi),BX+BW,Y2+112);
+  if(state==2){x.textAlign='center';x.font='bold 64px Georgia';x.fillStyle='#ff9e7a';x.fillText(nTR(sec),960,Y2+50)}else{x.strokeStyle='#f3f1ec';x.setLineDash([8,8]);x.beginPath();x.moveTo(BX+BW/2,Y2-14);x.lineTo(BX+BW/2,Y2+84);x.stroke();x.setLineDash([])}
+  x.textAlign='center';x.font='40px Georgia';x.fillStyle='#8fd3c1';x.fillText('Soru · Question  '+q+' / 20',960,Y2+190);
+  var k=state+':'+q;if(k!==lastK){lastK=k;var h=hist[hist.length-1],A,E;
+   if(state==0){A='Tahmin et: 1.000 mi, 100 mü, 20 mi?';E='Guess first: 1,000 questions? 100? 20?'}
+   else if(state==2){A='Buldum: '+nTR(sec)+' — yalnızca '+q+' soruda!';E='Found it in just '+q+' questions. Each question halves the candidates; 2 multiplied by itself 20 times is 1,048,576 — more than a million. Sözlükte bir kelime ararken de aynısını yaparsın · You do the same when you look up a word in a dictionary'}
+   else if(h){A=nTR(h[0])+'’'+ablTR(h[0])+' büyük mü? → '+(h[1]?'Evet':'Hayır');E='Is it bigger than '+nTR(h[0]).replace(/\./g,',')+'? → '+(h[1]?'Yes':'No')+' · Kalan aday · candidates left: '+nTR(hi-lo+1)}
+   else{A='Her soruda kalan aralığın tam ortasını sor';E='Always ask about the exact middle of what is left'}
+   box.innerHTML='<div class="hzbox" style="padding:.6vw 1.8vw;max-width:86vw"><div class="a" style="font-size:1.6vw">'+A+'</div><div class="e" style="font-size:1.1vw">'+E+'</div></div>'}});return L};
+
+/* motion aftereffect ("waterfall illusion", Addams 1834): stare at a turning spiral, then it stops — and seems to flow the other way */
+W.hzwaterfall=function(L,it){L.style.background='#0b0d10';var c=wCv(L),x=c.getContext('2d'),CX=960,CY=585,R=330,RUN=it.run||28,STOP=it.stop||14,TOT=RUN+STOP+3,cd=T(L,'','bottom:12px',1),lastK='';
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion — hareket sonrası etkisi · motion aftereffect','Ortadaki kırmızı noktaya bak ve gözünü ayırma. Spiral durunca ne oluyor?','Stare at the red dot and keep looking. What happens when the spiral stops?')+'</div>','top:12px',.4);
+ function spiral(rot){x.save();x.translate(CX,CY);x.beginPath();x.arc(0,0,R,0,7);x.fillStyle='#f2f2f2';x.fill();x.clip();x.rotate(rot);x.fillStyle='#111';var B=R/(4*Math.PI),k,th;
+  for(k=0;k<2;k++){x.beginPath();for(th=0;th<=9*Math.PI;th+=.08){var r=B*th,a=th+k*Math.PI;x.lineTo(Math.cos(a)*r,Math.sin(a)*r)}for(th=9*Math.PI;th>=0;th-=.08){var r2=Math.max(0,B*(th-Math.PI/2)),a2=th+k*Math.PI;x.lineTo(Math.cos(a2-0)*r2,Math.sin(a2)*r2)}x.closePath();x.fill()}
+  x.restore();x.strokeStyle='rgba(255,255,255,.25)';x.lineWidth=3;x.beginPath();x.arc(CX,CY,R+4,0,7);x.stroke();x.fillStyle='#e0302a';x.beginPath();x.arc(CX,CY,9,0,7);x.fill()}
+ var rot=0,lt=0;
+ wLoop(L,function(t){var u=t%TOT,dt=Math.min(.1,t-lt);lt=t;if(u>1.5&&u<RUN)rot+=dt*2.2;x.clearRect(0,0,1920,1080);spiral(rot);
+  var ph=u<1.5?'w':u<RUN?'r'+Math.ceil(RUN-u):u<RUN+STOP?'s':'e';if(ph!==lastK){lastK=ph;var A,E;
+   if(ph[0]=='r'){A='Noktaya bak… '+Math.ceil(RUN-u);E='Keep looking at the dot… '+Math.ceil(RUN-u)}
+   else if(ph=='s'){A='Spiral durdu. Ama sana tersine akıyor gibi mi görünüyor?';E='The spiral has stopped — yet does it seem to flow the other way? Motion cells in your brain got tired of one direction, so for a few seconds the balance tips the other way. First described in 1834 at the Falls of Foyers, Scotland: after watching the waterfall, the rocks seemed to rise'}
+   else{A='Hazır mısın? · Ready?';E='Bir kez daha · One more time'}
+   cd.innerHTML='<div class="hzbox" style="padding:.6vw 1.8vw;max-width:86vw"><div class="a" style="font-size:1.6vw">'+A+'</div><div class="e" style="font-size:1.1vw">'+E+'</div></div>'}});return L};
+
+/* Troxler fading (1804): soft, blurry colour spots vanish while you fix your gaze on the centre */
+W.hztroxler=function(L,it){L.style.background='#b9b6c0';var c=wCv(L),x=c.getContext('2d'),CX=960,CY=590,B=[],i,cols=['255,120,150','120,170,255','140,215,160','255,190,110','190,140,255','110,210,220','255,150,120','150,190,120'];
+ for(i=0;i<8;i++){var a=i/8*6.2832+.2;B.push([CX+Math.cos(a)*300,CY+Math.sin(a)*230,cols[i]])}
+ T(L,'<div class="hzbox">'+hd('Göz Oyunu · Optical Illusion','Ortadaki küçük artıya bak ve gözlerini hiç kıpırdatma. Renkli lekelere ne oluyor?','Fix your eyes on the little cross and do not move them. What happens to the coloured spots?')+'</div>','top:12px',.4);
+ T(L,'<div class="hzbox"><div class="a" style="font-size:1.7vw">Lekeler yavaş yavaş griye karışıp kayboluyor!</div><div class="e" style="font-size:1.2vw">The spots slowly melt into the grey and disappear. The eye stops reporting things that do not change and have soft edges — the brain fills the gap with the background. Gözünü bir an oynat: hepsi geri gelir · Move your eyes for a moment and they all come back (Troxler fading, 1804)</div></div>','bottom:12px',26);
+ x.fillStyle='#b9b6c0';x.fillRect(0,0,1920,1080);for(i=0;i<B.length;i++){var g=x.createRadialGradient(B[i][0],B[i][1],0,B[i][0],B[i][1],120);g.addColorStop(0,'rgba('+B[i][2]+',.55)');g.addColorStop(.5,'rgba('+B[i][2]+',.25)');g.addColorStop(1,'rgba('+B[i][2]+',0)');x.fillStyle=g;x.beginPath();x.arc(B[i][0],B[i][1],120,0,7);x.fill()}
+ x.strokeStyle='#222';x.lineWidth=4;x.beginPath();x.moveTo(CX-16,CY);x.lineTo(CX+16,CY);x.moveTo(CX,CY-16);x.lineTo(CX,CY+16);x.stroke();return L};
+
+/* calm night: mist drifting through dark, layered highland hills with a few warm house lights (illustration) */
+W.hzyayla=function(L,it){var c=wCv(L),x=c.getContext('2d'),S=stars(170),LAY=[],i,j,HL=[];
+ function rnd(s){return function(){s=(s*9301+49297)%233280;return s/233280}}var R=rnd(7);
+ for(i=0;i<5;i++){var base=430+i*120,amp=70-i*6,ph1=R()*6,ph2=R()*6,pts=[];for(j=0;j<=96;j++){var xx=j*20;pts.push(base-amp*Math.sin(xx/310+ph1)-amp*.5*Math.sin(xx/123+ph2)-18*Math.sin(xx/47+i))}LAY.push(pts)}
+ for(i=0;i<14;i++){var li=1+Math.floor(R()*4),jj=2+Math.floor(R()*92);HL.push([jj*20,LAY[li][jj]+14+R()*30,li,R()*6.28])}
+ T(L,hd('Yaylada Gece · Night in the Highlands — çizim · illustration, hayal ürünü · imagined (sakin · calm)','Sis, sırtların arasından usulca geçiyor; uzakta birkaç sıcak pencere','Mist drifts softly between the ridges; a few warm windows far away'),'top:44px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Gece hava soğuyunca vadilerdeki nem yoğunlaşır ve sis çukurlara çöker. Sabah güneşi onu yavaşça yukarı, bir bulut denizine dönüştürür<br><i>When the night air cools, moisture in the valleys condenses and the fog settles into the hollows. The morning sun slowly lifts it into a sea of clouds</i></div>','bottom:40px',9);
+ wLoop(L,function(t){var g=x.createLinearGradient(0,0,0,700);g.addColorStop(0,'#03050c');g.addColorStop(1,'#152033');x.fillStyle=g;x.fillRect(0,0,1920,1080);drawStars(x,S.filter(function(s){return s[1]<420}),t);
+  x.fillStyle='rgba(235,238,245,.92)';x.beginPath();x.arc(1480,170,34,0,7);x.fill();x.fillStyle='#070b16';x.beginPath();x.arc(1494,160,32,0,7);x.fill();
+  for(var l=0;l<LAY.length;l++){var p=LAY[l],sh=10+l*5;x.fillStyle='rgb('+(sh)+','+(sh+5)+','+(sh+14)+')';x.beginPath();x.moveTo(0,1080);for(var k=0;k<p.length;k++)x.lineTo(k*20,p[k]);x.lineTo(1920,1080);x.closePath();x.fill();
+   for(var h=0;h<HL.length;h++)if(HL[h][2]==l){var fl=.75+.25*Math.sin(t*.8+HL[h][3]),gl=x.createRadialGradient(HL[h][0],HL[h][1],0,HL[h][0],HL[h][1],22);gl.addColorStop(0,'rgba(255,214,160,'+(.55*fl).toFixed(2)+')');gl.addColorStop(1,'rgba(255,214,160,0)');x.fillStyle=gl;x.beginPath();x.arc(HL[h][0],HL[h][1],22,0,7);x.fill();x.fillStyle='rgba(255,226,180,'+(.9*fl).toFixed(2)+')';x.fillRect(HL[h][0]-2,HL[h][1]-2,4,4)}
+   if(l<LAY.length-1){for(var m=0;m<4;m++){var w=900,mx=((t*(6+l*2)+m*640+l*300)%(1920+w))-w/2,my=p[48]+40+m%2*20,mg=x.createRadialGradient(mx,my,0,mx,my,w/2);mg.addColorStop(0,'rgba(170,185,205,.16)');mg.addColorStop(1,'rgba(170,185,205,0)');x.fillStyle=mg;x.save();x.translate(mx,my);x.scale(1,.18);x.translate(-mx,-my);x.beginPath();x.arc(mx,my,w/2,0,7);x.fill();x.restore()}}}});return L};
 
 })();

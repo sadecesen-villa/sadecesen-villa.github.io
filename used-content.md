@@ -1,3 +1,119 @@
+## 2026-11-20 (rev 73, hourly sets 09:00–02:00, days/2026-11-20.json) · Friday
+
+No pending requests in requests.md (verified ~08:00). 6 new hz scenes (hourly.js v73): generators hzrecaman (Recamán sequence arcs) hzsieve (Sieve of Eratosthenes 1–200) hzhalve (20 questions / binary search to 1,000,000) hzyayla (night mist over highland hills, calm night) + illusions hzwaterfall (motion aftereffect spiral, Addams 1834) hztroxler (Troxler fading). hzguess now accepts fit. 44 new CC/PD photos/artworks (m/h20-*). h18-* and h70-* archived to /workspace/tv-media-archive/h18 and /h70 (site 40 MB before adding h20-*). Quotes: Bir lamba ol, bir can simidi ya da bir merdiven (Mevlânâ, 09); Dağlar çağırıyor ve gitmeliyim (John Muir, 11); Her sürtünmede incinirsen, aynan nasıl parlar? (Mevlânâ, 13); Gözünü kapa, gönül gözünle bak (Mevlânâ, 15); Sabırla koruk helva olur, dut yaprağı atlas olur (atasözü, 19); Sözsüz konuşan bir ses vardır; dinle (Mevlânâ, 21); Görevin sevgiyi aramak değil… (Mevlânâ, 22); Derdin dermanı, yine derdin içindedir (Mevlânâ, 23).
+
+### 09:00–10:00 · Cuma Sabahı · Friday Morning
+- 09 | hzphoto | Boztepe’den Trabzon: yamaca yayılan şehir, liman ve uzanan Karadeniz | m/h20-boztepe.jpg
+- 09 | hzquote | Bir lamba ol, bir can simidi ya da bir merdiven | —
+- 09 | hzphoto | Ortahisar Fatih Büyük Camii’nin ahşap sütunlu son cemaat yeri | m/h20-ortahisar.jpg
+- 09 | hzfact | “Cuma” Arapça “cum‘a”dan gelir: “toplanma, bir araya gelme günü” | —
+- 09 | hzriddle | Tik tak eder, gün boyu yürür ama yerinden hiç kıpırdamaz. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Recamán Yayları · Living Art: Recamán’s Arcs
+- 10 | hzrecaman | NEW/generator hzrecaman | —
+- 10 | hzsteps | Bu kadar basit bir kural nasıl bu kadar karmaşık bir desen çiziyor? | —
+- 10 | hzriddle | 0, 1, 3, 6, 2, 7, 13, 20, 12, … Recamán dizisinde sıradaki sayı ne? | —
+- 10 | hzfact | Bilgisayarlar diziyi akıl almaz uzunlukta hesapladı; 852.655 sayısı hâlâ ortaya çıkmadı | —
+
+### 11:00–12:00 · Galeri: Albert Bierstadt’ın Işığı · Gallery: The Light of Albert Bierstadt
+- 11 | hzphoto | Sierra Nevada’da, Kaliforniya — Albert Bierstadt, 1868 | m/h20-bier1.jpg
+- 11 | hzphoto | Rocky Dağları, Lander Zirvesi — Albert Bierstadt, 1863 | m/h20-bier3.jpg
+- 11 | hzphoto | Yosemite Vadisi’ne Bakış — Albert Bierstadt, 1865 | m/h20-bier2.jpg
+- 11 | hzphoto | Rocky Dağları’nda Fırtına, Rosalie Dağı — Albert Bierstadt, 1866 | m/h20-bier5.jpg
+- 11 | hzphoto | Dağlar arasında bir göl — Albert Bierstadt, 1868 | m/h20-bier4.jpg
+- 11 | hzquote | Dağlar çağırıyor ve gitmeliyim (John Muir, 1873 · doğa yazarı · naturalist) | —
+
+### 12:00–13:00 · Zekice Düşünce: Asal Sayılar · Clever Thinking: Prime Numbers
+- 12 | hzsieve | NEW/generator hzsieve | —
+- 12 | hzsteps | Asal sayılar bir yerde biter mi? | —
+- 12 | hzphoto | Öklid’in heykeli: “Elemanlar” kitabıyla geometriyi 2.000 yıl boyunca öğreten adam | m/h20-euclid.jpg
+- 12 | hzphoto | Magicicada tredecim: toprağın altında 13 yıl bekleyip hep birlikte çıkan bir ağustos böceği | m/h20-cicada.jpg
+- 12 | hzriddle | Hangi iki asal sayı arasında yalnızca 1 fark vardır? | —
+- 12 | hzfact | 2024’te bulunan rekor asal sayının 41 milyondan fazla basamağı var | —
+
+### 13:00–14:00 · Düşünce Deneyleri: Seçim, Anlam ve Sonsuz Adımlar · Thought Experiments: Choice, Meaning & Endless Steps
+- 13 | hzsteps | Newcomb’un kutuları: geleceği hep doğru tahmin eden biri sana iki kutu veriyor | —
+- 13 | hzsteps | Çince Oda: kuralları izleyerek doğru cevap veren biri, dili anlıyor mu? | —
+- 13 | hzquote | Her sürtünmede incinirsen, aynan nasıl parlar? | —
+- 13 | hzsteps | Aşil ile kaplumbağa: en hızlı koşucu, yavaş bir kaplumbağayı yakalayabilir mi? | —
+- 13 | hzriddle | Bir adam bir fotoğrafa bakıp şöyle diyor: “Kardeşim yok, ama bu adamın babası, babamın oğlu.” Fotoğraftaki kim? | —
+
+### 14:00–15:00 · Villa Fikirleri: Misafir Ritüelleri · Villa Ideas: Guest Rituals
+- 14 | hzphoto | Güne serpme kahvaltıyla başlamak: küçük tabaklarda peynir, zeytin, domates, reçel ve taze ekmek | m/h20-breakfast.jpg
+- 14 | hzphoto | Her odada katlanmış pamuklu peştamallar: hamamdan havuza, plajdan terasa | m/h20-pestemal.jpg
+- 14 | hzphoto | Pencere Kenarı — Edmund Blair Leighton | m/h20-windowseat.jpg
+- 14 | hzphoto | Bahçede açık hava banyosu: taşların arasında buharı tüten sıcak su | m/h20-outdoorbath.jpg
+- 14 | hzsteps | Misafirlerin yıllarca hatırladığı dört küçük dokunuş | —
+
+### 15:00–16:00 · Göz Oyunları: Yorulan Gözler · Tricks of the Eye: Tired Eyes
+- 15 | hzwaterfall | NEW/generator hzwaterfall | —
+- 15 | hzphoto | Foyers Şelalesi: “şelale illüzyonu” ilk kez burada tarif edildi | m/h20-foyers.jpg
+- 15 | hztroxler | NEW/generator hztroxler | —
+- 15 | hzquote | Gözünü kapa, gönül gözünle bak | —
+- 15 | hzfact | Gözlerin saniyede yaklaşık 3 kez küçük sıçramalar yapar; sen bunların hiçbirini fark etmezsin | —
+
+### 16:00–17:00 · Ölçek Yolculuğu: Okyanusun Dibine · Scale Journey: Down to the Ocean Floor
+- 16 | hzsteps | Denizin yüzeyinden en derin noktasına doğru inelim | —
+- 16 | hzphoto | Trieste batiskafı: 1960’ta okyanusun en derin noktasına inen ilk araç | m/h20-trieste.jpg
+- 16 | hzphoto | Yaklaşık 3.800 metre derinlikte Titanik’in pruvası | m/h20-titanic.jpg
+- 16 | hzphoto | Derin deniz fener balığı — G. H. Ford’un çizimi, 19. yüzyıl | m/h20-angler.jpg
+- 16 | hzphoto | Kulak gibi yüzgeçleriyle süzülen bir Dumbo ahtapotu | m/h20-dumbo.jpg
+- 16 | hzphoto | Vampir mürekkep balığı — Carl Chun’un çizimi, 1910 civarı | m/h20-vampsquid.jpg
+- 16 | hzriddle | Everest’i okyanusun en derin noktasına koysak, zirvesi su yüzeyinin altında mı kalır, üstünde mi? | —
+
+### 17:00–18:00 · Zekice Düşünce: İkiye Bölmenin Gücü · Clever Thinking: The Power of Halving
+- 17 | hzhalve | NEW/generator hzhalve | —
+- 17 | hzsteps | İki elinle 10’a kadar değil, 1.023’e kadar sayabilirsin | —
+- 17 | hzriddle | 100 dolaplı bir koridor. 1. kişi hepsini açıyor, 2. kişi her 2. dolabı, 3. kişi her 3. dolabı çeviriyor (açıksa kapatıyor, kapalıysa açıyor)… 100 kişi geçince hangileri açık kalır? | —
+- 17 | hzfact | Bir “kilobayt” uzun yıllar neden 1.000 değil de 1.024 bayt sayıldı? Çünkü 2’nin 10. kuvveti 1.024 | —
+
+### 18:00–19:00 · Gizlenme Ustaları · Masters of Disguise
+- 18 | hzphoto | Bir yaprak böceği: damarları, kenarları, hatta ısırılmış lekeleriyle bir yaprak | m/h20-leafinsect.jpg
+- 18 | hzphoto | Yosun kaplı bir dal mı, yoksa bir böcek mi? | m/h20-stick.jpg
+- 18 | hzphoto | Madagaskar’ın yaprak kuyruklu kertenkelesi: kuru bir yaprağın ta kendisi | m/h20-gecko.jpg
+- 18 | hzphoto | Gri potu: gündüz gözlerini kısıp kırık bir dal gibi dimdik durur | m/h20-potoo.jpg
+- 18 | hzphoto | Baykuş kelebeğinin kanadının altında kocaman bir göz deseni | m/h20-owlbfly.jpg
+- 18 | hzfact | Bukalemunlar renk değiştirmeyi çoğunlukla saklanmak için değil, duygularını göstermek ve ısınmak için kullanır | —
+
+### 19:00–20:00 · Karadeniz Mutfağı · The Black Sea Kitchen
+- 19 | hzphoto | Muhlama: mısır unu, tereyağı ve uzayan peynir | m/h20-kuymak.jpg
+- 19 | hzfact | Trabzon’un Vakfıkebir ekmeği iri, yuvarlak somunlarıyla ünlü: büyükleri birkaç kiloyu bulur | —
+- 19 | hzphoto | Karalahana sarması: Karadeniz’in vazgeçilmez yeşili, içi pirinç ya da mısır unuyla dolu | m/h20-karalahana.jpg
+- 19 | hzphoto | Hamsiköy sütlacı: üstü fındıkla süslenmiş, fırında kızarmış bir kase | m/h20-sutlac.jpg
+- 19 | hzphoto | Trabzon hurması: kasım ayının parlak turuncu meyvesi | m/h20-hurma.jpg
+- 19 | hzquote | Sabırla koruk helva olur, dut yaprağı atlas olur (atasözü · proverb) | —
+
+### 20:00–21:00 · Mimar Sinan’ın Kubbeleri · The Domes of Mimar Sinan
+- 20 | hzsteps | Mimar Sinan kendi eserlerini üç aşamaya ayırdı | —
+- 20 | hzphoto | Şehzade Camii — 1853 tarihli bir gravür (Gide et J. Baudry) | m/h20-sehzade.jpg
+- 20 | hzphoto | Süleymaniye’de, işlemeli bir kubbenin içi | m/h20-suleymaniye.jpg
+- 20 | hzphoto | Mihrimah Sultan Camii: duvarlarında yüzlerce pencereden süzülen ışık | m/h20-mihrimah.jpg
+- 20 | hzphoto | Rüstem Paşa Camii’nin çinileri: laleler, karanfiller ve bahar dalları | m/h20-rustem.jpg
+- 20 | hzphoto | Lüleburgaz’da Sinan’ın yaptığı Sokollu Mehmed Paşa Camii’nin aydınlık içi | m/h20-sokollu.jpg
+
+### 21:00–22:00 · Çözülemeyen Sırlar · Unsolved Mysteries
+- 21 | hzphoto | Voynich El Yazması: kimsenin okuyamadığı bir yazıyla, tanımadığımız bitkilerin çizimleri | m/h20-voynich.jpg
+- 21 | hzphoto | 15 Ağustos 1977: bir radyo teleskobu 72 saniyelik güçlü bir sinyal yakaladı | m/h20-wow.jpg
+- 21 | hzphoto | Mermi Kümesi: çarpışan iki galaksi kümesi | m/h20-bullet.jpg
+- 21 | hzphoto | Phaistos Diski: Tunç Çağı’ndan, kil üstüne damgalanmış 241 işaret | m/h20-phaistos.jpg
+- 21 | hzsteps | Neden uyuyoruz? | —
+- 21 | hzquote | Sözsüz konuşan bir ses vardır; dinle | —
+
+### 22:00–23:00 · Galeri: Hammershøi’nin Sessiz Odaları · Gallery: Hammershøi’s Quiet Rooms (sakin · calm)
+- 22 | hzphoto | Güneş Işığında Dans Eden Toz Zerreleri — Vilhelm Hammershøi, 1900 | m/h20-ham1.jpg
+- 22 | hzphoto | Dinlenme — Vilhelm Hammershøi, 1905 | m/h20-ham2.jpg
+- 22 | hzphoto | Arkası Dönük Genç Bir Kadınla İç Mekân — Vilhelm Hammershøi, 1903–1904 | m/h20-ham3.jpg
+- 22 | hzphoto | Yüksek Pencereler — Vilhelm Hammershøi, 1913 | m/h20-ham4.jpg
+- 22 | hzphoto | Sanatçının Strandgade’deki Evinde Bir Oda — Vilhelm Hammershøi | m/h20-ham5.jpg
+- 22 | hzquote | Görevin sevgiyi aramak değil; ona karşı içinde ördüğün duvarları bulmaktır | —
+
+### 23:00–02:00 · Yaylada Gece · Night in the Highlands (sakin · calm)
+- 23 | hzyayla | NEW/generator hzyayla | —
+- 23 | hzphoto | Durgun bir dağ gölünde yansıyan Samanyolu | m/h20-milkyway.jpg
+- 23 | hzsteps | Uyumadan önce: bugün öğrendiğin üç şey | —
+- 23 | hzphoto | Suyun üstünde yükselen dolunay ve gümüş bir yol | m/h20-moonsea.jpg
+- 23 | hzquote | Derdin dermanı, yine derdin içindedir | —
+
 ## 2026-11-19 · evening rework (rev 72, sets 17:00–19:00 rebuilt ~17:15–17:30, cozy rainy afternoon)
 
 M was in the living room alone; it was raining and he loved the earth-and-rain smell at the window. 17:00–19:00 replaced with a rainy-afternoon theme: petrichor science, Black Sea tea hills and a misty forest, rain in art, raindrop physics, a hearth fire. 20:00–02:00 left as the morning build. No new hz functions. 12 new CC/PD photos/artworks (m/h72-*). Replaced 17:00–19:00 images (m/h19-physarum, pontdugard, cistern, antikythera, yazd, marsselfie, marssunset, juno, pluto) archived to /workspace/tv-media-archive/h19-1719. Overlap check clean at 1920×1080 and 1280×720. Quote: Küçük, muttarid, muhteriz darbeler; kafeslerde, camlarda pür-ihtizâz (Tevfik Fikret, “Yağmur”, 17). Avoided 7-day repeats: Caillebotte Paris Street; Rainy Day (15 Nov), Hiroshige Sudden Shower over Shin-Ōhashi (13 and 17 Nov — 19:00 uses a different Hiroshige print, Shōno: Driving Rain, and says so on screen), raindrop teardrop-shape one-line fact (14 Nov — 19:00 goes deeper: bun / parachute / breakup), Rize 2,200 mm rainfall fact (14 Nov).
