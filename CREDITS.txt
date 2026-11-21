@@ -711,3 +711,50 @@ m/h74-pillars.jpg — Pillars of Creation (NIRCam Image).jpg — NASA, ESA, CSA,
 m/h74-orion.jpg — Orion Nebula - Hubble 2006 mosaic edit.jpg — NASA, ESA, M. Robberto / Hubble — Public domain — https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_edit.jpg
 m/h74-horsehead.jpg — Hubble Sees a Horsehead of a Different Color.jpg — NASA, ESA, Hubble Heritage Team — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Hubble_Sees_a_Horsehead_of_a_Different_Color.jpg
 m/h74-sun.jpg — The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg — NASA / SDO — Public domain — https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg
+
+## 2026-11-21 (days/2026-11-21.json, m/h21-*)
+m/h21-trabzonsea.jpg — ISS047-E-118739 - Trabzon and Trabzon Airport, Turkey.jpg — Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center — Public domain — https://commons.wikimedia.org/wiki/File:ISS047-E-118739_-_Trabzon_and_Trabzon_Airport,_Turkey.jpg
+m/h21-altindere.jpg — Altındere Valley National Park 02.jpg — BSRF — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Alt%C4%B1ndere_Valley_National_Park_02.jpg
+m/h21-senyuva.jpg — Şenyuva Köprüsü.jpg — Onur capıt — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%C5%9Eenyuva_K%C3%B6pr%C3%BCs%C3%BC.jpg
+m/h21-oranges.jpg — Fresh Pomelos Stacked at the Local Market.jpg — PAULIX04 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Fresh_Pomelos_Stacked_at_the_Local_Market.jpg
+m/h21-causeway.jpg — County Antrim - Giant's Causeway - Tops of Basalt Columns - geograph.org.uk - 3987884.jpg — Suzanne Mischyshyn — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:County_Antrim_-_Giant%27s_Causeway_-_Tops_of_Basalt_Columns_-_geograph.org.uk_-_3987884.jpg
+m/h21-huangshan.jpg — Huangshan mountain peak pine trees.jpg — Peter05031960 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Huangshan_mountain_peak_pine_trees.jpg
+m/h21-antelope.jpg — Upper antelope canyon light beam page arizona - Flickr - Mferbfriske.jpg — Mferbfriske — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Upper_antelope_canyon_light_beam_page_arizona_-_Flickr_-_Mferbfriske.jpg
+m/h21-milford.jpg — Milford Sound Mitre Peak Cabbage tree Toetoe.JPG — MurielBendel — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Milford_Sound_Mitre_Peak_Cabbage_tree_Toetoe.JPG
+m/h21-jiuzhaigou.jpg — 九寨溝-五花海 Jiuzhaigou Five Flower Lake 2.jpg — Culantor Lin — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E5%AF%A8%E6%BA%9D-%E4%BA%94%E8%8A%B1%E6%B5%B7_Jiuzhaigou_Five_Flower_Lake_2.jpg
+m/h21-icecave.jpg — Ice Cave Explorer - Iceland.jpg — Eric Kilby — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Ice_Cave_Explorer_-_Iceland.jpg
+m/h21-chapelle.jpg — Sainte-Chapelle, Paris, upper chapel windows.jpg — Gerda Arendt — CC0 — https://commons.wikimedia.org/wiki/File:Sainte-Chapelle,_Paris,_upper_chapel_windows.jpg
+m/h21-cordoba.jpg — Córdoba - Mezquita-Catedral - Interior - 10.jpg — Benjamin Smith — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_-_Mezquita-Catedral_-_Interior_-_10.jpg
+m/h21-kings.jpg — King's College Chapel - fan vault ceiling - geograph.org.uk - 3422049.jpg — The Carlisle Kid — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:King%27s_College_Chapel_-_fan_vault_ceiling_-_geograph.org.uk_-_3422049.jpg
+m/h21-pantheon.jpg — Light from the Pantheon oculus, Rome (2).jpg — Quentin Lowagie / Klow — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Light_from_the_Pantheon_oculus,_Rome_(2).jpg
+m/h21-longroom.jpg — Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg — Diliff — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg
+m/h21-rem1.jpg — La ronda de noche, por Rembrandt van Rijn.jpg — Rembrandt — Public domain — https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg
+m/h21-rem3.jpg — Rembrandt - The Philosopher in Meditation (cleaned).jpg — Rembrandt — Public domain — https://commons.wikimedia.org/wiki/File:Rembrandt_-_The_Philosopher_in_Meditation_(cleaned).jpg
+m/h21-rem4.jpg — Rembrandt Christ in the Storm on the Lake of Galilee.jpg — Rembrandt — Public domain — https://commons.wikimedia.org/wiki/File:Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg
+m/h21-rem2.jpg — Rembrandt Harmensz van Rijn - Return of the Prodigal Son - Google Art Project.jpg — Rembrandt — Public domain — https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg
+m/h21-rem5.jpg — Rembrandt Self-portrait (Kenwood).jpg — Rembrandt — Public domain — https://commons.wikimedia.org/wiki/File:Rembrandt_Self-portrait_(Kenwood).jpg
+m/h21-nlc.jpg — Helkivad ööpilved Kuresoo kohal.jpg — Martin Koitmäe [1] — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Helkivad_%C3%B6%C3%B6pilved_Kuresoo_kohal.jpg
+m/h21-zodiacal.jpg — Zodiacal Light Seen from Paranal.jpg — ESO/Y.Beletsky — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Zodiacal_Light_Seen_from_Paranal.jpg
+m/h21-m51.jpg — Messier51 sRGB.jpg — NASA and European Space Agency — Public domain — https://commons.wikimedia.org/wiki/File:Messier51_sRGB.jpg
+m/h21-helix.jpg — Comets Kick up Dust in Helix Nebula (PIA09178).jpg — NASA/JPL-Caltech/Univ. of Ariz. — Public domain — https://commons.wikimedia.org/wiki/File:Comets_Kick_up_Dust_in_Helix_Nebula_(PIA09178).jpg
+m/h21-ringneb.jpg — Southern Ring Nebula (NIRCam and MIRI Images Side by Side).png — Image: National Aeronautics and Space Administration (a U.S. federal government agency; https://www.nasa.gov/) European space agency (https://www.esa.int/), Canadian Space Agency (https://www.asc-csa.gc.ca/eng/) Space Telescope Science Institute (https://www.stsci.edu/, science operations center for the Hubble Space Telescope) — Public domain — https://commons.wikimedia.org/wiki/File:Southern_Ring_Nebula_(NIRCam_and_MIRI_Images_Side_by_Side).png
+m/h21-stove.jpg — Wood Burning Stove (245173739).jpg — daryl_mitchell from Saskatoon, Saskatchewan, Canada — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Wood_Burning_Stove_(245173739).jpg
+m/h21-chestnuts.jpg — Roasted chestnuts vendor at dusk, Praça da Figueira, Lisbon, Portugal julesvernex2.jpg — Jules Verne Times Two — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Roasted_chestnuts_vendor_at_dusk,_Pra%C3%A7a_da_Figueira,_Lisbon,_Portugal_julesvernex2.jpg
+m/h21-kakelugn.jpg — A tiled stove in the Art Nouveau style produced by the porcelaine manufacturer Rörstrand, Stockholm, c. 1900.jpg — Svante.tiren — CC0 — https://commons.wikimedia.org/wiki/File:A_tiled_stove_in_the_Art_Nouveau_style_produced_by_the_porcelaine_manufacturer_R%C3%B6rstrand,_Stockholm,_c._1900.jpg
+m/h21-larsson.jpg — Carl Larsson-Lathörnet.jpg — Carl Larsson — Public domain — https://commons.wikimedia.org/wiki/File:Carl_Larsson-Lath%C3%B6rnet.jpg
+m/h21-strahov.jpg — Strahov knihovna Filosof 1.jpg — VitVit — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Strahov_knihovna_Filosof_1.jpg
+m/h21-peabody.jpg — George-peabody-library.jpg — Matthew Petroff — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:George-peabody-library.jpg
+m/h21-gabinete.jpg — Real Gabinete Português de Leitura 03.jpg — Donatas Dabravolskas — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Real_Gabinete_Portugu%C3%AAs_de_Leitura_03.jpg
+m/h21-ocak.jpg — Guest's Room (31755302908).jpg — David Stanley from Nanaimo, Canada — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Guest%27s_Room_(31755302908).jpg
+m/h21-dedekorkut.jpg — The opening page of the Gonbad Manuscript of the Book of Dede Korkut, discovered in Iran.jpg — Unknown author — Public domain — https://commons.wikimedia.org/wiki/File:The_opening_page_of_the_Gonbad_Manuscript_of_the_Book_of_Dede_Korkut,_discovered_in_Iran.jpg
+m/h21-meddah.jpg — Meddah story teller.png — Thomas Allom — Public domain — https://commons.wikimedia.org/wiki/File:Meddah_story_teller.png
+m/h21-sheherazade.jpg — Scheherazade.tif — Sophie Gengembre Anderson — Public domain — https://commons.wikimedia.org/wiki/File:Scheherazade.tif
+m/h21-dulac.jpg — Stories from the Arabian nights - London 1907 - plate 02.jpg — Edmund Dulac — Public domain — https://commons.wikimedia.org/wiki/File:Stories_from_the_Arabian_nights_-_London_1907_-_plate_02.jpg
+m/h21-nutcracker.jpg — Clark's Nutcracker Rocky Mountain National Park.jpg — Polinova — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Clark%27s_Nutcracker_Rocky_Mountain_National_Park.jpg
+m/h21-neer1.jpg — Aert van der Neer - Moonlit Landscape with a Windmill - 2001.35 - Detroit Institute of Arts.jpg — Aert van der Neer — Public domain — https://commons.wikimedia.org/wiki/File:Aert_van_der_Neer_-_Moonlit_Landscape_with_a_Windmill_-_2001.35_-_Detroit_Institute_of_Arts.jpg
+m/h21-neer2.jpg — Van der Neer - Moonlit Landscape with Bridge.jpg — Aert van der Neer — Public domain — https://commons.wikimedia.org/wiki/File:Van_der_Neer_-_Moonlit_Landscape_with_Bridge.jpg
+m/h21-neer3.jpg — Aert van der Neer - Maanlandschap - 0076 - Rijksmuseum Twenthe.jpg — Aert van der Neer — Public domain — https://commons.wikimedia.org/wiki/File:Aert_van_der_Neer_-_Maanlandschap_-_0076_-_Rijksmuseum_Twenthe.jpg
+m/h21-neer4.jpg — Aert van der Neer - Moonlight at a Dutch River.jpg — Aert van der Neer — CC0 — https://commons.wikimedia.org/wiki/File:Aert_van_der_Neer_-_Moonlight_at_a_Dutch_River.jpg
+m/h21-neer5.jpg — Aert van der Neer - Winter Landscape.jpg — Aert van der Neer — Public domain — https://commons.wikimedia.org/wiki/File:Aert_van_der_Neer_-_Winter_Landscape.jpg
+m/h21-earthshine.jpg — The crescent Moon and earthshine.jpg — ESO/B. Tafreshi/TWAN (twanight.org) — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:The_crescent_Moon_and_earthshine.jpg
+m/h21-owl.jpg — Tawny wiki edit1.jpg — K.-M. Hansche - Edited by: Arad — CC BY-SA 2.5 — https://commons.wikimedia.org/wiki/File:Tawny_wiki_edit1.jpg

@@ -1,3 +1,118 @@
+## 2026-11-21 (rev 75, hourly sets 09:00–02:00, days/2026-11-21.json) · Saturday
+
+No pending requests in requests.md (verified ~08:00). Carried forward M’s 20 Nov taste: 11:00–14:00 guest-worthy (breathtaking places, architecture, great masters, wonders of the sky — no puzzles in those hours) and 17:00–19:00 cozy (woodstove/chestnuts/tiled stove, warm libraries, stories by the hearth) with fresh topics. 6 new hz scenes (hourly.js v75): generators hzpack (circle packing) hzbenford (Benford’s law: first digits of 2ⁿ, Fibonacci, n!) hzbirthday (birthday paradox simulation on a 365-day ring) hztren (night train along a lake, calm night) + illusions hzsilence (silencing illusion, Suchow & Alvarez 2011) hzsfm (kinetic depth / structure-from-motion sphere). 45 new CC/PD photos/artworks (m/h21-*). h19-* and h72-* archived to /workspace/tv-media-archive/h19 and /h72 (site ~48 MB after adding h21-*). Quotes: Şefkat ve merhamette güneş gibi ol; tevazuda toprak gibi ol (Mevlânâ, 09); Güneş, bir binanın duvarına vurana kadar… (Louis Kahn, 12); Ya olduğun gibi görün, ya göründüğün gibi ol (Mevlânâ, 13); Hamdım, piştim, yandım (Mevlânâ, 17); Cenneti hep bir tür kütüphane olarak hayal ettim (Borges, 18); Dinle, bu ney nasıl şikâyet ediyor (Mevlânâ, 19); Başkalarının kusurunu örtmede gece gibi ol (Mevlânâ, 22); Bu da geçer yâ hû (tasavvuf sözü, 23). Avoided 7-day repeats incl. Friedrich/Vermeer/Shishkin (17 Nov), Hanoi (14 Nov), kemençe (14 Nov), candle (17 Nov), Nasreddin/Karagöz, sea of clouds, Sumela/Zağnos/Gülbahar, lily-doubling and paper-folding riddles; dropped Lotfollah dome and Admont/Joanina libraries for gold-heavy looks.
+
+### 09:00–10:00 · Cumartesi Sabahı · Saturday Morning
+- 09 | hzphoto | Uluslararası Uzay İstasyonu’ndan Trabzon: kıyı şeridi, havalimanı ve Karadeniz | m/h21-trabzonsea.jpg
+- 09 | hzquote | Şefkat ve merhamette güneş gibi ol; tevazuda toprak gibi ol | —
+- 09 | hzphoto | Maçka’da Altındere Vadisi: dere boyunca yükselen sık ormanlı yamaçlar | m/h21-altindere.jpg
+- 09 | hzphoto | Fırtına Deresi’nin üstünde, tek kemerli taş Şenyuva Köprüsü | m/h21-senyuva.jpg
+- 09 | hzfact | “Cumartesi” kelimesi “cuma” ile “ertesi”nin birleşimi: kelimenin tam anlamıyla “cumadan sonraki gün” | —
+- 09 | hzriddle | Ondan ne kadar çok alırsan, o kadar büyür. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Daire Doldurma · Living Art: Circle Packing
+- 10 | hzpack | NEW/generator hzpack | —
+- 10 | hzsteps | Portakalları bir kasaya en sıkı nasıl dizersin? | —
+- 10 | hzphoto | Pazarda yığılmış taze pomelolar: greyfurtun iri akrabası | m/h21-oranges.jpg
+- 10 | hzphoto | Dev’in Geçidi: çoğu altıgen, on binlerce bazalt sütunun tepesi | m/h21-causeway.jpg
+- 10 | hzriddle | Aynı büyüklükte madeni paralarla: bir paranın çevresine, hepsi ona değecek şekilde en fazla kaç para dizebilirsin? | —
+- 10 | hzfact | Üç boyutta, aynı büyüklükteki bir kürenin çevresine en fazla 12 küre değebilir | —
+
+### 11:00–12:00 · Nefes Kesen Yerler: Işık, Su ve Taş · Breathtaking Places: Light, Water & Stone
+- 11 | hzphoto | Huangshan’ın granit zirveleri ve kayaya tutunan çamlar | m/h21-huangshan.jpg
+- 11 | hzphoto | Antilop Kanyonu’nun dar yarığına inen tek bir ışık huzmesi | m/h21-antelope.jpg
+- 11 | hzphoto | Milford Sound: denizden dimdik yükselen Mitre Tepesi | m/h21-milford.jpg
+- 11 | hzphoto | Beş Çiçek Gölü: o kadar berrak ki dipteki devrik ağaç gövdeleri bile görünüyor | m/h21-jiuzhaigou.jpg
+- 11 | hzphoto | Bir buzulun içinde, mavi bir buz mağarasında tek başına bir kâşif | m/h21-icecave.jpg
+
+### 12:00–13:00 · Işıkla Kurulan Mimari · Architecture of Light
+- 12 | hzphoto | Sainte-Chapelle’in üst şapeli: duvarların yerini neredeyse tamamen vitraylar almış | m/h21-chapelle.jpg
+- 12 | hzphoto | Kurtuba Camii’nin kırmızı-beyaz çift katlı kemerleri: bir taş ormanı | m/h21-cordoba.jpg
+- 12 | hzphoto | Dünyanın en büyük yelpaze tonozu: taş, dantel gibi açılıyor | m/h21-kings.jpg
+- 12 | hzphoto | Tepedeki yaklaşık 8 metrelik açıklıktan giren güneş, iç duvara parlak bir ışık lekesi düşürüyor | m/h21-pantheon.jpg
+- 12 | hzphoto | Long Room: 65 metre boyunca uzanan ahşap raflar ve tonozlu tavan | m/h21-longroom.jpg
+- 12 | hzquote | Güneş, bir binanın duvarına vurana kadar ne kadar büyük olduğunu bilmiyordu (Louis Kahn · mimar · architect) | —
+
+### 13:00–14:00 · Büyük Ustalardan: Rembrandt’ın Işığı · From the Great Masters: The Light of Rembrandt
+- 13 | hzphoto | Gece Devriyesi — Rembrandt, 1642 | m/h21-rem1.jpg
+- 13 | hzphoto | Düşünceye Dalmış Filozof — Rembrandt’a atfedilir, 1632 | m/h21-rem3.jpg
+- 13 | hzphoto | Celile Gölü’nde Fırtına — Rembrandt, 1633 | m/h21-rem4.jpg
+- 13 | hzphoto | Müsrif Oğlun Dönüşü — Rembrandt, yaklaşık 1668 | m/h21-rem2.jpg
+- 13 | hzphoto | İki Daireli Otoportre — Rembrandt, yaklaşık 1665 | m/h21-rem5.jpg
+- 13 | hzquote | Ya olduğun gibi görün, ya göründüğün gibi ol | —
+
+### 14:00–15:00 · Gökyüzünün Harikaları: Gecenin Işıkları · Wonders of the Sky: Lights of the Night
+- 14 | hzphoto | Gece parlayan bulutlar: güneş battıktan çok sonra bile ışıldayan mavi tüller | m/h21-nlc.jpg
+- 14 | hzphoto | Zodyak ışığı: Güneş Sistemi’ndeki tozdan yansıyan güneş ışığının hafif konisi | m/h21-zodiacal.jpg
+- 14 | hzphoto | Girdap Galaksisi ve ona sürtünerek geçen küçük komşusu | m/h21-m51.jpg
+- 14 | hzphoto | Sarmal Bulutsusu: ölmekte olan bir yıldızın dışarı attığı gaz katmanları (kızılötesi, renkler temsili) | m/h21-helix.jpg
+- 14 | hzphoto | Aynı bulutsu, James Webb’in iki kamerasıyla: solda NIRCam, sağda MIRI (renkler temsili) | m/h21-ringneb.jpg
+
+### 15:00–16:00 · Göz Oyunları: Hareket Beyni Kandırınca · Tricks of the Eye: When Motion Fools the Brain
+- 15 | hzsilence | NEW/illusion hzsilence | —
+- 15 | hzsteps | Beyin neden bu kadar kolay kanıyor? | —
+- 15 | hzsfm | NEW/illusion hzsfm | —
+- 15 | hzriddle | Saat 3’ü 15 geçiyor. Akrep ile yelkovan arasındaki açı kaç derece? | —
+- 15 | hzfact | İnsan beyninin dış katmanının yaklaşık üçte biri görmeyle ilgili işlerde çalışır | —
+
+### 16:00–17:00 · Zekice Düşünce: İlk Rakamın Sırrı · Clever Thinking: The Secret of the First Digit
+- 16 | hzbenford | NEW/generator hzbenford | —
+- 16 | hzsteps | Bir müfettiş sahte faturaları yalnızca ilk rakamlara bakarak nasıl yakalar? | —
+- 16 | hzriddle | Bir kitabın sayfalarını 1’den 100’e kadar numaralandırıyorsun. Toplam kaç tane “1” rakamı yazarsın? | —
+- 16 | hzfact | 2’nin kuvvetleri hiç 9 ile başlar mı? Başlar — ilk kez 2⁵³ = 9.007.199.254.740.992’de | —
+
+### 17:00–18:00 · Sobanın Başında · By the Woodstove
+- 17 | hzphoto | Odun sobasının üstünde bir çaydanlık: kış akşamlarının en sıcak sesi | m/h21-stove.jpg
+- 17 | hzphoto | Akşam alacasında közde kestane: dumanı, kokusu ve avuçları ısıtan kese kâğıdı | m/h21-chestnuts.jpg
+- 17 | hzphoto | Odanın köşesinde beyaz çinili bir soba: hem ısıtıyor hem bir heykel gibi duruyor | m/h21-kakelugn.jpg
+- 17 | hzphoto | Tembellik Köşesi — Carl Larsson, “Bir Ev” serisinden, 1890’lar | m/h21-larsson.jpg
+- 17 | hzquote | Hamdım, piştim, yandım | —
+
+### 18:00–19:00 · Kütüphanelerin Sıcaklığı · The Warmth of Libraries
+- 18 | hzphoto | Felsefe Salonu: tavana kadar ceviz raflar ve yükseklerde bir fresk | m/h21-strahov.jpg
+- 18 | hzphoto | Beş kat yükselen dökme demir balkonlar ve tepede cam bir çatı | m/h21-peabody.jpg
+- 18 | hzphoto | Rio’daki Portekiz Okuma Salonu: tavana kadar ahşap raflar ve renkli cam bir tavan feneri | m/h21-gabinete.jpg
+- 18 | hzfact | Eski kitap kokusunun bir sebebi var: yaşlanan kâğıttaki lignin, yavaş yavaş vanilin gibi tatlı kokulu bileşikler salar | —
+- 18 | hzquote | Cenneti hep bir tür kütüphane olarak hayal ettim (Jorge Luis Borges · yazar · writer) | —
+
+### 19:00–20:00 · Ocak Başında Hikâyeler · Stories by the Hearth
+- 19 | hzphoto | Osmanlı tarzı Zekâte Evi’nde (1812) misafir odası: oymalı ahşap tavan, sedirler ve bir ocak | m/h21-ocak.jpg
+- 19 | hzphoto | Dede Korkut Kitabı’nın Gonbad yazmasının ilk sayfası | m/h21-dedekorkut.jpg
+- 19 | hzphoto | Bir kahvehanede meddah — Thomas Allom, 1838 | m/h21-meddah.jpg
+- 19 | hzphoto | Şehrazat — Sophie Gengembre Anderson | m/h21-sheherazade.jpg
+- 19 | hzphoto | Binbir Gece Masalları’ndan bir sahne — Edmund Dulac, 1907 | m/h21-dulac.jpg
+- 19 | hzriddle | Ak koyun, kara koyun; biri gelir, biri gider, birbirinin peşini hiç bırakmaz. Nedir? | —
+- 19 | hzquote | Dinle, bu ney nasıl şikâyet ediyor; ayrılıkları nasıl anlatıyor | —
+
+### 20:00–21:00 · Zekice Düşünce: Doğum Günü Paradoksu · Clever Thinking: The Birthday Paradox
+- 20 | hzbirthday | NEW/generator hzbirthday | —
+- 20 | hzsteps | Neden yalnızca 23 kişi yeter? | —
+- 20 | hzriddle | Bir futbol maçında sahada 23 kişi var: 22 oyuncu ve hakem. Sence maçların kaçında iki kişinin doğum günü aynıdır? | —
+- 20 | hzriddle | Şimdi siz deneyin! Odadaki herkes doğum gününü söylesin: aynı ayda doğan var mı? | —
+- 20 | hzfact | 366 kişide (29 Şubat’ı saymazsak) eşleşme kesin: buna güvercin yuvası ilkesi denir | —
+
+### 21:00–22:00 · Hafızanın Sırları · Secrets of Memory
+- 21 | hzsteps | Hafıza sarayı: bu 6 şeyi evin içinde “yerleştirerek” ezberle — saatin sonunda soracağız! | —
+- 21 | hzsteps | Hafıza sarayı neden işe yarar? | —
+- 21 | hzphoto | Clark fındıkkıranı: hafızanın gerçek şampiyonlarından bir kuş | m/h21-nutcracker.jpg
+- 21 | hzfact | Hermann Ebbinghaus anlamsız heceleri ezberleyip kendini test etti: yeni öğrenilenin büyük kısmı ilk gün içinde unutuluyordu | —
+- 21 | hzriddle | Hafıza sarayını hatırlıyor musun? Balkonda ne vardı? Ya merdivende? | —
+
+### 22:00–23:00 · Galeri: Aert van der Neer’in Ay Işığı · Gallery: The Moonlight of Aert van der Neer (sakin · calm)
+- 22 | hzphoto | Ay Işığında Yel Değirmenli Manzara — Aert van der Neer | m/h21-neer1.jpg
+- 22 | hzphoto | Köprülü Ay Işığı Manzarası — Aert van der Neer | m/h21-neer2.jpg
+- 22 | hzphoto | Ay Işığında Manzara — Aert van der Neer | m/h21-neer3.jpg
+- 22 | hzphoto | Hollanda’da Bir Nehirde Ay Işığı — Aert van der Neer | m/h21-neer4.jpg
+- 22 | hzphoto | Kış Manzarası — Aert van der Neer | m/h21-neer5.jpg
+- 22 | hzquote | Başkalarının kusurunu örtmede gece gibi ol | —
+
+### 23:00–02:00 · Gece Treni · The Night Train (sakin · calm)
+- 23 | hztren | NEW/generator hztren | —
+- 23 | hzphoto | İnce bir hilal ve Ay’ın karanlık yüzünde hafif bir ışıltı | m/h21-earthshine.jpg
+- 23 | hzsteps | Uyumadan önce küçük bir yolculuk | —
+- 23 | hzphoto | Alaca baykuş: gecenin sessiz avcısı | m/h21-owl.jpg
+- 23 | hzquote | Bu da geçer yâ hû (tasavvuf geleneğinden · from the Sufi tradition) | —
+
 ## 2026-11-20 · afternoon rework (rev 74, sets 11:00–14:00 rebuilt ~11:45, guest-worthy)
 
 M was in the living room alone and said someone might drop in, so the TV should look stunning. 11:00–14:00 replaced the morning’s Bierstadt gallery, Sieve of Eratosthenes / primes, thought experiments, and villa-guest-ritual ideas. New themes: breathtaking real places, architecture, great masters, wonders of the sky (no math puzzles or quiz games in these hours). The sieve hour and the 13:00 thought experiments were moved off the afternoon and not rescheduled, so later guest-worthy hours stay as built; 17:00 still has the 20-questions / binary search set (hzhalve). Recamán at 10:00 had already elapsed. No new hz functions. 20 new CC/PD photos/artworks (m/h74-*). Replaced 11:00–14:00 images (m/h20-bier1–5, euclid, cicada, breakfast, pestemal, windowseat, outdoorbath) archived to /workspace/tv-media-archive/h20-1114. Quotes: Akıllılığını sat, hayret satın al (Mevlânâ, 11); Ne kadar sessizleşirsen, o kadar çok duyarsın (Mevlânâ, 13). Avoided 7-day repeats including Bierstadt (this morning), Aivazovsky (15 Nov), Kuindzhi/Levitan (15 Nov), Saturn/Cassini (18 Nov), aurora and Earth-from-above (18 Nov), Earthrise and Pale Blue Dot (18 Nov), sun halo and circumhorizontal arc (16 Nov), snowflake (17 Nov), Andromeda (18 Nov), Carina JWST (13 Nov), Pamukkale and Cappadocia (13 Nov), Ha Long and Moraine (14 Nov), Plitvice (14 Nov), Faroe (14 Nov), Socotra and Zhangye Danxia (18 Nov), Alhambra water-channel fact (15 Nov — 12:00 uses a new courtyard photo, not that fact), Monet/Hokusai/Hiroshige/Van Gogh/Hammershøi and other recent galleries.

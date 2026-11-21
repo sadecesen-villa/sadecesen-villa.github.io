@@ -1,0 +1,1138 @@
+{
+ "date": "2026-11-21",
+ "rev": 75,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-21.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-21-09",
+   "name": "Cumartesi Sabahı · Saturday Morning",
+   "from": "2026-11-21T09:00",
+   "until": "2026-11-21T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-trabzonsea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Uzaydan Trabzon · Trabzon from Space",
+     "tr": "Uluslararası Uzay İstasyonu’ndan Trabzon: kıyı şeridi, havalimanı ve Karadeniz",
+     "en": "Trabzon seen from the International Space Station — the coastline, the airport and the Black Sea",
+     "cr": "Foto · Photo: NASA / ISS Expedition 47 (Earth Science and Remote Sensing Unit, JSC) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "İstasyon yaklaşık 400 km yükseklikte, saatte 28.000 km hızla döner; Trabzon’un üstünden birkaç saniyede geçer",
+     "facte": "The station orbits about 400 km up at roughly 28,000 km/h — it crosses over Trabzon in a few seconds"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Şefkat ve merhamette güneş gibi ol;|tevazuda toprak gibi ol",
+     "en": "In compassion and mercy be like the sun; in humility be like the earth",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h21-altindere.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Altındere Vadisi Milli Parkı · Maçka, Trabzon",
+     "tr": "Maçka’da Altındere Vadisi: dere boyunca yükselen sık ormanlı yamaçlar",
+     "en": "Altındere Valley in Maçka — densely forested slopes rising along the stream",
+     "cr": "Foto · Photo: BSRF · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Vadi 1987’de milli park ilan edildi; ladin, kayın ve kızılağaç ormanlarıyla kaplı",
+     "facte": "The valley became a national park in 1987 — covered in spruce, beech and alder forest",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-senyuva.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Şenyuva Köprüsü · Çamlıhemşin, Rize",
+     "tr": "Fırtına Deresi’nin üstünde, tek kemerli taş Şenyuva Köprüsü",
+     "en": "The single-arched stone Şenyuva Bridge over the Fırtına stream",
+     "cr": "Foto · Photo: Onur capıt · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "1696’da yapıldığı kabul edilir. Kemer, yükü taşların birbirine baskısıyla iki yakaya aktarır; bu yüzden yüzyıllardır sellere dayanır",
+     "facte": "Traditionally dated to 1696. An arch passes the load to both banks through stones pressing on each other — that is how it has survived centuries of floods"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Cumartesi",
+     "tr": "“Cumartesi” kelimesi “cuma” ile “ertesi”nin birleşimi: kelimenin tam anlamıyla “cumadan sonraki gün”",
+     "en": "“Cumartesi” (Saturday) joins “cuma” and “ertesi” — literally “the day after Friday”",
+     "src": "İngilizce Saturday ise Roma tanrısı Satürn’ün günü · The English Saturday is Saturn’s day, named after the Roman god",
+     "c1": "#1c2a30",
+     "c2": "#050809"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ondan ne kadar çok alırsan, o kadar büyür. Nedir?",
+     "qe": "The more you take from it, the bigger it gets. What is it?",
+     "a": "Bir çukur!",
+     "ae": "A hole!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-10",
+   "name": "Yaşayan Sanat: Daire Doldurma · Living Art: Circle Packing",
+   "from": "2026-11-21T10:00",
+   "until": "2026-11-21T11:00",
+   "items": [
+    {
+     "k": "hzpack",
+     "d": 100
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Portakalları bir kasaya en sıkı nasıl dizersin?",
+     "e": "What is the tightest way to stack oranges in a crate?",
+     "c1": "#1b2a2e",
+     "c2": "#060a0c",
+     "gap": 8,
+     "steps": [
+      [
+       "Rastgele dökersen hacmin yaklaşık %64’ü dolar",
+       "Pour them in at random and they fill about 64% of the space",
+       "🍊"
+      ],
+      [
+       "Manavın piramidi gibi dizersen: yaklaşık %74",
+       "Stack them like a greengrocer’s pyramid — about 74%",
+       ""
+      ],
+      [
+       "Kepler 1611’de bunun en iyisi olduğunu tahmin etti ama kanıtlayamadı",
+       "Kepler guessed in 1611 that this is the best possible, but could not prove it",
+       ""
+      ],
+      [
+       "Thomas Hales 1998’de bilgisayar yardımıyla kanıtladı; tam doğrulama 2014’te bitti",
+       "Thomas Hales proved it with computer help in 1998; full verification was finished in 2014",
+       ""
+      ]
+     ],
+     "fin": "Manavlar 400 yıldır doğrusunu yapıyormuş: matematik sonunda onlara yetişti",
+     "fine": "Greengrocers had it right for 400 years — mathematics finally caught up"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h21-oranges.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Pazar tezgâhı · Market stall",
+     "tr": "Pazarda yığılmış taze pomelolar: greyfurtun iri akrabası",
+     "en": "Fresh pomelos piled up at a local market — the grapefruit’s big relative",
+     "cr": "Foto · Photo: PAULIX04 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yuvarlak şeyler nasıl dizilirse dizilsin arada boşluk kalır; en iyi dizilişte bile hacmin yaklaşık %26’sı hava",
+     "facte": "Round things always leave gaps — even in the best arrangement about 26% of the space is air"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-causeway.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Dev’in Geçidi, Kuzey İrlanda · Giant’s Causeway, Northern Ireland",
+     "tr": "Dev’in Geçidi: çoğu altıgen, on binlerce bazalt sütunun tepesi",
+     "en": "The Giant’s Causeway — the tops of tens of thousands of basalt columns, most of them hexagonal",
+     "cr": "Foto · Photo: Suzanne Mischyshyn · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Lav yavaşça soğurken büzülüp çatlar; çatlaklar, bir yüzeyi en az enerjiyle bölen altıgenlere doğru yerleşir",
+     "facte": "As lava cools slowly it shrinks and cracks — and the cracks settle toward hexagons, the most economical way to divide a surface"
+    },
+    {
+     "k": "hzriddle",
+     "d": 36,
+     "q": "Aynı büyüklükte madeni paralarla: bir paranın çevresine, hepsi ona değecek şekilde en fazla kaç para dizebilirsin?",
+     "qe": "With coins all the same size, how many can you place around one coin so that each one touches it?",
+     "a": "6! Tam altı tane sığar — yine altıgen",
+     "ae": "6! Exactly six fit — the hexagon again",
+     "sec": 22,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "12",
+     "tr": "Üç boyutta, aynı büyüklükteki bir kürenin çevresine en fazla 12 küre değebilir",
+     "en": "In three dimensions, at most 12 equal spheres can touch a central one",
+     "src": "Newton 12 dedi, Gregory 13; 1694’teki tartışmanın kanıtı ancak 1953’te geldi · Newton said 12, Gregory said 13 — their 1694 debate was only settled by a proof in 1953",
+     "c1": "#1a2830",
+     "c2": "#05080a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-11",
+   "name": "Nefes Kesen Yerler: Işık, Su ve Taş · Breathtaking Places: Light, Water & Stone",
+   "from": "2026-11-21T11:00",
+   "until": "2026-11-21T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-huangshan.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Huangshan, Çin · Huangshan, China",
+     "tr": "Huangshan’ın granit zirveleri ve kayaya tutunan çamlar",
+     "en": "The granite peaks of Huangshan and the pines clinging to the rock",
+     "cr": "Foto · Photo: Peter05031960 · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Huangshan çamları kökleriyle granitin çatlaklarına tutunur; bazıları yüzlerce yaşında ve her birinin bir adı var",
+     "facte": "Huangshan pines grip cracks in the granite with their roots — some are centuries old and each has a name",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-antelope.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Antilop Kanyonu, Arizona · Antelope Canyon, Arizona",
+     "tr": "Antilop Kanyonu’nun dar yarığına inen tek bir ışık huzmesi",
+     "en": "A single beam of light dropping into the narrow slot of Antelope Canyon",
+     "cr": "Foto · Photo: Mferbfriske · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Bu dalgalı kumtaşı duvarları ani sel suları oydu; ışık huzmeleri en çok yaz aylarında, öğle saatlerinde görülür",
+     "facte": "Flash floods carved these wavy sandstone walls; the light beams appear mostly around midday in summer"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-milford.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Milford Sound, Yeni Zelanda · Milford Sound, New Zealand",
+     "tr": "Milford Sound: denizden dimdik yükselen Mitre Tepesi",
+     "en": "Milford Sound — Mitre Peak rising straight out of the sea",
+     "cr": "Foto · Photo: MurielBendel · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Aslında bir fiyort: buzullar oydu, sonra deniz doldurdu. Yılda ortalama 6 metreden fazla yağmur alır",
+     "facte": "It is really a fjord — carved by glaciers, then filled by the sea. It gets more than 6 metres of rain a year"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-jiuzhaigou.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Jiuzhaigou, Çin · Jiuzhaigou, China",
+     "tr": "Beş Çiçek Gölü: o kadar berrak ki dipteki devrik ağaç gövdeleri bile görünüyor",
+     "en": "Five Flower Lake — so clear that even the fallen tree trunks on the bottom are visible",
+     "cr": "Foto · Photo: Culantor Lin · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Renkleri kireçli suyun berraklığından, dipteki yosun ve tortulardan gelir",
+     "facte": "Its colours come from crystal-clear limestone water and the algae and deposits on the bottom"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-icecave.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Buzul mağarası, İzlanda · Glacier ice cave, Iceland",
+     "tr": "Bir buzulun içinde, mavi bir buz mağarasında tek başına bir kâşif",
+     "en": "A lone explorer inside a blue ice cave within a glacier",
+     "cr": "Foto · Photo: Eric Kilby · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Yoğun buz kırmızı ışığı yutar, maviyi geçirir; mağaralar her yıl erir ve yeniden şekillenir, aynısı bir daha olmaz",
+     "facte": "Dense ice absorbs red light and lets blue through — the caves melt and reshape every year, never the same twice"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-12",
+   "name": "Işıkla Kurulan Mimari · Architecture of Light",
+   "from": "2026-11-21T12:00",
+   "until": "2026-11-21T13:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-chapelle.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sainte-Chapelle, Paris",
+     "tr": "Sainte-Chapelle’in üst şapeli: duvarların yerini neredeyse tamamen vitraylar almış",
+     "en": "The upper chapel of Sainte-Chapelle — the walls almost entirely replaced by stained glass",
+     "cr": "Foto · Photo: Gerda Arendt · CC0 · Wikimedia Commons",
+     "fact": "1248’de tamamlandı; 15 büyük pencerede 1.113 sahne var, yaklaşık 600 m² cam",
+     "facte": "Completed in 1248 — its 15 great windows tell 1,113 scenes in about 600 m² of glass"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-cordoba.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kurtuba Camii, İspanya · Mezquita of Córdoba, Spain",
+     "tr": "Kurtuba Camii’nin kırmızı-beyaz çift katlı kemerleri: bir taş ormanı",
+     "en": "The red-and-white double arches of the Córdoba Mezquita — a forest of stone",
+     "cr": "Foto · Photo: Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bugün 856 sütun ayakta; üst üste iki kemer, kısa antik sütunları kullanırken tavanı yükseltmenin zekice bir yoluydu",
+     "facte": "856 columns still stand — stacking two arches was a clever way to raise the ceiling while reusing short ancient columns"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-kings.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · King’s College Şapeli, Cambridge · King’s College Chapel, Cambridge",
+     "tr": "Dünyanın en büyük yelpaze tonozu: taş, dantel gibi açılıyor",
+     "en": "The world’s largest fan vault — stone opening like lace",
+     "cr": "Foto · Photo: The Carlisle Kid · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "1512–1515 arasında yapıldı; o zarif yelpazeler aslında taşın ağırlığını duvarlara ve payandalara taşıyan bir iskelet",
+     "facte": "Built 1512–1515 — those delicate fans are really a skeleton carrying the stone’s weight to the walls and buttresses"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-pantheon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Pantheon, Roma · Pantheon, Rome",
+     "tr": "Tepedeki yaklaşık 8 metrelik açıklıktan giren güneş, iç duvara parlak bir ışık lekesi düşürüyor",
+     "en": "Sunlight from the roughly 8-metre opening at the top falls as a bright patch on the interior wall",
+     "cr": "Foto · Photo: Quentin Lowagie / Klow · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Kubbe yaklaşık 1.900 yaşında ve hâlâ dünyanın en büyük donatısız beton kubbesi; ışık gün boyu duvarlarda bir güneş saati gibi yürür",
+     "facte": "The dome is about 1,900 years old and still the world’s largest unreinforced concrete dome — the light walks across the walls like a sundial",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h21-longroom.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trinity College, Dublin",
+     "tr": "Long Room: 65 metre boyunca uzanan ahşap raflar ve tonozlu tavan",
+     "en": "The Long Room — 65 metres of wooden shelves under a barrel-vaulted ceiling",
+     "cr": "Foto · Photo: Diliff · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 200.000 eski kitap barındırır; tavan 1860’ta, raflar dolunca yükseltildi",
+     "facte": "It holds about 200,000 old books — the ceiling was raised in 1860 when the shelves ran out of room"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Güneş, bir binanın duvarına vurana kadar|ne kadar büyük olduğunu bilmiyordu",
+     "en": "The sun never knew how great it was until it struck the side of a building",
+     "pal": "sea",
+     "lb": "Louis Kahn",
+     "by": "Louis Kahn · mimar · architect"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-13",
+   "name": "Büyük Ustalardan: Rembrandt’ın Işığı · From the Great Masters: The Light of Rembrandt",
+   "from": "2026-11-21T13:00",
+   "until": "2026-11-21T14:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-rem1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Gece Devriyesi — Rembrandt, 1642",
+     "en": "The Night Watch — Rembrandt, 1642",
+     "cr": "Eser · Artwork: Rembrandt van Rijn · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Aslında gündüz sahnesi: vernik yüzyıllar içinde koyulaşınca “gece” adını aldı. Tuval yaklaşık 3,6 × 4,4 metre",
+     "facte": "It is actually a daytime scene — the varnish darkened over the centuries and gave it the “night” name. The canvas is about 3.6 × 4.4 metres",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-rem3.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Düşünceye Dalmış Filozof — Rembrandt’a atfedilir, 1632",
+     "en": "Philosopher in Meditation — attributed to Rembrandt, 1632",
+     "cr": "Eser · Artwork: Rembrandt van Rijn · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Sarmal bir merdiven, pencereden giren ışık ve karanlıkta bir ocak: Rembrandt ışığı bir hikâye anlatıcısı gibi kullanır",
+     "facte": "A spiral stair, light from a window and a hearth in the dark — Rembrandt uses light like a storyteller",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-rem4.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Celile Gölü’nde Fırtına — Rembrandt, 1633",
+     "en": "The Storm on the Sea of Galilee — Rembrandt, 1633",
+     "cr": "Eser · Artwork: Rembrandt van Rijn · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Rembrandt’ın bilinen tek deniz manzarası. 1990’da Boston’daki bir müzeden çalındı, hâlâ bulunamadı; boş çerçevesi duvarda duruyor",
+     "facte": "Rembrandt’s only known seascape. Stolen from a Boston museum in 1990 and still missing — its empty frame still hangs on the wall",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-rem2.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Müsrif Oğlun Dönüşü — Rembrandt, yaklaşık 1668",
+     "en": "The Return of the Prodigal Son — Rembrandt, c. 1668",
+     "cr": "Eser · Artwork: Rembrandt van Rijn · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Hayatının son yıllarında yaptı; babanın oğlunun sırtındaki iki elinin farklı çizildiği söylenir — biri güçlü, biri yumuşak",
+     "facte": "Painted in his final years — the father’s two hands on his son’s back are said to differ: one strong, one gentle",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-rem5.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "İki Daireli Otoportre — Rembrandt, yaklaşık 1665",
+     "en": "Self-Portrait with Two Circles — Rembrandt, c. 1665",
+     "cr": "Eser · Artwork: Rembrandt van Rijn · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yaklaşık 80 otoportre bıraktı; gençlikten yaşlılığa kendi yüzünü hiç güzelleştirmeden resmetti",
+     "facte": "He left around 80 self-portraits — painting his own face from youth to old age without ever flattering it",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Ya olduğun gibi görün,|ya göründüğün gibi ol",
+     "en": "Either appear as you are, or be as you appear",
+     "pal": "ink"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-14",
+   "name": "Gökyüzünün Harikaları: Gecenin Işıkları · Wonders of the Sky: Lights of the Night",
+   "from": "2026-11-21T14:00",
+   "until": "2026-11-21T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-nlc.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Gece parlayan bulutlar, Estonya · Noctilucent clouds, Estonia",
+     "tr": "Gece parlayan bulutlar: güneş battıktan çok sonra bile ışıldayan mavi tüller",
+     "en": "Noctilucent clouds — thin blue veils that glow long after sunset",
+     "cr": "Foto · Photo: Martin Koitmäe · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 80 km yükseklikte, atmosferin en soğuk katında oluşurlar; o kadar yüksekteler ki Güneş onları hâlâ aydınlatır",
+     "facte": "They form about 80 km up, in the coldest layer of the atmosphere — so high that the Sun still lights them"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-zodiacal.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Zodyak ışığı, Şili · Zodiacal light, Chile",
+     "tr": "Zodyak ışığı: Güneş Sistemi’ndeki tozdan yansıyan güneş ışığının hafif konisi",
+     "en": "Zodiacal light — a faint cone of sunlight reflected by dust in the Solar System",
+     "cr": "Foto · Photo: ESO / Y. Beletsky · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Tozun büyük kısmının kuyrukluyıldızlardan geldiği düşünülüyor; karanlık yerlerde şafaktan önce ya da alacakaranlıktan sonra görülür",
+     "facte": "Most of the dust is thought to come from comets — it shows from dark places before dawn or after dusk",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-m51.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Girdap Galaksisi (M51) — Hubble · Whirlpool Galaxy (M51) — Hubble",
+     "tr": "Girdap Galaksisi ve ona sürtünerek geçen küçük komşusu",
+     "en": "The Whirlpool Galaxy and the small neighbour brushing past it",
+     "cr": "Foto · Photo: NASA / ESA · kamu malı · public domain · Wikimedia Commons",
+     "fact": "1845’te Lord Rosse sarmal yapısını çizdi: sarmal kolları ilk fark edilen galaksi buydu",
+     "facte": "In 1845 Lord Rosse sketched its spiral — the first galaxy whose spiral arms were ever noticed"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-helix.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sarmal Bulutsusu — Spitzer · Helix Nebula — Spitzer",
+     "tr": "Sarmal Bulutsusu: ölmekte olan bir yıldızın dışarı attığı gaz katmanları (kızılötesi, renkler temsili)",
+     "en": "The Helix Nebula — layers of gas shed by a dying star (infrared, colours representative)",
+     "cr": "Foto · Photo: NASA / JPL-Caltech / Univ. of Arizona · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yaklaşık 650 ışık yılı uzakta; Güneş de yaklaşık 5 milyar yıl sonra benzer bir kabuk bırakacak",
+     "facte": "About 650 light-years away — the Sun will shed a similar shell in about 5 billion years"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-ringneb.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Güney Halka Bulutsusu — James Webb · Southern Ring Nebula — James Webb",
+     "tr": "Aynı bulutsu, James Webb’in iki kamerasıyla: solda NIRCam, sağda MIRI (renkler temsili)",
+     "en": "The same nebula through two of James Webb’s cameras — NIRCam left, MIRI right (colours representative)",
+     "cr": "Foto · Photo: NASA / ESA / CSA / STScI · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Sağdaki kızılötesi görüntü, merkezde tozla sarılı ikinci, sönük yıldızı ilk kez açıkça gösterdi",
+     "facte": "The infrared image on the right clearly revealed, for the first time, a second, dust-shrouded star at the centre",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-15",
+   "name": "Göz Oyunları: Hareket Beyni Kandırınca · Tricks of the Eye: When Motion Fools the Brain",
+   "from": "2026-11-21T15:00",
+   "until": "2026-11-21T16:00",
+   "items": [
+    {
+     "k": "hzsilence",
+     "d": 80
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Göz Oyunu · Optical Illusion — neden? · why?",
+     "q": "Beyin neden bu kadar kolay kanıyor?",
+     "e": "Why is the brain fooled so easily?",
+     "c1": "#1d2430",
+     "c2": "#05070b",
+     "gap": 7,
+     "steps": [
+      [
+       "Gözden beyne saniyede yaklaşık 10 milyon bit bilgi akar",
+       "About 10 million bits of information per second flow from the eye to the brain",
+       "👁"
+      ],
+      [
+       "Bilinçli dikkatimiz bunun yalnızca küçücük bir kısmını işleyebilir",
+       "Our conscious attention can handle only a tiny fraction of it",
+       ""
+      ],
+      [
+       "Beyin boşlukları tahminle doldurur: “büyük ihtimalle böyledir”",
+       "So the brain fills the gaps with guesses — “it is probably like this”",
+       ""
+      ],
+      [
+       "Yanılsamalar, bu tahminleri suçüstü yakaladığımız nadir anlardır",
+       "Illusions are the rare moments when we catch those guesses in the act",
+       ""
+      ]
+     ],
+     "fin": "Gördüğün dünya, beyninin en iyi tahmini",
+     "fine": "The world you see is your brain’s best guess"
+    },
+    {
+     "k": "hzsfm",
+     "d": 80
+    },
+    {
+     "k": "hzriddle",
+     "d": 36,
+     "q": "Saat 3’ü 15 geçiyor. Akrep ile yelkovan arasındaki açı kaç derece?",
+     "qe": "It is 3:15. What is the angle between the hour hand and the minute hand?",
+     "a": "7,5 derece! Akrep de 15 dakikada ilerler: 30 derecenin dörtte biri kadar",
+     "ae": "7.5 degrees! The hour hand moves too — a quarter of 30 degrees in 15 minutes",
+     "sec": 22,
+     "hint": "Sıfır değil · It is not zero",
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "⅓",
+     "tr": "İnsan beyninin dış katmanının yaklaşık üçte biri görmeyle ilgili işlerde çalışır",
+     "en": "Roughly a third of the human brain’s outer layer is busy with seeing",
+     "src": "Görmek, düşündüğümüzden çok daha fazla hesap gerektirir · Seeing takes far more computation than we think",
+     "c1": "#1c2430",
+     "c2": "#05070b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-16",
+   "name": "Zekice Düşünce: İlk Rakamın Sırrı · Clever Thinking: The Secret of the First Digit",
+   "from": "2026-11-21T16:00",
+   "until": "2026-11-21T17:00",
+   "items": [
+    {
+     "k": "hzbenford",
+     "d": 114
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Bir müfettiş sahte faturaları yalnızca ilk rakamlara bakarak nasıl yakalar?",
+     "e": "How can an auditor catch fake invoices just by looking at their first digits?",
+     "c1": "#1a2230",
+     "c2": "#04060a",
+     "gap": 8,
+     "steps": [
+      [
+       "1881’de gökbilimci Simon Newcomb, logaritma tablolarının ilk sayfalarının çok daha yıprandığını fark etti",
+       "In 1881 astronomer Simon Newcomb noticed that the first pages of logarithm tables were far more worn",
+       "📖"
+      ],
+      [
+       "Demek ki insanlar 1 ile başlayan sayılara daha sık bakıyordu",
+       "So people were looking up numbers starting with 1 more often",
+       ""
+      ],
+      [
+       "1938’de fizikçi Frank Benford 20.000’den fazla sayıyı (nehirler, nüfuslar, adresler…) inceleyip aynı deseni buldu",
+       "In 1938 physicist Frank Benford checked over 20,000 numbers — rivers, populations, addresses… — and found the same pattern",
+       ""
+      ],
+      [
+       "Sayı uyduran insanlar ise rakamları “eşit” dağıtmaya çalışır ve iz bırakır",
+       "People who invent numbers try to spread the digits “evenly” — and leave a trace",
+       ""
+      ]
+     ],
+     "fin": "Gerçek verilerde yaklaşık her 3 sayıdan biri 1 ile başlar; 9 ile başlayan ise 20’de 1’den az",
+     "fine": "In real-world data about one number in three starts with 1 — fewer than one in twenty starts with 9"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "Bir kitabın sayfalarını 1’den 100’e kadar numaralandırıyorsun. Toplam kaç tane “1” rakamı yazarsın?",
+     "qe": "You number the pages of a book from 1 to 100. How many times do you write the digit “1”?",
+     "a": "21! Birler basamağında 10, onlar basamağında 10 (10–19) ve 100’de bir tane",
+     "ae": "21! Ten in the units place, ten in the tens place (10–19) and one in 100",
+     "sec": 26,
+     "c1": "#232a3c",
+     "c2": "#070910"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "2⁵³",
+     "tr": "2’nin kuvvetleri hiç 9 ile başlar mı? Başlar — ilk kez 2⁵³ = 9.007.199.254.740.992’de",
+     "en": "Do powers of 2 ever start with 9? Yes — the first time is 2⁵³ = 9,007,199,254,740,992",
+     "src": "O güne kadar 52 kuvvetin 15’i 1 ile başlamış · Of the 52 powers before it, 15 start with 1",
+     "c1": "#1a2034",
+     "c2": "#05060c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-17",
+   "name": "Sobanın Başında · By the Woodstove",
+   "from": "2026-11-21T17:00",
+   "until": "2026-11-21T18:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-stove.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Odun sobası · Woodstove",
+     "tr": "Odun sobasının üstünde bir çaydanlık: kış akşamlarının en sıcak sesi",
+     "en": "A kettle on a wood-burning stove — the warmest sound of a winter evening",
+     "cr": "Foto · Photo: daryl_mitchell · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Odun yanarken çıtırdayan ses, odunun içinde hapsolmuş su ve reçinenin buharlaşıp çatlatmasından gelir",
+     "facte": "The crackle comes from water and resin trapped inside the wood turning to steam and bursting out",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-chestnuts.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kestaneci, Lizbon · Chestnut seller, Lisbon",
+     "tr": "Akşam alacasında közde kestane: dumanı, kokusu ve avuçları ısıtan kese kâğıdı",
+     "en": "Chestnuts roasting at dusk — the smoke, the smell, and a paper bag that warms your hands",
+     "cr": "Foto · Photo: Jules Verne Times Two · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Karadeniz’in kestane ormanları hem kestane hem de koyu renkli, hafif acı kestane balı verir",
+     "facte": "The Black Sea’s chestnut forests give both chestnuts and dark, slightly bitter chestnut honey",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-kakelugn.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · İsveç · Sweden)",
+     "tr": "Odanın köşesinde beyaz çinili bir soba: hem ısıtıyor hem bir heykel gibi duruyor",
+     "en": "A white tiled stove in the corner — it heats the room and stands like a sculpture",
+     "cr": "Foto · Photo: Svante.tiren · CC0 · Wikimedia Commons",
+     "fact": "Çinili kâgir sobada ateş 1–2 saat yanar, ısıyı taşlarında saklar ve 12 saati aşkın yayar. Villada Kütahya çinisiyle bir benzeri hem sıcak hem şık olurdu",
+     "facte": "In a tiled masonry stove the fire burns 1–2 hours, the masonry stores the heat and gives it off for 12+ hours. A version in Kütahya tiles would be warm and elegant at the villa",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-larsson.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Tembellik Köşesi — Carl Larsson, “Bir Ev” serisinden, 1890’lar",
+     "en": "The Lazy Corner — Carl Larsson, from the “A Home” series, 1890s",
+     "cr": "Eser · Artwork: Carl Larsson · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Larsson ile eşi Karin, Sundborn’daki evlerini renkli, sade ve rahat döşedi; bu suluboyalar bugünkü İskandinav ev tarzına ilham verdi",
+     "facte": "Larsson and his wife Karin made their Sundborn home colourful, simple and comfortable — these watercolours inspired today’s Scandinavian home style",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Hamdım,|piştim, yandım",
+     "en": "I was raw, I was cooked, I was burned",
+     "pal": "clay"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-18",
+   "name": "Kütüphanelerin Sıcaklığı · The Warmth of Libraries",
+   "from": "2026-11-21T18:00",
+   "until": "2026-11-21T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-strahov.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Strahov Kütüphanesi, Prag · Strahov Library, Prague",
+     "tr": "Felsefe Salonu: tavana kadar ceviz raflar ve yükseklerde bir fresk",
+     "en": "The Philosophical Hall — walnut shelves to the ceiling and a fresco high above",
+     "cr": "Foto · Photo: VitVit · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Tavan freski 1794’te yapıldı ve insanlığın bilgiye uzanan yolculuğunu anlatır",
+     "facte": "The ceiling fresco, painted in 1794, tells the story of humanity’s journey toward knowledge",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-peabody.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · George Peabody Kütüphanesi, Baltimore · George Peabody Library, Baltimore",
+     "tr": "Beş kat yükselen dökme demir balkonlar ve tepede cam bir çatı",
+     "en": "Five tiers of cast-iron balconies rising to a glass roof",
+     "cr": "Foto · Photo: Matthew Petroff · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "1878’de açıldı; ona “kitapların katedrali” denir",
+     "facte": "Opened in 1878 — it is called a “cathedral of books”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-gabinete.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Real Gabinete Português de Leitura, Rio de Janeiro",
+     "tr": "Rio’daki Portekiz Okuma Salonu: tavana kadar ahşap raflar ve renkli cam bir tavan feneri",
+     "en": "The Royal Portuguese Reading Room in Rio — wooden shelves to the ceiling under a coloured-glass skylight",
+     "cr": "Foto · Photo: Donatas Dabravolskas · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Portekiz dışındaki en büyük Portekizce kitap koleksiyonu burada: 350.000’den fazla cilt",
+     "facte": "It holds the largest collection of Portuguese books outside Portugal — more than 350,000 volumes",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Vanilin",
+     "tr": "Eski kitap kokusunun bir sebebi var: yaşlanan kâğıttaki lignin, yavaş yavaş vanilin gibi tatlı kokulu bileşikler salar",
+     "en": "Even the smell of old books has a reason — lignin in aging paper slowly releases sweet-smelling compounds such as vanillin",
+     "src": "Bu yüzden eski kitaplar hafif vanilya ve badem gibi kokar · That is why old books smell faintly of vanilla and almond",
+     "c1": "#2a2420",
+     "c2": "#0a0806"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Cenneti hep|bir tür kütüphane olarak hayal ettim",
+     "en": "I have always imagined that Paradise will be a kind of library",
+     "pal": "ink",
+     "lb": "Jorge Luis Borges",
+     "by": "Jorge Luis Borges · yazar · writer"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-19",
+   "name": "Ocak Başında Hikâyeler · Stories by the Hearth",
+   "from": "2026-11-21T19:00",
+   "until": "2026-11-21T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-ocak.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Zekâte Evi, Ergiri, Arnavutluk · Zekate House, Gjirokastër, Albania)",
+     "tr": "Osmanlı tarzı Zekâte Evi’nde (1812) misafir odası: oymalı ahşap tavan, sedirler ve bir ocak",
+     "en": "The guest room of the Ottoman-style Zekate House (1812) — a carved wooden ceiling, low divans and a hearth",
+     "cr": "Foto · Photo: David Stanley · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Eskiden uzun kış geceleri ocağın çevresinde geçerdi: masallar, bilmeceler ve türküler bu sıcaklıkta anlatılırdı",
+     "facte": "Long winter nights were once spent around the hearth — tales, riddles and folk songs were shared in its warmth"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-dedekorkut.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Dede Korkut Kitabı’nın Gonbad yazmasının ilk sayfası",
+     "en": "The opening page of the Gonbad manuscript of the Book of Dede Korkut",
+     "cr": "Eser · Artwork: bilinmeyen katip · unknown scribe · kamu malı · public domain · Wikimedia Commons",
+     "fact": "2018’de İran’da tanıtılan bu yazma, bilinen hikâyelere yeni bir hikâye ekledi; Dede Korkut mirası aynı yıl UNESCO listesine girdi",
+     "facte": "This manuscript, made known in Iran in 2018, added a new tale to the known stories — the Dede Korkut heritage joined UNESCO’s list that same year",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-meddah.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Bir kahvehanede meddah — Thomas Allom, 1838",
+     "en": "A meddah storyteller in a coffeehouse — Thomas Allom, 1838",
+     "cr": "Eser · Artwork: Thomas Allom (1838) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Meddah elinde yalnızca bir mendil ve bir sopayla onlarca karakteri tek başına canlandırırdı; meddahlık 2008’de UNESCO listesine girdi",
+     "facte": "With only a handkerchief and a stick, the meddah played dozens of characters alone — the art joined UNESCO’s list in 2008",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-sheherazade.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Şehrazat — Sophie Gengembre Anderson",
+     "en": "Scheherazade — Sophie Gengembre Anderson",
+     "cr": "Eser · Artwork: Sophie Gengembre Anderson · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Binbir Gece Masalları’nda Şehrazat hikâyesini her gece en heyecanlı yerde keser: bugünkü dizilerin “devam edecek”inin en eski atası",
+     "facte": "In the Thousand and One Nights, Scheherazade stops her tale at the most exciting moment every night — the oldest ancestor of today’s cliffhanger",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h21-dulac.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Binbir Gece Masalları’ndan bir sahne — Edmund Dulac, 1907",
+     "en": "A scene from the Arabian Nights — Edmund Dulac, 1907",
+     "cr": "Eser · Artwork: Edmund Dulac · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Alaaddin ve Ali Baba hikâyeleri en eski Arapça yazmalarda yok: 1700’lerin başında Fransız çevirmen Antoine Galland ekledi",
+     "facte": "The tales of Aladdin and Ali Baba are not in the oldest Arabic manuscripts — French translator Antoine Galland added them in the early 1700s",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ak koyun, kara koyun; biri gelir, biri gider, birbirinin peşini hiç bırakmaz. Nedir?",
+     "qe": "A white sheep and a black sheep — one comes, one goes, and they never stop following each other. What are they?",
+     "a": "Gündüz ve gece!",
+     "ae": "Day and night!",
+     "sec": 20,
+     "hint": "Eski bir Anadolu bilmecesi · An old Anatolian riddle",
+     "c1": "#2a2420",
+     "c2": "#0a0806"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Dinle, bu ney nasıl şikâyet ediyor;|ayrılıkları nasıl anlatıyor",
+     "en": "Listen to the reed, how it tells its tale, complaining of separations",
+     "pal": "night"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-20",
+   "name": "Zekice Düşünce: Doğum Günü Paradoksu · Clever Thinking: The Birthday Paradox",
+   "from": "2026-11-21T20:00",
+   "until": "2026-11-21T21:00",
+   "items": [
+    {
+     "k": "hzbirthday",
+     "d": 110
+    },
+    {
+     "k": "hzsteps",
+     "d": 60,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Neden yalnızca 23 kişi yeter?",
+     "e": "Why are just 23 people enough?",
+     "c1": "#1d2330",
+     "c2": "#05070b",
+     "gap": 8,
+     "steps": [
+      [
+       "Tek tek düşünme: odaya giren her yeni kişi, içerideki herkesle bir ikili oluşturur",
+       "Do not think one by one — every newcomer forms a pair with everyone already in the room",
+       "👥"
+      ],
+      [
+       "23 kişide 23 × 22 ÷ 2 = 253 ikili var",
+       "23 people make 23 × 22 ÷ 2 = 253 pairs",
+       ""
+      ],
+      [
+       "Her ikilinin aynı gün doğma ihtimali küçük (1/365), ama 253 küçük ihtimal üst üste biner",
+       "Each pair has a small chance (1 in 365), but 253 small chances add up",
+       ""
+      ],
+      [
+       "Hiç eşleşme olmama ihtimali %49,3’e düşer: eşleşme ihtimali %50,7",
+       "The chance of no match drops to 49.3% — so a match is 50.7% likely",
+       ""
+      ]
+     ],
+     "fin": "Ama birinin seninle aynı gün doğması için yaklaşık 253 kişi gerekir: “kim?” diye sormak her şeyi değiştirir",
+     "fine": "But for someone to share YOUR birthday you need about 253 people — asking “who?” changes everything"
+    },
+    {
+     "k": "hzriddle",
+     "d": 38,
+     "q": "Bir futbol maçında sahada 23 kişi var: 22 oyuncu ve hakem. Sence maçların kaçında iki kişinin doğum günü aynıdır?",
+     "qe": "A football match has 23 people on the pitch — 22 players and the referee. In how many matches do two of them share a birthday?",
+     "a": "Yaklaşık yarısında! 2014 Dünya Kupası’nda 23 kişilik 32 kadronun 16’sında eşleşme vardı",
+     "ae": "About half! At the 2014 World Cup, 16 of the 32 squads of 23 had a shared birthday",
+     "sec": 24,
+     "c1": "#232a3c",
+     "c2": "#070910"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "Şimdi siz deneyin! Odadaki herkes doğum gününü söylesin: aynı ayda doğan var mı?",
+     "qe": "Now try it yourselves! Everyone in the room, say your birthday — does anyone share a month?",
+     "a": "Aynı ay için çok daha az kişi yeter: yalnızca 5 kişide ihtimal %60’ın üstünde!",
+     "ae": "A shared month needs far fewer people — with just 5 people the chance is over 60%!",
+     "sec": 30,
+     "c1": "#1d2a30",
+     "c2": "#05090b"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "366",
+     "tr": "366 kişide (29 Şubat’ı saymazsak) eşleşme kesin: buna güvercin yuvası ilkesi denir",
+     "en": "With 366 people (ignoring 29 February) a match is certain — this is called the pigeonhole principle",
+     "src": "23 kişi %50 · 57 kişi %99 · 366 kişi %100 · 23 people 50% · 57 people 99% · 366 people 100%",
+     "c1": "#1a2830",
+     "c2": "#05080a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-21",
+   "name": "Hafızanın Sırları · Secrets of Memory",
+   "from": "2026-11-21T21:00",
+   "until": "2026-11-21T22:00",
+   "items": [
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Kısa Meydan Okuma · Short Challenge",
+     "q": "Hafıza sarayı: bu 6 şeyi evin içinde “yerleştirerek” ezberle — saatin sonunda soracağız!",
+     "e": "Memory palace: memorise these 6 things by “placing” them around a house — we will ask at the end of the hour!",
+     "c1": "#1b2236",
+     "c2": "#060810",
+     "gap": 5,
+     "steps": [
+      [
+       "Kapıda açık, damlayan bir ŞEMSİYE",
+       "At the door, an open, dripping UMBRELLA",
+       "☂"
+      ],
+      [
+       "Koltukta kitap okuyan bir AHTAPOT",
+       "On the sofa, an OCTOPUS reading a book",
+       ""
+      ],
+      [
+       "Masada ışıl ışıl parlayan dev bir LİMON",
+       "On the table, a giant glowing LEMON",
+       ""
+      ],
+      [
+       "Merdivende kendi kendine çalan bir KEMAN",
+       "On the stairs, a VIOLIN playing itself",
+       ""
+      ],
+      [
+       "Mutfakta çay demleyen bir FİL",
+       "In the kitchen, an ELEPHANT brewing tea",
+       ""
+      ],
+      [
+       "Balkonda durmadan dönen bir PUSULA",
+       "On the balcony, a COMPASS spinning nonstop",
+       ""
+      ]
+     ],
+     "fin": "Hatırlamak için evin içinde yürü: kapı, koltuk, masa, merdiven, mutfak, balkon",
+     "fine": "To recall, walk through the house: door, sofa, table, stairs, kitchen, balcony"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Hafıza sarayı neden işe yarar?",
+     "e": "Why does the memory palace work?",
+     "c1": "#20283a",
+     "c2": "#06080f",
+     "gap": 8,
+     "steps": [
+      [
+       "Efsaneye göre şair Simonides, çöken bir salonda kimin nerede oturduğunu hatırlayarak kurbanları tanıdı",
+       "Legend says the poet Simonides identified the victims of a collapsed hall by remembering where each guest had sat",
+       "🏛"
+      ],
+      [
+       "Beyin yerleri ve yolları kelimelerden çok daha iyi hatırlar",
+       "The brain remembers places and routes far better than words",
+       ""
+      ],
+      [
+       "Tuhaf, komik ve hareketli görüntüler daha da kalıcıdır",
+       "Strange, funny, moving images stick even better",
+       ""
+      ],
+      [
+       "Hafıza şampiyonları bu yöntemle karışık bir iskambil destesini 20 saniyenin altında ezberler",
+       "Memory champions use it to memorise a shuffled deck of cards in under 20 seconds",
+       ""
+      ]
+     ],
+     "fin": "Yöntem yaklaşık 2.500 yaşında ve hâlâ en iyisi",
+     "fine": "The method is about 2,500 years old — and still the best"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h21-nutcracker.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kayalık Dağlar, ABD · Rocky Mountains, USA",
+     "tr": "Clark fındıkkıranı: hafızanın gerçek şampiyonlarından bir kuş",
+     "en": "Clark’s nutcracker — one of the true champions of memory",
+     "cr": "Foto · Photo: Polinova · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Sonbaharda binlerce küçük saklama yerine on binlerce çam tohumu gömer ve aylar sonra, kar altında bile çoğunu bulur",
+     "facte": "In autumn it buries tens of thousands of pine seeds in thousands of small caches — and months later finds most of them, even under snow"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "1885",
+     "tr": "Hermann Ebbinghaus anlamsız heceleri ezberleyip kendini test etti: yeni öğrenilenin büyük kısmı ilk gün içinde unutuluyordu",
+     "en": "Hermann Ebbinghaus memorised nonsense syllables and tested himself — most of what is newly learned fades within the first day",
+     "src": "Çözüm: aralıklı tekrar — bir gün, bir hafta, bir ay sonra yeniden bak · The fix: spaced repetition — look again after a day, a week, a month",
+     "c1": "#1a2034",
+     "c2": "#05060c"
+    },
+    {
+     "k": "hzriddle",
+     "d": 36,
+     "q": "Hafıza sarayını hatırlıyor musun? Balkonda ne vardı? Ya merdivende?",
+     "qe": "Remember the memory palace? What was on the balcony? And on the stairs?",
+     "a": "Balkonda dönen bir PUSULA, merdivende kendi kendine çalan bir KEMAN!",
+     "ae": "A spinning COMPASS on the balcony, and a VIOLIN playing itself on the stairs!",
+     "sec": 22,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-22",
+   "name": "Galeri: Aert van der Neer’in Ay Işığı · Gallery: The Moonlight of Aert van der Neer (sakin · calm)",
+   "from": "2026-11-21T22:00",
+   "until": "2026-11-21T23:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-neer1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Ay Işığında Yel Değirmenli Manzara — Aert van der Neer",
+     "en": "Moonlit Landscape with a Windmill — Aert van der Neer",
+     "cr": "Eser · Artwork: Aert van der Neer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Van der Neer neredeyse yalnızca iki şey resmetti: ay ışıklı geceler ve donmuş kış manzaraları",
+     "facte": "Van der Neer painted almost only two things — moonlit nights and frozen winter landscapes",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-neer2.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Köprülü Ay Işığı Manzarası — Aert van der Neer",
+     "en": "Moonlit Landscape with a Bridge — Aert van der Neer",
+     "cr": "Eser · Artwork: Aert van der Neer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ay bulutların arkasında: ışığın kendisinden çok, suyun ve bulut kenarlarının parıltısını görürüz",
+     "facte": "The Moon hides behind the clouds — we see less of the light itself than its glow on the water and the cloud edges",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-neer3.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Ay Işığında Manzara — Aert van der Neer",
+     "en": "Moonlit Landscape — Aert van der Neer",
+     "cr": "Eser · Artwork: Aert van der Neer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Resimlerinden geçinemedi; Amsterdam’da bir meyhane işletti ve yoksul öldü. Bugün eserleri dünyanın büyük müzelerinde",
+     "facte": "He never made a living from painting — he ran a tavern in Amsterdam and died poor. Today his works hang in the world’s great museums",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-neer4.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Hollanda’da Bir Nehirde Ay Işığı — Aert van der Neer",
+     "en": "Moonlight at a Dutch River — Aert van der Neer",
+     "cr": "Eser · Artwork: Aert van der Neer · CC0 · Wikimedia Commons",
+     "fact": "Gece resimlerinde tek bir ışık kaynağı vardır; göz hep aynı sakin noktaya geri döner",
+     "facte": "His night scenes have a single source of light — the eye keeps returning to the same calm point",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-neer5.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Kış Manzarası — Aert van der Neer",
+     "en": "Winter Landscape — Aert van der Neer",
+     "cr": "Eser · Artwork: Aert van der Neer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "17. yüzyılın “Küçük Buz Çağı”nda Hollanda kanalları sık sık donardı; buz bütün kasabanın buluşma yeri olurdu",
+     "facte": "In the 17th-century “Little Ice Age” Dutch canals often froze — the ice became the whole town’s meeting place",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Başkalarının kusurunu örtmede|gece gibi ol",
+     "en": "In covering the faults of others, be like the night",
+     "pal": "night"
+    }
+   ]
+  },
+  {
+   "id": "h-11-21-23",
+   "name": "Gece Treni · The Night Train (sakin · calm)",
+   "from": "2026-11-21T23:00",
+   "until": "2026-11-22T02:00",
+   "items": [
+    {
+     "k": "hztren",
+     "d": 100
+    },
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h21-earthshine.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hilal ve Dünya ışığı · Crescent Moon and earthshine",
+     "tr": "İnce bir hilal ve Ay’ın karanlık yüzünde hafif bir ışıltı",
+     "en": "A thin crescent Moon, and a faint glow on its dark side",
+     "cr": "Foto · Photo: ESO / B. Tafreshi (twanight.org) · CC BY 4.0 · Wikimedia Commons",
+     "fact": "O hafif ışık Dünya’dan yansıyan güneş ışığı: o anda Ay’dan bakan biri gökyüzünde neredeyse dolunay gibi parlak bir Dünya görürdü",
+     "facte": "That soft glow is sunlight reflected off Earth — someone on the Moon would see an almost full, bright Earth in the sky"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Uyumadan önce küçük bir yolculuk",
+     "e": "A small journey before sleep",
+     "c1": "#121a26",
+     "c2": "#03050a",
+     "gap": 9,
+     "steps": [
+      [
+       "Bugün gördüğün en güzel manzarayı düşün",
+       "Think of the most beautiful view you saw today",
+       "☾"
+      ],
+      [
+       "Sonra yarın görmek istediğin bir şeyi",
+       "Then of something you would like to see tomorrow",
+       ""
+      ],
+      [
+       "Ve ikisinin arasında, bu gece burada olmanın huzurunu",
+       "And between them, the peace of being here tonight",
+       ""
+      ]
+     ],
+     "fin": "Gece treni gibi: sessizce, ışıkları yanık, sabaha doğru",
+     "fine": "Like the night train — quietly, lights on, towards morning",
+     "bg": "stars"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h21-owl.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Alaca baykuş · Tawny owl",
+     "tr": "Alaca baykuş: gecenin sessiz avcısı",
+     "en": "The tawny owl — the silent hunter of the night",
+     "cr": "Foto · Photo: K.-M. Hansche (düzenleme · edit: Arad) · CC BY-SA 2.5 · Wikimedia Commons",
+     "fact": "Kanat tüylerinin tarak gibi kenarları havayı yumuşatır; bu yüzden uçarken neredeyse hiç ses çıkarmaz",
+     "facte": "The comb-like edges of its wing feathers soften the airflow — so it flies almost without a sound",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Bu da geçer|yâ hû",
+     "en": "This too shall pass",
+     "pal": "night",
+     "lb": "Tasavvuf sözü · Sufi saying",
+     "by": "tasavvuf geleneğinden · from the Sufi tradition"
+    }
+   ]
+  }
+ ]
+}
