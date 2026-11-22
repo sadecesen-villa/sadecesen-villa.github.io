@@ -758,3 +758,48 @@ m/h21-neer4.jpg — Aert van der Neer - Moonlight at a Dutch River.jpg — Aert 
 m/h21-neer5.jpg — Aert van der Neer - Winter Landscape.jpg — Aert van der Neer — Public domain — https://commons.wikimedia.org/wiki/File:Aert_van_der_Neer_-_Winter_Landscape.jpg
 m/h21-earthshine.jpg — The crescent Moon and earthshine.jpg — ESO/B. Tafreshi/TWAN (twanight.org) — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:The_crescent_Moon_and_earthshine.jpg
 m/h21-owl.jpg — Tawny wiki edit1.jpg — K.-M. Hansche - Edited by: Arad — CC BY-SA 2.5 — https://commons.wikimedia.org/wiki/File:Tawny_wiki_edit1.jpg
+
+## 2026-11-22 (days/2026-11-22.json, m/h22-*)
+m/h22-ayasofya.jpg — Trabzon Hagia Sophia Resurrection 4857.jpg — Dosseman — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trabzon_Hagia_Sophia_Resurrection_4857.jpg
+m/h22-ayder.jpg — Rize, Ayder Yaylası.jpg — Phoenix2351 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Rize,_Ayder_Yaylas%C4%B1.jpg
+m/h22-karaca.jpg — Karaca Mağarası (09).jpg — En Merker — CC0 — https://commons.wikimedia.org/wiki/File:Karaca_Ma%C4%9Faras%C4%B1_(09).jpg
+m/h22-karman.jpg — Vortex-street-1.jpg — Robert Cahalan, NASA/GSFC — Public domain — https://commons.wikimedia.org/wiki/File:Vortex-street-1.jpg
+m/h22-reine.jpg — Houses of Reine by Gravdalsbukta, Moskenes, Nordland, Norway, 2022 June.jpg — Ximonic (Simo Räsänen) — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Houses_of_Reine_by_Gravdalsbukta,_Moskenes,_Nordland,_Norway,_2022_June.jpg
+m/h22-torres.jpg — Cuernos del Paine in Torres del Paine National Park.jpg — Pedro Szekely from Los Angeles, USA — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg
+m/h22-wadirum.jpg — Desert landscape with rocks in the middle in Wadi Rum.jpg — Trldp — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Desert_landscape_with_rocks_in_the_middle_in_Wadi_Rum.jpg
+m/h22-bled.jpg — Bled Island & Bled Castle (1).jpg — Krzysztof Golik — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bled_Island_%26_Bled_Castle_(1).jpg
+m/h22-trolltunga.jpg — View of trolltunga.jpg — TerjeN — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:View_of_trolltunga.jpg
+m/h22-mostar.jpg — Mostar Old Town Panorama 2007.jpg — Ramirez — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mostar_Old_Town_Panorama_2007.jpg
+m/h22-khaju.jpg — Khaju Bridge, Isfahan 04.jpg — Bernard Gagnon — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Khaju_Bridge,_Isfahan_04.jpg
+m/h22-vecchio.jpg — Ponte Vecchio at dusk 1.JPG — Martin Falbisoner — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_dusk_1.JPG
+m/h22-rakotz.jpg — Rakotzbrücke, Kromlau, Germany, 20230812 0955 7512.jpg — Jakub Hałun — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Rakotzbr%C3%BCcke,_Kromlau,_Germany,_20230812_0955_7512.jpg
+m/h22-charles.jpg — Prague charles bridge morning.jpg — Estec GmbH, Billig Hotel in Prag — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Prague_charles_bridge_morning.jpg
+m/h22-sor1.jpg — (Venice) Sewing the Sail by Joaquin Sorolla y Bastida - Museo d'arte moderna.jpg — Didier Descouens — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:(Venice)_Sewing_the_Sail_by_Joaquin_Sorolla_y_Bastida_-_Museo_d%27arte_moderna.jpg
+m/h22-sor2.jpg — Joaquín Sorolla y Bastida - The Horse’s Bath - Google Art Project.jpg — Joaquín Sorolla — Public domain — https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_y_Bastida_-_The_Horse%E2%80%99s_Bath_-_Google_Art_Project.jpg
+m/h22-sor3.jpg — Sorolla, 1908 (51378044939).jpg — Ángel M. Felicísimo from Mérida, España — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Sorolla,_1908_(51378044939).jpg
+m/h22-sor4.jpg — (Sorolla) 'Mère' par Joaquín Sorolla y Bastida.jpg — Didier Descouens — Public domain — https://commons.wikimedia.org/wiki/File:(Sorolla)_%27M%C3%A8re%27_par_Joaqu%C3%ADn_Sorolla_y_Bastida.jpg
+m/h22-sor5.jpg — Joaquín Sorolla - Chicos en la playa.jpg — Joaquín Sorolla — Public domain — https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_-_Chicos_en_la_playa.jpg
+m/h22-sunspot.jpg — Inouye Solar Telescope Releases First Image of a Sunspot (NSO-DKIST-first-suspot).tiff — NSO/AURA/NSF — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Inouye_Solar_Telescope_Releases_First_Image_of_a_Sunspot_(NSO-DKIST-first-suspot).tiff
+m/h22-halpha.jpg — Ultiwavelength extreme ultraviolet sun.jpg — NASA/Goddard/SDO AIA Team — Public domain — https://commons.wikimedia.org/wiki/File:Ultiwavelength_extreme_ultraviolet_sun.jpg
+m/h22-venus.jpg — SDO's Ultra-high Definition View of 2012 Venus Transit -- Path Sequence.jpg — NASA/SDO, AIA — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg
+m/h22-orbsunrise.jpg — Sunrise from ISS 4.jpg — ESA/Alexander Gerst — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Sunrise_from_ISS_4.jpg
+m/h22-moka.jpg — Moka KILT. 01.jpg — Coyau — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Moka_KILT._01.jpg
+m/h22-sourdough.jpg — Herculaneum loaf 2.jpg — Shisma — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Herculaneum_loaf_2.jpg
+m/h22-bakery.jpg — Cabbage loaves pelle Faîs'sie d'Cidre 2007 a.jpg — Man vyi — Public domain — https://commons.wikimedia.org/wiki/File:Cabbage_loaves_pelle_Fa%C3%AEs%27sie_d%27Cidre_2007_a.jpg
+m/h22-oud.jpg — Horniman instruments 28 (Oud arbi).jpg — Jo Dusepo — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Horniman_instruments_28_(Oud_arbi).jpg
+m/h22-pianola.jpg — Pianola music roll.jpg — Thomas Quine — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Pianola_music_roll.jpg
+m/h22-sauna.jpg — Wood stove of smoke sauna of Kuusijärvi, Kuninkaanmäki, Vantaa, Finland, 2023 April.jpg — Ximonic (Simo Räsänen) — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Wood_stove_of_smoke_sauna_of_Kuusij%C3%A4rvi,_Kuninkaanm%C3%A4ki,_Vantaa,_Finland,_2023_April.jpg
+m/h22-onsen.jpg — Tsurunoyu onsen rotenburo.JPG — Markmark28 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Tsurunoyu_onsen_rotenburo.JPG
+m/h22-sherman.jpg — General Sherman Tree 2013.jpg — Tuxyso — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:General_Sherman_Tree_2013.jpg
+m/h22-pando.jpg — FallPando02.jpg — J Zapell — Public domain — https://commons.wikimedia.org/wiki/File:FallPando02.jpg
+m/h22-baobab.jpg — Adansonia grandidieri04.jpg — Bernard Gagnon — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Adansonia_grandidieri04.jpg
+m/h22-eucalyptus.jpg — Rainbow Eucalyptus detail.jpg — Eekiv — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Rainbow_Eucalyptus_detail.jpg
+m/h22-inn1.jpg — George Inness - The Home of the Heron - Google Art Project.jpg — George Inness — Public domain — https://commons.wikimedia.org/wiki/File:George_Inness_-_The_Home_of_the_Heron_-_Google_Art_Project.jpg
+m/h22-inn4.jpg — George Inness - Sundown - 1909.7.32 - Smithsonian American Art Museum.jpg — George Inness — Public domain — https://commons.wikimedia.org/wiki/File:George_Inness_-_Sundown_-_1909.7.32_-_Smithsonian_American_Art_Museum.jpg
+m/h22-fox.jpg — Red fox (13436629873).jpg — USFWSAlaska — Public domain — https://commons.wikimedia.org/wiki/File:Red_fox_(13436629873).jpg
+m/h22-moonsea.jpg — Moonlight Over The Sea (223535943).jpeg — Wolfgang Weber — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Moonlight_Over_The_Sea_(223535943).jpeg
+m/h22-simit.jpg — Simit-2x.JPG — Barbarossa — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Simit-2x.JPG
+m/h22-piano.jpg — Piano Interior Young Chang Baby Grand Black and Red.png — Iceclanl — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Piano_Interior_Young_Chang_Baby_Grand_Black_and_Red.png
+m/h22-inn2.jpg — Moonrise by George Inness 1887.jpeg — George Inness — Public domain — https://commons.wikimedia.org/wiki/File:Moonrise_by_George_Inness_1887.jpeg
+m/h22-inn3.jpg — Inness, George - The Rainbow - Google Art Project.jpg — George Inness — Public domain — https://commons.wikimedia.org/wiki/File:Inness,_George_-_The_Rainbow_-_Google_Art_Project.jpg
+m/h22-hottub.jpg — Seduction (4300289421).jpg — Zach Dischner — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Seduction_(4300289421).jpg

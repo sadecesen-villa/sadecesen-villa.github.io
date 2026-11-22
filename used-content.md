@@ -1,3 +1,114 @@
+## 2026-11-22 (rev 76, hourly sets 09:00–02:00, days/2026-11-22.json) · Sunday
+
+No pending requests in requests.md (verified ~08:00; left unchanged). Kept M’s 20 Nov taste: 11:00–14:00 guest-worthy (breathtaking places, bridges, great masters, wonders of the sky — no puzzles in those hours) and 17:00–19:00 cozy (the smell of bread, evening music) with fresh topics. 6 new hz scenes (hourly.js v76): generators hzclifford (Clifford strange attractor) hzperc (forest-fire percolation, 59.3% threshold) hzstop (optimal stopping / 37% rule) hzkoy (hillside village above the sea, windows going dark, calm night) + illusions hzneon (neon colour spreading) hzocclude (motion binding diamond). 43 new CC/PD photos/artworks (m/h22-*). h20-* and h74-* archived to /workspace/tv-media-archive/h20 and /h74 (site 39 MB before, ~46 MB after adding h22-*). Quotes: Ne hoş bir şey her gün bir yerden göçmek (Mevlânâ, 09); Sen okyanusta bir damla değilsin (Mevlânâ, 12); Yara, ışığın içine girdiği yerdir (Mevlânâ, 13); Bir lokma, bir hırka (tasavvuf sözü, 17); Müziksiz bir hayat bir hata olurdu (Nietzsche, 18); Ağaç yaşken eğilir (atasözü, 21); Dağlar ile taşlar ile çağırayım Mevlam seni (Yunus Emre, 22); Bu gece de deniz sakin, gönül rahat olsun (gece dileği, 23). Avoided 7-day repeats incl. Achilles & tortoise (20 Nov — so no Zeno scene), SDO plasma eruption (16 Nov — dropped a prominence photo), eclipse corona photo (20 Nov), Vakfıkebir bread fact (20 Nov), 8-minute sunlight fact, kanun (17 Nov), Grimshaw/Whistler (15 Nov), Zhangjiajie/Uyuni/Dolomites (20 Nov), Königsberg bridges, “Pazar” name fact (15 Nov), towel riddle; dropped a hamam dome photo and a framed Inness for warm gold-looking tones.
+
+### 09:00–10:00 · Pazar Sabahı · Sunday Morning
+- 09 | hzphoto | Trabzon Ayasofya’sında 13. yüzyıldan kalma bir duvar resmi | m/h22-ayasofya.jpg
+- 09 | hzquote | Ne hoş bir şey her gün bir yerden göçmek; ne hoş bir şey her gün bir yere konmak | —
+- 09 | hzphoto | Ayder Yaylası: Kaçkar Dağları’nın eteğinde ahşap evler, sis ve orman | m/h22-ayder.jpg
+- 09 | hzphoto | Karaca Mağarası’nda sarkıt ve dikitlerden bir taş ormanı | m/h22-karaca.jpg
+- 09 | hzfact | Türkiye’de haftalık tatil günü 1935’te çıkan bir yasayla cumadan pazara alındı | —
+- 09 | hzriddle | Paylaştığın anda kaybolan şey nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Tuhaf Çekiciler · Living Art: Strange Attractors
+- 10 | hzclifford | NEW/generator hzclifford | —
+- 10 | hzsteps | Kaos rastgelelik değildir | —
+- 10 | hzphoto | Bulutlarda bir Kármán girdap caddesi: adanın ardında sırayla dönen dev girdaplar | m/h22-karman.jpg
+- 10 | hzriddle | Dışını atarsın, içini pişirirsin; sonra dışını yer, içini atarsın. Nedir? | —
+- 10 | hzfact | Edward Lorenz bir hava modelini yeniden çalıştırırken 0,506127 yerine kısaca 0,506 yazdı: tahmin baştan sona değişti | —
+
+### 11:00–12:00 · Nefes Kesen Yerler: Zirveler, Fiyortlar ve Çöller · Breathtaking Places: Peaks, Fjords & Deserts
+- 11 | hzphoto | Reine: dik dağların dibinde, suyun kenarında kırmızı balıkçı evleri | m/h22-reine.jpg
+- 11 | hzphoto | Cuernos del Paine: açık renkli granitin üstünde koyu kaya “boynuzlar” | m/h22-torres.jpg
+- 11 | hzphoto | Vadi Rum: kızıl kum ve kumtaşı dağlarıyla “Ay Vadisi” | m/h22-wadirum.jpg
+- 11 | hzphoto | Bled Gölü: adacıkta küçük bir kilise, uçurumun üstünde bir kale | m/h22-bled.jpg
+- 11 | hzphoto | Trolltunga, “Trol dili”: gölün yaklaşık 700 metre üstünde boşluğa uzanan bir kaya | m/h22-trolltunga.jpg
+
+### 12:00–13:00 · Köprülerin Zarafeti · The Grace of Bridges
+- 12 | hzphoto | Mostar’da Neretva Nehri üstündeki Eski Köprü ve taş evler | m/h22-mostar.jpg
+- 12 | hzphoto | Hacu Köprüsü: hem köprü, hem baraj, hem de suyun üstünde bir buluşma yeri | m/h22-khaju.jpg
+- 12 | hzphoto | Alacakaranlıkta Ponte Vecchio: üstünde dükkânlar olan bir ortaçağ köprüsü | m/h22-vecchio.jpg
+- 12 | hzphoto | “Şeytan Köprüsü”: yansımasıyla birlikte kusursuz bir daire çiziyor | m/h22-rakotz.jpg
+- 12 | hzphoto | Sabahın erken saatinde Karl Köprüsü: sıra sıra heykeller ve kuleler | m/h22-charles.jpg
+- 12 | hzquote | Sen okyanusta bir damla değilsin; bir damlada okyanusun tamamısın | —
+
+### 13:00–14:00 · Büyük Ustalardan: Sorolla’nın Akdeniz Işığı · From the Great Masters: Sorolla’s Mediterranean Light
+- 13 | hzphoto | Yelken Dikmek — Joaquín Sorolla, 1896 | m/h22-sor1.jpg
+- 13 | hzphoto | Atın Banyosu — Joaquín Sorolla, 1909 | m/h22-sor2.jpg
+- 13 | hzphoto | Kumsalda Koşu — Joaquín Sorolla, 1908 | m/h22-sor3.jpg
+- 13 | hzphoto | Anne — Joaquín Sorolla, 1895–1900 | m/h22-sor4.jpg
+- 13 | hzphoto | Kumsalda Çocuklar — Joaquín Sorolla, 1910 | m/h22-sor5.jpg
+- 13 | hzquote | Yara, ışığın içine girdiği yerdir | —
+
+### 14:00–15:00 · Gökyüzünün Harikaları: Güneşimiz · Wonders of the Sky: Our Sun
+- 14 | hzphoto | Bugüne kadar çekilmiş en ayrıntılı güneş lekesi görüntülerinden biri | m/h22-sunspot.jpg
+- 14 | hzphoto | Güneş, gözümüzün göremediği aşırı morötesi ışıkta: her renk farklı bir sıcaklık | m/h22-halpha.jpg
+- 14 | hzphoto | Venüs Güneş’in önünden geçerken: siyah noktalar saatler boyunca izlediği yol | m/h22-venus.jpg
+- 14 | hzphoto | Uzaydan gün doğumu: Dünya’nın kenarındaki ince mavi atmosfer çizgisi | m/h22-orbsunrise.jpg
+- 14 | hzfact | Güneş, Güneş Sistemi’ndeki bütün kütlenin yaklaşık %99,86’sını tek başına taşır | —
+
+### 15:00–16:00 · Göz Oyunları: Beynin Tamamladıkları · Tricks of the Eye: What the Brain Fills In
+- 15 | hzneon | NEW/illusion hzneon | —
+- 15 | hzsteps | Gördüğün dünyanın ne kadarı gerçekten gözünden geliyor? | —
+- 15 | hzocclude | NEW/illusion hzocclude | —
+- 15 | hzfact | Beyin kabuğunun (korteks) kabaca üçte biri görmeyle ilgili işlere ayrılmış | —
+
+### 16:00–17:00 · Zekice Düşünce: Yangın Ne Zaman Yayılır? · Clever Thinking: When Does a Fire Spread?
+- 16 | hzperc | NEW/generator hzperc | —
+- 16 | hzsteps | Kahve, orman ve sihirli bir eşik | —
+- 16 | hzphoto | Moka cezvesi: buhar basıncı suyu kahve telvesinin içinden yukarı iter | m/h22-moka.jpg
+- 16 | hzriddle | Bir ormanda 100 ağaç var ve %99’u çam. Yalnızca çam keserek oranı %98’e indireceksin. Kaç çam kesmelisin? | —
+- 16 | hzfact | Kare bir ızgarada süzülme eşiği yaklaşık %59,27 — ve bu sayının kesin bir formülü hâlâ bilinmiyor | —
+
+### 17:00–18:00 · Ekmek Kokusu · The Smell of Bread
+- 17 | hzphoto | Susamlı simit: pekmeze batırılıp susama bulanan halka | m/h22-simit.jpg
+- 17 | hzphoto | Herculaneum’da bulunan Roma ekmeği örnek alınarak pişirilmiş, sekiz dilimli yuvarlak bir somun | m/h22-sourdough.jpg
+- 17 | hzphoto | Taş fırına kürekle sürülen ekmekler: lahana yaprağı üstünde pişen geleneksel Jersey somunları | m/h22-bakery.jpg
+- 17 | hzfact | Kabuk yaklaşık 140 °C’yi geçince Maillard tepkimesi hızlanır: yüzlerce yeni koku molekülü oluşur | —
+- 17 | hzquote | Bir lokma, bir hırka | —
+
+### 18:00–19:00 · Akşam Müziği: Teller ve Tuşlar · Evening Music: Strings & Keys
+- 18 | hzphoto | Bir kuyruklu piyanonun içi: dökme demir çerçeve, teller ve tokmaklar | m/h22-piano.jpg
+- 18 | hzphoto | Kendi kendine çalan piyanonun notası: delikli bir kâğıt rulo | m/h22-pianola.jpg
+- 18 | hzphoto | Ud: perdesiz sapı ve armut biçimli gövdesiyle | m/h22-oud.jpg
+- 18 | hzfact | Standart bir piyanoda 88 tuş var: 52 beyaz, 36 siyah — en pesten en tize 7 oktavdan fazla | —
+- 18 | hzquote | Müziksiz bir hayat bir hata olurdu | —
+
+### 19:00–20:00 · Villa Fikirleri: Kış Konforu · Villa Ideas: Winter Comfort
+- 19 | hzphoto | Bir duman saunasının taş sobası: ahşap, taş ve sıcaklık | m/h22-sauna.jpg
+- 19 | hzphoto | Karla çevrili açık hava sıcak su havuzu (rotenburo) | m/h22-onsen.jpg
+- 19 | hzphoto | Kar yağarken buharı tüten ısıtmalı bir havuz | m/h22-hottub.jpg
+- 19 | hzsteps | Karadeniz kışında misafire sıcak bir akşam: üç küçük dokunuş | —
+- 19 | hzriddle | Odaya girer, bütün camları ağlatır. Nedir? | —
+
+### 20:00–21:00 · Zekice Düşünce: Ne Zaman Durmalı? · Clever Thinking: When to Stop?
+- 20 | hzstop | NEW/generator hzstop | —
+- 20 | hzsteps | %37 kuralı nereden geliyor? | —
+- 20 | hzriddle | 1. kattan 3. kata merdivenle 1 dakikada çıkıyorsun. Aynı hızla 1. kattan 6. kata kaç dakikada çıkarsın? | —
+- 20 | hzfact | Bu soru 1950’lerde “sekreter problemi” adıyla ünlendi; Martin Gardner 1960’ta okurlarına sordu | —
+
+### 21:00–22:00 · Ağaçların Sırları · Secrets of Trees
+- 21 | hzphoto | General Sherman: hacim olarak dünyanın en büyük tek gövdeli ağacı | m/h22-sherman.jpg
+- 21 | hzphoto | Pando: binlerce ağaç gibi görünen tek bir canlı | m/h22-pando.jpg
+- 21 | hzphoto | Grandidier baobabı: gövdesinde binlerce litre su saklayan “ters ağaç” | m/h22-baobab.jpg
+- 21 | hzphoto | Gökkuşağı okaliptüsünün kabuğu: hiçbir boya kullanılmadı | m/h22-eucalyptus.jpg
+- 21 | hzfact | Dünyada yaklaşık 3 trilyon ağaç var: kişi başına aşağı yukarı 400 ağaç | —
+- 21 | hzquote | Ağaç yaşken eğilir | —
+
+### 22:00–23:00 · Galeri: George Inness’in Sisli Akşamları · Gallery: The Misty Evenings of George Inness (sakin · calm)
+- 22 | hzphoto | Balıkçılın Yuvası — George Inness, 1893 | m/h22-inn1.jpg
+- 22 | hzphoto | Ay Doğuşu — George Inness, 1887 | m/h22-inn2.jpg
+- 22 | hzphoto | Gökkuşağı — George Inness | m/h22-inn3.jpg
+- 22 | hzphoto | Gün Batımı — George Inness, 1894 | m/h22-inn4.jpg
+- 22 | hzquote | Dağlar ile taşlar ile çağırayım Mevlam seni | —
+
+### 23:00–02:00 · Köy Uyurken · As the Village Sleeps (sakin · calm)
+- 23 | hzkoy | NEW/generator hzkoy | —
+- 23 | hzphoto | Bulutların arasından denize düşen ay ışığı | m/h22-moonsea.jpg
+- 23 | hzsteps | Uyumadan önce: bugünden üç küçük güzellik | —
+- 23 | hzphoto | Karda kıvrılıp dinlenen bir kızıl tilki | m/h22-fox.jpg
+- 23 | hzquote | Bu gece de deniz sakin, gönül rahat olsun | —
+
 ## 2026-11-21 (rev 75, hourly sets 09:00–02:00, days/2026-11-21.json) · Saturday
 
 No pending requests in requests.md (verified ~08:00). Carried forward M’s 20 Nov taste: 11:00–14:00 guest-worthy (breathtaking places, architecture, great masters, wonders of the sky — no puzzles in those hours) and 17:00–19:00 cozy (woodstove/chestnuts/tiled stove, warm libraries, stories by the hearth) with fresh topics. 6 new hz scenes (hourly.js v75): generators hzpack (circle packing) hzbenford (Benford’s law: first digits of 2ⁿ, Fibonacci, n!) hzbirthday (birthday paradox simulation on a 365-day ring) hztren (night train along a lake, calm night) + illusions hzsilence (silencing illusion, Suchow & Alvarez 2011) hzsfm (kinetic depth / structure-from-motion sphere). 45 new CC/PD photos/artworks (m/h21-*). h19-* and h72-* archived to /workspace/tv-media-archive/h19 and /h72 (site ~48 MB after adding h21-*). Quotes: Şefkat ve merhamette güneş gibi ol; tevazuda toprak gibi ol (Mevlânâ, 09); Güneş, bir binanın duvarına vurana kadar… (Louis Kahn, 12); Ya olduğun gibi görün, ya göründüğün gibi ol (Mevlânâ, 13); Hamdım, piştim, yandım (Mevlânâ, 17); Cenneti hep bir tür kütüphane olarak hayal ettim (Borges, 18); Dinle, bu ney nasıl şikâyet ediyor (Mevlânâ, 19); Başkalarının kusurunu örtmede gece gibi ol (Mevlânâ, 22); Bu da geçer yâ hû (tasavvuf sözü, 23). Avoided 7-day repeats incl. Friedrich/Vermeer/Shishkin (17 Nov), Hanoi (14 Nov), kemençe (14 Nov), candle (17 Nov), Nasreddin/Karagöz, sea of clouds, Sumela/Zağnos/Gülbahar, lily-doubling and paper-folding riddles; dropped Lotfollah dome and Admont/Joanina libraries for gold-heavy looks.
