@@ -1,0 +1,1102 @@
+{
+ "date": "2026-11-23",
+ "rev": 77,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-23.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-23-09",
+   "name": "Pazartesi Sabahı · Monday Morning",
+   "from": "2026-11-23T09:00",
+   "until": "2026-11-23T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-zilkale.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Zilkale · Çamlıhemşin, Rize",
+     "tr": "Zilkale: Fırtına Vadisi’nin ormanları arasında, kayalık bir tepenin üstünde bir kale",
+     "en": "Zilkale — a castle on a rocky hilltop among the forests of the Fırtına Valley",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "fact": "Yaklaşık 750 metrede, derenin 100 metreyi aşkın yukarısında; adının, vadide yankılanan su sesinden ya da bir çandan geldiği anlatılır",
+     "facte": "About 750 m up, more than 100 m above the stream — its name (“bell castle”) is said to come from the echoing water or a bell"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Aradığın şey|seni arıyor",
+     "en": "What you are seeking is seeking you",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-gulbahar.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Gülbahar Hatun Camii · Trabzon",
+     "tr": "Gülbahar Hatun Camii’nin içinden: mermer minber ve sade beyaz duvarlar",
+     "en": "Inside the Gülbahar Hatun Mosque — a marble minbar and plain white walls",
+     "cr": "Foto · Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yavuz Sultan Selim, annesi Gülbahar Hatun için yaptırdı; 1514’te tamamlandı. Selim gençlik yıllarını Trabzon’da sancakbeyi olarak geçirmişti",
+     "facte": "Built by Sultan Selim I for his mother Gülbahar Hatun, completed in 1514 — Selim had spent his youth in Trabzon as its governor",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h23-hamsi.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kadıköy balık pazarı · Kadıköy fish market, İstanbul",
+     "tr": "Tezgâhta pırıl pırıl Karadeniz hamsisi",
+     "en": "Gleaming Black Sea anchovies (hamsi) on the counter",
+     "cr": "Foto · Photo: Rachel Dalby · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Hamsi sezonu eylülde açılır; kış soğudukça balık yağlanır ve en lezzetli hâline gelir",
+     "facte": "The hamsi season opens in September — the colder the winter gets, the richer and tastier the fish become"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "%90",
+     "tr": "Karadeniz’in suyunun yaklaşık %90’ı oksijensiz: 150–200 metrenin altında neredeyse hiç canlı yok",
+     "en": "About 90% of the Black Sea’s water has no oxygen — below 150–200 m almost nothing lives",
+     "src": "Bu yüzden dipte 2.400 yıllık bir Yunan gemisi neredeyse bozulmadan bulundu (2018) · That is why a 2,400-year-old Greek ship was found almost intact on the seabed (2018)",
+     "c1": "#13242c",
+     "c2": "#04080a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ne kadar çok olursa,|o kadar az görürsün. Nedir?",
+     "qe": "The more of it there is, the less you see. What is it?",
+     "a": "Karanlık!",
+     "ae": "Darkness!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-10",
+   "name": "Yaşayan Sanat: Balçık Mantarının Ağları · Living Art: Slime Mould Networks",
+   "from": "2026-11-23T10:00",
+   "until": "2026-11-23T11:00",
+   "items": [
+    {
+     "k": "hzphysarum",
+     "d": 96
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Bir balçık mantarı Tokyo’nun demiryolunu nasıl çizdi?",
+     "e": "How did a slime mould draw Tokyo’s railway?",
+     "c1": "#162a2c",
+     "c2": "#04090a",
+     "gap": 8,
+     "steps": [
+      [
+       "2010’da Japon bilim insanları yulaf tanelerini Tokyo çevresindeki şehirlerin yerlerine dizdi",
+       "In 2010 Japanese scientists placed oat flakes where the cities around Tokyo lie",
+       "🌾"
+      ],
+      [
+       "Ortaya, Tokyo’nun yerine, bir parça Physarum koydular",
+       "In the middle, where Tokyo is, they put a piece of Physarum",
+       ""
+      ],
+      [
+       "Bir günde mantar bütün tanelere uzandı, sonra gereksiz kolları kendiliğinden geri çekti",
+       "Within a day it reached every flake, then pulled back the branches it did not need",
+       ""
+      ],
+      [
+       "Kalan ağ, mühendislerin yıllarca uğraşıp kurduğu demiryolu ağına şaşırtıcı derecede benziyordu",
+       "The network that remained looked strikingly like the rail system engineers had spent years designing",
+       ""
+      ]
+     ],
+     "fin": "Sık kullanılan yollar kalınlaşır, boş kalanlar kaybolur: tek kural bu",
+     "fine": "Busy paths thicken, idle ones disappear — that is the whole rule"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "1 hücre",
+     "tr": "Balçık mantarı aslında tek bir dev hücre: binlerce çekirdeği var ve bir masa büyüklüğüne kadar yayılabilir",
+     "en": "A slime mould is really one giant cell — it has thousands of nuclei and can spread as wide as a table",
+     "src": "Physarum polycephalum; ne bitki ne hayvan ne de gerçek bir mantar · neither plant, animal nor true fungus",
+     "c1": "#162a2c",
+     "c2": "#04090a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ağzı yok ama konuşur, kulağı yok ama cevap verir.|Nedir?",
+     "qe": "It has no mouth but speaks, no ears but answers. What is it?",
+     "a": "Yankı!",
+     "ae": "An echo!",
+     "sec": 18,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-11",
+   "name": "Nefes Kesen Yerler: Şelaleler · Breathtaking Places: Waterfalls",
+   "from": "2026-11-23T11:00",
+   "until": "2026-11-23T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-plitvice.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Plitvice Gölleri, Hırvatistan · Plitvice Lakes, Croatia",
+     "tr": "Plitvice: ormanın içinden basamak basamak inen göller ve şelaleler",
+     "en": "Plitvice — lakes and waterfalls stepping down through the forest",
+     "cr": "Foto · Photo: Someone35 · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "16 göl, sudaki kirecin yavaş yavaş biriktirdiği doğal setlerle birbirinden ayrılır; bu setler hâlâ büyüyor",
+     "facte": "Sixteen lakes are separated by natural dams of limestone that the water slowly builds — and the dams are still growing",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-skogafoss.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Skógafoss, İzlanda · Iceland",
+     "tr": "Skógafoss: 60 metreden dökülen bembeyaz bir perde",
+     "en": "Skógafoss — a white curtain falling 60 metres",
+     "cr": "Foto · Photo: Martin Falbisoner · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Efsaneye göre bir Viking, hazine sandığını şelalenin arkasındaki mağaraya sakladı; güneşli günlerde önünde çoğu zaman gökkuşağı oluşur",
+     "facte": "Legend says a Viking hid his treasure chest in a cave behind the falls — on sunny days a rainbow often hangs in front of it"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-victoria.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Victoria Şelalesi, Zimbabve–Zambiya · Victoria Falls, Zimbabwe–Zambia",
+     "tr": "Victoria Şelalesi: yerel adıyla “Gürleyen Duman”",
+     "en": "Victoria Falls — known locally as “the Smoke that Thunders”",
+     "cr": "Foto · Photo: Bernard Gagnon · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 1,7 kilometre genişliğinde ve 108 metre yüksekliğinde; su tozu kilometrelerce öteden görülebilir",
+     "facte": "About 1.7 km wide and 108 m high — its spray can be seen from many kilometres away"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-kirkjufell.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kirkjufell, Snæfellsnes, İzlanda · Iceland",
+     "tr": "Kirkjufell Dağı ve önündeki küçük şelale",
+     "en": "Kirkjufell mountain and the little waterfall in front of it",
+     "cr": "Foto · Photo: Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+     "fact": "463 metrelik dağ, şekli yüzünden “kilise dağı” anlamına gelen adını almış; İzlanda’nın en çok fotoğraflanan yerlerinden",
+     "facte": "The 463 m mountain is named “church mountain” for its shape — one of the most photographed places in Iceland"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-angel.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Angel Şelalesi, Venezuela · Angel Falls, Venezuela",
+     "tr": "Angel Şelalesi: dünyanın kesintisiz akan en yüksek şelalesi",
+     "en": "Angel Falls — the world’s highest uninterrupted waterfall",
+     "cr": "Foto · Photo: Berrucomons · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "979 metre: suyun bir kısmı daha yere ulaşmadan sise dönüşür. Adını 1933’te üzerinden uçan pilot Jimmie Angel’dan alır",
+     "facte": "979 metres — some of the water turns to mist before it reaches the ground. Named after pilot Jimmie Angel, who flew over it in 1933",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-12",
+   "name": "Ahşabın Şiiri · Poetry in Wood",
+   "from": "2026-11-23T12:00",
+   "until": "2026-11-23T13:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-borgund.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Borgund, Norveç · Norway",
+     "tr": "Borgund ahşap kilisesi: katman katman çatılar ve ejderha başları",
+     "en": "Borgund stave church — layer upon layer of roofs, and dragon heads",
+     "cr": "Foto · Photo: Ximonic (Simo Räsänen) · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 1180’de yapıldı; 800 yılı aşkın süredir ayakta. Kirişler çivi yerine ahşap kamalarla birbirine tutturulmuş",
+     "facte": "Built around 1180 and standing for more than 800 years — its beams are joined with wooden pegs rather than nails",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-kizhi.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kiji Adası, Rusya · Kizhi Island, Russia",
+     "tr": "Kiji’deki Başkalaşım Kilisesi: tamamen ahşaptan 22 kubbe",
+     "en": "The Church of the Transfiguration on Kizhi — 22 domes, all of wood",
+     "cr": "Foto · Photo: Alexxx1979 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "1714’te yapıldı, 37 metre yüksekliğinde. Efsaneye göre ustası tek bir çivi kullanmadı ve bitirince baltasını göle attı",
+     "facte": "Built in 1714 and 37 m tall — legend says its master builder used not a single nail, then threw his axe into the lake"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-horyuji.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hōryū-ji, Nara, Japonya · Japan",
+     "tr": "Hōryū-ji’nin beş katlı ahşap pagodası",
+     "en": "The five-storey wooden pagoda of Hōryū-ji",
+     "cr": "Foto · Photo: 663highland · CC BY 2.5 · Wikimedia Commons",
+     "fact": "Dünyanın ayakta duran en eski ahşap yapılarından; merkez direk için ağacın 594 yılında kesildiği hesaplandı",
+     "facte": "Among the oldest standing wooden buildings in the world — the tree for its central pillar was felled in the year 594"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-shirakawa.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Shirakawa-gō, Japonya · Japan",
+     "tr": "Shirakawa-gō’nun “dua eden eller” gibi dik saman çatılı evleri",
+     "en": "The steep thatched “praying hands” houses of Shirakawa-gō",
+     "cr": "Foto · Photo: lienyuan lee · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Dik çatılar ağır karı taşır. Bir çatının samanı yaklaşık 30 yılda bir yenilenir ve bunu bütün köy birlikte, bir günde yapar",
+     "facte": "The steep roofs carry heavy snow — a roof is re-thatched about every 30 years, by the whole village together in a single day"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-serender2.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Arhavi, Artvin",
+     "tr": "Bir Karadeniz serenderi: ahşap direkler üstünde bir tahıl ambarı",
+     "en": "A Black Sea serender — a grain store on wooden stilts",
+     "cr": "Foto · Photo: Onerhoca · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Direklerin tepesindeki geniş ahşap tablalar farelerin yukarı tırmanmasını engeller; altından esen rüzgâr ürünü kuru tutar",
+     "facte": "The wide wooden discs on top of the posts stop mice from climbing up — and the breeze underneath keeps the harvest dry",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-safranbolu2.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Safranbolu, Karabük",
+     "tr": "Safranbolu’nun yamaçlara yayılmış ahşap ve kerpiç konakları",
+     "en": "The timber-and-adobe mansions of Safranbolu spread over the slopes",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · Wikimedia Commons",
+     "fact": "1994’ten beri UNESCO Dünya Mirası. Rivayete göre evler birbirinin manzarasını kapatmayacak şekilde dizildi",
+     "facte": "A UNESCO World Heritage Site since 1994 — the story goes that the houses were placed so that none blocks another’s view"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-13",
+   "name": "Büyük Ustalardan: Vermeer’in Sessiz Işığı · From the Great Masters: Vermeer’s Quiet Light",
+   "from": "2026-11-23T13:00",
+   "until": "2026-11-23T14:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h23-ver1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Sütçü Kız — Johannes Vermeer, y. 1658",
+     "en": "The Milkmaid — Johannes Vermeer, c. 1658",
+     "cr": "Eser · Artwork: Johannes Vermeer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Önlüğündeki mavi, o dönem altından pahalı olan lapis lazuli taşından yapılmış ultramarin boya",
+     "facte": "The blue of her apron is ultramarine, made from lapis lazuli — then more costly than gold",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h23-ver2.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Delft Manzarası — Johannes Vermeer, y. 1660–61",
+     "en": "View of Delft — Johannes Vermeer, c. 1660–61",
+     "cr": "Eser · Artwork: Johannes Vermeer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yazar Marcel Proust buna “dünyanın en güzel resmi” dedi",
+     "facte": "The writer Marcel Proust called it “the most beautiful painting in the world”",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h23-ver3.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Küçük Sokak — Johannes Vermeer, y. 1658",
+     "en": "The Little Street — Johannes Vermeer, c. 1658",
+     "cr": "Eser · Artwork: Johannes Vermeer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "2015’te araştırmacılar eski vergi kayıtlarından bu evlerin Delft’te tam olarak nerede durduğunu buldu",
+     "facte": "In 2015 researchers used old tax records to find exactly where in Delft these houses stood",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h23-ver4.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Mavili, Mektup Okuyan Kadın — Johannes Vermeer, y. 1663",
+     "en": "Woman in Blue Reading a Letter — Johannes Vermeer, c. 1663",
+     "cr": "Eser · Artwork: Johannes Vermeer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Mektupta ne yazdığını hiç bilmiyoruz: Vermeer hikâyeyi değil, o sessiz anı resmetti",
+     "facte": "We never learn what the letter says — Vermeer painted not the story but the quiet moment",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h23-ver5.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "İnci Küpeli Kız — Johannes Vermeer, y. 1665",
+     "en": "Girl with a Pearl Earring — Johannes Vermeer, c. 1665",
+     "cr": "Eser · Artwork: Johannes Vermeer · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Gerçek bir kişinin portresi değil, hayal edilmiş bir “tip” resmi; Vermeer’e ait bilinen yalnızca 35 kadar tablo var",
+     "facte": "Not a portrait of a real person but an imagined “type” — only about 35 paintings by Vermeer are known",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Her sürtünmede incinirsen,|aynan nasıl parlar?",
+     "en": "If you are hurt by every rub, how will your mirror ever be polished?",
+     "pal": "clay"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-14",
+   "name": "Gökyüzünün Harikaları: Kuyruklu Yıldızlar · Wonders of the Sky: Comets",
+   "from": "2026-11-23T14:00",
+   "until": "2026-11-23T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-halebopp.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Avusturya, 1997 · Austria, 1997",
+     "tr": "Hale–Bopp kuyruklu yıldızı: mavi gaz kuyruğu ve beyaz toz kuyruğu",
+     "en": "Comet Hale–Bopp — a blue gas tail and a white dust tail",
+     "cr": "Foto · Photo: E. Kolmhofer, H. Raab (Johannes Kepler Gözlemevi · Observatory, Linz) · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "1997’de rekor sayılacak kadar uzun, yaklaşık 18 ay çıplak gözle görüldü; çekirdeği 40–60 km genişliğinde",
+     "facte": "In 1997 it stayed visible to the naked eye for a record of about 18 months — its nucleus is 40–60 km across",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-neowise.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Temmuz 2020 · July 2020",
+     "tr": "NEOWISE kuyruklu yıldızı ve onu izleyen bir gözlemci",
+     "en": "Comet NEOWISE and a stargazer watching it",
+     "cr": "Foto · Photo: Palonitor · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bir daha yaklaşık 6.800 yıl sonra gelecek",
+     "facte": "It will not be back for roughly 6,800 years"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-mcnaught.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Paranal, Şili, 2007 · Chile, 2007",
+     "tr": "McNaught kuyruklu yıldızı: güney gökyüzüne yelpaze gibi açılan kuyruk",
+     "en": "Comet McNaught — a tail fanning across the southern sky",
+     "cr": "Foto · Photo: S. Deiries / ESO · CC BY 4.0 · Wikimedia Commons",
+     "fact": "2007’de son 40 yılın en parlak kuyruklu yıldızıydı; gündüz bile görülebildi",
+     "facte": "In 2007 it was the brightest comet in 40 years — it could even be seen in daylight"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-comet67p.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rosetta uzay aracı, 2014 · Rosetta spacecraft, 2014",
+     "tr": "67P kuyruklu yıldızının yakından görünüşü",
+     "en": "Comet 67P seen up close",
+     "cr": "Foto · Photo: ESA / Rosetta / NAVCAM · CC BY-SA 3.0 IGO · Wikimedia Commons",
+     "fact": "Yaklaşık 4 km boyunda, oyuncak ördeğe benzeyen bir buz ve toz yığını. Kasım 2014’te Philae robotu yüzeyine indi",
+     "facte": "About 4 km long, a rubber-duck-shaped heap of ice and dust — in November 2014 the Philae robot landed on it",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-halley.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · 1986",
+     "tr": "Halley kuyruklu yıldızının 1986’daki ziyareti",
+     "en": "Halley’s Comet on its 1986 visit",
+     "cr": "Foto · Photo: NASA / W. Liller · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Mark Twain, Halley’in geldiği 1835’te doğdu ve bir sonraki gelişinde, 1910’da öldü — tam da öngördüğü gibi",
+     "facte": "Mark Twain was born when Halley came in 1835 and died on its next visit in 1910 — just as he had predicted"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "2061",
+     "tr": "Halley kuyruklu yıldızı bir sonraki sefer 2061 yazında görünecek",
+     "en": "Halley’s Comet will be back in the summer of 2061",
+     "src": "Yaklaşık her 76 yılda bir döner · It returns about every 76 years",
+     "c1": "#141c30",
+     "c2": "#04060c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-15",
+   "name": "Göz Oyunları: Boyut ve Hız · Tricks of the Eye: Size & Speed",
+   "from": "2026-11-23T15:00",
+   "until": "2026-11-23T16:00",
+   "items": [
+    {
+     "k": "hzdelboeuf",
+     "d": 52
+    },
+    {
+     "k": "hzwagon",
+     "d": 96
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "24",
+     "tr": "Sinema filmleri saniyede 24 kare çekilir: hareket ettiğini sandığın şey, art arda gösterilen durgun resimler",
+     "en": "Films are shot at 24 frames a second — what looks like motion is a run of still pictures",
+     "src": "Araba tekerleklerinin filmlerde geri dönüyor gibi görünmesi bundandır · That is why wagon wheels seem to spin backwards in films",
+     "c1": "#1c2430",
+     "c2": "#05070b"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hep yukarı çıkar,|ama asla aşağı inmez. Nedir?",
+     "qe": "It always goes up but never comes down. What is it?",
+     "a": "Yaşımız!",
+     "ae": "Our age!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-16",
+   "name": "Zekice Düşünce: İyilik Kazanır mı? · Clever Thinking: Does Kindness Win?",
+   "from": "2026-11-23T16:00",
+   "until": "2026-11-23T17:00",
+   "items": [
+    {
+     "k": "hzaxelrod",
+     "d": 72
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Kısasa Kısas neden bu kadar iyi?",
+     "e": "Why is Tit for Tat so good?",
+     "c1": "#1b2430",
+     "c2": "#05070b",
+     "gap": 8,
+     "steps": [
+      [
+       "İyi niyetli: ilk kötülüğü asla o yapmaz",
+       "Nice — it is never the first to cheat",
+       "🤝"
+      ],
+      [
+       "Karşılık verir: kazıklanırsa hemen bir kez karşılık verir",
+       "It hits back — cheated once, it answers once, straight away",
+       ""
+      ],
+      [
+       "Affeder: karşı taraf düzelince o da hemen düzelir",
+       "It forgives — as soon as the other side behaves, so does it",
+       ""
+      ],
+      [
+       "Açıktır: ne yapacağı belli olduğu için güven verir",
+       "It is clear — because it is predictable, others learn to trust it",
+       ""
+      ]
+     ],
+     "fin": "Axelrod’un özeti: kıskanma, ilk kötülüğü sen yapma, iyiliğe de kötülüğe de karşılık ver, fazla akıllı olmaya çalışma",
+     "fine": "Axelrod’s summary: don’t be envious, don’t be the first to cheat, return both kindness and cheating, don’t try to be too clever"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-cleaner.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kızıldeniz · Red Sea",
+     "tr": "Bir temizlikçi balık, kendinden çok büyük bir balığın parazitlerini topluyor",
+     "en": "A cleaner fish picking parasites off a fish many times its size",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Doğada da iş birliği var: büyük balıklar, avcılar bile, “temizlik istasyonlarında” sıraya girer ve temizlikçiyi yemez",
+     "facte": "Cooperation exists in nature too — big fish, even predators, queue at “cleaning stations” and never eat the cleaner"
+    },
+    {
+     "k": "hzriddle",
+     "d": 36,
+     "q": "İki kişi beş oyun satranç oynadı.|Beraberlik yok, ikisi de beşer oyun kazandı. Nasıl?",
+     "qe": "Two people played five games of chess. No draws, yet each won five games. How?",
+     "a": "Birbirleriyle değil, başka rakiplerle oynadılar!",
+     "ae": "They were not playing each other — they had other opponents!",
+     "sec": 24,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "1980",
+     "tr": "Axelrod’un ilk turnuvasına 14 program katıldı; kazanan, aralarındaki en kısa programdı",
+     "en": "Axelrod’s first tournament had 14 programs — the winner was the shortest of them all",
+     "src": "Kısasa Kısas’ı Anatol Rapoport yazdı; 62 programlı ikinci turnuvayı da kazandı · Tit for Tat was written by Anatol Rapoport and also won the second tournament of 62 programs",
+     "c1": "#1b2430",
+     "c2": "#05070b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-17",
+   "name": "Çay ve Kahve Saati · Tea & Coffee Time",
+   "from": "2026-11-23T17:00",
+   "until": "2026-11-23T18:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-teaglass.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İnce belli bardak · Tulip glass",
+     "tr": "İnce belli bardakta tavşan kanı bir çay",
+     "en": "A “rabbit’s blood” deep-red tea in a tulip glass",
+     "cr": "Foto · Photo: Nevit Dilmen · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "İnce bel çayı elde tutmayı kolaylaştırır; geniş ağız ise üstteki çayın daha çabuk soğumasını sağlar",
+     "facte": "The narrow waist makes the glass easy to hold, while the wide rim lets the top of the tea cool a little faster"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-semaver.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Semaverde çay · Tea from the samovar",
+     "tr": "Bahçede kaynayan semaverler",
+     "en": "Samovars bubbling away in a garden",
+     "cr": "Foto · Photo: Tevfik Teker · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Semaverin ortasındaki boruda odun ya da kömür yanar; su saatlerce sıcak kalır, çay hiç bitmez",
+     "facte": "Wood or charcoal burns in the samovar’s central pipe — the water stays hot for hours and the tea never runs out"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h23-kahve.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bir fincan kahve · A cup of coffee",
+     "tr": "Küçük bir fincan, koyu bir kahve",
+     "en": "A small cup, a dark coffee",
+     "cr": "Foto · Photo: Julius Schorzman · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Türk kahvesi kültürü ve geleneği 2013’te UNESCO Somut Olmayan Kültürel Miras listesine alındı",
+     "facte": "Turkish coffee culture and tradition was added to UNESCO’s Intangible Cultural Heritage list in 2013"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-minttea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Fas · Morocco",
+     "tr": "Fas’ta naneli çay: yüksekten dökülür",
+     "en": "Moroccan mint tea — always poured from up high",
+     "cr": "Foto · Photo: katiebordner · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Yüksekten dökmek çayı köpürtür ve biraz soğutur; misafire üç bardak ikram etmek gelenektir",
+     "facte": "Pouring from a height makes the tea froth and cool a little — offering a guest three glasses is the custom",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-teaceremony.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Japon çay töreni · Japanese tea ceremony",
+     "tr": "Japon çay töreninde yeşil matcha hazırlanıyor",
+     "en": "Green matcha being prepared in a Japanese tea ceremony",
+     "cr": "Foto · Photo: Ermell · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Törenin özü “ichigo ichie”: bu buluşma bir kez yaşanır, aynısı bir daha olmaz",
+     "facte": "The heart of the ceremony is “ichigo ichie” — this meeting happens only once and will never come again"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "3 kg",
+     "tr": "Türkiye kişi başına çay tüketiminde dünyada birinci: yılda yaklaşık 3 kilogram kuru çay",
+     "en": "Turkey drinks the most tea per person in the world — about 3 kg of dry tea a year",
+     "src": "Bu, günde birkaç ince belli bardak demek · That means several tulip glasses a day",
+     "c1": "#2a1e1c",
+     "c2": "#0a0605"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Bir fincan kahvenin|kırk yıl hatırı vardır",
+     "en": "A single cup of coffee is remembered for forty years",
+     "pal": "clay",
+     "lb": "Atasözü · Proverb",
+     "by": "Türk atasözü · Turkish proverb"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-18",
+   "name": "Akşam Müziği: Karadeniz’in Sesi · Evening Music: The Sound of the Black Sea",
+   "from": "2026-11-23T18:00",
+   "until": "2026-11-23T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-kemence.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Karadeniz kemençesi · Black Sea kemençe",
+     "tr": "Karadeniz kemençeleri: dizde tutulan, yayla çalınan üç telli küçük bir saz",
+     "en": "Black Sea kemençes — small three-stringed fiddles held on the knee and played with a bow",
+     "cr": "Foto · Photo: bilinmeyen · unknown · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Kemençeci çoğu zaman iki teli birden çalar; bu yüzden tek bir saz bile kalabalık bir ses çıkarır",
+     "facte": "The player usually bows two strings at once — so even a single kemençe sounds full",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-horon3.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sis Dağı Horon Şenliği · Trabzon",
+     "tr": "Sis Dağı’nda yaylada horon: el ele tutuşmuş uzun bir halka",
+     "en": "Horon on the Sis Dağı highland — a long ring of dancers hand in hand",
+     "cr": "Foto · Photo: Turreis10700 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Her yaz Trabzon’un yaylalarında yapılan şenliklerde kemençe çalar, halka büyüdükçe büyür; kemençe hızlandıkça adımlar küçülür, omuzlar titrer",
+     "facte": "At summer festivals on Trabzon’s highlands the kemençe plays and the ring keeps growing — as the music speeds up, steps shrink and shoulders shimmy"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Ritim · Rhythm",
+     "q": "Aksak ritim nedir? Birlikte sayalım",
+     "e": "What is an “aksak” (limping) rhythm? Let’s count together",
+     "c1": "#1a2430",
+     "c2": "#05070b",
+     "gap": 8,
+     "steps": [
+      [
+       "Çoğu batı şarkısı dörde ya da ikiye bölünür: bir-iki, bir-iki",
+       "Most Western songs split into fours or twos — one-two, one-two",
+       "🎻"
+      ],
+      [
+       "Horon ise çoğu zaman yediye bölünür: bir-iki, bir-iki, bir-iki-üç",
+       "Horon often splits into seven — one-two, one-two, one-two-three",
+       ""
+      ],
+      [
+       "O son “üç” ritmi bir an topallatır; dansa o heyecanlı sıçrayışı veren budur",
+       "That last “three” makes the rhythm limp for a moment — and gives the dance its thrilling bounce",
+       ""
+      ],
+      [
+       "Şimdi sen de elinle masaya vur: 2 + 2 + 3",
+       "Now tap it on the table yourself: 2 + 2 + 3",
+       ""
+      ]
+     ],
+     "fin": "Kulağına tuhaf gelirse normal: birkaç turdan sonra ayakların kendiliğinden uyar",
+     "fine": "If it feels odd at first, that’s normal — after a few rounds your feet just follow"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "7/16",
+     "tr": "Horon çoğu zaman 7/16 gibi “aksak” ölçülerle çalınır: çok hızlı yedi vuruşluk bir döngü",
+     "en": "Horon is often played in “aksak” meters like 7/16 — a very fast seven-beat cycle",
+     "src": "Karadeniz müziği · Black Sea folk music",
+     "c1": "#1a2430",
+     "c2": "#05070b"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Telleri var ama gitar değil,|yayı var ama ok atmaz. Nedir?",
+     "qe": "It has strings but it is no guitar; it has a bow but shoots no arrows. What is it?",
+     "a": "Kemençe (ya da keman)!",
+     "ae": "A kemençe (or a violin)!",
+     "sec": 18,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Biz her şeyin|müzik olduğu bir yere düştük",
+     "en": "We have fallen into the place where everything is music",
+     "pal": "night"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-19",
+   "name": "Villa Fikirleri: Sofra Kurmak · Villa Ideas: Setting the Table",
+   "from": "2026-11-23T19:00",
+   "until": "2026-11-23T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h23-table1.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Berlin)",
+     "tr": "Uzun bir masa, beyaz örtü ve sıra sıra mumlar",
+     "en": "A long table, white linen and rows of candles",
+     "cr": "Foto · Photo: Jorge Royan · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Aynı hizada dizilmiş alçak mumlar, tavandaki tek bir lambadan çok daha sıcak ve samimi bir ışık verir",
+     "facte": "Low candles in a row give a far warmer, more intimate light than a single lamp overhead"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h23-table3.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Lyon)",
+     "tr": "Bir Lyon lokantasında özenle kurulmuş sofra: kumaş peçeteler ve sade tabaklar",
+     "en": "A carefully set table in a Lyon restaurant — cloth napkins and simple plates",
+     "cr": "Foto · Photo: Krisztina.Konczos · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Kumaş peçete ve sade beyaz tabak, misafire “sizin için hazırlandı” duygusunu en az masrafla verir",
+     "facte": "Cloth napkins and plain white plates tell guests “this was prepared for you” — for very little cost"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Misafir sofrası için dört küçük sır",
+     "e": "Four small secrets for a guest table",
+     "c1": "#2a221c",
+     "c2": "#0a0705",
+     "gap": 8,
+     "steps": [
+      [
+       "Masa ortasındaki çiçek ya da mum göz hizasının altında kalsın: herkes birbirini görsün",
+       "Keep flowers and candles below eye level so everyone can see each other",
+       "🕯"
+      ],
+      [
+       "Sofrada kokusuz mum: yemeğin kokusu ön planda kalsın",
+       "Unscented candles at the table — let the food’s aroma lead",
+       ""
+      ],
+      [
+       "Sıcak beyaz ışık (2700 K) ve kısık lambalar: yüzler de yemekler de güzel görünür",
+       "Warm white light (2700 K) and dimmed lamps — faces and food both look their best",
+       ""
+      ],
+      [
+       "Küçük tabak: Delboeuf yanılsamasını hatırla, porsiyon cömert görünür",
+       "Smaller plates — remember the Delboeuf illusion: portions look generous",
+       ""
+      ]
+     ],
+     "fin": "Butik otellerin sırrı: pahalı eşya değil, düşünülmüş ayrıntı",
+     "fine": "The boutique-hotel secret: not expensive things, but thoughtful details"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Dört ayağı var ama yürüyemez;|sofrayı taşır ama yemek yiyemez. Nedir?",
+     "qe": "It has four legs but cannot walk; it carries the meal but cannot eat. What is it?",
+     "a": "Masa!",
+     "ae": "A table!",
+     "sec": 16,
+     "c1": "#2a221c",
+     "c2": "#0a0705"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Misafir umduğunu değil,|bulduğunu yer",
+     "en": "A guest eats not what he hoped for, but what he finds",
+     "pal": "clay",
+     "lb": "Atasözü · Proverb",
+     "by": "Türk atasözü · Turkish proverb"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-20",
+   "name": "Zekice Düşünce: Kalabalığın Bilgeliği · Clever Thinking: The Wisdom of Crowds",
+   "from": "2026-11-23T20:00",
+   "until": "2026-11-23T21:00",
+   "items": [
+    {
+     "k": "hzcrowd",
+     "d": 72
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Kalabalık ne zaman akıllıdır?",
+     "e": "When is a crowd wise?",
+     "c1": "#1f2a30",
+     "c2": "#05080a",
+     "gap": 8,
+     "steps": [
+      [
+       "Herkes kendi bilgisiyle tahmin etmeli",
+       "Everyone guesses with their own knowledge",
+       "👥"
+      ],
+      [
+       "Tahminler birbirinden bağımsız olmalı: kimse diğerinin cevabını duymamalı",
+       "Guesses must be independent — nobody should hear anyone else’s answer",
+       ""
+      ],
+      [
+       "Farklı insanlar olmalı: hepsi aynı yönde yanılmasın",
+       "The people should be different, so they don’t all err the same way",
+       ""
+      ],
+      [
+       "Sonra ortanca değer alınır: aşırı uçlar sonucu bozamaz",
+       "Then take the middle value — the wild extremes cannot spoil it",
+       ""
+      ]
+     ],
+     "fin": "Toplantılarda önce herkes cevabını kâğıda yazsın, sonra konuşulsun",
+     "fine": "In meetings, let everyone write their answer down first — then talk"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-jellybeans.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Washington, 1980’ler · 1980s",
+     "tr": "Bir başkan ve en sevdiği şey: bir kavanoz jelibon",
+     "en": "A president and his favourite thing — a jar of jelly beans",
+     "cr": "Foto · Photo: Beyaz Saray Fotoğraf Ofisi · White House Photographic Office · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ronald Reagan masasında hep bir kavanoz jelibon tutardı; yaban mersini aromalı jelibon, kırmızı-beyaz-mavi olsun diye onun için üretildi",
+     "facte": "Ronald Reagan always kept a jar of jelly beans on his desk — the blueberry flavour was created for him so the beans could be red, white and blue"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir çobanın 17 koyunu var.|9’u hariç hepsi kaçtı. Kaç koyunu kaldı?",
+     "qe": "A shepherd has 17 sheep. All but 9 run away. How many are left?",
+     "a": "9 koyun!",
+     "ae": "9 sheep!",
+     "sec": 20,
+     "hint": "Soruyu yavaş oku · Read the question slowly",
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "1.207",
+     "tr": "1906’da 787 kişi bir öküzün ağırlığını tahmin etti: tahminlerin ortancası 1.207 libre, gerçek ağırlık 1.198 libreydi",
+     "en": "In 1906, 787 people guessed the weight of an ox — the middle guess was 1,207 lb, the true weight 1,198 lb",
+     "src": "Francis Galton, “Vox Populi”, Nature, 1907",
+     "c1": "#1f2a30",
+     "c2": "#05080a"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-21",
+   "name": "Bulutların Atlası · An Atlas of Clouds",
+   "from": "2026-11-23T21:00",
+   "until": "2026-11-23T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-mammatus.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tulsa, ABD, 1973 · USA, 1973",
+     "tr": "Mammatus bulutları: gökyüzünden sarkan keseler",
+     "en": "Mammatus clouds — pouches hanging from the sky",
+     "cr": "Foto · Photo: NOAA · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Çoğu bulut yukarı doğru kabarır; mammatus ise soğuk havanın aşağı çöktüğü yerlerde ters yöne, aşağıya doğru kabarır",
+     "facte": "Most clouds billow upwards — mammatus bulge downwards, where cold air sinks out of a storm’s underside"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-lenticular.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Rainier Dağı, ABD · Mount Rainier, USA",
+     "tr": "Mercimek bulutu: dağın üstünde duran bir “uçan daire”",
+     "en": "A lenticular cloud — a “flying saucer” parked over the mountain",
+     "cr": "Foto · Photo: Steve Redman · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Rüzgâr esse de bulut yerinde durur: hava dağın üstünden dalga gibi geçer ve hep aynı noktada yoğuşur",
+     "facte": "It stays put even in strong wind — air flows over the mountain in a wave and condenses at the same spot"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-shelf.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Estonya · Estonia",
+     "tr": "Raf bulutu: yaklaşan bir fırtınanın önünde uzanan duvar",
+     "en": "A shelf cloud — a wall leading an approaching storm",
+     "cr": "Foto · Photo: Kristian Pikner · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Fırtınanın soğuk hava akımı, önündeki sıcak havayı kaldırıp bu uzun rafı oluşturur; birkaç dakika içinde rüzgâr ve yağmur gelir",
+     "facte": "The storm’s cold outflow lifts the warm air ahead into this long shelf — wind and rain follow within minutes"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-kelvin.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kelvin–Helmholtz bulutları · clouds",
+     "tr": "Gökyüzünde kırılan dalgalar: Kelvin–Helmholtz bulutları",
+     "en": "Breaking waves in the sky — Kelvin–Helmholtz clouds",
+     "cr": "Foto · Photo: Astronautilus · CC BY 2.0 · Wikimedia Commons",
+     "fact": "İki hava katmanı farklı hızlarda kayınca, rüzgârın denizde dalga yapması gibi gökyüzünde de dalgalar oluşur",
+     "facte": "When two layers of air slide past at different speeds, waves form in the sky just as wind makes waves on the sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h23-asperitas.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Türkiye · Turkey",
+     "tr": "Asperitas: altından bakınca çalkantılı bir deniz yüzeyine benzeyen bulut",
+     "en": "Asperitas — a cloud that looks like a rough sea seen from below",
+     "cr": "Foto · Photo: Kesim00 · CC0 · Wikimedia Commons",
+     "fact": "Adı Latincede “pürüzlülük” demek; dünyanın dört bir yanındaki amatör fotoğrafçıların gönderdiği resimlerle tanındı",
+     "facte": "Its name is Latin for “roughness” — it was recognised thanks to photos sent in by amateur cloud-watchers all over the world"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "2017",
+     "tr": "Asperitas 2017’de Uluslararası Bulut Atlası’na eklendi: 1951’den beri eklenen ilk yeni bulut biçimi",
+     "en": "Asperitas was added to the International Cloud Atlas in 2017 — the first new cloud form added since 1951",
+     "src": "Dünya Meteoroloji Örgütü · World Meteorological Organization",
+     "c1": "#1a2430",
+     "c2": "#05070b"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Bulut ağlamazsa|çimen nasıl güler?",
+     "en": "If the cloud does not weep, how will the meadow smile?",
+     "pal": "sea"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-22",
+   "name": "Galeri: Ayvazovski’nin Gece Denizleri · Gallery: Aivazovsky’s Night Seas (sakin · calm)",
+   "from": "2026-11-23T22:00",
+   "until": "2026-11-23T23:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h23-aiv1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Mehtaplı Gece — İvan Ayvazovski",
+     "en": "Moonlit Night — Ivan Aivazovsky",
+     "cr": "Eser · Artwork: İvan Ayvazovski · Ivan Aivazovsky · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ayvazovski denizi açık havada değil, atölyesinde hafızasından boyardı; bir tabloyu çoğu zaman tek oturuşta bitirirdi",
+     "facte": "Aivazovsky painted the sea not outdoors but from memory in his studio — often finishing a painting in a single sitting",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h23-aiv6.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Karadeniz — İvan Ayvazovski, 1881",
+     "en": "The Black Sea — Ivan Aivazovsky, 1881",
+     "cr": "Eser · Artwork: İvan Ayvazovski · Ivan Aivazovsky · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Kırım’daki Feodosya’da, Karadeniz kıyısında doğdu; bu tabloda yalnızca su ve gökyüzü var, başka hiçbir şey",
+     "facte": "He was born in Feodosia on the Black Sea coast of Crimea — this painting holds nothing but water and sky",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h23-aiv5.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Mehtaplı Gecede Bir Vapur — İvan Ayvazovski",
+     "en": "A Steamship on a Moonlit Night — Ivan Aivazovsky",
+     "cr": "Eser · Artwork: İvan Ayvazovski · Ivan Aivazovsky · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Sultan Abdülaziz için İstanbul’un ve Boğaz’ın onlarca resmini yaptı; bir kısmı bugün Dolmabahçe Sarayı’nda",
+     "facte": "He painted dozens of views of İstanbul and the Bosphorus for Sultan Abdülaziz — some hang in Dolmabahçe Palace today",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "6.000",
+     "tr": "Ayvazovski uzun hayatında 6.000’e yakın resim yaptı: çoğu deniz",
+     "en": "Over his long life Aivazovsky made close to 6,000 paintings — most of them of the sea",
+     "src": "1817–1900",
+     "c1": "#121a26",
+     "c2": "#03050a"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Sessizlik|Tanrı’nın dilidir",
+     "en": "Silence is the language of God",
+     "pal": "night"
+    }
+   ]
+  },
+  {
+   "id": "h-11-23-23",
+   "name": "Kutup Yıldızı Etrafında · Around the Pole Star (sakin · calm)",
+   "from": "2026-11-23T23:00",
+   "until": "2026-11-24T02:00",
+   "items": [
+    {
+     "k": "hzstartrail",
+     "d": 100
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h23-hedgehog.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Avrupa kirpisi · European hedgehog",
+     "tr": "Kuru yaprakların arasında bir kirpi",
+     "en": "A hedgehog among dry leaves",
+     "cr": "Foto · Photo: Hrald · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kasım’da kirpiler kış uykusuna hazırlanır: uykuda kalp atışı dakikada yaklaşık 190’dan 20’ye kadar iner",
+     "facte": "In November hedgehogs settle in to hibernate — asleep, the heart slows from about 190 beats a minute to around 20"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "≈430",
+     "tr": "Kutup Yıldızı yaklaşık 430 ışık yılı uzakta: bu gece gördüğün ışık 1590’larda yola çıktı",
+     "en": "The Pole Star is about 430 light years away — the light you see tonight set off in the 1590s",
+     "src": "Polaris, Küçükayı takımyıldızı · Polaris, Ursa Minor",
+     "c1": "#121a26",
+     "c2": "#03050a"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Uyumadan önce: üç küçük teşekkür",
+     "e": "Before sleep: three small thank-yous",
+     "c1": "#121a26",
+     "c2": "#03050a",
+     "gap": 9,
+     "steps": [
+      [
+       "Bugün sana iyilik eden biri",
+       "Someone who was kind to you today",
+       "☾"
+      ],
+      [
+       "Bugün işini kolaylaştıran bir şey",
+       "Something that made your day easier",
+       ""
+      ],
+      [
+       "Yarın teşekkür etmek istediğin biri",
+       "Someone you’d like to thank tomorrow",
+       ""
+      ]
+     ],
+     "fin": "Yıldızlar gibi düşünceler de yavaşça dönüp yerine oturur",
+     "fine": "Like the stars, thoughts slowly turn and settle into place",
+     "bg": "stars"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Gece ne kadar karanlıksa|yıldızlar o kadar parlak",
+     "en": "The darker the night, the brighter the stars",
+     "pal": "night",
+     "lb": "Gece Sözü · Night Saying",
+     "by": "Apollon Maykov, 1878"
+    }
+   ]
+  }
+ ]
+}

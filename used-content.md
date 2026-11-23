@@ -1,3 +1,119 @@
+## 2026-11-23 (rev 77, hourly sets 09:00–02:00, days/2026-11-23.json) · Monday
+
+No pending requests in requests.md (verified ~08:00; left unchanged). Kept M’s 20 Nov taste: 11:00–14:00 guest-worthy (waterfalls, wooden architecture, Vermeer, comets — no puzzles in those hours) and 17:00–19:00 cozy (tea & coffee time, Black Sea kemençe & horon, setting the table) with fresh topics. 6 new hz scenes (hourly.js v77): generators hzphysarum (slime mould agent network linking food spots) hzaxelrod (prisoner’s dilemma round robin + ecological contest) hzcrowd (wisdom of crowds jar guess, independent vs herding round) hzstartrail (star trails around Polaris over Black Sea hills, calm night) + illusions hzdelboeuf (Delboeuf plates) hzwagon (wagon-wheel / stroboscopic effect). 44 new CC/PD photos/artworks (m/h23-*). h21-* archived to /workspace/tv-media-archive/h21 (site ~47 MB after adding h23-*). Quotes: Aradığın şey seni arıyor (Mevlânâ, 09); Her sürtünmede incinirsen aynan nasıl parlar (Mevlânâ, 13); Bir fincan kahvenin kırk yıl hatırı vardır (atasözü, 17); Biz her şeyin müzik olduğu bir yere düştük (Mevlânâ, 18); Misafir umduğunu değil bulduğunu yer (atasözü, 19); Bulut ağlamazsa çimen nasıl güler (Mevlânâ, 21); Sessizlik Tanrı’nın dilidir (Mevlânâ, 22); Gece ne kadar karanlıksa yıldızlar o kadar parlak (Maykov, 23). Dropped for gold/orange tones: Aivazovsky Constantinople sunset + Crimea moonlight, Physarum photo (yellow); swapped an old horon photo for a Sis Dağı festival photo; rejected wrong Commons hits (Tulum agouti, asperitas snail, Shanhu pagodas).
+
+### 09:00–10:00 · Pazartesi Sabahı · Monday Morning
+- 09 | hzphoto | Zilkale: Fırtına Vadisi’nin ormanları arasında, kayalık bir tepenin üstünde bir kale | m/h23-zilkale.jpg
+- 09 | hzquote | Aradığın şey seni arıyor | —
+- 09 | hzphoto | Gülbahar Hatun Camii’nin içinden: mermer minber ve sade beyaz duvarlar | m/h23-gulbahar.jpg
+- 09 | hzphoto | Tezgâhta pırıl pırıl Karadeniz hamsisi | m/h23-hamsi.jpg
+- 09 | hzfact | Karadeniz’in suyunun yaklaşık %90’ı oksijensiz: 150–200 metrenin altında neredeyse hiç canlı yok | —
+- 09 | hzriddle | Ne kadar çok olursa, o kadar az görürsün. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Balçık Mantarının Ağları · Living Art: Slime Mould Networks
+- 10 | hzphysarum | NEW/generator hzphysarum | —
+- 10 | hzsteps | Bir balçık mantarı Tokyo’nun demiryolunu nasıl çizdi? | —
+- 10 | hzfact | Balçık mantarı aslında tek bir dev hücre: binlerce çekirdeği var ve bir masa büyüklüğüne kadar yayılabilir | —
+- 10 | hzriddle | Ağzı yok ama konuşur, kulağı yok ama cevap verir. Nedir? | —
+
+### 11:00–12:00 · Nefes Kesen Yerler: Şelaleler · Breathtaking Places: Waterfalls
+- 11 | hzphoto | Plitvice: ormanın içinden basamak basamak inen göller ve şelaleler | m/h23-plitvice.jpg
+- 11 | hzphoto | Skógafoss: 60 metreden dökülen bembeyaz bir perde | m/h23-skogafoss.jpg
+- 11 | hzphoto | Victoria Şelalesi: yerel adıyla “Gürleyen Duman” | m/h23-victoria.jpg
+- 11 | hzphoto | Kirkjufell Dağı ve önündeki küçük şelale | m/h23-kirkjufell.jpg
+- 11 | hzphoto | Angel Şelalesi: dünyanın kesintisiz akan en yüksek şelalesi | m/h23-angel.jpg
+
+### 12:00–13:00 · Ahşabın Şiiri · Poetry in Wood
+- 12 | hzphoto | Borgund ahşap kilisesi: katman katman çatılar ve ejderha başları | m/h23-borgund.jpg
+- 12 | hzphoto | Kiji’deki Başkalaşım Kilisesi: tamamen ahşaptan 22 kubbe | m/h23-kizhi.jpg
+- 12 | hzphoto | Hōryū-ji’nin beş katlı ahşap pagodası | m/h23-horyuji.jpg
+- 12 | hzphoto | Shirakawa-gō’nun “dua eden eller” gibi dik saman çatılı evleri | m/h23-shirakawa.jpg
+- 12 | hzphoto | Bir Karadeniz serenderi: ahşap direkler üstünde bir tahıl ambarı | m/h23-serender2.jpg
+- 12 | hzphoto | Safranbolu’nun yamaçlara yayılmış ahşap ve kerpiç konakları | m/h23-safranbolu2.jpg
+
+### 13:00–14:00 · Büyük Ustalardan: Vermeer’in Sessiz Işığı · From the Great Masters: Vermeer’s Quiet Light
+- 13 | hzphoto | Sütçü Kız — Johannes Vermeer, y. 1658 | m/h23-ver1.jpg
+- 13 | hzphoto | Delft Manzarası — Johannes Vermeer, y. 1660–61 | m/h23-ver2.jpg
+- 13 | hzphoto | Küçük Sokak — Johannes Vermeer, y. 1658 | m/h23-ver3.jpg
+- 13 | hzphoto | Mavili, Mektup Okuyan Kadın — Johannes Vermeer, y. 1663 | m/h23-ver4.jpg
+- 13 | hzphoto | İnci Küpeli Kız — Johannes Vermeer, y. 1665 | m/h23-ver5.jpg
+- 13 | hzquote | Her sürtünmede incinirsen, aynan nasıl parlar? | —
+
+### 14:00–15:00 · Gökyüzünün Harikaları: Kuyruklu Yıldızlar · Wonders of the Sky: Comets
+- 14 | hzphoto | Hale–Bopp kuyruklu yıldızı: mavi gaz kuyruğu ve beyaz toz kuyruğu | m/h23-halebopp.jpg
+- 14 | hzphoto | NEOWISE kuyruklu yıldızı ve onu izleyen bir gözlemci | m/h23-neowise.jpg
+- 14 | hzphoto | McNaught kuyruklu yıldızı: güney gökyüzüne yelpaze gibi açılan kuyruk | m/h23-mcnaught.jpg
+- 14 | hzphoto | 67P kuyruklu yıldızının yakından görünüşü | m/h23-comet67p.jpg
+- 14 | hzphoto | Halley kuyruklu yıldızının 1986’daki ziyareti | m/h23-halley.jpg
+- 14 | hzfact | Halley kuyruklu yıldızı bir sonraki sefer 2061 yazında görünecek | —
+
+### 15:00–16:00 · Göz Oyunları: Boyut ve Hız · Tricks of the Eye: Size & Speed
+- 15 | hzdelboeuf | NEW/generator hzdelboeuf | —
+- 15 | hzwagon | NEW/generator hzwagon | —
+- 15 | hzfact | Sinema filmleri saniyede 24 kare çekilir: hareket ettiğini sandığın şey, art arda gösterilen durgun resimler | —
+- 15 | hzriddle | Hep yukarı çıkar, ama asla aşağı inmez. Nedir? | —
+
+### 16:00–17:00 · Zekice Düşünce: İyilik Kazanır mı? · Clever Thinking: Does Kindness Win?
+- 16 | hzaxelrod | NEW/generator hzaxelrod | —
+- 16 | hzsteps | Kısasa Kısas neden bu kadar iyi? | —
+- 16 | hzphoto | Bir temizlikçi balık, kendinden çok büyük bir balığın parazitlerini topluyor | m/h23-cleaner.jpg
+- 16 | hzriddle | İki kişi beş oyun satranç oynadı. Beraberlik yok, ikisi de beşer oyun kazandı. Nasıl? | —
+- 16 | hzfact | Axelrod’un ilk turnuvasına 14 program katıldı; kazanan, aralarındaki en kısa programdı | —
+
+### 17:00–18:00 · Çay ve Kahve Saati · Tea & Coffee Time
+- 17 | hzphoto | İnce belli bardakta tavşan kanı bir çay | m/h23-teaglass.jpg
+- 17 | hzphoto | Bahçede kaynayan semaverler | m/h23-semaver.jpg
+- 17 | hzphoto | Küçük bir fincan, koyu bir kahve | m/h23-kahve.jpg
+- 17 | hzphoto | Fas’ta naneli çay: yüksekten dökülür | m/h23-minttea.jpg
+- 17 | hzphoto | Japon çay töreninde yeşil matcha hazırlanıyor | m/h23-teaceremony.jpg
+- 17 | hzfact | Türkiye kişi başına çay tüketiminde dünyada birinci: yılda yaklaşık 3 kilogram kuru çay | —
+- 17 | hzquote | Bir fincan kahvenin kırk yıl hatırı vardır | —
+
+### 18:00–19:00 · Akşam Müziği: Karadeniz’in Sesi · Evening Music: The Sound of the Black Sea
+- 18 | hzphoto | Karadeniz kemençeleri: dizde tutulan, yayla çalınan üç telli küçük bir saz | m/h23-kemence.jpg
+- 18 | hzphoto | Sis Dağı’nda yaylada horon: el ele tutuşmuş uzun bir halka | m/h23-horon3.jpg
+- 18 | hzsteps | Aksak ritim nedir? Birlikte sayalım | —
+- 18 | hzfact | Horon çoğu zaman 7/16 gibi “aksak” ölçülerle çalınır: çok hızlı yedi vuruşluk bir döngü | —
+- 18 | hzriddle | Telleri var ama gitar değil, yayı var ama ok atmaz. Nedir? | —
+- 18 | hzquote | Biz her şeyin müzik olduğu bir yere düştük | —
+
+### 19:00–20:00 · Villa Fikirleri: Sofra Kurmak · Villa Ideas: Setting the Table
+- 19 | hzphoto | Uzun bir masa, beyaz örtü ve sıra sıra mumlar | m/h23-table1.jpg
+- 19 | hzphoto | Bir Lyon lokantasında özenle kurulmuş sofra: kumaş peçeteler ve sade tabaklar | m/h23-table3.jpg
+- 19 | hzsteps | Misafir sofrası için dört küçük sır | —
+- 19 | hzriddle | Dört ayağı var ama yürüyemez; sofrayı taşır ama yemek yiyemez. Nedir? | —
+- 19 | hzquote | Misafir umduğunu değil, bulduğunu yer | —
+
+### 20:00–21:00 · Zekice Düşünce: Kalabalığın Bilgeliği · Clever Thinking: The Wisdom of Crowds
+- 20 | hzcrowd | NEW/generator hzcrowd | —
+- 20 | hzsteps | Kalabalık ne zaman akıllıdır? | —
+- 20 | hzphoto | Bir başkan ve en sevdiği şey: bir kavanoz jelibon | m/h23-jellybeans.jpg
+- 20 | hzriddle | Bir çobanın 17 koyunu var. 9’u hariç hepsi kaçtı. Kaç koyunu kaldı? | —
+- 20 | hzfact | 1906’da 787 kişi bir öküzün ağırlığını tahmin etti: tahminlerin ortancası 1.207 libre, gerçek ağırlık 1.198 libreydi | —
+
+### 21:00–22:00 · Bulutların Atlası · An Atlas of Clouds
+- 21 | hzphoto | Mammatus bulutları: gökyüzünden sarkan keseler | m/h23-mammatus.jpg
+- 21 | hzphoto | Mercimek bulutu: dağın üstünde duran bir “uçan daire” | m/h23-lenticular.jpg
+- 21 | hzphoto | Raf bulutu: yaklaşan bir fırtınanın önünde uzanan duvar | m/h23-shelf.jpg
+- 21 | hzphoto | Gökyüzünde kırılan dalgalar: Kelvin–Helmholtz bulutları | m/h23-kelvin.jpg
+- 21 | hzphoto | Asperitas: altından bakınca çalkantılı bir deniz yüzeyine benzeyen bulut | m/h23-asperitas.jpg
+- 21 | hzfact | Asperitas 2017’de Uluslararası Bulut Atlası’na eklendi: 1951’den beri eklenen ilk yeni bulut biçimi | —
+- 21 | hzquote | Bulut ağlamazsa çimen nasıl güler? | —
+
+### 22:00–23:00 · Galeri: Ayvazovski’nin Gece Denizleri · Gallery: Aivazovsky’s Night Seas (sakin · calm)
+- 22 | hzphoto | Mehtaplı Gece — İvan Ayvazovski | m/h23-aiv1.jpg
+- 22 | hzphoto | Karadeniz — İvan Ayvazovski, 1881 | m/h23-aiv6.jpg
+- 22 | hzphoto | Mehtaplı Gecede Bir Vapur — İvan Ayvazovski | m/h23-aiv5.jpg
+- 22 | hzfact | Ayvazovski uzun hayatında 6.000’e yakın resim yaptı: çoğu deniz | —
+- 22 | hzquote | Sessizlik Tanrı’nın dilidir | —
+
+### 23:00–02:00 · Kutup Yıldızı Etrafında · Around the Pole Star (sakin · calm)
+- 23 | hzstartrail | NEW/generator hzstartrail | —
+- 23 | hzphoto | Kuru yaprakların arasında bir kirpi | m/h23-hedgehog.jpg
+- 23 | hzfact | Kutup Yıldızı yaklaşık 430 ışık yılı uzakta: bu gece gördüğün ışık 1590’larda yola çıktı | —
+- 23 | hzsteps | Uyumadan önce: üç küçük teşekkür | —
+- 23 | hzquote | Gece ne kadar karanlıksa yıldızlar o kadar parlak | —
+
 ## 2026-11-22 (rev 76, hourly sets 09:00–02:00, days/2026-11-22.json) · Sunday
 
 No pending requests in requests.md (verified ~08:00; left unchanged). Kept M’s 20 Nov taste: 11:00–14:00 guest-worthy (breathtaking places, bridges, great masters, wonders of the sky — no puzzles in those hours) and 17:00–19:00 cozy (the smell of bread, evening music) with fresh topics. 6 new hz scenes (hourly.js v76): generators hzclifford (Clifford strange attractor) hzperc (forest-fire percolation, 59.3% threshold) hzstop (optimal stopping / 37% rule) hzkoy (hillside village above the sea, windows going dark, calm night) + illusions hzneon (neon colour spreading) hzocclude (motion binding diamond). 43 new CC/PD photos/artworks (m/h22-*). h20-* and h74-* archived to /workspace/tv-media-archive/h20 and /h74 (site 39 MB before, ~46 MB after adding h22-*). Quotes: Ne hoş bir şey her gün bir yerden göçmek (Mevlânâ, 09); Sen okyanusta bir damla değilsin (Mevlânâ, 12); Yara, ışığın içine girdiği yerdir (Mevlânâ, 13); Bir lokma, bir hırka (tasavvuf sözü, 17); Müziksiz bir hayat bir hata olurdu (Nietzsche, 18); Ağaç yaşken eğilir (atasözü, 21); Dağlar ile taşlar ile çağırayım Mevlam seni (Yunus Emre, 22); Bu gece de deniz sakin, gönül rahat olsun (gece dileği, 23). Avoided 7-day repeats incl. Achilles & tortoise (20 Nov — so no Zeno scene), SDO plasma eruption (16 Nov — dropped a prominence photo), eclipse corona photo (20 Nov), Vakfıkebir bread fact (20 Nov), 8-minute sunlight fact, kanun (17 Nov), Grimshaw/Whistler (15 Nov), Zhangjiajie/Uyuni/Dolomites (20 Nov), Königsberg bridges, “Pazar” name fact (15 Nov), towel riddle; dropped a hamam dome photo and a framed Inness for warm gold-looking tones.
