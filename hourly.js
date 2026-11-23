@@ -1,6 +1,6 @@
-/* hourly.js v77 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v78 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto (quiet:1 = dim ambient still, tiny caption, fade only) hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
-   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener + hzshepard hzbezold.  v68: hzflow hzlissa hzrule hzlantern + hzscint hzchecker.  v69: hzmandel hzbuffon hzember (calm night) + illusions hzouchi hzmach hzbarber.  v71: hztimes hzmonty hztsp hzbalikci (calm night) + illusions hzcurve hzpinna.  v73: hzrecaman hzsieve hzhalve hzyayla (calm night) + illusions hzwaterfall hztroxler.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  v75: hzpack hzbenford hzbirthday hztren (calm night) + illusions hzsilence hzsfm.  v76: hzclifford hzperc hzstop hzkoy (calm night) + illusions hzneon hzocclude.  v77: hzphysarum hzaxelrod hzcrowd hzstartrail (calm night) + illusions hzdelboeuf hzwagon.  See README.md "Hourly day schedule". */
+   Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener + hzshepard hzbezold.  v68: hzflow hzlissa hzrule hzlantern + hzscint hzchecker.  v69: hzmandel hzbuffon hzember (calm night) + illusions hzouchi hzmach hzbarber.  v71: hztimes hzmonty hztsp hzbalikci (calm night) + illusions hzcurve hzpinna.  v73: hzrecaman hzsieve hzhalve hzyayla (calm night) + illusions hzwaterfall hztroxler.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  v75: hzpack hzbenford hzbirthday hztren (calm night) + illusions hzsilence hzsfm.  v76: hzclifford hzperc hzstop hzkoy (calm night) + illusions hzneon hzocclude.  v77: hzphysarum hzaxelrod hzcrowd hzstartrail (calm night) + illusions hzdelboeuf hzwagon.  v78: hzglowworm (calm imagined glowworm cave).  See README.md "Hourly day schedule". */
 (function(){
 var s=document.createElement('style');s.innerHTML="@font-face{font-family:HzScript;src:url(f/GreatVibes.ttf)}@font-face{font-family:HzBrush;src:url(f/Dancing.ttf)}"+
 ".hz{position:absolute;left:5vw;right:5vw;text-align:center;color:#f3f1ec;font-family:Georgia,serif;text-shadow:0 2px 16px rgba(0,0,0,.75);box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}"+
@@ -1411,5 +1411,31 @@ W.hzstartrail=function(L,it){var c=wCv(L),x=c.getContext('2d'),tc=document.creat
   var hq=15;for(var q3=15;q3<60;q3++)if(HL[1][q3]<HL[1][hq])hq=q3;var hx=hq*20,hy=HL[1][hq]+14;x.fillStyle='#1c2230';x.fillRect(hx-40,hy-34,80,40);x.beginPath();x.moveTo(hx-50,hy-34);x.lineTo(hx,hy-66);x.lineTo(hx+50,hy-34);x.fill();var wl=.75+.08*Math.sin(t*.9);x.fillStyle='rgba(255,214,160,'+wl.toFixed(2)+')';x.fillRect(hx-22,hy-22,13,14);var gl=x.createRadialGradient(hx-15,hy-15,0,hx-15,hy-15,40);gl.addColorStop(0,'rgba(255,210,150,.25)');gl.addColorStop(1,'rgba(255,210,150,0)');x.fillStyle=gl;x.fillRect(hx-55,hy-55,80,80);
   var wg=x.createLinearGradient(0,SY,0,1080);wg.addColorStop(0,'#0c1526');wg.addColorStop(1,'#02040a');x.fillStyle=wg;x.fillRect(0,SY,1920,260);
   for(var yy=SY+5;yy<1080;yy+=7){x.fillStyle='rgba(150,170,210,'+(.05+.04*Math.sin(t*.6+yy*.21)).toFixed(3)+')';x.fillRect(0,yy+Math.sin(t*.7+yy*.3)*1.5,1920,1.5)}});return L};
+
+
+/* ---------- v78 addition: hzglowworm (calm night, imagined glowworm cave) ---------- */
+W.hzglowworm=function(L,it){var c=wCv(L),x=c.getContext('2d'),N=it.n||320,G=[],i,HY=660,TH=[],RIV=720;
+ T(L,hd('Hayal ürünü · Imagined — çizim · illustration (sakin · calm)','Tavanda, minik larvaların mavi-yeşil ışıkları bir yıldız gökyüzü gibi asılı duruyor','On the ceiling, the blue-green lights of tiny larvae hang like a sky of stars'),'top:40px',2);
+ T(L,'<div class="sm" style="font-size:1.25vw;color:#cdd6dc">Işık, avını çekmek için yanar. Yapışkan ipek iplikler tavandan suya doğru sarkar; bunlar ateşböceği değil, mağarada yaşayan larvalardır<br><i>The light is a lure. Sticky silk threads hang from the ceiling toward the water — these are cave-dwelling larvae, not fireflies</i></div>','bottom:36px',8);
+ for(i=0;i<N;i++){var yy=40+Math.pow(Math.random(),.7)* (HY-80);G.push({x:80+Math.random()*1760,y:yy,p:Math.random()*6.283,w:.35+Math.random()*1.1,r:.8+Math.random()*1.8,a:.35+Math.random()*.65,th:Math.random()<.16?1:0})}
+ for(i=0;i<14;i++)TH.push({x:200+Math.random()*1520,y:80+Math.random()*280,l:80+Math.random()*220});
+ wLoop(L,function(t){var g,k,a,xx,yy,gl;
+  g=x.createLinearGradient(0,0,0,HY);g.addColorStop(0,'#050308');g.addColorStop(.55,'#0a0810');g.addColorStop(1,'#07060c');x.fillStyle=g;x.fillRect(0,0,1920,1080);
+  x.fillStyle='#08060a';x.beginPath();x.moveTo(0,HY+20);x.quadraticCurveTo(300,HY-90,640,HY-20);x.quadraticCurveTo(980,HY+50,1280,HY-40);x.quadraticCurveTo(1580,HY-100,1920,HY+10);x.lineTo(1920,0);x.lineTo(0,0);x.closePath();x.fill();
+  x.fillStyle='rgba(18,16,22,.55)';x.beginPath();x.moveTo(0,0);x.lineTo(0,220);x.quadraticCurveTo(400,40,900,160);x.quadraticCurveTo(1400,30,1920,200);x.lineTo(1920,0);x.closePath();x.fill();
+  var wg=x.createLinearGradient(0,RIV,0,1080);wg.addColorStop(0,'#070810');wg.addColorStop(1,'#03040a');x.fillStyle=wg;x.fillRect(0,RIV,1920,1080-RIV);
+  x.strokeStyle='rgba(40,70,80,.18)';x.lineWidth=1;
+  for(k=0;k<TH.length;k++){xx=TH[k].x;yy=TH[k].y;x.beginPath();x.moveTo(xx,yy);x.lineTo(xx+Math.sin(t*.15+k)*2,yy+TH[k].l);x.stroke()}
+  x.save();x.globalCompositeOperation='lighter';
+  for(i=0;i<N;i++){var s=G[i];a=s.a*(.25+.75*(.5+.5*Math.sin(t*s.w+s.p)));a=Math.max(0,Math.min(1,a));
+   gl=x.createRadialGradient(s.x,s.y,0,s.x,s.y,s.r*10);gl.addColorStop(0,'rgba(140,245,230,'+(a*.9).toFixed(3)+')');gl.addColorStop(.35,'rgba(70,200,210,'+(a*.35).toFixed(3)+')');gl.addColorStop(1,'rgba(40,160,180,0)');
+   x.fillStyle=gl;x.beginPath();x.arc(s.x,s.y,s.r*10,0,7);x.fill();
+   x.fillStyle='rgba(210,255,245,'+(a*.95).toFixed(3)+')';x.beginPath();x.arc(s.x,s.y,s.r,0,7);x.fill();
+   if(s.th){var ry=RIV+30+(s.y*.08)+Math.sin(t*.2+s.p)*1.5,ra=a*.22;x.fillStyle='rgba(90,210,210,'+ra.toFixed(3)+')';x.beginPath();x.ellipse(s.x,ry,s.r*3.2,s.r*1.1,0,0,7);x.fill()}}
+  x.restore();
+  x.strokeStyle='rgba(80,120,140,'+(0.07+.03*Math.sin(t*.4)).toFixed(3)+')';x.lineWidth=1.2;x.beginPath();
+  for(xx=0;xx<=1920;xx+=30){yy=RIV+4+Math.sin(xx*.004+t*.15)*1.6;xx?x.lineTo(xx,yy):x.moveTo(xx,yy)}x.stroke()
+ });return L};
+
 
 })();

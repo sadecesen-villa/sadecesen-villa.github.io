@@ -850,3 +850,19 @@ m/h23-aiv1.jpg — Moonlit Night (Aivazovsky).jpg — Ivan Aivazovsky — Public
 m/h23-aiv6.jpg — Aivazovsky - The Black Sea.jpg — Ivan Aivazovsky — Public domain — https://commons.wikimedia.org/wiki/File:Aivazovsky_-_The_Black_Sea.jpg
 m/h23-aiv5.jpg — Steamship on a moonlit night (by Ivan Aivazovsky).jpg — Ivan Aivazovsky — Public domain — https://commons.wikimedia.org/wiki/File:Steamship_on_a_moonlit_night_(by_Ivan_Aivazovsky).jpg
 m/h23-hedgehog.jpg — West European Hedgehog (Erinaceus europaeus)1.jpg — Hrald — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:West_European_Hedgehog_(Erinaceus_europaeus)1.jpg
+m/h78-radio.jpg — Radiolarian.jpg — Hannes Grobe — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Radiolarian.jpg
+m/h78-sponge.jpg — Euplectella aspergillum.jpg — NOAA / MBARI — Public domain — https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum.jpg
+m/h78-frost.jpg — Fleur de givre L.jpg — Annick Monnier — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Fleur_de_givre_L.jpg
+m/h78-soap.jpg — Lipid Islands on Soap Bubble.jpg — KarlGaff — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Lipid_Islands_on_Soap_Bubble.jpg
+m/h78-webdew.jpg — Drops - Flickr - moments in nature by Antje Schultner.jpg — Antje Schultner — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Drops_-_Flickr_-_moments_in_nature_by_Antje_Schultner.jpg
+m/h78-falkirk.jpg — FalkirkWheelSide 2004 SeanMcClean.jpg — Sean Mack — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:FalkirkWheelSide_2004_SeanMcClean.jpg
+m/h78-sacsay.jpg — Saqsaywaman, Section of Megalithic Walls.jpg — Steve Fung — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Saqsaywaman,_Section_of_Megalithic_Walls.jpg
+m/h78-yakhchal.jpg — 20110102 Ice House (exterior) Meybod Iran.jpg — Ggia — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:20110102_Ice_House_(exterior)_Meybod_Iran.jpg
+m/h78-noria.jpg — Syria, norias of Hama.jpg — Johan — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Syria,_norias_of_Hama.jpg
+m/h78-millefiori.jpg — Murrine millefiori.jpg — Albarubescens — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Murrine_millefiori.jpg
+m/h78-lace.jpg — Bobbin lace making of Slovakia.jpg — Krzysiu — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Bobbin_lace_making_of_Slovakia.jpg
+m/h78-maras.jpg — Salineras de Maras, Maras, Perú, 2015-07-30, DD 12.JPG — Diego Delso — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Salineras_de_Maras,_Maras,_Per%C3%BA,_2015-07-30,_DD_12.JPG
+m/h78-pag.jpg — Aerial image of the Pag salt evaporation ponds (view from the south).jpg — Carsten Steger — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Pag_salt_evaporation_ponds_(view_from_the_south).jpg
+m/h78-biowave.jpg — Meeresleuchten auf Norderney 01.jpg — Stephan Sprinz — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Meeresleuchten_auf_Norderney_01.jpg
+m/h78-catatumbo.jpg — Catatumbo Lightning - Rayo del Catatumbo.jpg — Fernando Flores — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Catatumbo_Lightning_-_Rayo_del_Catatumbo.jpg
+m/h78-sprites.jpg — Sprites at Paranal Observatory (potw1505c).jpg — P. Horálek / ESO — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Sprites_at_Paranal_Observatory_(potw1505c).jpg

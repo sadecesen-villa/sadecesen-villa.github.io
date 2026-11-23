@@ -1,3 +1,35 @@
+## 2026-11-23 · afternoon rework (rev 78, sets 15:00–18:00 rebuilt ~15:40, fresh unexpected hours)
+
+M is in the living room and asked for new things and new ideas, different today. 15:00–18:00 replaced the morning’s eye-trick / prisoner’s-dilemma / tea & kemençe hours with four unexpected themes (no puzzles). 1 new hz scene (hourly.js v78): hzglowworm (calm imagined glowworm cave, labelled hayal ürünü). 16 new CC/PD photos (m/h78-*). Replaced h23 15–18 images archived to /workspace/tv-media-archive/h23-1518. Avoided 7-day repeats incl. butterfly-wing scales, snowflake, diatoms, pollen SEM (17 Nov), nautilus (16 Nov), Antikythera and Yerebatan cistern (19 Nov), Pantheon oculus and Sainte-Chapelle stained glass (21 Nov), noctilucent clouds and zodiacal light (21 Nov), aurora (18 Nov), light pillars and green flash and Brocken (16 Nov), Uyuni (20 Nov), fireflies animation (16 Nov), Yazd windcatcher (19 Nov), Giant’s Causeway (21 Nov); skipped kintsugi (gold rule); Derinkuyu photos were too dark or tungsten-gold so the underground city is a gap; volcanic-lightning photos on Commons were too small, painted, or gold-toned so Catatumbo lightning and red sprites stand in; Waitomo real photo was too dark for the TV, so the cave appears as the labelled imagined scene. No gold/brass subjects.
+
+### 15:00–16:00 · Doğanın Gizli Mimarisi · Nature’s Hidden Architecture
+- 15 | hzphoto | Bir radyolaryanın iskeleti: denizdeki görünmez bir canlının camdan sarayı | m/h78-radio.jpg
+- 15 | hzphoto | Derin denizin cam süngeri: ipek gibi duran, aslında cam ipliklerden örülmüş bir sepet | m/h78-sponge.jpg
+- 15 | hzphoto | Kırağının bir gecede kurduğu buz bahçesi: her dal, incecik bir kristal kule | m/h78-frost.jpg
+- 15 | hzphoto | Bir sabun zarının üstünde dans eden renkler: yağ adacıkları ve ışığın girişimi | m/h78-soap.jpg
+- 15 | hzphoto | Örümcek ağında çiy taneleri: ipek üzerine dizilmiş bir inci perdesi | m/h78-webdew.jpg
+
+### 16:00–17:00 · Harika Makineler · Wonder Machines
+- 16 | hzphoto | Falkirk Çarkı: tekneleri bir kanaldan ötekine, dev bir tekerlek gibi döndürerek taşıyor | m/h78-falkirk.jpg
+- 16 | hzphoto | Saksaywaman: harç yok, kilit yok; yüz tonluk taşlar yine de bıçak sığmayan bir hassaslıkla oturuyor | m/h78-sacsay.jpg
+- 16 | hzphoto | Yakhchal: çölün ortasında, yalnızca rüzgâr ve gölgeyle buzu yaz boyu saklayan bir kule | m/h78-yakhchal.jpg
+- 16 | hzphoto | Hama’nın su dolabı: nehir onu çevirir, ahşap kutu kutu suyu yukarı taşır | m/h78-noria.jpg
+- 16 | hzfact | Falkirk Çarkı, iki kanal arasındaki 24 metrelik kot farkını tek bir yarım turla aşıyor | —
+
+### 17:00–18:00 · Gizli Zanaat, Maddenin Sihri · Secret Craft & the Magic of Materials
+- 17 | hzphoto | Millefiori: her küçük cam dilimi, içine gizlenmiş bir çiçek | m/h78-millefiori.jpg
+- 17 | hzphoto | Mekikli dantel: yüzlerce iğne, onlarca makara, ve ipliğin ağır ağır ördüğü bir dantel bahçesi | m/h78-lace.jpg
+- 17 | hzphoto | Maras tuz tarlaları: vadinin yamacına basamak basamak oyulmuş yüzlerce sığ havuz | m/h78-maras.jpg
+- 17 | hzphoto | Havadan bakınca tuz tarlaları: denizin kenarına çizilmiş geometrik bir bahçe | m/h78-pag.jpg
+- 17 | hzfact | Millefiori çubuğunun içindeki çiçek, renkli camların milimetre milimetre üst üste eritilmesiyle doğar | —
+
+### 18:00–19:00 · Gecenin Fenomenleri · Phenomena of the Night
+- 18 | hzphoto | Yakamoz: dalgalar kıyıya vurunca, minik planktonlar mavi bir ışık saçıyor | m/h78-biowave.jpg
+- 18 | hzphoto | Catatumbo şimşekleri: gölün üstünde, neredeyse her akşam tekrar eden bir şimşek yağmuru | m/h78-catatumbo.jpg
+- 18 | hzphoto | Kırmızı hayaletler: fırtınanın çok üstünde, bir anlığına gökyüzüne yükselen kırmızı ışık sütunları | m/h78-sprites.jpg
+- 18 | hzglowworm | NEW/generator hzglowworm — imagined glowworm cave (calm, labelled hayal ürünü) | —
+- 18 | hzfact | Kırmızı hayaletler o kadar kısadır ki göz çoğu zaman onları kaçırır; kamera 90 kilometreye yükselen o kırmızı sütunları yakalar | —
+
 ## 2026-11-23 (rev 77, hourly sets 09:00–02:00, days/2026-11-23.json) · Monday
 
 No pending requests in requests.md (verified ~08:00; left unchanged). Kept M’s 20 Nov taste: 11:00–14:00 guest-worthy (waterfalls, wooden architecture, Vermeer, comets — no puzzles in those hours) and 17:00–19:00 cozy (tea & coffee time, Black Sea kemençe & horon, setting the table) with fresh topics. 6 new hz scenes (hourly.js v77): generators hzphysarum (slime mould agent network linking food spots) hzaxelrod (prisoner’s dilemma round robin + ecological contest) hzcrowd (wisdom of crowds jar guess, independent vs herding round) hzstartrail (star trails around Polaris over Black Sea hills, calm night) + illusions hzdelboeuf (Delboeuf plates) hzwagon (wagon-wheel / stroboscopic effect). 44 new CC/PD photos/artworks (m/h23-*). h21-* archived to /workspace/tv-media-archive/h21 (site ~47 MB after adding h23-*). Quotes: Aradığın şey seni arıyor (Mevlânâ, 09); Her sürtünmede incinirsen aynan nasıl parlar (Mevlânâ, 13); Bir fincan kahvenin kırk yıl hatırı vardır (atasözü, 17); Biz her şeyin müzik olduğu bir yere düştük (Mevlânâ, 18); Misafir umduğunu değil bulduğunu yer (atasözü, 19); Bulut ağlamazsa çimen nasıl güler (Mevlânâ, 21); Sessizlik Tanrı’nın dilidir (Mevlânâ, 22); Gece ne kadar karanlıksa yıldızlar o kadar parlak (Maykov, 23). Dropped for gold/orange tones: Aivazovsky Constantinople sunset + Crimea moonlight, Physarum photo (yellow); swapped an old horon photo for a Sis Dağı festival photo; rejected wrong Commons hits (Tulum agouti, asperitas snail, Shanhu pagodas).
