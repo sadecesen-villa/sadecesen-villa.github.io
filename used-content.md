@@ -1,3 +1,67 @@
+## 2026-11-24 · afternoon rework (rev 80, sets 14:00–21:00 rebuilt ~14:30, display fixes + fresh hours)
+
+M said scenes had not been displaying properly for a couple of days and asked for new things. Rev 80 fixed the player (server clock instead of the TV clock, missing-day fallback, wait for every photo + preload, shrink-to-fit actually running, reload-loop guard, dead push poll removed) and replaced the morning’s meteors / eye tricks / Tower of Hanoi / winter gardens / Mevlânâ & sema / hamam / random walk hours. 21:00 volcanoes, 22:00 Whistler and 23:00 whales kept. New generator: hzpenrose (Penrose P3 tiling by subdivision).
+
+### 14:00–15:00 · Dünyanın Renkli Toprakları · Earth in Colour
+- 14 | hzphoto | Vinicunca, “Gökkuşağı Dağı”: yamaçta çizgi çizgi mineral renkleri | m/h80-vinicunca.jpg
+- 14 | hzphoto | Grand Prismatic Kaynağı: gökyüzünden bakınca dev bir göz | m/h80-prismatic.jpg
+- 14 | hzphoto | Dallol: tuz, kükürt ve demirin boyadığı başka bir gezegen gibi | m/h80-dallol.jpg
+- 14 | hzphoto | Caño Cristales: “beş renkli nehir” | m/h80-canocristales.jpg
+- 14 | hzphoto | Laguna Colorada: kırmızı gölde And flamingoları | m/h80-lagunacolorada.jpg
+- 14 | hzriddle | Gökkuşağında/kaç renk vardır? | —
+
+### 15:00–16:00 · Kuşların Mücevherleri · Feathered Jewels
+- 15 | hzphoto | Yalıçapkını: suya dalmadan önce bir an duran mavi bir kıvılcım | m/h80-kingfisher.jpg
+- 15 | hzphoto | Mandarin ördeği: turuncu “yelkenleri” olan bir erkek | m/h80-mandarin.jpg
+- 15 | hzphoto | Leylak göğüslü gök kuzgunu: neredeyse bütün gökkuşağı tek bir kuşta | m/h80-roller.jpg
+- 15 | hzphoto | Ketzal: kuyruğu gövdesinden uzun yeşil bir efsane | m/h80-quetzal.jpg
+- 15 | hzphoto | İki arı kuşu yan yana: Türkiye’nin yaz konukları | m/h80-beeeater.jpg
+- 15 | hzphoto | Deniz papağanı: renkli gagasıyla kayalıkların palyaçosu | m/h80-puffin.jpg
+- 15 | hzfact | Mavi — Kuşların çoğunda mavi bir boya yoktur: mavi, tüyün içindeki minicik yapıların ışığı saçmasından doğar. Mavi bir tüyü ezersen grileşir | —
+
+### 16:00–17:00 · Sonsuz Desenler: Selçuklu Yıldızları ve Penrose · Endless Patterns: Seljuk Stars & Penrose
+- 16 | hzpenrose | NEW/generator hzpenrose | —
+- 16 | hzphoto | Divriği Ulu Camii’nin taş kapısında, taşın dantel gibi oyulduğu desenler | m/h80-divrigi.jpg
+- 16 | hzphoto | Karatay Medresesi’nin kubbesi: firuze ve siyah çinilerden örülmüş yıldızlar | m/h80-karatay2.jpg
+- 16 | hzphoto | Sivas Gök Medrese’nin çifte minareli taç kapısı | m/h80-gokmedrese.jpg
+- 16 | hzfact | 1453 — İsfahan’daki Darb-ı İmam türbesinin (1453) çinilerinde, 2007’de fizikçiler Penrose döşemesine çok yakın, neredeyse hiç tekrarlamayan bir desen buldu: Batı’dan 500 yıl önce | —
+- 16 | hzriddle | Eşkenar üçgen, kare ve altıgen bir zemini tek başına boşluksuz kaplar./Peki düzgün beşgen neden kaplayamaz? | —
+
+### 17:00–18:00 · Deniz Fenerleri: Kıyının Bekçileri · Lighthouses: Keepers of the Coast
+- 17 | hzphoto | Gece Kız Kulesi: Boğaz’ın ağzında küçük bir adada ışık | m/h80-kizkulesi.jpg
+- 17 | hzphoto | Peggy’s Cove: granit kayaların üstünde beyaz ve kırmızı bir fener | m/h80-peggys.jpg
+- 17 | hzphoto | Portland Head Feneri: Atlantik kıyısında bir sonbahar günü | m/h80-portlandhead.jpg
+- 17 | hzphoto | Neist Point: Skye Adası’nın en batı ucunda bir fener | m/h80-neist.jpg
+- 17 | hzphoto | Rubjerg Knude: kumulların yutmaya çalıştığı fener | m/h80-rubjerg.jpg
+- 17 | hzfact | Pharos — İskenderiye Feneri Antik Dünya’nın Yedi Harikası’ndan biriydi; tahminen 100 metreyi aşıyordu. Fransızca “phare” ve İtalyanca “faro” adını bu adadan, Pharos’tan alır | —
+- 17 | hzriddle | Gece gündüz bekler, hiç uyumaz;/gözü var ama görmez, yine de yol gösterir. Nedir? | —
+
+### 18:00–19:00 · Akşam Müziği: Sesin Mimarisi · Evening Music: The Architecture of Sound
+- 18 | hzphoto | Aspendos Antik Tiyatrosu: kemerlerin arasından 1.800 yıllık sahne | m/h80-aspendos.jpg
+- 18 | hzphoto | Epidavros: en üst sıradan bakınca sahne | m/h80-epidaurus.jpg
+- 18 | hzphoto | Gece Sidney Opera Binası: limanın üstünde açılmış beyaz yelkenler | m/h80-sydneyopera.jpg
+- 18 | hzphoto | Elbphilharmonie: eski bir liman deposunun üstüne konmuş cam bir dalga | m/h80-elbphil.jpg
+- 18 | hzphoto | Oslo Opera Binası: üstünde yürüyebildiğin, fiyorda inen beyaz bir çatı | m/h80-oslo.jpg
+- 18 | hzfact | ≈ 2 sn · s — İyi bir senfoni salonunda son nota yaklaşık iki saniye boyunca havada asılı kalır: sesin yavaşça sönmesine yankılanma süresi denir | —
+- 18 | hzquote | Sözün tükendiği yerde müzik konuşur | —
+
+### 19:00–20:00 · Villa Fikirleri: Taş ve Çakıl Bahçeleri · Villa Ideas: Gardens of Stone & Pebble
+- 19 | hzphoto | Ryōan-ji: tırmıklanmış beyaz çakıl ve on beş taş | m/h80-ryoanji.jpg
+- 19 | hzphoto | Ginkaku-ji: kumdan bir koni, “Ay’ı seyretme tepesi” | m/h80-ginkakuji.jpg
+- 19 | hzphoto | Kenroku-en: iki ayaklı taş fener ve gölün üstünde taş bir köprü | m/h80-kenrokuen.jpg
+- 19 | hzphoto | Kırmızı bir Japon akçaağacı, taşların ve yosunun üstünde | m/h80-portlandjg.jpg
+- 19 | hzsteps | Merdiven altındaki çakıl köşesine bir Japon bahçesinden ne alınabilir? | —
+- 19 | hzriddle | Ryōan-ji’de 15 taş var./Bahçenin neresinden bakarsan bak, kaç tanesini aynı anda görebilirsin? | —
+
+### 20:00–21:00 · Yerin Altındaki Mücevherler: Kristaller · Jewels Beneath the Earth: Crystals
+- 20 | hzphoto | Naica’nın Kristal Mağarası: insanı cüce gösteren dev alçıtaşı kristalleri | m/h80-naica.jpg
+- 20 | hzphoto | İkiye ayrılmış bir ametist jeodu: taşın içinde mor bir mağara | m/h80-amethyst.jpg
+- 20 | hzphoto | Yeşil florit küpleri: kayanın içinde büyümüş camdan zarlar | m/h80-fluorite.jpg
+- 20 | hzphoto | Azurit: lacivertin en derin tonu, kendiliğinden | m/h80-azurite.jpg
+- 20 | hzphoto | Malakit üzerinde koyu yeşil atakamit kristalleri | m/h80-malachite.jpg
+- 20 | hzphoto | Dumanlı kuvars ve turkuaz amazonit: dağın içinden çıkan bir ikili | m/h80-quartz.jpg
+- 20 | hzriddle | Bir elmas ile kurşun kalemin ucu/aynı şeyden yapılmıştır. Nedir? | —
+
 ## 2026-11-24 (rev 79, hourly sets 09:00–02:00, days/2026-11-24.json) · Tuesday
 
 No pending requests in requests.md (verified ~08:00; left unchanged). Kept M’s 20 Nov taste: 11:00–14:00 guest-worthy (islands, textiles, Bruegel, meteors & meteorites) and 17:00–19:00 cozy (winter gardens & glasshouses, Mevlânâ & the Sema) with fresh topics. 6 new hz scenes (hourly.js v79): generators hzdoublepend (three double pendulums 0.001 rad apart — chaos / butterfly effect) hzhanoi (Tower of Hanoi, 5→6→7 discs, 2ⁿ−1 moves) hzwalk (2D random walks + √N circle, 400 hidden walkers for the typical distance) hzwhale (imagined humpback mother and calf in moonlit water, calm night) + illusions hzbenham (Benham’s top colours) hzenigma (Leviant’s Enigma, still image). 43 new CC/PD photos/artworks (m/h24-*) via dl24.py/q24*.json. h22-* archived to /workspace/tv-media-archive/h22. Quotes: Dünle beraber gitti cancağızım… (Mevlânâ, 09); Brezilya’da bir kelebeğin kanat çırpışı… (Edward Lorenz, 10); Gel, gel, ne olursan ol yine gel (attributed to Mevlânâ, labelled “not found in his works”, 18); Dün akıllıydım… bugün bilgeyim (Mevlânâ, 22); Deniz, büyüsünü bir kez yaptı mı… (Cousteau, 23). Dropped: hamam photos that were street exteriors or gold/orange-lit interiors (Cağaloğlu street, gilded bath interior), Whistler “Blue and Gold” nocturne (gold rule) and a near-black Battersea Reach nocturne, a Persian ney photo (ney quote used 22/23 Nov); rejected wrong Commons hits (Lord Howe woodhen bird, Azores road tunnel). Trabzon city-walls search found nothing usable.

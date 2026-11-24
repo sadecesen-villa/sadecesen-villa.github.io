@@ -911,3 +911,39 @@ m/h24-stromboli.jpg — Aerial image of Stromboli (view from the northeast).jpg 
 m/h24-temperate.jpg — At Royal Botanic Gardens, Kew 2024 498.jpg — Photograph by Mike Peel (www.mikepeel.net). — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:At_Royal_Botanic_Gardens,_Kew_2024_498.jpg
 m/h24-willamette.jpg — Willamette meteorite at Dorothy and Lewis B. Cullman Hall of the Universe.jpg — Vicpeters — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Willamette_meteorite_at_Dorothy_and_Lewis_B._Cullman_Hall_of_the_Universe.jpg
 m/h24-zagnos.jpg — Trebisonda, ponte di zağnos 01.jpg — Francesco Bini — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trebisonda,_ponte_di_za%C4%9Fnos_01.jpg
+
+## 2026-11-24 afternoon rework (rev 80, days/2026-11-24.json 14:00–21:00, m/h80-*)
+m/h80-amethyst.jpg — Amethyst-geode 020 7765.jpg — Ludvig14 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Amethyst-geode_020_7765.jpg
+m/h80-aspendos.jpg — Aspendos Theatre 0611.jpg — Dosseman — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Aspendos_Theatre_0611.jpg
+m/h80-azurite.jpg — Azurite - New Nevada Lode, La Sal, Utah, USA.jpg — Ivar Leidus — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Azurite_-_New_Nevada_Lode,_La_Sal,_Utah,_USA.jpg
+m/h80-beeeater.jpg — Merops apiaster 04.jpg — Pierre Dalous — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Merops_apiaster_04.jpg
+m/h80-canocristales.jpg — Caño cristales (La Macarena).jpg — Ricardo Gonzalez Arango — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Ca%C3%B1o_cristales_(La_Macarena).jpg
+m/h80-dallol.jpg — Ethiopia - Dallol.jpg — Thomas Fuhrmann — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Ethiopia_-_Dallol.jpg
+m/h80-divrigi.jpg — Divriği mosque SW gate008.jpg — Dosseman — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Divri%C4%9Fi_mosque_SW_gate008.jpg
+m/h80-elbphil.jpg — Elbphilharmonie, Hamburg (39622566014).jpg — Aleksandr Zykov from Russia — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Elbphilharmonie,_Hamburg_(39622566014).jpg
+m/h80-epidaurus.jpg — Theatre of Epidavros - 2 (from the top).jpg — Annatsach — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Theatre_of_Epidavros_-_2_(from_the_top).jpg
+m/h80-fluorite.jpg — Fluorite - Diana Maria mine, Rogerley quarry, Stanhope, County Durham, England.jpg — Ivar Leidus — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Fluorite_-_Diana_Maria_mine,_Rogerley_quarry,_Stanhope,_County_Durham,_England.jpg
+m/h80-ginkakuji.jpg — Ginkaku-Ji Temple sand garden (7005735166).jpg — BriYYZ from Toronto, Canada — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Ginkaku-Ji_Temple_sand_garden_(7005735166).jpg
+m/h80-gokmedrese.jpg — Sivas Gök Medrese Entrance portal 1680.jpg — Dosseman — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sivas_G%C3%B6k_Medrese_Entrance_portal_1680.jpg
+m/h80-karatay2.jpg — Konya Karatay Ceramics Museum interior 027.jpg — Dosseman — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Konya_Karatay_Ceramics_Museum_interior_027.jpg
+m/h80-kenrokuen.jpg — Niji-bashi and Kotoji Toro, Kenroku-en 20120905130513.jpg — shiro524 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Niji-bashi_and_Kotoji_Toro,_Kenroku-en_20120905130513.jpg
+m/h80-kingfisher.jpg — Common Kingfisher Alcedo atthis.jpg — Andreas Trepte — CC BY-SA 2.5 — https://commons.wikimedia.org/wiki/File:Common_Kingfisher_Alcedo_atthis.jpg
+m/h80-kizkulesi.jpg — Maiden's Tower Istanbul 01.JPG — Dickelbers — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Maiden%27s_Tower_Istanbul_01.JPG
+m/h80-lagunacolorada.jpg — Andean Flamingos Laguna Colorada Bolivia Luca Galuzzi 2006.jpg — Luca Galuzzi (Lucag) — CC BY-SA 2.5 — https://commons.wikimedia.org/wiki/File:Andean_Flamingos_Laguna_Colorada_Bolivia_Luca_Galuzzi_2006.jpg
+m/h80-malachite.jpg — Atacamite on malachite - Mt Gunson mines, South Australia.jpg — Ivar Leidus — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Atacamite_on_malachite_-_Mt_Gunson_mines,_South_Australia.jpg
+m/h80-mandarin.jpg — Aix galericulata (Linnaeus 1758).jpg — Michael Gäbler — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Aix_galericulata_(Linnaeus_1758).jpg
+m/h80-naica.jpg — Cristales cueva de Naica.JPG — Alexander Van Driessche — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Cristales_cueva_de_Naica.JPG
+m/h80-neist.jpg — Neist Point Lighthouse 20140624 182526 P1110708.jpg — Lionel Ulmer — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Neist_Point_Lighthouse_20140624_182526_P1110708.jpg
+m/h80-oslo.jpg — Oslo Opera House - 2025.jpg — Pierre Blaché — CC0 — https://commons.wikimedia.org/wiki/File:Oslo_Opera_House_-_2025.jpg
+m/h80-peggys.jpg — Peggys Cove - NS - Leuchtturm.jpg — Taxiarchos228 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Peggys_Cove_-_NS_-_Leuchtturm.jpg
+m/h80-portlandhead.jpg — Portland Head Light October 2021.jpg — King of Hearts — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Portland_Head_Light_October_2021.jpg
+m/h80-portlandjg.jpg — Portland Japanese Garden maple.jpg — Jeremy Reding from Seattle, USA — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Portland_Japanese_Garden_maple.jpg
+m/h80-prismatic.jpg — Grand prismatic spring.jpg — Jim Peaco, National Park Service — Public domain — https://commons.wikimedia.org/wiki/File:Grand_prismatic_spring.jpg
+m/h80-puffin.jpg — Papageitaucher Fratercula arctica 02.jpg — Richard Bartz — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Papageitaucher_Fratercula_arctica_02.jpg
+m/h80-quartz.jpg — Amazonite et quartz fumé (Crystal Peak Colorado - USA) 4.JPG — Parent Géry — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Amazonite_et_quartz_fum%C3%A9_(Crystal_Peak_Colorado_-_USA)_4.JPG
+m/h80-quetzal.jpg — 058 Male Resplendent quetzal in Los Quetzales National Park Photo by Giles Laurent.jpg — Giles Laurent — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:058_Male_Resplendent_quetzal_in_Los_Quetzales_National_Park_Photo_by_Giles_Laurent.jpg
+m/h80-roller.jpg — Lilac-breasted roller (Coracias caudatus) Kruger.jpg — Charles J. Sharp — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lilac-breasted_roller_(Coracias_caudatus)_Kruger.jpg
+m/h80-rubjerg.jpg — Rubjerg Knude Fyr, Hjørring, Denmark, 1807072231, ako.jpg — Ansgar Koreng — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Rubjerg_Knude_Fyr,_Hj%C3%B8rring,_Denmark,_1807072231,_ako.jpg
+m/h80-ryoanji.jpg — RyoanJi-Dry garden.jpg — Stephane D'Alu — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:RyoanJi-Dry_garden.jpg
+m/h80-sydneyopera.jpg — Sydney Opera House - Dec 2008.jpg — Diliff — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg
+m/h80-vinicunca.jpg — Rainbow Mountain Peru.jpg — MareikeHeuer(WMDE) — CC0 — https://commons.wikimedia.org/wiki/File:Rainbow_Mountain_Peru.jpg

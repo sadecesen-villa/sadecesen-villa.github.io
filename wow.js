@@ -2,7 +2,7 @@
 var WOWV=42,LAT=40.94,LON=39.95,RAD=Math.PI/180;
 function wEl(t,c,h,s){var e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;if(s)e.style.cssText=s;return e}
 function wCv(L){var c=document.createElement('canvas');c.width=1920;c.height=1080;c.style.cssText='position:absolute;left:0;top:0;width:100%;height:100%';L.appendChild(c);return c}
-function wLoop(L,f){var t0=Date.now();function s(){if(!L.parentNode&&Date.now()-t0>3000)return;f((Date.now()-t0)/1000);requestAnimationFrame(s)}requestAnimationFrame(s)}
+function wLoop(L,f){var t0=Date.now();function s(){if(!L.parentNode&&Date.now()-t0>3000)return;try{f((Date.now()-t0)/1000)}catch(e){L.dead=1;if(typeof hzFail=='function')hzFail(L);return}requestAnimationFrame(s)}requestAnimationFrame(s)}/* rev 80: an animation error ends the scene early instead of freezing it */
 function wTxt(L,html,css){var d=wEl('div','wt',html,css);L.appendChild(d);return d}
 function p2(x){return(x<10?'0':'')+x}
 function hm(d){if(!d)return '—';var t=new Date(d.getTime()+(d.getTimezoneOffset()+180)*60000);return p2(t.getHours())+':'+p2(t.getMinutes())}
