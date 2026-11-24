@@ -1,4 +1,4 @@
-/* hourly.js v80 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
+/* hourly.js v82 — hzvideo (muted looping YouTube embed, poster still fallback). v80 — reusable scene library for the hourly day schedules (days/YYYY-MM-DD.json). ES5 only. Requires wow.js helpers (wEl, wCv, wLoop, WOW).
    Data-driven templates: hzphoto (quiet:1 = dim ambient still, tiny caption, fade only) hzquote hzriddle hzsteps hzfact.  Living art: hzpend hzgalton hzharmono hzphyllo hzboids hzfourier hzripple hzmonte hzulam hzfirefly hzsleep.
    Illusions: hzcafe hzebb hzkaniz hzlilac hzstep hzhermann hzafter.  v56: hzpwave hzlangton hzchaos hzmaze hzkoch hzaurora + illusions hzcheck hzdrift.  v58: hzchladni hzsort hzspiro hzrose hzmoire hzkoi + illusion hzzoll.  v59: hzturing hzvoronoi hzcollatz hzsnow + illusions hzpogg hzwhite.  v60: hzdla hzsandpile hzgalaxy hzmoonsea + illusions hzhering hzponzo.  v62: hzlorenz hzlife hztree hzdragon hzrainwin + illusions hzmuller hzjastrow.  v63: group templates hzwelcome hzchoose hzguess + party game hzstroop.  v64: hzmeta hzkaleido hzyakamoz (calm night) + illusions hzmib hzcorn hzfraser.  v66: hzfern hzhilbert hzorrery hzfener + hzshepard hzbezold.  v68: hzflow hzlissa hzrule hzlantern + hzscint hzchecker.  v69: hzmandel hzbuffon hzember (calm night) + illusions hzouchi hzmach hzbarber.  v71: hztimes hzmonty hztsp hzbalikci (calm night) + illusions hzcurve hzpinna.  v73: hzrecaman hzsieve hzhalve hzyayla (calm night) + illusions hzwaterfall hztroxler.  v66: hzfern hzhilbert hzorrery hzfener (calm night) + illusions hzshepard hzbezold.  v75: hzpack hzbenford hzbirthday hztren (calm night) + illusions hzsilence hzsfm.  v76: hzclifford hzperc hzstop hzkoy (calm night) + illusions hzneon hzocclude.  v77: hzphysarum hzaxelrod hzcrowd hzstartrail (calm night) + illusions hzdelboeuf hzwagon.  v78: hzglowworm (calm imagined glowworm cave).  v79: hzdoublepend hzhanoi hzwalk hzwhale (calm night) + illusions hzbenham hzenigma.  v80: hzpenrose (Penrose tiling) + fixes: fitEl waits until the scene is attached; stronger caption gradient on hzphoto.  See README.md "Hourly day schedule". */
 (function(){
@@ -1544,5 +1544,29 @@ W.hzpenrose=function(L,it){L.style.background='#0a0d12';var c=wCv(L),x=c.getCont
   var want=Math.min(order.length,Math.ceil(order.length*Math.min(1,(u-(g-1)*STEP)/(STEP*.6))));
   if(u>=STEP*MAXG)want=order.length;
   var lim=Math.min(want,painted+1400);for(;painted<lim;painted++)tile(order[painted],g,pal)});return L};
+
+
+/* muted looping YouTube footage. it: yt, start, f (poster still if the TV cannot play the embed), tr, en, cr */
+W.hzvideo=function(L,it){
+ L.style.background='#000';
+ if(it.f){var m=wEl('img','');m.src=it.f;
+  m.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;object-fit:'+(it.fit||'cover')+';object-position:'+(it.pos||'50% 50%')+';filter:brightness('+(it.dim==null?0.85:it.dim)+')';
+  L.appendChild(m)}
+ var wrap=wEl('div','');
+ wrap.style.cssText='position:absolute;top:50%;left:50%;width:177.78vh;height:100vh;min-width:100vw;min-height:56.25vw;transform:translate(-50%,-50%);overflow:hidden;pointer-events:none';
+ var id=it.yt,st=it.start||0;
+ var src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&mute=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&modestbranding=1&playsinline=1&rel=0&loop=1&playlist='+id+'&start='+st;
+ var fr=document.createElement('iframe');
+ fr.setAttribute('src',src);fr.setAttribute('allow','autoplay; encrypted-media');fr.setAttribute('frameborder','0');fr.setAttribute('title','');
+ fr.style.cssText='position:absolute;top:50%;left:50%;width:120%;height:120%;border:0;transform:translate(-50%,-50%);pointer-events:none';
+ wrap.appendChild(fr);L.appendChild(wrap);
+ if(it.tr||it.cr){
+  var op=it.capop==null?0.34:it.capop;
+  var html='<div style="opacity:'+op+';font-family:Helvetica,Arial,sans-serif;text-align:left;text-shadow:0 1px 10px rgba(0,0,0,.8)">';
+  if(it.tr) html+='<div style="font-size:1.05vw;letter-spacing:.08em;color:#e8eef2;font-weight:400">'+it.tr+(it.en?' <span style="font-style:italic;opacity:.8">· '+it.en+'</span>':'')+'</div>';
+  if(it.cr) html+='<div style="font-size:.68vw;color:#c5ced4;margin-top:.35vh;letter-spacing:.04em">'+it.cr+'</div>';
+  html+='</div>';
+  L.appendChild(wEl('div','',html,'position:absolute;left:3vw;right:3vw;bottom:2.6vh;top:auto;text-align:left;z-index:2;pointer-events:none'))}
+ L.tri='fade';L.dur=it.d;L.corner=false;return L};
 
 })();

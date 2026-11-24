@@ -1,3 +1,30 @@
+## 2026-11-24 · late-night DJ rework (rev 82, sets 22:45–02:00 rebuilt ~23:00, synced with the HomePod DJ set)
+
+M said the TV did not match the music. The 22:00–02:00 night sets (rev 81: Ortaköy, Galata, Bosphorus, candle, moon sea, milky-way laser, generators) were replaced. New photoreal arc follows the hand-sequenced set: 22:45–23:30 elegant late-night lounge jazz house (Monaco After Dark — rooftop/harbour/yacht/city-lights), 23:30–00:00 deeper organic/melodic house (night beaches, Wadi Rum, firelight), 00:00–02:00 soft wind-down (moonlit sea, rain on the window, quiet stars). New stills m/h82-* (Wikimedia CC/PD, hzphoto quiet:1, no zoom). New scene type hzvideo: muted looping YouTube 4K footage with a still poster fallback (oEmbed-verified, embeddable). 17:00–22:00 rev 81 evening left as it already aired. Nothing about Osman/Kurdish topics; Zeynep not mentioned.
+
+### 22:45–23:30 · Monaco After Dark · Lounge Jazz House
+- 22 | hzvideo | Monaco gecesi: şehir ışıkları ve liman | YouTube ISaZ91muY_0 (Paulo Leal 4K) + poster m/h82-monaco.jpg
+- 22 | hzphoto | Monte-Carlo limanı gece | m/h82-monaco.jpg
+- 22 | hzphoto | Port Hercule’de yatlar, Monaco | m/h82-hercule.jpg
+- 22 | hzphoto | Promenade des Anglais, Nice, gece | m/h82-nice.jpg
+- 22 | hzphoto | Cannes limanı gece | m/h82-cannes.jpg
+- 22 | hzphoto | Gece denizde bir yat, Lipari | m/h82-yacht.jpg
+- 22 | hzphoto | Hong Kong limanı, yağmurlu bir gece | m/h82-hk.jpg
+
+### 23:30–00:00 · Derin House · Deeper House
+- 23 | hzvideo | Gece sahilinde bir ateş | YouTube qO7dPPqwQ_w (Nature Soundscapes) + poster m/h82-sougia.jpg
+- 23 | hzphoto | Sougia, Girit: ay ışığında sahil | m/h82-sougia.jpg
+- 23 | hzphoto | Akdeniz’de gece dalgaları, Grau d’Agde | m/h82-waves.jpg
+- 23 | hzvideo | Çölde ateş | YouTube 1T1to3DU9pg (Beautiful Relaxation) + poster m/h82-wadirum.jpg
+- 23 | hzphoto | Vadi Rum’da Samanyolu | m/h82-wadirum.jpg
+- 23 | hzphoto | Ateş ışığı | m/h82-fire.jpg
+
+### 00:00–02:00 · Sakinlik · Wind-down
+- 0 | hzphoto | Ayın denize düşen yolu | m/h82-moonsea.jpg
+- 0 | hzvideo | Cama vuran yağmur | YouTube iLs04Z6uBqU (Relaxation Windows 4K Nature) + poster m/h82-rain.jpg
+- 0 | hzphoto | Camdaki yağmur ve şehir ışıkları | m/h82-rain.jpg
+- 0 | hzphoto | Fiyort üzerinde yıldızlar, Åbyfjorden | m/h82-starsfjord.jpg
+
 ## 2026-11-24 · DJ Taş evening (rev 81, sets 17:00–02:00 rebuilt ~17:45, synced with HomePod playlists)
 
 M asked for a real DJ experience managing music + TV. Act 1 Jazz House Lounge (–19:00, “Sadece Sen · Jazz House Mix”), Act 2 Sunset (19–22, “Sadece Sen Sunset”), Act 3 Night (22–02, “Sadece Sen Night”). All visuals silent. Photos m/h81-* (credits-2026-11-24n.json).

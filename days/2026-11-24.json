@@ -1,7 +1,7 @@
 {
  "date": "2026-11-24",
- "rev": 81,
- "_note": "Hourly sets for the villa TV. 09:00–17:00 from build_2026-11-24.py / build_2026-11-24_afternoon.py; 17:00–02:00 = DJ Taş evening (rev 81, build_2026-11-24_dj.py): Jazz House Lounge → Sunset (19:00) → Night (22:00), synced with the HomePod playlists.",
+ "rev": 82,
+ "_note": "Hourly sets for the villa TV. 09:00–17:00 from the morning/afternoon builds; 17:00–22:00 = DJ Taş evening (rev 81); 22:45–02:00 = rev 82 late-night DJ set matching the HomePod arc (Monaco After Dark → deeper house → wind-down). Photoreal stills m/h82-* and muted YouTube (hzvideo).",
  "sets": [
   {
    "id": "h-11-24-09",
@@ -925,118 +925,188 @@
    ]
   },
   {
-   "id": "dj-11-24-22",
-   "name": "Gece · Night — şehir ışıkları · city lights",
-   "from": "2026-11-24T22:00",
-   "until": "2026-11-24T23:00",
+   "id": "dj-11-24-2245",
+   "name": "Monaco After Dark · Lounge Jazz House",
+   "from": "2026-11-24T22:45",
+   "until": "2026-11-24T23:30",
    "items": [
     {
-     "k": "hzwelcome",
-     "d": 30,
-     "f": "m/h81-ortakoy.jpg",
-     "lb": "DJ Taş · 3. Perde · Act 3 — Gerçek Fotoğraf · Real Photo · Ortaköy, İstanbul",
-     "lines": [
-      [
-       "Gece",
-       6.6
-      ],
-      [
-       "Night",
-       3.6
-      ]
-     ],
-     "tr": "Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin",
-     "en": "Now playing “Sadece Sen Night” — softer and calmer",
-     "cr": "Foto · Photo: Giuseppe Pinto · CC BY-SA 3.0 · Wikimedia Commons"
-    },
-    {
-     "k": "hzphoto",
-     "d": 42,
-     "f": "m/h81-galata.jpg",
-     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Galata Kulesi, İstanbul · Galata Tower",
-     "tr": "Gece Galata Kulesi ve Haliç’in ışıkları",
-     "en": "The Galata Tower and the lights of the Golden Horn at night",
-     "cr": "Foto · Photo: Alexxx1979 · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Kule 1348’de Cenevizliler tarafından yapıldı; yaklaşık 67 metre yüksekliğinde",
-     "facte": "The tower was built by the Genoese in 1348 and stands about 67 m tall"
-    },
-    {
-     "k": "hzmoonsea",
-     "d": 70
-    },
-    {
-     "k": "hzphoto",
-     "d": 40,
-     "f": "m/h81-bridge.jpg",
-     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · İstanbul Boğazı · Bosphorus",
-     "tr": "Boğaz’da gece: köprünün ve kıyının ışıkları suya düşüyor",
-     "en": "Night on the Bosphorus: the lights of the bridge and the shore fall on the water",
-     "cr": "Foto · Photo: Furkan Akkurt · CC BY-SA 4.0 · Wikimedia Commons",
+     "k": "hzvideo",
+     "d": 85,
+     "yt": "ISaZ91muY_0",
+     "start": 20,
+     "f": "m/h82-monaco.jpg",
+     "tr": "Monaco gecesi: şehir ışıkları ve liman",
+     "en": "Monaco at night: city lights and the harbour",
+     "cr": "Görüntü · Footage: Paulo Leal 4K, YouTube",
      "quiet": 1
     },
     {
      "k": "hzphoto",
-     "d": 40,
-     "f": "m/h81-candle.jpg",
-     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Mum ışığı · Candlelight",
-     "tr": "Karanlıkta tek bir mum: akşamın en sakin ışığı",
-     "en": "A single candle in the dark — the calmest light of the evening",
-     "cr": "Foto · Photo: Andrew Fogg · CC BY 2.0 · Wikimedia Commons",
+     "d": 44,
+     "f": "m/h82-monaco.jpg",
+     "tr": "Monte-Carlo limanı gece",
+     "en": "Monte Carlo harbour at night",
+     "cr": "Foto · Photo: FromMorningToMidnight · CC BY-SA 4.0 · Wikimedia Commons",
      "quiet": 1
     },
     {
-     "k": "hzyakamoz",
-     "d": 70
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h82-hercule.jpg",
+     "tr": "Port Hercule’de yatlar, Monaco",
+     "en": "Yachts in Port Hercule, Monaco",
+     "cr": "Foto · Photo: Renek78 · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h82-nice.jpg",
+     "tr": "Promenade des Anglais, Nice, gece",
+     "en": "The Promenade des Anglais in Nice at night",
+     "cr": "Foto · Photo: Miguel Mendez · CC BY 2.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h82-cannes.jpg",
+     "tr": "Cannes limanı gece",
+     "en": "Cannes harbour at night",
+     "cr": "Foto · Photo: Thomas Bonte · CC BY 2.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h82-yacht.jpg",
+     "tr": "Gece denizde bir yat, Lipari",
+     "en": "A yacht on the water at night, Lipari",
+     "cr": "Foto · Photo: Nicolas Völcker · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h82-hk.jpg",
+     "tr": "Hong Kong limanı, yağmurlu bir gece",
+     "en": "Hong Kong harbour on a rainy night",
+     "cr": "Foto · Photo: Benh LIEU SONG · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
     }
    ]
   },
   {
-   "id": "dj-11-24-23",
-   "name": "Gece · Night — yıldızlar ve sakinlik · stars and calm",
-   "from": "2026-11-24T23:00",
+   "id": "dj-11-24-2330",
+   "name": "Derin House · Deeper House",
+   "from": "2026-11-24T23:30",
+   "until": "2026-11-25T00:00",
+   "items": [
+    {
+     "k": "hzvideo",
+     "d": 85,
+     "yt": "qO7dPPqwQ_w",
+     "start": 45,
+     "f": "m/h82-sougia.jpg",
+     "tr": "Gece sahilinde bir ateş",
+     "en": "A fire on the beach at night",
+     "cr": "Görüntü · Footage: Nature Soundscapes, YouTube",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h82-sougia.jpg",
+     "tr": "Sougia, Girit: ay ışığında sahil",
+     "en": "Sougia, Crete: the beach in moonlight",
+     "cr": "Foto · Photo: Aggelospallikarakis · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h82-waves.jpg",
+     "tr": "Akdeniz’de gece dalgaları, Grau d’Agde",
+     "en": "Night waves on the Mediterranean at Grau d’Agde",
+     "cr": "Foto · Photo: Daniel Lepoittevin · CC BY-SA 3.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzvideo",
+     "d": 85,
+     "yt": "1T1to3DU9pg",
+     "start": 40,
+     "f": "m/h82-wadirum.jpg",
+     "tr": "Çölde ateş",
+     "en": "A fire in the desert",
+     "cr": "Görüntü · Footage: Beautiful Relaxation, YouTube",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h82-wadirum.jpg",
+     "tr": "Vadi Rum’da Samanyolu",
+     "en": "The Milky Way over Wadi Rum",
+     "cr": "Foto · Photo: Faraheed · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h82-fire.jpg",
+     "tr": "Ateş ışığı",
+     "en": "Firelight",
+     "cr": "Foto · Photo: Minja Klarić · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1,
+     "pos": "50% 40%"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-25-0000",
+   "name": "Sakinlik · Wind-down",
+   "from": "2026-11-25T00:00",
    "until": "2026-11-25T02:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h81-moonsea.jpg",
-     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Ay ışığı · Moonlight",
-     "tr": "Denizin üzerinde ay ışığı",
-     "en": "Moonlight over the sea",
-     "cr": "Foto · Photo: Wolfgang Weber · CC BY 3.0 · Wikimedia Commons",
+     "d": 50,
+     "f": "m/h82-moonsea.jpg",
+     "tr": "Ayın denize düşen yolu",
+     "en": "The moon’s path on the sea",
+     "cr": "Foto · Photo: Giuseppe Milo · CC BY 3.0 · Wikimedia Commons",
      "quiet": 1
     },
     {
-     "k": "hzgalaxy",
-     "d": 70
+     "k": "hzvideo",
+     "d": 90,
+     "yt": "iLs04Z6uBqU",
+     "start": 45,
+     "f": "m/h82-rain.jpg",
+     "tr": "Cama vuran yağmur",
+     "en": "Rain on the window",
+     "cr": "Görüntü · Footage: Relaxation Windows 4K Nature, YouTube",
+     "quiet": 1
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h81-milkyway.jpg",
-     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · ESO, Şili · Chile",
-     "tr": "Samanyolu’nun merkezine uzanan bir lazer ışını: gökbilimciler atmosferin titreşimini böyle ölçer",
-     "en": "A laser beam reaching toward the centre of the Milky Way — astronomers use it to measure the shimmer of the air",
-     "cr": "Foto · Photo: ESO/Yuri Beletsky · CC BY 4.0 · Wikimedia Commons",
+     "d": 48,
+     "f": "m/h82-rain.jpg",
+     "tr": "Camdaki yağmur ve şehir ışıkları",
+     "en": "Rain on the glass and city lights",
+     "cr": "Foto · Photo: Defi22 · CC BY-SA 4.0 · Wikimedia Commons",
      "quiet": 1
-    },
-    {
-     "k": "hzrainwin",
-     "d": 70
     },
     {
      "k": "hzphoto",
-     "d": 40,
-     "f": "m/h81-candle.jpg",
-     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Mum ışığı · Candlelight",
-     "tr": "İyi geceler · Good night",
-     "en": "Good night",
-     "cr": "Foto · Photo: Andrew Fogg · CC BY 2.0 · Wikimedia Commons",
+     "d": 52,
+     "f": "m/h82-starsfjord.jpg",
+     "tr": "Fiyort üzerinde yıldızlar, Åbyfjorden",
+     "en": "Stars over the Åby fjord",
+     "cr": "Foto · Photo: W. Carter · CC0 · kamu malı · public domain · Wikimedia Commons",
      "quiet": 1
-    },
-    {
-     "k": "hzsleep",
-     "d": 70
     }
    ]
   }
