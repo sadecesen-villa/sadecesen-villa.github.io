@@ -866,3 +866,48 @@ m/h78-pag.jpg — Aerial image of the Pag salt evaporation ponds (view from the 
 m/h78-biowave.jpg — Meeresleuchten auf Norderney 01.jpg — Stephan Sprinz — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Meeresleuchten_auf_Norderney_01.jpg
 m/h78-catatumbo.jpg — Catatumbo Lightning - Rayo del Catatumbo.jpg — Fernando Flores — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Catatumbo_Lightning_-_Rayo_del_Catatumbo.jpg
 m/h78-sprites.jpg — Sprites at Paranal Observatory (potw1505c).jpg — P. Horálek / ESO — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Sprites_at_Paranal_Observatory_(potw1505c).jpg
+
+## 2026-11-24 (days/2026-11-24.json, m/h24-*)
+m/h24-ararat.jpg — Mount Ararat and the Yerevan skyline.jpg — Սէրուժ Ուրիշեան (Serouj Ourishian) — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Mount_Ararat_and_the_Yerevan_skyline.jpg
+m/h24-ardabil.jpg — The Ardabil Carpet - Google Art Project.jpg — Unknown – production — Public domain — https://commons.wikimedia.org/wiki/File:The_Ardabil_Carpet_-_Google_Art_Project.jpg
+m/h24-azores.jpg — Lagoa das Sete Cidades (14848872704).jpg — David Stanley from Nanaimo, Canada — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Lagoa_das_Sete_Cidades_(14848872704).jpg
+m/h24-babel.jpg — Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg — Pieter Bruegel the Elder — Public domain — https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg
+m/h24-bayeux.jpg — Bayeux Tapestry scene57 Harold death.jpg — Myrabella — Public domain — https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene57_Harold_death.jpg
+m/h24-bluewhale.jpg — Blow of a blue whale in the Arctic sea.jpg — AWeith — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Blow_of_a_blue_whale_in_the_Arctic_sea.jpg
+m/h24-crater.jpg — Meteor Crater - Arizona.jpg — National Map Seamless Server — Public domain — https://commons.wikimedia.org/wiki/File:Meteor_Crater_-_Arizona.jpg
+m/h24-etna.jpg — Amenta Giuseppe-052586-Etna Eruption 15-2021.jpg — Giuseppe.amenta — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Amenta_Giuseppe-052586-Etna_Eruption_15-2021.jpg
+m/h24-games.jpg — Children's Games (Bruegel).jpg — Pieter Bruegel the Elder — Public domain — https://commons.wikimedia.org/wiki/File:Children%27s_Games_(Bruegel).jpg
+m/h24-grandes.jpg — Serre Jardin des Plantes.jpg — Jebulon — CC0 — https://commons.wikimedia.org/wiki/File:Serre_Jardin_des_Plantes.jpg
+m/h24-hamam1.jpg — Çemberlitaş Hamamı, Sultanahmet, Estambul 6143951115.jpg — Enrique Freire — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:%C3%87emberlita%C5%9F_Hamam%C4%B1,_Sultanahmet,_Estambul_6143951115.jpg
+m/h24-hamam3.jpg — Süleymaniye Hammam from outside, 2024.jpg — Karakalem — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Hammam_from_outside,_2024.jpg
+m/h24-hamam5.jpg — Ali Gholi Agha hammam, Isfahan, Iran.jpg — Amirpashaei — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Ali_Gholi_Agha_hammam,_Isfahan,_Iran.jpg
+m/h24-harvest.jpg — Pieter Bruegel the Elder- The Harvesters - Google Art Project.jpg — Pieter Bruegel the Elder — Public domain — https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg
+m/h24-hoba.jpg — Namibie Hoba Meteorite 05.JPG — No machine-readable author provided. Calips assumed (based on copyright claims). — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:Namibie_Hoba_Meteorite_05.JPG
+m/h24-humpback.jpg — Humpback Whale And Calf (42854767822).jpg — National Marine Sanctuaries — Public domain — https://commons.wikimedia.org/wiki/File:Humpback_Whale_And_Calf_(42854767822).jpg
+m/h24-hunters.jpg — Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg — Pieter Bruegel the Elder — Public domain — https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg
+m/h24-ikat.jpg — Adras (Ikat). 1990s. Silk, cotton.jpg — Panpanchik — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Adras_(Ikat)._1990s._Silk,_cotton.jpg
+m/h24-jacquard.jpg — A Jacquard loom showing information punchcards, National Museum of Scotland.jpg — Stephencdickson — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg
+m/h24-kapadokya.jpg — Cappadocia Chimneys Wikimedia Commons.jpg — Benh LIEU SONG — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Cappadocia_Chimneys_Wikimedia_Commons.jpg
+m/h24-karaca.jpg — Karaca Mağarası (09).jpg — En Merker — CC0 — https://commons.wikimedia.org/wiki/File:Karaca_Ma%C4%9Faras%C4%B1_(09).jpg
+m/h24-kewpalm.jpg — Kew Gardens Palm House, London - July 2009.jpg — Diliff — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Kew_Gardens_Palm_House,_London_-_July_2009.jpg
+m/h24-kibble.jpg — Kibble Palace - Glasgow Botanic Gardens.jpg — Wiki.cullin — CC0 — https://commons.wikimedia.org/wiki/File:Kibble_Palace_-_Glasgow_Botanic_Gardens.jpg
+m/h24-kilim.jpg — Eastern Anatolian kilim, 20th century, Yaşar Museum.jpg — Koray — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Eastern_Anatolian_kilim,_20th_century,_Ya%C5%9Far_Museum.jpg
+m/h24-kurna.jpg — Turkey-03210 - Turkish Bath (11312394395).jpg — Dennis G. Jarvis — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Turkey-03210_-_Turkish_Bath_(11312394395).jpg
+m/h24-laeken.jpg — Laeken Se1a.jpg — Jean-Pol GRANDMONT — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Laeken_Se1a.jpg
+m/h24-leonid.jpg — Leonid Meteor Storm 1833.jpg — Edmund Weiß — Public domain — https://commons.wikimedia.org/wiki/File:Leonid_Meteor_Storm_1833.jpg
+m/h24-lofoten.jpg — Houses of Reine by Gravdalsbukta, Moskenes, Nordland, Norway, 2022 June.jpg — Ximonic (Simo Räsänen) — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Houses_of_Reine_by_Gravdalsbukta,_Moskenes,_Nordland,_Norway,_2022_June.jpg
+m/h24-lordhowe.jpg — Lord Howe Lagoon - panoramio.jpg — David Stanley — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Lord_Howe_Lagoon_-_panoramio.jpg
+m/h24-mevlana.jpg — Mevlana Museum (Green Mausoleum) in Konya Turkey By Mardetanha (10).JPG — Mardetanha — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Mevlana_Museum_(Green_Mausoleum)_in_Konya_Turkey_By_Mardetanha_(10).JPG
+m/h24-moorea.jpg — DSC00031 French Polynésia Mooréa Island (8044046451).jpg — DANIEL JULIE from Paris, France — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:DSC00031_French_Polyn%C3%A9sia_Moor%C3%A9a_Island_(8044046451).jpg
+m/h24-nemrut.jpg — Nemrut Dağı 25 05 2010 Caldera.jpg — Volker Höhfeld — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Nemrut_Da%C4%9F%C4%B1_25_05_2010_Caldera.jpg
+m/h24-nocturne1.jpg — James Abbott McNeill Whistler - Nocturne- Blue and Silver - Chelsea - Google Art Project.jpg — James McNeill Whistler — Public domain — https://commons.wikimedia.org/wiki/File:James_Abbott_McNeill_Whistler_-_Nocturne-_Blue_and_Silver_-_Chelsea_-_Google_Art_Project.jpg
+m/h24-nocturne3.jpg — James McNeill Whistler - Nocturne Grey and Silver--Chelsea Embankment, Winter (c. 1879).jpg — James McNeill Whistler — Public domain — https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Nocturne_Grey_and_Silver--Chelsea_Embankment,_Winter_(c._1879).jpg
+m/h24-perseid.jpg — In the photo there is one Perseid, Milky Way and Andromega galaxy and light pollution on the horizon - Luhasoo bog in Estonia.jpg — Martin Mark — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:In_the_photo_there_is_one_Perseid,_Milky_Way_and_Andromega_galaxy_and_light_pollution_on_the_horizon_-_Luhasoo_bog_in_Estonia.jpg
+m/h24-proverbs.jpg — Pieter Brueghel the Elder - The Dutch Proverbs - Google Art Project.jpg — Pieter Bruegel the Elder — Public domain — https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg
+m/h24-santorini.jpg — 1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg — Giles Laurent — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:1000_Three_domes_of_Oia_in_Santorini_Photo_by_Giles_Laurent.jpg
+m/h24-sema.jpg — Turkish whirling dervishes of Mevlevi Order, bowing in unison during the Sema ceremony.jpg — Quinn Dombrowski — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Turkish_whirling_dervishes_of_Mevlevi_Order,_bowing_in_unison_during_the_Sema_ceremony.jpg
+m/h24-sperm.jpg — Mother and baby sperm whale.jpg — Gabriel Barathieu — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Mother_and_baby_sperm_whale.jpg
+m/h24-stromboli.jpg — Aerial image of Stromboli (view from the northeast).jpg — Carsten Steger — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Aerial_image_of_Stromboli_(view_from_the_northeast).jpg
+m/h24-temperate.jpg — At Royal Botanic Gardens, Kew 2024 498.jpg — Photograph by Mike Peel (www.mikepeel.net). — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:At_Royal_Botanic_Gardens,_Kew_2024_498.jpg
+m/h24-willamette.jpg — Willamette meteorite at Dorothy and Lewis B. Cullman Hall of the Universe.jpg — Vicpeters — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Willamette_meteorite_at_Dorothy_and_Lewis_B._Cullman_Hall_of_the_Universe.jpg
+m/h24-zagnos.jpg — Trebisonda, ponte di zağnos 01.jpg — Francesco Bini — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trebisonda,_ponte_di_za%C4%9Fnos_01.jpg

@@ -1,3 +1,118 @@
+## 2026-11-24 (rev 79, hourly sets 09:00–02:00, days/2026-11-24.json) · Tuesday
+
+No pending requests in requests.md (verified ~08:00; left unchanged). Kept M’s 20 Nov taste: 11:00–14:00 guest-worthy (islands, textiles, Bruegel, meteors & meteorites) and 17:00–19:00 cozy (winter gardens & glasshouses, Mevlânâ & the Sema) with fresh topics. 6 new hz scenes (hourly.js v79): generators hzdoublepend (three double pendulums 0.001 rad apart — chaos / butterfly effect) hzhanoi (Tower of Hanoi, 5→6→7 discs, 2ⁿ−1 moves) hzwalk (2D random walks + √N circle, 400 hidden walkers for the typical distance) hzwhale (imagined humpback mother and calf in moonlit water, calm night) + illusions hzbenham (Benham’s top colours) hzenigma (Leviant’s Enigma, still image). 43 new CC/PD photos/artworks (m/h24-*) via dl24.py/q24*.json. h22-* archived to /workspace/tv-media-archive/h22. Quotes: Dünle beraber gitti cancağızım… (Mevlânâ, 09); Brezilya’da bir kelebeğin kanat çırpışı… (Edward Lorenz, 10); Gel, gel, ne olursan ol yine gel (attributed to Mevlânâ, labelled “not found in his works”, 18); Dün akıllıydım… bugün bilgeyim (Mevlânâ, 22); Deniz, büyüsünü bir kez yaptı mı… (Cousteau, 23). Dropped: hamam photos that were street exteriors or gold/orange-lit interiors (Cağaloğlu street, gilded bath interior), Whistler “Blue and Gold” nocturne (gold rule) and a near-black Battersea Reach nocturne, a Persian ney photo (ney quote used 22/23 Nov); rejected wrong Commons hits (Lord Howe woodhen bird, Azores road tunnel). Trabzon city-walls search found nothing usable.
+### 09:00–10:00 · Salı Sabahı · Tuesday Morning
+- 09 | hzphoto | Zağnos Vadisi’nde taş köprü ve yamaçtaki eski surlar | m/h24-zagnos.jpg
+- 09 | hzquote | Dünle beraber gitti cancağızım, ne kadar söz varsa düne ait; şimdi yeni şeyler söylemek lazım | —
+- 09 | hzphoto | Karaca Mağarası’nda tavandan sarkan damlataşları | m/h24-karaca.jpg
+- 09 | hzfact | Giresun’un Kuşköy’ünde insanlar vadinin bir yamacından ötekine ıslıkla konuşur: “kuş dili” 2017’de UNESCO’nun acil koruma listesine girdi | —
+- 09 | hzriddle | Ne kadar çok alırsan, o kadar çok bırakırsın. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Kaosun Dansı · Living Art: The Dance of Chaos
+- 10 | hzdoublepend | NEW/generator hzdoublepend | —
+- 10 | hzsteps | Kelebek etkisi nereden çıktı? | —
+- 10 | hzfact | Bugünün en iyi bilgisayarlarıyla bile hava durumu en fazla iki hafta kadar ileriye güvenilir biçimde tahmin edilebilir | —
+- 10 | hzriddle | Bir sarkacı iki katı uzunlukta yaparsan, bir gidiş-gelişi kaç kat uzar? | —
+- 10 | hzquote | Brezilya’da bir kelebeğin kanat çırpışı Teksas’ta bir kasırga başlatır mı? | —
+
+### 11:00–12:00 · Nefes Kesen Yerler: Adalar · Breathtaking Places: Islands
+- 11 | hzphoto | Reine’de kırmızı balıkçı evleri ve denizden dik yükselen dağlar | m/h24-lofoten.jpg
+- 11 | hzphoto | Oia’da mavi kubbeler ve uçurumun kenarındaki beyaz evler | m/h24-santorini.jpg
+- 11 | hzphoto | Sete Cidades: sönmüş bir yanardağ krateri içinde iki göl | m/h24-azores.jpg
+- 11 | hzphoto | Lord Howe Adası’nın lagünü ve arkasındaki dağlar | m/h24-lordhowe.jpg
+- 11 | hzphoto | Moorea: mercan resifiyle çevrili turkuaz bir lagün | m/h24-moorea.jpg
+- 11 | hzchoose | Bir hafta kalacak olsan hangisi? (Lofoten / Moorea) | —
+
+### 12:00–13:00 · Dokumanın Şiiri · Poetry in Textiles
+- 12 | hzphoto | Erdebil Halısı — İran, 1539–40 | m/h24-ardabil.jpg
+- 12 | hzphoto | Doğu Anadolu kilimi, 20. yüzyıl — Yaşar Müzesi | m/h24-kilim.jpg
+- 12 | hzphoto | Adras (ikat) kumaşı, 1990’lar — ipek ve pamuk | m/h24-ikat.jpg
+- 12 | hzphoto | Bayeux Duvar Halısı — 1066 sonrası | m/h24-bayeux.jpg
+- 12 | hzphoto | Delikli kartlarla çalışan bir Jacquard dokuma tezgâhı | m/h24-jacquard.jpg
+- 12 | hzguess | Bu halı yaklaşık kaç metre uzunluğunda? | m/h24-ardabil.jpg
+
+### 13:00–14:00 · Büyük Ustalardan: Bruegel’in Kalabalık Dünyası · From the Great Masters: Bruegel’s Busy World
+- 13 | hzphoto | Karda Avcılar — Pieter Bruegel, 1565 | m/h24-hunters.jpg
+- 13 | hzphoto | Hollanda Atasözleri — Pieter Bruegel, 1559 | m/h24-proverbs.jpg
+- 13 | hzguess | Bu meydanda kaç farklı çocuk oyunu var? Kaçını tanıyorsun? | m/h24-games.jpg
+- 13 | hzphoto | Hasatçılar — Pieter Bruegel, 1565 | m/h24-harvest.jpg
+- 13 | hzphoto | Babil Kulesi — Pieter Bruegel, 1563 | m/h24-babel.jpg
+- 13 | hzfact | Ressamın adı çoğu zaman “Brueghel” diye de yazılır: kendisi 1559’dan sonra imzasından “h” harfini çıkardı, oğulları ise kullanmayı sürdürdü | —
+
+### 14:00–15:00 · Gökyüzünün Harikaları: Göktaşları · Wonders of the Sky: Meteors & Meteorites
+- 14 | hzphoto | Samanyolu’nun önünden geçen bir Perseid meteoru | m/h24-perseid.jpg
+- 14 | hzphoto | 1833 Leonid meteor yağmuru — 1888 tarihli bir gravür | m/h24-leonid.jpg
+- 14 | hzphoto | Arizona’da Meteor Krateri: çölde bir buçuk kilometreye yakın bir çukur | m/h24-crater.jpg
+- 14 | hzphoto | Hoba: bilinen en büyük göktaşı, düştüğü yerde duruyor | m/h24-hoba.jpg
+- 14 | hzphoto | Willamette göktaşı, New York’taki Amerikan Doğa Tarihi Müzesi’nde | m/h24-willamette.jpg
+- 14 | hzriddle | Her gün Dünya’ya uzaydan yaklaşık kaç ton toz ve taş düşer? | —
+
+### 15:00–16:00 · Göz Oyunları: Hiç Olmayan Renk ve Hareket · Tricks of the Eye: Colour & Motion That Aren’t There
+- 15 | hzbenham | NEW/illusion hzbenham | —
+- 15 | hzenigma | NEW/illusion hzenigma | —
+- 15 | hzsteps | Gördüğün şey neden her zaman orada olan şey değil? | —
+- 15 | hzfact | Gözümüzün keskin gördüğü alan (fovea) yalnızca yaklaşık 2 derece: kabaca uzattığın kolunun ucundaki başparmak tırnağın kadar | —
+- 15 | hzriddle | Gözünü kapamadan hiç göremediğin bir şey nedir? | —
+
+### 16:00–17:00 · Zekice Düşünce: Hanoi Kulesi · Clever Thinking: The Tower of Hanoi
+- 16 | hzhanoi | NEW/generator hzhanoi | —
+- 16 | hzsteps | Dünyanın sonu ne zaman gelir? (Bir bulmacaya göre) | —
+- 16 | hzfact | Her yeni disk gereken hamle sayısını iki katına çıkarır: 3 disk 7 hamle, 10 disk 1.023 hamle, 20 disk bir milyonu aşar | —
+- 16 | hzriddle | Bir kâğıdı 42 kez ikiye katlayabilseydin, ne kadar kalın olurdu? | —
+- 16 | hzriddle | Üç kutu var: biri elma, biri armut, biri karışık. Hepsinin etiketi yanlış. En az kaç meyve çekip doğru etiketlersin? | —
+
+### 17:00–18:00 · Kış Bahçeleri · Winter Gardens & Glasshouses
+- 17 | hzphoto | Kew’deki Palmiye Evi: cam ve demirden bir orman kubbesi | m/h24-kewpalm.jpg
+- 17 | hzphoto | Kew’deki Ilıman İklim Evi’nin içinde: palmiyeler arasında bir yürüyüş yolu | m/h24-temperate.jpg
+- 17 | hzphoto | Laeken Kraliyet Seraları’nda cam kubbeye yukarıdan bakış | m/h24-laeken.jpg
+- 17 | hzphoto | Glasgow Botanik Bahçesi’nde Kibble Sarayı | m/h24-kibble.jpg
+- 17 | hzphoto | Paris’te Jardin des Plantes’ın büyük seraları | m/h24-grandes.jpg
+- 17 | hzsteps | Kışın villada küçük bir yeşil köşe | —
+
+### 18:00–19:00 · Akşam Müziği: Mevlânâ ve Sema · Evening Music: Rumi & the Sema
+- 18 | hzphoto | Sema töreninde selam veren semazenler | m/h24-sema.jpg
+- 18 | hzphoto | Konya’da Mevlânâ Müzesi ve turkuaz Yeşil Kubbe | m/h24-mevlana.jpg
+- 18 | hzquote | Gel, gel, ne olursan ol yine gel | —
+- 18 | hzfact | Mevlevî Sema Töreni UNESCO’nun İnsanlığın Somut Olmayan Kültürel Mirası listesinde (2005’te ilan edildi, 2008’de listeye yazıldı) | —
+- 18 | hzsteps | Semanın dört selamı | —
+
+### 19:00–20:00 · Villa Fikirleri: Evde Bir Hamam · Villa Ideas: A Hamam at Home
+- 19 | hzphoto | Ali Kulu Ağa hamamı: kemerler, taş zemin ve tepede ışık delikleri | m/h24-hamam5.jpg
+- 19 | hzphoto | Çemberlitaş Hamamı’nın kubbesi ve yanındaki tarihî sütun | m/h24-hamam1.jpg
+- 19 | hzphoto | Süleymaniye Hamamı’nın kubbeleri, dışarıdan | m/h24-hamam3.jpg
+- 19 | hzphoto | Bir Türk hamamının pembe duvarları ve kurşun kaplı kubbeleri | m/h24-kurna.jpg
+- 19 | hzsteps | Villada küçük bir hamam köşesi nasıl olur? | —
+
+### 20:00–21:00 · Zekice Düşünce: Rastgele Yürüyüş · Clever Thinking: The Random Walk
+- 20 | hzwalk | NEW/generator hzwalk | —
+- 20 | hzsteps | Sarhoş bir insan evini bulur, sarhoş bir kuş bulamayabilir | —
+- 20 | hzfact | Botanikçi Robert Brown mikroskopta polen içinden çıkan minik parçacıkların durmadan titreştiğini gördü; 1905’te Einstein bunun su moleküllerinin rastgele çarpışmalarından kaynaklandığını açıkladı | —
+- 20 | hzfact | Google’ın ilk sıralama fikri PageRank, web’de bağlantılara rastgele tıklayarak gezinen hayalî bir “sörfçü”nün her sayfada ne kadar zaman geçireceğini hesaplıyordu | —
+- 20 | hzriddle | Bir merdivenin tam ortasındasın. Her adımda yazı-tura atıp bir basamak çıkıyor ya da iniyorsun. 10 adım sonra en olası yerin neresi? | —
+
+### 21:00–22:00 · Ateşin Çocukları: Yanardağlar · Children of Fire: Volcanoes
+- 21 | hzphoto | Erivan’ın üzerinde yükselen karlı Ağrı Dağı | m/h24-ararat.jpg
+- 21 | hzphoto | Nemrut Dağı’nın kalderası ve içindeki göller | m/h24-nemrut.jpg
+- 21 | hzphoto | Kapadokya’nın peri bacaları | m/h24-kapadokya.jpg
+- 21 | hzphoto | Gece Etna’dan fışkıran lav | m/h24-etna.jpg
+- 21 | hzphoto | Stromboli adası havadan: denizden yükselen bir yanardağ | m/h24-stromboli.jpg
+- 21 | hzriddle | Bir yanardağdan çıkar, taştır ama suda yüzer. Nedir? | —
+
+### 22:00–23:00 · Galeri: Whistler’ın Nocturne’leri · Gallery: Whistler’s Nocturnes (sakin · calm)
+- 22 | hzphoto | Nocturne: Mavi ve Gümüş — Chelsea, James McNeill Whistler, 1871 | m/h24-nocturne1.jpg
+- 22 | hzphoto | Nocturne: Gri ve Gümüş — Chelsea Rıhtımı, James McNeill Whistler | m/h24-nocturne3.jpg
+- 22 | hzfact | 1877’de eleştirmen John Ruskin, Whistler’ı “halkın yüzüne bir kova boya fırlatmakla” suçladı; Whistler dava açtı, 1878’de kazandı, ama tazminat olarak yalnızca bir farthing, yani en küçük bozuk para aldı | —
+- 22 | hzquote | Dün akıllıydım, dünyayı değiştirmek istedim. Bugün bilgeyim, kendimi değiştiriyorum | —
+- 22 | hzsteps | Bu akşamdan geriye ne kalsın? | —
+
+### 23:00–02:00 · Okyanusta Gece: Balinalar · Night in the Ocean: Whales (sakin · calm)
+- 23 | hzwhale | NEW/generator/calm night hzwhale | —
+- 23 | hzphoto | Kambur balina annesi ve yavrusu | m/h24-humpback.jpg
+- 23 | hzphoto | Bir ispermeçet balinası annesi ve yavrusu | m/h24-sperm.jpg
+- 23 | hzphoto | Kuzey Kutbu denizinde bir mavi balinanın nefes sütunu | m/h24-bluewhale.jpg
+- 23 | hzfact | Erkek kambur balinaların şarkısı 20 dakikaya kadar sürebilir ve saatlerce tekrar edilir; aynı bölgedeki erkekler aynı şarkıyı söyler ve şarkı yıldan yıla değişir | —
+- 23 | hzquote | Deniz, büyüsünü bir kez yaptı mı, insanı sonsuza dek merakın ağında tutar | —
+
 ## 2026-11-23 · afternoon rework (rev 78, sets 15:00–18:00 rebuilt ~15:40, fresh unexpected hours)
 
 M is in the living room and asked for new things and new ideas, different today. 15:00–18:00 replaced the morning’s eye-trick / prisoner’s-dilemma / tea & kemençe hours with four unexpected themes (no puzzles). 1 new hz scene (hourly.js v78): hzglowworm (calm imagined glowworm cave, labelled hayal ürünü). 16 new CC/PD photos (m/h78-*). Replaced h23 15–18 images archived to /workspace/tv-media-archive/h23-1518. Avoided 7-day repeats incl. butterfly-wing scales, snowflake, diatoms, pollen SEM (17 Nov), nautilus (16 Nov), Antikythera and Yerebatan cistern (19 Nov), Pantheon oculus and Sainte-Chapelle stained glass (21 Nov), noctilucent clouds and zodiacal light (21 Nov), aurora (18 Nov), light pillars and green flash and Brocken (16 Nov), Uyuni (20 Nov), fireflies animation (16 Nov), Yazd windcatcher (19 Nov), Giant’s Causeway (21 Nov); skipped kintsugi (gold rule); Derinkuyu photos were too dark or tungsten-gold so the underground city is a gap; volcanic-lightning photos on Commons were too small, painted, or gold-toned so Catatumbo lightning and red sprites stand in; Waitomo real photo was too dark for the TV, so the cave appears as the labelled imagined scene. No gold/brass subjects.

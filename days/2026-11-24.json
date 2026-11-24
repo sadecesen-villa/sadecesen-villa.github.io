@@ -1,0 +1,1166 @@
+{
+ "date": "2026-11-24",
+ "rev": 79,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-24.py. Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-24-09",
+   "name": "Salı Sabahı · Tuesday Morning",
+   "from": "2026-11-24T09:00",
+   "until": "2026-11-24T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h24-zagnos.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Zağnos Vadisi · Trabzon",
+     "tr": "Zağnos Vadisi’nde taş köprü ve yamaçtaki eski surlar",
+     "en": "The stone bridge in the Zağnos Valley and the old walls on the slope",
+     "cr": "Foto · Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Trabzon’un eski şehri, iki derin vadi arasında masa gibi düz bir tepenin üstünde kuruldu; şehrin eski adı Trapezus da Yunanca “masa” sözcüğünden gelir",
+     "facte": "Trabzon’s old town sits on a flat, table-like hill between two deep ravines — its ancient name Trapezus comes from the Greek word for “table”"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Dünle beraber gitti cancağızım,|ne kadar söz varsa düne ait;|şimdi yeni şeyler söylemek lazım",
+     "en": "All the words that went with yesterday belong to yesterday, dear soul — now it is time to say new things",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-karaca.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Karaca Mağarası · Karaca Cave, Gümüşhane",
+     "tr": "Karaca Mağarası’nda tavandan sarkan damlataşları",
+     "en": "Dripstone hanging from the ceiling of Karaca Cave",
+     "cr": "Foto · Photo: En Merker · CC0 · Wikimedia Commons",
+     "fact": "Trabzon–Gümüşhane yolu üzerinde. Sarkıtlar, damlayan sudaki kirecin birikmesiyle büyür: çoğu zaman yılda bir milimetreden çok daha az",
+     "facte": "On the Trabzon–Gümüşhane road. Stalactites grow as lime from dripping water builds up — usually far less than a millimetre a year",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "Kuş Dili",
+     "tr": "Giresun’un Kuşköy’ünde insanlar vadinin bir yamacından ötekine ıslıkla konuşur: “kuş dili” 2017’de UNESCO’nun acil koruma listesine girdi",
+     "en": "In Kuşköy, Giresun, people talk across the valley by whistling — this “bird language” joined UNESCO’s urgent-safeguarding list in 2017",
+     "src": "Islıkla Türkçe · Turkish, whistled",
+     "c1": "#13242c",
+     "c2": "#04080a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ne kadar çok alırsan,|o kadar çok bırakırsın. Nedir?",
+     "qe": "The more you take, the more you leave behind. What is it?",
+     "a": "Ayak izleri!",
+     "ae": "Footsteps!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-10",
+   "name": "Yaşayan Sanat: Kaosun Dansı · Living Art: The Dance of Chaos",
+   "from": "2026-11-24T10:00",
+   "until": "2026-11-24T11:00",
+   "items": [
+    {
+     "k": "hzdoublepend",
+     "d": 96
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Kelebek etkisi nereden çıktı?",
+     "e": "Where did the butterfly effect come from?",
+     "c1": "#16222c",
+     "c2": "#04080a",
+     "gap": 8,
+     "steps": [
+      [
+       "1961’de meteorolog Edward Lorenz bir hava simülasyonunu yeniden çalıştırmak istedi",
+       "In 1961 meteorologist Edward Lorenz wanted to re-run a weather simulation",
+       "🌦"
+      ],
+      [
+       "Zaman kazanmak için bir sayıyı 0,506127 yerine 0,506 diye girdi",
+       "To save time he typed a number as 0.506 instead of 0.506127",
+       ""
+      ],
+      [
+       "Kahve içip döndüğünde tahmin bambaşka bir havaya dönüşmüştü",
+       "When he came back from a coffee, the forecast had turned into completely different weather",
+       ""
+      ],
+      [
+       "1972’deki konuşmasının adı: “Brezilya’da bir kelebeğin kanat çırpışı Teksas’ta kasırga başlatır mı?”",
+       "His 1972 talk was titled: “Does the flap of a butterfly’s wings in Brazil set off a tornado in Texas?”",
+       ""
+      ]
+     ],
+     "fin": "Kaos rastlantı değildir: kurallar kesin, ama başlangıcı tam bilmek imkânsız",
+     "fine": "Chaos is not chance — the rules are exact, but knowing the start exactly is impossible"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "≈2 hafta",
+     "tr": "Bugünün en iyi bilgisayarlarıyla bile hava durumu en fazla iki hafta kadar ileriye güvenilir biçimde tahmin edilebilir",
+     "en": "Even with today’s best computers, weather can be forecast reliably only about two weeks ahead",
+     "src": "Neden? Kaos · Why? Chaos",
+     "c1": "#14202a",
+     "c2": "#04070a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir sarkacı iki katı uzunlukta yaparsan,|bir gidiş-gelişi kaç kat uzar?",
+     "qe": "If you make a pendulum twice as long, how much longer does one swing take?",
+     "a": "Yaklaşık 1,4 kat (√2): dört kat uzun sarkaç ancak iki kat yavaş",
+     "ae": "About 1.4 times (√2) — a pendulum four times longer is only twice as slow",
+     "sec": 20,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Brezilya’da bir kelebeğin kanat çırpışı|Teksas’ta bir kasırga başlatır mı?",
+     "en": "Does the flap of a butterfly’s wings in Brazil set off a tornado in Texas?",
+     "pal": "ink",
+     "lb": "Bilim Sözü · Science Saying",
+     "by": "Edward Lorenz, 1972"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-11",
+   "name": "Nefes Kesen Yerler: Adalar · Breathtaking Places: Islands",
+   "from": "2026-11-24T11:00",
+   "until": "2026-11-24T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-lofoten.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Reine · Lofoten, Norveç · Norway",
+     "tr": "Reine’de kırmızı balıkçı evleri ve denizden dik yükselen dağlar",
+     "en": "Red fishermen’s houses in Reine and mountains rising straight out of the sea",
+     "cr": "Foto · Photo: Ximonic (Simo Räsänen) · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Lofoten Kuzey Kutup Dairesi’nin kuzeyinde; yine de Gulf Stream sayesinde kışları aynı enlemdeki pek çok yerden çok daha ılıman",
+     "facte": "Lofoten lies north of the Arctic Circle — yet thanks to the Gulf Stream its winters are far milder than most places at that latitude"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-santorini.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Oia · Santorini, Yunanistan · Greece",
+     "tr": "Oia’da mavi kubbeler ve uçurumun kenarındaki beyaz evler",
+     "en": "Blue domes and white houses on the cliff edge at Oia",
+     "cr": "Foto · Photo: Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bu uçurumlar, Tunç Çağı’nda adayı ortasından çökerten dev bir yanardağ patlamasının kalderasının kenarı",
+     "facte": "These cliffs are the rim of a caldera left by a huge Bronze Age eruption that collapsed the middle of the island"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-azores.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sete Cidades · Azor Adaları · Azores",
+     "tr": "Sete Cidades: sönmüş bir yanardağ krateri içinde iki göl",
+     "en": "Sete Cidades — two lakes inside an extinct volcanic crater",
+     "cr": "Foto · Photo: David Stanley · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Göllerden biri daha mavi, öteki daha yeşil görünür; efsaneye göre biri mavi gözlü bir prensesin, öteki yeşil gözlü bir çobanın gözyaşlarıyla dolmuş",
+     "facte": "One lake looks bluer, the other greener — legend says one filled with the tears of a blue-eyed princess, the other with those of a green-eyed shepherd"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-lordhowe.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Lord Howe Adası · Island, Avustralya · Australia",
+     "tr": "Lord Howe Adası’nın lagünü ve arkasındaki dağlar",
+     "en": "The lagoon of Lord Howe Island and the mountains behind it",
+     "cr": "Foto · Photo: David Stanley · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Adada aynı anda en fazla yaklaşık 400 turist kalabiliyor; 1982’den beri UNESCO Dünya Mirası",
+     "facte": "Only about 400 tourists may stay on the island at any one time — a UNESCO World Heritage Site since 1982"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-moorea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Moorea · Fransız Polinezyası · French Polynesia",
+     "tr": "Moorea: mercan resifiyle çevrili turkuaz bir lagün",
+     "en": "Moorea — a turquoise lagoon ringed by a coral reef",
+     "cr": "Foto · Photo: Daniel Julie · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Tahiti’nin hemen yanında. Resif, açık okyanusun dalgalarını keser; içerideki lagün bu yüzden bir havuz kadar sakin kalır",
+     "facte": "Right next to Tahiti. The reef breaks the ocean swell, so the lagoon inside stays as calm as a pool"
+    },
+    {
+     "k": "hzchoose",
+     "d": 40,
+     "q": "Bir hafta kalacak olsan hangisi?",
+     "qe": "If you could stay a week, which one?",
+     "a": {
+      "f": "m/h24-lofoten.jpg",
+      "t": "Lofoten",
+      "e": "Lofoten",
+      "tag": "Dağ, deniz, kuzey ışıkları · mountains, sea, northern lights"
+     },
+     "b": {
+      "f": "m/h24-moorea.jpg",
+      "t": "Moorea",
+      "e": "Moorea",
+      "tag": "Lagün, mercan, sıcak su · lagoon, coral, warm water"
+     },
+     "p": "Herkes birini seçsin, sonra nedenini söylesin",
+     "pe": "Everyone picks one — then says why",
+     "cr": "Fotoğraflar · Photos: Ximonic (Simo Räsänen) · CC BY-SA 4.0; Daniel Julie · CC BY 2.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-12",
+   "name": "Dokumanın Şiiri · Poetry in Textiles",
+   "from": "2026-11-24T12:00",
+   "until": "2026-11-24T13:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h24-ardabil.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Erdebil Halısı — İran, 1539–40",
+     "en": "The Ardabil Carpet — Iran, 1539–40",
+     "cr": "Eser · Artwork: bilinmeyen dokumacılar · unknown weavers (Maqsud Kashani imzalı · signed) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Erdebil’deki bir türbe için dokunan bir çiftin biri; kenarında dokuyucusunun adı yazılı: Kaşanlı Maksud. Bugün Londra’da, V&A Müzesi’nde",
+     "facte": "One of a pair woven for a shrine in Ardabil — its border names the weaver, Maqsud of Kashan. Today it is in the V&A, London",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h24-kilim.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Doğu Anadolu kilimi, 20. yüzyıl — Yaşar Müzesi",
+     "en": "An Eastern Anatolian kilim, 20th century — Yaşar Museum",
+     "cr": "Eser · Artwork: Koray · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kilim düz dokumadır: halının aksine havı yoktur; desen, renkli atkı ipliklerinin çözgülerin arasından gidip gelmesiyle oluşur",
+     "facte": "A kilim is a flatweave — unlike a carpet it has no pile; the pattern forms as coloured weft threads pass back and forth through the warp",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h24-ikat.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Adras (ikat) kumaşı, 1990’lar — ipek ve pamuk",
+     "en": "Adras (ikat) cloth, 1990s — silk and cotton",
+     "cr": "Eser · Artwork: Panpanchik · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "İkatta desen dokumadan önce yapılır: iplik demetleri yer yer bağlanıp boyanır, böylece desen dokurken kendiliğinden ortaya çıkar; kenarlardaki o hafif bulanıklık da buradan gelir",
+     "facte": "In ikat the pattern is made before weaving — bundles of thread are tied off and dyed, so the design appears as it is woven; that soft blur at the edges comes from this",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h24-bayeux.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Bayeux Duvar Halısı — 1066 sonrası",
+     "en": "The Bayeux Tapestry — after 1066",
+     "cr": "Eser · Artwork: Myrabella · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Adı “duvar halısı” ama aslında keten üzerine yün nakış; yaklaşık 70 metre uzunluğunda ve 1066’daki Norman fethini bir çizgi roman gibi anlatıyor",
+     "facte": "It is called a tapestry but is really wool embroidery on linen — about 70 metres long, telling the Norman Conquest of 1066 like a comic strip",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-jacquard.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Jacquard tezgâhı · Jacquard loom, Edinburgh",
+     "tr": "Delikli kartlarla çalışan bir Jacquard dokuma tezgâhı",
+     "en": "A Jacquard loom driven by punched cards",
+     "cr": "Foto · Photo: Stephencdickson · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "1804’te Joseph-Marie Jacquard, deseni delikli kartlara kaydetti; bu fikir Charles Babbage’ın hesap makinesi tasarımına, oradan da bilgisayarlara ilham verdi",
+     "facte": "In 1804 Joseph-Marie Jacquard stored patterns on punched cards — the idea inspired Charles Babbage’s calculating engine, and later computers"
+    },
+    {
+     "k": "hzguess",
+     "d": 38,
+     "f": "m/h24-ardabil.jpg",
+     "fit": "contain",
+     "lb": "Bil Bakalım · Can You Guess? — Gerçek Eser · Real Artwork · Erdebil Halısı · Ardabil Carpet",
+     "q": "Bu halı yaklaşık kaç metre uzunluğunda?",
+     "qe": "Roughly how long is this carpet?",
+     "a": "Yaklaşık 10,5 metre (5,3 metre eninde)",
+     "ae": "About 10.5 metres (5.3 metres wide)",
+     "sec": 20,
+     "cr": "Foto · Photo: bilinmeyen dokumacılar · unknown weavers (Maqsud Kashani imzalı · signed) · kamu malı · public domain · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-13",
+   "name": "Büyük Ustalardan: Bruegel’in Kalabalık Dünyası · From the Great Masters: Bruegel’s Busy World",
+   "from": "2026-11-24T13:00",
+   "until": "2026-11-24T14:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h24-hunters.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Karda Avcılar — Pieter Bruegel, 1565",
+     "en": "Hunters in the Snow — Pieter Bruegel, 1565",
+     "cr": "Eser · Artwork: Pieter Bruegel (Yaşlı · the Elder) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Mevsimleri anlatan altı resimlik bir dizinin parçası; bunlardan beşi bugüne ulaştı. Viyana, Kunsthistorisches Museum",
+     "facte": "Part of a series of six paintings of the seasons, five of which survive. Vienna, Kunsthistorisches Museum",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h24-proverbs.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Hollanda Atasözleri — Pieter Bruegel, 1559",
+     "en": "Netherlandish Proverbs — Pieter Bruegel, 1559",
+     "cr": "Eser · Artwork: Pieter Bruegel (Yaşlı · the Elder) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Tek bir köy sahnesine 100’den fazla atasözü gizlenmiş: duvara kafa vuran adam, domuzlara inci atan biri…",
+     "facte": "More than 100 proverbs are hidden in one village scene — a man banging his head against a wall, someone casting pearls before swine…",
+     "fit": "contain"
+    },
+    {
+     "k": "hzguess",
+     "d": 40,
+     "f": "m/h24-games.jpg",
+     "fit": "contain",
+     "lb": "Bil Bakalım · Can You Guess? — Gerçek Eser · Real Artwork · Çocuk Oyunları · Children’s Games, 1560",
+     "q": "Bu meydanda kaç farklı çocuk oyunu var? Kaçını tanıyorsun?",
+     "qe": "How many different children’s games are in this square? How many do you know?",
+     "a": "80’den fazla: çember çevirme, birdirbir, aşık kemiği, saklambaç…",
+     "ae": "More than 80 — hoop rolling, leapfrog, knucklebones, hide-and-seek…",
+     "sec": 22,
+     "cr": "Eser · Artwork: Pieter Bruegel (Yaşlı · the Elder) · kamu malı · public domain · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h24-harvest.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Hasatçılar — Pieter Bruegel, 1565",
+     "en": "The Harvesters — Pieter Bruegel, 1565",
+     "cr": "Eser · Artwork: Pieter Bruegel (Yaşlı · the Elder) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Aynı mevsimler dizisinden: yaz sıcağında öğle molası. Bugün New York’ta, Metropolitan Müzesi’nde",
+     "facte": "From the same seasons series — a midday break in the summer heat. Today in the Metropolitan Museum, New York",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h24-babel.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Babil Kulesi — Pieter Bruegel, 1563",
+     "en": "The Tower of Babel — Pieter Bruegel, 1563",
+     "cr": "Eser · Artwork: Pieter Bruegel (Yaşlı · the Elder) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bruegel, Roma’da gördüğü Kolezyum’dan esinlendiği düşünülen kemerlerle kuleyi bir şantiye gibi, yüzlerce minik işçiyle boyadı",
+     "facte": "Bruegel painted the tower as a building site with hundreds of tiny workers — its arches are thought to echo the Colosseum he saw in Rome",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Bruegel",
+     "tr": "Ressamın adı çoğu zaman “Brueghel” diye de yazılır: kendisi 1559’dan sonra imzasından “h” harfini çıkardı, oğulları ise kullanmayı sürdürdü",
+     "en": "The name is often spelled “Brueghel” — he dropped the “h” from his signature after 1559, while his sons kept it",
+     "src": "Yaşlı Pieter Bruegel, yaklaşık 1525–1569 · Pieter Bruegel the Elder, c. 1525–1569",
+     "c1": "#1c2620",
+     "c2": "#060906"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-14",
+   "name": "Gökyüzünün Harikaları: Göktaşları · Wonders of the Sky: Meteors & Meteorites",
+   "from": "2026-11-24T14:00",
+   "until": "2026-11-24T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-perseid.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Perseid meteoru · Perseid meteor",
+     "tr": "Samanyolu’nun önünden geçen bir Perseid meteoru",
+     "en": "A Perseid meteor crossing in front of the Milky Way",
+     "cr": "Foto · Photo: Martin Mark · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Çoğu “kayan yıldız” bir kum tanesinden büyük değildir: yaklaşık 100 km yükseklikte, saniyede onlarca kilometre hızla havaya girip yanar",
+     "facte": "Most “shooting stars” are no bigger than a grain of sand — they burn up about 100 km high, entering the air at tens of kilometres a second"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h24-leonid.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "1833 Leonid meteor yağmuru — 1888 tarihli bir gravür",
+     "en": "The 1833 Leonid meteor storm — an engraving from 1888",
+     "cr": "Eser · Artwork: Adolf Vollmy (Edmund Weiß, Bilderatlas der Sternenwelt, 1888) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "12–13 Kasım 1833 gecesi Kuzey Amerika’da saatte on binlerce meteor görüldü; insanlar dünyanın sonu geldi sandı",
+     "facte": "On the night of 12–13 November 1833 North Americans saw tens of thousands of meteors an hour — many thought the world was ending",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-crater.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Meteor Krateri · Meteor Crater, Arizona",
+     "tr": "Arizona’da Meteor Krateri: çölde bir buçuk kilometreye yakın bir çukur",
+     "en": "Meteor Crater in Arizona — a hole well over a kilometre wide in the desert",
+     "cr": "Foto · Photo: USGS (National Map) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yaklaşık 50.000 yıl önce, birkaç on metrelik demirli bir göktaşının çarpmasıyla oluştu",
+     "facte": "It formed about 50,000 years ago when an iron meteorite a few tens of metres across struck"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-hoba.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Hoba göktaşı · Hoba meteorite, Namibya · Namibia",
+     "tr": "Hoba: bilinen en büyük göktaşı, düştüğü yerde duruyor",
+     "en": "Hoba — the largest known meteorite, still where it fell",
+     "cr": "Foto · Photo: Calips · CC BY 2.5 · Wikimedia Commons",
+     "fact": "Yaklaşık 60 ton demir ve nikel; 1920’de bir çiftçi tarlasını sürerken buldu ve hiç yerinden kıpırdatılamadı",
+     "facte": "About 60 tonnes of iron and nickel — a farmer found it while ploughing in 1920, and it has never been moved"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-willamette.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Willamette göktaşı · meteorite, New York",
+     "tr": "Willamette göktaşı, New York’taki Amerikan Doğa Tarihi Müzesi’nde",
+     "en": "The Willamette meteorite at the American Museum of Natural History, New York",
+     "cr": "Foto · Photo: Vicpeters · CC BY 4.0 · Wikimedia Commons",
+     "fact": "ABD’de bulunan en büyük göktaşı, yaklaşık 15,5 ton; yüzeyindeki çukurlar atmosferde erime ve uzun süren paslanmayla oluştu",
+     "facte": "The largest meteorite found in the USA, about 15.5 tonnes — its pits come from melting in the atmosphere and long weathering",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Her gün Dünya’ya uzaydan yaklaşık kaç ton toz ve taş düşer?",
+     "qe": "About how many tonnes of space dust and rock fall on Earth every day?",
+     "a": "Tahminler birkaç tondan yüzlerce tona kadar değişiyor; çoğu toz hâlinde",
+     "ae": "Estimates range from a few to hundreds of tonnes — most of it as dust",
+     "sec": 20,
+     "c1": "#1a2232",
+     "c2": "#05070c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-15",
+   "name": "Göz Oyunları: Hiç Olmayan Renk ve Hareket · Tricks of the Eye: Colour & Motion That Aren’t There",
+   "from": "2026-11-24T15:00",
+   "until": "2026-11-24T16:00",
+   "items": [
+    {
+     "k": "hzbenham",
+     "d": 72
+    },
+    {
+     "k": "hzenigma",
+     "d": 56
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Gördüğün şey neden her zaman orada olan şey değil?",
+     "e": "Why is what you see not always what is there?",
+     "c1": "#1c2430",
+     "c2": "#05070b",
+     "gap": 8,
+     "steps": [
+      [
+       "Göz, saniyede birkaç kez sıçrar; biz bunu hiç fark etmeyiz",
+       "The eye jumps several times a second — we never notice",
+       "👁"
+      ],
+      [
+       "Beyin bu kesik kesik görüntüleri birleştirip akıcı bir film yapar",
+       "The brain stitches these jerky glimpses into a smooth film",
+       ""
+      ],
+      [
+       "Boşlukları tahminle doldurur: çoğu zaman haklı çıkar",
+       "It fills the gaps with guesses — and is usually right",
+       ""
+      ],
+      [
+       "Yanılsamalar, bu tahminlerin yanıldığı küçük anlardır",
+       "Illusions are the little moments when those guesses go wrong",
+       ""
+      ]
+     ],
+     "fin": "Yanılsama bir kusur değil: beynin ne kadar hızlı çalıştığının izi",
+     "fine": "An illusion is not a flaw — it is a trace of how fast the brain works"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "≈2°",
+     "tr": "Gözümüzün keskin gördüğü alan (fovea) yalnızca yaklaşık 2 derece: kabaca uzattığın kolunun ucundaki başparmak tırnağın kadar",
+     "en": "The part of vision we see sharply (the fovea) is a tiny patch — roughly the size of your thumbnail at arm’s length",
+     "src": "Gerisini beyin tamamlar · The brain fills in the rest",
+     "c1": "#1c2430",
+     "c2": "#05070b"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Gözünü kapamadan|hiç göremediğin bir şey nedir?",
+     "qe": "What can you never see with your eyes open?",
+     "a": "Kendi kör noktan, ya da uykudaki hâlin!",
+     "ae": "Your own blind spot — or yourself asleep!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-16",
+   "name": "Zekice Düşünce: Hanoi Kulesi · Clever Thinking: The Tower of Hanoi",
+   "from": "2026-11-24T16:00",
+   "until": "2026-11-24T17:00",
+   "items": [
+    {
+     "k": "hzhanoi",
+     "d": 100
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Dünyanın sonu ne zaman gelir? (Bir bulmacaya göre)",
+     "e": "When will the world end? (According to a puzzle)",
+     "c1": "#1c2a30",
+     "c2": "#060a0c",
+     "gap": 8,
+     "steps": [
+      [
+       "Fransız matematikçi Édouard Lucas bulmacayı 1883’te bir oyuncak olarak satışa çıkardı",
+       "French mathematician Édouard Lucas put the puzzle on sale as a toy in 1883",
+       "🗼"
+      ],
+      [
+       "Kutunun üstüne bir efsane yazdı: bir tapınakta rahipler 64 diski taşıyormuş",
+       "On the box he wrote a legend: in a temple, priests are moving 64 discs",
+       ""
+      ],
+      [
+       "Son disk yerine konunca dünyanın sona ereceği söyleniyormuş",
+       "When the last disc is in place, it was said, the world will end",
+       ""
+      ],
+      [
+       "64 disk için 2⁶⁴ − 1 hamle gerekir: saniyede bir hamleyle yaklaşık 585 milyar yıl",
+       "64 discs need 2⁶⁴ − 1 moves — at one move a second, about 585 billion years",
+       ""
+      ]
+     ],
+     "fin": "Evrenin yaşı yaklaşık 13,8 milyar yıl: yani acele etmeye gerek yok",
+     "fine": "The universe is about 13.8 billion years old — so there is no need to hurry"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "×2",
+     "tr": "Her yeni disk gereken hamle sayısını iki katına çıkarır: 3 disk 7 hamle, 10 disk 1.023 hamle, 20 disk bir milyonu aşar",
+     "en": "Every extra disc doubles the moves: 3 discs take 7, 10 discs take 1,023, 20 discs over a million",
+     "src": "Üstel büyüme · Exponential growth",
+     "c1": "#1c2a30",
+     "c2": "#060a0c"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir kâğıdı 42 kez ikiye katlayabilseydin,|ne kadar kalın olurdu?",
+     "qe": "If you could fold a sheet of paper in half 42 times, how thick would it be?",
+     "a": "Ay’ı geçecek kadar: yaklaşık 440.000 km (Ay yaklaşık 384.000 km uzakta)",
+     "ae": "Past the Moon — about 440,000 km (the Moon is about 384,000 km away)",
+     "sec": 22,
+     "hint": "0,1 mm × 2⁴² · 0.1 mm × 2⁴²",
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "Üç kutu var: biri elma, biri armut, biri karışık. Hepsinin etiketi yanlış. En az kaç meyve çekip doğru etiketlersin?",
+     "qe": "Three boxes: apples, pears, mixed — every label is wrong. How few fruits must you draw to fix them all?",
+     "a": "Bir tane! “Karışık” yazan kutudan çek: ne çıkarsa o kutu odur, gerisi kendiliğinden çözülür",
+     "ae": "Just one! Draw from the box labelled “mixed” — whatever comes out tells you that box, and the rest follow",
+     "sec": 26,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-17",
+   "name": "Kış Bahçeleri · Winter Gardens & Glasshouses",
+   "from": "2026-11-24T17:00",
+   "until": "2026-11-24T18:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-kewpalm.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Palm House · Kew, Londra · London",
+     "tr": "Kew’deki Palmiye Evi: cam ve demirden bir orman kubbesi",
+     "en": "The Palm House at Kew — a dome of glass and iron sheltering a forest",
+     "cr": "Foto · Photo: Diliff · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "1844–1848’de yapıldı; tasarımcıları gemi yapımı tekniklerinden yararlandı, kemerleri ters dönmüş bir tekne gövdesine benzer",
+     "facte": "Built in 1844–1848 — its designers borrowed shipbuilding techniques, and its arches look like an upturned hull"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-temperate.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Temperate House · Kew",
+     "tr": "Kew’deki Ilıman İklim Evi’nin içinde: palmiyeler arasında bir yürüyüş yolu",
+     "en": "Inside Kew’s Temperate House — a walkway among the palms",
+     "cr": "Foto · Photo: Mike Peel · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Ayakta kalan en büyük Viktorya dönemi cam serası; 1863’te açıldı ama tamamlanması 1899’u buldu",
+     "facte": "The largest surviving Victorian glasshouse — it opened in 1863 but was not finished until 1899"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-laeken.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Laeken Kraliyet Seraları · Royal Greenhouses, Brüksel · Brussels",
+     "tr": "Laeken Kraliyet Seraları’nda cam kubbeye yukarıdan bakış",
+     "en": "Looking up into a glass dome of the Royal Greenhouses of Laeken",
+     "cr": "Foto · Photo: Jean-Pol GRANDMONT · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kral II. Leopold için 1870’lerden 1890’lara kadar yapıldı; bugün halka yalnızca her bahar birkaç haftalığına açılıyor",
+     "facte": "Built for King Leopold II from the 1870s to the 1890s — today they open to the public for only a few weeks each spring"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-kibble.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kibble Palace · Glasgow",
+     "tr": "Glasgow Botanik Bahçesi’nde Kibble Sarayı",
+     "en": "The Kibble Palace in Glasgow Botanic Gardens",
+     "cr": "Foto · Photo: Wiki.cullin · CC0 · Wikimedia Commons",
+     "fact": "Önce bir iş insanının bahçesinde yapıldı, 1873’te parçalarına ayrılıp taşındı ve botanik bahçesinde yeniden kuruldu",
+     "facte": "First built in a businessman’s garden, it was taken apart in 1873, moved and rebuilt at the botanic gardens",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-grandes.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Grandes Serres · Jardin des Plantes, Paris",
+     "tr": "Paris’te Jardin des Plantes’ın büyük seraları",
+     "en": "The great glasshouses of the Jardin des Plantes in Paris",
+     "cr": "Foto · Photo: Jebulon · CC0 · Wikimedia Commons",
+     "fact": "1830’larda yapıldı; dünyanın en eski metal ve cam seraları arasında",
+     "facte": "Built in the 1830s — among the oldest metal-and-glass greenhouses in the world"
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Kışın villada küçük bir yeşil köşe",
+     "e": "A small green corner at the villa in winter",
+     "c1": "#1c2a24",
+     "c2": "#060a08",
+     "gap": 9,
+     "steps": [
+      [
+       "Güneyden ışık alan bir pencere önü ya da cam bir veranda",
+       "A south-facing window spot or a glassed-in veranda",
+       "🌿"
+      ],
+      [
+       "Limon, defne ve sardunya: Karadeniz kışını içeride geçirebilen bitkiler",
+       "Lemon, bay laurel and geranium — plants that can spend the Black Sea winter indoors",
+       ""
+      ],
+      [
+       "Bir koltuk, bir çay, yağmur cama vururken yeşilin arasında okumak",
+       "An armchair, a tea, reading among the green while rain taps the glass",
+       ""
+      ]
+     ],
+     "fin": "Taş duvarın önünde birkaç saksı bile kışa bahar havası katar",
+     "fine": "Even a few pots in front of the stone wall bring a breath of spring to winter"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-18",
+   "name": "Akşam Müziği: Mevlânâ ve Sema · Evening Music: Rumi & the Sema",
+   "from": "2026-11-24T18:00",
+   "until": "2026-11-24T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h24-sema.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mevlevî semâzenler · Mevlevi whirling dervishes",
+     "tr": "Sema töreninde selam veren semazenler",
+     "en": "Whirling dervishes bowing in the Sema ceremony",
+     "cr": "Foto · Photo: Quinn Dombrowski · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Semazen sağ elini göğe, sol elini yere açar: Tanrı’dan alınanın insanlara verildiği anlatılır",
+     "facte": "The dervish turns the right palm to the sky and the left to the earth — receiving from God and giving to people, it is said",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h24-mevlana.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mevlânâ Müzesi · Konya",
+     "tr": "Konya’da Mevlânâ Müzesi ve turkuaz Yeşil Kubbe",
+     "en": "The Mevlânâ Museum in Konya and its turquoise Green Dome",
+     "cr": "Foto · Photo: Mardetanha · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Mevlânâ 17 Aralık 1273’te öldü; ölüm gecesine “düğün gecesi” anlamında Şeb-i Arûs denir ve her aralık Konya’da anılır",
+     "facte": "Rumi died on 17 December 1273 — the night is called Şeb-i Arûs, “the wedding night”, and is remembered in Konya every December",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 42,
+     "tr": "Gel, gel, ne olursan ol yine gel",
+     "en": "Come, come, whoever you are, come again",
+     "pal": "clay",
+     "lb": "Mevlânâ’ya atfedilir · Attributed to Rumi",
+     "by": "eserlerinde geçmez, ama onun ruhuyla özdeşleşmiştir · not found in his works, yet linked to his spirit"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "2008",
+     "tr": "Mevlevî Sema Töreni UNESCO’nun İnsanlığın Somut Olmayan Kültürel Mirası listesinde (2005’te ilan edildi, 2008’de listeye yazıldı)",
+     "en": "The Mevlevi Sema Ceremony is on UNESCO’s list of the Intangible Cultural Heritage of Humanity (proclaimed 2005, inscribed 2008)",
+     "src": "Konya · Mevlevîhaneler · Mevlevi lodges",
+     "c1": "#2a2420",
+     "c2": "#0a0806"
+    },
+    {
+     "k": "hzsteps",
+     "d": 52,
+     "lb": "Sakin Akşam · Quiet Evening",
+     "q": "Semanın dört selamı",
+     "e": "The four salutes of the Sema",
+     "c1": "#2a2420",
+     "c2": "#0a0806",
+     "gap": 9,
+     "steps": [
+      [
+       "Tören Na’t-ı Şerif ile başlar; ardından kudüm vuruşu ve ney taksimi gelir",
+       "The ceremony opens with the Na’t-ı Şerif hymn, then a strike of the kudüm drum and a ney improvisation",
+       "🎶"
+      ],
+      [
+       "Semazenler siyah hırkalarını çıkarır: beyaz tennure görünür",
+       "The dervishes remove their black cloaks — the white tennure appears",
+       ""
+      ],
+      [
+       "Dört bölüm boyunca, sağdan sola, kendi çevrelerinde ve meydanın çevresinde dönerler",
+       "Through four sections they turn right to left, around themselves and around the hall",
+       ""
+      ]
+     ],
+     "fin": "Dünya da, gezegenler de aynı yönde döner: semazen kendini bu döngüye katar",
+     "fine": "The Earth and planets turn the same way — the dervish joins that circling"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-19",
+   "name": "Villa Fikirleri: Evde Bir Hamam · Villa Ideas: A Hamam at Home",
+   "from": "2026-11-24T19:00",
+   "until": "2026-11-24T20:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h24-hamam5.jpg",
+     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · İsfahan · Isfahan, İran · Iran)",
+     "tr": "Ali Kulu Ağa hamamı: kemerler, taş zemin ve tepede ışık delikleri",
+     "en": "The Ali Gholi Agha bath — arches, stone floors and light holes above",
+     "cr": "Foto · Photo: Amirpashaei · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Safevî döneminden kalma bir hamam; ışık, kubbedeki küçük cam gözlerden süzülür",
+     "facte": "A bath from the Safavid era — light filters in through small glass eyes in the dome"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-hamam1.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çemberlitaş Hamamı · İstanbul",
+     "tr": "Çemberlitaş Hamamı’nın kubbesi ve yanındaki tarihî sütun",
+     "en": "The dome of the Çemberlitaş Hamamı beside the ancient column",
+     "cr": "Foto · Photo: Enrique Freire · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Mimar Sinan’ın 1584’te yaptığı hamam bugün de çalışıyor; adını hemen yanındaki Konstantin Sütunu’ndan (Çemberlitaş) alır",
+     "facte": "The bath Mimar Sinan built in 1584 still runs today — named after the Column of Constantine (Çemberlitaş) right beside it"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h24-hamam3.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Süleymaniye Hamamı · İstanbul",
+     "tr": "Süleymaniye Hamamı’nın kubbeleri, dışarıdan",
+     "en": "The domes of the Süleymaniye Hamamı, from outside",
+     "cr": "Foto · Photo: Karakalem · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Süleymaniye külliyesinin bir parçası olarak 1550’lerde yapıldı",
+     "facte": "Built in the 1550s as part of the Süleymaniye complex"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h24-kurna.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Türkiye · Turkey",
+     "tr": "Bir Türk hamamının pembe duvarları ve kurşun kaplı kubbeleri",
+     "en": "The pink walls and lead-covered domes of a Turkish bath",
+     "cr": "Foto · Photo: Dennis G. Jarvis · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Kubbelerdeki küçük yuvarlak camlara “fil gözü” denir: içeriye yıldız gibi ışık düşürür, buharı da dışarıda tutar",
+     "facte": "The small round glass lights in the domes are called “elephant eyes” — they drop star-like light inside while keeping the steam in",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Villa Fikri · Villa Idea",
+     "q": "Villada küçük bir hamam köşesi nasıl olur?",
+     "e": "What could a small hamam corner at the villa look like?",
+     "c1": "#2a2622",
+     "c2": "#0a0908",
+     "gap": 8,
+     "steps": [
+      [
+       "Ortada ısıtılmış bir mermer göbek taşı; yanında bir kurna",
+       "A heated marble göbek taşı in the middle, a basin beside it",
+       "♨"
+      ],
+      [
+       "Taş duvara uyumlu, açık renk mermer ve sade ahşap kapı",
+       "Light marble to suit the stone walls, and a plain wooden door",
+       ""
+      ],
+      [
+       "Tavanda küçük cam ışık gözleri: gündüz doğal, gece loş ışık",
+       "Small glass light-eyes in the ceiling — daylight by day, a soft glow at night",
+       ""
+      ],
+      [
+       "Çıkışta bir sedir, çay ve sıcak havlular",
+       "A low divan, tea and warm towels on the way out",
+       ""
+      ]
+     ],
+     "fin": "Butik otel fikri: misafirler için akşam hamam saati",
+     "fine": "Boutique-hotel idea: an evening hamam hour for guests"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-20",
+   "name": "Zekice Düşünce: Rastgele Yürüyüş · Clever Thinking: The Random Walk",
+   "from": "2026-11-24T20:00",
+   "until": "2026-11-24T21:00",
+   "items": [
+    {
+     "k": "hzwalk",
+     "d": 96
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Sarhoş bir insan evini bulur, sarhoş bir kuş bulamayabilir",
+     "e": "A drunk man will find his way home, but a drunk bird may get lost forever",
+     "c1": "#16202a",
+     "c2": "#05070b",
+     "gap": 8,
+     "steps": [
+      [
+       "1921’de matematikçi George Pólya rastgele yürüyüşlerin başlangıca dönüp dönmediğini sordu",
+       "In 1921 mathematician George Pólya asked whether random walks return to their start",
+       "🧭"
+      ],
+      [
+       "Bir doğru üzerinde ya da düz bir şehirde: er geç mutlaka dönersin",
+       "On a line or in a flat city grid — sooner or later you always come back",
+       ""
+      ],
+      [
+       "Üç boyutlu uzayda ise dönme olasılığı yalnızca yaklaşık %34",
+       "In three-dimensional space the chance of ever returning is only about 34%",
+       ""
+      ],
+      [
+       "Matematikçi Shizuo Kakutani bunu sarhoş insan ve sarhoş kuşla özetledi",
+       "Mathematician Shizuo Kakutani summed it up with the drunk man and the drunk bird",
+       ""
+      ]
+     ],
+     "fin": "Bir boyut fazlası, kaybolmanın kapısını açıyor",
+     "fine": "One extra dimension opens the door to getting lost"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "1827",
+     "tr": "Botanikçi Robert Brown mikroskopta polen içinden çıkan minik parçacıkların durmadan titreştiğini gördü; 1905’te Einstein bunun su moleküllerinin rastgele çarpışmalarından kaynaklandığını açıkladı",
+     "en": "Botanist Robert Brown saw tiny particles from pollen jiggling endlessly under the microscope — in 1905 Einstein explained it as random hits from water molecules",
+     "src": "Brown hareketi · Brownian motion",
+     "c1": "#16202a",
+     "c2": "#05070b"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "1998",
+     "tr": "Google’ın ilk sıralama fikri PageRank, web’de bağlantılara rastgele tıklayarak gezinen hayalî bir “sörfçü”nün her sayfada ne kadar zaman geçireceğini hesaplıyordu",
+     "en": "Google’s first ranking idea, PageRank, worked out how much time an imaginary “random surfer”, clicking links at random, would spend on each page",
+     "src": "Larry Page ve Sergey Brin · Larry Page and Sergey Brin",
+     "c1": "#16202a",
+     "c2": "#05070b"
+    },
+    {
+     "k": "hzriddle",
+     "d": 38,
+     "q": "Bir merdivenin tam ortasındasın. Her adımda yazı-tura atıp bir basamak çıkıyor ya da iniyorsun. 10 adım sonra en olası yerin neresi?",
+     "qe": "You stand in the middle of a staircase. Each step a coin toss sends you up or down one stair. After 10 tosses, where are you most likely to be?",
+     "a": "Tam başladığın basamak! Ama orada olma olasılığın yalnızca yaklaşık %25",
+     "ae": "Right where you started! But the chance of being exactly there is only about 25%",
+     "sec": 24,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-21",
+   "name": "Ateşin Çocukları: Yanardağlar · Children of Fire: Volcanoes",
+   "from": "2026-11-24T21:00",
+   "until": "2026-11-24T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-ararat.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ağrı Dağı · Mount Ararat (Erivan’dan · from Yerevan)",
+     "tr": "Erivan’ın üzerinde yükselen karlı Ağrı Dağı",
+     "en": "Snowy Mount Ararat rising above Yerevan",
+     "cr": "Foto · Photo: Serouj Ourishian · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "5.137 metreyle Türkiye’nin en yüksek dağı; bir yanardağdır ve zirvesi yıl boyu buzullarla kaplıdır",
+     "facte": "At 5,137 m Turkey’s highest mountain — it is a volcano, its summit covered by glaciers all year"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-nemrut.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Nemrut Kalderası · Caldera, Bitlis",
+     "tr": "Nemrut Dağı’nın kalderası ve içindeki göller",
+     "en": "The caldera of Mount Nemrut (Bitlis) and its lakes",
+     "cr": "Foto · Photo: Volker Höhfeld · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Tepesi çökmüş bir yanardağ; kalderanın içinde soğuk bir krater gölü ve sıcak su kaynaklarıyla beslenen küçük bir göl var",
+     "facte": "A volcano whose top collapsed — inside the caldera lie a cold crater lake and a small lake fed by hot springs"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h24-kapadokya.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kapadokya · Cappadocia",
+     "tr": "Kapadokya’nın peri bacaları",
+     "en": "The fairy chimneys of Cappadocia",
+     "cr": "Foto · Photo: Benh LIEU SONG · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Milyonlarca yıl önce Erciyes ve Hasan dağlarının küllerinden oluşan yumuşak tüf; rüzgâr ve yağmur onu bu bacalara oydu",
+     "facte": "Soft tuff formed from the ash of ancient volcanoes such as Erciyes and Hasan — wind and rain carved it into these chimneys",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h24-etna.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Etna · Sicilya · Sicily",
+     "tr": "Gece Etna’dan fışkıran lav",
+     "en": "Lava fountaining from Etna at night",
+     "cr": "Foto · Photo: Giuseppe Amenta · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Avrupa’nın en yüksek aktif yanardağı, yaklaşık 3.300 metre; yüksekliği patlamalarla değişir",
+     "facte": "Europe’s highest active volcano, about 3,300 m — its height changes with its eruptions"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h24-stromboli.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Stromboli · İtalya · Italy",
+     "tr": "Stromboli adası havadan: denizden yükselen bir yanardağ",
+     "en": "Stromboli from the air — a volcano rising out of the sea",
+     "cr": "Foto · Photo: Carsten Steger · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "En az 2.000 yıldır neredeyse hiç durmadan küçük patlamalar yapıyor; denizciler ona “Akdeniz’in Feneri” der",
+     "facte": "It has erupted in small bursts almost nonstop for at least 2,000 years — sailors call it the “Lighthouse of the Mediterranean”"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir yanardağdan çıkar,|taştır ama suda yüzer. Nedir?",
+     "qe": "It comes out of a volcano — it is a stone, yet it floats. What is it?",
+     "a": "Sünger taşı (pomza): içi gaz kabarcıklarıyla dolu",
+     "ae": "Pumice — it is full of gas bubbles",
+     "sec": 20,
+     "c1": "#2a2220",
+     "c2": "#0a0706"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-22",
+   "name": "Galeri: Whistler’ın Nocturne’leri · Gallery: Whistler’s Nocturnes (sakin · calm)",
+   "from": "2026-11-24T22:00",
+   "until": "2026-11-24T23:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h24-nocturne1.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Nocturne: Mavi ve Gümüş — Chelsea, James McNeill Whistler, 1871",
+     "en": "Nocturne: Blue and Silver — Chelsea, James McNeill Whistler, 1871",
+     "cr": "Eser · Artwork: James McNeill Whistler · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Whistler, Thames kıyısında geceleri yürür, manzarayı ezberler, ertesi gün atölyede hafızasından boyardı",
+     "facte": "Whistler walked the Thames at night, memorised the view and painted it from memory in the studio next day",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 48,
+     "f": "m/h24-nocturne3.jpg",
+     "lb": "Gerçek Eser · Real Artwork",
+     "tr": "Nocturne: Gri ve Gümüş — Chelsea Rıhtımı, James McNeill Whistler",
+     "en": "Nocturne: Grey and Silver — Chelsea Embankment, James McNeill Whistler",
+     "cr": "Eser · Artwork: James McNeill Whistler · kamu malı · public domain · Wikimedia Commons",
+     "fact": "“Nocturne” adı, koleksiyoncusu Frederick Leyland’in önerisiyle müzikteki gece parçalarından geldi; Whistler resimlerini müzik gibi düşünüyordu",
+     "facte": "The name “Nocturne”, after night pieces in music, was suggested by his patron Frederick Leyland — Whistler thought of his paintings like music",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "1 farthing",
+     "tr": "1877’de eleştirmen John Ruskin, Whistler’ı “halkın yüzüne bir kova boya fırlatmakla” suçladı; Whistler dava açtı, 1878’de kazandı, ama tazminat olarak yalnızca bir farthing, yani en küçük bozuk para aldı",
+     "en": "In 1877 the critic John Ruskin accused Whistler of “flinging a pot of paint in the public’s face” — he sued, won in 1878, but was awarded just one farthing, the smallest coin",
+     "src": "Whistler – Ruskin davası · Whistler v. Ruskin",
+     "c1": "#121a26",
+     "c2": "#03050a"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Dün akıllıydım, dünyayı değiştirmek istedim.|Bugün bilgeyim, kendimi değiştiriyorum",
+     "en": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself",
+     "pal": "night"
+    },
+    {
+     "k": "hzsteps",
+     "d": 50,
+     "lb": "Sakin Düşünce · Calm Thought",
+     "q": "Bu akşamdan geriye ne kalsın?",
+     "e": "What should stay with you from this evening?",
+     "c1": "#121a26",
+     "c2": "#03050a",
+     "gap": 9,
+     "steps": [
+      [
+       "Bugün gördüğün en güzel renk",
+       "The most beautiful colour you saw today",
+       "☾"
+      ],
+      [
+       "Bugün güldüğün bir an",
+       "A moment today that made you laugh",
+       ""
+      ],
+      [
+       "Yarın denemek istediğin küçük bir şey",
+       "One small thing you’d like to try tomorrow",
+       ""
+      ]
+     ],
+     "fin": "Whistler gibi: günü hafızana al, sonra yavaşça bırak",
+     "fine": "Like Whistler: hold the day in memory, then gently let it go",
+     "bg": "stars"
+    }
+   ]
+  },
+  {
+   "id": "h-11-24-23",
+   "name": "Okyanusta Gece: Balinalar · Night in the Ocean: Whales (sakin · calm)",
+   "from": "2026-11-24T23:00",
+   "until": "2026-11-25T02:00",
+   "items": [
+    {
+     "k": "hzwhale",
+     "d": 110
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h24-humpback.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kambur balina · Humpback whale",
+     "tr": "Kambur balina annesi ve yavrusu",
+     "en": "A humpback whale mother and her calf",
+     "cr": "Foto · Photo: NOAA National Marine Sanctuaries · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yavru doğduğunda yaklaşık 4 metre boyunda; ilk aylarını annesinin hemen yanında, onun sütüyle büyüyerek geçirir",
+     "facte": "A calf is about 4 m long at birth — it spends its first months right beside its mother, growing on her milk"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h24-sperm.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İspermeçet balinası · Sperm whale",
+     "tr": "Bir ispermeçet balinası annesi ve yavrusu",
+     "en": "A sperm whale mother and her calf",
+     "cr": "Foto · Photo: Gabriel Barathieu · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "İspermeçet balinaları kısa süreli uykularını suda dimdik asılı dururken uyur",
+     "facte": "Sperm whales take their short naps hanging upright in the water"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h24-bluewhale.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mavi balina · Blue whale, Kuzey Kutbu · Arctic",
+     "tr": "Kuzey Kutbu denizinde bir mavi balinanın nefes sütunu",
+     "en": "The blow of a blue whale in the Arctic sea",
+     "cr": "Foto · Photo: AWeith · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Mavi balina bilinen en büyük hayvan: 30 metreye yaklaşabilir; nefesi metrelerce yükseğe püskürür",
+     "facte": "The blue whale is the largest animal known to have lived — up to about 30 m, its blow shoots metres into the air"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "20 dk",
+     "tr": "Erkek kambur balinaların şarkısı 20 dakikaya kadar sürebilir ve saatlerce tekrar edilir; aynı bölgedeki erkekler aynı şarkıyı söyler ve şarkı yıldan yıla değişir",
+     "en": "A male humpback’s song can last up to 20 minutes and be repeated for hours — males in one region sing the same song, and it changes from year to year",
+     "src": "Kambur balina · Humpback whale",
+     "c1": "#0e1a26",
+     "c2": "#02060a"
+    },
+    {
+     "k": "hzquote",
+     "d": 44,
+     "tr": "Deniz, büyüsünü bir kez yaptı mı,|insanı sonsuza dek merakın ağında tutar",
+     "en": "The sea, once it casts its spell, holds one in its net of wonder forever",
+     "pal": "night",
+     "lb": "Deniz Sözü · Sea Saying",
+     "by": "Jacques-Yves Cousteau · okyanus kâşifi · ocean explorer"
+    }
+   ]
+  }
+ ]
+}
