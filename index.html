@@ -269,6 +269,8 @@ function moon(){var syn=29.530588853,ref=Date.UTC(2000,0,6,18,14)/864e5,age=((Da
  N=[['Yeni Ay','New Moon'],['Hilal (büyüyen)','Waxing Crescent'],['İlk Dördün','First Quarter'],['Büyüyen Ay','Waxing Gibbous'],['Dolunay','Full Moon'],['Küçülen Ay','Waning Gibbous'],['Son Dördün','Last Quarter'],['Hilal (küçülen)','Waning Crescent']],i=Math.floor((age/syn*8)+.5)%8;
  var nf=(14.765-age+syn)%syn;return {age:age,ill:ill,n:N[i],full:Math.round(age<14.765?14.765-age:syn-age+14.765),wax:age<syn/2}}
 function build(it){
+ // rev 83: LG webOS cannot play the YouTube iframe (blue frame / unrelated thumbnails). Always show the poster still instead.
+ if(it&&it.k=='hzvideo'){it={k:'hzphoto',d:it.d,f:it.f,tr:it.tr,en:it.en,cr:it.cr,quiet:1,pos:it.pos,fit:it.fit}}
  var L=el('div','layer'),corner=true;
  if(typeof WOW!='undefined'&&WOW[it.k]){var r=null;try{r=WOW[it.k](L,it)}catch(e){r=null}if(r){r.dur=it.d;return r}if((build.sk=(build.sk||0)+1)<6){var nb=build(next());build.sk=0;return nb}build.sk=0;it={k:'clock'}}
  else if(/^hz/.test(it.k)){if((build.sk=(build.sk||0)+1)<6){var nb2=build(next());build.sk=0;return nb2}build.sk=0;it={k:'clock'}}
@@ -351,9 +353,14 @@ function swap(L,trn){document.body.appendChild(L);var gone=false;
    if(o&&!LITE)perf(3000);
    setTimeout(function(){if(cur==L)L.className='layer on';if(o&&o.parentNode)o.parentNode.removeChild(o)},3700)})})}
  // rev 80: wait for every photo in the scene (hz templates use plain <img>, not img.bg), so a photo never fades in half-loaded or black
- var ims=L.querySelectorAll('img'),left=0;function one(){if(--left<=0)setTimeout(go,300)}
- for(var i=0;i<ims.length;i++)if(ims[i].src&&!ims[i].complete){left++;ims[i].addEventListener('load',one);ims[i].addEventListener('error',one)}
- if(left){setTimeout(go,15000)}else setTimeout(go,300);
+ // rev 83: if a photo scene has images and none loaded, skip to the next item instead of a blank/blue frame
+ function failSkip(){if(gone)return;gone=true;if(L.parentNode)L.parentNode.removeChild(L);if(typeof timer!='undefined'&&timer)clearTimeout(timer);timer=setTimeout(rotate,80)}
+ var ims=L.querySelectorAll('img'),wait=0,ok=0,need=0;
+ function settled(){if(need&&ok===0)failSkip();else setTimeout(go,300)}
+ function onOk(){ok++;if(--wait<=0)settled()}
+ function onBad(){if(--wait<=0)settled()}
+ for(var i=0;i<ims.length;i++){var im=ims[i];if(!im.src)continue;need++;if(im.complete){if(im.naturalWidth>0)ok++}else{wait++;im.addEventListener('load',onOk);im.addEventListener('error',onBad)}}
+ if(wait){setTimeout(function(){if(!gone){if(ok>0)go();else if(need)failSkip();else go()}},15000)}else settled();
  if(L.dead)setTimeout(function(){if(typeof hzFail=='function')hzFail(L)},4500);preNext()}
 // rev 80: preload the next scene's photos while this one plays
 var PRE=[];function preNext(){try{var it=PQ.length?PQ[0]:(ACT&&istS()<ACT.until?ACT.items[AI%ACT.items.length]:null);if(!it)return;PRE=[];[it.f,it.a&&it.a.f,it.b&&it.b.f,it.bg].forEach(function(f){if(f&&typeof f=='string'&&/\.(jpe?g|webp|png)$/i.test(f)){var m=new Image();m.src=f;PRE.push(m)}})}catch(e){}}
@@ -422,7 +429,7 @@ var TQ=[{k:'photo',kb:1,f:'m/yayla-stars.jpg',cp:'top',tag:'Yayla · Plateau',tr
  {k:'motion',f:'m/candle-books.webp',tag:'Okuma Saati · Reading',tr:'Bir mum, bir kitap, sessizlik',en:'A candle, a book, and quiet'},
  {k:'prov',tr:'Bin dost az, bir düşman çok',en:'A thousand friends are too few; one enemy is too many',st:'Türk atasözü · Turkish proverb'},
  {k:'photo',kb:1,fit:1,f:'m/isk2.jpg',tag:'Anı · Memory',tr:'Dün akşam İskele’de · rakı ve güzel sohbet',en:'Last night at İskele · rakı and good conversation'}];
-var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}var REV=82,ALLSETS=null;function dk(o){var d=new Date(ist().getTime()+o*86400000);function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())}
+var JX=[],PQ=[],ACT=null,AID='',AI=0;function istS(){var d=ist();function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes())}var REV=83,ALLSETS=null;function dk(o){var d=new Date(ist().getTime()+o*86400000);function p(x){return(x<10?'0':'')+x}return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())}
 function gj(u,cb){var x=new XMLHttpRequest();x.open('GET',u+'?t='+Date.now(),true);x.timeout=30000;x.onload=function(){var r=null;try{var sd=Date.parse(x.getResponseHeader('Date')||'');if(sd){var sk=sd-Date.now();SKEW=Math.abs(sk)>90000?sk:0;localStorage.setItem('tvskew',SKEW)}}catch(e){}if(x.status==200){try{r=JSON.parse(x.responseText)}catch(e){}}cb(r)};x.onerror=x.ontimeout=function(){cb(null)};x.send()}
 // tonight.json + days/<yesterday>.json + days/<today>.json (hourly day schedule; later sets win). Re-read every minute, so hourly sets switch on their own.
 // rev 80: a newer rev reloads with a unique ?rv= URL (a plain reload could get the cached old index.html and loop); at most one try per rev every 5 min

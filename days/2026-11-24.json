@@ -1,7 +1,7 @@
 {
  "date": "2026-11-24",
- "rev": 82,
- "_note": "Hourly sets for the villa TV. 09:00–17:00 from the morning/afternoon builds; 17:00–22:00 = DJ Taş evening (rev 81); 22:45–02:00 = rev 82 late-night DJ set matching the HomePod arc (Monaco After Dark → deeper house → wind-down). Photoreal stills m/h82-* and muted YouTube (hzvideo).",
+ "rev": 83,
+ "_note": "Hourly sets for the villa TV. 09:00–22:00 as earlier today; 22:45–02:00 = rev 83 stills-only (YouTube embeds removed — LG webOS showed a blue screen / unrelated thumbnail). Photoreal m/h82-* hzphoto quiet:1, fade only.",
  "sets": [
   {
    "id": "h-11-24-09",
@@ -931,19 +931,8 @@
    "until": "2026-11-24T23:30",
    "items": [
     {
-     "k": "hzvideo",
-     "d": 85,
-     "yt": "ISaZ91muY_0",
-     "start": 20,
-     "f": "m/h82-monaco.jpg",
-     "tr": "Monaco gecesi: şehir ışıkları ve liman",
-     "en": "Monaco at night: city lights and the harbour",
-     "cr": "Görüntü · Footage: Paulo Leal 4K, YouTube",
-     "quiet": 1
-    },
-    {
      "k": "hzphoto",
-     "d": 44,
+     "d": 48,
      "f": "m/h82-monaco.jpg",
      "tr": "Monte-Carlo limanı gece",
      "en": "Monte Carlo harbour at night",
@@ -952,7 +941,7 @@
     },
     {
      "k": "hzphoto",
-     "d": 44,
+     "d": 48,
      "f": "m/h82-hercule.jpg",
      "tr": "Port Hercule’de yatlar, Monaco",
      "en": "Yachts in Port Hercule, Monaco",
@@ -961,7 +950,7 @@
     },
     {
      "k": "hzphoto",
-     "d": 44,
+     "d": 48,
      "f": "m/h82-nice.jpg",
      "tr": "Promenade des Anglais, Nice, gece",
      "en": "The Promenade des Anglais in Nice at night",
@@ -970,7 +959,7 @@
     },
     {
      "k": "hzphoto",
-     "d": 44,
+     "d": 48,
      "f": "m/h82-cannes.jpg",
      "tr": "Cannes limanı gece",
      "en": "Cannes harbour at night",
@@ -979,7 +968,7 @@
     },
     {
      "k": "hzphoto",
-     "d": 46,
+     "d": 50,
      "f": "m/h82-yacht.jpg",
      "tr": "Gece denizde bir yat, Lipari",
      "en": "A yacht on the water at night, Lipari",
@@ -988,7 +977,7 @@
     },
     {
      "k": "hzphoto",
-     "d": 44,
+     "d": 48,
      "f": "m/h82-hk.jpg",
      "tr": "Hong Kong limanı, yağmurlu bir gece",
      "en": "Hong Kong harbour on a rainy night",
@@ -1004,19 +993,8 @@
    "until": "2026-11-25T00:00",
    "items": [
     {
-     "k": "hzvideo",
-     "d": 85,
-     "yt": "qO7dPPqwQ_w",
-     "start": 45,
-     "f": "m/h82-sougia.jpg",
-     "tr": "Gece sahilinde bir ateş",
-     "en": "A fire on the beach at night",
-     "cr": "Görüntü · Footage: Nature Soundscapes, YouTube",
-     "quiet": 1
-    },
-    {
      "k": "hzphoto",
-     "d": 46,
+     "d": 50,
      "f": "m/h82-sougia.jpg",
      "tr": "Sougia, Girit: ay ışığında sahil",
      "en": "Sougia, Crete: the beach in moonlight",
@@ -1025,7 +1003,7 @@
     },
     {
      "k": "hzphoto",
-     "d": 46,
+     "d": 50,
      "f": "m/h82-waves.jpg",
      "tr": "Akdeniz’de gece dalgaları, Grau d’Agde",
      "en": "Night waves on the Mediterranean at Grau d’Agde",
@@ -1033,19 +1011,8 @@
      "quiet": 1
     },
     {
-     "k": "hzvideo",
-     "d": 85,
-     "yt": "1T1to3DU9pg",
-     "start": 40,
-     "f": "m/h82-wadirum.jpg",
-     "tr": "Çölde ateş",
-     "en": "A fire in the desert",
-     "cr": "Görüntü · Footage: Beautiful Relaxation, YouTube",
-     "quiet": 1
-    },
-    {
      "k": "hzphoto",
-     "d": 48,
+     "d": 52,
      "f": "m/h82-wadirum.jpg",
      "tr": "Vadi Rum’da Samanyolu",
      "en": "The Milky Way over Wadi Rum",
@@ -1054,7 +1021,7 @@
     },
     {
      "k": "hzphoto",
-     "d": 44,
+     "d": 48,
      "f": "m/h82-fire.jpg",
      "tr": "Ateş ışığı",
      "en": "Firelight",
@@ -1072,7 +1039,7 @@
    "items": [
     {
      "k": "hzphoto",
-     "d": 50,
+     "d": 55,
      "f": "m/h82-moonsea.jpg",
      "tr": "Ayın denize düşen yolu",
      "en": "The moon’s path on the sea",
@@ -1080,19 +1047,8 @@
      "quiet": 1
     },
     {
-     "k": "hzvideo",
-     "d": 90,
-     "yt": "iLs04Z6uBqU",
-     "start": 45,
-     "f": "m/h82-rain.jpg",
-     "tr": "Cama vuran yağmur",
-     "en": "Rain on the window",
-     "cr": "Görüntü · Footage: Relaxation Windows 4K Nature, YouTube",
-     "quiet": 1
-    },
-    {
      "k": "hzphoto",
-     "d": 48,
+     "d": 55,
      "f": "m/h82-rain.jpg",
      "tr": "Camdaki yağmur ve şehir ışıkları",
      "en": "Rain on the glass and city lights",
@@ -1101,7 +1057,7 @@
     },
     {
      "k": "hzphoto",
-     "d": 52,
+     "d": 58,
      "f": "m/h82-starsfjord.jpg",
      "tr": "Fiyort üzerinde yıldızlar, Åbyfjorden",
      "en": "Stars over the Åby fjord",
