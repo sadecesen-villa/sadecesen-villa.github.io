@@ -1,7 +1,7 @@
 {
  "date": "2026-11-24",
- "rev": 80,
- "_note": "Hourly sets for the villa TV. 09:00–14:00 and 21:00–02:00 from days/build_2026-11-24.py; 14:00–21:00 rebuilt by days/build_2026-11-24_afternoon.py (rev 80: earth in colour, feathered jewels, Seljuk stars & Penrose + hzpenrose, lighthouses, architecture of sound, gardens of stone & pebble, crystals).",
+ "rev": 81,
+ "_note": "Hourly sets for the villa TV. 09:00–17:00 from build_2026-11-24.py / build_2026-11-24_afternoon.py; 17:00–02:00 = DJ Taş evening (rev 81, build_2026-11-24_dj.py): Jazz House Lounge → Sunset (19:00) → Night (22:00), synced with the HomePod playlists.",
  "sets": [
   {
    "id": "h-11-24-09",
@@ -608,575 +608,435 @@
    ]
   },
   {
-   "id": "h-11-24-17",
-   "name": "Deniz Fenerleri: Kıyının Bekçileri · Lighthouses: Keepers of the Coast",
+   "id": "dj-11-24-17",
+   "name": "DJ Taş · Caz House Lounge · Jazz House Lounge",
    "from": "2026-11-24T17:00",
    "until": "2026-11-24T18:00",
    "items": [
     {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h80-kizkulesi.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Kız Kulesi · Maiden’s Tower, İstanbul",
-     "tr": "Gece Kız Kulesi: Boğaz’ın ağzında küçük bir adada ışık",
-     "en": "The Maiden’s Tower at night: a light on a tiny island at the mouth of the Bosphorus",
-     "cr": "Foto · Photo: Dickelbers · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Uzun yıllar deniz feneri olarak da hizmet verdi; restorasyondan sonra 2023’te yeniden ziyarete açıldı",
-     "facte": "For many years it also served as a lighthouse — it reopened to visitors in 2023 after restoration"
+     "k": "hzwelcome",
+     "d": 34,
+     "f": "m/h81-jazzclub.jpg",
+     "lb": "DJ Taş · Sadece Sen — Gerçek Fotoğraf · Real Photo · bir caz kulübü · a jazz club",
+     "lines": [
+      [
+       "DJ Taş",
+       7.2
+      ],
+      [
+       "Bu akşam · Tonight",
+       3.4
+      ]
+     ],
+     "tr": "Üç perdelik bir akşam: Caz House Lounge → Gün Batımı → Gece. Müzik HomePod’da",
+     "en": "An evening in three acts: Jazz House Lounge → Sunset → Night. Music on the HomePod",
+     "cr": "Foto · Photo: FingerWiki · CC BY-SA 4.0 · Wikimedia Commons",
+     "pos": "50% 60%"
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-peggys.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Peggy’s Cove, Kanada · Canada",
-     "tr": "Peggy’s Cove: granit kayaların üstünde beyaz ve kırmızı bir fener",
-     "en": "Peggy’s Cove: a white and red lighthouse on granite rocks",
-     "cr": "Foto · Photo: Taxiarchos228 · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Kanada’nın en çok fotoğraflanan fenerlerinden biri; 1915’ten beri yerinde",
-     "facte": "One of the most photographed lighthouses in Canada — it has stood here since 1915"
+     "d": 42,
+     "f": "m/h81-turntable.jpg",
+     "lb": "1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Plak iğnesi · Stylus on vinyl",
+     "tr": "İğne plağın oluğunda: müzik buradan başlıyor",
+     "en": "The needle in the groove: this is where the music begins",
+     "cr": "Foto · Photo: Franz van Duns · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bir LP’nin her yüzünde tek bir spiral oluk vardır; iğne onu baştan sona yaklaşık 450 metre boyunca izler",
+     "facte": "Each side of an LP has a single spiral groove — the needle follows it for roughly 450 metres from start to finish"
+    },
+    {
+     "k": "hzchladni",
+     "d": 64
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-portlandhead.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Portland Head, Maine, ABD · USA",
-     "tr": "Portland Head Feneri: Atlantik kıyısında bir sonbahar günü",
-     "en": "Portland Head Light: an autumn day on the Atlantic coast",
-     "cr": "Foto · Photo: King of Hearts · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "İlk kez 1791’de yakıldı; Maine’in en eski feneri",
-     "facte": "First lit in 1791 — the oldest lighthouse in Maine"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-neist.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Neist Point, Skye, İskoçya · Scotland",
-     "tr": "Neist Point: Skye Adası’nın en batı ucunda bir fener",
-     "en": "Neist Point: a lighthouse at the far western tip of the Isle of Skye",
-     "cr": "Foto · Photo: Lionel Ulmer · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "1909’dan beri yanıyor; burada akşamüstü balinalar ve yunuslar görülebilir",
-     "facte": "Lit since 1909 — whales and dolphins can sometimes be seen from here in the evening"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-rubjerg.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Rubjerg Knude, Danimarka · Denmark",
-     "tr": "Rubjerg Knude: kumulların yutmaya çalıştığı fener",
-     "en": "Rubjerg Knude: the lighthouse the dunes tried to swallow",
-     "cr": "Foto · Photo: Ansgar Koreng · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Denize düşmesin diye 2019’da raylar üstünde yaklaşık 70 metre içeri taşındı",
-     "facte": "In 2019 it was moved about 70 m inland on rails so it would not fall into the sea"
+     "d": 40,
+     "f": "m/h81-sax.jpg",
+     "lb": "1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Punta del Este Caz Festivali, Uruguay · Jazz Festival",
+     "tr": "Sahnede bir saksafoncu: caz house’un kalbindeki ses",
+     "en": "A saxophonist on stage — the sound at the heart of jazz house",
+     "cr": "Foto · Photo: Jimmy Baikovicius · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Saksafonu 1840’larda Belçikalı Adolphe Sax icat etti; pirinçten yapılsa da bir nefesli ağaç çalgı sayılır, çünkü kamışla çalınır",
+     "facte": "Adolphe Sax invented it in the 1840s — though made of metal it counts as a woodwind, because it is played with a reed",
+     "pos": "50% 30%"
     },
     {
      "k": "hzfact",
-     "d": 30,
-     "big": "Pharos",
-     "tr": "İskenderiye Feneri Antik Dünya’nın Yedi Harikası’ndan biriydi; tahminen 100 metreyi aşıyordu. Fransızca “phare” ve İtalyanca “faro” adını bu adadan, Pharos’tan alır",
-     "en": "The Lighthouse of Alexandria was one of the Seven Wonders of the Ancient World, probably over 100 m tall. The French “phare” and Italian “faro” are named after its island, Pharos",
-     "src": "İÖ 3. yüzyıl · 3rd century BC",
-     "c1": "#18222e",
-     "c2": "#05080c"
+     "d": 32,
+     "big": "Rose Rouge",
+     "tr": "St Germain’in “Rose Rouge” parçası 2000’de Blue Note’tan çıkan “Tourist” albümünde; içindeki ses Marlena Shaw’un “Woman of the Ghetto” kaydından",
+     "en": "St Germain’s “Rose Rouge” is on “Tourist”, released by Blue Note in 2000 — the voice in it is sampled from Marlena Shaw’s “Woman of the Ghetto”",
+     "src": "Bu akşamın listesinden · From tonight’s playlist",
+     "c1": "#2a1c14",
+     "c2": "#0a0605"
     },
     {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Gece gündüz bekler, hiç uyumaz;|gözü var ama görmez, yine de yol gösterir. Nedir?",
-     "qe": "It keeps watch day and night and never sleeps; it has an eye that cannot see, yet it shows the way. What is it?",
-     "a": "Deniz feneri",
-     "ae": "A lighthouse",
-     "sec": 16,
-     "c1": "#1a2632",
-     "c2": "#05080c"
+     "k": "hzmeta",
+     "d": 60
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h81-records.jpg",
+     "lb": "1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Bir plakçı · A record shop",
+     "tr": "Kaldırımda plak kasaları: her kapak başka bir akşamın sözü",
+     "en": "Crates of records on the pavement — every sleeve the promise of another evening",
+     "cr": "Foto · Photo: ביקורת (Bikoret) · CC BY-SA 3.0 · Wikimedia Commons"
     }
    ]
   },
   {
-   "id": "h-11-24-18",
-   "name": "Akşam Müziği: Sesin Mimarisi · Evening Music: The Architecture of Sound",
+   "id": "dj-11-24-18",
+   "name": "Caz House Lounge · Jazz House Lounge — altın saat · golden hour",
    "from": "2026-11-24T18:00",
    "until": "2026-11-24T19:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h80-aspendos.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Aspendos, Antalya",
-     "tr": "Aspendos Antik Tiyatrosu: kemerlerin arasından 1.800 yıllık sahne",
-     "en": "The ancient theatre of Aspendos: an 1,800-year-old stage seen through its arches",
-     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "MS 2. yüzyılda yapıldı; dünyanın en iyi korunmuş Roma tiyatrolarından biri ve bugün hâlâ opera ve bale festivaline ev sahipliği yapıyor",
-     "facte": "Built in the 2nd century AD — one of the best-preserved Roman theatres in the world, and it still hosts an opera and ballet festival"
+     "d": 36,
+     "f": "m/h81-cocktail.jpg",
+     "lb": "1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Lounge",
+     "tr": "Terasta serin bir içki ve batmaya hazırlanan güneş",
+     "en": "A cool drink on the terrace while the sun gets ready to set",
+     "cr": "Foto · Photo: Shreeram Kushwaha · CC BY 3.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzharmono",
+     "d": 64
+    },
+    {
+     "k": "hzquote",
+     "d": 36,
+     "tr": "Hatalardan korkma. Hata diye bir şey yoktur.",
+     "en": "Do not fear mistakes. There are none.",
+     "pal": "clay",
+     "lb": "Cazın Sözü · Words of Jazz",
+     "by": "Miles Davis"
     },
     {
      "k": "hzphoto",
-     "d": 46,
-     "f": "m/h80-epidaurus.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Epidavros, Yunanistan · Greece",
-     "tr": "Epidavros: en üst sıradan bakınca sahne",
-     "en": "Epidaurus: the stage seen from the top row",
-     "cr": "Foto · Photo: Annatsach · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "İÖ 4. yüzyıldan; sahnede yakılan bir kibritin sesinin en üst sıradan duyulduğu söylenir. Basamaklar alçak sesleri süzüp sesi berraklaştırır",
-     "facte": "From the 4th century BC — they say a match struck on stage can be heard from the top row. The stepped seats filter out low noise and keep voices clear"
+     "d": 40,
+     "f": "m/h81-jazzclub.jpg",
+     "lb": "1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Bir caz kulübü · A jazz club",
+     "tr": "Kırmızı ışıkta bekleyen piyano ve sahne: set birazdan başlıyor",
+     "en": "A piano and stage waiting in red light — the set is about to start",
+     "cr": "Foto · Photo: FingerWiki · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Deep house 1980’lerde Chicago’da doğdu; caz ve soul akorlarını house ritmiyle buluşturdu",
+     "facte": "Deep house was born in 1980s Chicago, bringing jazz and soul chords together with the house beat",
+     "pos": "50% 55%"
     },
     {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h80-sydneyopera.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Sidney · Sydney, Avustralya · Australia",
-     "tr": "Gece Sidney Opera Binası: limanın üstünde açılmış beyaz yelkenler",
-     "en": "The Sydney Opera House at night: white sails opened over the harbour",
-     "cr": "Foto · Photo: Diliff · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Jørn Utzon tasarladı, 1973’te açıldı. Kabukların hepsi aynı kürenin parçalarından kesildi; böylece inşa edilebildi",
-     "facte": "Designed by Jørn Utzon, opened in 1973. Every shell was cut from pieces of the same sphere — that is what made it buildable"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-elbphil.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Elbphilharmonie, Hamburg",
-     "tr": "Elbphilharmonie: eski bir liman deposunun üstüne konmuş cam bir dalga",
-     "en": "The Elbphilharmonie: a glass wave set on top of an old harbour warehouse",
-     "cr": "Foto · Photo: Aleksandr Zykov · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "2017’de açıldı; büyük salonun duvarlarındaki yaklaşık 10.000 alçı panelin her biri, sesi dağıtmak için bilgisayarla ayrı ayrı biçimlendirildi",
-     "facte": "Opened in 2017 — each of the roughly 10,000 panels lining the great hall was shaped individually by computer to scatter sound"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-oslo.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Oslo Opera Binası · Oslo Opera House",
-     "tr": "Oslo Opera Binası: üstünde yürüyebildiğin, fiyorda inen beyaz bir çatı",
-     "en": "The Oslo Opera House: a white roof you can walk on, sloping down into the fjord",
-     "cr": "Foto · Photo: Pierre Blaché · CC0 · kamu malı · public domain · Wikimedia Commons",
-     "fact": "2008’de açıldı; çatısı İtalyan Carrara mermeriyle kaplı",
-     "facte": "Opened in 2008 — its roof is clad in Italian Carrara marble"
+     "k": "hzkaleido",
+     "d": 60
     },
     {
      "k": "hzfact",
      "d": 30,
-     "big": "≈ 2 sn · s",
-     "tr": "İyi bir senfoni salonunda son nota yaklaşık iki saniye boyunca havada asılı kalır: sesin yavaşça sönmesine yankılanma süresi denir",
-     "en": "In a good symphony hall the last note hangs in the air for about two seconds — the slow fading of sound is called reverberation time",
-     "src": "Akustik · Acoustics",
-     "c1": "#241a14",
-     "c2": "#090604"
-    },
-    {
-     "k": "hzquote",
-     "d": 40,
-     "tr": "Sözün tükendiği yerde müzik konuşur",
-     "en": "Where words fail, music speaks",
-     "pal": "night",
-     "lb": "Söz · Words",
-     "by": "Hans Christian Andersen"
+     "big": "33⅓",
+     "tr": "Uzunçalar plak 1948’de Columbia tarafından tanıtıldı: dakikada 33⅓ devirle her yüze yaklaşık 20 dakika müzik sığdı",
+     "en": "The long-playing record was introduced by Columbia in 1948 — at 33⅓ turns a minute it fitted about 20 minutes of music per side",
+     "src": "Plağın hikâyesi · The story of vinyl",
+     "c1": "#1e1a26",
+     "c2": "#07060a"
     }
    ]
   },
   {
-   "id": "h-11-24-19",
-   "name": "Villa Fikirleri: Taş ve Çakıl Bahçeleri · Villa Ideas: Gardens of Stone & Pebble",
+   "id": "dj-11-24-19",
+   "name": "Gün Batımı · Sunset — Karadeniz · Black Sea",
    "from": "2026-11-24T19:00",
    "until": "2026-11-24T20:00",
    "items": [
     {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h80-ryoanji.jpg",
-     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Ryōan-ji, Kyoto)",
-     "tr": "Ryōan-ji: tırmıklanmış beyaz çakıl ve on beş taş",
-     "en": "Ryōan-ji: raked white gravel and fifteen stones",
-     "cr": "Foto · Photo: Stéphane D’Alu · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Bu tür bahçelere karesansui, “kuru manzara” denir: tek damla su kullanmadan suyu anlatır",
-     "facte": "Gardens like this are called karesansui, “dry landscape” — they tell of water without using a single drop"
-    },
-    {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h80-ginkakuji.jpg",
-     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Ginkaku-ji, Kyoto)",
-     "tr": "Ginkaku-ji: kumdan bir koni, “Ay’ı seyretme tepesi”",
-     "en": "Ginkaku-ji: a cone of sand, the “moon-viewing platform”",
-     "cr": "Foto · Photo: BriYYZ · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "Kum düzenli olarak elle yeniden biçimlendirilir; ay ışığında parlayıp bahçeyi aydınlattığı söylenir",
-     "facte": "The sand is reshaped by hand again and again — they say it glows in the moonlight and lights the garden",
-     "pos": "50% 50%"
-    },
-    {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h80-kenrokuen.jpg",
-     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Kenroku-en, Kanazawa)",
-     "tr": "Kenroku-en: iki ayaklı taş fener ve gölün üstünde taş bir köprü",
-     "en": "Kenroku-en: a two-legged stone lantern and a stone bridge over the pond",
-     "cr": "Foto · Photo: shiro524 · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Japonya’nın en güzel üç bahçesinden biri sayılır; fenerin ayakları bir telli çalgının (koto) köprüsüne benzer",
-     "facte": "It is counted among Japan’s three finest gardens — the lantern’s legs look like the bridge of a koto, a stringed instrument"
-    },
-    {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h80-portlandjg.jpg",
-     "lb": "Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Portland Japon Bahçesi · Portland Japanese Garden)",
-     "tr": "Kırmızı bir Japon akçaağacı, taşların ve yosunun üstünde",
-     "en": "A red Japanese maple above stones and moss",
-     "cr": "Foto · Photo: Jeremy Reding · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "Japon bahçelerinde tek bir akçaağaç, mevsimin değiştiğini gösteren canlı bir saat gibidir",
-     "facte": "In a Japanese garden a single maple is like a living clock that shows the season turning",
-     "pos": "50% 40%"
-    },
-    {
-     "k": "hzsteps",
-     "d": 58,
-     "lb": "Villa Fikri · Villa Idea",
-     "q": "Merdiven altındaki çakıl köşesine bir Japon bahçesinden ne alınabilir?",
-     "e": "What could the pebble corner under the stairs borrow from a Japanese garden?",
-     "c1": "#1e2420",
-     "c2": "#070908",
-     "gap": 8,
-     "steps": [
+     "k": "hzwelcome",
+     "d": 30,
+     "f": "m/h81-batumi.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gerçek Fotoğraf · Real Photo · Batum, Gürcistan · Batumi, Georgia",
+     "lines": [
       [
-       "Tırmıkla çizilmiş birkaç dalga çizgisi: beyaz çakıl suya dönüşür",
-       "A few raked wave lines — and white pebbles become water",
-       "〰"
+       "Gün Batımı",
+       6.4
       ],
       [
-       "Tek sayıda taş: üç ya da beş, aralarındaki mesafeler eşit olmasın",
-       "An odd number of stones — three or five, never evenly spaced",
-       ""
-      ],
-      [
-       "Işık taşa yandan, sıyırarak vursun: sıcak ve alçak bir ışık dokuyu ortaya çıkarır",
-       "Let light graze the stone from the side — a warm, low light brings out the texture",
-       ""
-      ],
-      [
-       "Boşluk da tasarımın parçası: Japonlar buna “ma” der",
-       "Empty space is part of the design — the Japanese call it “ma”",
-       ""
+       "Sunset",
+       3.6
       ]
      ],
-     "fin": "Çakıl, taş ve tek bir ağaç: hepsi zaten merdivenin altında",
-     "fine": "Pebbles, stone and a single tree — all already under the stairs"
+     "tr": "Liste değişti: şimdi “Sadece Sen Sunset” çalıyor",
+     "en": "The playlist has changed — now playing “Sadece Sen Sunset”",
+     "cr": "Foto · Photo: Boris Kuznetsov · CC BY 2.0 · Wikimedia Commons"
     },
     {
-     "k": "hzriddle",
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h81-bssunset.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Karadeniz · Black Sea",
+     "tr": "Karadeniz’de bir iskeleden güneşin son ışıkları",
+     "en": "The last light of the sun from a jetty on the Black Sea",
+     "cr": "Foto · Photo: Serega Serj · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Karadeniz’in derinlerinde neredeyse hiç oksijen yok: 150 metrenin altındaki batıklar binlerce yıl bozulmadan kalabiliyor",
+     "facte": "The deep Black Sea has almost no oxygen — wrecks below about 150 m can survive intact for thousands of years"
+    },
+    {
+     "k": "hzripple",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h81-sinop.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Sinop",
+     "tr": "Sinop’ta güneş denize inerken",
+     "en": "The sun going down into the sea at Sinop",
+     "cr": "Foto · Photo: Hakan SAVAŞ78 · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Sinop, Türkiye’nin en kuzey ucuna yakın: Karadeniz kıyısının ortasında bir yarımada",
+     "facte": "Sinop sits near Turkey’s northernmost point — a peninsula in the middle of the Black Sea coast"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h81-batumi.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Batum, Gürcistan · Batumi, Georgia",
+     "tr": "Batum’da bulutların arasından denize düşen akşam ışığı",
+     "en": "Evening light breaking through the clouds over the sea at Batumi",
+     "cr": "Foto · Photo: Boris Kuznetsov · CC BY 2.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzquote",
      "d": 36,
-     "q": "Ryōan-ji’de 15 taş var.|Bahçenin neresinden bakarsan bak, kaç tanesini aynı anda görebilirsin?",
-     "qe": "Ryōan-ji has 15 stones. From anywhere in the garden, how many can you see at once?",
-     "a": "En fazla 14: biri hep bir başkasının arkasında saklanır",
-     "ae": "At most 14 — one always hides behind another",
-     "sec": 20,
-     "c1": "#22281f",
-     "c2": "#070906"
+     "tr": "Müzik olmasaydı hayat bir hata olurdu.",
+     "en": "Without music, life would be a mistake.",
+     "pal": "sea",
+     "lb": "Müzik Üzerine · On Music",
+     "by": "Friedrich Nietzsche"
     }
    ]
   },
   {
-   "id": "h-11-24-20",
-   "name": "Yerin Altındaki Mücevherler: Kristaller · Jewels Beneath the Earth: Crystals",
+   "id": "dj-11-24-20",
+   "name": "Gün Batımı · Sunset — Akdeniz ve Ege · Mediterranean & Aegean",
    "from": "2026-11-24T20:00",
    "until": "2026-11-24T21:00",
    "items": [
     {
      "k": "hzphoto",
-     "d": 48,
-     "f": "m/h80-naica.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Naica Mağarası · Cave of the Crystals, Meksika · Mexico",
-     "tr": "Naica’nın Kristal Mağarası: insanı cüce gösteren dev alçıtaşı kristalleri",
-     "en": "The Cave of the Crystals at Naica: giant gypsum crystals that make people look tiny",
-     "cr": "Foto · Photo: Alexander Van Driessche · CC BY 3.0 · Wikimedia Commons",
-     "fact": "Yerin yaklaşık 300 metre altında; bazı kristaller 11 metreyi aşar. İçerisi yaklaşık 58 °C ve neredeyse yüzde 100 nemli",
-     "facte": "About 300 m underground — some crystals are over 11 m long. Inside it is about 58 °C and almost 100% humid"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-amethyst.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Ametist · Amethyst",
-     "tr": "İkiye ayrılmış bir ametist jeodu: taşın içinde mor bir mağara",
-     "en": "An amethyst geode split in two: a purple cave inside a stone",
-     "cr": "Foto · Photo: Ludvig14 · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Eski Yunanca “amethystos”, “sarhoş olmayan” demek: bu taşın sarhoşluğu önlediğine inanılırdı",
-     "facte": "The Greek “amethystos” means “not drunk” — people believed this stone prevented drunkenness",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-fluorite.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Florit · Fluorite, İngiltere · England",
-     "tr": "Yeşil florit küpleri: kayanın içinde büyümüş camdan zarlar",
-     "en": "Green fluorite cubes: glassy dice grown inside the rock",
-     "cr": "Foto · Photo: Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "“Floresan” kelimesi bu mineralden gelir: morötesi ışıkta parlar",
-     "facte": "The word “fluorescence” comes from this mineral — it glows under ultraviolet light",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-azurite.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Azurit · Azurite, ABD · USA",
-     "tr": "Azurit: lacivertin en derin tonu, kendiliğinden",
-     "en": "Azurite: the deepest shade of blue, made by nature alone",
-     "cr": "Foto · Photo: Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Orta Çağ ve Rönesans ressamlarının en önemli mavi boyalarından biriydi; zamanla yeşil malakite dönüşebilir",
-     "facte": "It was one of the most important blue paints of medieval and Renaissance painters — over time it can turn into green malachite",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
      "d": 42,
-     "f": "m/h80-malachite.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Malakit ve atakamit · Malachite & atacamite, Avustralya · Australia",
-     "tr": "Malakit üzerinde koyu yeşil atakamit kristalleri",
-     "en": "Dark green atacamite crystals on malachite",
-     "cr": "Foto · Photo: Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Antik Mısır’da malakit öğütülüp yeşil göz boyası ve resim boyası yapılırdı",
-     "facte": "In ancient Egypt malachite was ground into green eye paint and painters’ pigment",
-     "fit": "contain"
+     "f": "m/h81-oludeniz.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Ölüdeniz, Fethiye",
+     "tr": "Ölüdeniz’de güneş tepelerin ardına iniyor",
+     "en": "The sun sliding behind the hills at Ölüdeniz",
+     "cr": "Foto · Photo: JamesDavidShoots · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzspiro",
+     "d": 60
     },
     {
      "k": "hzphoto",
-     "d": 44,
-     "f": "m/h80-quartz.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Dumanlı kuvars ve amazonit · Smoky quartz & amazonite, Colorado",
-     "tr": "Dumanlı kuvars ve turkuaz amazonit: dağın içinden çıkan bir ikili",
-     "en": "Smoky quartz and turquoise amazonite: a pair from inside a mountain",
-     "cr": "Foto · Photo: Parent Géry · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Kol saatlerindeki minicik kuvars kristali saniyede tam 32.768 kez titreşir; saat bunları sayarak zamanı tutar",
-     "facte": "The tiny quartz crystal in a wristwatch vibrates exactly 32,768 times a second — the watch keeps time by counting them",
-     "fit": "contain"
+     "d": 40,
+     "f": "m/h81-bodrum.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Bodrum",
+     "tr": "Bodrum’un yel değirmeni gün batımına karşı",
+     "en": "A Bodrum windmill against the sunset",
+     "cr": "Foto · Photo: Serhio Magpie · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Bodrum yel değirmenleri 18. yüzyıldan kalma; bir zamanlar rüzgârla buğday öğütüyorlardı",
+     "facte": "The Bodrum windmills date from the 18th century — they once ground wheat with the wind"
     },
     {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Bir elmas ile kurşun kalemin ucu|aynı şeyden yapılmıştır. Nedir?",
-     "qe": "A diamond and the tip of a pencil are made of the same thing. What is it?",
-     "a": "Karbon! Atomlar elmasta sıkı bir kafes, grafitte kayan katmanlar oluşturur",
-     "ae": "Carbon! In diamond the atoms form a tight lattice, in graphite sliding layers",
-     "sec": 18,
-     "c1": "#1c1a2c",
-     "c2": "#06050a"
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h81-sailboat.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Altın deniz · Golden sea",
+     "tr": "Altın rengine dönen denizde bir yelkenli ve yüzenler",
+     "en": "A sailboat and swimmers on a sea turning gold",
+     "cr": "Foto · Photo: Annatsach · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Yeşil şimşek",
+     "tr": "Güneş denize tam batarken bazen bir saniyeliğine yeşil bir ışık çakar: hava, ışığı bir prizma gibi kırar",
+     "en": "Just as the sun disappears into the sea, a green flash sometimes appears for a second — the air bends the light like a prism",
+     "src": "Green flash · Atmosfer optiği · Atmospheric optics",
+     "c1": "#1a2a24",
+     "c2": "#050a08"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h81-kas.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Kaş, Antalya",
+     "tr": "Kaş’ta akşam: minare, kubbe ve batan güneş",
+     "en": "Evening in Kaş: a minaret, a dome and the setting sun",
+     "cr": "Foto · Photo: Alexkom000 · CC BY 4.0 · Wikimedia Commons"
     }
    ]
   },
   {
-   "id": "h-11-24-21",
-   "name": "Ateşin Çocukları: Yanardağlar · Children of Fire: Volcanoes",
+   "id": "dj-11-24-21",
+   "name": "Gün Batımı · Sunset — son ışık · last light",
    "from": "2026-11-24T21:00",
    "until": "2026-11-24T22:00",
    "items": [
     {
      "k": "hzphoto",
      "d": 40,
-     "f": "m/h24-ararat.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Ağrı Dağı · Mount Ararat (Erivan’dan · from Yerevan)",
-     "tr": "Erivan’ın üzerinde yükselen karlı Ağrı Dağı",
-     "en": "Snowy Mount Ararat rising above Yerevan",
-     "cr": "Foto · Photo: Serouj Ourishian · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "5.137 metreyle Türkiye’nin en yüksek dağı; bir yanardağdır ve zirvesi yıl boyu buzullarla kaplıdır",
-     "facte": "At 5,137 m Turkey’s highest mountain — it is a volcano, its summit covered by glaciers all year"
+     "f": "m/h81-seagull.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Batı Avustralya · Western Australia",
+     "tr": "Gün batımında kayalıkların üzerinden süzülen bir martı",
+     "en": "A seagull gliding over the rocks at sunset",
+     "cr": "Foto · Photo: Calistemon · CC BY-SA 4.0 · Wikimedia Commons"
     },
     {
-     "k": "hzphoto",
-     "d": 40,
-     "f": "m/h24-nemrut.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Nemrut Kalderası · Caldera, Bitlis",
-     "tr": "Nemrut Dağı’nın kalderası ve içindeki göller",
-     "en": "The caldera of Mount Nemrut (Bitlis) and its lakes",
-     "cr": "Foto · Photo: Volker Höhfeld · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Tepesi çökmüş bir yanardağ; kalderanın içinde soğuk bir krater gölü ve sıcak su kaynaklarıyla beslenen küçük bir göl var",
-     "facte": "A volcano whose top collapsed — inside the caldera lie a cold crater lake and a small lake fed by hot springs"
-    },
-    {
-     "k": "hzphoto",
-     "d": 40,
-     "f": "m/h24-kapadokya.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Kapadokya · Cappadocia",
-     "tr": "Kapadokya’nın peri bacaları",
-     "en": "The fairy chimneys of Cappadocia",
-     "cr": "Foto · Photo: Benh LIEU SONG · CC BY-SA 3.0 · Wikimedia Commons",
-     "fact": "Milyonlarca yıl önce Erciyes ve Hasan dağlarının küllerinden oluşan yumuşak tüf; rüzgâr ve yağmur onu bu bacalara oydu",
-     "facte": "Soft tuff formed from the ash of ancient volcanoes such as Erciyes and Hasan — wind and rain carved it into these chimneys",
-     "fit": "contain"
+     "k": "hzrose",
+     "d": 60
     },
     {
      "k": "hzphoto",
      "d": 38,
-     "f": "m/h24-etna.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Etna · Sicilya · Sicily",
-     "tr": "Gece Etna’dan fışkıran lav",
-     "en": "Lava fountaining from Etna at night",
-     "cr": "Foto · Photo: Giuseppe Amenta · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Avrupa’nın en yüksek aktif yanardağı, yaklaşık 3.300 metre; yüksekliği patlamalarla değişir",
-     "facte": "Europe’s highest active volcano, about 3,300 m — its height changes with its eruptions"
+     "f": "m/h81-sinop.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Sinop",
+     "tr": "Karadeniz’de günün son ışığı",
+     "en": "The last light of the day on the Black Sea",
+     "cr": "Foto · Photo: Hakan SAVAŞ78 · CC BY 3.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzquote",
+     "d": 36,
+     "tr": "Müzik, kelimelerin bittiği yerde başlar.",
+     "en": "Where words fail, music speaks.",
+     "pal": "clay",
+     "lb": "Müzik Üzerine · On Music",
+     "by": "Hans Christian Andersen"
     },
     {
      "k": "hzphoto",
      "d": 38,
-     "f": "m/h24-stromboli.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Stromboli · İtalya · Italy",
-     "tr": "Stromboli adası havadan: denizden yükselen bir yanardağ",
-     "en": "Stromboli from the air — a volcano rising out of the sea",
-     "cr": "Foto · Photo: Carsten Steger · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "En az 2.000 yıldır neredeyse hiç durmadan küçük patlamalar yapıyor; denizciler ona “Akdeniz’in Feneri” der",
-     "facte": "It has erupted in small bursts almost nonstop for at least 2,000 years — sailors call it the “Lighthouse of the Mediterranean”"
+     "f": "m/h81-oludeniz.jpg",
+     "lb": "2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Ölüdeniz, Fethiye",
+     "tr": "Ölüdeniz’de günün son ışığı",
+     "en": "The last light of the day at Ölüdeniz",
+     "cr": "Foto · Photo: JamesDavidShoots · CC BY-SA 4.0 · Wikimedia Commons"
     },
     {
-     "k": "hzriddle",
-     "d": 34,
-     "q": "Bir yanardağdan çıkar,|taştır ama suda yüzer. Nedir?",
-     "qe": "It comes out of a volcano — it is a stone, yet it floats. What is it?",
-     "a": "Sünger taşı (pomza): içi gaz kabarcıklarıyla dolu",
-     "ae": "Pumice — it is full of gas bubbles",
-     "sec": 20,
-     "c1": "#2a2220",
-     "c2": "#0a0706"
+     "k": "hzkoi",
+     "d": 56
     }
    ]
   },
   {
-   "id": "h-11-24-22",
-   "name": "Galeri: Whistler’ın Nocturne’leri · Gallery: Whistler’s Nocturnes (sakin · calm)",
+   "id": "dj-11-24-22",
+   "name": "Gece · Night — şehir ışıkları · city lights",
    "from": "2026-11-24T22:00",
    "until": "2026-11-24T23:00",
    "items": [
     {
-     "k": "hzphoto",
-     "d": 48,
-     "f": "m/h24-nocturne1.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Nocturne: Mavi ve Gümüş — Chelsea, James McNeill Whistler, 1871",
-     "en": "Nocturne: Blue and Silver — Chelsea, James McNeill Whistler, 1871",
-     "cr": "Eser · Artwork: James McNeill Whistler · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Whistler, Thames kıyısında geceleri yürür, manzarayı ezberler, ertesi gün atölyede hafızasından boyardı",
-     "facte": "Whistler walked the Thames at night, memorised the view and painted it from memory in the studio next day",
-     "fit": "contain"
-    },
-    {
-     "k": "hzphoto",
-     "d": 48,
-     "f": "m/h24-nocturne3.jpg",
-     "lb": "Gerçek Eser · Real Artwork",
-     "tr": "Nocturne: Gri ve Gümüş — Chelsea Rıhtımı, James McNeill Whistler",
-     "en": "Nocturne: Grey and Silver — Chelsea Embankment, James McNeill Whistler",
-     "cr": "Eser · Artwork: James McNeill Whistler · kamu malı · public domain · Wikimedia Commons",
-     "fact": "“Nocturne” adı, koleksiyoncusu Frederick Leyland’in önerisiyle müzikteki gece parçalarından geldi; Whistler resimlerini müzik gibi düşünüyordu",
-     "facte": "The name “Nocturne”, after night pieces in music, was suggested by his patron Frederick Leyland — Whistler thought of his paintings like music",
-     "fit": "contain"
-    },
-    {
-     "k": "hzfact",
-     "d": 34,
-     "big": "1 farthing",
-     "tr": "1877’de eleştirmen John Ruskin, Whistler’ı “halkın yüzüne bir kova boya fırlatmakla” suçladı; Whistler dava açtı, 1878’de kazandı, ama tazminat olarak yalnızca bir farthing, yani en küçük bozuk para aldı",
-     "en": "In 1877 the critic John Ruskin accused Whistler of “flinging a pot of paint in the public’s face” — he sued, won in 1878, but was awarded just one farthing, the smallest coin",
-     "src": "Whistler – Ruskin davası · Whistler v. Ruskin",
-     "c1": "#121a26",
-     "c2": "#03050a"
-    },
-    {
-     "k": "hzquote",
-     "d": 44,
-     "tr": "Dün akıllıydım, dünyayı değiştirmek istedim.|Bugün bilgeyim, kendimi değiştiriyorum",
-     "en": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself",
-     "pal": "night"
-    },
-    {
-     "k": "hzsteps",
-     "d": 50,
-     "lb": "Sakin Düşünce · Calm Thought",
-     "q": "Bu akşamdan geriye ne kalsın?",
-     "e": "What should stay with you from this evening?",
-     "c1": "#121a26",
-     "c2": "#03050a",
-     "gap": 9,
-     "steps": [
+     "k": "hzwelcome",
+     "d": 30,
+     "f": "m/h81-ortakoy.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gerçek Fotoğraf · Real Photo · Ortaköy, İstanbul",
+     "lines": [
       [
-       "Bugün gördüğün en güzel renk",
-       "The most beautiful colour you saw today",
-       "☾"
+       "Gece",
+       6.6
       ],
       [
-       "Bugün güldüğün bir an",
-       "A moment today that made you laugh",
-       ""
-      ],
-      [
-       "Yarın denemek istediğin küçük bir şey",
-       "One small thing you’d like to try tomorrow",
-       ""
+       "Night",
+       3.6
       ]
      ],
-     "fin": "Whistler gibi: günü hafızana al, sonra yavaşça bırak",
-     "fine": "Like Whistler: hold the day in memory, then gently let it go",
-     "bg": "stars"
+     "tr": "Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin",
+     "en": "Now playing “Sadece Sen Night” — softer and calmer",
+     "cr": "Foto · Photo: Giuseppe Pinto · CC BY-SA 3.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h81-galata.jpg",
+     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Galata Kulesi, İstanbul · Galata Tower",
+     "tr": "Gece Galata Kulesi ve Haliç’in ışıkları",
+     "en": "The Galata Tower and the lights of the Golden Horn at night",
+     "cr": "Foto · Photo: Alexxx1979 · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kule 1348’de Cenevizliler tarafından yapıldı; yaklaşık 67 metre yüksekliğinde",
+     "facte": "The tower was built by the Genoese in 1348 and stands about 67 m tall"
+    },
+    {
+     "k": "hzmoonsea",
+     "d": 70
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h81-bridge.jpg",
+     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · İstanbul Boğazı · Bosphorus",
+     "tr": "Boğaz’da gece: köprünün ve kıyının ışıkları suya düşüyor",
+     "en": "Night on the Bosphorus: the lights of the bridge and the shore fall on the water",
+     "cr": "Foto · Photo: Furkan Akkurt · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h81-candle.jpg",
+     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Mum ışığı · Candlelight",
+     "tr": "Karanlıkta tek bir mum: akşamın en sakin ışığı",
+     "en": "A single candle in the dark — the calmest light of the evening",
+     "cr": "Foto · Photo: Andrew Fogg · CC BY 2.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzyakamoz",
+     "d": 70
     }
    ]
   },
   {
-   "id": "h-11-24-23",
-   "name": "Okyanusta Gece: Balinalar · Night in the Ocean: Whales (sakin · calm)",
+   "id": "dj-11-24-23",
+   "name": "Gece · Night — yıldızlar ve sakinlik · stars and calm",
    "from": "2026-11-24T23:00",
    "until": "2026-11-25T02:00",
    "items": [
     {
-     "k": "hzwhale",
-     "d": 110
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h81-moonsea.jpg",
+     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Ay ışığı · Moonlight",
+     "tr": "Denizin üzerinde ay ışığı",
+     "en": "Moonlight over the sea",
+     "cr": "Foto · Photo: Wolfgang Weber · CC BY 3.0 · Wikimedia Commons",
+     "quiet": 1
     },
     {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h24-humpback.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Kambur balina · Humpback whale",
-     "tr": "Kambur balina annesi ve yavrusu",
-     "en": "A humpback whale mother and her calf",
-     "cr": "Foto · Photo: NOAA National Marine Sanctuaries · kamu malı · public domain · Wikimedia Commons",
-     "fact": "Yavru doğduğunda yaklaşık 4 metre boyunda; ilk aylarını annesinin hemen yanında, onun sütüyle büyüyerek geçirir",
-     "facte": "A calf is about 4 m long at birth — it spends its first months right beside its mother, growing on her milk"
-    },
-    {
-     "k": "hzphoto",
-     "d": 46,
-     "f": "m/h24-sperm.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · İspermeçet balinası · Sperm whale",
-     "tr": "Bir ispermeçet balinası annesi ve yavrusu",
-     "en": "A sperm whale mother and her calf",
-     "cr": "Foto · Photo: Gabriel Barathieu · CC BY-SA 2.0 · Wikimedia Commons",
-     "fact": "İspermeçet balinaları kısa süreli uykularını suda dimdik asılı dururken uyur",
-     "facte": "Sperm whales take their short naps hanging upright in the water"
+     "k": "hzgalaxy",
+     "d": 70
     },
     {
      "k": "hzphoto",
      "d": 44,
-     "f": "m/h24-bluewhale.jpg",
-     "lb": "Gerçek Fotoğraf · Real Photo · Mavi balina · Blue whale, Kuzey Kutbu · Arctic",
-     "tr": "Kuzey Kutbu denizinde bir mavi balinanın nefes sütunu",
-     "en": "The blow of a blue whale in the Arctic sea",
-     "cr": "Foto · Photo: AWeith · CC BY-SA 4.0 · Wikimedia Commons",
-     "fact": "Mavi balina bilinen en büyük hayvan: 30 metreye yaklaşabilir; nefesi metrelerce yükseğe püskürür",
-     "facte": "The blue whale is the largest animal known to have lived — up to about 30 m, its blow shoots metres into the air"
+     "f": "m/h81-milkyway.jpg",
+     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · ESO, Şili · Chile",
+     "tr": "Samanyolu’nun merkezine uzanan bir lazer ışını: gökbilimciler atmosferin titreşimini böyle ölçer",
+     "en": "A laser beam reaching toward the centre of the Milky Way — astronomers use it to measure the shimmer of the air",
+     "cr": "Foto · Photo: ESO/Yuri Beletsky · CC BY 4.0 · Wikimedia Commons",
+     "quiet": 1
     },
     {
-     "k": "hzfact",
-     "d": 34,
-     "big": "20 dk",
-     "tr": "Erkek kambur balinaların şarkısı 20 dakikaya kadar sürebilir ve saatlerce tekrar edilir; aynı bölgedeki erkekler aynı şarkıyı söyler ve şarkı yıldan yıla değişir",
-     "en": "A male humpback’s song can last up to 20 minutes and be repeated for hours — males in one region sing the same song, and it changes from year to year",
-     "src": "Kambur balina · Humpback whale",
-     "c1": "#0e1a26",
-     "c2": "#02060a"
+     "k": "hzrainwin",
+     "d": 70
     },
     {
-     "k": "hzquote",
-     "d": 44,
-     "tr": "Deniz, büyüsünü bir kez yaptı mı,|insanı sonsuza dek merakın ağında tutar",
-     "en": "The sea, once it casts its spell, holds one in its net of wonder forever",
-     "pal": "night",
-     "lb": "Deniz Sözü · Sea Saying",
-     "by": "Jacques-Yves Cousteau · okyanus kâşifi · ocean explorer"
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h81-candle.jpg",
+     "lb": "3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Mum ışığı · Candlelight",
+     "tr": "İyi geceler · Good night",
+     "en": "Good night",
+     "cr": "Foto · Photo: Andrew Fogg · CC BY 2.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzsleep",
+     "d": 70
     }
    ]
   }
