@@ -1,3 +1,64 @@
+## 2026-11-24 · DJ Taş evening (rev 81, sets 17:00–02:00 rebuilt ~17:45, synced with HomePod playlists)
+
+M asked for a real DJ experience managing music + TV. Act 1 Jazz House Lounge (–19:00, “Sadece Sen · Jazz House Mix”), Act 2 Sunset (19–22, “Sadece Sen Sunset”), Act 3 Night (22–02, “Sadece Sen Night”). All visuals silent. Photos m/h81-* (credits-2026-11-24n.json).
+
+### 17:00–18:00 · DJ Taş · Caz House Lounge · Jazz House Lounge
+- 17 | hzwelcome | Üç perdelik bir akşam: Caz House Lounge → Gün Batımı → Gece. Müzik HomePod’da | m/h81-jazzclub.jpg
+- 17 | hzphoto | İğne plağın oluğunda: müzik buradan başlıyor | m/h81-turntable.jpg
+- 17 | hzchladni | — | —
+- 17 | hzphoto | Sahnede bir saksafoncu: caz house’un kalbindeki ses | m/h81-sax.jpg
+- 17 | hzfact | St Germain’in “Rose Rouge” parçası 2000’de Blue Note’tan çıkan “Tourist” albümünde; içindeki ses Marlena Shaw’un “Woman of the Ghetto” kaydından | —
+- 17 | hzmeta | — | —
+- 17 | hzphoto | Kaldırımda plak kasaları: her kapak başka bir akşamın sözü | m/h81-records.jpg
+
+### 18:00–19:00 · Caz House Lounge · Jazz House Lounge — altın saat · golden hour
+- 18 | hzphoto | Terasta serin bir içki ve batmaya hazırlanan güneş | m/h81-cocktail.jpg
+- 18 | hzharmono | — | —
+- 18 | hzquote | Hatalardan korkma. Hata diye bir şey yoktur. | —
+- 18 | hzphoto | Kırmızı ışıkta bekleyen piyano ve sahne: set birazdan başlıyor | m/h81-jazzclub.jpg
+- 18 | hzkaleido | — | —
+- 18 | hzfact | Uzunçalar plak 1948’de Columbia tarafından tanıtıldı: dakikada 33⅓ devirle her yüze yaklaşık 20 dakika müzik sığdı | —
+
+### 19:00–20:00 · Gün Batımı · Sunset — Karadeniz · Black Sea
+- 19 | hzwelcome | Liste değişti: şimdi “Sadece Sen Sunset” çalıyor | m/h81-batumi.jpg
+- 19 | hzphoto | Karadeniz’de bir iskeleden güneşin son ışıkları | m/h81-bssunset.jpg
+- 19 | hzripple | — | —
+- 19 | hzphoto | Sinop’ta güneş denize inerken | m/h81-sinop.jpg
+- 19 | hzphoto | Batum’da bulutların arasından denize düşen akşam ışığı | m/h81-batumi.jpg
+- 19 | hzquote | Müzik olmasaydı hayat bir hata olurdu. | —
+
+### 20:00–21:00 · Gün Batımı · Sunset — Akdeniz ve Ege · Mediterranean & Aegean
+- 20 | hzphoto | Ölüdeniz’de güneş tepelerin ardına iniyor | m/h81-oludeniz.jpg
+- 20 | hzspiro | — | —
+- 20 | hzphoto | Bodrum’un yel değirmeni gün batımına karşı | m/h81-bodrum.jpg
+- 20 | hzphoto | Altın rengine dönen denizde bir yelkenli ve yüzenler | m/h81-sailboat.jpg
+- 20 | hzfact | Güneş denize tam batarken bazen bir saniyeliğine yeşil bir ışık çakar: hava, ışığı bir prizma gibi kırar | —
+- 20 | hzphoto | Kaş’ta akşam: minare, kubbe ve batan güneş | m/h81-kas.jpg
+
+### 21:00–22:00 · Gün Batımı · Sunset — son ışık · last light
+- 21 | hzphoto | Gün batımında kayalıkların üzerinden süzülen bir martı | m/h81-seagull.jpg
+- 21 | hzrose | — | —
+- 21 | hzphoto | Karadeniz’de günün son ışığı | m/h81-sinop.jpg
+- 21 | hzquote | Müzik, kelimelerin bittiği yerde başlar. | —
+- 21 | hzphoto | Ölüdeniz’de günün son ışığı | m/h81-oludeniz.jpg
+- 21 | hzkoi | — | —
+
+### 22:00–23:00 · Gece · Night — şehir ışıkları · city lights
+- 22 | hzwelcome | Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin | m/h81-ortakoy.jpg
+- 22 | hzphoto | Gece Galata Kulesi ve Haliç’in ışıkları | m/h81-galata.jpg
+- 22 | hzmoonsea | — | —
+- 22 | hzphoto | Boğaz’da gece: köprünün ve kıyının ışıkları suya düşüyor | m/h81-bridge.jpg
+- 22 | hzphoto | Karanlıkta tek bir mum: akşamın en sakin ışığı | m/h81-candle.jpg
+- 22 | hzyakamoz | — | —
+
+### 23:00–02:00 · Gece · Night — yıldızlar ve sakinlik · stars and calm
+- 23 | hzphoto | Denizin üzerinde ay ışığı | m/h81-moonsea.jpg
+- 23 | hzgalaxy | — | —
+- 23 | hzphoto | Samanyolu’nun merkezine uzanan bir lazer ışını: gökbilimciler atmosferin titreşimini böyle ölçer | m/h81-milkyway.jpg
+- 23 | hzrainwin | — | —
+- 23 | hzphoto | İyi geceler · Good night | m/h81-candle.jpg
+- 23 | hzsleep | — | —
+
 ## 2026-11-24 · afternoon rework (rev 80, sets 14:00–21:00 rebuilt ~14:30, display fixes + fresh hours)
 
 M said scenes had not been displaying properly for a couple of days and asked for new things. Rev 80 fixed the player (server clock instead of the TV clock, missing-day fallback, wait for every photo + preload, shrink-to-fit actually running, reload-loop guard, dead push poll removed) and replaced the morning’s meteors / eye tricks / Tower of Hanoi / winter gardens / Mevlânâ & sema / hamam / random walk hours. 21:00 volcanoes, 22:00 Whistler and 23:00 whales kept. New generator: hzpenrose (Penrose P3 tiling by subdivision).
