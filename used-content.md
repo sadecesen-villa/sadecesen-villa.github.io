@@ -1,3 +1,127 @@
+## 2026-11-25 (rev 84, hourly sets 09:00–02:00, days/2026-11-25.json) · Wednesday
+
+No pending requests in requests.md (verified ~08:05). Built ~08:05–08:40 by build_2026-11-25.py. New hz templates (hourly.js v84): hzbrown (Brownian motion, real 2D elastic collisions), hzpolya (Pólya urn), hzehren (Ehrenstein illusion), hzplak (imagined record at 33⅓ rpm, jazz lounge), hzbulut (calm night: moon behind drifting clouds). 17:00–02:00 keeps the DJ Taş structure (Act 1 Jazz House Lounge 17–19 → Act 2 Sunset 19–22 → Act 3 Night 22–02) with all-new photos; stills only at night, no hzvideo. Mevlânâ quotes: Kalbin yolu bilir… (09), Kalbinde tutuşmaya hazır bir mum var (18), Nerede yıkıntı varsa… hazine umudu (21). Archived h23-*, h78-*, unused h81-* and day/credits files for 2026-11-23.
+
+### 09:00–10:00 · Çarşamba Sabahı · Wednesday Morning
+- 09 | hzphoto | Trabzon’un kalbi: güne başlayan Atatürk Alanı | m/h25-meydan.jpg
+- 09 | hzquote | Kalbin yolu bilir; o yöne koş | —
+- 09 | hzphoto | Maçka’da Altındere Vadisi: ormanla kaplı yamaçlar | m/h25-macka.jpg
+- 09 | hzfact | 41° — Trabzon kuzey yarımkürede 41. enlemde: İstanbul, Roma ve New York ile hemen hemen aynı çizgide | —
+- 09 | hzphoto | Akçaabat’ta Ak Camii ve yamaca yaslanan evler | m/h25-akcaabat.jpg
+- 09 | hzriddle | Ne kadar çok kurularsa, o kadar ıslanır. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Görünmeyenin İzi — Brown Hareketi · Living Art: Traces of the Invisible — Brownian Motion
+- 10 | hzbrown | NEW Brownian motion (pollen grain kicked by molecules) | —
+- 10 | hzphoto | Ayçiçeği, gündüzsefası, gülhatmi ve zambak polenleri, binlerce kez büyütülmüş | m/h25-pollen.jpg
+- 10 | hzsteps | Atomların var olduğunu nasıl kanıtladık? | —
+- 10 | hzphoto | Einstein, Bern’deki patent ofisinde, 1904 dolaylarında | m/h25-einstein1905.jpg
+- 10 | hzfact | 8 × 10²⁴ — Bir su bardağında (250 ml) yaklaşık 8 × 10²⁴ su molekülü var: Dünya’daki bütün kumsallardaki kum tanelerinden kat kat fazla | —
+- 10 | hzriddle | Suya bir damla mürekkep damlatırsan, karıştırmasan da neden yayılır? | —
+
+### 11:00–12:00 · Nefes Kesen Yerler: Kanyonlar · Breathtaking Places: Canyons
+- 11 | hzphoto | Dar kanyonun tepesindeki yarıktan inen bir ışık sütunu | m/h25-antelope.jpg
+- 11 | hzphoto | Colorado Nehri burada kayayı at nalı biçiminde dolanıyor | m/h25-horseshoe.jpg
+- 11 | hzphoto | Saklıkent’in oyulmuş kayaları | m/h25-saklikent.jpg
+- 11 | hzphoto | Namibya çölünde kıvrılan Fish River Kanyonu | m/h25-fishriver.jpg
+- 11 | hzphoto | Verdon’un kayalıklarında bir dağ keçisi; aşağıda derin vadi | m/h25-verdon.jpg
+- 11 | hzchoose | Bir kanyonu nasıl yaşamak isterdin? | —
+
+### 12:00–13:00 · Camın Şiiri · Poetry in Glass
+- 12 | hzphoto | Güney gül penceresi: renkli camdan bir çiçek | m/h25-chartres.jpg
+- 12 | hzphoto | Sabah güneşi renkli camlardan geçip halıların üstüne düşüyor | m/h25-nasir.jpg
+- 12 | hzphoto | Üst şapelin duvarları neredeyse tamamen camdan | m/h25-sainte.jpg
+- 12 | hzphoto | Venedik’te ateşin başında çalışan bir cam ustası | m/h25-murano.jpg
+- 12 | hzphoto | Bin çiçek: ince renkli cam çubuklardan dilimlerle yapılmış bir desen | m/h25-millefiori.jpg
+- 12 | hzphoto | Müzede burgu desenli cam eserler | m/h25-beykoz.jpg
+- 12 | hzriddle | Cam aslında neyden yapılır? | —
+
+### 13:00–14:00 · Büyük Ustalardan: Turner’ın Işığı ve Fırtınası · From the Great Masters: Turner’s Light & Storm
+- 13 | hzphoto | Yağmur, Buhar ve Hız — Great Western Demiryolu | m/h25-rainsteam.jpg
+- 13 | hzphoto | Denizde Balıkçılar | m/h25-fishermen.jpg
+- 13 | hzquote | Sanki renkli buharla boyuyor | —
+- 13 | hzphoto | Kar Fırtınası — Liman Ağzında Bir Buharlı Gemi | m/h25-snowstorm.jpg
+- 13 | hzphoto | Norham Kalesi, Gün Doğumu | m/h25-norham.jpg
+- 13 | hzfact | 30.000 — Turner öldüğünde ardında yaklaşık 300 yağlı boya ve 30.000 kadar çizim ve suluboya bıraktı; hepsini İngiliz ulusuna vasiyet etti | —
+
+### 14:00–15:00 · Gökyüzünün Harikaları: Ay · Wonders of the Sky: The Moon
+- 14 | hzphoto | Dolunay: koyu lekeler, eski lav düzlükleri olan “denizler” | m/h25-fullmoon.jpg
+- 14 | hzphoto | Buzz Aldrin’in Ay tozundaki bot izi | m/h25-footprint.jpg
+- 14 | hzsteps | Ay ne kadar uzakta? | —
+- 14 | hzphoto | Ay yörüngesindeki LRO’nun gözünden Tycho kraterinin merkez tepesi | m/h25-tycho.jpg
+- 14 | hzphoto | Bir Ay tutulmasının evreleri: Ay kızıla dönüyor | m/h25-bloodmoon.jpg
+- 14 | hzriddle | Ay ufka yakınken neden daha büyük görünür? | —
+
+### 15:00–16:00 · Göz Oyunları: Beynin Eklediği Işık · Tricks of the Eye: Light the Brain Adds
+- 15 | hzehren | NEW Ehrenstein illusion | —
+- 15 | hzcorn | hzcorn (reused, new topic) | —
+- 15 | hzfact | Kör nokta — Her gözde, görme sinirinin çıktığı yerde ışık algılayıcısı olmayan bir nokta var. Hiç fark etmeyiz: beyin o boşluğu çevreden tah | —
+- 15 | hzwhite | hzwhite (reused, new topic) | —
+- 15 | hzhermann | hzhermann (reused, new topic) | —
+- 15 | hzriddle | İki gözünü de açıkken kör noktanı neden görmezsin? | —
+
+### 16:00–17:00 · Zekice Düşünce: Şansın Kartopu · Clever Thinking: The Snowball of Luck
+- 16 | hzpolya | NEW Pólya urn (rich get richer) | —
+- 16 | hzsteps | Bir şarkı neden birden herkesin şarkısı olur? | —
+- 16 | hzfact | Matta etkisi — Sosyolog Robert Merton 1968’de fark etti: aynı işi yapan iki bilim insanından ünlü olan daha çok övgü alıyor. Adını “kimde va | —
+- 16 | hzriddle | Bir zarı 6 kez atarsan, en az bir kez 6 gelme olasılığı kaç? | —
+- 16 | hzquote | Şans, hazırlıklı zihinlerden yanadır | —
+
+### 17:00–18:00 · DJ Taş · Caz House Lounge · Jazz House Lounge — Riviera gecesi · a Riviera night
+- 17 | hzwelcome | title card: Üç perdelik bir akşam: Caz House Lounge → Gün Batımı (19:00) → Gece (22:00). Müzik HomePod’da | m/h25-rooftop.jpg
+- 17 | hzplak | NEW imagined record spinning at 33⅓ rpm | —
+- 17 | hzphoto | Bir kontrbasçı: caz house’un sıcak bas çizgisinin kökü | m/h25-bass.jpg
+- 17 | hzphoto | Caz house’un yumuşak akorlarının sesi: bir Rhodes elektrikli piyanosu | m/h25-rhodes.jpg
+- 17 | hzlissa | hzlissa (reused, new topic) | —
+- 17 | hzphoto | Kayalığın tepesindeki Èze köyü ve uzakta Cap Ferrat | m/h25-eze.jpg
+- 17 | hzfact | 118–125 — Deep ve caz house çoğunlukla dakikada 118–125 vuruş arasında çalınır: dans etmeye yeter, sohbeti bölmez | —
+
+### 18:00–19:00 · Caz House Lounge · Jazz House Lounge — Villa Fikri: Akşam Köşeleri · Villa Idea: Evening Corners
+- 18 | hzphoto | Riviera’da sakin bir koy ve demirli yelkenliler | m/h25-villefranche.jpg
+- 18 | hzphoto | Alt katta küçük bir speakeasy köşesi: koyu ahşap, yeşil kadife tabureler, arkadan ışıklı raflar | m/h25-speakeasy.jpg
+- 18 | hzquote | Kalbinde tutuşmaya hazır bir mum var | —
+- 18 | hzphoto | Şöminenin önünde koltuklar, raflarda kitaplar: misafirlerin akşam toplandığı bir oda | m/h25-bookbar.jpg
+- 18 | hzflow | hzflow (reused, new topic) | —
+- 18 | hzfact | Negroni — Söylenceye göre 1919’da Floransa’da Kont Camillo Negroni, Americano’sundaki soda yerine cin istedi; doğan kokteyle onun adı verild | —
+
+### 19:00–20:00 · Gün Batımı · Sunset — Karadeniz kıyıları · Black Sea shores
+- 19 | hzwelcome | title card: Liste değişti: şimdi “Sadece Sen Sunset” çalıyor | m/h25-amasra.jpg
+- 19 | hzphoto | Akşamüstü Karadeniz’de Giresun Adası | m/h25-giresunisland.jpg
+- 19 | hzmoire | hzmoire (reused, new topic) | —
+- 19 | hzphoto | Şile’nin siyah-beyaz çizgili deniz feneri | m/h25-sile.jpg
+- 19 | hzphoto | Kefken Adası, yukarıdan: turkuaz suyla çevrili küçük bir ada | m/h25-kefken.jpg
+- 19 | hzphoto | Amasra’da güneş kayalıkların arasından denize iniyor | m/h25-amasra.jpg
+
+### 20:00–21:00 · Gün Batımı · Sunset — Ege ve Adriyatik · Aegean & Adriatic
+- 20 | hzphoto | Şeytan Sofrası’ndan adalara inen akşam | m/h25-ayvalik.jpg
+- 20 | hzfourier | hzfourier (reused, new topic) | —
+- 20 | hzphoto | Bozcaada’da gün batımı | m/h25-bozcaada.jpg
+- 20 | hzphoto | Datça’da koylara inen güneş | m/h25-datca.jpg
+- 20 | hzfact | Mavi saat — Güneş ufkun birkaç derece altına inince gökyüzü kısa bir süre derin maviye döner; fotoğrafçıların sevdiği bu ana “mavi saat” den | —
+- 20 | hzphoto | Kotor Körfezi’nde dağların ardında son ışık | m/h25-kotor.jpg
+
+### 21:00–22:00 · Gün Batımı · Sunset — Anadolu’da son ışık · last light in Anatolia
+- 21 | hzphoto | Kapadokya’da batan güneşe karşı balonlar ve bir at | m/h25-cappadocia.jpg
+- 21 | hzphyllo | hzphyllo (reused, new topic) | —
+- 21 | hzphoto | Pamukkale travertenlerinde pastel bir akşam | m/h25-pamukkale.jpg
+- 21 | hzquote | Nerede yıkıntı varsa, orada bir hazine umudu vardır | —
+- 21 | hzphoto | Nemrut Dağı’nda karların içinde Apollon’un taş başı | m/h25-nemrutdagi.jpg
+
+### 22:00–23:00 · Gece · Night — Akdeniz kıyısında ışıklar · lights on the Mediterranean (sakin · calm)
+- 22 | hzwelcome | title card: Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin | m/h25-amalfi.jpg
+- 22 | hzphoto | Positano’da akşam: kayalıklara yaslanan ışıklar ve sakin deniz | m/h25-positano.jpg
+- 22 | hzphoto | Dubrovnik eski şehrinde gece: sokak lambası altında taş merdivenler | m/h25-dubrovnik.jpg
+- 22 | hzlantern | hzlantern (reused, new topic) | —
+- 22 | hzphoto | Akşam San Marco’da: kemerlerin ışıkları yanıyor | m/h25-venicenight.jpg
+- 22 | hzphoto | Amalfi kıyısında yamaçlara serpilmiş ışıklar | m/h25-amalfi.jpg
+
+### 23:00–02:00 · Gece · Night — ay, bulut ve göl · moon, clouds and lake (sakin · calm)
+- 23 | hzbulut | NEW moon behind drifting clouds (calm) | —
+- 23 | hzphoto | İnce bir bulut tülünün ardında ay | m/h25-moonclouds.jpg
+- 23 | hzphoto | Gece Como Gölü kıyısında Bellagio | m/h25-bellagio.jpg
+- 23 | hzfener | hzfener (reused, new topic) | —
+- 23 | hzphoto | Hallstatt’ın ışıkları göle düşüyor | m/h25-hallstatt.jpg
+- 23 | hzphoto | İyi geceler · Good night | m/h25-fullmoon.jpg
+
 ## 2026-11-24 · rev 83 stills-only late night (22:45–02:00, ~23:08)
 
 The LG TV could not play hzvideo YouTube iframes: a solid blue frame with only the Monaco caption, and earlier an unrelated 2012 class-photo image under that same caption (not in our stills or day files — it came from the broken YouTube embed). All videos removed from 22:45–02:00. Photoreal Wikimedia stills only (m/h82-*, hzphoto quiet:1, fade, no zoom). index.html: hzvideo remapped to the poster still; a photo scene that fails to load is skipped rather than left blank/blue. Player rev 83 so the open TV reloads.

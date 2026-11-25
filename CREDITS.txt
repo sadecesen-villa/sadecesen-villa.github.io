@@ -979,3 +979,54 @@ m/h82-fire.jpg — Flames of fire burning wood close-up (2026)-bs.jpg — Minja 
 m/h82-moonsea.jpg — Moonlight Florida United States Travel Photography (233161441).jpeg — Giuseppe Milo — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Moonlight_Florida_United_States_Travel_Photography_(233161441).jpeg
 m/h82-rain.jpg — Rainy Lights.jpg — Defi22 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Rainy_Lights.jpg
 m/h82-starsfjord.jpg — Stars and Milky Way over Åbyfjorden 8.jpg — W.carter — CC0 — https://commons.wikimedia.org/wiki/File:Stars_and_Milky_Way_over_%C3%85byfjorden_8.jpg
+
+## 2026-11-25 (rev 84, days/2026-11-25.json, m/h25-*)
+m/h25-meydan.jpg — Trabzon sign at Atatürk Alanı.jpeg — Robot8A — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Trabzon_sign_at_Atat%C3%BCrk_Alan%C4%B1.jpeg
+m/h25-akcaabat.jpg — Ak Camii, Akçaabat.jpg — miketnorton — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Ak_Camii,_Ak%C3%A7aabat.jpg
+m/h25-pollen.jpg — Misc pollen colorized.jpg — Dartmouth Electron Microscope Facility — Public domain — https://commons.wikimedia.org/wiki/File:Misc_pollen_colorized.jpg
+m/h25-einstein1905.jpg — Einstein patentoffice full.jpg — Lucien Chavan — Public domain — https://commons.wikimedia.org/wiki/File:Einstein_patentoffice_full.jpg
+m/h25-antelope.jpg — Upper antelope canyon light beam page arizona - Flickr - Mferbfriske.jpg — Mferbfriske — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Upper_antelope_canyon_light_beam_page_arizona_-_Flickr_-_Mferbfriske.jpg
+m/h25-horseshoe.jpg — USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg — Luca Galuzzi — CC BY-SA 2.5 — https://commons.wikimedia.org/wiki/File:USA_10187_Horseshoe_Bend_Luca_Galuzzi_2007.jpg
+m/h25-verdon.jpg — Gorge du Verdon Goat 0254.jpg — Dirk Beyer — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Gorge_du_Verdon_Goat_0254.jpg
+m/h25-saklikent.jpg — Saklıkent Kanyonu Kayaları.jpg — Alarablcsy — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sakl%C4%B1kent_Kanyonu_Kayalar%C4%B1.jpg
+m/h25-fishriver.jpg — Fish River Canyon Namibia.jpg — Thomas Schoch — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Fish_River_Canyon_Namibia.jpg
+m/h25-chartres.jpg — South rose window of Chartres Cathedral.jpg — Ludwig Schneider — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:South_rose_window_of_Chartres_Cathedral.jpg
+m/h25-nasir.jpg — Nasir-al molk -1.jpg — Ayyoubsabawiki — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Nasir-al_molk_-1.jpg
+m/h25-sainte.jpg — Sainte-Chapelle, Paris, upper chapel windows.jpg — Gerda Arendt — CC0 — https://commons.wikimedia.org/wiki/File:Sainte-Chapelle,_Paris,_upper_chapel_windows.jpg
+m/h25-millefiori.jpg — Blue, white and red millefiori glass paperweight 3.jpg — W.carter — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Blue,_white_and_red_millefiori_glass_paperweight_3.jpg
+m/h25-beykoz.jpg — Bursa Türk İslam Eserleri Müzesi Glassware 2006 0111.jpg — Dosseman — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bursa_T%C3%BCrk_%C4%B0slam_Eserleri_M%C3%BCzesi_Glassware_2006_0111.jpg
+m/h25-rainsteam.jpg — Turner - Rain, Steam and Speed - National Gallery file.jpg — J. M. W. Turner — Public domain — https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg
+m/h25-norham.jpg — Joseph Mallord William Turner - Norham Castle, Sunrise - WGA23182.jpg — J. M. W. Turner — Public domain — https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Norham_Castle,_Sunrise_-_WGA23182.jpg
+m/h25-snowstorm.jpg — Joseph Mallord William Turner - Snow Storm - Steam-Boat off a Harbour's Mouth - WGA23178.jpg — J. M. W. Turner — Public domain — https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour%27s_Mouth_-_WGA23178.jpg
+m/h25-fishermen.jpg — Joseph Mallord William Turner - Fishermen at Sea - Google Art Project.jpg — J. M. W. Turner — Public domain — https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Fishermen_at_Sea_-_Google_Art_Project.jpg
+m/h25-fullmoon.jpg — FullMoon2010.jpg — Gregory H. Revera — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg
+m/h25-footprint.jpg — AS11-40-5878 - Apollo 11 - Apollo 11 Mission image - Astronaut bootprint on the lunar surface - NARA - 16685061.jpg — NASA (Buzz Aldrin) — Public domain — https://commons.wikimedia.org/wiki/File:AS11-40-5878_-_Apollo_11_-_Apollo_11_Mission_image_-_Astronaut_bootprint_on_the_lunar_surface_-_NARA_-_16685061.jpg
+m/h25-tycho.jpg — LRO Tycho Central Peak.jpg — NASA / GSFC / Arizona State Univ. / Lunar Reconnaissance Orbiter — Public domain — https://commons.wikimedia.org/wiki/File:LRO_Tycho_Central_Peak.jpg
+m/h25-bloodmoon.jpg — Total Lunar Eclipse 28 09 2015.JPG — Friedrich Böhringer — CC BY-SA 3.0 at — https://commons.wikimedia.org/wiki/File:Total_Lunar_Eclipse_28_09_2015.JPG
+m/h25-bass.jpg — Double bass player (46052631165).jpg — Thomas Quine — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Double_bass_player_(46052631165).jpg
+m/h25-rhodes.jpg — Fender Rhodes.jpg — CasinoKat — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Fender_Rhodes.jpg
+m/h25-rooftop.jpg — DFC 5211 Rooftop bar in Pattaya bartenders mixing drinks as guests enjoy the night city lights and lively atmosphere.jpg — PattayaPatrol — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:DFC_5211_Rooftop_bar_in_Pattaya_bartenders_mixing_drinks_as_guests_enjoy_the_night_city_lights_and_lively_atmosphere.jpg
+m/h25-eze.jpg — Èze und Cap Ferrat-Grande Corniche.jpg — Tobi 87 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:%C3%88ze_und_Cap_Ferrat-Grande_Corniche.jpg
+m/h25-villefranche.jpg — Villefranche-sur-Mer-Cote-dAzur4.jpg — Rundvald — Public domain — https://commons.wikimedia.org/wiki/File:Villefranche-sur-Mer-Cote-dAzur4.jpg
+m/h25-speakeasy.jpg — The Mind Palace Bar Interior.jpg — Sherlock: Escape Rooms — CC0 — https://commons.wikimedia.org/wiki/File:The_Mind_Palace_Bar_Interior.jpg
+m/h25-amasra.jpg — Amasra.jpg — Bertilvidet — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:Amasra.jpg
+m/h25-kefken.jpg — Kefken adası 1.jpg — Kocaeli Kameraman Şadi Akdoğan — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Kefken_adas%C4%B1_1.jpg
+m/h25-giresunisland.jpg — Giresun Adasi (Amazon Island) Giresun Turkey.jpg — Dr. Zeynel Cebeci — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Giresun_Adasi_(Amazon_Island)_Giresun_Turkey.jpg
+m/h25-sile.jpg — Şile Lighthouse (29.05.2023).jpg — Alexander314 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%C5%9Eile_Lighthouse_(29.05.2023).jpg
+m/h25-ayvalik.jpg — Şeytan sofrası Ayvalık BALIKESİR - panoramio (1).jpg — by rock — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:%C5%9Eeytan_sofras%C4%B1_Ayval%C4%B1k_BALIKES%C4%B0R_-_panoramio_(1).jpg
+m/h25-bozcaada.jpg — Bozcaada Sunset.jpg — Glassmug29 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bozcaada_Sunset.jpg
+m/h25-datca.jpg — Datça'da gün batımı.jpg — Kadir DOĞAN 07 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dat%C3%A7a%27da_g%C3%BCn_bat%C4%B1m%C4%B1.jpg
+m/h25-cappadocia.jpg — Balloons Cappadocia Toni Salabasev.jpg — Salabasev — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Balloons_Cappadocia_Toni_Salabasev.jpg
+m/h25-pamukkale.jpg — Pastel Hues Of Sunset Pamukkale (227577267).jpeg — Angshuman Chatterjee — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Pastel_Hues_Of_Sunset_Pamukkale_(227577267).jpeg
+m/h25-nemrutdagi.jpg — APOLLON NEMRUT MOUNTAIN.jpg — Mkrc85 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:APOLLON_NEMRUT_MOUNTAIN.jpg
+m/h25-positano.jpg — Il San Pietro di Positano (37279196291).jpg — Kent Wang from London, United Kingdom — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Il_San_Pietro_di_Positano_(37279196291).jpg
+m/h25-amalfi.jpg — Amalfi Coast at Night (42919358392).jpg — Nan Palmero from San Antonio, TX, USA — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Amalfi_Coast_at_Night_(42919358392).jpg
+m/h25-kotor.jpg — Kotor (222878987).jpeg — Christoph Wurst — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Kotor_(222878987).jpeg
+m/h25-dubrovnik.jpg — Stone stairway in Dubrovnik Old Town at night 2023.jpg — Furkan Akkurt — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Stone_stairway_in_Dubrovnik_Old_Town_at_night_2023.jpg
+m/h25-bellagio.jpg — Bellagio by night.jpg — Uppa66 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bellagio_by_night.jpg
+m/h25-venicenight.jpg — Piazzetta San Marco Venice BLS.jpg — Benh LIEU SONG — Public domain — https://commons.wikimedia.org/wiki/File:Piazzetta_San_Marco_Venice_BLS.jpg
+m/h25-hallstatt.jpg — Hallstatt at night.jpg — Thomas Fabian — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Hallstatt_at_night.jpg
+m/h25-moonclouds.jpg — Waxing moon behind cirrostratus cloud.jpg — W.carter — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Waxing_moon_behind_cirrostratus_cloud.jpg
+m/h25-macka.jpg — Altındere Valley National Park 02.jpg — BSRF — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Alt%C4%B1ndere_Valley_National_Park_02.jpg
+m/h25-murano.jpg — Glassblower. Venice. Italy.jpg — Valentina Dyptan — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Glassblower._Venice._Italy.jpg
+m/h25-bookbar.jpg — Lounge of Whid-Isle Inn, San de Fuca, Wash., ca. 1925 - DPLA - 3e874a326c7c0724682cf98edcc9e42d (page 1).jpg — unknown photographer (DPLA) — Public domain — https://commons.wikimedia.org/wiki/File:Lounge_of_Whid-Isle_Inn,_San_de_Fuca,_Wash.,_ca._1925_-_DPLA_-_3e874a326c7c0724682cf98edcc9e42d_(page_1).jpg

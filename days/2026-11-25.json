@@ -1,0 +1,1093 @@
+{
+ "date": "2026-11-25",
+ "rev": 84,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-25.py. 17:00–02:00 = DJ Taş evening (Jazz House Lounge → Sunset 19:00 → Night 22:00, synced with the HomePod playlists; stills only at night, no video). Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-25-09",
+   "name": "Çarşamba Sabahı · Wednesday Morning",
+   "from": "2026-11-25T09:00",
+   "until": "2026-11-25T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-meydan.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Atatürk Alanı · Trabzon",
+     "tr": "Trabzon’un kalbi: güne başlayan Atatürk Alanı",
+     "en": "The heart of Trabzon: Atatürk Square starting its day",
+     "cr": "Foto · Photo: Robot8A · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Trabzonlular burayı kısaca “Meydan” diye anar; şehirde buluşma sözü çoğu zaman burada verilir",
+     "facte": "Locals simply call it “Meydan” (the Square) — in Trabzon, “let’s meet” usually means here"
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Kalbin yolu bilir;|o yöne koş",
+     "en": "Your heart knows the way — run in that direction",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-macka.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Altındere Vadisi Milli Parkı · Maçka",
+     "tr": "Maçka’da Altındere Vadisi: ormanla kaplı yamaçlar",
+     "en": "The Altındere Valley at Maçka: slopes covered in forest",
+     "cr": "Foto · Photo: BSRF · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Sümela Manastırı bu vadide, deniz seviyesinden yaklaşık 1.200 metre yükseklikte bir kayalığın yüzüne kurulu",
+     "facte": "Sümela Monastery stands in this valley, built into a cliff face about 1,200 m above sea level"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "41°",
+     "tr": "Trabzon kuzey yarımkürede 41. enlemde: İstanbul, Roma ve New York ile hemen hemen aynı çizgide",
+     "en": "Trabzon lies at about 41° north — almost on the same line as Istanbul, Rome and New York",
+     "src": "Haritada bir çizgi · One line on the map",
+     "c1": "#13242c",
+     "c2": "#04080a"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-akcaabat.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Akçaabat · Trabzon",
+     "tr": "Akçaabat’ta Ak Camii ve yamaca yaslanan evler",
+     "en": "The Ak Mosque in Akçaabat and the houses leaning on the hillside",
+     "cr": "Foto · Photo: miketnorton · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Akçaabat, adını taşıyan köftesiyle Türkiye’nin dört bir yanında bilinir",
+     "facte": "Akçaabat is known all over Turkey for the meatballs that carry its name"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ne kadar çok kurularsa,|o kadar ıslanır. Nedir?",
+     "qe": "The more it dries, the wetter it gets. What is it?",
+     "a": "Havlu!",
+     "ae": "A towel!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-25-10",
+   "name": "Yaşayan Sanat: Görünmeyenin İzi — Brown Hareketi · Living Art: Traces of the Invisible — Brownian Motion",
+   "from": "2026-11-25T10:00",
+   "until": "2026-11-25T11:00",
+   "items": [
+    {
+     "k": "hzbrown",
+     "d": 96
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-pollen.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Polen taneleri · Pollen grains (elektron mikroskobu, renklendirilmiş · electron microscope, colourised)",
+     "tr": "Ayçiçeği, gündüzsefası, gülhatmi ve zambak polenleri, binlerce kez büyütülmüş",
+     "en": "Pollen of sunflower, morning glory, hollyhock and lily, magnified thousands of times",
+     "cr": "Foto · Photo: Dartmouth Electron Microscope Facility · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Bir polen tanesi genelde 0,01–0,1 mm. Robert Brown’un 1827’de titrerken gördüğü tanecikler, polenin içinden çıkan çok daha küçük parçacıklardı",
+     "facte": "A pollen grain is usually 0.01–0.1 mm. The particles Robert Brown saw jiggling in 1827 were far smaller specks released from inside pollen",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Atomların var olduğunu nasıl kanıtladık?",
+     "e": "How did we prove that atoms exist?",
+     "c1": "#16222c",
+     "c2": "#04080a",
+     "gap": 8,
+     "steps": [
+      [
+       "1827: Robert Brown, sudaki minik taneciklerin durmadan titrediğini gördü; önce canlı sandı",
+       "1827: Robert Brown saw tiny particles in water jiggling non-stop — at first he thought they were alive",
+       "🔬"
+      ],
+      [
+       "Sonra taş tozuyla denedi: o da titriyordu. Demek ki canlılıkla ilgisi yoktu",
+       "Then he tried dust from rock — it jiggled too. So life had nothing to do with it",
+       ""
+      ],
+      [
+       "1905: Einstein hesapladı: su moleküllerden oluşuyorsa, tanecik zamanın kareköküyle orantılı uzaklaşmalı",
+       "1905: Einstein calculated that if water is made of molecules, a particle should drift away in proportion to the square root of time",
+       ""
+      ],
+      [
+       "1908: Jean Perrin mikroskopla ölçtü, tahmin tuttu; molekül sayısını bile hesapladı. 1926’da Nobel aldı",
+       "1908: Jean Perrin measured it under the microscope — the prediction held, and he even counted the molecules. He won the Nobel Prize in 1926",
+       ""
+      ]
+     ],
+     "fin": "Görünmeyeni, bıraktığı izden ölçebilirsin",
+     "fine": "You can measure the invisible from the traces it leaves"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-einstein1905.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bern · Patent Ofisi · Patent Office",
+     "tr": "Einstein, Bern’deki patent ofisinde, 1904 dolaylarında",
+     "en": "Einstein at the patent office in Bern, around 1904",
+     "cr": "Foto · Photo: Lucien Chavan · kamu malı · public domain · Wikimedia Commons",
+     "fact": "1905’te, hâlâ patent memuruyken dört çığır açan makale yayımladı; biri Brown hareketini açıklıyordu",
+     "facte": "In 1905, while still a patent clerk, he published four groundbreaking papers — one of them explained Brownian motion",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "8 × 10²⁴",
+     "tr": "Bir su bardağında (250 ml) yaklaşık 8 × 10²⁴ su molekülü var: Dünya’daki bütün kumsallardaki kum tanelerinden kat kat fazla",
+     "en": "A 250 ml glass holds about 8 × 10²⁴ water molecules — many times more than all the grains of sand on all the world’s beaches",
+     "src": "Bir bardak su · One glass of water",
+     "c1": "#14202a",
+     "c2": "#04070a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Suya bir damla mürekkep damlatırsan,|karıştırmasan da neden yayılır?",
+     "qe": "Drop ink into water — why does it spread even if you don’t stir?",
+     "a": "Moleküller durmadan çarpışıyor: yine Brown hareketi. Sıcak suda daha hızlı yayılır",
+     "ae": "The molecules never stop colliding — Brownian motion again. It spreads faster in warm water",
+     "sec": 20,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-25-11",
+   "name": "Nefes Kesen Yerler: Kanyonlar · Breathtaking Places: Canyons",
+   "from": "2026-11-25T11:00",
+   "until": "2026-11-25T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h25-antelope.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Antelope Kanyonu, Arizona · Antelope Canyon",
+     "tr": "Dar kanyonun tepesindeki yarıktan inen bir ışık sütunu",
+     "en": "A beam of light falling through the slot at the top of the narrow canyon",
+     "cr": "Foto · Photo: Mferbfriske · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Kanyonu ani sel suları kumtaşını oyarak açtı; ışık sütunları en çok ilkbahar ve yaz öğlelerinde görülür",
+     "facte": "Flash floods carved this canyon out of sandstone — the light beams appear mostly around noon in spring and summer"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-horseshoe.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Horseshoe Bend, Arizona",
+     "tr": "Colorado Nehri burada kayayı at nalı biçiminde dolanıyor",
+     "en": "Here the Colorado River loops around the rock in the shape of a horseshoe",
+     "cr": "Foto · Photo: Luca Galuzzi · CC BY-SA 2.5 · Wikimedia Commons",
+     "fact": "Kayalığın kenarından nehre yaklaşık 300 metre",
+     "facte": "From the cliff edge down to the river is about 300 m"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-saklikent.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Saklıkent Kanyonu · Fethiye, Muğla",
+     "tr": "Saklıkent’in oyulmuş kayaları",
+     "en": "The carved rock walls of Saklıkent",
+     "cr": "Foto · Photo: Alarablcsy · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yaklaşık 18 km uzunluğunda; yaz ortasında bile içinden akan su buz gibidir",
+     "facte": "About 18 km long — even in midsummer the water running through it is icy cold"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-fishriver.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Fish River Kanyonu, Namibya · Fish River Canyon",
+     "tr": "Namibya çölünde kıvrılan Fish River Kanyonu",
+     "en": "The Fish River Canyon winding through the Namibian desert",
+     "cr": "Foto · Photo: Thomas Schoch · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Afrika’nın en büyük kanyonu: yaklaşık 160 km uzunluğunda, yer yer 550 metre derinliğinde",
+     "facte": "Africa’s largest canyon — about 160 km long and up to 550 m deep"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-verdon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Verdon Vadisi, Fransa · Gorges du Verdon",
+     "tr": "Verdon’un kayalıklarında bir dağ keçisi; aşağıda derin vadi",
+     "en": "A goat on the cliffs of the Verdon, the deep gorge below",
+     "cr": "Foto · Photo: Dirk Beyer · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Yer yer 700 metreye varan derinliğiyle Avrupa’nın en etkileyici kanyonlarından biri",
+     "facte": "Up to about 700 m deep in places — one of Europe’s most dramatic canyons"
+    },
+    {
+     "k": "hzchoose",
+     "d": 40,
+     "q": "Bir kanyonu nasıl yaşamak isterdin?",
+     "qe": "How would you rather experience a canyon?",
+     "a": {
+      "f": "m/h25-horseshoe.jpg",
+      "t": "Tepeden bakmak",
+      "e": "Looking down from the top",
+      "tag": "Horseshoe Bend, Arizona"
+     },
+     "b": {
+      "f": "m/h25-saklikent.jpg",
+      "t": "Dibinde, suyun içinde",
+      "e": "Down at the bottom, in the water",
+      "tag": "Saklıkent, Muğla"
+     },
+     "p": "Herkes birini seçsin, sonra nedenini söylesin",
+     "pe": "Everyone picks one — then says why",
+     "cr": "Fotoğraflar · Photos: Luca Galuzzi · CC BY-SA 2.5; Alarablcsy · CC BY-SA 4.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "h-11-25-12",
+   "name": "Camın Şiiri · Poetry in Glass",
+   "from": "2026-11-25T12:00",
+   "until": "2026-11-25T13:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h25-chartres.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Chartres Katedrali, Fransa · Chartres Cathedral",
+     "tr": "Güney gül penceresi: renkli camdan bir çiçek",
+     "en": "The south rose window — a flower made of coloured glass",
+     "cr": "Foto · Photo: Ludwig Schneider · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Chartres’ın vitraylarının çoğu 13. yüzyıldan kalma; derin maviler “Chartres mavisi” diye ünlüdür",
+     "facte": "Most of Chartres’ stained glass dates from the 13th century — its deep blues are famous as “Chartres blue”",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h25-nasir.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Nasırülmülk Camii, Şiraz · Nasir al-Mulk Mosque, Shiraz",
+     "tr": "Sabah güneşi renkli camlardan geçip halıların üstüne düşüyor",
+     "en": "Morning sun pours through coloured glass onto the carpets",
+     "cr": "Foto · Photo: Ayyoubsabawiki · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "1888’de tamamlandı; renkler en güzel sabah erken saatte görünür. Pembe çinileri yüzünden “Pembe Cami” de denir",
+     "facte": "Completed in 1888, its colours are best early in the morning — its pink tiles earned it the name “Pink Mosque”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-sainte.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sainte-Chapelle, Paris",
+     "tr": "Üst şapelin duvarları neredeyse tamamen camdan",
+     "en": "The walls of the upper chapel are almost entirely glass",
+     "cr": "Foto · Photo: Gerda Arendt · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "1248’de kutsandı; 15 büyük pencerede 1.113 sahne anlatılır",
+     "facte": "Consecrated in 1248 — its 15 great windows tell 1,113 scenes"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-murano.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Venedik · Venice",
+     "tr": "Venedik’te ateşin başında çalışan bir cam ustası",
+     "en": "A glassmaker working at the flame in Venice",
+     "cr": "Foto · Photo: Valentina Dyptan · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "1291’de Venedik, yangın tehlikesi yüzünden cam ocaklarını Murano adasına taşıdı; ada bugün hâlâ camıyla ünlü",
+     "facte": "In 1291 Venice moved its glass furnaces to the island of Murano because of the fire risk — the island is still famous for glass"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-millefiori.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Millefiori · cam ağırlık · glass paperweight",
+     "tr": "Bin çiçek: ince renkli cam çubuklardan dilimlerle yapılmış bir desen",
+     "en": "A thousand flowers: a pattern made from slices of thin coloured glass canes",
+     "cr": "Foto · Photo: W.carter · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "“Millefiori” İtalyanca “bin çiçek” demek. Renkli cam çubuk çekilip incelir, sonra dilimlenir: desen çubuğun boydan boya içindedir",
+     "facte": "“Millefiori” is Italian for “a thousand flowers”. A coloured glass rod is pulled thin, then sliced — the pattern runs all the way through it",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-beykoz.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Bursa Türk İslam Eserleri Müzesi · Museum of Turkish and Islamic Art, Bursa",
+     "tr": "Müzede burgu desenli cam eserler",
+     "en": "Glass pieces with twisted patterns in the museum",
+     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Beyaz ve renkli şeritlerin burgulandığı bu desen, 19. yüzyılda İstanbul’da yapılan “çeşm-i bülbül” (bülbül gözü) camlarını hatırlatır",
+     "facte": "This twist of white and coloured threads recalls the “çeşm-i bülbül” (nightingale’s eye) glass made in 19th-century Istanbul"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Cam aslında neyden yapılır?",
+     "qe": "What is glass actually made from?",
+     "a": "Kumdan! Çoğunlukla kuvars kumu, soda ve kireç; yaklaşık 1.500 °C’de eritilir",
+     "ae": "Sand! Mostly quartz sand with soda and lime, melted at about 1,500 °C",
+     "sec": 18,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-25-13",
+   "name": "Büyük Ustalardan: Turner’ın Işığı ve Fırtınası · From the Great Masters: Turner’s Light & Storm",
+   "from": "2026-11-25T13:00",
+   "until": "2026-11-25T14:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h25-rainsteam.jpg",
+     "lb": "Gerçek Eser · Real Artwork · J. M. W. Turner, 1844",
+     "tr": "Yağmur, Buhar ve Hız — Great Western Demiryolu",
+     "en": "Rain, Steam and Speed — The Great Western Railway",
+     "cr": "Eser · Artwork: J. M. W. Turner · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Maidenhead köprüsünde bir tren sisin içinden geliyor. İyi bak: rayların üstünde trenin önünden kaçan küçük bir tavşan saklı",
+     "facte": "A train comes through the mist on the Maidenhead bridge. Look closely: a small hare is running ahead of it on the tracks",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h25-fishermen.jpg",
+     "lb": "Gerçek Eser · Real Artwork · J. M. W. Turner, 1796",
+     "tr": "Denizde Balıkçılar",
+     "en": "Fishermen at Sea",
+     "cr": "Eser · Artwork: J. M. W. Turner · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Turner’ın Kraliyet Akademisi’nde sergilenen ilk yağlı boya tablosu; o sırada 21 yaşındaydı",
+     "facte": "Turner’s first oil painting shown at the Royal Academy — he was 21",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 36,
+     "tr": "Sanki renkli buharla boyuyor",
+     "en": "He seems to paint with tinted steam",
+     "pal": "clay",
+     "lb": "Ressamın Sözü · A Painter’s Words",
+     "by": "John Constable, Turner için · on Turner"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h25-snowstorm.jpg",
+     "lb": "Gerçek Eser · Real Artwork · J. M. W. Turner, 1842",
+     "tr": "Kar Fırtınası — Liman Ağzında Bir Buharlı Gemi",
+     "en": "Snow Storm — Steam-Boat off a Harbour’s Mouth",
+     "cr": "Eser · Artwork: J. M. W. Turner · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Turner, fırtınayı görmek için kendini dört saat geminin direğine bağlattığını anlatırdı; hikâye bugün tartışmalı",
+     "facte": "Turner claimed he had himself tied to a ship’s mast for four hours to watch the storm — the story is debated today",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h25-norham.jpg",
+     "lb": "Gerçek Eser · Real Artwork · J. M. W. Turner, yaklaşık · about 1845",
+     "tr": "Norham Kalesi, Gün Doğumu",
+     "en": "Norham Castle, Sunrise",
+     "cr": "Eser · Artwork: J. M. W. Turner · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Turner bu kaleyi ilk kez 1797’de çizdi; neredeyse 50 yıl sonra onu yalnızca ışık ve renkle yeniden boyadı",
+     "facte": "Turner first drew this castle in 1797 — almost 50 years later he painted it again with nothing but light and colour",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "30.000",
+     "tr": "Turner öldüğünde ardında yaklaşık 300 yağlı boya ve 30.000 kadar çizim ve suluboya bıraktı; hepsini İngiliz ulusuna vasiyet etti",
+     "en": "When Turner died he left about 300 oil paintings and some 30,000 sketches and watercolours — all bequeathed to the British nation",
+     "src": "Turner Vasiyeti · The Turner Bequest",
+     "c1": "#2a2420",
+     "c2": "#0a0806"
+    }
+   ]
+  },
+  {
+   "id": "h-11-25-14",
+   "name": "Gökyüzünün Harikaları: Ay · Wonders of the Sky: The Moon",
+   "from": "2026-11-25T14:00",
+   "until": "2026-11-25T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-fullmoon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Dolunay · Full Moon",
+     "tr": "Dolunay: koyu lekeler, eski lav düzlükleri olan “denizler”",
+     "en": "The full Moon — the dark patches are “seas” of ancient lava",
+     "cr": "Foto · Photo: Gregory H. Revera · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Ay bize hep aynı yüzünü gösterir: kendi çevresinde bir tur dönmesi, Dünya’nın çevresinde bir tur dolaşması kadar sürer",
+     "facte": "The Moon always shows us the same face — it takes exactly as long to spin once as to circle the Earth once",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-footprint.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Apollo 11, 1969",
+     "tr": "Buzz Aldrin’in Ay tozundaki bot izi",
+     "en": "Buzz Aldrin’s bootprint in the lunar dust",
+     "cr": "Foto · Photo: NASA (Buzz Aldrin) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ay’da rüzgâr ve yağmur olmadığı için bu izler milyonlarca yıl yerinde kalabilir",
+     "facte": "With no wind or rain on the Moon, these prints can last for millions of years"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "Ay ne kadar uzakta?",
+     "e": "How far away is the Moon?",
+     "c1": "#141c2a",
+     "c2": "#04060a",
+     "gap": 7,
+     "steps": [
+      [
+       "Ortalama 384.400 km",
+       "On average 384,400 km",
+       "🌕"
+      ],
+      [
+       "Işık bu yolu yaklaşık 1,3 saniyede alır",
+       "Light covers it in about 1.3 seconds",
+       ""
+      ],
+      [
+       "Saatte 100 km giden bir arabayla, hiç durmadan yaklaşık 160 gün",
+       "By car at 100 km/h, without stopping: about 160 days",
+       ""
+      ],
+      [
+       "Ay her yıl yaklaşık 3,8 cm uzaklaşıyor; Apollo’nun bıraktığı aynalara lazer atılarak ölçülüyor",
+       "Each year the Moon drifts about 3.8 cm farther — measured by bouncing lasers off mirrors left by Apollo",
+       ""
+      ]
+     ],
+     "fin": "Kolunu uzat: serçe parmağının tırnağı dolunayı tamamen kapatır",
+     "fine": "Hold out your arm — your little fingernail covers the whole full Moon"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-tycho.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tycho Krateri · Tycho Crater (LRO)",
+     "tr": "Ay yörüngesindeki LRO’nun gözünden Tycho kraterinin merkez tepesi",
+     "en": "The central peak of Tycho crater, seen by the Lunar Reconnaissance Orbiter",
+     "cr": "Foto · Photo: NASA / GSFC / Arizona State Univ. (LRO) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Tycho yaklaşık 108 milyon yaşında, Ay’ın genç büyük kraterlerinden; dolunayda ondan yayılan parlak ışınlar dürbünle görülür",
+     "facte": "Tycho is about 108 million years old, one of the Moon’s young large craters — at full Moon its bright rays can be seen with binoculars",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-bloodmoon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Tam Ay tutulması · Total lunar eclipse, 28.09.2015",
+     "tr": "Bir Ay tutulmasının evreleri: Ay kızıla dönüyor",
+     "en": "The stages of a lunar eclipse — the Moon turning red",
+     "cr": "Foto · Photo: Friedrich Böhringer · CC BY-SA 3.0 AT · Wikimedia Commons",
+     "fact": "Kızıl renk, Dünya atmosferinden süzülen ışık: o an Dünya’nın çevresindeki bütün gün doğumları ve batımları Ay’ı aydınlatır",
+     "facte": "The red is light filtered through Earth’s air — at that moment all the sunrises and sunsets around the Earth are lighting the Moon",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ay ufka yakınken|neden daha büyük görünür?",
+     "qe": "Why does the Moon look bigger near the horizon?",
+     "a": "Aslında büyümez! Fotoğrafta ölçünce boyu aynı: beyin ufuktaki şeyleri daha uzak sanıp büyütüyor",
+     "ae": "It doesn’t actually grow — measure it in a photo and it’s the same size. The brain thinks things on the horizon are farther away and enlarges them",
+     "sec": 20,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-25-15",
+   "name": "Göz Oyunları: Beynin Eklediği Işık · Tricks of the Eye: Light the Brain Adds",
+   "from": "2026-11-25T15:00",
+   "until": "2026-11-25T16:00",
+   "items": [
+    {
+     "k": "hzehren",
+     "d": 50
+    },
+    {
+     "k": "hzcorn",
+     "d": 44
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "Kör nokta",
+     "tr": "Her gözde, görme sinirinin çıktığı yerde ışık algılayıcısı olmayan bir nokta var. Hiç fark etmeyiz: beyin o boşluğu çevreden tahminle doldurur",
+     "en": "Each eye has a spot with no light receptors, where the optic nerve leaves. We never notice — the brain fills the gap with a guess from the surroundings",
+     "src": "Gözün sırrı · A secret of the eye",
+     "c1": "#1c2228",
+     "c2": "#06080a"
+    },
+    {
+     "k": "hzwhite",
+     "d": 44
+    },
+    {
+     "k": "hzhermann",
+     "d": 40
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "İki gözünü de açıkken|kör noktanı neden görmezsin?",
+     "qe": "With both eyes open, why don’t you see your blind spot?",
+     "a": "Çünkü iki gözün kör noktaları farklı yerlere düşer: biri ötekinin eksiğini kapatır",
+     "ae": "Because the two blind spots fall in different places — each eye covers for the other",
+     "sec": 18,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-25-16",
+   "name": "Zekice Düşünce: Şansın Kartopu · Clever Thinking: The Snowball of Luck",
+   "from": "2026-11-25T16:00",
+   "until": "2026-11-25T17:00",
+   "items": [
+    {
+     "k": "hzpolya",
+     "d": 96
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Bir şarkı neden birden herkesin şarkısı olur?",
+     "e": "Why does one song suddenly become everyone’s song?",
+     "c1": "#1a2228",
+     "c2": "#05080a",
+     "gap": 7,
+     "steps": [
+      [
+       "2006: Columbia Üniversitesi’nde 14.000’i aşkın kişi, bilinmeyen 48 şarkıyı dinleyip indirebildi",
+       "2006: at Columbia University more than 14,000 people could listen to and download 48 unknown songs",
+       "🎧"
+      ],
+      [
+       "Katılımcılar gizlice 8 ayrı “dünyaya” bölündü; her dünyada yalnızca o dünyanın indirme sayıları görünüyordu",
+       "Participants were secretly split into 8 separate “worlds” — each saw only its own download counts",
+       ""
+      ],
+      [
+       "Sonuç: her dünyanın hit listesi farklı çıktı. Erken şanslı indirmeler kartopu gibi büyüdü",
+       "The result: every world ended up with a different hit list. Early lucky downloads snowballed",
+       ""
+      ],
+      [
+       "İyi şarkılar nadiren dibe düştü, kötüler nadiren zirveye çıktı; aradaki her şeyi şans belirledi",
+       "Good songs rarely sank, bad ones rarely topped the chart — luck decided everything in between",
+       ""
+      ]
+     ],
+     "fin": "Kalite kapıyı açar; şans kimin önce gireceğine karar verir",
+     "fine": "Quality opens the door — luck decides who gets in first"
+    },
+    {
+     "k": "hzfact",
+     "d": 36,
+     "big": "Matta etkisi",
+     "tr": "Sosyolog Robert Merton 1968’de fark etti: aynı işi yapan iki bilim insanından ünlü olan daha çok övgü alıyor. Adını “kimde varsa ona daha çok verilecek” sözünden aldı",
+     "en": "Sociologist Robert Merton noticed in 1968 that of two scientists doing the same work, the famous one gets more credit — named after the saying “to everyone who has, more will be given”",
+     "src": "The Matthew effect",
+     "c1": "#1e2228",
+     "c2": "#06080a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir zarı 6 kez atarsan,|en az bir kez 6 gelme olasılığı kaç?",
+     "qe": "Roll a die 6 times — what are the chances of at least one six?",
+     "a": "Yaklaşık %66,5 — kesin değil! 1 − (5/6)⁶",
+     "ae": "About 66.5% — not certain! 1 − (5/6)⁶",
+     "sec": 22,
+     "c1": "#22303a",
+     "c2": "#06090c",
+     "hint": "%100 değil · not 100%"
+    },
+    {
+     "k": "hzquote",
+     "d": 36,
+     "tr": "Şans, hazırlıklı zihinlerden yanadır",
+     "en": "Chance favours only the prepared mind",
+     "pal": "ink",
+     "lb": "Bilim Sözü · Science Saying",
+     "by": "Louis Pasteur, 1854"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-25-17",
+   "name": "DJ Taş · Caz House Lounge · Jazz House Lounge — Riviera gecesi · a Riviera night",
+   "from": "2026-11-25T17:00",
+   "until": "2026-11-25T18:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 32,
+     "f": "m/h25-rooftop.jpg",
+     "lb": "DJ Taş · Sadece Sen — Gerçek Fotoğraf · Real Photo · bir lounge bar · a lounge bar",
+     "lines": [
+      [
+       "DJ Taş",
+       7.2
+      ],
+      [
+       "Bu akşam · Tonight",
+       3.4
+      ]
+     ],
+     "tr": "Üç perdelik bir akşam: Caz House Lounge → Gün Batımı (19:00) → Gece (22:00). Müzik HomePod’da",
+     "en": "An evening in three acts: Jazz House Lounge → Sunset (19:00) → Night (22:00). Music on the HomePod",
+     "cr": "Foto · Photo: PattayaPatrol · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzplak",
+     "d": 64
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-bass.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Kontrbas · Double bass",
+     "tr": "Bir kontrbasçı: caz house’un sıcak bas çizgisinin kökü",
+     "en": "A double bass player — the root of jazz house’s warm basslines",
+     "cr": "Foto · Photo: Thomas Quine · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Kontrbas, keman ailesinin en büyüğü; cazda çoğunlukla yayla değil parmakla çalınır (pizzicato)",
+     "facte": "The double bass is the largest of the violin family — in jazz it is mostly plucked with the fingers (pizzicato), not bowed",
+     "pos": "50% 35%"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-rhodes.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Fender Rhodes",
+     "tr": "Caz house’un yumuşak akorlarının sesi: bir Rhodes elektrikli piyanosu",
+     "en": "The sound of jazz house’s soft chords: a Rhodes electric piano",
+     "cr": "Foto · Photo: CasinoKat · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Rhodes’da tel yok: çekiçler ince metal çubuklara vurur, titreşimi manyetik bir mikrofon toplar",
+     "facte": "A Rhodes has no strings — hammers strike thin metal tines and a magnetic pickup catches the vibration"
+    },
+    {
+     "k": "hzlissa",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-eze.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Èze, Fransız Rivierası · French Riviera",
+     "tr": "Kayalığın tepesindeki Èze köyü ve uzakta Cap Ferrat",
+     "en": "The village of Èze on its rock, Cap Ferrat beyond",
+     "cr": "Foto · Photo: Tobi 87 · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Èze, denizden yaklaşık 430 metre yükseklikte bir kayanın üstüne kurulmuş “kartal yuvası” köylerinden",
+     "facte": "Èze is one of the “eagle’s nest” villages, perched on a rock about 430 m above the sea"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "118–125",
+     "tr": "Deep ve caz house çoğunlukla dakikada 118–125 vuruş arasında çalınır: dans etmeye yeter, sohbeti bölmez",
+     "en": "Deep and jazz house usually run at 118–125 beats per minute — enough to dance to, never loud enough to stop a conversation",
+     "src": "Bu akşamın temposu · Tonight’s tempo",
+     "c1": "#24181a",
+     "c2": "#080506"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-25-18",
+   "name": "Caz House Lounge · Jazz House Lounge — Villa Fikri: Akşam Köşeleri · Villa Idea: Evening Corners",
+   "from": "2026-11-25T18:00",
+   "until": "2026-11-25T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-villefranche.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Villefranche-sur-Mer, Riviera",
+     "tr": "Riviera’da sakin bir koy ve demirli yelkenliler",
+     "en": "A quiet Riviera bay with sailboats at anchor",
+     "cr": "Foto · Photo: Rundvald · kamu malı · public domain · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h25-speakeasy.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Mind Palace Bar)",
+     "tr": "Alt katta küçük bir speakeasy köşesi: koyu ahşap, yeşil kadife tabureler, arkadan ışıklı raflar",
+     "en": "A small speakeasy corner downstairs: dark wood, green velvet stools, back-lit shelves",
+     "cr": "Foto · Photo: Sherlock: Escape Rooms · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "“Speakeasy” adı ABD’deki içki yasağı yıllarından (1920–33) gelir: içeride sesini alçaltarak, “speak easy” konuşurdun",
+     "facte": "“Speakeasy” comes from the US Prohibition years (1920–33) — inside you kept your voice down and “spoke easy”"
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Kalbinde tutuşmaya hazır|bir mum var",
+     "en": "There is a candle in your heart, ready to be kindled",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h25-bookbar.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Whid-Isle Inn, Washington, 1925 dolayları · about 1925)",
+     "tr": "Şöminenin önünde koltuklar, raflarda kitaplar: misafirlerin akşam toplandığı bir oda",
+     "en": "Armchairs by the fire, books on the shelves — a room where guests gather in the evening",
+     "cr": "Foto · Photo: bilinmeyen fotoğrafçı · unknown photographer (DPLA) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Fikir: taş duvarın önüne kitap rafı ve iki deri koltuk — Sadece Sen misafirleri için akşamları bir “kütüphane bar”",
+     "facte": "Idea: a bookshelf and two leather armchairs against the stone wall — a “library bar” for Sadece Sen guests in the evening"
+    },
+    {
+     "k": "hzflow",
+     "d": 56
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Negroni",
+     "tr": "Söylenceye göre 1919’da Floransa’da Kont Camillo Negroni, Americano’sundaki soda yerine cin istedi; doğan kokteyle onun adı verildi",
+     "en": "Legend has it that in 1919 in Florence, Count Camillo Negroni asked for gin instead of soda in his Americano — the new cocktail took his name",
+     "src": "Bir kokteylin hikâyesi · The story of a cocktail",
+     "c1": "#2a1416",
+     "c2": "#0a0506"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-25-19",
+   "name": "Gün Batımı · Sunset — Karadeniz kıyıları · Black Sea shores",
+   "from": "2026-11-25T19:00",
+   "until": "2026-11-25T20:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 30,
+     "f": "m/h25-amasra.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gerçek Fotoğraf · Real Photo · Amasra, Bartın",
+     "lines": [
+      [
+       "Gün Batımı",
+       6.4
+      ],
+      [
+       "Sunset",
+       3.6
+      ]
+     ],
+     "tr": "Liste değişti: şimdi “Sadece Sen Sunset” çalıyor",
+     "en": "The playlist has changed — now playing “Sadece Sen Sunset”",
+     "cr": "Foto · Photo: Bertilvidet · CC BY 2.5 · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-giresunisland.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Giresun Adası · Giresun Island",
+     "tr": "Akşamüstü Karadeniz’de Giresun Adası",
+     "en": "Giresun Island on the Black Sea in the late afternoon",
+     "cr": "Foto · Photo: Dr. Zeynel Cebeci · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Doğu Karadeniz kıyısımızdaki tek ada; mitolojide Argonotların uğradığı Aretias adası olduğu düşünülür",
+     "facte": "The only island off Turkey’s eastern Black Sea coast — thought to be Aretias, where the Argonauts landed in myth"
+    },
+    {
+     "k": "hzmoire",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-sile.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Şile Feneri · Şile Lighthouse, İstanbul",
+     "tr": "Şile’nin siyah-beyaz çizgili deniz feneri",
+     "en": "Şile’s black-and-white striped lighthouse",
+     "cr": "Foto · Photo: Alexander314 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "1859’da yapıldı; bugün de Karadeniz’den Boğaz’a gelen gemilere yol gösteriyor",
+     "facte": "Built in 1859, it still guides ships coming from the Black Sea towards the Bosphorus"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h25-kefken.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Kefken Adası · Kefken Island, Kocaeli",
+     "tr": "Kefken Adası, yukarıdan: turkuaz suyla çevrili küçük bir ada",
+     "en": "Kefken Island from above — a small island ringed by turquoise water",
+     "cr": "Foto · Photo: Kocaeli Kameraman Şadi Akdoğan · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-amasra.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Amasra, Bartın",
+     "tr": "Amasra’da güneş kayalıkların arasından denize iniyor",
+     "en": "The sun sinking into the sea between the rocks at Amasra",
+     "cr": "Foto · Photo: Bertilvidet · CC BY 2.5 · Wikimedia Commons",
+     "fact": "Amasra’nın iki limanını Bizans ve Ceneviz dönemlerinden kalma kale surları çevreler",
+     "facte": "Amasra’s two harbours are framed by castle walls from the Byzantine and Genoese eras"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-25-20",
+   "name": "Gün Batımı · Sunset — Ege ve Adriyatik · Aegean & Adriatic",
+   "from": "2026-11-25T20:00",
+   "until": "2026-11-25T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h25-ayvalik.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Şeytan Sofrası, Ayvalık",
+     "tr": "Şeytan Sofrası’ndan adalara inen akşam",
+     "en": "Evening settling over the islands from Şeytan Sofrası",
+     "cr": "Foto · Photo: by rock · CC BY 3.0 · Wikimedia Commons",
+     "fact": "Ayvalık’ın önünde 20’den fazla ada var; en büyüğü Cunda",
+     "facte": "More than 20 islands lie off Ayvalık — the largest is Cunda"
+    },
+    {
+     "k": "hzfourier",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-bozcaada.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Bozcaada",
+     "tr": "Bozcaada’da gün batımı",
+     "en": "Sunset on Bozcaada",
+     "cr": "Foto · Photo: Glassmug29 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Ada bağlarıyla ve rüzgârıyla bilinir; Polente Feneri’nde güneşi batırmak adanın akşam ritüelidir",
+     "facte": "The island is known for its vineyards and wind — watching the sun go down at Polente Lighthouse is its evening ritual"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-datca.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Datça",
+     "tr": "Datça’da koylara inen güneş",
+     "en": "The sun going down over the coves of Datça",
+     "cr": "Foto · Photo: Kadir DOĞAN 07 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Datça Yarımadası, Ege ile Akdeniz’in buluştuğu yerde uzanır",
+     "facte": "The Datça peninsula stretches out where the Aegean meets the Mediterranean"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Mavi saat",
+     "tr": "Güneş ufkun birkaç derece altına inince gökyüzü kısa bir süre derin maviye döner; fotoğrafçıların sevdiği bu ana “mavi saat” denir",
+     "en": "When the sun sinks a few degrees below the horizon, the sky turns deep blue for a short while — photographers call it the “blue hour”",
+     "src": "Blue hour · Akşamın rengi · The colour of evening",
+     "c1": "#14203a",
+     "c2": "#04060c"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-kotor.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Kotor Körfezi, Karadağ · Bay of Kotor, Montenegro",
+     "tr": "Kotor Körfezi’nde dağların ardında son ışık",
+     "en": "The last light behind the mountains of the Bay of Kotor",
+     "cr": "Foto · Photo: Christoph Wurst · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Çoğu kişi fiyort sanır ama aslında deniz basmış eski bir nehir kanyonudur",
+     "facte": "Many people take it for a fjord, but it is really an old river canyon flooded by the sea"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-25-21",
+   "name": "Gün Batımı · Sunset — Anadolu’da son ışık · last light in Anatolia",
+   "from": "2026-11-25T21:00",
+   "until": "2026-11-25T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h25-cappadocia.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Kapadokya · Cappadocia",
+     "tr": "Kapadokya’da batan güneşe karşı balonlar ve bir at",
+     "en": "Balloons and a horse against the setting sun in Cappadocia",
+     "cr": "Foto · Photo: Salabasev · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Peri bacaları, Erciyes, Hasandağı ve Göllüdağ’ın püskürttüğü küllerin sertleşip aşınmasıyla oluştu",
+     "facte": "The fairy chimneys formed as ash from Erciyes, Hasandağı and Göllüdağ hardened and wore away"
+    },
+    {
+     "k": "hzphyllo",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-pamukkale.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Pamukkale, Denizli",
+     "tr": "Pamukkale travertenlerinde pastel bir akşam",
+     "en": "A pastel evening on the travertine terraces of Pamukkale",
+     "cr": "Foto · Photo: Angshuman Chatterjee · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Beyaz teraslar, yaklaşık 35 °C’lik kaynak suyundaki kirecin çökelmesiyle oluşur",
+     "facte": "The white terraces form as lime settles out of spring water at about 35 °C"
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Nerede yıkıntı varsa,|orada bir hazine umudu vardır",
+     "en": "Where there is ruin, there is hope for a treasure",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h25-nemrutdagi.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Nemrut Dağı, Adıyaman · Mount Nemrut",
+     "tr": "Nemrut Dağı’nda karların içinde Apollon’un taş başı",
+     "en": "The stone head of Apollo in the snow on Mount Nemrut",
+     "cr": "Foto · Photo: Mkrc85 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Kommagene Kralı I. Antiochos’un MÖ 1. yüzyılda 2.134 metrede yaptırdığı tümülüs; buradan gün batımı efsanevidir",
+     "facte": "The tomb-mound King Antiochus I of Commagene built at 2,134 m in the 1st century BC — sunsets here are legendary"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-25-22",
+   "name": "Gece · Night — Akdeniz kıyısında ışıklar · lights on the Mediterranean (sakin · calm)",
+   "from": "2026-11-25T22:00",
+   "until": "2026-11-25T23:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 30,
+     "f": "m/h25-amalfi.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gerçek Fotoğraf · Real Photo · Amalfi kıyısı · Amalfi Coast",
+     "lines": [
+      [
+       "Gece",
+       6.6
+      ],
+      [
+       "Night",
+       3.6
+      ]
+     ],
+     "tr": "Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin",
+     "en": "Now playing “Sadece Sen Night” — softer and calmer",
+     "cr": "Foto · Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h25-positano.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Positano, İtalya · Italy",
+     "tr": "Positano’da akşam: kayalıklara yaslanan ışıklar ve sakin deniz",
+     "en": "Evening at Positano: lights against the cliffs and a calm sea",
+     "cr": "Foto · Photo: Kent Wang · CC BY-SA 2.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h25-dubrovnik.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Dubrovnik, Hırvatistan · Croatia",
+     "tr": "Dubrovnik eski şehrinde gece: sokak lambası altında taş merdivenler",
+     "en": "Night in Dubrovnik’s old town — stone steps under a street lamp",
+     "cr": "Foto · Photo: Furkan Akkurt · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzlantern",
+     "d": 70
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h25-venicenight.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Venedik · Venice",
+     "tr": "Akşam San Marco’da: kemerlerin ışıkları yanıyor",
+     "en": "Evening at San Marco — the lights in the arcades coming on",
+     "cr": "Foto · Photo: Benh LIEU SONG · kamu malı · public domain · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h25-amalfi.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Amalfi kıyısı · Amalfi Coast",
+     "tr": "Amalfi kıyısında yamaçlara serpilmiş ışıklar",
+     "en": "Lights scattered across the slopes of the Amalfi Coast",
+     "cr": "Foto · Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+     "quiet": 1
+    }
+   ]
+  },
+  {
+   "id": "dj-11-25-23",
+   "name": "Gece · Night — ay, bulut ve göl · moon, clouds and lake (sakin · calm)",
+   "from": "2026-11-25T23:00",
+   "until": "2026-11-26T02:00",
+   "items": [
+    {
+     "k": "hzbulut",
+     "d": 110
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h25-moonclouds.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Ay ve bulut · Moon and clouds",
+     "tr": "İnce bir bulut tülünün ardında ay",
+     "en": "The moon behind a thin veil of cloud",
+     "cr": "Foto · Photo: W.carter · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h25-bellagio.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Bellagio, Como Gölü · Lake Como",
+     "tr": "Gece Como Gölü kıyısında Bellagio",
+     "en": "Bellagio by Lake Como at night",
+     "cr": "Foto · Photo: Uppa66 · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzfener",
+     "d": 80
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h25-hallstatt.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Hallstatt, Avusturya · Austria",
+     "tr": "Hallstatt’ın ışıkları göle düşüyor",
+     "en": "The lights of Hallstatt falling on the lake",
+     "cr": "Foto · Photo: Thomas Fabian · CC BY-SA 2.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h25-fullmoon.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Dolunay · Full Moon",
+     "tr": "İyi geceler · Good night",
+     "en": "Good night",
+     "cr": "Foto · Photo: Gregory H. Revera · CC BY-SA 3.0 · Wikimedia Commons",
+     "fit": "contain",
+     "quiet": 1
+    }
+   ]
+  }
+ ]
+}
