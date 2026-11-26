@@ -1,3 +1,130 @@
+## 2026-11-26 (rev 85, hourly sets 09:00–02:00, days/2026-11-26.json) · Thursday
+
+No pending requests in requests.md (verified ~08:00). Built ~08:00–09:30 by build_2026-11-26.py. New hz templates (hourly.js v85): hzbz (Barkley excitable-medium spirals, BZ-like), hzpiwalk (walk on π), hzschelling (Schelling model), hzburc (calm night: constellations), illusions hztusi (Tusi couple) and hzflashlag (flash-lag). Fixed hzfact: fitEl limit (84vh) was below its own 86vh box so every fact was shrunk to tiny text; now 87. Reused generators (none used in the previous 7 days): hzdragon (paper folding, in the paper hour), hzboids, hzmandel, hzvoronoi, hzfern, hzchaos, hzkoch, hzsnow, hzember. 17:00–02:00 keeps the DJ Taş structure (Act 1 Jazz House Lounge 17–19 → Act 2 Sunset 19–22 → Act 3 Night 22–02), stills only at night, no hzvideo. Mevlânâ quotes: Bütün evren seninmiş gibi parla (09), İşleri ruhundan yaptığında… nehir (12), Nerede durursan dur, oranın ruhu ol (18), Batışı gördün; doğuşu da gör (21), Gözlerini kapat, âşık ol ve orada kal (23). Archived h24-*, h80-*, h81-*, h82-* (safe_archive.py) and days/2026-11-24.json + credits-2026-11-24*.json.
+
+### 09:00–10:00 · Perşembe Sabahı · Thursday Morning
+- 09 | hzphoto | Sümela Manastırı, Karadağ’ın sarp yamacına yaslanmış | m/h26-sumela.jpg
+- 09 | hzquote | Bütün evren seninmiş gibi parla | —
+- 09 | hzphoto | Soğuksu’da ağaçların arasında beyaz köşk | m/h26-ataturkkosku.jpg
+- 09 | hzfact | %90 — Karadeniz’in suyunun yaklaşık %90’ı oksijensiz: 150–200 metrenin altında neredeyse hiç canlı yok, bu yüzden dipteki antik gemiler binlerce yıl bozulmadan kalıyor | —
+- 09 | hzphoto | Sera Gölü’nde sakin bir sabah: ormanla çevrili su | m/h26-seragolu.jpg
+- 09 | hzphoto | Mağaranın içinde kızıl ışıkta sarkıtlar | m/h26-calcave.jpg
+- 09 | hzriddle | Ondan aldıkça büyür. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Kendiliğinden Doğan Desenler · Living Art: Patterns That Make Themselves
+- 10 | hzbz | NEW excitable-medium spirals (Barkley model, BZ-like) | —
+- 10 | hzphoto | Bir petri kabında kendiliğinden halka halka yayılan kimyasal dalgalar | m/h26-bzdish.jpg
+- 10 | hzsteps | İyi bir buluş neden reddedilir? | —
+- 10 | hzpiwalk | NEW walk on the digits of π + digit counts | —
+- 10 | hzfact | 39 basamak — π’nin ilk 39 basamağı, gözlemlenebilir evrenin çevresini bir hidrojen atomu kadar hassas hesaplamaya yeter | —
+- 10 | hzriddle | Hangi saat günde yalnızca iki kez doğruyu gösterir? | —
+
+### 11:00–12:00 · Nefes Kesen Yerler: Buzullar · Breathtaking Places: Glaciers
+- 11 | hzphoto | Patagonya’da göle inen dev buz cephesi | m/h26-peritomoreno.jpg
+- 11 | hzphoto | Eggishorn’dan bakınca Aletsch’in kıvrılan buz nehri | m/h26-aletsch.jpg
+- 11 | hzphoto | Buzul gölünde yeni devrilmiş, masmavi buzdağları | m/h26-jokulsarlon.jpg
+- 11 | hzphoto | Yağmur ormanına doğru inen bir buzul | m/h26-mendenhall.jpg
+- 11 | hzchoose | Hangisini kendi gözünle görmek isterdin? | —
+- 11 | hzfact | %69 — Dünyadaki tatlı suyun yaklaşık %69’u buzullarda ve buz örtülerinde donmuş hâlde duruyor | —
+
+### 12:00–13:00 · Kâğıdın Şiiri · Poetry in Paper
+- 12 | hzphoto | Suyun üstüne damlatılan boyalardan fırçayla bir desen | m/h26-ebru.jpg
+- 12 | hzphoto | Ebru Lale | m/h26-marbling.jpg
+- 12 | hzphoto | Tek bir kâğıttan, kesmeden katlanmış turnalar | m/h26-origami.jpg
+- 12 | hzphoto | Köpek Yılı için kırmızı kâğıttan kesilmiş bir desen | m/h26-papercut.jpg
+- 12 | hzdragon | generator (reused, different topic) | —
+- 12 | hzfact | √2 — A4 kâğıdının uzun kenarı kısa kenarının √2 katı: ikiye katlayınca aynı orana sahip iki A5 elde edersin. A0 tam 1 metrekare | —
+- 12 | hzriddle | Bir kâğıt en fazla kaç kez ikiye katlanabildi? | —
+- 12 | hzquote | İşleri ruhundan yaptığında, içinde akan bir nehir hissedersin | —
+
+### 13:00–14:00 · Büyük Ustalardan: Caspar David Friedrich’in Sessizliği · From the Great Masters: The Silence of Caspar David Friedrich
+- 13 | hzphoto | Sis Denizinin Üzerinde Gezgin | m/h26-wanderer.jpg
+- 13 | hzphoto | Deniz Kıyısında Keşiş | m/h26-monkbysea.jpg
+- 13 | hzphoto | Rügen’deki Tebeşir Kayalıkları | m/h26-chalkcliffs.jpg
+- 13 | hzquote | Ressam yalnızca önünde gördüğünü değil, içinde gördüğünü de resmetmeli | —
+- 13 | hzphoto | Buz Denizi | m/h26-seaofice.jpg
+- 13 | hzphoto | Denizde Ay Doğuşu | m/h26-moonrise.jpg
+
+### 14:00–15:00 · Gökyüzünün Harikaları: Satürn · Wonders of the Sky: Saturn
+- 14 | hzphoto | Ekinoksta Satürn: Güneş halkaları tam kenarından aydınlatıyor | m/h26-saturneq.jpg
+- 14 | hzphoto | Kuzey kutbunun üzerinden: ortada altıgen biçimli dev bir rüzgâr akıntısı | m/h26-hexagon.jpg
+- 14 | hzsteps | Işık hızıyla Satürn’e | —
+- 14 | hzphoto | Enceladus’un güney kutbundan uzaya fışkıran su buharı ve buz | m/h26-enceladus.jpg
+- 14 | hzphoto | Solda Titan’ın gerçek rengi, kalın bir sis; sağda kızılötesinde yüzeyi | m/h26-titan.jpg
+- 14 | hzriddle | Satürn’ü dev bir küvete koysaydık ne olurdu? | —
+- 14 | hzfact | 10,5 saat — Satürn o kadar hızlı döner ki bir günü yalnızca yaklaşık 10,5 saat sürer; bu yüzden kutuplarından basık görünür | —
+
+### 15:00–16:00 · Göz Oyunları: Beynin Uydurduğu Hareket · Tricks of the Eye: Motion the Brain Makes Up
+- 15 | hztusi | NEW Tusi couple illusion | —
+- 15 | hzfact | 1259 — Nasîrüddîn Tûsî, bugünkü İran’daki Meraga’da zamanının en büyük gözlemevini kurdu; “Tusi çifti” yüzyıllar sonra Kopernik’in kitabında da benzer biçimde yer aldı | —
+- 15 | hzflashlag | NEW flash-lag illusion | —
+- 15 | hzfact | ~0,1 s — Gözünün gördüğü bir şeyin bilince ulaşması yaklaşık saniyenin onda biri sürer: hep biraz geçmişi görürüz. Beyin hareketli şeyleri tahminle ileri iterek bu farkı kapatır | —
+- 15 | hzriddle | Bir yarışta ikinciyi geçtin. Şimdi kaçıncısın? | —
+
+### 16:00–17:00 · Zekice Düşünce: Küçük Tercihler, Büyük Desenler · Clever Thinking: Small Preferences, Big Patterns
+- 16 | hzschelling | NEW Schelling neighbourhood model | —
+- 16 | hzphoto | Ekonomist Thomas Schelling bir konuşmada | m/h26-schelling.jpg
+- 16 | hzsteps | Trafik neden sebepsiz yere durur? | —
+- 16 | hzfact | ⅓ → ¾ — Schelling modelinde herkes yalnızca komşularının üçte birinin kendine benzemesini ister; sonunda çoğu zaman komşuların dörtte üçe yakını benzer olur | —
+- 16 | hzriddle | Dışarıda 3 düğme, kapalı odada 3 lamba var. Odaya yalnızca bir kez girebilirsin. Hangi düğme hangi lambanın? | —
+
+### 17:00–18:00 · DJ Taş · Caz House Lounge · Jazz House Lounge — Riviera’da gece · night on the Riviera
+- 17 | hzwelcome | Üç perdelik bir akşam: Caz House Lounge → Gün Batımı (19:00) → Gece (22:00). Müzik HomePod’da | m/h26-portofino.jpg
+- 17 | hzboids | generator (reused, different topic) | —
+- 17 | hzphoto | Fırçalar trampetin üstünde: cazın fısıltı gibi ritmi | m/h26-drums.jpg
+- 17 | hzphoto | Menton, Gece Olurken | m/h26-capri.jpg
+- 17 | hzmandel | generator (reused, different topic) | —
+- 17 | hzfact | Chicago, 1980’ler — “House” adı, DJ Frankie Knuckles’ın çaldığı Chicago’daki The Warehouse kulübünden gelir. Caz house bu ritme caz akorlarını ve canlı enstrümanları katar | —
+
+### 18:00–19:00 · Caz House Lounge · Jazz House Lounge — Villa Fikri: Şarap ve Peynir Akşamı · Villa Idea: A Wine & Cheese Evening
+- 18 | hzphoto | Alt katta küçük bir şarap köşesi: serin, karanlık, birkaç raf ve tek bir sıcak ışık | m/h26-winecellar.jpg
+- 18 | hzphoto | Misafirlere: üç dört peynir, kuru meyve, ceviz, bal ve ince dilimlenmiş ekmek | m/h26-cheese.jpg
+- 18 | hzquote | Nerede durursan dur, oranın ruhu ol | —
+- 18 | hzphoto | Kadehe dökülen kırmızı şarap | m/h26-redwine.jpg
+- 18 | hzvoronoi | generator (reused, different topic) | —
+- 18 | hzphoto | Sonbaharda kızıla dönen bir bağ | m/h26-vineyard.jpg
+
+### 19:00–20:00 · Gün Batımı · Sunset — Likya kıyısı · the Lycian coast
+- 19 | hzwelcome | Liste değişti: şimdi “Sadece Sen Sunset” çalıyor | m/h26-kekova.jpg
+- 19 | hzphoto | Çıralı plajı ve Olimpos’un dağları | m/h26-olympos.jpg
+- 19 | hzfern | generator (reused, different topic) | —
+- 19 | hzphoto | Patara’nın kumunda ayak izleri | m/h26-patara.jpg
+- 19 | hzphoto | Kalkan’ın beyaz evleri koyun çevresinde | m/h26-kalkan.jpg
+- 19 | hzphoto | Çamların arasında antik Phaselis’in taşları | m/h26-phaselis.jpg
+
+### 20:00–21:00 · Gün Batımı · Sunset — çöllerde akşam · evening in the deserts
+- 20 | hzphoto | Batan güneşte Monument Valley’nin kumtaşı kuleleri | m/h26-monumentvalley.jpg
+- 20 | hzphoto | Akşam ışığında Uluru | m/h26-uluru.jpg
+- 20 | hzchaos | generator (reused, different topic) | —
+- 20 | hzphoto | Atacama’da Ay Vadisi’nin rüzgârla oyulmuş kayaları | m/h26-atacama.jpg
+- 20 | hzphoto | Farafra yakınlarında rüzgârın tebeşirden yonttuğu beyaz kayalar | m/h26-whitedesert.jpg
+- 20 | hzfact | 30 °C — Kum ve kuru hava ısıyı tutmaz: bazı çöllerde gündüz ile gece arasındaki fark 30 °C’yi aşar. Gün batınca çöl hızla serinler | —
+
+### 21:00–22:00 · Gün Batımı · Sunset — Ege köyleri · Aegean villages
+- 21 | hzphoto | Alaçatı’nın taş yel değirmenleri | m/h26-alacati.jpg
+- 21 | hzphoto | Zeytinliklerle çevrili Şirince köyü | m/h26-sirince.jpg
+- 21 | hzkoch | generator (reused, different topic) | —
+- 21 | hzphoto | Eski Foça’da ağaçların arasından denize inen güneş | m/h26-foca.jpg
+- 21 | hzquote | Batışı gördün; doğuşu da gör | —
+- 21 | hzriddle | Neyi kırmadan kullanamazsın? | —
+
+### 22:00–23:00 · Gece · Night — kış ışıklarında eski şehirler · old towns in winter lights (sakin · calm)
+- 22 | hzwelcome | Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin | m/h26-bruges.jpg
+- 22 | hzphoto quiet | Tallinn’in ortaçağ surları gece ışıklarında | m/h26-tallinn.jpg
+- 22 | hzphoto quiet | Colmar’da yarı ahşap evler ve sakin bir akşam sokağı | m/h26-colmar.jpg
+- 22 | hzsnow | generator (reused, different topic) | —
+- 22 | hzphoto quiet | Ljubljana’da nehir kıyısında kış ışıkları | m/h26-ljubljana.jpg
+- 22 | hzphoto quiet | Stockholm’ün eski şehrinde bir kış pazarı | m/h26-stockholm.jpg
+
+### 23:00–02:00 · Gece · Night — yıldızlar ve takımyıldızlar · stars and constellations (sakin · calm)
+- 23 | hzburc | NEW calm night: constellations (Big Dipper, Cassiopeia, Cygnus, Pleiades, Orion) | —
+- 23 | hzphoto quiet | Ülker yıldız kümesi ve çevresindeki mavi toz | m/h26-pleiades.jpg
+- 23 | hzphoto quiet | Andromeda: çıplak gözle görülen en uzak şeylerden biri, 2,5 milyon ışık yılı ötede | m/h26-andromeda.jpg
+- 23 | hzember | generator (reused, different topic) | —
+- 23 | hzphoto quiet | Karlı ormanda ışığı yanan bir kulübe | m/h26-cabin.jpg
+- 23 | hzquote | Gözlerini kapat, âşık ol ve orada kal | —
+- 23 | hzphoto quiet | İyi geceler · Good night | m/h26-crescent.jpg
+
 ## 2026-11-25 (rev 84, hourly sets 09:00–02:00, days/2026-11-25.json) · Wednesday
 
 No pending requests in requests.md (verified ~08:05). Built ~08:05–08:40 by build_2026-11-25.py. New hz templates (hourly.js v84): hzbrown (Brownian motion, real 2D elastic collisions), hzpolya (Pólya urn), hzehren (Ehrenstein illusion), hzplak (imagined record at 33⅓ rpm, jazz lounge), hzbulut (calm night: moon behind drifting clouds). 17:00–02:00 keeps the DJ Taş structure (Act 1 Jazz House Lounge 17–19 → Act 2 Sunset 19–22 → Act 3 Night 22–02) with all-new photos; stills only at night, no hzvideo. Mevlânâ quotes: Kalbin yolu bilir… (09), Kalbinde tutuşmaya hazır bir mum var (18), Nerede yıkıntı varsa… hazine umudu (21). Archived h23-*, h78-*, unused h81-* and day/credits files for 2026-11-23.

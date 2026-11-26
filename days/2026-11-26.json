@@ -1,0 +1,1130 @@
+{
+ "date": "2026-11-26",
+ "rev": 85,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-26.py. 17:00–02:00 = DJ Taş evening (Jazz House Lounge → Sunset 19:00 → Night 22:00, synced with the HomePod playlists; stills only at night, no video). Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-26-09",
+   "name": "Perşembe Sabahı · Thursday Morning",
+   "from": "2026-11-26T09:00",
+   "until": "2026-11-26T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-sumela.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sümela Manastırı · Sumela Monastery, Maçka",
+     "tr": "Sümela Manastırı, Karadağ’ın sarp yamacına yaslanmış",
+     "en": "Sumela Monastery clinging to the steep face of Mount Karadağ",
+     "cr": "Foto · Photo: Bjørn Christian Tørrissen · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Geleneğe göre 4. yüzyılda kuruldu; bugün gördüğün binaların çoğu 18. ve 19. yüzyıldan",
+     "facte": "By tradition it was founded in the 4th century — most of the buildings you see today date from the 18th and 19th centuries"
+    },
+    {
+     "k": "hzquote",
+     "d": 38,
+     "tr": "Bütün evren|seninmiş gibi parla",
+     "en": "Shine as if the whole universe is yours",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-ataturkkosku.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Atatürk Köşkü · Soğuksu, Trabzon",
+     "tr": "Soğuksu’da ağaçların arasında beyaz köşk",
+     "en": "The white mansion among the trees at Soğuksu",
+     "cr": "Foto · Photo: Yazar Haber · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Atatürk Trabzon’a gelişlerinde burada kaldı; köşk bugün müze",
+     "facte": "Atatürk stayed here on his visits to Trabzon — today the mansion is a museum"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "%90",
+     "tr": "Karadeniz’in suyunun yaklaşık %90’ı oksijensiz: 150–200 metrenin altında neredeyse hiç canlı yok, bu yüzden dipteki antik gemiler binlerce yıl bozulmadan kalıyor",
+     "en": "About 90% of the Black Sea’s water has no oxygen — below 150–200 m almost nothing lives, so ancient ships on the bottom survive for thousands of years",
+     "src": "Karadeniz’in sırrı · A Black Sea secret",
+     "c1": "#13242c",
+     "c2": "#04080a"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-seragolu.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sera Gölü · Akçaabat, Trabzon",
+     "tr": "Sera Gölü’nde sakin bir sabah: ormanla çevrili su",
+     "en": "A calm morning on Sera Lake, ringed by forest",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Göl, bir heyelanın vadiyi tıkamasıyla oluştu; Trabzon merkezine yalnızca yarım saat",
+     "facte": "The lake formed when a landslide blocked the valley — only half an hour from central Trabzon"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-calcave.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çal Mağarası · Düzköy, Trabzon",
+     "tr": "Mağaranın içinde kızıl ışıkta sarkıtlar",
+     "en": "Stalactites in a reddish light inside the cave",
+     "cr": "Foto · Photo: Varvara Kless-Kaminskaia · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Türkiye’nin en uzun mağaralarından biri; içinden bir yeraltı deresi akar",
+     "facte": "One of the longest caves in Turkey — an underground stream runs through it"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ondan aldıkça büyür.|Nedir?",
+     "qe": "The more you take away from it, the bigger it gets. What is it?",
+     "a": "Çukur!",
+     "ae": "A hole!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-26-10",
+   "name": "Yaşayan Sanat: Kendiliğinden Doğan Desenler · Living Art: Patterns That Make Themselves",
+   "from": "2026-11-26T10:00",
+   "until": "2026-11-26T11:00",
+   "items": [
+    {
+     "k": "hzbz",
+     "d": 90
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-bzdish.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Belousov–Zhabotinsky tepkimesi · BZ reaction (Steinbock laboratuvarı · Steinbock lab)",
+     "tr": "Bir petri kabında kendiliğinden halka halka yayılan kimyasal dalgalar",
+     "en": "Chemical waves spreading in rings by themselves in a Petri dish",
+     "cr": "Foto · Photo: OStChem · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Karışım dakikalar içinde renk değiştirip durur; bu yüzden “kimyasal saat” denir",
+     "facte": "The mixture keeps changing colour over minutes — that is why it is called a “chemical clock”",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "İyi bir buluş neden reddedilir?",
+     "e": "Why does a good discovery get rejected?",
+     "c1": "#16222c",
+     "c2": "#04080a",
+     "gap": 8,
+     "steps": [
+      [
+       "1951: Sovyet kimyacı Boris Belousov, kendi kendine renk değiştirip duran bir karışım bulur",
+       "1951: Soviet chemist Boris Belousov finds a mixture that keeps changing colour by itself",
+       "🧪"
+      ],
+      [
+       "Dergiler makaleyi geri çevirir: “Kimya bunu yapamaz, tepkimeler sonunda durulur”",
+       "Journals turn the paper down: “Chemistry can’t do that — reactions always settle down”",
+       ""
+      ],
+      [
+       "1959’da yalnızca kısa bir özet yayımlayabilir ve konuyu bırakır",
+       "In 1959 he manages to publish only a short abstract, and gives the subject up",
+       ""
+      ],
+      [
+       "1960’larda genç Anatol Zhabotinsky deneyi tekrarlayıp açıklar; 1980’de Lenin Ödülü verilir, Belousov ise 1970’te ölmüştür",
+       "In the 1960s young Anatol Zhabotinsky repeats and explains it; the Lenin Prize follows in 1980 — but Belousov had died in 1970",
+       ""
+      ]
+     ],
+     "fin": "Bir şey “imkânsız” görünüyorsa, belki yalnızca alışılmadık",
+     "fine": "If something looks “impossible”, maybe it is only unfamiliar"
+    },
+    {
+     "k": "hzpiwalk",
+     "d": 84
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "39 basamak",
+     "tr": "π’nin ilk 39 basamağı, gözlemlenebilir evrenin çevresini bir hidrojen atomu kadar hassas hesaplamaya yeter",
+     "en": "The first 39 digits of π are enough to work out the circumference of the observable universe to within the width of a hydrogen atom",
+     "src": "Ne kadar π yeter? · How much π is enough?",
+     "c1": "#14202a",
+     "c2": "#04070a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hangi saat günde yalnızca|iki kez doğruyu gösterir?",
+     "qe": "Which clock is right only twice a day?",
+     "a": "Durmuş bir saat!",
+     "ae": "A stopped clock!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-26-11",
+   "name": "Nefes Kesen Yerler: Buzullar · Breathtaking Places: Glaciers",
+   "from": "2026-11-26T11:00",
+   "until": "2026-11-26T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-peritomoreno.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Perito Moreno Buzulu, Arjantin · Perito Moreno Glacier, Argentina",
+     "tr": "Patagonya’da göle inen dev buz cephesi",
+     "en": "The great ice front reaching the lake in Patagonia",
+     "cr": "Foto · Photo: Luca Galuzzi · CC BY-SA 2.5 · Wikimedia Commons",
+     "fact": "Cephesi yaklaşık 5 km genişliğinde; kopan buz parçalarının gürültüsü çok uzaklardan duyulur",
+     "facte": "Its front is about 5 km wide — the roar of breaking ice can be heard from far away"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-aletsch.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Büyük Aletsch Buzulu, İsviçre · Great Aletsch Glacier, Switzerland",
+     "tr": "Eggishorn’dan bakınca Aletsch’in kıvrılan buz nehri",
+     "en": "The winding ice river of the Aletsch seen from the Eggishorn",
+     "cr": "Foto · Photo: Tobias Alt · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Alplerin en büyük buzulu, yaklaşık 20 km uzunluğunda; ama her yıl onlarca metre geri çekiliyor",
+     "facte": "The largest glacier in the Alps, about 20 km long — but it retreats by tens of metres every year"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-jokulsarlon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Jökulsárlón, İzlanda · Iceland",
+     "tr": "Buzul gölünde yeni devrilmiş, masmavi buzdağları",
+     "en": "Freshly rolled-over, deep-blue icebergs in the glacier lagoon",
+     "cr": "Foto · Photo: Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Buzdağı devrilince altındaki sıkışmış, kabarcıksız buz görünür: kırmızı ışığı yutar, maviyi yansıtır",
+     "facte": "When an iceberg rolls over, the dense, bubble-free ice from below shows — it swallows red light and gives back blue"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-mendenhall.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Franz Josef Buzulu, Yeni Zelanda · Franz Josef Glacier, New Zealand",
+     "tr": "Yağmur ormanına doğru inen bir buzul",
+     "en": "A glacier sliding down towards the rainforest",
+     "cr": "Foto · Photo: Jörg Hempel · CC BY-SA 3.0 de · Wikimedia Commons",
+     "fact": "Bu kadar alçakta, denize bu kadar yakın biten çok az buzul var: batıdan gelen bol kar onu besliyor",
+     "facte": "Very few glaciers end this low and this close to the sea — heavy snow from the west feeds it"
+    },
+    {
+     "k": "hzchoose",
+     "d": 40,
+     "q": "Hangisini kendi gözünle görmek isterdin?",
+     "qe": "Which would you rather see with your own eyes?",
+     "a": {
+      "f": "m/h26-peritomoreno.jpg",
+      "t": "Buzdan kopan dev bir parça",
+      "e": "A giant slab breaking off the ice",
+      "tag": "Perito Moreno"
+     },
+     "b": {
+      "f": "m/h26-jokulsarlon.jpg",
+      "t": "Sessizce yüzen buzdağları",
+      "e": "Icebergs drifting in silence",
+      "tag": "Jökulsárlón"
+     },
+     "p": "Herkes birini seçsin, sonra nedenini söylesin",
+     "pe": "Everyone picks one, then says why",
+     "cr": "Fotolar · Photos: Luca Galuzzi · CC BY-SA 2.5 / Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "%69",
+     "tr": "Dünyadaki tatlı suyun yaklaşık %69’u buzullarda ve buz örtülerinde donmuş hâlde duruyor",
+     "en": "About 69% of the world’s fresh water is locked up as ice in glaciers and ice sheets",
+     "src": "Donmuş tatlı su · Frozen fresh water",
+     "c1": "#14222e",
+     "c2": "#04080c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-26-12",
+   "name": "Kâğıdın Şiiri · Poetry in Paper",
+   "from": "2026-11-26T12:00",
+   "until": "2026-11-26T13:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h26-ebru.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ebru · su üstünde boyama · marbling",
+     "tr": "Suyun üstüne damlatılan boyalardan fırçayla bir desen",
+     "en": "A pattern brushed from paints dropped onto water",
+     "cr": "Foto · Photo: Metasqaure10 · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Boyalar kitreyle koyulaştırılmış suyun yüzünde yüzer; kâğıt üstüne yatırılınca desen bir kez, yalnızca bir kez aktarılır. Türk ebrusu 2014’te UNESCO listesine girdi",
+     "facte": "The paints float on water thickened with gum tragacanth; when paper is laid on top the pattern transfers once, and only once. Turkish ebru joined the UNESCO list in 2014"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-marbling.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Nedim Sönmez",
+     "tr": "Ebru Lale",
+     "en": "Ebru Tulip",
+     "cr": "Eser · Artwork: Nedim Sönmez · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Suyun üstünde boyayla çizilmiş bir lale. Çiçekli ebruyu 20. yüzyılın başında Necmeddin Okyay geliştirdi",
+     "facte": "A tulip drawn in paint on water. Floral ebru was developed by Necmeddin Okyay in the early 20th century",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-origami.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Origami turnaları · origami cranes",
+     "tr": "Tek bir kâğıttan, kesmeden katlanmış turnalar",
+     "en": "Cranes folded from single sheets, with no cuts",
+     "cr": "Foto · Photo: Laitche · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Japon geleneğinde bin turna katlayanın bir dileğinin gerçekleşeceğine inanılır (senbazuru)",
+     "facte": "In Japanese tradition, whoever folds a thousand cranes is granted a wish (senbazuru)"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-papercut.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çin kâğıt kesme sanatı · Chinese paper cutting",
+     "tr": "Köpek Yılı için kırmızı kâğıttan kesilmiş bir desen",
+     "en": "A design cut from red paper for the Year of the Dog",
+     "cr": "Foto · Photo: Fanghong · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Kâğıt kesme sanatı (jianzhi) 2009’da UNESCO listesine alındı; desenler çoğu zaman katlanmış kâğıda tek seferde kesilir",
+     "facte": "The art of paper cutting (jianzhi) joined the UNESCO list in 2009 — designs are often cut in one go into folded paper",
+     "fit": "contain"
+    },
+    {
+     "k": "hzdragon",
+     "d": 56
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "√2",
+     "tr": "A4 kâğıdının uzun kenarı kısa kenarının √2 katı: ikiye katlayınca aynı orana sahip iki A5 elde edersin. A0 tam 1 metrekare",
+     "en": "The long side of an A4 sheet is √2 times the short side — fold it in half and you get two A5 sheets of exactly the same shape. A0 is exactly one square metre",
+     "src": "ISO 216 · kâğıt boyutları · paper sizes",
+     "c1": "#1a2028",
+     "c2": "#05080b"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir kâğıt en fazla|kaç kez ikiye katlanabildi?",
+     "qe": "What is the most times a sheet of paper has been folded in half?",
+     "a": "12 kez! 2002’de lise öğrencisi Britney Gallivan, yaklaşık 1,2 km uzunluğunda bir kâğıtla başardı",
+     "ae": "12 times! In 2002 high-school student Britney Gallivan did it with a strip about 1.2 km long",
+     "sec": 20,
+     "c1": "#22303a",
+     "c2": "#06090c",
+     "hint": "Sık söylenen 7 değil · Not the often-quoted 7"
+    },
+    {
+     "k": "hzquote",
+     "d": 38,
+     "tr": "İşleri ruhundan yaptığında,|içinde akan bir nehir hissedersin",
+     "en": "When you do things from your soul, you feel a river moving in you",
+     "pal": "ink"
+    }
+   ]
+  },
+  {
+   "id": "h-11-26-13",
+   "name": "Büyük Ustalardan: Caspar David Friedrich’in Sessizliği · From the Great Masters: The Silence of Caspar David Friedrich",
+   "from": "2026-11-26T13:00",
+   "until": "2026-11-26T14:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-wanderer.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Caspar David Friedrich, yaklaşık 1818",
+     "tr": "Sis Denizinin Üzerinde Gezgin",
+     "en": "Wanderer above the Sea of Fog",
+     "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Gezgini sırtından görürüz, yüzünü değil: manzaraya onun gözünden bakarız. Sırtı dönük figür (Rückenfigur) ressamın en sevdiği fikirlerden biri",
+     "facte": "We see the wanderer from behind, never his face — so we look at the view through his eyes. The figure seen from behind (Rückenfigur) is one of the painter’s favourite ideas",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-monkbysea.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Caspar David Friedrich, 1808–1810",
+     "tr": "Deniz Kıyısında Keşiş",
+     "en": "The Monk by the Sea",
+     "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
+     "fact": "İlk sergilendiğinde izleyiciler şaşırdı: uçsuz bucaksız gök ve deniz önünde minicik bir insan. Röntgen incelemeleri, Friedrich’in denize önce gemiler çizip sonra sildiğini gösterdi",
+     "facte": "When first shown it baffled viewers — a tiny person before endless sky and sea. X-rays revealed that Friedrich first painted ships on the sea, then painted them out",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-chalkcliffs.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Caspar David Friedrich, yaklaşık 1818",
+     "tr": "Rügen’deki Tebeşir Kayalıkları",
+     "en": "Chalk Cliffs on Rügen",
+     "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
+     "fact": "1818’deki evliliğinden sonraki balayı yolculuğunu anlattığı düşünülür",
+     "facte": "It is thought to recall his honeymoon trip after his marriage in 1818",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 38,
+     "tr": "Ressam yalnızca önünde gördüğünü değil,|içinde gördüğünü de resmetmeli",
+     "en": "The painter should paint not only what he sees before him, but also what he sees within him",
+     "pal": "night",
+     "lb": "Ressamın Sözü · A Painter’s Words",
+     "by": "Caspar David Friedrich"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-seaofice.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Caspar David Friedrich, 1823–1824",
+     "tr": "Buz Denizi",
+     "en": "The Sea of Ice",
+     "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Kırık buz tabakalarının arasında ezilmiş bir geminin kıçı görünüyor. Friedrich hayattayken alıcı bulamadı; bugün Hamburg Kunsthalle’de",
+     "facte": "The stern of a crushed ship shows between the broken slabs of ice. It found no buyer in Friedrich’s lifetime — today it hangs in the Hamburg Kunsthalle",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-moonrise.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Caspar David Friedrich, 1822",
+     "tr": "Denizde Ay Doğuşu",
+     "en": "Moonrise over the Sea",
+     "cr": "Eser · Artwork: Caspar David Friedrich · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Kayaların üstünde oturan üç kişi, eve dönen yelkenlilere ve doğan aya bakıyor",
+     "facte": "Three figures sitting on the rocks watch sailboats coming home and the moon rising",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "id": "h-11-26-14",
+   "name": "Gökyüzünün Harikaları: Satürn · Wonders of the Sky: Saturn",
+   "from": "2026-11-26T14:00",
+   "until": "2026-11-26T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-saturneq.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Satürn · Saturn (Cassini, 2009 ekinoksu · 2009 equinox)",
+     "tr": "Ekinoksta Satürn: Güneş halkaları tam kenarından aydınlatıyor",
+     "en": "Saturn at equinox — the Sun lights the rings exactly edge-on",
+     "cr": "Foto · Photo: NASA / JPL / Space Science Institute · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ana halkalar 270.000 km’den geniş ama çoğu yerde yalnızca onlarca metre kalın: oranı, bir futbol sahası genişliğinde bir kâğıt gibi",
+     "facte": "The main rings are more than 270,000 km across but in most places only tens of metres thick — like a sheet of paper as wide as a football pitch",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-hexagon.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Satürn’e yukarıdan · Saturn from above (Cassini, 2013)",
+     "tr": "Kuzey kutbunun üzerinden: ortada altıgen biçimli dev bir rüzgâr akıntısı",
+     "en": "From above the north pole — a giant six-sided jet stream at the centre",
+     "cr": "Foto · Photo: NASA / JPL-Caltech / SSI / Cornell · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Altıgenin her kenarı Dünya’nın çapından uzun. 1981’de Voyager fark etti; neden altı köşeli olduğu hâlâ tartışılıyor",
+     "facte": "Each side of the hexagon is longer than Earth is wide. Voyager spotted it in 1981 — why it has six sides is still debated",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "Işık hızıyla Satürn’e",
+     "e": "To Saturn at the speed of light",
+     "c1": "#141c2a",
+     "c2": "#04060c",
+     "gap": 8,
+     "steps": [
+      [
+       "1,3 saniye: Ay’ı geçtik",
+       "1.3 seconds: past the Moon",
+       "🌙"
+      ],
+      [
+       "8 dakika 20 saniye: Güneş’in uzaklığı kadar yol aldık",
+       "8 minutes 20 seconds: as far as the Sun",
+       ""
+      ],
+      [
+       "3–22 dakika: Mars, nerede olduğuna göre",
+       "3–22 minutes: Mars, depending on where it is",
+       ""
+      ],
+      [
+       "33–54 dakika: Jüpiter",
+       "33–54 minutes: Jupiter",
+       ""
+      ],
+      [
+       "67–92 dakika: Satürn! Cassini’nin her mesajı Dünya’ya bu kadar sürede ulaşıyordu",
+       "67–92 minutes: Saturn! Every message from Cassini took this long to reach Earth",
+       "🪐"
+      ]
+     ],
+     "fin": "Satürn’e baktığında, onun bir buçuk saat kadar önceki hâlini görüyorsun",
+     "fine": "When you look at Saturn you see it as it was about an hour and a half ago"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-enceladus.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Enceladus · Satürn’ün uydusu · a moon of Saturn (Cassini)",
+     "tr": "Enceladus’un güney kutbundan uzaya fışkıran su buharı ve buz",
+     "en": "Water vapour and ice spraying into space from Enceladus’ south pole",
+     "cr": "Foto · Photo: Mark McCaughrean · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Buz kabuğunun altında küresel bir okyanus var; Güneş Sistemi’nde yaşam aranacak yerlerin başında geliyor",
+     "facte": "Beneath its icy crust lies a global ocean — one of the top places to look for life in the Solar System",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-titan.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Titan · Satürn’ün en büyük uydusu · Saturn’s largest moon (Cassini, işlenmiş · processed)",
+     "tr": "Solda Titan’ın gerçek rengi, kalın bir sis; sağda kızılötesinde yüzeyi",
+     "en": "Left, Titan in true colour, wrapped in thick haze — right, its surface in infrared",
+     "cr": "Foto · Photo: Kevin M. Gill · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Titan’da metan ve etan gölleri var: Dünya dışında yüzeyinde sıvı bulunduğu bilinen tek yer. 2005’te Huygens aracı yüzeyine indi",
+     "facte": "Titan has lakes of methane and ethane — the only place besides Earth known to have liquid on its surface. The Huygens probe landed there in 2005",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Satürn’ü dev bir küvete|koysaydık ne olurdu?",
+     "qe": "If we put Saturn in a giant bathtub, what would happen?",
+     "a": "Yüzerdi! Ortalama yoğunluğu sudan az: yaklaşık 0,69 g/cm³",
+     "ae": "It would float! Its average density is less than water’s — about 0.69 g/cm³",
+     "sec": 18,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "10,5 saat",
+     "tr": "Satürn o kadar hızlı döner ki bir günü yalnızca yaklaşık 10,5 saat sürer; bu yüzden kutuplarından basık görünür",
+     "en": "Saturn spins so fast that its day lasts only about 10.5 hours — that is why it looks squashed at the poles",
+     "src": "Satürn’de bir gün · A day on Saturn",
+     "c1": "#16202c",
+     "c2": "#04070c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-26-15",
+   "name": "Göz Oyunları: Beynin Uydurduğu Hareket · Tricks of the Eye: Motion the Brain Makes Up",
+   "from": "2026-11-26T15:00",
+   "until": "2026-11-26T16:00",
+   "items": [
+    {
+     "k": "hztusi",
+     "d": 60
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "1259",
+     "tr": "Nasîrüddîn Tûsî, bugünkü İran’daki Meraga’da zamanının en büyük gözlemevini kurdu; “Tusi çifti” yüzyıllar sonra Kopernik’in kitabında da benzer biçimde yer aldı",
+     "en": "Nasir al-Din al-Tusi founded the greatest observatory of his age at Maragheh, in today’s Iran — a device like the “Tusi couple” appears centuries later in Copernicus’ book",
+     "src": "Bilim tarihinden · From the history of science",
+     "c1": "#1a2230",
+     "c2": "#05080c"
+    },
+    {
+     "k": "hzflashlag",
+     "d": 52
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "~0,1 s",
+     "tr": "Gözünün gördüğü bir şeyin bilince ulaşması yaklaşık saniyenin onda biri sürer: hep biraz geçmişi görürüz. Beyin hareketli şeyleri tahminle ileri iterek bu farkı kapatır",
+     "en": "It takes about a tenth of a second for what your eye sees to reach awareness — we always see a little of the past. The brain closes the gap by pushing moving things ahead by prediction",
+     "src": "Gecikmeli dünya · A delayed world",
+     "c1": "#141c24",
+     "c2": "#04070a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Bir yarışta ikinciyi geçtin.|Şimdi kaçıncısın?",
+     "qe": "In a race you overtake the runner in second place. What place are you in now?",
+     "a": "İkinci! Birinci değil",
+     "ae": "Second — not first!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-26-16",
+   "name": "Zekice Düşünce: Küçük Tercihler, Büyük Desenler · Clever Thinking: Small Preferences, Big Patterns",
+   "from": "2026-11-26T16:00",
+   "until": "2026-11-26T17:00",
+   "items": [
+    {
+     "k": "hzschelling",
+     "d": 70
+    },
+    {
+     "k": "hzphoto",
+     "d": 34,
+     "f": "m/h26-schelling.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Thomas C. Schelling (1921–2016)",
+     "tr": "Ekonomist Thomas Schelling bir konuşmada",
+     "en": "Economist Thomas Schelling giving a talk",
+     "cr": "Foto · Photo: New America · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Oyun kuramı üzerine çalışmalarıyla 2005 Nobel Ekonomi Ödülü’nü Robert Aumann ile paylaştı",
+     "facte": "He shared the 2005 Nobel Prize in Economics with Robert Aumann for his work on game theory",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Trafik neden sebepsiz yere durur?",
+     "e": "Why does traffic stop for no reason?",
+     "c1": "#1a2228",
+     "c2": "#05080a",
+     "gap": 8,
+     "steps": [
+      [
+       "2008: Japonya’da 22 araç, 230 metrelik dairesel bir pistte aynı hızla dönmeye başladı",
+       "2008: in Japan, 22 cars began circling a 230-metre track at the same speed",
+       "🚗"
+      ],
+      [
+       "Ortada ne kaza vardı ne de daralan bir yol",
+       "There was no accident and no narrowing of the road",
+       ""
+      ],
+      [
+       "Bir sürücü birazcık fren yaptı; arkasındaki biraz daha fazla, onun arkasındaki daha da fazla…",
+       "One driver braked a little; the one behind braked a bit more, the next one more still…",
+       ""
+      ],
+      [
+       "Birkaç dakika içinde geriye doğru yürüyen bir “hayalet sıkışıklık” doğdu",
+       "Within minutes a “phantom jam” was born, travelling backwards round the track",
+       ""
+      ]
+     ],
+     "fin": "Kimse sıkışıklık istemedi; küçük tepkiler toplanınca kendiliğinden çıktı",
+     "fine": "Nobody wanted a jam — it emerged as small reactions added up"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "⅓ → ¾",
+     "tr": "Schelling modelinde herkes yalnızca komşularının üçte birinin kendine benzemesini ister; sonunda çoğu zaman komşuların dörtte üçe yakını benzer olur",
+     "en": "In Schelling’s model everyone wants just a third of their neighbours to be like them — and in the end, often close to three quarters are",
+     "src": "Toplamın sürprizi · The surprise of the sum",
+     "c1": "#1a2228",
+     "c2": "#05080a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "Dışarıda 3 düğme, kapalı odada 3 lamba var.|Odaya yalnızca bir kez girebilirsin.|Hangi düğme hangi lambanın?",
+     "qe": "Three switches outside, three lamps in a closed room. You may enter only once. Which switch is which lamp?",
+     "a": "Birini aç, birkaç dakika bekle, kapat; ikincisini aç ve gir. Yanan: ikinci. Sönük ama sıcak: birinci. Sönük ve soğuk: üçüncü",
+     "ae": "Turn one on, wait a few minutes, turn it off; turn the second on and go in. Lit: the second. Off but warm: the first. Off and cold: the third",
+     "sec": 24,
+     "c1": "#22303a",
+     "c2": "#06090c",
+     "hint": "Lambanın ışıktan başka bir şeyi daha var · A lamp gives off more than light"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-26-17",
+   "name": "DJ Taş · Caz House Lounge · Jazz House Lounge — Riviera’da gece · night on the Riviera",
+   "from": "2026-11-26T17:00",
+   "until": "2026-11-26T18:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 32,
+     "f": "m/h26-portofino.jpg",
+     "lb": "DJ Taş · Sadece Sen — Gerçek Fotoğraf · Real Photo · Portofino, İtalya · Italy",
+     "lines": [
+      [
+       "DJ Taş",
+       7.2
+      ],
+      [
+       "Bu akşam · Tonight",
+       3.4
+      ]
+     ],
+     "tr": "Üç perdelik bir akşam: Caz House Lounge → Gün Batımı (19:00) → Gece (22:00). Müzik HomePod’da",
+     "en": "An evening in three acts: Jazz House Lounge → Sunset (19:00) → Night (22:00). Music on the HomePod",
+     "cr": "Foto · Photo: Gjacquenot · CC BY-SA 3.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzboids",
+     "d": 58
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-drums.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Fırçalı davul · Brushes on the snare (Punta del Este Caz Festivali · Jazz Festival)",
+     "tr": "Fırçalar trampetin üstünde: cazın fısıltı gibi ritmi",
+     "en": "Brushes on the snare — the whispering rhythm of jazz",
+     "cr": "Foto · Photo: Jimmy Baikovicius · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Tel fırçalar 1920’lerde yaygınlaştı: davulcu vurmak yerine sürter, yumuşak ve sürekli bir “şşş” sesi çıkar",
+     "facte": "Wire brushes spread in the 1920s — the drummer sweeps instead of striking, for a soft, continuous “shhh”"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-capri.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Alfred Stevens, 19. yüzyıl · 19th century",
+     "tr": "Menton, Gece Olurken",
+     "en": "Menton, Almost Night",
+     "cr": "Eser · Artwork: Alfred Stevens · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Menton, Fransız Rivierası’nın İtalya sınırındaki son kasabası; her şubat limon festivaliyle ünlü",
+     "facte": "Menton is the last town on the French Riviera before the Italian border — famous for its lemon festival every February",
+     "fit": "contain"
+    },
+    {
+     "k": "hzmandel",
+     "d": 60
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Chicago, 1980’ler",
+     "tr": "“House” adı, DJ Frankie Knuckles’ın çaldığı Chicago’daki The Warehouse kulübünden gelir. Caz house bu ritme caz akorlarını ve canlı enstrümanları katar",
+     "en": "The name “house” comes from The Warehouse, the Chicago club where DJ Frankie Knuckles played. Jazz house adds jazz chords and live instruments to that beat",
+     "src": "Müziğin kökleri · Roots of the music",
+     "c1": "#14202a",
+     "c2": "#04070a"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-26-18",
+   "name": "Caz House Lounge · Jazz House Lounge — Villa Fikri: Şarap ve Peynir Akşamı · Villa Idea: A Wine & Cheese Evening",
+   "from": "2026-11-26T18:00",
+   "until": "2026-11-26T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h26-winecellar.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Château Kirwan, Bordeaux)",
+     "tr": "Alt katta küçük bir şarap köşesi: serin, karanlık, birkaç raf ve tek bir sıcak ışık",
+     "en": "A small wine corner downstairs: cool, dark, a few racks and one warm light",
+     "cr": "Foto · Photo: Jon · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Şarap en iyi 12–14 °C civarında, karanlıkta, yatık ve sarsıntısız saklanır",
+     "facte": "Wine keeps best at around 12–14 °C, in the dark, lying down and undisturbed"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h26-cheese.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · bir peynir tabağı · a cheese board)",
+     "tr": "Misafirlere: üç dört peynir, kuru meyve, ceviz, bal ve ince dilimlenmiş ekmek",
+     "en": "For guests: three or four cheeses, dried fruit, walnuts, honey and thinly sliced bread",
+     "cr": "Foto · Photo: Daniela · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Kural: yumuşaktan serte, hafiften keskine doğru diz; peynirleri servisten yarım saat önce buzdolabından çıkar",
+     "facte": "The rule: arrange from soft to hard, mild to strong — and take the cheese out of the fridge half an hour before serving"
+    },
+    {
+     "k": "hzquote",
+     "d": 38,
+     "tr": "Nerede durursan dur,|oranın ruhu ol",
+     "en": "Wherever you stand, be the soul of that place",
+     "pal": "clay"
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h26-redwine.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Kırmızı şarap · Red wine",
+     "tr": "Kadehe dökülen kırmızı şarap",
+     "en": "Red wine being poured into a glass",
+     "cr": "Foto · Photo: Fabio Ingrosso · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Kırmızı şarabın rengi üzüm kabuğundan gelir; üzümün suyu neredeyse her zaman renksizdir",
+     "facte": "The colour of red wine comes from the grape skins — the juice itself is almost always clear"
+    },
+    {
+     "k": "hzvoronoi",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-vineyard.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Napa Vadisi, Kaliforniya · Napa Valley, California",
+     "tr": "Sonbaharda kızıla dönen bir bağ",
+     "en": "A vineyard turning red in autumn",
+     "cr": "Foto · Photo: Brocken Inaglory · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Anadolu dünyanın en eski bağcılık bölgelerinden biri: Türkiye’de 600’den fazla yerli üzüm çeşidi var — Öküzgözü, Boğazkere, Kalecik Karası…",
+     "facte": "Anatolia is one of the oldest wine regions on Earth — Turkey has more than 600 native grape varieties: Öküzgözü, Boğazkere, Kalecik Karası…"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-26-19",
+   "name": "Gün Batımı · Sunset — Likya kıyısı · the Lycian coast",
+   "from": "2026-11-26T19:00",
+   "until": "2026-11-26T20:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 30,
+     "f": "m/h26-kekova.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gerçek Fotoğraf · Real Photo · Kekova, Antalya",
+     "lines": [
+      [
+       "Gün Batımı",
+       6.4
+      ],
+      [
+       "Sunset",
+       3.6
+      ]
+     ],
+     "tr": "Liste değişti: şimdi “Sadece Sen Sunset” çalıyor",
+     "en": "The playlist has changed — now playing “Sadece Sen Sunset”",
+     "cr": "Foto · Photo: JamesDavidShoots · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-olympos.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Çıralı, Antalya",
+     "tr": "Çıralı plajı ve Olimpos’un dağları",
+     "en": "Çıralı beach and the mountains of Olympos",
+     "cr": "Foto · Photo: Josh.artofwayfaring · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Hemen yukarıdaki Yanartaş’ta binlerce yıldır yerden çıkan doğal gaz alevleri yanıyor",
+     "facte": "On the Chimaera just above, natural gas flames have burned out of the ground for thousands of years"
+    },
+    {
+     "k": "hzfern",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-patara.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Patara, Antalya",
+     "tr": "Patara’nın kumunda ayak izleri",
+     "en": "Footprints in the sand at Patara",
+     "cr": "Foto · Photo: William Neuheisel · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Türkiye’nin en uzun kumsallarından biri; deniz kaplumbağaları (Caretta caretta) yazın buraya yumurtlar",
+     "facte": "One of Turkey’s longest beaches — loggerhead turtles (Caretta caretta) come here to nest in summer"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-kalkan.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Kalkan, Kaş",
+     "tr": "Kalkan’ın beyaz evleri koyun çevresinde",
+     "en": "Kalkan’s white houses around the bay",
+     "cr": "Foto · Photo: Yumrutaş · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bir zamanlar küçük bir liman ve balıkçı kasabasıydı; bugün terasları akşam güneşine bakar",
+     "facte": "Once a small harbour and fishing town — today its terraces face the evening sun"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h26-phaselis.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Phaselis, Kemer",
+     "tr": "Çamların arasında antik Phaselis’in taşları",
+     "en": "The stones of ancient Phaselis among the pines",
+     "cr": "Foto · Photo: Özgesncnnnn · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Üç limanı olan bir Likya kenti; Büyük İskender MÖ 334–333 kışını burada geçirdi",
+     "facte": "A Lycian city with three harbours — Alexander the Great spent the winter of 334–333 BC here"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-26-20",
+   "name": "Gün Batımı · Sunset — çöllerde akşam · evening in the deserts",
+   "from": "2026-11-26T20:00",
+   "until": "2026-11-26T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h26-monumentvalley.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Monument Valley, ABD · USA",
+     "tr": "Batan güneşte Monument Valley’nin kumtaşı kuleleri",
+     "en": "The sandstone buttes of Monument Valley at sunset",
+     "cr": "Foto · Photo: Christian Mehlführer · CC BY 2.5 · Wikimedia Commons",
+     "fact": "Navajo topraklarında; kuleler yer yer 300 metreye kadar yükselir",
+     "facte": "On Navajo land — the buttes rise up to about 300 m"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-uluru.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Uluru, Avustralya · Australia",
+     "tr": "Akşam ışığında Uluru",
+     "en": "Uluru in the evening light",
+     "cr": "Foto · Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Anangu halkı için kutsal; 2019’dan beri tırmanmak yasak. Güneş batarken kayanın rengi dakika dakika değişir",
+     "facte": "Sacred to the Anangu people, it has been closed to climbers since 2019. As the sun sets the rock changes colour minute by minute"
+    },
+    {
+     "k": "hzchaos",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-atacama.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Ay Vadisi, Atacama, Şili · Valle de la Luna, Chile",
+     "tr": "Atacama’da Ay Vadisi’nin rüzgârla oyulmuş kayaları",
+     "en": "The wind-carved rocks of the Valley of the Moon in the Atacama",
+     "cr": "Foto · Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Atacama, kutuplar dışında dünyanın en kurak çölü; bazı istasyonlar yıllarca tek damla yağmur ölçmedi",
+     "facte": "The Atacama is the driest desert outside the poles — some stations have gone years without measuring a drop of rain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-whitedesert.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Beyaz Çöl, Mısır · White Desert, Egypt",
+     "tr": "Farafra yakınlarında rüzgârın tebeşirden yonttuğu beyaz kayalar",
+     "en": "White rocks carved from chalk by the wind near Farafra",
+     "cr": "Foto · Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Bu tebeşir, milyonlarca yıl önce burayı kaplayan denizdeki minicik canlıların kabuklarından oluştu",
+     "facte": "This chalk was made from the shells of tiny sea creatures, from a sea that covered the area millions of years ago"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "30 °C",
+     "tr": "Kum ve kuru hava ısıyı tutmaz: bazı çöllerde gündüz ile gece arasındaki fark 30 °C’yi aşar. Gün batınca çöl hızla serinler",
+     "en": "Sand and dry air don’t hold heat — in some deserts the difference between day and night is more than 30 °C. Once the sun sets, the desert cools fast",
+     "src": "Çölde akşam · Evening in the desert",
+     "c1": "#20181a",
+     "c2": "#07050a"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-26-21",
+   "name": "Gün Batımı · Sunset — Ege köyleri · Aegean villages",
+   "from": "2026-11-26T21:00",
+   "until": "2026-11-26T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-alacati.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Alaçatı, Çeşme",
+     "tr": "Alaçatı’nın taş yel değirmenleri",
+     "en": "The stone windmills of Alaçatı",
+     "cr": "Foto · Photo: Justinianus · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Hiç dinmeyen rüzgârı Alaçatı’yı Türkiye’nin rüzgâr sörfü merkezi yaptı",
+     "facte": "Its never-ending wind made Alaçatı Turkey’s windsurfing capital"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-sirince.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Şirince, Selçuk",
+     "tr": "Zeytinliklerle çevrili Şirince köyü",
+     "en": "Şirince village among the olive groves",
+     "cr": "Foto · Photo: Emmet61 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Köy, meyve şaraplarıyla ve 19. yüzyıldan kalma taş evleriyle bilinir",
+     "facte": "The village is known for its fruit wines and its 19th-century stone houses"
+    },
+    {
+     "k": "hzkoch",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h26-foca.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Eski Foça, İzmir",
+     "tr": "Eski Foça’da ağaçların arasından denize inen güneş",
+     "en": "The sun going down into the sea through the trees at Eski Foça",
+     "cr": "Foto · Photo: Ferit BAYCUMAN · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Foça kıyıları, nesli tehlikedeki Akdeniz foklarının yaşadığı az sayıdaki yerden biri",
+     "facte": "The Foça coast is one of the few places where endangered Mediterranean monk seals still live"
+    },
+    {
+     "k": "hzquote",
+     "d": 38,
+     "tr": "Batışı gördün;|doğuşu da gör",
+     "en": "You have seen the setting — now see the rising",
+     "pal": "clay"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Neyi kırmadan|kullanamazsın?",
+     "qe": "What can’t you use until you break it?",
+     "a": "Yumurta!",
+     "ae": "An egg!",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-26-22",
+   "name": "Gece · Night — kış ışıklarında eski şehirler · old towns in winter lights (sakin · calm)",
+   "from": "2026-11-26T22:00",
+   "until": "2026-11-26T23:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 30,
+     "f": "m/h26-bruges.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gerçek Fotoğraf · Real Photo · Brugge, Belçika · Bruges, Belgium",
+     "lines": [
+      [
+       "Gece",
+       6.6
+      ],
+      [
+       "Night",
+       3.6
+      ]
+     ],
+     "tr": "Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin",
+     "en": "Now playing “Sadece Sen Night” — softer and calmer",
+     "cr": "Foto · Photo: Phupe · CC BY-SA 3.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h26-tallinn.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Tallinn, Estonya · Estonia",
+     "tr": "Tallinn’in ortaçağ surları gece ışıklarında",
+     "en": "Tallinn’s medieval walls in the night lights",
+     "cr": "Foto · Photo: Eestijuust · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h26-colmar.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Colmar, Fransa · France",
+     "tr": "Colmar’da yarı ahşap evler ve sakin bir akşam sokağı",
+     "en": "Half-timbered houses and a quiet evening street in Colmar",
+     "cr": "Foto · Photo: Gzen92 · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzsnow",
+     "d": 70
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h26-ljubljana.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Ljubljana, Slovenya · Slovenia",
+     "tr": "Ljubljana’da nehir kıyısında kış ışıkları",
+     "en": "Winter lights along the river in Ljubljana",
+     "cr": "Foto · Photo: warpmike · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h26-stockholm.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Gamla Stan, Stockholm",
+     "tr": "Stockholm’ün eski şehrinde bir kış pazarı",
+     "en": "A winter market in Stockholm’s old town",
+     "cr": "Foto · Photo: Holger.Ellgaard · CC BY-SA 3.0 · Wikimedia Commons",
+     "quiet": 1
+    }
+   ]
+  },
+  {
+   "id": "dj-11-26-23",
+   "name": "Gece · Night — yıldızlar ve takımyıldızlar · stars and constellations (sakin · calm)",
+   "from": "2026-11-26T23:00",
+   "until": "2026-11-27T02:00",
+   "items": [
+    {
+     "k": "hzburc",
+     "d": 120
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-pleiades.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Ülker · the Pleiades",
+     "tr": "Ülker yıldız kümesi ve çevresindeki mavi toz",
+     "en": "The Pleiades and the blue dust around them",
+     "cr": "Foto · Photo: NASA, ESA, AURA/Caltech, Palomar Observatory · kamu malı · public domain · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-andromeda.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Andromeda Gökadası · Andromeda Galaxy",
+     "tr": "Andromeda: çıplak gözle görülen en uzak şeylerden biri, 2,5 milyon ışık yılı ötede",
+     "en": "Andromeda — one of the farthest things the naked eye can see, 2.5 million light years away",
+     "cr": "Foto · Photo: Adam Evans · CC BY 2.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzember",
+     "d": 80
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-cabin.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Alaska · bir kış gecesi · a winter night",
+     "tr": "Karlı ormanda ışığı yanan bir kulübe",
+     "en": "A cabin with its light on in the snowy forest",
+     "cr": "Foto · Photo: U.S. Fish and Wildlife Service Alaska · kamu malı · public domain · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Gözlerini kapat,|âşık ol ve orada kal",
+     "en": "Close your eyes, fall in love, stay there",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h26-crescent.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Hilal · Crescent Moon",
+     "tr": "İyi geceler · Good night",
+     "en": "Good night",
+     "cr": "Foto · Photo: Paramanu Sarkar · CC BY-SA 4.0 · Wikimedia Commons",
+     "fit": "contain",
+     "quiet": 1
+    }
+   ]
+  }
+ ]
+}
