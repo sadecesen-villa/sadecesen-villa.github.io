@@ -1,0 +1,1177 @@
+{
+ "date": "2026-11-27",
+ "rev": 86,
+ "_note": "Hourly sets for the villa TV. Built by days/build_2026-11-27.py. 17:00–02:00 = DJ Taş evening (Jazz House Lounge → Sunset 19:00 → Night 22:00, synced with the HomePod playlists; stills only at night, no video). Content log: used-content.md",
+ "sets": [
+  {
+   "id": "h-11-27-09",
+   "name": "Cuma Sabahı · Friday Morning — Trabzon ve Rize · Trabzon & Rize",
+   "from": "2026-11-27T09:00",
+   "until": "2026-11-27T10:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-trabzonport.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Trabzon Limanı · Trabzon harbour",
+     "tr": "Sabah ışığında Trabzon limanı ve Karadeniz",
+     "en": "Trabzon harbour and the Black Sea in the morning light",
+     "cr": "Foto · Photo: Mehlauge · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Yüzyıllar boyunca İran’daki Tebriz’e giden kervan yolu burada denize ulaştı: ipek ve baharat bu limandan gemilere yüklendi",
+     "facte": "For centuries the caravan road to Tabriz in Persia reached the sea here — silk and spices were loaded onto ships at this harbour"
+    },
+    {
+     "k": "hzquote",
+     "d": 38,
+     "tr": "Sevdiğin şeyin güzelliği,|yaptığın iş olsun",
+     "en": "Let the beauty of what you love be what you do",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-kostaki.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Kostaki Konağı · Trabzon Müzesi · Kostaki Mansion · Trabzon Museum",
+     "tr": "Trabzon Müzesi’nin bulunduğu taş konak ve bahçesi",
+     "en": "The stone mansion that houses the Trabzon Museum, and its garden",
+     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "20. yüzyılın başında bir banker için yapıldı; Atatürk 1924’te Trabzon’a geldiğinde burada kaldı",
+     "facte": "Built in the early 20th century for a banker — Atatürk stayed here when he came to Trabzon in 1924"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-rizetea.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Çay bahçeleri · Tea gardens, Rize",
+     "tr": "Rize’nin yamaçlarında sıra sıra çay",
+     "en": "Rows of tea on the slopes of Rize",
+     "cr": "Foto · Photo: Wikimol · CC BY-SA 2.5 · Wikimedia Commons",
+     "fact": "Türkiye’de çay tarımı 1940’larda Rize’de başladı; bugün Türkiye kişi başına dünyada en çok çay içen ülke: yılda 3 kilodan fazla",
+     "facte": "Tea farming in Turkey began in Rize in the 1940s — today Turks drink more tea per person than anyone else in the world, over 3 kg a year"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-firtina.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Fırtına Deresi · Fırtına Valley, Çamlıhemşin",
+     "tr": "Fırtına Deresi’nin üzerinde eski bir taş kemer köprü",
+     "en": "An old stone arch bridge over the Fırtına stream",
+     "cr": "Foto · Photo: Dr. Zeynel Cebeci · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Vadi boyunca onlarca tarihî taş köprü var; derenin adı, yağmurdan sonra köpürerek akmasından gelir",
+     "facte": "Dozens of historic stone bridges line the valley — the stream’s name, “storm”, comes from the way it foams after rain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "≈ 1.700 km",
+     "tr": "Türkiye’nin Karadeniz kıyısı yaklaşık 1.700 km uzunluğunda: İstanbul’dan Gürcistan sınırındaki Sarp’a kadar. Bu, Londra ile Roma arasındaki uzaklıktan bile fazla",
+     "en": "Turkey’s Black Sea coast is about 1,700 km long — from Istanbul to Sarp on the Georgian border. That is even more than the distance from London to Rome",
+     "src": "Karadeniz kıyısı · The Black Sea coast",
+     "c1": "#13242c",
+     "c2": "#04080a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Ne kadar çok olursa,|o kadar az görürsün.|Nedir?",
+     "qe": "The more of it there is, the less you see. What is it?",
+     "a": "Sis! (ya da karanlık)",
+     "ae": "Fog! (or darkness)",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c",
+     "hint": "Karadeniz sabahlarını düşün · Think of Black Sea mornings"
+    }
+   ]
+  },
+  {
+   "id": "h-11-27-10",
+   "name": "Yaşayan Sanat: Dalgalar Buluşunca · Living Art: When Waves Meet",
+   "from": "2026-11-27T10:00",
+   "until": "2026-11-27T11:00",
+   "items": [
+    {
+     "k": "hzslit",
+     "d": 72,
+     "ph": 34
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-soapfilm.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Sabun köpüğü · a soap bubble (yakın çekim · close-up)",
+     "tr": "Bir sabun köpüğünün üstünde akan renkler",
+     "en": "Colours flowing over a soap bubble",
+     "cr": "Foto · Photo: Pksois23 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Renk boya değil: zarın ön ve arka yüzünden yansıyan ışık dalgaları üst üste biniyor. Zar inceldikçe renkler değişir; en ince yerde köpük patlamadan önce siyaha döner",
+     "facte": "The colour is not paint — light waves bouncing off the front and back of the film overlap. As the film thins the colours change, and the thinnest part turns black just before it pops",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 34,
+     "f": "m/h27-tyoung.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Thomas Young (1773–1829)",
+     "tr": "Thomas Young’ın portresi",
+     "en": "A portrait of Thomas Young",
+     "cr": "Foto · Photo: Thomas Lawrence’dan kopya · after Thomas Lawrence · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Doktor, fizikçi ve dilbilimci: çift yarık deneyini yaptı ve Rosetta Taşı’ndaki hiyerogliflerin çözülmesine ilk adımları attı",
+     "facte": "A doctor, physicist and linguist — he did the double-slit experiment and took the first steps in decoding the hieroglyphs on the Rosetta Stone",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 58,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Işık tek tek gelse ne olur?",
+     "e": "What if light arrives one piece at a time?",
+     "c1": "#14202c",
+     "c2": "#04070c",
+     "gap": 8,
+     "steps": [
+      [
+       "1801: Young iki yarıktan geçen ışıkla çizgili bir desen görür: ışık bir dalga gibi davranır",
+       "1801: Young sends light through two slits and sees stripes — light behaves like a wave",
+       "💡"
+      ],
+      [
+       "1905: Einstein, ışığın aynı zamanda tanecikler (fotonlar) hâlinde geldiğini söyler",
+       "1905: Einstein says light also comes in particles — photons",
+       ""
+      ],
+      [
+       "Deney, tek tek gönderilen parçacıklarla tekrarlanır: her biri perdede tek bir nokta bırakır",
+       "The experiment is repeated with particles sent one at a time — each leaves a single dot on the screen",
+       ""
+      ],
+      [
+       "Binlerce nokta birikince… yine aynı çizgili desen ortaya çıkar",
+       "After thousands of dots… the same striped pattern appears again",
+       ""
+      ]
+     ],
+     "fin": "Her parçacık, bir dalga gibi iki yarıktan da “geçmiş” gibi davranıyor — kuantum dünyasının en büyük gizemlerinden biri",
+     "fine": "Each particle acts as if, like a wave, it went through both slits — one of the deepest mysteries of the quantum world"
+    },
+    {
+     "k": "hzpwave",
+     "d": 56
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "< 0,001 mm",
+     "tr": "Bir sabun köpüğünün zarı çoğu yerde milimetrenin binde birinden ince: bir saç telinden yüz kat kadar ince, aşağı yukarı ışığın dalga boyu kadar",
+     "en": "Most of a soap bubble’s film is thinner than a thousandth of a millimetre — about a hundred times thinner than a hair, roughly the size of a wavelength of light",
+     "src": "İnce mi ince · Thin, thinner",
+     "c1": "#14202a",
+     "c2": "#04070a"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hangi dalga|seni hiç ıslatmaz?",
+     "qe": "Which wave never gets you wet?",
+     "a": "El sallamak!",
+     "ae": "A wave of the hand!",
+     "sec": 14,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-27-11",
+   "name": "Nefes Kesen Yerler: Basamaklı Topraklar · Breathtaking Places: Terraced Landscapes",
+   "from": "2026-11-27T11:00",
+   "until": "2026-11-27T12:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-longji.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Longji pirinç terasları, Çin · Longji Rice Terraces, China",
+     "tr": "Guangxi’de dağın çevresine dolanan pirinç terasları",
+     "en": "Rice terraces wrapping around the mountain in Guangxi",
+     "cr": "Foto · Photo: Rutger van der Maar · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Adı “Ejderin Omurgası”: teraslar uzaktan bir ejderin pullarına benzer. Yüzyıllar boyunca elle, kuşaktan kuşağa yapıldı",
+     "facte": "Its name means “Dragon’s Backbone” — from afar the terraces look like a dragon’s scales. They were built by hand, generation after generation, over centuries"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-banaue.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Banaue, Filipinler · Banaue, the Philippines",
+     "tr": "Ifugao dağlarında yeşil terasların arasında köy",
+     "en": "A village among the green terraces of the Ifugao mountains",
+     "cr": "Foto · Photo: Larsjepp · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Ifugao pirinç teraslarının yaklaşık 2.000 yıllık olduğu düşünülür; 1995’ten beri UNESCO Dünya Mirası",
+     "facte": "The Ifugao rice terraces are thought to be about 2,000 years old — a UNESCO World Heritage site since 1995"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-mucangchai.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Mù Cang Chải, Vietnam",
+     "tr": "Vadiye basamak basamak inen sarı-yeşil pirinç tarlaları",
+     "en": "Rice fields stepping down into the valley",
+     "cr": "Foto · Photo: Doan Tuan · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Teraslar dağın eş yükselti çizgilerini izler: su en üstten girer ve basamaktan basamağa akarak hepsini sular",
+     "facte": "The terraces follow the mountain’s contour lines — water enters at the top and flows down from step to step, watering them all"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-jatiluwih.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Jatiluwih, Bali, Endonezya · Indonesia",
+     "tr": "Palmiyelerin arasından Jatiluwih’in pirinç tarlaları",
+     "en": "The rice fields of Jatiluwih seen through the palms",
+     "cr": "Foto · Photo: Paxson Woelber · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bali’nin bin yıllık “subak” sulama düzeninde suyu köylülerin ve tapınakların ortak kararıyla paylaştırır; 2012’de UNESCO listesine girdi",
+     "facte": "Bali’s thousand-year-old “subak” system shares the water by joint decision of farmers and water temples — it joined the UNESCO list in 2012"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-moray.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Moray, Peru",
+     "tr": "Moray’de dev bir amfi tiyatro gibi iç içe dairesel teraslar",
+     "en": "Circular terraces nested like a giant amphitheatre at Moray",
+     "cr": "Foto · Photo: gertrudis2010 · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "İnkaların burayı bir tarım laboratuvarı olarak kullandığı düşünülür: her basamakta sıcaklık biraz farklı",
+     "facte": "The Incas are thought to have used it as a farming laboratory — each step has a slightly different temperature"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-lavaux.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Lavaux, İsviçre · Switzerland",
+     "tr": "Cenevre Gölü’ne inen Lavaux üzüm bağları",
+     "en": "The Lavaux vineyards stepping down to Lake Geneva",
+     "cr": "Foto · Photo: Lorenz Poffet · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Teraslar 12. yüzyılda keşişler tarafından kurulmaya başlandı; bağcılar “üç güneş” der: gökteki, göldeki yansıması ve ısınan taş duvarlar",
+     "facte": "Monks began building the terraces in the 12th century — winegrowers speak of “three suns”: the one in the sky, its reflection in the lake, and the warm stone walls"
+    },
+    {
+     "k": "hzchoose",
+     "d": 40,
+     "q": "Hangisinde bir sabah uyanmak isterdin?",
+     "qe": "Which would you rather wake up in one morning?",
+     "a": {
+      "f": "m/h27-longji.jpg",
+      "t": "Sisli dağlarda pirinç terasları",
+      "e": "Rice terraces in misty mountains",
+      "tag": "Longji"
+     },
+     "b": {
+      "f": "m/h27-lavaux.jpg",
+      "t": "Göle bakan üzüm bağları",
+      "e": "Vineyards above a lake",
+      "tag": "Lavaux"
+     },
+     "p": "Herkes birini seçsin, sonra nedenini söylesin",
+     "pe": "Everyone picks one, then says why",
+     "cr": "Fotolar · Photos: Rutger van der Maar · CC BY 2.0 / Lorenz Poffet · CC BY-SA 4.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "h-11-27-12",
+   "name": "Çininin Şiiri · Poetry in Tiles",
+   "from": "2026-11-27T12:00",
+   "until": "2026-11-27T13:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-izniktile.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İznik seramiği · İznik ware (Çinili Köşk Müzesi, İstanbul · Tiled Kiosk Museum, Istanbul)",
+     "tr": "Mavi ve beyaz çiçek desenli bir İznik tabağı",
+     "en": "An İznik plate with blue and white flowers",
+     "cr": "Foto · Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "16. yüzyılda İznik atölyeleri Osmanlı saraylarına ve camilerine çini yaptı; parlak “domates kırmızısı”nın sırrı uzun süre çözülemedi",
+     "facte": "In the 16th century İznik’s workshops made tiles for Ottoman palaces and mosques — the secret of their bright “tomato red” long remained a mystery",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-shahmosque.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · İmam (Şah) Camii, İsfahan · Shah Mosque, Isfahan",
+     "tr": "Kubbenin içi: merkeze doğru daralan çini halkaları",
+     "en": "Inside the dome — rings of tiles narrowing towards the centre",
+     "cr": "Foto · Photo: Patrickringgenberg · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "1611–1629 arasında yapıldı; yüzeyleri yaklaşık yarım milyon çiniyle kaplı",
+     "facte": "Built between 1611 and 1629 — its surfaces are covered with around half a million tiles",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-azulejo.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · São Bento Garı, Porto · São Bento Station, Porto",
+     "tr": "Gar salonunun duvarlarında mavi-beyaz azulejo panolar",
+     "en": "Blue-and-white azulejo panels on the walls of the station hall",
+     "cr": "Foto · Photo: John Samuel · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Ressam Jorge Colaço 1905–1916 arasında yaklaşık 20.000 çiniyle Portekiz tarihinden sahneler yaptı",
+     "facte": "Painter Jorge Colaço made scenes from Portuguese history between 1905 and 1916, using about 20,000 tiles"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-zellige.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Ben Youssef Medresesi, Marakeş · Ben Youssef Madrasa, Marrakesh",
+     "tr": "Elle kesilmiş küçük renkli parçalardan bir zellij yıldızı",
+     "en": "A zellige star made of small hand-cut coloured pieces",
+     "cr": "Foto · Photo: M0tty · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Zellij ustaları her parçayı pişmiş çiniden çekiçle tek tek yontar; desen ancak parçalar ters çevrilip yan yana dizilince ortaya çıkar",
+     "facte": "Zellige craftsmen chip each piece from fired tile one by one with a hammer — the pattern only appears once the pieces are laid face down side by side",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-delfttile.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Menşikov Sarayı, St. Petersburg · Menshikov Palace",
+     "tr": "Tavanı ve duvarları Delft çinileriyle kaplı bir oda",
+     "en": "A room with its ceiling and walls covered in Delft tiles",
+     "cr": "Foto · Photo: TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Hollanda’nın mavi Delft çinileri, Çin porselenini taklit etmek için doğdu; 18. yüzyılın başında bu saray odaları binlerce Delft çinisiyle kaplandı",
+     "facte": "Dutch blue Delft tiles were born as an imitation of Chinese porcelain — in the early 18th century these palace rooms were lined with thousands of them"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-alhambratile.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Elhamra Müzesi, Granada · Museo de la Alhambra",
+     "tr": "Elhamra’dan geometrik bir “alicatado” çini panosu",
+     "en": "A geometric “alicatado” tile panel from the Alhambra",
+     "cr": "Foto · Photo: Museo de la Alhambra (anonim · anonymous) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Alicatado: her renk ayrı bir çiniden kesilip mozaik gibi birleştirilir. Nasrî ustaları 14. yüzyılda bu yıldızları pergel ve cetvelle kurdu",
+     "facte": "Alicatado: each colour is cut from a separate tile and fitted together like a mosaic. Nasrid craftsmen built these stars with compass and ruler in the 14th century",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 34,
+     "big": "17",
+     "tr": "Bir düzlemi aynı desenin tekrarıyla döşemenin matematiksel olarak tam 17 simetri türü vardır (1891’de kanıtlandı). Ustalar bunların çoğunu yüzyıllar önce, kanıttan habersiz çinilere işlemişti",
+     "en": "There are exactly 17 kinds of symmetry for covering a plane with a repeating pattern (proved in 1891). Craftsmen had used most of them in tiles centuries earlier, without any proof",
+     "src": "Duvar kâğıdı grupları · Wallpaper groups",
+     "c1": "#142030",
+     "c2": "#04070c"
+    },
+    {
+     "k": "hzriddle",
+     "d": 36,
+     "q": "Bir zemini boşluk bırakmadan|tek bir düzgün çokgenle döşemek istiyorsun.|Kaç seçeneğin var?",
+     "qe": "You want to tile a floor with no gaps using one kind of regular polygon. How many choices do you have?",
+     "a": "Yalnızca üç: üçgen, kare ve altıgen",
+     "ae": "Only three: triangles, squares and hexagons",
+     "sec": 20,
+     "c1": "#22303a",
+     "c2": "#06090c",
+     "hint": "Köşede açılar 360°’ye tamamlanmalı · The corners must add up to 360°"
+    }
+   ]
+  },
+  {
+   "id": "h-11-27-13",
+   "name": "Büyük Ustalardan: Hiroshige’nin Yağmuru, Karı ve Ayı · From the Great Masters: Hiroshige’s Rain, Snow & Moon",
+   "from": "2026-11-27T13:00",
+   "until": "2026-11-27T14:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h27-hiro1.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Utagawa Hiroshige, 1857",
+     "tr": "Shin-Ōhashi Köprüsü’nde Ani Sağanak",
+     "en": "Sudden Shower over Shin-Ōhashi Bridge",
+     "cr": "Eser · Artwork: Utagawa Hiroshige · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Yağmur yüzlerce ince çizgiyle, iki farklı açıda basılmış. 1887’de Van Gogh bu baskıyı yağlıboyayla birebir kopyaladı",
+     "facte": "The rain is printed in hundreds of fine lines at two different angles. In 1887 Van Gogh copied this print in oils",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h27-hiro2.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Utagawa Hiroshige, 1857",
+     "tr": "Kameido’daki Erik Bahçesi",
+     "en": "Plum Park in Kameido",
+     "cr": "Eser · Artwork: Utagawa Hiroshige · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Ön plandaki dev dal ile uzaktaki küçük insanlar: bu cesur kırpma Avrupalı ressamları çok etkiledi; Van Gogh bunu da kopyaladı",
+     "facte": "A huge branch in front, tiny people far away — this bold cropping greatly influenced European painters, and Van Gogh copied this one too",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h27-hiro3.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Utagawa Hiroshige, yaklaşık 1833–34 · about 1833–34",
+     "tr": "Kanbara’da Gece Karı",
+     "en": "Night Snow at Kanbara",
+     "cr": "Eser · Artwork: Utagawa Hiroshige · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Tōkaidō Yolu’nun 53 Durağı dizisinden. İşin ilginci, Kanbara ılık bir sahil kasabası; orada böyle kar neredeyse hiç yağmaz",
+     "facte": "From the Fifty-three Stations of the Tōkaidō. Curiously, Kanbara is a mild coastal town where snow like this hardly ever falls",
+     "fit": "contain"
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Fırçamı Doğu’da bırakıp yola çıkıyorum;|Batı’nın ünlü yerlerini görmeye",
+     "en": "I leave my brush in the East and set out on my journey, to see the famous places of the West",
+     "pal": "ink",
+     "lb": "Ressamın Son Şiiri · The Painter’s Last Poem",
+     "by": "Utagawa Hiroshige, 1858"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h27-hiro4.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Utagawa Hiroshige, 1858",
+     "tr": "Ryōgoku’da Havai Fişekler",
+     "en": "Fireworks at Ryōgoku",
+     "cr": "Eser · Artwork: Utagawa Hiroshige · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Gece göğünde açılan tek bir havai fişek ve nehirdeki kayıklar. Whistler’ın Thames üzerindeki gece resimleri bu baskıdan izler taşır",
+     "facte": "A single firework bursting in the night sky above boats on the river — Whistler’s night paintings of the Thames carry traces of this print",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h27-hiro5.jpg",
+     "lb": "Gerçek Eser · Real Artwork · Utagawa Hiroshige, 1857",
+     "tr": "Ueno’daki Ay Çamı",
+     "en": "The Moon Pine at Ueno",
+     "cr": "Eser · Artwork: Utagawa Hiroshige · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Dalı kendi üstüne halka gibi kıvrılmış bir çam ve halkanın içinden görünen manzara: Edo’nun Yüz Ünlü Manzarası dizisinden",
+     "facte": "A pine whose branch curls into a ring, with the view seen through it — from One Hundred Famous Views of Edo",
+     "fit": "contain"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "118",
+     "tr": "“Edo’nun Yüz Ünlü Manzarası” adına rağmen 118 baskıdan oluşur. Hiroshige diziyi bitiremeden 1858’de öldü; son baskıları öğrencisi tamamladı",
+     "en": "Despite its name, “One Hundred Famous Views of Edo” has 118 prints. Hiroshige died in 1858 before finishing it, and his pupil completed the last ones",
+     "src": "Bir dizinin hikâyesi · The story of a series",
+     "c1": "#1a2028",
+     "c2": "#05080b"
+    }
+   ]
+  },
+  {
+   "id": "h-11-27-14",
+   "name": "Gökyüzünün Harikaları: Jüpiter · Wonders of the Sky: Jupiter",
+   "from": "2026-11-27T14:00",
+   "until": "2026-11-27T15:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-jupiterhst.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Jüpiter · Jupiter (Hubble Uzay Teleskobu, 2019 · Hubble Space Telescope)",
+     "tr": "Jüpiter’in renkli bulut kuşakları ve Büyük Kırmızı Leke",
+     "en": "Jupiter’s coloured cloud belts and the Great Red Spot",
+     "cr": "Foto · Photo: NASA, ESA, A. Simon (NASA Goddard) · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Jüpiter, Güneş Sistemi’ndeki bütün öteki gezegenlerin toplamından iki buçuk kat daha ağır",
+     "facte": "Jupiter is two and a half times heavier than all the other planets in the Solar System put together",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-redspot.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Büyük Kırmızı Leke · the Great Red Spot (Juno, 2017, işlenmiş · processed)",
+     "tr": "Juno’nun yakından gördüğü dev fırtına",
+     "en": "The giant storm seen up close by Juno",
+     "cr": "Foto · Photo: NASA / SwRI / MSSS / Gerald Eichstädt / Seán Doran · kamu malı · public domain · Wikimedia Commons",
+     "fact": "En az 190 yıldır gözlenen bir fırtına. Bugün Dünya’dan biraz geniş; yüz yıl önce içine üç Dünya sığardı",
+     "facte": "A storm watched for at least 190 years. Today it is a little wider than Earth — a century ago three Earths would have fitted inside",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 54,
+     "lb": "Ölçek Yolculuğu · Scale Journey",
+     "q": "Dünya bir nohut olsaydı…",
+     "e": "If Earth were a chickpea…",
+     "c1": "#1a1a24",
+     "c2": "#05050a",
+     "gap": 8,
+     "steps": [
+      [
+       "Dünya 1 cm’lik bir nohut olsaydı…",
+       "If Earth were a 1 cm chickpea…",
+       "🫘"
+      ],
+      [
+       "Jüpiter 11 cm: bir greyfurt",
+       "Jupiter would be 11 cm — a grapefruit",
+       ""
+      ],
+      [
+       "Güneş 1,1 metrelik bir top, nohuttan 117 metre ötede",
+       "The Sun would be a 1.1 m ball, 117 m from the chickpea",
+       ""
+      ],
+      [
+       "Greyfurt Jüpiter ise Güneş’ten 611 metre uzakta dönerdi",
+       "And grapefruit Jupiter would circle 611 m from the Sun",
+       "🪐"
+      ]
+     ],
+     "fin": "Uzay çoğunlukla boşluktur: gezegenler bu kadar büyük bir sahnede minicik",
+     "fine": "Space is mostly empty — the planets are tiny on such a vast stage"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-junopole.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Jüpiter’in güney kutbu · Jupiter’s south pole (Juno, 2017, işlenmiş · processed)",
+     "tr": "Güney kutbunun üzerinde birbirine dokunan dev kasırgalar",
+     "en": "Giant cyclones touching each other over the south pole",
+     "cr": "Foto · Photo: NASA / JPL / SwRI / MSSS, Kevin M. Gill · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Juno, kutuplarda düzenli desenler hâlinde dizilmiş kasırgalar buldu: kuzeyde sekiz, güneyde beş-altı; her biri neredeyse bir kıta büyüklüğünde",
+     "facte": "Juno found cyclones arranged in regular patterns at the poles — eight in the north, five or six in the south, each almost the size of a continent",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-io.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Io · Jüpiter’in uydusu · a moon of Jupiter (Galileo)",
+     "tr": "Kükürtle sarıya, turuncuya boyanmış Io",
+     "en": "Io, painted yellow and orange by sulphur",
+     "cr": "Foto · Photo: NASA / JPL / University of Arizona · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Güneş Sistemi’nin volkanik olarak en etkin yeri: Jüpiter’in çekimi Io’yu sürekli sıkıp gevşetir, içini ısıtır; yüzlerce yanardağ püskürür",
+     "facte": "The most volcanically active place in the Solar System — Jupiter’s pull keeps squeezing and relaxing Io, heating it inside; hundreds of volcanoes erupt",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-europa.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Europa · Jüpiter’in uydusu · a moon of Jupiter (Galileo, gerçeğe yakın renk · near-true colour)",
+     "tr": "Çatlaklarla örülmüş buz yüzeyiyle Europa",
+     "en": "Europa with its ice surface criss-crossed by cracks",
+     "cr": "Foto · Photo: NASA / Jet Propulsion Lab-Caltech / SETI Institute · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Buzun altında tuzlu bir okyanus olduğu düşünülüyor; içindeki su, Dünya’daki bütün okyanusların iki katı olabilir",
+     "facte": "A salty ocean is thought to lie beneath the ice — it may hold twice as much water as all of Earth’s oceans",
+     "fit": "contain"
+    },
+    {
+     "k": "hzriddle",
+     "d": 36,
+     "q": "1610’da Galileo teleskobunu Jüpiter’e çevirdi.|Ne gördü?",
+     "qe": "In 1610 Galileo turned his telescope to Jupiter. What did he see?",
+     "a": "Etrafında dönen dört uydu: Io, Europa, Ganymede ve Callisto. Her şeyin Dünya’nın çevresinde dönmediğinin ilk kanıtlarından biri",
+     "ae": "Four moons circling it — Io, Europa, Ganymede and Callisto. One of the first proofs that not everything goes round the Earth",
+     "sec": 18,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-27-15",
+   "name": "Göz Oyunları: İki Anlamlı Şekiller · Tricks of the Eye: Pictures With Two Meanings",
+   "from": "2026-11-27T15:00",
+   "until": "2026-11-27T16:00",
+   "items": [
+    {
+     "k": "hzrubin",
+     "d": 50
+    },
+    {
+     "k": "hznecker",
+     "d": 50
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Şekil ve zemin · Figure & ground",
+     "tr": "Beyin bir görüntüye bakınca önce neyin “şey”, neyin “arka plan” olduğuna karar verir. Bu kararı aynı anda iki türlü veremez; bu yüzden iki anlamlı şekiller gidip gelir",
+     "en": "When the brain looks at a picture, it first decides what is the “thing” and what is the background. It can’t make that choice both ways at once — so two-way pictures flip back and forth",
+     "src": "Gestalt psikolojisi · Gestalt psychology",
+     "c1": "#1a1d22",
+     "c2": "#050608"
+    },
+    {
+     "k": "hzkoffka",
+     "d": 56
+    },
+    {
+     "k": "hzriddle",
+     "d": 38,
+     "q": "Ördek mi, tavşan mı?|1892’de bir Alman dergisinde yayımlanan çizimde|hangisini gördüğünü ne belirler?",
+     "qe": "Duck or rabbit? In a drawing published in a German magazine in 1892, what decides which one you see?",
+     "a": "Çoğu zaman beklentin! Paskalya’da çocukların çoğu önce tavşanı, ekimde ise önce ördeği görüyor",
+     "ae": "Often your expectation! At Easter most children see the rabbit first; in October, the duck",
+     "sec": 20,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "h-11-27-16",
+   "name": "Zekice Düşünce: Königsberg’in Yedi Köprüsü · Clever Thinking: The Seven Bridges of Königsberg",
+   "from": "2026-11-27T16:00",
+   "until": "2026-11-27T17:00",
+   "items": [
+    {
+     "k": "hzeuler",
+     "d": 90
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-konigsberg.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Königsberg, 1652 (Merian gravürü · Merian engraving)",
+     "tr": "Pregel Nehri, iki ada ve yedi köprüyle Königsberg şehri",
+     "en": "The city of Königsberg with the Pregel river, two islands and seven bridges",
+     "cr": "Foto · Photo: Merian-Erben · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Şehrin halkı pazar yürüyüşlerinde her köprüden bir kez geçmeyi dener, hiç başaramazdı",
+     "facte": "On Sunday walks the townspeople would try to cross every bridge once — and never managed it",
+     "fit": "contain"
+    },
+    {
+     "k": "hzphoto",
+     "d": 36,
+     "f": "m/h27-euler.jpg",
+     "lb": "Gerçek Fotoğraf · Real Photo · Leonhard Euler (1707–1783), Jakob Emanuel Handmann, 1753",
+     "tr": "İsviçreli matematikçi Leonhard Euler’in portresi",
+     "en": "A portrait of the Swiss mathematician Leonhard Euler",
+     "cr": "Foto · Photo: Jakob Emanuel Handmann · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Tarihin en üretken matematikçilerinden biri: neredeyse tamamen kör olduktan sonra da yazdırarak yüzlerce çalışma yaptı",
+     "facte": "One of the most productive mathematicians in history — even after going almost completely blind he kept dictating hundreds of works",
+     "fit": "contain"
+    },
+    {
+     "k": "hzsteps",
+     "d": 56,
+     "lb": "Zekice Düşünce · Clever Thinking",
+     "q": "Bir bulmacadan bugünün haritalarına",
+     "e": "From a puzzle to today’s maps",
+     "c1": "#17222a",
+     "c2": "#05080b",
+     "gap": 8,
+     "steps": [
+      [
+       "1736: Euler, köprü sorusunun cevabının haritada değil, bağlantılarda olduğunu görür",
+       "1736: Euler sees that the answer lies not in the map but in the connections",
+       "🌉"
+      ],
+      [
+       "Kara parçaları nokta, köprüler çizgi olur: ilk “çizge” (graf)",
+       "Land becomes dots, bridges become lines — the first “graph”",
+       ""
+      ],
+      [
+       "Bugün aynı fikir internetin, elektrik şebekelerinin ve sosyal ağların haritasını çıkarır",
+       "Today the same idea maps the internet, power grids and social networks",
+       ""
+      ],
+      [
+       "Telefonundaki yol tarifi de bir çizge üzerinde en kısa yolu arar",
+       "The directions on your phone search for the shortest path on a graph too",
+       "📱"
+      ]
+     ],
+     "fin": "Bazen bir sorunu çözmenin yolu, gereksiz ayrıntıları silmektir",
+     "fine": "Sometimes the way to solve a problem is to erase the details that don’t matter"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "Kaliningrad",
+     "tr": "Königsberg bugün Rusya’da, adı Kaliningrad. Euler’in yedi köprüsünden yalnızca ikisi onun zamanından kalma; bazıları savaşta yıkıldı",
+     "en": "Königsberg is now Kaliningrad, in Russia. Only two of Euler’s seven bridges survive from his time — some were destroyed in the war",
+     "src": "Şehrin bugünü · The city today",
+     "c1": "#17222a",
+     "c2": "#05080b"
+    },
+    {
+     "k": "hzriddle",
+     "d": 40,
+     "q": "Kalemi kâğıttan kaldırmadan ve|hiçbir çizgiden iki kez geçmeden|açık bir zarf çizebilir misin?",
+     "qe": "Can you draw an open envelope without lifting your pen or going over any line twice?",
+     "a": "Evet, ama yalnızca alttaki iki köşeden birinden başlarsan! Tek sayıda çizginin buluştuğu iki köşe oralar",
+     "ae": "Yes — but only if you start at one of the two bottom corners! Those are the two corners where an odd number of lines meet",
+     "sec": 22,
+     "c1": "#22303a",
+     "c2": "#06090c",
+     "hint": "Euler’in kuralını hatırla · Remember Euler’s rule"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-27-17",
+   "name": "DJ Taş · Caz House Lounge · Jazz House Lounge — Lizbon’da akşam · an evening in Lisbon",
+   "from": "2026-11-27T17:00",
+   "until": "2026-11-27T18:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 32,
+     "f": "m/h27-miradouro.jpg",
+     "lb": "DJ Taş · Sadece Sen — Gerçek Fotoğraf · Real Photo · Lizbon, Portekiz · Lisbon, Portugal",
+     "lines": [
+      [
+       "DJ Taş",
+       7.2
+      ],
+      [
+       "Bu akşam · Tonight",
+       3.4
+      ]
+     ],
+     "tr": "Üç perdelik bir akşam: Caz House Lounge → Gün Batımı (19:00) → Gece (22:00). Müzik HomePod’da",
+     "en": "An evening in three acts: Jazz House Lounge → Sunset (19:00) → Night (22:00). Music on the HomePod",
+     "cr": "Foto · Photo: TheDumpy · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-lisbontram.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · 28 numaralı tramvay · Tram 28, Alfama",
+     "tr": "Alfama’nın dar sokağında sarı tramvay",
+     "en": "The yellow tram in a narrow Alfama street",
+     "cr": "Foto · Photo: Michael Meraner · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Lizbon’un yokuşlu sokaklarında 1930’lardan kalma ahşap tramvaylar hâlâ çalışıyor",
+     "facte": "Wooden trams from the 1930s still run up and down Lisbon’s steep streets"
+    },
+    {
+     "k": "hzlorenz",
+     "d": 60
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-alfama.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Alfama, Lizbon · Lisbon",
+     "tr": "Gece Alfama’da sokak lambalarının altında taş basamaklar",
+     "en": "Stone steps under the street lamps of Alfama at night",
+     "cr": "Foto · Photo: Stavros Argyropoulos · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Alfama, 1755 depreminden büyük ölçüde sağ çıkan tek eski mahalle; sokakları hâlâ ortaçağ planını izler",
+     "facte": "Alfama is the only old quarter that largely survived the 1755 earthquake — its lanes still follow the medieval plan"
+    },
+    {
+     "k": "hzfact",
+     "d": 32,
+     "big": "Saudade",
+     "tr": "Portekizcede “saudade”: uzaktaki, belki hiç dönmeyecek bir şeye duyulan tatlı-acı özlem. Lizbon’un fado şarkıları bu duyguyla söylenir; fado 2011’de UNESCO listesine girdi",
+     "en": "In Portuguese, “saudade” is a bittersweet longing for something far away that may never return. Lisbon’s fado songs are sung with this feeling — fado joined the UNESCO list in 2011",
+     "src": "Bir kelime, bir şehir · One word, one city",
+     "c1": "#14202a",
+     "c2": "#04070a"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-belem.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Gerçek Fotoğraf · Real Photo · Belém Kulesi, Lizbon · Belém Tower, Lisbon",
+     "tr": "Akşam ışığında Tejo kıyısındaki Belém Kulesi",
+     "en": "Belém Tower on the bank of the Tagus in the evening light",
+     "cr": "Foto · Photo: Naval S from Berlin · CC BY 2.0 · Wikimedia Commons",
+     "fact": "16. yüzyılın başında limanı korumak için yapıldı; keşif gemileri okyanusa buradan açıldı",
+     "facte": "Built in the early 16th century to guard the harbour — the ships of the age of discovery set out to sea from here"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-27-18",
+   "name": "Caz House Lounge · Jazz House Lounge — Villa Fikri: Terasta Film Gecesi · Villa Idea: Film Night on the Terrace",
+   "from": "2026-11-27T18:00",
+   "until": "2026-11-27T19:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h27-opencinema.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Agistri, Yunanistan · Greece)",
+     "tr": "Yazın terasta açık hava sineması: beyaz bir perde, birkaç rahat sandalye ve battaniyeler",
+     "en": "An open-air cinema on the terrace in summer — a white screen, a few comfy chairs and blankets",
+     "cr": "Foto · Photo: Kaethe17 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "İpucu: filme hava tamamen karardıktan sonra başla, gün batımından yaklaşık 40 dakika sonra. Taş duvar yerine düz, mat beyaz bir perde görüntüyü çok daha keskin yapar",
+     "facte": "Tip: start the film once it is fully dark, about 40 minutes after sunset. A flat matte-white screen instead of the stone wall makes the picture much sharper"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h27-campfire.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · Finlandiya · Finland)",
+     "tr": "Filmden önce ateş başında: kıvılcımlar, sıcak içecekler ve sohbet",
+     "en": "Before the film, by the fire — sparks, hot drinks and conversation",
+     "cr": "Foto · Photo: kallerna · CC BY-SA 3.0 · Wikimedia Commons",
+     "fact": "Ateşi rüzgârın perdeye değil, oturanların arkasına doğru estiği tarafa kur; duman ne yüzlere ne de görüntüye gitsin",
+     "facte": "Build the fire where the wind blows away from both the screen and the guests — so the smoke goes neither into faces nor into the picture"
+    },
+    {
+     "k": "hzquote",
+     "d": 38,
+     "tr": "Gönülden gönüle|yol vardır",
+     "en": "There is a road from heart to heart",
+     "pal": "clay",
+     "lb": "Atasözü · Proverb",
+     "by": "Türk atasözü · Turkish proverb"
+    },
+    {
+     "k": "hzphoto",
+     "d": 42,
+     "f": "m/h27-popcorn.jpg",
+     "lb": "DJ Taş · 1. Perde · Act 1 — Caz House Lounge · Jazz House Lounge · Villa Fikri · Villa Idea — ilham · inspiration (gerçek foto · real photo · ev yapımı patlamış mısır · homemade popcorn)",
+     "tr": "Büyük bir kasede taze patlamış mısır",
+     "en": "A big bowl of fresh popcorn",
+     "cr": "Foto · Photo: Alex Munsell · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Mısır tanesinin içindeki az miktar su ısınınca buhara döner; basınç kabuğu yaklaşık 180 °C’de patlatır ve tane ters yüz olur",
+     "facte": "The tiny bit of water inside each kernel turns to steam — at about 180 °C the pressure bursts the hull and the kernel turns inside out"
+    },
+    {
+     "k": "hztimes",
+     "d": 56
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "24 kare · frames",
+     "tr": "Bir sinema filmi saniyede 24 kare gösterir; projektör her kareyi iki ya da üç kez yakıp söndürür ki göz titreme görmesin",
+     "en": "A cinema film shows 24 frames a second — the projector flashes each frame two or three times so the eye sees no flicker",
+     "src": "Sinemanın sırrı · The secret of cinema",
+     "c1": "#1a1822",
+     "c2": "#06050a"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-27-19",
+   "name": "Gün Batımı · Sunset — Boğaziçi · the Bosphorus",
+   "from": "2026-11-27T19:00",
+   "until": "2026-11-27T20:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 30,
+     "f": "m/h27-maidenstower.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gerçek Fotoğraf · Real Photo · Kız Kulesi, İstanbul · Maiden’s Tower, Istanbul",
+     "lines": [
+      [
+       "Gün Batımı",
+       6.4
+      ],
+      [
+       "Sunset",
+       3.6
+      ]
+     ],
+     "tr": "Liste değişti: şimdi “Sadece Sen Sunset” çalıyor",
+     "en": "The playlist has changed — now playing “Sadece Sen Sunset”",
+     "cr": "Foto · Photo: Hamdigumus · CC0 · kamu malı · public domain · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-bosphorusbr.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · 15 Temmuz Şehitler Köprüsü · the Bosphorus Bridge, from Cihangir",
+     "tr": "Batan güneşte Boğaz Köprüsü ve iki kıta",
+     "en": "The Bosphorus Bridge and two continents at sunset",
+     "cr": "Foto · Photo: Mireia Saenz · CC BY 2.0 · Wikimedia Commons",
+     "fact": "1973’te açıldığında dünyanın en uzun dördüncü asma köprüsüydü; Avrupa ile Asya’yı birbirine bağlar",
+     "facte": "When it opened in 1973 it was the fourth-longest suspension bridge in the world — it links Europe and Asia"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-rumelihisari.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Rumeli Hisarı, İstanbul",
+     "tr": "Boğaz’ın kıyısında Rumeli Hisarı’nın kuleleri",
+     "en": "The towers of Rumeli Hisarı on the shore of the Bosphorus",
+     "cr": "Foto · Photo: Joseolgon · CC BY 4.0 · Wikimedia Commons",
+     "fact": "Fatih Sultan Mehmed 1452’de, İstanbul’un fethinden önce, yaklaşık dört ayda yaptırdı",
+     "facte": "Mehmed the Conqueror had it built in about four months in 1452, before the conquest of Istanbul"
+    },
+    {
+     "k": "hztree",
+     "d": 56
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-eminonuferry.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Boğaz’da vapur · A ferry on the Bosphorus",
+     "tr": "Gün batımında Boğaz’dan geçen bir vapur",
+     "en": "A ferry crossing the Bosphorus at sunset",
+     "cr": "Foto · Photo: Tarikkaanmuslu · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Boğaz yaklaşık 31 km uzunluğunda; en dar yerinde iki kıyı arası yalnızca 700 metre kadar",
+     "facte": "The Bosphorus is about 31 km long — at its narrowest the two shores are only about 700 m apart"
+    },
+    {
+     "k": "hzfact",
+     "d": 30,
+     "big": "İki akıntı · Two currents",
+     "tr": "Boğaz’da yüzeydeki su Karadeniz’den Marmara’ya akar; derinde ise daha tuzlu, daha ağır su ters yöne, Karadeniz’e doğru akar",
+     "en": "In the Bosphorus the surface water flows from the Black Sea to the Marmara — while deep down, saltier, heavier water flows the other way, into the Black Sea",
+     "src": "Boğaz’ın sırrı · A Bosphorus secret",
+     "c1": "#20181a",
+     "c2": "#07050a"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-27-20",
+   "name": "Gün Batımı · Sunset — savanada akşam · evening on the savanna",
+   "from": "2026-11-27T20:00",
+   "until": "2026-11-27T21:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-serengeti.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Serengeti, Tanzanya · Tanzania",
+     "tr": "Güneşin önünde tek başına bir akasya ağacı",
+     "en": "A lone acacia tree against the sun",
+     "cr": "Foto · Photo: Daniel Zaas · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Her yıl yaklaşık bir buçuk milyon antilop (gnu) yağmurların peşinden Serengeti ile Masai Mara arasında daire çizerek göç eder",
+     "facte": "Every year about one and a half million wildebeest follow the rains in a great circle between the Serengeti and the Masai Mara"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-giraffes.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Zürafa · Giraffe",
+     "tr": "Akşam ışığında yürüyen bir zürafa",
+     "en": "A giraffe walking in the evening light",
+     "cr": "Foto · Photo: Sonse · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Zürafanın boynu iki metreyi bulur ama içinde bizimki kadar, yalnızca yedi omur vardır",
+     "facte": "A giraffe’s neck can reach two metres, yet it has just seven vertebrae — the same as ours"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-kilimanjaro.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Kilimanjaro, Tanzanya · Tanzania",
+     "tr": "Gün batımında Kilimanjaro’nun karlı zirvesi",
+     "en": "Kilimanjaro’s snowy summit at sunset",
+     "cr": "Foto · Photo: R Boed · CC BY 2.0 · Wikimedia Commons",
+     "fact": "5.895 metreyle Afrika’nın en yüksek dağı ve dünyanın tek başına yükselen en yüksek dağı; ekvatora çok yakın olmasına rağmen zirvesi buzlu",
+     "facte": "At 5,895 m it is Africa’s highest mountain and the tallest free-standing mountain on Earth — its summit is icy even though it lies close to the equator"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-masaimara.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Masai Mara, Kenya",
+     "tr": "Masai Mara’da kızıl bir gün batımı",
+     "en": "A red sunset over the Masai Mara",
+     "cr": "Foto · Photo: Richard Probst · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Ekvatorda gün batımı çok hızlıdır: güneş ufka dik indiği için alacakaranlık yalnızca 20 dakika kadar sürer",
+     "facte": "Sunsets on the equator are fast — the sun drops straight down to the horizon, so twilight lasts only about 20 minutes"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Hangi hayvan|zıplayamaz?",
+     "qe": "Which animal cannot jump?",
+     "a": "Fil! Dört ayağından en az biri hep yerde kalır",
+     "ae": "The elephant! At least one of its four feet always stays on the ground",
+     "sec": 16,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-27-21",
+   "name": "Gün Batımı · Sunset — Hint Okyanusu kıyıları · Indian Ocean shores",
+   "from": "2026-11-27T21:00",
+   "until": "2026-11-27T22:00",
+   "items": [
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-zanzibar.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Zanzibar, Tanzanya · Tanzania",
+     "tr": "Gün batımında üçgen yelkenli bir dhow",
+     "en": "A dhow with its triangular sail at sunset",
+     "cr": "Foto · Photo: Rod Waddington · CC BY-SA 2.0 · Wikimedia Commons",
+     "fact": "Dhow’lar yüzyıllardır muson rüzgârlarıyla seyreder: kışın Arabistan’dan Afrika’ya, yazın geri",
+     "facte": "For centuries dhows have sailed with the monsoon winds — to Africa from Arabia in winter, and back in summer"
+    },
+    {
+     "k": "hzphoto",
+     "d": 40,
+     "f": "m/h27-seychelles.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Anse Source d’Argent, La Digue, Seyşeller · Seychelles",
+     "tr": "Pembe granit kayalar ve sığ turkuaz su",
+     "en": "Pink granite boulders and shallow turquoise water",
+     "cr": "Foto · Photo: Tobias Alt, Tobi 87 · CC BY-SA 4.0 · Wikimedia Commons",
+     "fact": "Bu granitler yaklaşık 750 milyon yıllık: Seyşeller, bir zamanlar Hindistan ile Madagaskar arasında kalmış eski bir kıta parçası",
+     "facte": "These granites are about 750 million years old — the Seychelles are a fragment of an old continent once caught between India and Madagascar"
+    },
+    {
+     "k": "hzquote",
+     "d": 38,
+     "tr": "Hayat, tutunmak ile bırakmak|arasında bir dengedir",
+     "en": "Life is a balance between holding on and letting go",
+     "pal": "sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-maldives.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Rannalhi, Maldivler · the Maldives",
+     "tr": "Maldivler’de denize inen güneş",
+     "en": "The sun going down into the sea in the Maldives",
+     "cr": "Foto · Photo: Saumesh Kumar · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "fact": "Dünyanın en alçak ülkesi: adaların çoğu deniz seviyesinden yalnızca bir iki metre yüksekte",
+     "facte": "The lowest country in the world — most of its islands rise only a metre or two above the sea"
+    },
+    {
+     "k": "hzphoto",
+     "d": 38,
+     "f": "m/h27-lemorne.jpg",
+     "lb": "DJ Taş · 2. Perde · Act 2 — Gün Batımı · Sunset · Gerçek Fotoğraf · Real Photo · Le Morne Brabant, Morityus · Mauritius",
+     "tr": "Lagünün kıyısında yükselen Le Morne dağı",
+     "en": "Le Morne mountain rising above the lagoon",
+     "cr": "Foto · Photo: dronepicr · CC BY 2.0 · Wikimedia Commons",
+     "fact": "Kaçan köleler bu sarp dağa sığındı; bugün özgürlüğün simgesi ve UNESCO Dünya Mirası",
+     "facte": "Escaped slaves took refuge on this steep mountain — today it is a symbol of freedom and a UNESCO World Heritage site"
+    },
+    {
+     "k": "hzriddle",
+     "d": 34,
+     "q": "Suda doğar,|suda ölür.|Nedir?",
+     "qe": "It is born in water and dies in water. What is it?",
+     "a": "Tuz!",
+     "ae": "Salt!",
+     "sec": 14,
+     "c1": "#22303a",
+     "c2": "#06090c"
+    }
+   ]
+  },
+  {
+   "id": "dj-11-27-22",
+   "name": "Gece · Night — kar altında Japonya · Japan under snow (sakin · calm)",
+   "from": "2026-11-27T22:00",
+   "until": "2026-11-27T23:00",
+   "items": [
+    {
+     "k": "hzwelcome",
+     "d": 30,
+     "f": "m/h27-ginzan.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gerçek Fotoğraf · Real Photo · Ginzan Onsen, Yamagata",
+     "lines": [
+      [
+       "Gece",
+       6.6
+      ],
+      [
+       "Night",
+       3.6
+      ]
+     ],
+     "tr": "Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin",
+     "en": "Now playing “Sadece Sen Night” — softer and calmer",
+     "cr": "Foto · Photo: Eiji Kikuta · CC0 · kamu malı · public domain · Wikimedia Commons"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h27-kenrokuen.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Kenroku-en, Kanazawa",
+     "tr": "Kenroku-en bahçesinde karla örtülü taş fener",
+     "en": "A stone lantern under snow in Kenroku-en garden",
+     "cr": "Foto · Photo: tab2_dawa · CC BY 2.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h27-hirosaki.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Hirosaki Kalesi · Hirosaki Castle",
+     "tr": "Kar festivalinde ışıklarla aydınlanan Hirosaki Kalesi",
+     "en": "Hirosaki Castle lit up for the snow festival",
+     "cr": "Foto · Photo: Feri88 · CC BY 3.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzquote",
+     "d": 40,
+     "tr": "Ayrılık yalnızca gözleriyle sevenler içindir;|gönülle sevenler için ayrılık yoktur",
+     "en": "Goodbyes are only for those who love with their eyes — for those who love with heart and soul there is no separation",
+     "pal": "night"
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h27-gionnight.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Gion, Kyoto",
+     "tr": "Gion’da gece yanan kâğıt fenerler",
+     "en": "Paper lanterns glowing at night in Gion",
+     "cr": "Foto · Photo: Takeshi Kuboki · CC BY 2.0 · Wikimedia Commons",
+     "quiet": 1
+    }
+   ]
+  },
+  {
+   "id": "dj-11-27-23",
+   "name": "Gece · Night — Laponya’da kış · winter in Lapland (sakin · calm)",
+   "from": "2026-11-27T23:00",
+   "until": "2026-11-28T02:00",
+   "items": [
+    {
+     "k": "hzbuz",
+     "d": 150
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h27-tykky.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Pallas-Yllästunturi, Laponya · Lapland",
+     "tr": "Karın ağırlığıyla heykele dönmüş ağaçlar",
+     "en": "Trees turned into sculptures by the weight of snow",
+     "cr": "Foto · Photo: Simo Räsänen (Ximonic) · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h27-frostwindow.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Camda buz kristalleri · Ice crystals on a window",
+     "tr": "Gece soğuğunda camda büyüyen buz çiçekleri",
+     "en": "Frost flowers growing on a window in the night cold",
+     "cr": "Foto · Photo: Jojoo64 · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzaurora",
+     "d": 90
+    },
+    {
+     "k": "hzphoto",
+     "d": 44,
+     "f": "m/h27-reindeer.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Laponya · Lapland",
+     "tr": "Karlı ormanda bir ren geyiği kızağı",
+     "en": "A reindeer sled in the snowy forest",
+     "cr": "Foto · Photo: Jacek Rużyczka · CC BY-SA 4.0 · Wikimedia Commons",
+     "quiet": 1
+    },
+    {
+     "k": "hzphoto",
+     "d": 46,
+     "f": "m/h27-lappcabin.jpg",
+     "lb": "DJ Taş · 3. Perde · Act 3 — Gece · Night · Gerçek Fotoğraf · Real Photo · Laponya’da alacakaranlık · twilight in Lapland",
+     "tr": "İyi geceler · Good night",
+     "en": "Good night",
+     "cr": "Foto · Photo: Vincent Guth · CC0 · kamu malı · public domain · Wikimedia Commons",
+     "quiet": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,3 +1,131 @@
+## 2026-11-27 (rev 86, hourly sets 09:00–02:00, days/2026-11-27.json) · Friday
+
+No pending requests in requests.md (verified ~08:00). Built ~08:00–10:00 by build_2026-11-27.py. New hz templates (hourly.js v86): hzslit (double slit), hzeuler (Königsberg bridges / Euler), hzbuz (calm night: frost on the window), illusions hzrubin (Rubin’s vase), hznecker (Necker cube), hzkoffka (Koffka ring). Reused generators (none used in the previous 7 days): hzpwave (waves hour), hzlorenz (lounge visual), hztimes (villa film night), hztree (Bosphorus sunset), hzaurora (Lapland night). 17:00–02:00 keeps the DJ Taş structure (Act 1 Jazz House Lounge 17–19 → Act 2 Sunset 19–22 → Act 3 Night 22–02), stills only at night, no hzvideo. Quotes: Sevdiğin şeyin güzelliği, yaptığın iş olsun (09, Mevlânâ), Fırçamı Doğu’da bırakıp yola çıkıyorum (13, Hiroshige’s death poem), Gönülden gönüle yol vardır (18, Turkish proverb), Hayat, tutunmak ile bırakmak arasında bir dengedir (21, Mevlânâ), Ayrılık yalnızca gözleriyle sevenler içindir (22, Mevlânâ). Archived h25-* (safe_archive.py), unused h27-kaymakli, and days/2026-11-25.json + credits-2026-11-25.json.
+
+### 09:00–10:00 · Cuma Sabahı · Friday Morning — Trabzon ve Rize · Trabzon & Rize
+- 09 | hzphoto | Sabah ışığında Trabzon limanı ve Karadeniz | m/h27-trabzonport.jpg
+- 09 | hzquote | Sevdiğin şeyin güzelliği, yaptığın iş olsun | —
+- 09 | hzphoto | Trabzon Müzesi’nin bulunduğu taş konak ve bahçesi | m/h27-kostaki.jpg
+- 09 | hzphoto | Rize’nin yamaçlarında sıra sıra çay | m/h27-rizetea.jpg
+- 09 | hzphoto | Fırtına Deresi’nin üzerinde eski bir taş kemer köprü | m/h27-firtina.jpg
+- 09 | hzfact | ≈ 1.700 km — Türkiye’nin Karadeniz kıyısı yaklaşık 1.700 km uzunluğunda: İstanbul’dan Gürcistan sınırındaki Sarp’a kadar. Bu, Londra ile Roma arasındaki uzaklıktan bile fazla | —
+- 09 | hzriddle | Ne kadar çok olursa, o kadar az görürsün. Nedir? | —
+
+### 10:00–11:00 · Yaşayan Sanat: Dalgalar Buluşunca · Living Art: When Waves Meet
+- 10 | hzslit | NEW double slit: one gap then two gaps, waves interfering + screen brightness | —
+- 10 | hzphoto | Bir sabun köpüğünün üstünde akan renkler | m/h27-soapfilm.jpg
+- 10 | hzphoto | Thomas Young’ın portresi | m/h27-tyoung.jpg
+- 10 | hzsteps | Işık tek tek gelse ne olur? | —
+- 10 | hzpwave | generator (reused, different topic) | —
+- 10 | hzfact | < 0,001 mm — Bir sabun köpüğünün zarı çoğu yerde milimetrenin binde birinden ince: bir saç telinden yüz kat kadar ince, aşağı yukarı ışığın dalga boyu kadar | —
+- 10 | hzriddle | Hangi dalga seni hiç ıslatmaz? | —
+
+### 11:00–12:00 · Nefes Kesen Yerler: Basamaklı Topraklar · Breathtaking Places: Terraced Landscapes
+- 11 | hzphoto | Guangxi’de dağın çevresine dolanan pirinç terasları | m/h27-longji.jpg
+- 11 | hzphoto | Ifugao dağlarında yeşil terasların arasında köy | m/h27-banaue.jpg
+- 11 | hzphoto | Vadiye basamak basamak inen sarı-yeşil pirinç tarlaları | m/h27-mucangchai.jpg
+- 11 | hzphoto | Palmiyelerin arasından Jatiluwih’in pirinç tarlaları | m/h27-jatiluwih.jpg
+- 11 | hzphoto | Moray’de dev bir amfi tiyatro gibi iç içe dairesel teraslar | m/h27-moray.jpg
+- 11 | hzphoto | Cenevre Gölü’ne inen Lavaux üzüm bağları | m/h27-lavaux.jpg
+- 11 | hzchoose | Hangisinde bir sabah uyanmak isterdin? | m/h27-longji.jpg / m/h27-lavaux.jpg
+
+### 12:00–13:00 · Çininin Şiiri · Poetry in Tiles
+- 12 | hzphoto | Mavi ve beyaz çiçek desenli bir İznik tabağı | m/h27-izniktile.jpg
+- 12 | hzphoto | Kubbenin içi: merkeze doğru daralan çini halkaları | m/h27-shahmosque.jpg
+- 12 | hzphoto | Gar salonunun duvarlarında mavi-beyaz azulejo panolar | m/h27-azulejo.jpg
+- 12 | hzphoto | Elle kesilmiş küçük renkli parçalardan bir zellij yıldızı | m/h27-zellige.jpg
+- 12 | hzphoto | Tavanı ve duvarları Delft çinileriyle kaplı bir oda | m/h27-delfttile.jpg
+- 12 | hzphoto | Elhamra’dan geometrik bir “alicatado” çini panosu | m/h27-alhambratile.jpg
+- 12 | hzfact | 17 — Bir düzlemi aynı desenin tekrarıyla döşemenin matematiksel olarak tam 17 simetri türü vardır (1891’de kanıtlandı). Ustalar bunların çoğunu yüzyıllar önce, kanıttan habersiz çinilere işlemişti | —
+- 12 | hzriddle | Bir zemini boşluk bırakmadan tek bir düzgün çokgenle döşemek istiyorsun. Kaç seçeneğin var? | —
+
+### 13:00–14:00 · Büyük Ustalardan: Hiroshige’nin Yağmuru, Karı ve Ayı · From the Great Masters: Hiroshige’s Rain, Snow & Moon
+- 13 | hzphoto | Shin-Ōhashi Köprüsü’nde Ani Sağanak | m/h27-hiro1.jpg
+- 13 | hzphoto | Kameido’daki Erik Bahçesi | m/h27-hiro2.jpg
+- 13 | hzphoto | Kanbara’da Gece Karı | m/h27-hiro3.jpg
+- 13 | hzquote | Fırçamı Doğu’da bırakıp yola çıkıyorum; Batı’nın ünlü yerlerini görmeye | —
+- 13 | hzphoto | Ryōgoku’da Havai Fişekler | m/h27-hiro4.jpg
+- 13 | hzphoto | Ueno’daki Ay Çamı | m/h27-hiro5.jpg
+- 13 | hzfact | 118 — “Edo’nun Yüz Ünlü Manzarası” adına rağmen 118 baskıdan oluşur. Hiroshige diziyi bitiremeden 1858’de öldü; son baskıları öğrencisi tamamladı | —
+
+### 14:00–15:00 · Gökyüzünün Harikaları: Jüpiter · Wonders of the Sky: Jupiter
+- 14 | hzphoto | Jüpiter’in renkli bulut kuşakları ve Büyük Kırmızı Leke | m/h27-jupiterhst.jpg
+- 14 | hzphoto | Juno’nun yakından gördüğü dev fırtına | m/h27-redspot.jpg
+- 14 | hzsteps | Dünya bir nohut olsaydı… | —
+- 14 | hzphoto | Güney kutbunun üzerinde birbirine dokunan dev kasırgalar | m/h27-junopole.jpg
+- 14 | hzphoto | Kükürtle sarıya, turuncuya boyanmış Io | m/h27-io.jpg
+- 14 | hzphoto | Çatlaklarla örülmüş buz yüzeyiyle Europa | m/h27-europa.jpg
+- 14 | hzriddle | 1610’da Galileo teleskobunu Jüpiter’e çevirdi. Ne gördü? | —
+
+### 15:00–16:00 · Göz Oyunları: İki Anlamlı Şekiller · Tricks of the Eye: Pictures With Two Meanings
+- 15 | hzrubin | NEW Rubin’s vase illusion (faces / vase) | —
+- 15 | hznecker | NEW Necker cube illusion | —
+- 15 | hzfact | Şekil ve zemin · Figure & ground — Beyin bir görüntüye bakınca önce neyin “şey”, neyin “arka plan” olduğuna karar verir. Bu kararı aynı anda iki türlü veremez; bu yüzden iki anlamlı şekiller gidip gelir | —
+- 15 | hzkoffka | NEW Koffka ring illusion (halves slide apart) | —
+- 15 | hzriddle | Ördek mi, tavşan mı? 1892’de bir Alman dergisinde yayımlanan çizimde hangisini gördüğünü ne belirler? | —
+
+### 16:00–17:00 · Zekice Düşünce: Königsberg’in Yedi Köprüsü · Clever Thinking: The Seven Bridges of Königsberg
+- 16 | hzeuler | NEW Königsberg bridges: random walks get stuck → Euler’s graph (degrees) → 8th bridge, Euler path | —
+- 16 | hzphoto | Pregel Nehri, iki ada ve yedi köprüyle Königsberg şehri | m/h27-konigsberg.jpg
+- 16 | hzphoto | İsviçreli matematikçi Leonhard Euler’in portresi | m/h27-euler.jpg
+- 16 | hzsteps | Bir bulmacadan bugünün haritalarına | —
+- 16 | hzfact | Kaliningrad — Königsberg bugün Rusya’da, adı Kaliningrad. Euler’in yedi köprüsünden yalnızca ikisi onun zamanından kalma; bazıları savaşta yıkıldı | —
+- 16 | hzriddle | Kalemi kâğıttan kaldırmadan ve hiçbir çizgiden iki kez geçmeden açık bir zarf çizebilir misin? | —
+
+### 17:00–18:00 · DJ Taş · Caz House Lounge · Jazz House Lounge — Lizbon’da akşam · an evening in Lisbon
+- 17 | hzwelcome | Üç perdelik bir akşam: Caz House Lounge → Gün Batımı (19:00) → Gece (22:00). Müzik HomePod’da | m/h27-miradouro.jpg
+- 17 | hzphoto | Alfama’nın dar sokağında sarı tramvay | m/h27-lisbontram.jpg
+- 17 | hzlorenz | generator (reused, different topic) | —
+- 17 | hzphoto | Gece Alfama’da sokak lambalarının altında taş basamaklar | m/h27-alfama.jpg
+- 17 | hzfact | Saudade — Portekizcede “saudade”: uzaktaki, belki hiç dönmeyecek bir şeye duyulan tatlı-acı özlem. Lizbon’un fado şarkıları bu duyguyla söylenir; fado 2011’de UNESCO listesine girdi | —
+- 17 | hzphoto | Akşam ışığında Tejo kıyısındaki Belém Kulesi | m/h27-belem.jpg
+
+### 18:00–19:00 · Caz House Lounge · Jazz House Lounge — Villa Fikri: Terasta Film Gecesi · Villa Idea: Film Night on the Terrace
+- 18 | hzphoto | Yazın terasta açık hava sineması: beyaz bir perde, birkaç rahat sandalye ve battaniyeler | m/h27-opencinema.jpg
+- 18 | hzphoto | Filmden önce ateş başında: kıvılcımlar, sıcak içecekler ve sohbet | m/h27-campfire.jpg
+- 18 | hzquote | Gönülden gönüle yol vardır | —
+- 18 | hzphoto | Büyük bir kasede taze patlamış mısır | m/h27-popcorn.jpg
+- 18 | hztimes | generator (reused, different topic) | —
+- 18 | hzfact | 24 kare · frames — Bir sinema filmi saniyede 24 kare gösterir; projektör her kareyi iki ya da üç kez yakıp söndürür ki göz titreme görmesin | —
+
+### 19:00–20:00 · Gün Batımı · Sunset — Boğaziçi · the Bosphorus
+- 19 | hzwelcome | Liste değişti: şimdi “Sadece Sen Sunset” çalıyor | m/h27-maidenstower.jpg
+- 19 | hzphoto | Batan güneşte Boğaz Köprüsü ve iki kıta | m/h27-bosphorusbr.jpg
+- 19 | hzphoto | Boğaz’ın kıyısında Rumeli Hisarı’nın kuleleri | m/h27-rumelihisari.jpg
+- 19 | hztree | generator (reused, different topic) | —
+- 19 | hzphoto | Gün batımında Boğaz’dan geçen bir vapur | m/h27-eminonuferry.jpg
+- 19 | hzfact | İki akıntı · Two currents — Boğaz’da yüzeydeki su Karadeniz’den Marmara’ya akar; derinde ise daha tuzlu, daha ağır su ters yöne, Karadeniz’e doğru akar | —
+
+### 20:00–21:00 · Gün Batımı · Sunset — savanada akşam · evening on the savanna
+- 20 | hzphoto | Güneşin önünde tek başına bir akasya ağacı | m/h27-serengeti.jpg
+- 20 | hzphoto | Akşam ışığında yürüyen bir zürafa | m/h27-giraffes.jpg
+- 20 | hzphoto | Gün batımında Kilimanjaro’nun karlı zirvesi | m/h27-kilimanjaro.jpg
+- 20 | hzphoto | Masai Mara’da kızıl bir gün batımı | m/h27-masaimara.jpg
+- 20 | hzriddle | Hangi hayvan zıplayamaz? | —
+
+### 21:00–22:00 · Gün Batımı · Sunset — Hint Okyanusu kıyıları · Indian Ocean shores
+- 21 | hzphoto | Gün batımında üçgen yelkenli bir dhow | m/h27-zanzibar.jpg
+- 21 | hzphoto | Pembe granit kayalar ve sığ turkuaz su | m/h27-seychelles.jpg
+- 21 | hzquote | Hayat, tutunmak ile bırakmak arasında bir dengedir | —
+- 21 | hzphoto | Maldivler’de denize inen güneş | m/h27-maldives.jpg
+- 21 | hzphoto | Lagünün kıyısında yükselen Le Morne dağı | m/h27-lemorne.jpg
+- 21 | hzriddle | Suda doğar, suda ölür. Nedir? | —
+
+### 22:00–23:00 · Gece · Night — kar altında Japonya · Japan under snow (sakin · calm)
+- 22 | hzwelcome | Şimdi “Sadece Sen Night” çalıyor: daha yumuşak, daha sakin | m/h27-ginzan.jpg
+- 22 | hzphoto quiet | Kenroku-en bahçesinde karla örtülü taş fener | m/h27-kenrokuen.jpg
+- 22 | hzphoto quiet | Kar festivalinde ışıklarla aydınlanan Hirosaki Kalesi | m/h27-hirosaki.jpg
+- 22 | hzquote | Ayrılık yalnızca gözleriyle sevenler içindir; gönülle sevenler için ayrılık yoktur | —
+- 22 | hzphoto quiet | Gion’da gece yanan kâğıt fenerler | m/h27-gionnight.jpg
+
+### 23:00–02:00 · Gece · Night — Laponya’da kış · winter in Lapland (sakin · calm)
+- 23 | hzbuz | NEW calm night: frost flowers growing on a window, blurred village lights, soft snow | —
+- 23 | hzphoto quiet | Karın ağırlığıyla heykele dönmüş ağaçlar | m/h27-tykky.jpg
+- 23 | hzphoto quiet | Gece soğuğunda camda büyüyen buz çiçekleri | m/h27-frostwindow.jpg
+- 23 | hzaurora | generator (reused, different topic) | —
+- 23 | hzphoto quiet | Karlı ormanda bir ren geyiği kızağı | m/h27-reindeer.jpg
+- 23 | hzphoto quiet | İyi geceler · Good night | m/h27-lappcabin.jpg
+
 ## 2026-11-26 (rev 85, hourly sets 09:00–02:00, days/2026-11-26.json) · Thursday
 
 No pending requests in requests.md (verified ~08:00). Built ~08:00–09:30 by build_2026-11-26.py. New hz templates (hourly.js v85): hzbz (Barkley excitable-medium spirals, BZ-like), hzpiwalk (walk on π), hzschelling (Schelling model), hzburc (calm night: constellations), illusions hztusi (Tusi couple) and hzflashlag (flash-lag). Fixed hzfact: fitEl limit (84vh) was below its own 86vh box so every fact was shrunk to tiny text; now 87. Reused generators (none used in the previous 7 days): hzdragon (paper folding, in the paper hour), hzboids, hzmandel, hzvoronoi, hzfern, hzchaos, hzkoch, hzsnow, hzember. 17:00–02:00 keeps the DJ Taş structure (Act 1 Jazz House Lounge 17–19 → Act 2 Sunset 19–22 → Act 3 Night 22–02), stills only at night, no hzvideo. Mevlânâ quotes: Bütün evren seninmiş gibi parla (09), İşleri ruhundan yaptığında… nehir (12), Nerede durursan dur, oranın ruhu ol (18), Batışı gördün; doğuşu da gör (21), Gözlerini kapat, âşık ol ve orada kal (23). Archived h24-*, h80-*, h81-*, h82-* (safe_archive.py) and days/2026-11-24.json + credits-2026-11-24*.json.
